@@ -1,66 +1,66 @@
 {
- "updated": "2026-11-13T20:31:00+09:00",
- "prev_updated": "2026-11-13T18:32:00+09:00",
+ "updated": "2026-11-13T22:50:00+09:00",
+ "prev_updated": "2026-11-13T20:31:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "임예진",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "내일 날씨",
+   "traffic": "200000+",
+   "label": "약 20만 회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "임예진, 기획부동산 피해자였다 \"5천만원 매입 제주땅 주인만 178명\"",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867248",
-     "source": "뉴시스"
+     "title": "토요일 전국 흐리고 비…제주 최대 60㎜ [내일 날씨]",
+     "url": "https://www.hankyung.com/article/202611134717i",
+     "source": "한국경제"
     },
     {
-     "title": "임예진, 5000만원 주고 산 제주 땅 15년 만에 확인…“지분 가치 약 82만원”",
-     "url": "https://www.donga.com/news/Culture/article/all/20261113/135021854/2",
-     "source": "동아일보"
+     "title": "토요일 전국에 ‘가을비’… 일요일 오전부터 맑아져",
+     "url": "https://biz.chosun.com/topics/topics_social/2026/11/13/DFMNWVLQ2FAALI5BHSA2C7SSP4/",
+     "source": "Chosunbiz"
     },
     {
-     "title": "임예진 \"기획부동산에 속은 것\"…노후 대비용 제주 땅 '충격' - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111314255438506",
-     "source": "머니투데이"
+     "title": "[날씨] 예년보다 온화한 늦가을 날씨...충청 이남 가을비",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0108_202611130906220733_005.html",
+     "source": "YTN"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "단타",
+   "keyword": "대한민국 사우디",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"하루 600만원도 벌었다\"…주식 올인한 '단타' 여성, 현재 계좌는",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=03785126645645392&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "“에이~ 매치” 되어버린 A매치···축구대표팀 인기 추락하는 소리",
+     "url": "https://www.khan.co.kr/article/202611112246001",
+     "source": "경향신문"
     },
     {
-     "title": "\"60대 아내가 단타매매 중독\"…보험 해약해 '물타기'까지, 결과는 '처참'",
-     "url": "https://www.fnnews.com/news/202611130740570175",
-     "source": "파이낸셜뉴스"
+     "title": "'무엇이든 해줄지니 비서진' 축구 한국 사우디 축구 중계로 결방",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3751617",
+     "source": "국제뉴스"
     },
     {
-     "title": "남편 보험까지 깨서 주식 '올인'...누적 거래만 100억, 60대 계좌 보니 - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/13/2026111310131332138",
-     "source": "머니투데이"
+     "title": "‘흥행 보증수표’의 몰락…외면 받는 한국 축구 A매치",
+     "url": "https://www.sportsworldi.com/newsView/20261112514439",
+     "source": "스포츠월드"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 3,
-   "keyword": "미스 베트남",
+   "keyword": "박시원",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "스포츠",
@@ -69,26 +69,26 @@
    "delta": 0,
    "news": [
     {
-     "title": "\"준우승자가 더 예쁜데\"…외모 지적받은 미스 베트남 우승자의 대답 - 머니투데이",
-     "url": "https://www.mt.co.kr/world/2026/11/13/2026111305251656792",
+     "title": "[사진]인사하는 이구치 감독",
+     "url": "https://www.chosun.com/sports/sports_photo/2026/11/13/MRRDQNLEGE2DMNZYHA2TOMJWMQ/",
+     "source": "조선일보"
+    },
+    {
+     "title": "[APBC] 日, 한국전 '특급 신인' 다케마루 선발 등판 예고",
+     "url": "https://www.newspim.com/news/view/20261113000801",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "[사진]한 타자도 못잡고 마운드 내려오는 박시원 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/13/202611132135777665O",
      "source": "머니투데이"
-    },
-    {
-     "title": "“준우승자가 더 예쁘다”…‘외모 논란’에 미인대회 우승자의 첫마디",
-     "url": "https://www.mk.co.kr/news/world/12206444",
-     "source": "매일경제"
-    },
-    {
-     "title": "미스 베트남 응우옌옌짱,,,베트남 미인대회 2026 우승",
-     "url": "https://www.goodmorningvietnam.co.kr/news/article.html?no=84464",
-     "source": "굿모닝베트남미디어"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 4,
-   "keyword": "김진욱",
+   "keyword": "한국 야구",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "스포츠",
@@ -97,26 +97,54 @@
    "delta": 0,
    "news": [
     {
-     "title": "[사진]역투하는 한국 선발 투수 김진욱",
-     "url": "https://www.chosun.com/sports/sports_photo/2026/11/13/G44TGMDGMM2TQZRTMI2DENZTMM/",
-     "source": "조선일보"
+     "title": "호주에도 지는 한국야구",
+     "url": "https://www.donga.com/news/Sports/article/all/20261113/135017424/2",
+     "source": "동아일보"
     },
     {
-     "title": "일본전 역투하는 선발 김진욱",
-     "url": "https://www.newsis.com/view/NISI20261113_0002291778",
+     "title": "'와' 이러니 MLB가 주목하지... '홈런+2루타 장타폭발' 김주원, \"포스팅시 많은 팀이 원할 것\" 이유 증명 [APBC] - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/13/2026111219552258076",
+     "source": "머니투데이"
+    },
+    {
+     "title": "강속구 투수 없는 마운드 '와르르'‥복병 호주에 충격패",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865266_37004.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "피클",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[단독]AI 에이전트 ‘피클’ 코레일 접근 안 된다···미국선 항공사도 AI 차단",
+     "url": "https://www.khan.co.kr/article/202611121711011",
+     "source": "경향신문"
+    },
+    {
+     "title": "美 유나이티드항공 AI 예약 차단 예고…국내 항공업계 \"보안 측면 검토 중\"",
+     "url": "https://www.greened.kr/news/articleView.html?idxno=354613",
+     "source": "녹색경제신문"
+    },
+    {
+     "title": "AI 비서가 항공권 대신 예약?…유나이티드항공은 막았다",
+     "url": "https://www.newsis.com/view/NISX20261112_0003865888",
      "source": "뉴시스"
-    },
-    {
-     "title": "[APBC] 日, 한국전 '특급 신인' 다케마루 선발 등판 예고",
-     "url": "https://www.newspim.com/news/view/20261113000801",
-     "source": "뉴스핌"
     }
    ],
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "claude",
+   "rank": 6,
+   "keyword": "cuaca besok",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
@@ -125,28 +153,84 @@
    "delta": 0,
    "news": [
     {
-     "title": "Anthropic Claude down: Why it said it was unable to authenticate code",
-     "url": "https://mashable.com/tech/anthropic-claude-down-unable-to-authenticate-code",
-     "source": "Mashable"
+     "title": "Sulawesi Selatan Berpotensi Hujan Ringan, Simak Prakiraan Cuaca Sabtu (13/11)",
+     "url": "https://momsmoney.kontan.co.id/news/sulawesi-selatan-berpotensi-hujan-ringan-simak-prakiraan-cuaca-sabtu-1311-1",
+     "source": "kontan.co.id"
     },
     {
-     "title": "Claude down: Users report login issues and service disruptions affecting Claude.ai and Claude Code",
-     "url": "https://www.moneycontrol.com/technology/claude-down-users-report-login-issues-and-service-disruptions-affecting-claude-ai-and-claude-code-article-14079689.html",
-     "source": "Moneycontrol.com"
+     "title": "BMKG Peringatkan Angin Kencang dan Udara Panas di Sulsel Hari Ini, Cek Wilayah Terdampak",
+     "url": "https://journalistindependent.com/2026/11/13/bmkg-peringatkan-angin-kencang-dan-udara-panas-di-sulsel-hari-ini-cek-wilayah-terdampak/",
+     "source": "Journalist Independent"
     },
     {
-     "title": "Anthropic blames Microsoft for Claude outage & downtime as user authentication breaks",
-     "url": "https://www.neowin.net/news/anthropic-blames-microsoft-for-claude-outage--downtime-as-user-authentication-breaks/",
-     "source": "Neowin"
+     "title": "Sebagian Besar Wilayah Sulsel Berpotensi Hujan Ringan Hari Ini",
+     "url": "https://sulsel.idntimes.com/news/sulawesi-selatan/sebagian-besar-wilayah-sulsel-berpotensi-hujan-ringan-hari-ini-00-5qckx-1hczxw",
+     "source": "IDN Times Sulsel"
     }
    ],
    "safe": true
   },
   {
-   "rank": 6,
-   "keyword": "원주 db 대 수원 kt",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "rank": 7,
+   "keyword": "ppi",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "PPI data reveals slight dip, indicating moderated inflation pressures",
+     "url": "https://www.investing.com/news/economic-indicators/ppi-data-reveals-slight-dip-indicating-moderated-inflation-pressures-93CH-5025470",
+     "source": "Investing.com"
+    },
+    {
+     "title": "Dollar strength builds as markets brace for US producer price data",
+     "url": "https://www.fxstreet.com/analysis/dollar-strength-builds-as-markets-brace-for-us-producer-price-data-202611130809",
+     "source": "FXStreet"
+    },
+    {
+     "title": "PPI report moments away: Hot wholesale inflation could raise odds of a bigger Fed rate hike — live updates",
+     "url": "https://www.marketwatch.com/livecoverage/ppi-report-today-october-inflation-fed-rates-live-updates",
+     "source": "MarketWatch"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "이세돌",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[4회 선공개] 몸을 풀었을 뿐인데 최애의 표정이 굳었습니다 | KBS 방송",
+     "url": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_LS-20260930224325-01-000_20261113_SC001&program_code=T2026-0530&program_id=LS-20260930224325-01-000&section_code=04&broadcast_complete_yn=N&section_id=28580",
+     "source": "대한민국 대표 공영미디어 KBS"
+    },
+    {
+     "title": "“진짜 좋아해요, 팬이에요”… 이세돌, ‘코리안 좀비’ 정찬성 만나 팬심 고백",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/G5SDOYRVHA4DIMLFMMZTOOLGGI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "‘백수’ 이세돌, 이번엔 ‘일당 40만원’ 타일공 도전…“목장갑 착용부터 난관”",
+     "url": "https://www.sedaily.com/article/20113443",
+     "source": "서울경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "대한민국 중소벤처기업부",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
@@ -155,113 +239,24 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "김대호",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김대호, 14년 다닌 MBC 떠났는데…또 회사원 됐다",
-     "url": "https://sports.donga.com/ent/article/all/20261113/135020519/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "김대호, MBC 퇴사 1년 반 만에 삼성행…TV조선 '직장인대호' 출격",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524726",
-     "source": "iMBC 연예"
-    },
-    {
-     "title": "‘직장인대호’ 기업 탐방 프로젝트 15일 첫방",
-     "url": "https://www.bntnews.co.kr/article/view/bnt202611130211",
-     "source": "BNT뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "apbc 중계",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "한일전 12연속 무승, 삼성 김지찬 우승 기운 전파하겠다!",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8710671",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "[사진]애국가 제창하는 팀 코리아",
-     "url": "https://biz.chosun.com/sports/sports_photo/2026/11/13/GI4TCMTDMM4DINJTGQZTQMJXMU/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "일본 매체 \"APBC 호주전서 흐름 바꾼 김지찬, 한일전서 주목해야\"",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867235",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "뉴욕",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "옆 부지 땅 파던 중 3층 건물 ‘와르르’…뉴욕서 8명 사망",
-     "url": "https://www.chosun.com/economy/int_economy/2026/11/13/GVWEC56YAZBN5BIK6QH7XUEVUM/",
-     "source": "조선일보"
-    },
-    {
-     "title": "뉴욕서 대낮에 3층 건물이 털썩…8명 사망·소방관 3명 포함 17명 부상",
-     "url": "https://news.jtbc.co.kr/article/NB12327931",
-     "source": "JTBC"
-    },
-    {
-     "title": "美 브루클린서 3층 건물 붕괴‥5명 사망·17명 부상",
-     "url": "https://imnews.imbc.com/news/2026/world/article/6865274_36925.html",
-     "source": "MBC 뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
    "rank": 10,
-   "keyword": "정무성",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "유빈",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "정무성 현대차 정몽구재단 이사장 별세…향년 68세",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261113170434RTC",
-     "source": "연합뉴스TV"
+     "title": "오마이걸 유빈, 검정 슈트 차림 근황…비밀 요원 전략가 예고",
+     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16275023",
+     "source": "톱스타뉴스"
     },
     {
-     "title": "정무선 현대차 정몽구 재단 이사장 별세",
-     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000001035",
-     "source": "IT조선"
-    },
-    {
-     "title": "[부고] 정무성 현대차 정몽구 재단 이사장 별세…향년 68세",
-     "url": "https://www.fnnews.com/news/202611131623511480",
-     "source": "파이낸셜뉴스"
+     "title": "선미·유빈·영탁, 도심 속 우정샷…음악으로 이어진 특별한 순간",
+     "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082541",
+     "source": "진일보 | 전남일보"
     }
    ],
    "safe": true
