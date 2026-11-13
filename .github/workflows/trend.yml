@@ -1,0 +1,52 @@
+name: 트렌드 순위·블로그 글 자동 갱신
+
+on:
+  schedule:
+    - cron: '41 */2 * * *'  # 2시간마다 실시간 순위만 갱신
+    - cron: '23 22 * * *'   # 매일 07:23 (한국 시간) 오전 글 + 사진
+    - cron: '23 8 * * *'    # 매일 17:23 (한국 시간) 오후 글 + 사진
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'post = 글·사진 새로 만들기 / rank = 순위만 갱신'
+        type: choice
+        default: post
+        options: [post, rank]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trend
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 한글 글꼴 · 이미지 도구 설치
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          pip install -q pillow
+      - name: 순위 갱신 · 글 만들기
+        env:
+          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '41 */2 * * *' && 'rank' || 'post') }}
+        run: python trend_bot/make_post.py --out .
+      - name: 저장소에 올리기 (대시보드 자동 반영)
+        run: |
+          git config user.name "trend-bot"
+          git config user.email "trend-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && { echo "바뀐 내용 없음"; exit 0; }
+          git commit -q -m "트렌드 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*7))
+          done
+          exit 1

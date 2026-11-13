@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="트렌드 블로그">
+<meta name="theme-color" content="#f5f6fa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1420" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<title>트렌드 블로그 도우미</title>
+<style>
+:root{
+ --bg:#f5f6fa;--card:#ffffff;--ink:#141a26;--mut:#6b7385;--line:#e6e9f0;--soft:#f0f2f7;
+ --acc:#03c75a;--acc-ink:#ffffff;--acc-soft:#e6f9ee;--hot:#ff5b36;--blue:#2f6bff;--blue-soft:#eaf0ff;
+ --up:#e5484d;--down:#2f6bff;--new:#03a54b;--shadow:0 1px 2px rgba(20,26,38,.06),0 4px 14px rgba(20,26,38,.05);
+ --tab:rgba(255,255,255,.88)
+}
+@media (prefers-color-scheme:dark){:root{
+ --bg:#0f1420;--card:#181f2e;--ink:#eef1f7;--mut:#98a1b5;--line:#273044;--soft:#202839;
+ --acc:#1ed36f;--acc-ink:#05200f;--acc-soft:#173326;--hot:#ff7a5c;--blue:#7aa2ff;--blue-soft:#1f2a45;
+ --up:#ff6b6f;--down:#7aa2ff;--new:#3ddc84;--shadow:none;--tab:rgba(24,31,46,.9)}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;font-size:16px;line-height:1.5;-webkit-text-size-adjust:100%}
+body{padding:env(safe-area-inset-top) env(safe-area-inset-right) calc(84px + env(safe-area-inset-bottom)) env(safe-area-inset-left);overscroll-behavior-y:contain}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer;touch-action:manipulation}
+a{color:var(--blue)}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:10;background:var(--bg);padding:12px 0 8px}
+.hrow{display:flex;align-items:center;gap:10px}
+.hrow h1{font-size:24px;font-weight:800;letter-spacing:-.4px;margin:0;flex:1}
+.upd{font-size:13px;color:var(--mut);margin-top:2px}
+.iconbtn{width:40px;height:40px;border-radius:12px;background:var(--card);box-shadow:var(--shadow);display:grid;place-items:center;font-size:19px}
+.iconbtn.spin span{display:inline-block;animation:sp 1s linear infinite}@keyframes sp{to{transform:rotate(360deg)}}
+.card{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:16px;margin:12px 0}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:99px;background:var(--soft);color:var(--mut)}
+.chip.todo{background:#fff1ec;color:var(--hot)}.chip.done{background:var(--acc-soft);color:var(--new)}
+@media (prefers-color-scheme:dark){.chip.todo{background:#3a2320}}
+.ptitle{font-size:19px;font-weight:800;line-height:1.4;margin:10px 0 12px;letter-spacing:-.2px;word-break:keep-all}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.btn{display:flex;align-items:center;justify-content:center;gap:6px;min-height:50px;border-radius:14px;background:var(--soft);font-weight:700;font-size:15px;padding:0 10px;text-decoration:none;color:var(--ink)}
+.btn:active{transform:scale(.97);opacity:.85}
+.btn.pri{background:var(--acc);color:var(--acc-ink)}
+.btn.blue{background:var(--blue-soft);color:var(--blue)}
+.btn.wide{grid-column:1/-1}
+.btn small{font-weight:600;opacity:.7;font-size:12px}
+.photos{display:flex;align-items:flex-start;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:2px 16px 4px;scrollbar-width:none}
+.photos::-webkit-scrollbar{display:none}
+.ph{flex:0 0 72%;scroll-snap-align:start;position:relative}
+.ph img{width:100%;height:auto;border-radius:14px;display:block;background:var(--soft);aspect-ratio:1/1}
+.ph.tall{flex-basis:58%}.ph.tall img{aspect-ratio:4/5}
+.ph .n{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:12px;font-weight:700;padding:2px 8px;border-radius:99px}
+.sec-t{font-size:13px;font-weight:800;color:var(--mut);margin:18px 2px 8px;letter-spacing:.2px}
+.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+.steps li{counter-increment:s;display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14.5px}
+.steps li:last-child{border:0}
+.steps li:before{content:counter(s);flex:none;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:13px;font-weight:800;display:grid;place-items:center;margin-top:1px}
+.preview{font-size:15px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+.preview h3{font-size:17px;margin:20px 0 6px}.preview h4{font-size:16px;margin:16px 0 4px}
+.preview p{margin:0 0 6px;min-height:.6em}.preview ul{margin:2px 0 10px;padding-left:18px}.preview li{margin:3px 0;font-size:14px}
+details.more summary{list-style:none;font-weight:800;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+details.more summary::-webkit-details-marker{display:none}
+details.more summary:after{content:"펼치기";font-size:13px;color:var(--blue);font-weight:700}
+details.more[open] summary:after{content:"접기"}
+.donebtn{width:100%;min-height:56px;border-radius:16px;font-size:16.5px;font-weight:800;background:var(--ink);color:var(--bg);margin-top:4px}
+.donebtn.on{background:var(--acc-soft);color:var(--new)}
+/* 순위 */
+.rk{display:flex;align-items:center;gap:12px;padding:12px 2px;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.rk:last-child{border:0}
+.rk .no{width:26px;font-size:19px;font-weight:900;text-align:center;color:var(--mut);flex:none}
+.rk .no.top{color:var(--hot)}
+.rk .kw{flex:1;min-width:0}
+.rk .kw b{display:block;font-size:16.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rk .kw span{font-size:12.5px;color:var(--mut)}
+.mv{font-size:12.5px;font-weight:800;min-width:44px;text-align:right;flex:none}
+.mv.up{color:var(--up)}.mv.down{color:var(--down)}.mv.new{color:var(--new)}.mv.same{color:var(--mut)}
+.news{padding:2px 2px 12px 38px;border-bottom:1px solid var(--line);font-size:14px}
+.news a{display:block;padding:5px 0;text-decoration:none;color:var(--ink)}
+.news a small{color:var(--mut)}
+.news .q{display:inline-block;margin-top:4px;font-weight:700;color:var(--new);text-decoration:none}
+/* 지난 글 */
+.arc{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);width:100%;text-align:left}
+.arc:last-child{border:0}
+.arc img{width:58px;height:58px;border-radius:12px;object-fit:cover;flex:none;background:var(--soft)}
+.arc .t{flex:1;min-width:0;font-size:14.5px;font-weight:700;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.arc .s{font-size:12px;color:var(--mut);font-weight:600}
+/* 탭바 */
+nav{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--tab);-webkit-backdrop-filter:saturate(180%) blur(18px);backdrop-filter:saturate(180%) blur(18px);border-top:1px solid var(--line);padding:6px 8px calc(6px + env(safe-area-inset-bottom));display:flex;justify-content:center}
+nav .in{display:flex;max-width:520px;width:100%}
+nav button{flex:1;display:flex;flex-direction:column;align-items:center;gap:1px;padding:4px 0;font-size:11.5px;font-weight:700;color:var(--mut)}
+nav button i{font-style:normal;font-size:22px;line-height:1.2;filter:grayscale(1);opacity:.6}
+nav button.on{color:var(--ink)}nav button.on i{filter:none;opacity:1}
+nav .dot{position:absolute;margin:2px 0 0 22px;width:8px;height:8px;border-radius:50%;background:var(--hot)}
+.toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom));transform:translateX(-50%) translateY(20px);background:rgba(20,26,38,.92);color:#fff;padding:11px 18px;border-radius:99px;font-size:14.5px;font-weight:700;opacity:0;transition:.25s;pointer-events:none;z-index:30;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.empty{text-align:center;color:var(--mut);padding:40px 10px;font-size:15px}
+.note{font-size:12.5px;color:var(--mut);margin:8px 2px 0}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <header>
+  <div class="hrow">
+   <div style="flex:1;min-width:0"><h1 id="htitle">오늘의 글</h1><div class="upd" id="upd">불러오는 중…</div></div>
+   <button class="iconbtn" id="refresh" aria-label="새로고침"><span>↻</span></button>
+  </div>
+ </header>
+
+ <!-- 오늘의 글 -->
+ <main id="v-post"></main>
+ <!-- 실시간 순위 -->
+ <main id="v-rank" hidden></main>
+ <!-- 지난 글 -->
+ <main id="v-arc" hidden></main>
+</div>
+
+<nav><div class="in">
+ <button data-v="post" class="on"><i>📝</i>오늘의 글<span class="dot" id="dot" hidden></span></button>
+ <button data-v="rank"><i>📈</i>실시간 순위</button>
+ <button data-v="arc"><i>🗂</i>지난 글</button>
+</div></nav>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ===== 설정 ===== */
+const REPO = 'yunsub2002/yscomnaver', BRANCH = 'main';
+const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/`;
+const NAVER_BLOG = 'https://m.blog.naver.com/';           // 아이폰에 네이버 블로그 앱이 있으면 앱으로 열림
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const S = {posts: [], rank: null, post: null, view: 'post', files: {}, sel: null};
+
+/* ===== 저장 (이 아이폰에만 기록: 어떤 글을 올렸는지) ===== */
+const store = {
+ get(){ try { return JSON.parse(localStorage.getItem('posted') || '{}') } catch(e){ return {} } },
+ set(v){ try { localStorage.setItem('posted', JSON.stringify(v)) } catch(e){} }
+};
+
+/* ===== 데이터 불러오기: GitHub 원본 → 실패하면 같은 사이트 경로 ===== */
+async function load(path){
+ const bust = '?t=' + Math.floor(Date.now() / 60000);
+ for (const base of [RAW, '']) {
+  try { const r = await fetch(base + path + bust, {cache: 'no-store'}); if (r.ok) { const j = await r.json(); S.base = base; return j; } } catch(e){}
+ }
+ throw new Error(path);
+}
+const img = p => (S.base ?? RAW) + p;
+
+async function refresh(){
+ const b = $('#refresh'); b.classList.add('spin');
+ try {
+  const [posts, rank] = await Promise.all([load('data/posts.json').catch(() => []), load('data/rank.json').catch(() => null)]);
+  S.posts = posts; S.rank = rank;
+  const id = S.sel || (posts[0] && posts[0].id);
+  S.post = id ? await load(`data/posts/${id}.json`).catch(() => null) : null;
+  render();
+  if (S.post) prefetch(S.post);
+ } catch(e) {
+  $('#upd').textContent = '불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.';
+ }
+ b.classList.remove('spin');
+}
+
+/* ===== 시간 표시 ===== */
+function when(iso){
+ if (!iso) return '';
+ const d = new Date(iso), now = new Date(), m = Math.round((now - d) / 60000);
+ const hm = d.toLocaleTimeString('ko-KR', {hour: 'numeric', minute: '2-digit'});
+ if (m < 1) return '방금';
+ if (m < 60) return `${m}분 전`;
+ if (d.toDateString() === now.toDateString()) return `오늘 ${hm}`;
+ return `${d.getMonth() + 1}월 ${d.getDate()}일 ${hm}`;
+}
+
+/* ===== 화면 그리기 ===== */
+function render(){
+ const posted = store.get();
+ $('#dot').hidden = !(S.posts[0] && !posted[S.posts[0].id]);
+ const t = {post: '오늘의 글', rank: '실시간 순위', arc: '지난 글'}[S.view];
+ $('#htitle').textContent = t;
+ $('#upd').textContent = S.view === 'rank' && S.rank ? `순위 업데이트 ${when(S.rank.updated)} · 2시간마다 갱신`
+  : S.post ? `글 만든 시각 ${when(S.post.created)} · 매일 오전·오후 새 글` : '아직 만들어진 글이 없어요';
+ ['post', 'rank', 'arc'].forEach(v => $('#v-' + v).hidden = v !== S.view);
+ document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === S.view));
+ if (S.view === 'post') drawPost(posted);
+ if (S.view === 'rank') drawRank();
+ if (S.view === 'arc') drawArc(posted);
+}
+
+function drawPost(posted){
+ const p = S.post, el = $('#v-post');
+ if (!p) { el.innerHTML = `<div class="card empty">첫 글을 만드는 중이에요.<br>GitHub Actions 가 한 번 돌고 나면 여기에 나타나요.</div>`; return; }
+ const done = posted[p.id], latest = S.posts[0] && S.posts[0].id === p.id;
+ const ims = p.images || [];
+ el.innerHTML = `
+ <div class="card">
+  <span class="chip ${done ? 'done' : 'todo'}">${done ? '✓ 올림 완료 · ' + esc(when(done)) : (latest ? '● 올릴 차례' : '아직 안 올린 글')}</span>
+  ${!latest ? '<span class="chip" style="margin-left:4px">지난 글</span>' : ''}
+  <div class="ptitle">${esc(p.title)}</div>
+  <div class="btns">
+   <button class="btn pri wide" data-act="photos">📷 사진 ${ims.length}장 저장</button>
+   <button class="btn" data-act="title">📋 제목 복사</button>
+   <button class="btn" data-act="body">📋 본문 복사</button>
+   <button class="btn" data-act="tags">🏷 태그 복사</button>
+   <a class="btn blue" href="${NAVER_BLOG}" target="_blank" rel="noopener">N 블로그 열기</a>
+  </div>
+ </div>
+ ${ims.length ? `<div class="sec-t">사진 · 길게 누르면 하나씩 저장할 수도 있어요</div>
+ <div class="photos">${ims.map((s, i) => `<div class="ph${/-rank/.test(s) ? ' tall' : ''}"><img src="${esc(img(s))}" alt="사진 ${i + 1}" loading="lazy"><span class="n">${i + 1}</span></div>`).join('')}</div>` : ''}
+ <div class="card">
+  <details class="more"${done ? '' : ' open'}><summary>네이버 블로그에 올리는 순서</summary>
+  <ol class="steps" style="margin-top:8px">
+   <li><span><b>사진 저장</b>을 누르고 공유 화면에서 ‘이미지 저장’을 고르세요.</span></li>
+   <li><span><b>블로그 열기</b> → 네이버 블로그 앱에서 글쓰기(✏️)를 누르세요.</span></li>
+   <li><span><b>제목 복사</b> 후 제목 칸에 붙여넣기.</span></li>
+   <li><span><b>본문 복사</b> 후 본문 칸에 붙여넣기.</span></li>
+   <li><span>사진 버튼으로 방금 저장한 사진 ${ims.length}장을 넣으세요.</span></li>
+   <li><span>발행 화면의 태그 칸에 <b>태그 복사</b>한 내용을 붙여넣고 발행!</span></li>
+   <li><span>다 올렸으면 아래 <b>올렸어요</b>를 눌러 체크해 두세요.</span></li>
+  </ol></details>
+ </div>
+ <div class="card">
+  <details class="more"><summary>본문 미리보기</summary><div class="preview" style="margin-top:10px">${p.html}</div></details>
+ </div>
+ <button class="donebtn ${done ? 'on' : ''}" data-act="done">${done ? '✓ 네이버에 올렸어요 (취소하려면 누르기)' : '✅ 네이버에 올렸어요'}</button>
+ <p class="note">순위 출처: Google 트렌드(대한민국). 기사 제목·링크는 각 언론사 원문입니다. 본문은 붙여넣은 뒤 내 말투로 한두 줄 다듬어 주면 더 좋아요.</p>`;
+}
+
+function drawRank(){
+ const r = S.rank, el = $('#v-rank');
+ if (!r || !r.items || !r.items.length) { el.innerHTML = `<div class="card empty">순위 데이터를 기다리는 중이에요.</div>`; return; }
+ const mv = x => x.move === 'new' ? '<span class="mv new">NEW</span>' : x.move === 'up' ? `<span class="mv up">▲ ${x.delta}</span>`
+  : x.move === 'down' ? `<span class="mv down">▼ ${-x.delta}</span>` : '<span class="mv same">–</span>';
+ el.innerHTML = `<div class="card" style="padding:4px 14px">${r.items.map((x, i) => `
+  <button class="rk" data-rk="${i}"><span class="no ${x.rank <= 3 ? 'top' : ''}">${x.rank}</span>
+   <span class="kw"><b>${esc(x.keyword)}</b><span>${esc(x.emo)} ${esc(x.cat)} · 검색 ${esc(x.label)}</span></span>${mv(x)}</button>
+  <div class="news" id="nw${i}" hidden>${(x.news || []).map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} <small>${esc(n.source)}</small></a>`).join('')}
+   <a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
+ </div><p class="note">키워드를 누르면 관련 기사가 열려요. ▲▼ 는 2시간 전 순위와 비교한 변화예요.</p>`;
+}
+
+function drawArc(posted){
+ const el = $('#v-arc');
+ if (!S.posts.length) { el.innerHTML = `<div class="card empty">아직 만들어진 글이 없어요.</div>`; return; }
+ el.innerHTML = `<div class="card" style="padding:6px 14px">${S.posts.map(x => `
+  <button class="arc" data-id="${esc(x.id)}"><img src="${esc(x.thumb ? img(x.thumb) : '')}" alt="" loading="lazy">
+   <span style="flex:1;min-width:0"><span class="t">${esc(x.title)}</span><span class="s">${posted[x.id] ? '✓ 올림' : '안 올림'} · ${esc(when(x.created))}</span></span></button>`).join('')}</div>`;
+}
+
+/* ===== 복사 (아이폰 사파리 대응) ===== */
+async function copy(text, what){
+ let ok = false;
+ try { await navigator.clipboard.writeText(text); ok = true; } catch(e) {
+  const ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', '');
+  ta.style.cssText = 'position:fixed;top:0;left:0;opacity:0;font-size:16px'; document.body.appendChild(ta);
+  const r = document.createRange(); r.selectNodeContents(ta); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+  ta.setSelectionRange(0, text.length); ok = document.execCommand('copy'); ta.remove();
+ }
+ toast(ok ? `${what} 복사했어요` : '복사하지 못했어요. 미리보기에서 길게 눌러 복사해 주세요.');
+}
+
+/* ===== 사진 저장: 공유 시트(이미지 저장) → 안 되면 새 탭으로 열기 ===== */
+async function prefetch(p){
+ const key = p.id;
+ if (S.files[key]) return;
+ try {
+  S.files[key] = await Promise.all((p.images || []).map(async (s, i) => {
+   const b = await (await fetch(img(s))).blob();
+   return new File([b], `${p.id}-${i + 1}.png`, {type: 'image/png'});
+  }));
+ } catch(e) { S.files[key] = null; }
+}
+async function savePhotos(){
+ const p = S.post, files = S.files[p.id];
+ if (files && navigator.canShare && navigator.canShare({files})) {
+  try { await navigator.share({files}); return; } catch(e) { if (e.name === 'AbortError') return; }
+ }
+ if (!files) prefetch(p);
+ (p.images || []).forEach(s => window.open(img(s), '_blank'));
+ toast('사진을 길게 눌러 ‘사진 앱에 저장’을 고르세요');
+}
+
+let tt;
+function toast(m){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('show'), 1900); }
+
+/* ===== 버튼 처리 ===== */
+document.addEventListener('click', async e => {
+ const nb = e.target.closest('nav button');
+ if (nb) { S.view = nb.dataset.v; if (S.view === 'post' && S.sel && S.posts[0] && S.sel !== S.posts[0].id && nb.classList.contains('on')) { S.sel = null; return refresh(); } render(); scrollTo(0, 0); return; }
+ const a = e.target.closest('[data-act]');
+ if (a) {
+  const p = S.post, act = a.dataset.act;
+  if (act === 'title') copy(p.title, '제목을');
+  if (act === 'body') copy(p.text, '본문을');
+  if (act === 'tags') copy(p.tags.map(t => '#' + t).join(' '), '태그를');
+  if (act === 'photos') savePhotos();
+  if (act === 'done') { const s = store.get(); if (s[p.id]) delete s[p.id]; else s[p.id] = new Date().toISOString(); store.set(s); render(); toast(s[p.id] ? '체크했어요 👍' : '체크를 풀었어요'); }
+  return;
+ }
+ const rk = e.target.closest('[data-rk]');
+ if (rk) { const n = $('#nw' + rk.dataset.rk); n.hidden = !n.hidden; return; }
+ const ar = e.target.closest('[data-id]');
+ if (ar) { S.sel = ar.dataset.id; S.view = 'post'; S.post = await load(`data/posts/${S.sel}.json`).catch(() => S.post); render(); prefetch(S.post); scrollTo(0, 0); }
+});
+$('#refresh').addEventListener('click', () => { S.sel = null; refresh(); });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
+setInterval(() => { if (document.visibilityState === 'visible') refresh(); }, 10 * 60 * 1000);
+refresh();
+</script>
+</body>
+</html>
