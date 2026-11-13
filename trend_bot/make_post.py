@@ -78,9 +78,23 @@ def parse(xml_bytes):
         k = x["keyword"].replace(" ", "").lower()
         if k in seen or len(k) < 2:  # 한 글자 검색어는 뜻이 모호해서 제외
             continue
+        if not is_korean(x):          # 외국어 검색어 제외
+            continue
         seen.add(k)
         out.append(x)
     return out[:TOP_N]
+
+# 한국어 검색어만 남기기 — 구글 트렌드 한국 피드에 베트남어·태국어·러시아어·중국어 검색어가
+# 섞여 들어오는 날이 있어서, 한글이 있거나(영문이면) 한국어 기사가 붙은 검색어만 씁니다.
+HANGUL = re.compile("[\uac00-\ud7a3]")
+LATIN_ONLY = re.compile(r"^[A-Za-z0-9 .,&+'\-]+$")
+def is_korean(x):
+    k = x["keyword"]
+    if HANGUL.search(k):
+        return True
+    if LATIN_ONLY.match(k):
+        return any(HANGUL.search(n.get("title", "")) for n in x.get("news", []))
+    return False
 
 # ---------------------------------------------------------------- 분류 (간단한 단어 사전)
 CATS = [

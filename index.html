@@ -119,9 +119,22 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
 .filters select,.filters input{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:9px 11px}
 .filters input{flex:1;min-width:140px}
 .seg{display:flex;background:var(--soft);border-radius:12px;padding:3px;gap:3px;margin:6px 0}.seg button{flex:1;padding:8px 0;border-radius:10px;font-size:13.5px;font-weight:800;color:var(--mut)}.seg button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
-.aibtn{flex:none;align-self:center;margin-right:8px;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,#ff4d2e,#ffb020);color:#fff;font-weight:800;font-size:13.5px;text-decoration:none;white-space:nowrap}
-.news .ai{display:inline-block;margin:6px 10px 0 0;padding:6px 11px;border-radius:999px;background:linear-gradient(90deg,#ff4d2e,#ffb020);color:#fff;font-weight:800;text-decoration:none}
 .ok-chip{font-size:12px;font-weight:800;color:var(--new)}
+/* 바로 글쓰기 */
+.rkw{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--line)}
+.rkw .rk{border:0;flex:1;min-width:0}
+.gq{flex:none;font-size:13px;font-weight:800;padding:8px 11px;border-radius:12px;background:linear-gradient(90deg,#ff5b36,#ffaa2b);color:#fff;white-space:nowrap}
+.gtip{font-size:13.5px;background:var(--card);box-shadow:var(--shadow);border-radius:14px;padding:10px 14px;margin-top:6px;color:var(--mut)}.gtip b{color:var(--hot)}
+#gen{position:fixed;inset:0;z-index:50;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;padding:env(safe-area-inset-top) env(safe-area-inset-right) calc(30px + env(safe-area-inset-bottom)) env(safe-area-inset-left)}
+#gen .gh{position:sticky;top:0;z-index:2;background:var(--bg);display:flex;align-items:center;gap:10px;padding:12px 0 8px}
+#gen .gh b{flex:1;min-width:0;font-size:18px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gseg{display:flex;background:var(--soft);border-radius:12px;padding:3px;gap:3px;margin:8px 0}
+.gseg button{flex:1;padding:9px 0;border-radius:10px;font-size:14px;font-weight:800;color:var(--mut)}
+.gseg button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
+.gtxt{white-space:pre-wrap;font-size:15px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+.gimgs{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:2px 16px 6px;scrollbar-width:none}.gimgs::-webkit-scrollbar{display:none}
+.gimgs img{flex:0 0 62%;width:62%;border-radius:14px;display:block;background:var(--soft)}
+.gwarn{font-size:13px;font-weight:700;color:var(--hot);margin:8px 2px 0}
 </style>
 </head>
 <body>
@@ -129,7 +142,6 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
  <header>
   <div class="hrow">
    <div style="flex:1;min-width:0"><h1 id="htitle">블로그</h1><div class="upd" id="upd">불러오는 중…</div></div>
-   <a class="aibtn" href="https://claude.ai/artifact/89NTv8EgNK9gNHkgXd1qZw" target="_blank" rel="noopener">✍️ AI 글쓰기</a>
    <button class="iconbtn" id="refresh" aria-label="새로고침"><span>↻</span></button>
   </div>
  </header>
@@ -149,6 +161,15 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
  <button data-v="rank"><i>📈</i>순위</button>
  <button data-v="arc"><i>🗂</i>보관함</button>
 </div></nav>
+<div id="gen" hidden><div class="wrap">
+ <div class="gh"><button class="iconbtn" data-g="close" aria-label="닫기"><span>✕</span></button><b id="gk"></b><button class="iconbtn" data-g="again" aria-label="다른 버전"><span>🔄</span></button></div>
+ <div class="gseg" id="gspice"><button data-g="mild">😌 정보형</button><button data-g="hot">🔥 자극형</button></div>
+ <div class="gimgs" id="gimgs"></div>
+ <div class="btns" style="margin-top:8px"><button class="btn pri wide" data-g="photos">📥 카드 이미지 3장 저장</button></div>
+ <div class="gseg" id="gtab" style="margin-top:14px"><button data-g="t-blog">📝 블로그</button><button data-g="t-threads">🧵 스레드</button><button data-g="t-insta">📸 인스타</button></div>
+ <div id="gout"></div>
+ <p class="note">🔄 를 누를 때마다 제목·문장·이미지 색이 다른 버전으로 새로 만들어져요. 기사 내용은 올리기 전에 원문으로 한 번 확인하세요.</p>
+</div></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -315,20 +336,23 @@ function drawSocial(kind, posted){
  }).join('') + `<p class="note">${kind === 'insta' ? '인스타: 사진 저장 → 인스타 앱 새 게시물에서 순서대로 선택 → 캡션 붙여넣기. 해시태그는 첫 댓글에 따로 달아도 좋아요.' : '스레드: 1번을 먼저 올리고, 나머지는 각 글의 ‘복사’로 이어서 답글(스레드에 추가)로 붙여넣으세요. 사진은 1번 글에 넣는 걸 추천해요.'} 기사 관련 내용은 원문으로 사실을 꼭 확인하세요.</p>`;
 }
 
-const GEN_URL = 'https://claude.ai/artifact/89NTv8EgNK9gNHkgXd1qZw';
-function genLink(k){ return GEN_URL + '#k-' + Array.from(new TextEncoder().encode(String(k||''))).map(b => b.toString(16).padStart(2,'0')).join(''); }
 function drawRank(){
  const r = S.rank, el = $('#v-rank');
- if (!r || !r.items || !r.items.length) { el.innerHTML = `<div class="card empty">순위 데이터를 기다리는 중이에요.</div>`; return; }
+ const items = r && r.items ? r.items.map((x, i) => ({...x, _i: i})).filter(isKo) : [];
+ if (!items.length) { el.innerHTML = `<div class="card empty">순위 데이터를 기다리는 중이에요.</div>`; return; }
  const mv = x => x.move === 'new' ? '<span class="mv new">NEW</span>' : x.move === 'up' ? `<span class="mv up">▲ ${x.delta}</span>`
   : x.move === 'down' ? `<span class="mv down">▼ ${-x.delta}</span>` : '<span class="mv same">–</span>';
- el.innerHTML = `<div class="card" style="padding:4px 14px">${r.items.map((x, i) => `
-  <button class="rk" data-rk="${i}"><span class="no ${x.rank <= 3 ? 'top' : ''}">${x.rank}</span>
-   <span class="kw"><b>${esc(x.keyword)}${x.safe === false ? '<span class="tag-x">블로그 제외</span>' : ''}</b><span>${esc(x.emo)} ${esc(x.cat)} · 검색 ${esc(x.label)}</span></span>${mv(x)}</button>
-  <div class="news" id="nw${i}" hidden>${(x.news || []).map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} <small>${esc(n.source)}</small></a>`).join('')}
-   <a class="ai" href="${genLink(x.keyword)}" target="_blank" rel="noopener">✍️ 이 키워드로 AI 글쓰기</a><a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
- </div><p class="note">키워드를 누르면 관련 기사가 열려요. ▲▼ 는 직전 갱신과 비교한 변화예요. ‘블로그 제외’는 사건·사고·재판·정치 관련이라 글에서 뺀 키워드예요. 시간별 순위 기록은 모두 저장소에 쌓여요.</p>`;
+ el.innerHTML = `<div class="gtip">✍️ 검색어 옆 <b>글쓰기</b>를 누르면 블로그·스레드·인스타 글과 카드 이미지가 바로 만들어져요.</div>
+ <div class="card" style="padding:4px 14px">${items.map((x, j) => `
+  <div class="rkw"><button class="rk" data-rk="${x._i}"><span class="no ${j < 3 ? 'top' : ''}">${j + 1}</span>
+   <span class="kw"><b>${esc(x.keyword)}${x.safe === false ? '<span class="tag-x">민감</span>' : ''}</b><span>${esc(x.emo)} ${esc(x.cat)} · 검색 ${esc(x.label)}</span></span>${mv(x)}</button>
+   <button class="gq" data-gen="${x._i}">✍️ 글쓰기</button></div>
+  <div class="news" id="nw${x._i}" hidden>${(x.news || []).map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} <small>${esc(n.source)}</small></a>`).join('')}
+   <a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
+ </div><p class="note">검색어를 누르면 관련 기사가 열려요. ▲▼ 는 직전 갱신과 비교한 변화예요. ‘민감’은 사건·사고·재판·정치 관련이라 자동 글에서는 빼는 키워드예요(직접 쓸 때는 사실 확인 필수).</p>`;
 }
+const HANGUL = /[\uac00-\ud7a3]/, LATIN = /^[A-Za-z0-9 .,&+'\-]+$/;
+function isKo(x){ const k = x.keyword || ''; if (HANGUL.test(k)) return true; return LATIN.test(k) && (x.news || []).some(n => HANGUL.test(n.title || '')); }
 
 function drawArc(posted){
  const el = $('#v-arc'), A = S.arc, all = A.list || [];
@@ -420,6 +444,158 @@ $('#refresh').addEventListener('click', () => { S.sel = {post: null, hot: null};
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
 setInterval(() => { if (document.visibilityState === 'visible') refresh(); }, 10 * 60 * 1000);
 refresh().then(() => prefetchCur('post'));
+/* ===== 바로 글쓰기 (검색어 → 블로그·스레드·인스타 + 카드 이미지, 서버·AI 없이 폰에서 바로) ===== */
+const G = {x: null, spice: 'hot', tab: 'blog', d: null, files: null, urls: []};
+const pick = a => a[Math.floor(Math.random() * a.length)];
+const shuf = a => a.map(v => [Math.random(), v]).sort((p, q) => p[0] - q[0]).map(v => v[1]);
+const josa = (w, a, b) => { const c = (w || '').charCodeAt(w.length - 1); return (c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28) ? a : b; };
+const CP = {
+ '스포츠': ['경기 결과·기록은 구단·협회 공식 발표로 확인하기', '이적·부상 소식은 공식 발표 전까지 ‘설’로 보기', '다음 경기 일정과 중계 채널 미리 체크', '하이라이트 영상은 공식 채널에서 보기'],
+ '연예·방송': ['소속사 공식 입장이 나왔는지 먼저 확인', '방송·공개 일정(채널·OTT) 체크', '루머성 글은 공유 전에 한 번 더 확인', '공식 SNS 공지 확인하기'],
+ '경제·재테크': ['금리·가격 같은 숫자는 기사 원문·공시로 확인', '내 대출·예금·투자에 영향이 있는지 체크', '하루 이틀 급등락에 휩쓸린 결정은 금물', '관련 정책·일정 발표 날짜 메모'],
+ 'IT·테크': ['출시일·가격은 공식 홈페이지에서 확인', '내 기기가 지원 대상인지 체크', '사전예약 혜택·카드 할인 비교', '업데이트 전 백업은 필수'],
+ '날씨·생활': ['기상청 최신 예보로 다시 확인', '출퇴근길 교통·옷차림 미리 준비', '아이·어르신 건강 관리 신경 쓰기', '우산·보조배터리 챙기기'],
+ '사회·정치': ['여러 언론사 기사를 비교해서 읽기', '공식 발표·자료 원문 확인', '확인 안 된 내용은 공유하지 않기', '감정적인 댓글보다 사실 위주로'],
+ '': ['관련 기사 원문 2~3개 비교해 보기', '공식 발표가 있는지 확인', '내 생활과 관련 있는 부분만 체크', '새 소식이 나오면 업데이트 확인']
+};
+const OP = {
+ '스포츠': '결과도 결과지만, 이 흐름이 다음 경기까지 이어질지가 진짜 관전 포인트 같아요.',
+ '연예·방송': '화제가 된 만큼 앞으로 나올 공식 소식에 더 관심이 쏠릴 것 같아요.',
+ '경제·재테크': '이런 이슈가 뜰수록 남들 따라 움직이기보다, 내 상황에 맞는지부터 따져 보는 게 제일 중요하더라고요.',
+ 'IT·테크': '스펙이나 가격도 중요하지만, 내가 실제로 쓸 기능인지가 결국 핵심인 것 같아요.',
+ '날씨·생활': '미리 알고 준비하면 하루가 훨씬 편해지는 소식이라 꼭 체크해 두세요.',
+ '사회·정치': '아직 정리되지 않은 부분이 많아서, 공식 발표를 지켜보는 게 좋겠어요.',
+ '': '아직 이야기가 계속 나오고 있어서, 앞으로 어떻게 흘러갈지 지켜볼 만해요.'
+};
+function tagsFor(x){
+ const k = x.keyword.replace(/\s+/g, ''), c = (x.cat || '').split('·');
+ return [...new Set([k, k + '정보', k + '정리', ...c, '실시간검색어', '오늘의이슈', '이슈정리', '화제', '트렌드', '요즘뜨는', '핫이슈'].filter(Boolean))].slice(0, 15);
+}
+function makeContent(x, spice){
+ const k = x.keyword, cat = CP[x.cat] ? x.cat : '', hot = spice === 'hot' && x.safe !== false;
+ const rank = x.rank, lab = x.label || '많음', news = (x.news || []).filter(n => n.title).map(n => ({...n, title: n.source ? n.title.replace(new RegExp('\\s*[-|]\\s*' + n.source.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*$'), '') : n.title}));
+ const mvTxt = x.move === 'new' ? '순위에 새로 등장했어요' : x.move === 'up' ? `직전보다 ${x.delta}계단 올라갔어요` : '계속 상위권을 지키고 있어요';
+ const eul = josa(k, '을', '를'), ga = josa(k, '이', '가');
+ const titles = hot ? [
+  `지금 ${k} 검색 폭발한 이유, 3분 정리`, `${k} 왜 난리? 실시간 ${rank}위 오른 진짜 이유`, `‘${k}’ 다들 검색하는 이유… 이것 때문이었네요`,
+  `${k} 모르면 대화 못 낌, 지금 상황 총정리`, `와… ${k} 이거 실화? 지금 뜨는 이유 정리`, `${k} 지금 확인 안 하면 손해일 수도 있는 이유`
+ ] : [
+  `${k} 총정리 | 지금 알아야 할 핵심 3가지`, `실시간 ${rank}위 ${k}, 무슨 일인지 한 번에 정리`, `${k} 관련 소식 정리 (기사 비교·체크포인트)`,
+  `오늘의 이슈 ‘${k}’ 핵심만 깔끔하게`, `${k}, 왜 화제인지 차분하게 정리해 봤어요`
+ ];
+ const hook = hot ? pick([
+  `잠깐, ‘${k}’ 아직 모르면 오늘 대화에서 소외될 수도 있어요 😳`, `지금 검색창이 ‘${k}’로 도배됐어요. 왜 이렇게 난리인지 바로 알려드릴게요.`,
+  `솔직히 저도 처음엔 그냥 지나쳤는데… ‘${k}’ 내용 보고 바로 저장했어요.`, `다들 ‘${k}’ 검색하길래 저도 찾아봤는데, 생각보다 이야기가 크더라고요.`
+ ]) : pick([
+  `요즘 ‘${k}’ 검색하시는 분들이 정말 많더라고요. 무슨 일인지 핵심만 깔끔하게 정리해 봤어요.`, `오늘 실시간 검색어에 ‘${k}’${ga} 올라왔길래 관련 내용을 찾아봤어요.`,
+  `‘${k}’ 궁금하셨죠? 기사 몇 개를 비교해서 한 번에 보기 좋게 정리했습니다.`
+ ]);
+ const cps = shuf(CP[cat]).slice(0, 3), H = hot ? ['🔥', '📈', '✅', '💬'] : ['■', '■', '■', '■'];
+ const ttl = shuf(titles);
+ const nl = news.length ? news.map(n => `· ${n.title}${n.source ? ' (' + n.source + ')' : ''}`).join('\n') : `· 아직 정리된 기사가 많지 않아요. 네이버에서 ‘${k}’${eul} 검색해 최신 소식을 확인해 보세요.`;
+ const body = [hook, '', '[📷 사진 1]', '',
+  `${H[0]} 지금 무슨 일?`, `‘${k}’ 관련해서 지금 나온 기사들을 모아 보면 이렇습니다.`, nl, '', '자세한 내용은 기사 원문에서 확인해 보세요.', '',
+  `${H[1]} 얼마나 관심이 많나`, `구글 트렌드 기준 검색량 ${lab}, 실시간 순위 ${rank}위로 ${mvTxt}.`, hot ? '그만큼 지금 많은 사람이 이 이야기를 하고 있다는 뜻이에요.' : '관심이 꽤 큰 편이라 관련 소식이 계속 나올 것 같아요.', '',
+  '[📷 사진 2]', '',
+  `${H[2]} 체크 포인트`, ...cps.map((c, i) => `${i + 1}. ${c}`), '',
+  `${H[3]} 제 생각`, OP[cat], '', '[📷 사진 3]', '',
+  '한 줄 정리', `👉 ‘${k}’, ${hot ? '지금 제일 뜨거운 이슈인 만큼 핵심만 알고 가도 충분해요!' : '핵심만 체크해 두면 충분해요.'}`, '',
+  `여러분은 ‘${k}’ 어떻게 보세요? 댓글로 의견 남겨 주세요 😊`,
+  cat === '경제·재테크' ? '\n※ 이 글은 정보 제공용이며, 투자 판단과 책임은 본인에게 있습니다.' : ''
+ ].join('\n').trim();
+ const tags = tagsFor(x);
+ const short = news.slice(0, 3).map(n => '• ' + n.title.slice(0, 48));
+ const threads = [
+  hot ? pick([`‘${k}’ 지금 왜 난리인지 30초 정리 🧵`, `다들 ‘${k}’ 검색하는 이유 알려드림 🧵`, `‘${k}’ 모르면 손해… 핵심만 정리 🧵`]) : `오늘 실시간 검색어 ‘${k}’, 핵심만 정리해 봤어요 🧵`,
+  `📌 무슨 일?\n${short.length ? short.join('\n') : '관련 기사가 아직 많지 않아요. 계속 업데이트 중!'}`,
+  `📈 얼마나 뜨겁냐면\n실시간 ${rank}위 · 검색량 ${lab}\n${mvTxt}.`,
+  `✅ 체크할 것\n${cps.map(c => '- ' + c).join('\n')}`,
+  `여러분은 ‘${k}’ 어떻게 보세요?\n댓글로 의견 남겨 주세요 👇`
+ ];
+ const caption = [threads[0].replace(' 🧵', ''), '', '📌 핵심 정리', ...(short.length ? short : ['• 관련 소식이 계속 나오는 중이에요']), '', '✅ 체크 포인트', ...cps.map(c => '• ' + c), '',
+  '도움 됐다면 저장해 두고, 궁금한 친구에게 공유해 주세요 🙌'].join('\n');
+ const hashtags = tags.slice(0, 15);
+ return {title: ttl[0], titles: ttl.slice(0, 3), body, tags, threads, caption, hashtags, cps, short, hot};
+}
+const GPAL = [['#111827', '#ff5b36', '#ffd166'], ['#0b1d3a', '#2f6bff', '#cfe0ff'], ['#14302a', '#03c75a', '#e6f9ee'], ['#2d0f2b', '#ff4fa3', '#ffe0f0'], ['#1f1530', '#a855f7', '#efe2ff'], ['#2b2118', '#ffaa2b', '#fff1d6']];
+const GF = '-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif';
+function gwrap(c, t, w){ const out = []; String(t || '').split('\n').forEach(p => { let l = ''; for (const ch of [...p]) { const n = l + ch; if (c.measureText(n).width > w && l) { const sp = l.lastIndexOf(' '); if (sp > l.length * .5) { out.push(l.slice(0, sp)); l = l.slice(sp + 1) + ch; } else { out.push(l); l = ch; } } else l = n; } out.push(l); }); return out; }
+async function drawCards(x, d){
+ const [dk, ac, lt] = pick(GPAL), W = 1080, H = 1350, k = x.keyword, out = [];
+ const mk = () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; };
+ const foot = (g, n, col) => { g.font = `700 30px ${GF}`; g.fillStyle = col; g.textAlign = 'left'; g.fillText('#' + k.replace(/\s+/g, ''), 80, H - 70); g.textAlign = 'right'; g.fillText(n + ' / 3', W - 80, H - 70); g.textAlign = 'left'; };
+ // 1 표지
+ let c = mk(), g = c.getContext('2d'), gr = g.createLinearGradient(0, 0, W, H); gr.addColorStop(0, dk); gr.addColorStop(1, '#000'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+ g.globalAlpha = .2; g.fillStyle = ac; g.beginPath(); g.arc(W - 140, 240, 320, 0, 7); g.fill(); g.globalAlpha = 1;
+ g.fillStyle = ac; g.beginPath(); g.roundRect ? g.roundRect(80, 140, 330, 76, 38) : g.rect(80, 140, 330, 76); g.fill();
+ g.fillStyle = '#fff'; g.font = `800 38px ${GF}`; g.fillText(`🔥 실시간 ${x.rank}위`, 112, 192);
+ g.font = `900 ${k.length > 8 ? 112 : 140}px ${GF}`; const kl = gwrap(g, k, W - 160).slice(0, 3); kl.forEach((l, i) => g.fillText(l, 80, 420 + i * (k.length > 8 ? 130 : 160)));
+ let y = 420 + kl.length * (k.length > 8 ? 130 : 160) + 20;
+ g.font = `800 58px ${GF}`; g.fillStyle = lt; gwrap(g, d.hot ? '지금 난리 난 이유, 한 번에 정리' : '무슨 일인지 핵심만 정리', W - 160).forEach((l, i) => g.fillText(l, 80, y + i * 76));
+ if (d.short[0]) { y += 170; g.fillStyle = 'rgba(255,255,255,.12)'; g.beginPath(); g.roundRect ? g.roundRect(80, y, W - 160, 230, 28) : g.rect(80, y, W - 160, 230); g.fill();
+  g.font = `700 42px ${GF}`; g.fillStyle = '#fff'; gwrap(g, '📌 ' + d.short[0].replace(/^• /, ''), W - 240).slice(0, 3).forEach((l, i) => g.fillText(l, 120, y + 75 + i * 58)); }
+ g.font = `700 34px ${GF}`; g.fillStyle = 'rgba(255,255,255,.75)'; g.fillText(`검색량 ${x.label || ''}`, 80, H - 170);
+ foot(g, 1, 'rgba(255,255,255,.6)'); out.push(c);
+ // 2 무슨 일?
+ c = mk(); g = c.getContext('2d'); g.fillStyle = lt; g.fillRect(0, 0, W, H); g.fillStyle = dk; g.fillRect(0, 0, W, 250);
+ g.font = `900 80px ${GF}`; g.fillStyle = '#fff'; g.fillText('📌 지금 무슨 일?', 80, 160);
+ y = 360; const items = d.short.length ? d.short.map(s => s.replace(/^• /, '')) : ['관련 기사가 아직 많지 않아요', '네이버에서 최신 소식을 확인해 보세요'];
+ items.slice(0, 3).forEach((t, i) => { g.fillStyle = ac; g.fillRect(80, y - 8, 12, 60); g.fillStyle = dk; g.font = `800 50px ${GF}`; const L = gwrap(g, t, W - 220).slice(0, 3); L.forEach((l, j) => g.fillText(l, 120, y + 40 + j * 68)); y += L.length * 68 + 90; });
+ foot(g, 2, dk); out.push(c);
+ // 3 체크리스트
+ c = mk(); g = c.getContext('2d'); gr = g.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, ac); gr.addColorStop(1, dk); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+ g.font = `900 86px ${GF}`; g.fillStyle = '#fff'; g.fillText('✅ 체크 포인트', 80, 210);
+ y = 320; d.cps.forEach(t => { const bh = 190; g.fillStyle = 'rgba(255,255,255,.95)'; g.beginPath(); g.roundRect ? g.roundRect(80, y, W - 160, bh, 28) : g.rect(80, y, W - 160, bh); g.fill();
+  g.strokeStyle = ac; g.lineWidth = 8; g.strokeRect(120, y + 65, 60, 60); g.fillStyle = dk; g.font = `800 44px ${GF}`; const L = gwrap(g, t, W - 360).slice(0, 2); L.forEach((l, j) => g.fillText(l, 220, y + (L.length > 1 ? 82 : 110) + j * 58)); y += bh + 34; });
+ g.font = `800 36px ${GF}`; g.fillStyle = '#fff'; g.fillText('도움 됐다면 저장 · 공유 🙌', 80, H - 150); foot(g, 3, 'rgba(255,255,255,.75)'); out.push(c);
+ return Promise.all(out.map((cv, i) => new Promise(res => cv.toBlob(b => res(new File([b], `${k.replace(/[\\/:*?"<>|\s]+/g, '_')}_${i + 1}.jpg`, {type: 'image/jpeg'})), 'image/jpeg', .92))));
+}
+async function genMake(){
+ const x = G.x; G.d = makeContent(x, G.spice); G.files = null;
+ G.urls.forEach(u => URL.revokeObjectURL(u)); G.urls = [];
+ $('#gk').textContent = '✍️ ' + x.keyword;
+ document.querySelectorAll('#gspice button').forEach(b => b.classList.toggle('on', b.dataset.g === G.spice));
+ genOut();
+ $('#gimgs').innerHTML = '<div class="note" style="padding:20px 0">카드 이미지 만드는 중…</div>';
+ const files = await drawCards(x, G.d); G.files = files; G.urls = files.map(f => URL.createObjectURL(f));
+ $('#gimgs').innerHTML = G.urls.map(u => `<img src="${u}" alt="">`).join('');
+}
+function genOut(){
+ const d = G.d, x = G.x; document.querySelectorAll('#gtab button').forEach(b => b.classList.toggle('on', b.dataset.g === 't-' + G.tab));
+ const warn = x.safe === false ? '<div class="gwarn">⚠️ 사건·사고·정치 관련 키워드예요. 사실 확인 후 올리고, 단정·비방 표현은 피하세요.</div>' : '';
+ let h = '';
+ if (G.tab === 'blog') h = `<div class="card"><div class="sec-t" style="margin-top:0">제목 후보 (눌러서 복사)</div>${d.titles.map((t, i) => `<button class="btn wide" style="width:100%;justify-content:flex-start;text-align:left;margin-bottom:6px;min-height:46px" data-g="ct" data-i="${i}">${esc(t)}</button>`).join('')}
+  <div class="sec-t">본문</div><div class="gtxt">${esc(d.body)}</div><div class="note">${esc(d.tags.map(t => '#' + t).join(' '))}</div></div>
+  <div class="btns"><button class="btn pri" data-g="cb">📋 본문 복사</button><button class="btn" data-g="ctag">🏷 태그 복사</button><a class="btn blue wide" href="${LINKS.blog}" target="_blank" rel="noopener">네이버 블로그 열기 →</a></div>`;
+ if (G.tab === 'threads') h = `<div class="card">${d.threads.map((t, i) => `<div class="thp"><span class="n">${i + 1}</span><div class="x">${esc(t)}</div><button data-g="cth" data-i="${i}">복사</button></div>`).join('')}</div>
+  <div class="btns"><button class="btn pri" data-g="cthall">📋 전체 복사</button><a class="btn blue" href="${LINKS.threads}" target="_blank" rel="noopener">스레드 열기 →</a></div><p class="note">1번 글에 카드 이미지를 붙여 올리고, 나머지는 ‘스레드에 추가’로 이어 붙이세요.</p>`;
+ if (G.tab === 'insta') h = `<div class="card"><div class="gtxt">${esc(d.caption + '\n\n' + d.hashtags.map(t => '#' + t).join(' '))}</div></div>
+  <div class="btns"><button class="btn pri" data-g="cin">📋 캡션+해시태그</button><button class="btn" data-g="chash">🏷 해시태그만</button><a class="btn blue wide" href="${LINKS.insta}" target="_blank" rel="noopener">인스타 열기 →</a></div>`;
+ $('#gout').innerHTML = warn + h;
+}
+function genOpen(i){ const all = (S.rank && S.rank.items || []), x0 = all[i]; if (!x0) return; const x = {...x0, rank: all.filter(isKo).indexOf(x0) + 1 || x0.rank}; G.x = x; G.tab = 'blog'; G.spice = x.safe === false ? 'mild' : 'hot'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
+async function genSave(){
+ const files = G.files; if (!files) { toast('이미지를 만드는 중이에요'); return; }
+ if (navigator.canShare && navigator.canShare({files})) { try { await navigator.share({files}); return; } catch(e) { if (e.name === 'AbortError') return; } }
+ G.urls.forEach(u => window.open(u, '_blank')); toast('사진을 길게 눌러 ‘사진 앱에 저장’을 고르세요');
+}
+document.addEventListener('click', e => {
+ const gb = e.target.closest('[data-gen]'); if (gb) { genOpen(+gb.dataset.gen); return; }
+ const b = e.target.closest('[data-g]'); if (!b) return; const a = b.dataset.g, d = G.d;
+ if (a === 'close') { $('#gen').hidden = true; document.body.style.overflow = ''; return; }
+ if (a === 'again') { genMake(); toast('새 버전으로 바꿨어요'); return; }
+ if (a === 'mild' || a === 'hot') { G.spice = a; genMake(); return; }
+ if (a.startsWith('t-')) { G.tab = a.slice(2); genOut(); return; }
+ if (a === 'photos') return genSave();
+ if (!d) return;
+ if (a === 'ct') copy(d.titles[+b.dataset.i], '제목을');
+ if (a === 'cb') copy(d.body, '본문을');
+ if (a === 'ctag') copy(d.tags.map(t => '#' + t).join(' '), '태그를');
+ if (a === 'cth') copy(d.threads[+b.dataset.i], `${+b.dataset.i + 1}번 글을`);
+ if (a === 'cthall') copy(d.threads.join('\n\n'), '스레드 전체를');
+ if (a === 'cin') copy(d.caption + '\n\n' + d.hashtags.map(t => '#' + t).join(' '), '캡션을');
+ if (a === 'chash') copy(d.hashtags.map(t => '#' + t).join(' '), '해시태그를');
+});
 </script>
 </body>
 </html>
