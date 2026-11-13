@@ -101,6 +101,16 @@ CAT_LINE = {
     "기타": ["여러 사람이 함께 찾아본 키워드예요.", "갑자기 검색량이 늘어난 키워드예요.", "새롭게 관심을 끈 이슈예요."],
 }
 
+# 블로그 글에서 빼는 키워드 (사건·사고·재판·정치 → 명예훼손·초상권 위험)
+RISK = ["재판", "혐의", "기소", "구속", "체포", "피의자", "피고", "고소", "고발", "검찰", "경찰", "수사", "법정", "판결", "선고",
+        "사망", "숨져", "숨진", "사고로", "사고를", "사고가", "교통사고", "사망사고", "추락", "참사", "부상", "뺑소니", "음주", "폭행", "살인", "성범죄", "성폭", "마약", "도박", "학폭",
+        "논란", "의혹", "사기", "횡령", "갑질", "자살", "극단", "실종", "화재", "폭발", "탄핵", "대통령", "국회", "의원", "선거",
+        "여당", "야당", "국민의힘", "민주당", "정당", "후보", "장관", "총리"]
+
+def is_safe(item):
+    text = item["keyword"] + " " + " ".join(n["title"] for n in item["news"])
+    return not any(w in text for w in RISK)
+
 def classify(item):
     text = item["keyword"] + " " + " ".join(n["title"] for n in item["news"])
     best, score = ("기타", "🔎"), 0
@@ -193,7 +203,7 @@ def build(items, now, history):
     tags = ["트렌드", "실시간검색어", "오늘의이슈", "인기검색어"] + [re.sub(r"\s+", "", k)[:20] for k in kws[:6]]
     p(esc(" ".join("#" + t for t in tags)))
 
-    return {"id": pid, "title": title, "html": "\n".join(H), "text": "\n".join(T), "tags": tags,
+    return {"id": pid, "kind": "trend", "label": f"{ed_ko} 트렌드", "title": title, "html": "\n".join(H), "text": "\n".join(T), "tags": tags,
             "keywords": kws, "edition": ed, "created": now.isoformat(), "images": [f"data/img/{pid}.png", f"data/img/{pid}-rank.png"],
             "items": [{k: i[k] for k in ("keyword", "traffic", "cat", "new", "seen", "news")} for i in items]}
 
@@ -285,7 +295,7 @@ def snapshot(items, now, base):
         pr = prank.get(it["keyword"])
         move = "new" if pr is None else ("up" if pr > r else "down" if pr < r else "same")
         out.append({"rank": r, "keyword": it["keyword"], "traffic": it["traffic"], "label": traffic_label(it["traffic"]),
-                    "cat": cat, "emo": emo, "move": move, "delta": (pr - r) if pr else 0, "news": it["news"]})
+                    "cat": cat, "emo": emo, "move": move, "delta": (pr - r) if pr else 0, "news": it["news"], "safe": is_safe(it)})
     snap = {"updated": now.isoformat(), "prev_updated": prev.get("updated", ""), "items": out}
     json.dump(snap, open(rp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     # 오늘 하루 순위 기록 (최근 24회)
@@ -300,8 +310,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rss", help="테스트용 RSS 파일")
     ap.add_argument("--out", default=".", help="저장소 폴더")
-    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "post"],
-                    help="rank = 실시간 순위만 갱신 · post = 순위 갱신 + 블로그 글·사진 만들기")
+    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "post", "theme"],
+                    help="rank = 실시간 순위만 · post = 순위 + 트렌드 글 · theme = 요일별 생활 테마 글")
     ap.add_argument("--edition", default=os.environ.get("EDITION", "auto"), choices=["auto", "am", "pm"])
     a = ap.parse_args()
 
@@ -313,6 +323,13 @@ def main():
 
     base = os.path.join(a.out, "data")
     os.makedirs(os.path.join(base, "posts"), exist_ok=True)
+    prune(a.out, now)
+
+    if a.mode == "theme":
+        import theme_post
+        save_post(theme_post.build(now, base, a.out, FONT_PATHS), base)
+        return
+
     items = parse(fetch_rss(a.rss))
     if len(items) < 3:
         raise SystemExit(f"인기 검색어가 {len(items)}개뿐이라 이번 회차는 건너뜁니다.")
@@ -320,14 +337,22 @@ def main():
     if a.mode == "rank":
         return
 
+    safe = [i for i in items if is_safe(i)]
+    dropped = [i["keyword"] for i in items if not is_safe(i)]
+    if dropped:
+        print(f"블로그 글에서 뺀 키워드 (사건·사고·정치 등): {', '.join(dropped)}")
+    if len(safe) < 3:
+        print(f"안전한 키워드가 {len(safe)}개뿐이라 이번 트렌드 글은 건너뜁니다.")
+        return
+
     hp = os.path.join(base, "history.json")
     history = json.load(open(hp, encoding="utf-8")) if os.path.exists(hp) else {}
-    post = build(items, now, history)
+    post = build(safe, now, history)
     ok1 = card(post, os.path.join(a.out, post["images"][0]))
     ok2 = rank_card(post, os.path.join(a.out, post["images"][1]))
     post["images"] = [p for p, ok in zip(post["images"], (ok1, ok2)) if ok]
 
-    for i in items:
+    for i in safe:
         h = history.setdefault(i["keyword"], {"first": post["id"], "seen": 0, "last": ""})
         if h["last"] != post["id"]:
             h["seen"] += 1
@@ -335,15 +360,28 @@ def main():
     cutoff = (now - dt.timedelta(days=30)).strftime("%Y%m%d")
     history = {k: v for k, v in history.items() if v["last"][:8] >= cutoff}
     json.dump(history, open(hp, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    save_post(post, base)
 
+def save_post(post, base):
     json.dump(post, open(os.path.join(base, "posts", post["id"] + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     lst_p = os.path.join(base, "posts.json")
     lst = json.load(open(lst_p, encoding="utf-8")) if os.path.exists(lst_p) else []
     lst = [x for x in lst if x["id"] != post["id"]]
-    lst.insert(0, {"id": post["id"], "title": post["title"], "created": post["created"], "thumb": (post["images"] or [""])[0]})
-    lst.sort(key=lambda x: x["id"], reverse=True)
-    json.dump(lst[:120], open(lst_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"글 완료: {post['id']} · {post['title']}")
+    lst.append({"id": post["id"], "kind": post.get("kind", "trend"), "label": post.get("label", ""), "title": post["title"],
+                "created": post["created"], "thumb": (post["images"] or [""])[0]})
+    lst.sort(key=lambda x: x["created"], reverse=True)
+    json.dump(lst[:150], open(lst_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"글 완료: {post['id']} · {post['title']} · 사진 {len(post['images'])}장")
+
+def prune(out, now, days=120):
+    """저장소가 너무 커지지 않게 120일 지난 사진은 지움 (글 내용은 남김)"""
+    d = os.path.join(out, "data", "img")
+    if not os.path.isdir(d):
+        return
+    cut = (now - dt.timedelta(days=days)).strftime("%Y%m%d")
+    for f in os.listdir(d):
+        if f[:8].isdigit() and f[:8] < cut:
+            os.remove(os.path.join(d, f))
 
 if __name__ == "__main__":
     main()

@@ -3,15 +3,16 @@ name: 트렌드 순위·블로그 글 자동 갱신
 on:
   schedule:
     - cron: '41 */2 * * *'  # 2시간마다 실시간 순위만 갱신
-    - cron: '23 22 * * *'   # 매일 07:23 (한국 시간) 오전 글 + 사진
-    - cron: '23 8 * * *'    # 매일 17:23 (한국 시간) 오후 글 + 사진
+    - cron: '23 22 * * *'   # 매일 07:23 (한국 시간) 오전 트렌드 글 + 사진
+    - cron: '23 3 * * *'    # 매일 12:23 (한국 시간) 점심 생활 테마 글 + 사진 (요일별)
+    - cron: '23 8 * * *'    # 매일 17:23 (한국 시간) 오후 트렌드 글 + 사진
   workflow_dispatch:
     inputs:
       mode:
-        description: 'post = 글·사진 새로 만들기 / rank = 순위만 갱신'
+        description: 'post = 트렌드 글 / theme = 생활 테마 글 / rank = 순위만 갱신'
         type: choice
         default: post
-        options: [post, rank]
+        options: [post, theme, rank]
 
 permissions:
   contents: write
@@ -23,7 +24,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,7 +37,8 @@ jobs:
           pip install -q pillow
       - name: 순위 갱신 · 글 만들기
         env:
-          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '41 */2 * * *' && 'rank' || 'post') }}
+          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '41 */2 * * *' && 'rank') || (github.event.schedule == '23 3 * * *' && 'theme') || 'post' }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
         run: python trend_bot/make_post.py --out .
       - name: 저장소에 올리기 (대시보드 자동 반영)
         run: |
