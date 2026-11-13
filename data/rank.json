@@ -1,97 +1,16 @@
 {
- "updated": "2026-11-13T15:21:00+09:00",
- "prev_updated": "2026-11-13T15:13:00+09:00",
+ "updated": "2026-11-13T15:57:00+09:00",
+ "prev_updated": "2026-11-13T15:21:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "이재룡",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "배우 이재룡측, 법정서 '술타기' 부인…\"측정 방해목적 없었다\"",
-     "url": "https://www.yna.co.kr/view/AKR20261113083900004",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "'음주 뺑소니 의혹' 배우 이재룡, 첫 재판서 '술타기' 혐의 부인",
-     "url": "https://www.newsis.com/view/NISX20261113_0003866985",
-     "source": "뉴시스"
-    },
-    {
-     "title": "뺑소니 사고 내고 달아나 또 술자리…법정 선 이재룡, 혐의 부인",
-     "url": "https://www.kyeonggi.com/article/20261113580249",
-     "source": "경기일보"
-    }
-   ]
-  },
-  {
-   "rank": 2,
-   "keyword": "오산시",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "행복기숙사, 인재장학금, 문화패스 등 오산시 청년 지원책 확대 노력",
-     "url": "https://www.kyeongin.com/article/1774656",
-     "source": "경인일보"
-    },
-    {
-     "title": "조용호 시장, “청년이 경제적 어려움으로 배움 끊기는 일 없도록 뒷받침하겠다”",
-     "url": "https://www.seoul.co.kr/news/publicnews/2026/11/13/20261113500059",
-     "source": "서울신문"
-    },
-    {
-     "title": "오산시, 청년 학업·성장 기회 확대에 온 힘 보탠다",
-     "url": "https://www.kmib.co.kr/article/20261112502233",
-     "source": "국민일보"
-    }
-   ]
-  },
-  {
-   "rank": 3,
-   "keyword": "박신영",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "‘사망 사고’ 낸 박신영 “구조 않고 차에 숨었다? 사실 아냐”…틱톡커로 등장한 이유 있었다",
-     "url": "https://biz.heraldcorp.com/article/10933678",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "'과속 사망사고' 前 아나운서, 복귀 시동…\"평생 반성한다더니\" 온라인 시끌",
-     "url": "https://www.fnnews.com/news/202611110001377383",
-     "source": "파이낸셜뉴스"
-    },
-    {
-     "title": "“쉽게 무너지지 않을 것”…‘배달원 사망사고’ 박신영 전 아나, 8만 틱톡커 변신",
-     "url": "https://www.sedaily.com/article/20112221",
-     "source": "서울경제"
-    }
-   ]
-  },
-  {
-   "rank": 4,
    "keyword": "한국보훈복지의료공단",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 3,
    "news": [
     {
      "title": "보훈공단-심평원, 국가유공자 적정진료·심사 협력 강화",
@@ -108,125 +27,242 @@
      "url": "https://www.munhwa.com/article/11630668",
      "source": "문화일보"
     }
-   ]
+   ],
+   "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "국민의힘",
+   "rank": 2,
+   "keyword": "블랙웰",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "윤리위원 측 \"韓 징계에 외부인사 관여… 張 통화 녹음·메신저 대화 갖고 있다\"",
-     "url": "https://www.chosun.com/politics/assembly/2026/11/13/DTKNY4U6AFCZVBQT635VTJ5DZE/",
-     "source": "조선일보"
-    },
-    {
-     "title": "[KBS 열린토론] 국힘 조작 징계? “한동훈의 헛발질” vs “증거 있을 것”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8712236",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "민주당 지지자들, ‘혁신당과 합당’ 찬성 44%-반대 43% [갤럽]",
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1287178.html",
-     "source": "한겨레"
-    }
-   ]
-  },
-  {
-   "rank": 6,
-   "keyword": "광교신도시",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"집값 25%만 내고 입주\"…광교 지분적립형에 2만 명 몰려",
-     "url": "https://www.hankyung.com/article/202611123258i",
-     "source": "한국경제"
-    },
-    {
-     "title": "광교 웃고 평택 울고…경기도 청약시장 양극화",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336726",
-     "source": "인천일보"
-    },
-    {
-     "title": "GH 추진 전국 첫 지분적립형 분양주택 1순위 경쟁률 '100:1'",
-     "url": "https://www.yna.co.kr/view/AKR20261111175000061",
-     "source": "연합뉴스"
-    }
-   ]
-  },
-  {
-   "rank": 7,
-   "keyword": "한국가스",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
-     "url": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/",
+     "title": "“오픈AI, 美 의회 中 AI칩 수출 제한 법안 지지”",
+     "url": "https://biz.chosun.com/it-science/ict/2026/11/13/W3GSV2HRNVCW5HMKBABFHSBOEA/",
      "source": "Chosunbiz"
     },
     {
-     "title": "[단독] “가스공사, 2200억원 물어줘라”…‘한국형 LNG 화물창’ 초유의 소송전 SK해운 웃었다 [세상&]",
-     "url": "https://biz.heraldcorp.com/article/10935820",
-     "source": "헤럴드경제"
+     "title": "미국의 반도체 수출 규제 강화 우려에 중국 AI 주식 급락",
+     "url": "https://kr.investing.com/news/stock-market-news/article-2174451",
+     "source": "Investing.com 한국어"
     },
     {
-     "title": "법원 \"'한국형 LNG선 하자' 가스공사, SK해운에 2200억 배상\"",
-     "url": "https://www.news1.kr/society/court-prosecution/6353183",
-     "source": "뉴스1"
+     "title": "美 무역대표 \"엔비디아 우려…핵심 기술자산 美나 동맹국에 있어야\"",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444506",
+     "source": "연합인포맥스"
     }
-   ]
+   ],
+   "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "카카오워크",
+   "rank": 3,
+   "keyword": "리트 만점자 ai 안경",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "카카오워크 해킹, 업무 정보 줄줄... ‘종단간 암호화’ 무색",
-     "url": "https://www.boannews.com/news/articleView.html?idxno=147242",
-     "source": "보안뉴스"
+     "title": "‘AI 안경 의혹’ 세무사 수석 합격자, CCTV는 없었지만 감독관 바로 앞에서 시험",
+     "url": "https://www.khan.co.kr/article/202611131019001",
+     "source": "경향신문"
     },
     {
-     "title": "카카오워크 뚫렸다…카카오엔터프라이즈 전·현직 임직원 정보 유출",
-     "url": "https://www.etnews.com/20261113000152",
-     "source": "전자신문"
+     "title": "63회 세무사시험 수석 한원석씨 “매일 새벽 2시30분 싸주신 김밥...어머니가 합격 시켰다”",
+     "url": "https://www.intn.co.kr/news/articleView.html?idxno=3000154",
+     "source": "Daily NTN"
     },
     {
-     "title": "카카오 기업용 메신저서 보안 사고…메일 본문·첨부파일 원본도 유출",
-     "url": "https://www.newsis.com/view/NISX20261112_0003866340",
-     "source": "뉴시스"
+     "title": "“너도 AI 안경?” 의심에 리트 만점자 “수능 국어 생중계 풀이”",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1287171.html",
+     "source": "한겨레"
     }
-   ]
+   ],
+   "safe": false
+  },
+  {
+   "rank": 4,
+   "keyword": "대학수학능력시험",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "전주시, 수능 특별교통대책 추진…장애인 수험생 이지콜 무료",
+     "url": "https://www.yna.co.kr/view/AKR20261113105800055",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "행정안전부, 2027학년도 수능 대비 지진 대응태세 철저히 점검한다",
+     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=456723",
+     "source": "서울Pn"
+    },
+    {
+     "title": "남양주시, 수능 당일 수험생 ‘무료 택시’ 44대 투입…12개 거점서 운영",
+     "url": "https://www.kyeonggi.com/article/20261113580242",
+     "source": "경기일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "이혜훈",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "경찰, ‘로또 청약’ 이혜훈 前 의원 사기 혐의로 공소청 송치",
+     "url": "https://www.chosun.com/national/national_general/2026/11/13/CSW7KKE6VRCOVPUKBYMCDLP4TQ/",
+     "source": "조선일보"
+    },
+    {
+     "title": "‘40억 로또 아파트’ 날아가나…이혜훈, 부정청약 의혹 송치",
+     "url": "https://news.jtbc.co.kr/article/NB12327942",
+     "source": "JTBC"
+    },
+    {
+     "title": "경찰, ‘아파트 부정청약’ 의혹 이혜훈 송치…반포 원펜타스 몰수 신청",
+     "url": "https://www.khan.co.kr/article/202611131353001",
+     "source": "경향신문"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "수도권제1순환고속도로",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[속보] 수도권제1순환고속도로 고양(67.5K)(4차로)화물차관련 사고처리중",
+     "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=484541",
+     "source": "스페셜타임스"
+    },
+    {
+     "title": "[속보] 수도권제1순환고속도로 화물차 관련 사고 처리중",
+     "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=483505",
+     "source": "스페셜타임스"
+    },
+    {
+     "title": "[속보] 수도권제1순환고속도로 사고처리중",
+     "url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=483666",
+     "source": "스페셜타임스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "정부",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "구글 지도 국외반출 조건 이행 확인…좌표 노출 막고 보안 강화",
+     "url": "https://www.electimes.com/news/articleView.html?idxno=374724",
+     "source": "전기신문"
+    },
+    {
+     "title": "구글맵, 한국 서비스 강화된다···네이버·카카오 등 ‘긴장’",
+     "url": "https://www.khan.co.kr/article/202611131444011",
+     "source": "경향신문"
+    },
+    {
+     "title": "구글, 국내 지도 협력사로 티맵 선정‥개인정보·이동데이터는 제외",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865439_36932.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "국기",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "北, 헌법 개정해 인공기 비율 변경…1948년 건국 이후 처음(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261113030351504",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "北, 78년 만에 국기 비율 변경…김정은 시대 차별화 포석",
+     "url": "https://www.koreadaily.com/article/20261112193925025",
+     "source": "미주중앙일보"
+    },
+    {
+     "title": "북한, 선전매체에 헌법 전문 공개…’두 국가’ 공식화",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261112053319dE2",
+     "source": "연합뉴스TV"
+    }
+   ],
+   "safe": true
   },
   {
    "rank": 9,
+   "keyword": "england vs australia",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "Australia vs England LIVE: First ODI, Optus Stadium, Perth - cricket score, commentary & updates",
+     "url": "https://www.bbc.com/sport/cricket/live/cnv9n5lgdv6t",
+     "source": "BBC"
+    },
+    {
+     "title": "Australia-England face off again but most eyes are elsewhere",
+     "url": "https://www.cricinfo.com/series/england-in-australia-2026-27-1528677/australia-vs-england-1st-odi-1528703/match-preview",
+     "source": "Cricinfo"
+    },
+    {
+     "title": "Beardman unleashed as Australia choose to bowl",
+     "url": "https://www.canberratimes.com.au/story/9390872/beardman-unleashed-as-australia-choose-to-bowl/",
+     "source": "The Canberra Times"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
    "keyword": "고용노동부",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "경비원·간병인도 개인사업자로…고령층 위장고용 확산 우려",
@@ -243,7 +279,8 @@
      "url": "https://www.electimes.com/news/articleView.html?idxno=374720",
      "source": "전기신문"
     }
-   ]
+   ],
+   "safe": true
   }
  ]
 }
