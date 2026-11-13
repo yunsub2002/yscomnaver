@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-14T06:26:00+09:00",
- "prev_updated": "2026-11-14T04:34:00+09:00",
+ "updated": "2026-11-14T08:03:00+09:00",
+ "prev_updated": "2026-11-14T06:26:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "김부선",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "keyword": "날씨",
+   "traffic": "200000+",
+   "label": "약 20만 회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "2억 보낸 고인과 \"각별한 사이\" 인정받은 김부선...유족 분통",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02072966645645392&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "대전·세종·충남 흐리고 비…예상 강수량 5∼30㎜",
+     "url": "https://www.yna.co.kr/view/AKR20261114010000063",
+     "source": "연합뉴스"
     },
     {
-     "title": "\"고인과 각별한 사이\" 김부선, 2억 대여금 소송서 일부 승소...유족 분통",
-     "url": "https://www.fnnews.com/news/202611130822348655",
-     "source": "파이낸셜뉴스"
+     "title": "[오늘 날씨] \"우산 챙기세요\" 전국 가을비…한낮 17도 - 머니투데이",
+     "url": "https://www.mt.co.kr/society/2026/11/14/2026111317273064852",
+     "source": "머니투데이"
     },
     {
-     "title": "김부선, 2억 보낸 고인과 “각별한 사이”?…법원 판단에 유족 “망자 명예훼손” 항소",
-     "url": "https://biz.heraldcorp.com/article/10936081",
-     "source": "헤럴드경제"
+     "title": "은행나무 ‘노란 단풍’ 절정…토요일 전국에 비",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712490",
+     "source": "KBS 뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "이란",
+   "keyword": "thời tiết",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "기타",
@@ -41,26 +41,82 @@
    "delta": 0,
    "news": [
     {
-     "title": "이란 외무부 \"뱁새가 황새 따라가다 가랑이‥\" 청해부대 겨냥",
-     "url": "https://imnews.imbc.com/news/2026/politics/article/6865457_36911.html",
-     "source": "MBC 뉴스"
+     "title": "Thời tiết Nghệ An hôm nay 14/11/2026: Trời ấm lên 28°C, sáng có sương mù, ít mưa",
+     "url": "https://www.vietnam.vn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "\"뱁새가 황새 따라가다…\" 이란 외무부 대변인 ‘한국 속담’으로 경고",
-     "url": "https://news.jtbc.co.kr/article/NB12327965",
-     "source": "JTBC"
+     "title": "Thời tiết hôm nay (14-11): Nhiều nơi có mưa dông, cảnh báo lốc, sét",
+     "url": "https://www.qdnd.vn/xa-hoi/tin-tuc/thoi-tiet-hom-nay-14-11-nhieu-noi-co-mua-dong-canh-bao-loc-set-1064549",
+     "source": "Báo Quân đội nhân dân"
     },
     {
-     "title": "이란 “한국, 가랑이 찢어진다”…한국계 유조선 2척 발사체 피격 [배틀라인]",
-     "url": "https://www.seoul.co.kr/news/international/2026/11/13/20261113500151",
-     "source": "서울신문"
+     "title": "Miền Bắc có nơi rét 12 độ C, Hà Nội ngày nắng ấm",
+     "url": "https://dantri.com.vn/thoi-tiet/mien-bac-co-noi-ret-12-do-c-ha-noi-ngay-nang-am-20261113205738034.htm",
+     "source": "Báo Dân trí"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "배추",
+   "keyword": "weather",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "Cold and windy days ahead",
+     "url": "https://www.nbcphiladelphia.com/video/weather/video-weather/cold-and-windy-days-ahead/4496988/",
+     "source": "NBC10 Philadelphia"
+    },
+    {
+     "title": "Most of us stay dry this weekend, but we're looking cold overnight. Tap for Doug's forecast.",
+     "url": "https://www.koamnewsnow.com/video/most-of-us-stay-dry-this-weekend-but-were-looking-cold-overnight-tap-for-dougs/video_e6d91e15-eb35-51c7-b85b-b32c832f03bb.html",
+     "source": "KOAM News Now"
+    },
+    {
+     "title": "“Baby, It’s Cold Outside” — And We Mean It",
+     "url": "https://www.wgem.com/2026/11/13/baby-its-cold-outside-we-mean-it/",
+     "source": "WGEM"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "lng선",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
+     "url": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "'LNG선 화물창 결함'…2심 법원 \"가스공사, SK해운에 2200억 지급\" - 머니투데이",
+     "url": "https://www.mt.co.kr/society/2026/11/13/2026111322002520541",
+     "source": "머니투데이"
+    },
+    {
+     "title": "SK해운·삼성重, '화물창 설계 결함' 가스공사에 손배소 2심도 승소",
+     "url": "https://www.newsis.com/view/NISX20261113_0003867028",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "天气",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
@@ -69,194 +125,138 @@
    "delta": 0,
    "news": [
     {
-     "title": "“김장 도와주실 이웃 구해요”…요즘 당근에 몰리는 이색 알바",
-     "url": "https://www.kmib.co.kr/article/20261113500265",
-     "source": "국민일보"
+     "title": "2026年11月14日，义安省天气预报：气温28摄氏度，早晨有雾，少量降雨。",
+     "url": "https://www.vietnam.vn/zh-cn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "“배추 버무리고 설거지 해주실 분” 구인공고 급증…겨울철 뜨는 ‘이 알바’ 시급은?",
-     "url": "https://www.sedaily.com/article/20114247",
-     "source": "서울경제"
+     "title": "最新天气消息｜黄色暴雨警告信号一度生效 凌晨5时30分取消",
+     "url": "https://global.hk01.com/%E5%A4%A9%E6%B0%94/60410538/%E6%9C%80%E6%96%B0%E5%A4%A9%E6%B0%94%E6%B6%88%E6%81%AF-%E9%BB%84%E8%89%B2%E6%9A%B4%E9%9B%A8%E8%AD%A6%E5%91%8A%E4%BF%A1%E5%8F%B7%E4%B8%80%E5%BA%A6%E7%94%9F%E6%95%88-%E5%87%8C%E6%99%A85%E6%97%B630%E5%88%86%E5%8F%96%E6%B6%88",
+     "source": "香港01"
     },
     {
-     "title": "[포토뉴스]손양면부녀회 독거노인에 김장김치·이불 전달",
-     "url": "https://www.kwnews.co.kr/article/20261113500418",
-     "source": "강원일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "도지코인",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "도지코인 밈코인 꼬리표 뗀다…디파이·예측시장 영토 확장",
-     "url": "https://www.g-enews.com/article/Securities/2026/11/202611130310511461e7e8286d56_1",
-     "source": "글로벌이코노믹"
-    },
-    {
-     "title": "도지코인 랩스 창업자 \"도지코인(DOGE), 머스크 트윗에 흔들리던 시절은 갔다\"",
-     "url": "https://www.coinreaders.com/269920",
-     "source": "코인리더스"
-    },
-    {
-     "title": "도지코인, 메인넷 출시 임박",
-     "url": "https://www.digitalasset.works/news/articleView.html?idxno=44236",
-     "source": "디지털애셋"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "서인영",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'최지훈과 재혼' 서인영, 극심한 불안 \"8년 자고 땅굴\"..\"10년 제정신 아냐\" [핫피플]",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/GJSGEYJZMI2DMZLCME2WEN3GMY/",
-     "source": "조선일보"
-    },
-    {
-     "title": "‘12월 결혼’ 서인영 “예비 신랑 덕분에 우울증 이겨내고 활동”",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261112/135017716/1",
-     "source": "동아일보"
-    },
-    {
-     "title": "서인영 \"공황장애로 8년간 거의 잠만 자…문지방도 못 넘었다\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111309552465013",
-     "source": "머니투데이"
+     "title": "本港广泛地区下暴雨进行电力工作须注意安全｜即时新闻｜中港台｜on.cc东网",
+     "url": "https://hk.on.cc/hk/bkn/cnt/news/20261114/bkn-20261114040551299-1114_00822_001_cn.html",
+     "source": "on.cc東網"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "노동조합",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "สภาพอากาศ",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'영업비밀 유출' 삼성바이오로직스 노조 위원장 송치",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6865432_36918.html",
-     "source": "MBC 뉴스"
+     "title": "สภาพอากาศวันนี้ -19 พ.ย.ลมหนาวพักยก ไทยอุณหภูมิสูงขึ้น ฝนฟ้าคะนองบางแห่ง",
+     "url": "https://www.thansettakij.com/general-news/673733",
+     "source": "thansettakij"
     },
     {
-     "title": "삼성바이오 노사 다시 만난다…17일 교섭 재개",
-     "url": "https://www.yna.co.kr/view/AKR20261113064300017",
-     "source": "연합뉴스"
+     "title": "ชุมพรอ่วมฝนถล่มข้ามคืน น้ำท่วมถนนหลายสาย โรงพยาบาลเร่งป้องกันน้ำเข้า CT-SCAN",
+     "url": "https://www.topnews.co.th/news/1746285",
+     "source": "www.topnews.co.th"
     },
     {
-     "title": "삼성바이오로직스 노사, 다음주 교섭 재개…장기 파업 '분수령' - 머니투데이",
-     "url": "https://www.mt.co.kr/thebio/2026/11/12/2026111219244527331",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "김소현",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“손준호가 두 명?”…♥김소현 14살 子, 아빠 붕어빵 비주얼 [DA★]",
-     "url": "https://sports.donga.com/ent/article/all/20261112/135016925/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "“누가 손준호야?” 김소현♥손준호 子 주안, 아빠 쏙 빼닮은 ‘폭풍 성장’ 근황",
-     "url": "https://sports.khan.co.kr/article/202611121717003",
-     "source": "스포츠경향"
-    },
-    {
-     "title": "김소현♥손준호 아들 주안이 벌써 14세…몰라보게 폭풍성장 [N샷]",
-     "url": "https://www.news1.kr/entertain/celebrity-topic/6352117",
-     "source": "뉴스1"
+     "title": "เตือนภาคใต้ ยังมีฝนตกหนัก 70% เสี่ยงน้ำท่วมฉับพลัน | 13 พ.ย. 69 | ข่าวเย็นไทยรัฐ",
+     "url": "https://www.thairath.co.th/video/channel/thairath_news/thairath-evening-news/1199340",
+     "source": "www.thairath.co.th"
     }
    ],
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "탄핵",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 7,
+   "keyword": "주한 미군의 철수",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "up",
-   "delta": 1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "최민희 48분 육성 녹취엔…\"윤석열 탄핵에 이 대통령 반대했다. 하야시키고 가자 했다\"",
-     "url": "https://news.jtbc.co.kr/article/NB12327963",
-     "source": "JTBC"
+     "title": "美전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
+     "url": "https://www.yna.co.kr/view/AKR20261114002200071",
+     "source": "연합뉴스"
     },
     {
-     "title": "[사설] 이재명 정권, 넘쳐나는 권력 감당 안 돼 자기들끼리 싸우나",
-     "url": "https://www.chosun.com/opinion/editorial/2026/11/14/ESUUCOCQBREZBD3OPQ3V4YEGE4/",
+     "title": "브룩스 前사령관, ‘전작권 당장 전환 가능’ 강신철에 “매우 실망”",
+     "url": "https://www.chosun.com/international/us/2026/11/14/UNVTC33XERFVLDHL3IAUAS74YQ/",
      "source": "조선일보"
     },
     {
-     "title": "\"최민희 윤리감찰\" 김민석 지시에‥친청계 '보이콧' 맞불",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865539_37004.html",
-     "source": "MBC 뉴스"
+     "title": "김건 의원 \"한미 조인트 팩트시트 1년에도 핵잠수함·원자력 협력 제자리\"",
+     "url": "https://www.newspim.com/news/view/20261113000598",
+     "source": "뉴스핌"
     }
    ],
    "safe": false
   },
   {
-   "rank": 9,
-   "keyword": "고속철도",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 8,
+   "keyword": "погода",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "5차 철도망 계획 12월 말 고시…지자체 “우리 노선 담아달라” 한목소리",
-     "url": "https://www.electimes.com/news/articleView.html?idxno=374731",
-     "source": "전기신문"
+     "title": "В Москве в субботу ожидается «ночь великого дождя»",
+     "url": "https://www.vedomosti.ru/gorod/ourcity/news/noch-velikogo-dozhdya",
+     "source": "Ведомости"
     },
     {
-     "title": "“CTX 서대전역 연장”·“세종 도심에 KTX” 현안 건의",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712373",
-     "source": "KBS 뉴스"
+     "title": "В Москве может пройти сильнейший с 1967 года ливень",
+     "url": "https://www.bfm.ru/news/623773",
+     "source": "BFM.ru"
     },
     {
-     "title": "추미애 \"철도는 경기도민 삶 걸린 절박한 민생 문제\"",
-     "url": "https://www.yna.co.kr/view/AKR20261113107000060",
-     "source": "연합뉴스"
+     "title": "В столичном регионе «барическая яма», сильный ветер и теплая ночь",
+     "url": "https://www.gismeteo.ru/news/weather/v-stolichnom-regione-baricheskaja-jama-silnyj-veter-i-teplaja-noch/",
+     "source": "GISMETEO.Новости"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "天氣",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "氣溫漸升東偶雨週六短波槽掠過",
+     "url": "http://www.metapp.org.tw/pages/post-cda502448ac8e0252fb8.html",
+     "source": "氣象應用推廣基金會"
+    },
+    {
+     "title": "又有冷空氣要來了！下週低溫急探16度 專家示警：恐比上一波更冷",
+     "url": "https://tw.news.yahoo.com/%E5%8F%88%E6%9C%89%E5%86%B7%E7%A9%BA%E6%B0%A3%E8%A6%81%E4%BE%86%E4%BA%86-%E4%B8%8B%E9%80%B1%E4%BD%8E%E6%BA%AB%E6%80%A5%E6%8E%A216%E5%BA%A6-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6-%E6%81%90%E6%AF%94%E4%B8%8A-%E6%B3%A2%E6%9B%B4%E5%86%B7-111328874.html",
+     "source": "Yahoo新聞"
+    },
+    {
+     "title": "冬天真的要來了！鄭明典：北半球冷高壓爆發　台灣2原因降溫緩慢",
+     "url": "https://www.nownews.com/news/6890604",
+     "source": "NOWnews今日新聞"
     }
    ],
    "safe": true
   },
   {
    "rank": 10,
-   "keyword": "항공 엔진",
+   "keyword": "보안",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -265,19 +265,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "한화, 국내 첫 1만파운드급 항공엔진 개발한다…1천773억 규모",
-     "url": "https://www.yna.co.kr/view/AKR20261113133400003",
-     "source": "연합뉴스"
+     "title": "해킹 당한 금융보안원 “공격 IP 246개 차단완료…국적은 한국”",
+     "url": "https://stock.mk.co.kr/news/view/1198487",
+     "source": "매일경제 마켓"
     },
     {
-     "title": "한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다",
-     "url": "https://biz.chosun.com/industry/company/2026/11/13/Z43BE5HBMRDLHCTNNDCIRCHFS4/",
-     "source": "Chosunbiz"
+     "title": "금융위, 해킹에 뚫린 금융보안원 다음 주 감사",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865227_36932.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "한화에어로스페이스, '1만파운드급 터보팬 엔진' 개발 우협대상자 선정",
-     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451981",
-     "source": "비즈니스포스트"
+     "title": "고개 숙인 금융보안원…금융권 해킹 수습 기준 보여줘야",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04080326645645064",
+     "source": "마켓인"
     }
    ],
    "safe": true
