@@ -1,72 +1,44 @@
 {
- "updated": "2026-11-13T18:17:00+09:00",
- "prev_updated": "2026-11-13T16:53:00+09:00",
+ "updated": "2026-11-13T18:32:00+09:00",
+ "prev_updated": "2026-11-13T18:17:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "sk해운",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "up",
-   "delta": 1,
+   "keyword": "배드민턴",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "국산 LNG선 결함, 가스公 2685억 배상 판결…2심서 800억 늘어",
-     "url": "https://www.chosun.com/economy/economy_general/2026/11/13/MGW2ELZPSVG6DFFWJELTEZSFKI/",
+     "title": "배드민턴 ‘세계 1위’ 서승재-김원호, 116위 한국 신생 조에 덜미",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8711219",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "'세계 1위가 116위에 무너졌다' 韓 남복 충격 이변...서승재-김원호, '신생 조' 진용-조송현에 덜미→\"덜 알려진 동료에게 패했다\"",
+     "url": "https://www.chosun.com/sports/sports_general/2026/11/13/MJRTAMJVMUYGCZBYGYYWCYZWGM/",
      "source": "조선일보"
     },
     {
-     "title": "가스공사 LNG 화물창 설계 결함 책임, SK해운에 2204억 배상 판결 나와",
-     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451990",
-     "source": "비즈니스포스트"
-    },
-    {
-     "title": "'LNG선 화물창 결함' 가스공사 2심서 배상액↑…\"2천600억 지급\"",
-     "url": "https://www.yna.co.kr/view/AKR20261113086900004",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 2,
-   "keyword": "광교 신도시",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "GH, '국내 1호' 광교 지분적립형 분양주택 240가구 모집에 2만946건 몰려",
-     "url": "https://www.yna.co.kr/view/RPR20261112007600353",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "집값의 30%로 내 집 마련, '이익공유형Ⅱ' 공공분양 도입 추진 - 카드/한컷 | 멀티미디어",
-     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975273",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "광교 웃고 평택 울고…경기도 청약시장 양극화",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336726",
-     "source": "인천일보"
+     "title": "세계랭킹 116위의 업셋...진용-조송현, 세계 1위 서승재-김원호 완파",
+     "url": "https://www.newspim.com/news/view/20261112001465",
+     "source": "뉴스핌"
     }
    ],
    "safe": true
   },
   {
-   "rank": 3,
+   "rank": 2,
    "keyword": "주간조선",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "2934 목차",
@@ -87,14 +59,70 @@
    "safe": true
   },
   {
+   "rank": 3,
+   "keyword": "김종민",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "김종민, 아빠 될 준비 중…“맞춤법·띄어쓰기 배우고 있어” (1박2일)",
+     "url": "https://sports.donga.com/ent/article/all/20261113/135018756/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "김종민이 달라졌어요..'임신' ♥김지원 닮은 11살 아내→아들 위해 \"국어 공부 중\" ('1박2일')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/GZSDIM3BGAYDOMZTHBQTKMBVMM/",
+     "source": "조선일보"
+    },
+    {
+     "title": "김종민 \"태어날 子 위해 맞춤법·띄어쓰기 배우는 중\" (1박 2일)",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524710",
+     "source": "iMBC 연예"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 4,
-   "keyword": "공인중개사",
+   "keyword": "김현태",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "사회·정치",
    "emo": "📰",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "법원, ‘국회 봉쇄’ 김현태 전 707 단장 구속취소 요청 기각",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712031",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "‘국회 봉쇄’ 김현태 전 단장, 구속 상태로 재판… 법원, 구속취소 기각",
+     "url": "https://www.seoul.co.kr/news/society/law/2026/11/13/20261113500102",
+     "source": "서울신문"
+    },
+    {
+     "title": "법원, '국회 봉쇄' 김현태 전 707특임단장 구속 취소 요청 기각",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6865396_36918.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "공인중개사",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "등기부 열람료 700원→1100원… 공인 중개사들 국회서 “철회하라”",
@@ -115,14 +143,14 @@
    "safe": false
   },
   {
-   "rank": 5,
+   "rank": 6,
    "keyword": "035420",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "Naver's Q3 operating profit falls 21% as it bets on 2 trillion won deal, AI agent app and logistics subsidiary",
@@ -143,26 +171,26 @@
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 7,
    "keyword": "문화누리카드",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [],
    "safe": true
   },
   {
-   "rank": 7,
+   "rank": 8,
    "keyword": "탁재훈",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "장서희, 탁재훈과 ‘베드신’ 찍나…“시키는 대로 하겠다”",
@@ -183,7 +211,7 @@
    "safe": true
   },
   {
-   "rank": 8,
+   "rank": 9,
    "keyword": "로보택시",
    "traffic": "100+",
    "label": "약 100회 이상",
@@ -211,7 +239,7 @@
    "safe": true
   },
   {
-   "rank": 9,
+   "rank": 10,
    "keyword": "이창호",
    "traffic": "100+",
    "label": "약 100회 이상",
@@ -234,34 +262,6 @@
      "title": "김승준-양건, 승리 합작…한국기원 자회사 사이버오로, 효림 잡고 PO 진출",
      "url": "https://www.kukinews.com/article/view/kuk202611130134",
      "source": "쿠키뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "이혼숙려캠프",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "이호선 “헛소리 마요” 경고… 숙소 발칵 뒤집혀 (이혼숙려캠프)",
-     "url": "https://sports.donga.com/ent/article/all/20261113/135020414/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "'월 360만원' 남편, N잡러 아내에 전업주부 요구 \"육각형 엄마 원해\" - 머니투데이",
-     "url": "https://www.mt.co.kr/index.php/entertainment/2026/11/13/2026111305564946112",
-     "source": "머니투데이"
-    },
-    {
-     "title": "“여자가 예쁘면 남사친 절대 불가”…누구보다 보수적인 캐나다 남편 (이숙캠)",
-     "url": "https://sports.khan.co.kr/article/202611130759003",
-     "source": "스포츠경향"
     }
    ],
    "safe": true
