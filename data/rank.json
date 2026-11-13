@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T15:13:00+09:00",
- "prev_updated": "",
+ "updated": "2026-11-13T15:21:00+09:00",
+ "prev_updated": "2026-11-13T15:13:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 1,000회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -36,7 +36,7 @@
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -45,14 +45,14 @@
      "source": "경인일보"
     },
     {
-     "title": "조용호 오산시장, 청년 학업·성장 기회 확대에 온힘…“경제적 걸림돌 학업 방해되지 않도록 노력”",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336651",
-     "source": "인천일보"
+     "title": "조용호 시장, “청년이 경제적 어려움으로 배움 끊기는 일 없도록 뒷받침하겠다”",
+     "url": "https://www.seoul.co.kr/news/publicnews/2026/11/13/20261113500059",
+     "source": "서울신문"
     },
     {
-     "title": "\"배움에 걸림돌 없도록\"…오산시, 청년 주거·장학금·문화 패키지 가동 - 머니투데이",
-     "url": "https://www.mt.co.kr/policy/2026/11/12/2026111216413780198",
-     "source": "머니투데이"
+     "title": "오산시, 청년 학업·성장 기회 확대에 온 힘 보탠다",
+     "url": "https://www.kmib.co.kr/article/20261112502233",
+     "source": "국민일보"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -90,7 +90,7 @@
    "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -117,7 +117,7 @@
    "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -131,8 +131,8 @@
      "source": "KBS 뉴스"
     },
     {
-     "title": "친한계 박정훈 “‘조작 징계’ 확인되면 장동혁 형사처벌 사항”",
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1287191.html",
+     "title": "민주당 지지자들, ‘혁신당과 합당’ 찬성 44%-반대 43% [갤럽]",
+     "url": "https://www.hani.co.kr/arti/politics/politics_general/1287178.html",
      "source": "한겨레"
     }
    ]
@@ -144,7 +144,7 @@
    "label": "약 500회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -171,14 +171,9 @@
    "label": "약 200회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
-    {
-     "title": "'LNG선 화물창 결함' 가스공사 2심서 배상액↑…\"2천600억 지급\"",
-     "url": "https://www.yna.co.kr/view/AKR20261113086900004",
-     "source": "연합뉴스"
-    },
     {
      "title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
      "url": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/",
@@ -188,6 +183,11 @@
      "title": "[단독] “가스공사, 2200억원 물어줘라”…‘한국형 LNG 화물창’ 초유의 소송전 SK해운 웃었다 [세상&]",
      "url": "https://biz.heraldcorp.com/article/10935820",
      "source": "헤럴드경제"
+    },
+    {
+     "title": "법원 \"'한국형 LNG선 하자' 가스공사, SK해운에 2200억 배상\"",
+     "url": "https://www.news1.kr/society/court-prosecution/6353183",
+     "source": "뉴스1"
     }
    ]
   },
@@ -198,7 +198,7 @@
    "label": "약 200회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -225,7 +225,7 @@
    "label": "약 100회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
