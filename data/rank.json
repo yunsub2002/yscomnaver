@@ -1,184 +1,100 @@
 {
- "updated": "2026-11-14T08:03:00+09:00",
- "prev_updated": "2026-11-14T06:26:00+09:00",
+ "updated": "2026-11-14T08:40:00+09:00",
+ "prev_updated": "2026-11-14T08:03:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "날씨",
-   "traffic": "200000+",
-   "label": "약 20만 회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
+   "traffic": "500000+",
+   "label": "약 50만 회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "대전·세종·충남 흐리고 비…예상 강수량 5∼30㎜",
-     "url": "https://www.yna.co.kr/view/AKR20261114010000063",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "[오늘 날씨] \"우산 챙기세요\" 전국 가을비…한낮 17도 - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/14/2026111317273064852",
-     "source": "머니투데이"
-    },
-    {
      "title": "은행나무 ‘노란 단풍’ 절정…토요일 전국에 비",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712490",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8712490",
      "source": "KBS 뉴스"
+    },
+    {
+     "title": "전국 대부분 흐리고 비‥낮 최고 11~18도",
+     "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6865601_37012.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "제주, 흐리고 곳에 따라 비",
+     "url": "https://www.yna.co.kr/view/AKR20261114012500056",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "thời tiết",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "참교육",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "Thời tiết Nghệ An hôm nay 14/11/2026: Trời ấm lên 28°C, sáng có sương mù, ít mưa",
-     "url": "https://www.vietnam.vn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua",
-     "source": "Vietnam.vn"
+     "title": "아동학대 논란 휩싸인 민속촌 귀신…“웃는다고 괜찮은 건 아냐” 세계의 ‘공포 훈육’ 돌아보니 [이윤정 기자의 소소월드]",
+     "url": "https://www.khan.co.kr/article/202611121023001",
+     "source": "경향신문"
     },
     {
-     "title": "Thời tiết hôm nay (14-11): Nhiều nơi có mưa dông, cảnh báo lốc, sét",
-     "url": "https://www.qdnd.vn/xa-hoi/tin-tuc/thoi-tiet-hom-nay-14-11-nhieu-noi-co-mua-dong-canh-bao-loc-set-1064549",
-     "source": "Báo Quân đội nhân dân"
+     "title": "\"학대냐 아니냐\" 불붙은 논란‥'어둠의 오은영' 이제 못 보나",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865252_37004.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "Miền Bắc có nơi rét 12 độ C, Hà Nội ngày nắng ấm",
-     "url": "https://dantri.com.vn/thoi-tiet/mien-bac-co-noi-ret-12-do-c-ha-noi-ngay-nang-am-20261113205738034.htm",
-     "source": "Báo Dân trí"
+     "title": "[참성단] ‘귀신 훈육’ 딜레마",
+     "url": "https://www.kyeongin.com/article/1774690",
+     "source": "경인일보"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 3,
-   "keyword": "weather",
+   "keyword": "아르헨티나 대 우루과이",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "Cold and windy days ahead",
-     "url": "https://www.nbcphiladelphia.com/video/weather/video-weather/cold-and-windy-days-ahead/4496988/",
-     "source": "NBC10 Philadelphia"
+     "title": "한국 4-1로 무너뜨리더니 자신감 제대로 붙었다…포를란 감독, 모레노호 상대 대승에 만족 “수준 높은 한국 상대로 매우 좋은 경기력 보여줬다”",
+     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698363",
+     "source": "인터풋볼"
     },
     {
-     "title": "Most of us stay dry this weekend, but we're looking cold overnight. Tap for Doug's forecast.",
-     "url": "https://www.koamnewsnow.com/video/most-of-us-stay-dry-this-weekend-but-were-looking-cold-overnight-tap-for-dougs/video_e6d91e15-eb35-51c7-b85b-b32c832f03bb.html",
-     "source": "KOAM News Now"
+     "title": "전 맨체스터 유나이티드 공격수 포를란이 우루과이 대표팀을 이끌며 눈부신 활약을 펼치고 있다.",
+     "url": "https://www.vietnam.vn/ko/cuu-tien-dao-man-united-forlan-toa-sang-khi-dan-dat-uruguay",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "“Baby, It’s Cold Outside” — And We Mean It",
-     "url": "https://www.wgem.com/2026/11/13/baby-its-cold-outside-we-mean-it/",
-     "source": "WGEM"
+     "title": "아르헨티나 vs 우루과이 예측: 상대 전적에서 우세.",
+     "url": "https://www.vietnam.vn/ko/nhan-dinh-argentina-vs-uruguay-diem-tua-tu-thanh-tich-doi-dau",
+     "source": "Vietnam.vn"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "lng선",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "한국가스공사, LNG선 화물창 결함에 2684억원 배상… 2심서 800억원 늘어",
-     "url": "https://biz.chosun.com/topics/law_firm/2026/11/13/LTVT7C2Q6JFWXIKKZS3M7FUA7Y/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "'LNG선 화물창 결함'…2심 법원 \"가스공사, SK해운에 2200억 지급\" - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/13/2026111322002520541",
-     "source": "머니투데이"
-    },
-    {
-     "title": "SK해운·삼성重, '화물창 설계 결함' 가스공사에 손배소 2심도 승소",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867028",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "天气",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "2026年11月14日，义安省天气预报：气温28摄氏度，早晨有雾，少量降雨。",
-     "url": "https://www.vietnam.vn/zh-cn/thoi-tiet-nghe-an-hom-nay-14-11-2026-troi-am-len-28c-sang-co-suong-mu-it-mua",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "最新天气消息｜黄色暴雨警告信号一度生效 凌晨5时30分取消",
-     "url": "https://global.hk01.com/%E5%A4%A9%E6%B0%94/60410538/%E6%9C%80%E6%96%B0%E5%A4%A9%E6%B0%94%E6%B6%88%E6%81%AF-%E9%BB%84%E8%89%B2%E6%9A%B4%E9%9B%A8%E8%AD%A6%E5%91%8A%E4%BF%A1%E5%8F%B7%E4%B8%80%E5%BA%A6%E7%94%9F%E6%95%88-%E5%87%8C%E6%99%A85%E6%97%B630%E5%88%86%E5%8F%96%E6%B6%88",
-     "source": "香港01"
-    },
-    {
-     "title": "本港广泛地区下暴雨进行电力工作须注意安全｜即时新闻｜中港台｜on.cc东网",
-     "url": "https://hk.on.cc/hk/bkn/cnt/news/20261114/bkn-20261114040551299-1114_00822_001_cn.html",
-     "source": "on.cc東網"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "สภาพอากาศ",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "สภาพอากาศวันนี้ -19 พ.ย.ลมหนาวพักยก ไทยอุณหภูมิสูงขึ้น ฝนฟ้าคะนองบางแห่ง",
-     "url": "https://www.thansettakij.com/general-news/673733",
-     "source": "thansettakij"
-    },
-    {
-     "title": "ชุมพรอ่วมฝนถล่มข้ามคืน น้ำท่วมถนนหลายสาย โรงพยาบาลเร่งป้องกันน้ำเข้า CT-SCAN",
-     "url": "https://www.topnews.co.th/news/1746285",
-     "source": "www.topnews.co.th"
-    },
-    {
-     "title": "เตือนภาคใต้ ยังมีฝนตกหนัก 70% เสี่ยงน้ำท่วมฉับพลัน | 13 พ.ย. 69 | ข่าวเย็นไทยรัฐ",
-     "url": "https://www.thairath.co.th/video/channel/thairath_news/thairath-evening-news/1199340",
-     "source": "www.thairath.co.th"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
    "keyword": "주한 미군의 철수",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 3,
    "news": [
     {
      "title": "美전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
@@ -199,85 +115,29 @@
    "safe": false
   },
   {
-   "rank": 8,
-   "keyword": "погода",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "В Москве в субботу ожидается «ночь великого дождя»",
-     "url": "https://www.vedomosti.ru/gorod/ourcity/news/noch-velikogo-dozhdya",
-     "source": "Ведомости"
-    },
-    {
-     "title": "В Москве может пройти сильнейший с 1967 года ливень",
-     "url": "https://www.bfm.ru/news/623773",
-     "source": "BFM.ru"
-    },
-    {
-     "title": "В столичном регионе «барическая яма», сильный ветер и теплая ночь",
-     "url": "https://www.gismeteo.ru/news/weather/v-stolichnom-regione-baricheskaja-jama-silnyj-veter-i-teplaja-noch/",
-     "source": "GISMETEO.Новости"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "天氣",
+   "rank": 5,
+   "keyword": "보안",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 5,
    "news": [
     {
-     "title": "氣溫漸升東偶雨週六短波槽掠過",
-     "url": "http://www.metapp.org.tw/pages/post-cda502448ac8e0252fb8.html",
-     "source": "氣象應用推廣基金會"
+     "title": "‘플라이빗’ 개인정보 40건 유출... 다우기술 그룹웨어 해킹 3번째 피해",
+     "url": "https://www.boannews.com/news/articleView.html?idxno=147241",
+     "source": "보안뉴스"
     },
     {
-     "title": "又有冷空氣要來了！下週低溫急探16度 專家示警：恐比上一波更冷",
-     "url": "https://tw.news.yahoo.com/%E5%8F%88%E6%9C%89%E5%86%B7%E7%A9%BA%E6%B0%A3%E8%A6%81%E4%BE%86%E4%BA%86-%E4%B8%8B%E9%80%B1%E4%BD%8E%E6%BA%AB%E6%80%A5%E6%8E%A216%E5%BA%A6-%E5%B0%88%E5%AE%B6%E7%A4%BA%E8%AD%A6-%E6%81%90%E6%AF%94%E4%B8%8A-%E6%B3%A2%E6%9B%B4%E5%86%B7-111328874.html",
-     "source": "Yahoo新聞"
+     "title": "\"해킹 의심 땐 입출금 선제 차단\"...가상자산거래소 보안 강화",
+     "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611131602032869",
+     "source": "YTN 사이언스"
     },
     {
-     "title": "冬天真的要來了！鄭明典：北半球冷高壓爆發　台灣2原因降溫緩慢",
-     "url": "https://www.nownews.com/news/6890604",
-     "source": "NOWnews今日新聞"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "보안",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "해킹 당한 금융보안원 “공격 IP 246개 차단완료…국적은 한국”",
-     "url": "https://stock.mk.co.kr/news/view/1198487",
-     "source": "매일경제 마켓"
-    },
-    {
-     "title": "금융위, 해킹에 뚫린 금융보안원 다음 주 감사",
-     "url": "https://imnews.imbc.com/news/2026/econo/article/6865227_36932.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "고개 숙인 금융보안원…금융권 해킹 수습 기준 보여줘야",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04080326645645064",
-     "source": "마켓인"
+     "title": "[위클리크립토] 금융위, 디지털자산 거래소에 ‘금융사 수준’ 보안 요구 外",
+     "url": "https://www.donga.com/news/It/article/all/20261113/135021081/1",
+     "source": "동아일보"
     }
    ],
    "safe": true
