@@ -167,14 +167,18 @@ def build(items, now, history):
         H.append(f"<p>{h_}</p>")
         T.append(t_ if t_ is not None else re.sub(r"<[^>]+>", "", html.unescape(h_)))
 
+    def mk(n, label):
+        H.append(f'<p class="ph-mark">📷 사진 {n} · {label}</p>'); T.append(f"[📷 사진 {n} · {label}]")
+    mk(1, "대표 이미지"); p("")
     p(esc(rnd.choice(INTROS).format(when=when, n=len(items))))
     p("")
-    H.append("<h3>📌 한눈에 보기</h3>"); T.append("📌 한눈에 보기")
+    H.append("<h3>📌 한눈에 보기</h3>"); T.append("━━━━━━━━━━━━\n📌 한눈에 보기")
     for r, i in enumerate(items, 1):
         badge = " 🆕" if i["new"] else (f" 🔥 {i['seen']}회째 화제" if i["seen"] >= 3 else "")
         p(f"<b>{r}. {esc(i['keyword'])}</b> · {i['emo']} {esc(i['cat'])} · 검색 {esc(traffic_label(i['traffic']))}{esc(badge)}")
     p("")
-    H.append("<h3>🔎 키워드별 정리</h3>"); T.append("🔎 키워드별 정리")
+    mk(2, "순위표"); p("")
+    H.append("<h3>🔎 키워드별 정리</h3>"); T.append("━━━━━━━━━━━━\n🔎 키워드별 정리")
     for r, i in enumerate(items, 1):
         H.append(f"<h4>{r}. {esc(i['keyword'])}</h4>"); T.append(f"{r}. {i['keyword']}")
         line = rnd.choice(CAT_LINE.get(i["cat"], CAT_LINE["기타"]))
@@ -189,13 +193,14 @@ def build(items, now, history):
                 T.append(f"- {n['title']}{' (' + n['source'] + ')' if n['source'] else ''} {n['url']}")
             H.append("</ul>")
         p("")
-    H.append("<h3>📊 이번 회차 흐름</h3>"); T.append("📊 이번 회차 흐름")
+    H.append("<h3>📊 이번 회차 흐름</h3>"); T.append("━━━━━━━━━━━━\n📊 이번 회차 흐름")
     p(esc(f"분야별로 보면 {cat_sum}이 순위에 올랐어요."))
     if new_k:
         p(esc(f"새로 등장한 키워드: {', '.join(new_k[:6])}"))
     if hot_k:
         p(esc("계속 화제인 키워드: " + ", ".join(f"{i['keyword']}({i['seen']}회)" for i in hot_k[:5])))
     p("")
+    mk(3, "분야별 흐름"); p("")
     p(esc(rnd.choice(OUTROS)))
     p("")
     stamp = now.strftime("%Y-%m-%d %H:%M")
@@ -204,7 +209,7 @@ def build(items, now, history):
     p(esc(" ".join("#" + t for t in tags)))
 
     return {"id": pid, "kind": "trend", "label": f"{ed_ko} 트렌드", "title": title, "html": "\n".join(H), "text": "\n".join(T), "tags": tags,
-            "keywords": kws, "edition": ed, "created": now.isoformat(), "images": [f"data/img/{pid}.png", f"data/img/{pid}-rank.png"],
+            "keywords": kws, "edition": ed, "created": now.isoformat(), "images": [],
             "items": [{k: i[k] for k in ("keyword", "traffic", "cat", "new", "seen", "news")} for i in items]}
 
 # ---------------------------------------------------------------- 카드 이미지
@@ -284,6 +289,35 @@ def rank_card(post, path):
     im.save(path, optimize=True)
     return True
 
+# ---------------------------------------------------------------- 트렌드 이미지 3장 (디자인 엔진 → 안 되면 기존 카드)
+def trend_images(post, out):
+    pid, c = post["id"], dt.datetime.fromisoformat(post["created"])
+    its = post["items"]
+    cnt = {}
+    for i in its:
+        cnt[i["cat"]] = cnt.get(i["cat"], 0) + 1
+    notes = []
+    new = [i["keyword"] for i in its if i.get("new")]
+    hot = [f"{i['keyword']}({i['seen']}회)" for i in its if i.get("seen", 0) >= 3]
+    if new: notes.append("새로 등장: " + ", ".join(new[:5]))
+    if hot: notes.append("계속 화제: " + ", ".join(hot[:4]))
+    notes.append(f"총 {len(its)}개 키워드 · Google 트렌드(대한민국)")
+    ed = "오전" if post["edition"] == "am" else "오후"
+    jobs = [("trend_cover", {"badge": f"{ed} 트렌드", "date": f"{c.month}월 {c.day}일", "items": its}, "trend", f"data/img/{pid}-1.jpg"),
+            ("table", {"title": f"{c.month}월 {c.day}일 {ed} 인기 검색어 TOP {len(its)}", "head": ["순위", "키워드", "분야", "검색량"],
+                       "rows": [[str(r), i["keyword"], i["cat"], traffic_label(i["traffic"]).replace(" 이상", "+")] for r, i in enumerate(its, 1)]}, "trend", f"data/img/{pid}-2.jpg"),
+            ("trend_dist", {"dist": sorted(cnt.items(), key=lambda x: -x[1]), "notes": notes}, "trend", f"data/img/{pid}-3.jpg")]
+    try:
+        import render
+        done = render.render_all(jobs, out)
+        if done:
+            return done
+    except Exception as ex:
+        print(f"  디자인 이미지 실패 → 기본 카드 사용: {ex}")
+    imgs = [f"data/img/{pid}.png", f"data/img/{pid}-rank.png"]
+    ok = (card(post, os.path.join(out, imgs[0])), rank_card(post, os.path.join(out, imgs[1])))
+    return [p for p, k in zip(imgs, ok) if k]
+
 # ---------------------------------------------------------------- 실시간 순위 스냅샷 (2시간마다)
 def snapshot(items, now, base):
     rp = os.path.join(base, "rank.json")
@@ -303,15 +337,23 @@ def snapshot(items, now, base):
     lg = json.load(open(lp, encoding="utf-8")) if os.path.exists(lp) else []
     lg.append({"t": now.strftime("%m-%d %H:%M"), "k": [x["keyword"] for x in out]})
     json.dump(lg[-24:], open(lp, "w", encoding="utf-8"), ensure_ascii=False)
+    # 날짜별 순위 기록 — 지우지 않고 계속 쌓음
+    hd = os.path.join(base, "rank_history")
+    os.makedirs(hd, exist_ok=True)
+    hp = os.path.join(hd, now.strftime("%Y-%m-%d") + ".json")
+    hist = json.load(open(hp, encoding="utf-8")) if os.path.exists(hp) else []
+    hist.append({"t": now.strftime("%Y-%m-%d %H:%M"), "k": [x["keyword"] for x in out], "n": [x["traffic"] for x in out]})
+    json.dump(hist, open(hp, "w", encoding="utf-8"), ensure_ascii=False)
     print(f"순위 갱신: {', '.join(x['keyword'] for x in out[:5])} …")
+    return out
 
 # ---------------------------------------------------------------- 실행
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rss", help="테스트용 RSS 파일")
     ap.add_argument("--out", default=".", help="저장소 폴더")
-    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "post", "theme"],
-                    help="rank = 실시간 순위만 · post = 순위 + 트렌드 글 · theme = 요일별 생활 테마 글")
+    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "hot", "post", "theme", "deep"],
+                    help="rank = 순위만 · hot = 순위 + 화제 글·인스타·스레드(매시간) · post = 트렌드 글 · deep = 심층 글 + 인스타·스레드")
     ap.add_argument("--edition", default=os.environ.get("EDITION", "auto"), choices=["auto", "am", "pm"])
     a = ap.parse_args()
 
@@ -325,6 +367,16 @@ def main():
     os.makedirs(os.path.join(base, "posts"), exist_ok=True)
     prune(a.out, now)
 
+    if a.mode == "deep":
+        import deep_post, social
+        post = deep_post.build(now, base, a.out)
+        art = post.pop("_article")
+        save_post(post, base)
+        ig, th = social.from_deep(post, art)
+        social.save(base, "insta", ig); social.save(base, "threads", th)
+        print("인스타·스레드 콘텐츠도 만들었습니다.")
+        return
+
     if a.mode == "theme":
         import theme_post
         save_post(theme_post.build(now, base, a.out, FONT_PATHS), base)
@@ -333,8 +385,17 @@ def main():
     items = parse(fetch_rss(a.rss))
     if len(items) < 3:
         raise SystemExit(f"인기 검색어가 {len(items)}개뿐이라 이번 회차는 건너뜁니다.")
-    snapshot(items, now, base)
+    snap = snapshot(items, now, base)
     if a.mode == "rank":
+        return
+    if a.mode == "hot":
+        import hot_post, social
+        post = hot_post.build(items, snap, now, base, a.out, is_safe, classify, traffic_label)
+        if post:
+            save_post(post, base)
+            ig, th = social.from_hot(post)
+            social.save(base, "insta", ig); social.save(base, "threads", th)
+            print("인스타·스레드 콘텐츠도 만들었습니다.")
         return
 
     safe = [i for i in items if is_safe(i)]
@@ -348,9 +409,7 @@ def main():
     hp = os.path.join(base, "history.json")
     history = json.load(open(hp, encoding="utf-8")) if os.path.exists(hp) else {}
     post = build(safe, now, history)
-    ok1 = card(post, os.path.join(a.out, post["images"][0]))
-    ok2 = rank_card(post, os.path.join(a.out, post["images"][1]))
-    post["images"] = [p for p, ok in zip(post["images"], (ok1, ok2)) if ok]
+    post["images"] = trend_images(post, a.out)
 
     for i in safe:
         h = history.setdefault(i["keyword"], {"first": post["id"], "seen": 0, "last": ""})
@@ -370,11 +429,24 @@ def save_post(post, base):
     lst.append({"id": post["id"], "kind": post.get("kind", "trend"), "label": post.get("label", ""), "title": post["title"],
                 "created": post["created"], "thumb": (post["images"] or [""])[0]})
     lst.sort(key=lambda x: x["created"], reverse=True)
-    json.dump(lst[:150], open(lst_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump(lst[:300], open(lst_p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    # 월별 보관함 — 모든 글 목록을 지우지 않고 계속 쌓음
+    ad = os.path.join(base, "archive")
+    os.makedirs(ad, exist_ok=True)
+    mon = post["created"][:7]
+    ap_ = os.path.join(ad, mon + ".json")
+    arc = json.load(open(ap_, encoding="utf-8")) if os.path.exists(ap_) else []
+    arc = [x for x in arc if x["id"] != post["id"]] + [lst[[x["id"] for x in lst].index(post["id"])]]
+    json.dump(arc, open(ap_, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+    ip = os.path.join(ad, "index.json")
+    idx = json.load(open(ip, encoding="utf-8")) if os.path.exists(ip) else []
+    idx = sorted(set(idx) | {mon}, reverse=True)
+    json.dump(idx, open(ip, "w", encoding="utf-8"))
     print(f"글 완료: {post['id']} · {post['title']} · 사진 {len(post['images'])}장")
 
-def prune(out, now, days=120):
-    """저장소가 너무 커지지 않게 120일 지난 사진은 지움 (글 내용은 남김)"""
+def prune(out, now, days=150):
+    """GitHub Pages 용량(1GB) 한도를 넘지 않게 150일 지난 사진만 저장소에서 지움.
+    글·순위·인스타·스레드 기록은 모두 남고, 사진 원본은 PC의 '전체자료' 폴더에 계속 쌓입니다."""
     d = os.path.join(out, "data", "img")
     if not os.path.isdir(d):
         return

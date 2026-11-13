@@ -64,7 +64,7 @@ header{position:sticky;top:0;z-index:10;background:var(--bg);padding:12px 0 8px}
 .steps li:before{content:counter(s);flex:none;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:13px;font-weight:800;display:grid;place-items:center;margin-top:1px}
 .preview{font-size:15px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
 .preview h3{font-size:17px;margin:20px 0 6px}.preview h4{font-size:16px;margin:16px 0 4px}
-.preview p{margin:0 0 6px;min-height:.6em}.preview ul{margin:2px 0 10px;padding-left:18px}.preview li{margin:3px 0;font-size:14px}
+.preview p{margin:0 0 6px;min-height:.6em}.preview .ph-mark{background:var(--blue-soft);color:var(--blue);font-weight:800;font-size:13.5px;border-radius:10px;padding:8px 12px;margin:6px 0}.preview table{border-collapse:collapse;font-size:13px;margin:6px 0 10px;width:100%}.preview th,.preview td{border:1px solid var(--line);padding:5px 6px;text-align:left}.preview ul{margin:2px 0 10px;padding-left:18px}.preview li{margin:3px 0;font-size:14px}
 details.more summary{list-style:none;font-weight:800;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
 details.more summary::-webkit-details-marker{display:none}
 details.more summary:after{content:"펼치기";font-size:13px;color:var(--blue);font-weight:700}
@@ -103,29 +103,48 @@ nav .dot{position:absolute;margin:2px 0 0 22px;width:8px;height:8px;border-radiu
 .empty{text-align:center;color:var(--mut);padding:40px 10px;font-size:15px}
 .note{font-size:12.5px;color:var(--mut);margin:8px 2px 0}
 [hidden]{display:none!important}
+nav button{font-size:10.5px}nav button i{font-size:21px}
+.feed{display:flex;flex-direction:column;gap:0}
+.sc-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}.sc-head .t{flex:1;min-width:0;font-weight:800;font-size:15.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cap{white-space:pre-wrap;font-size:14.5px;line-height:1.6;background:var(--soft);border-radius:14px;padding:12px 14px;max-height:9.6em;overflow:hidden;position:relative}
+.cap.open{max-height:none}
+.cap-more{font-size:13px;font-weight:800;color:var(--blue);margin:6px 2px 10px;display:inline-block}
+.thp{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}.thp:last-child{border:0}
+.thp .n{flex:none;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--bg);font-size:12px;font-weight:800;display:grid;place-items:center;margin-top:2px}
+.thp .x{flex:1;white-space:pre-wrap;font-size:14.5px;line-height:1.55}
+.thp button{flex:none;font-size:12.5px;font-weight:800;color:var(--blue);background:var(--blue-soft);border-radius:10px;padding:6px 10px}
+.mini{display:flex;gap:6px;overflow-x:auto;margin:10px -16px;padding:0 16px;scrollbar-width:none}.mini::-webkit-scrollbar{display:none}
+.mini img{height:150px;border-radius:12px;flex:none;background:var(--soft)}
+.filters{display:flex;gap:8px;margin:6px 0 4px;flex-wrap:wrap}
+.filters select,.filters input{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:9px 11px}
+.filters input{flex:1;min-width:140px}
+.seg{display:flex;background:var(--soft);border-radius:12px;padding:3px;gap:3px;margin:6px 0}.seg button{flex:1;padding:8px 0;border-radius:10px;font-size:13.5px;font-weight:800;color:var(--mut)}.seg button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
+.ok-chip{font-size:12px;font-weight:800;color:var(--new)}
 </style>
 </head>
 <body>
 <div class="wrap">
  <header>
   <div class="hrow">
-   <div style="flex:1;min-width:0"><h1 id="htitle">오늘의 글</h1><div class="upd" id="upd">불러오는 중…</div></div>
+   <div style="flex:1;min-width:0"><h1 id="htitle">블로그</h1><div class="upd" id="upd">불러오는 중…</div></div>
    <button class="iconbtn" id="refresh" aria-label="새로고침"><span>↻</span></button>
   </div>
  </header>
-
- <!-- 오늘의 글 -->
  <main id="v-post"></main>
- <!-- 실시간 순위 -->
+ <main id="v-hot" hidden></main>
+ <main id="v-insta" hidden></main>
+ <main id="v-threads" hidden></main>
  <main id="v-rank" hidden></main>
- <!-- 지난 글 -->
  <main id="v-arc" hidden></main>
 </div>
 
 <nav><div class="in">
- <button data-v="post" class="on"><i>📝</i>오늘의 글<span class="dot" id="dot" hidden></span></button>
- <button data-v="rank"><i>📈</i>실시간 순위</button>
- <button data-v="arc"><i>🗂</i>지난 글</button>
+ <button data-v="post" class="on"><i>📝</i>블로그<span class="dot" id="dot" hidden></span></button>
+ <button data-v="hot"><i>🔥</i>화제</button>
+ <button data-v="insta"><i>📸</i>인스타</button>
+ <button data-v="threads"><i>🧵</i>스레드</button>
+ <button data-v="rank"><i>📈</i>순위</button>
+ <button data-v="arc"><i>🗂</i>보관함</button>
 </div></nav>
 <div class="toast" id="toast"></div>
 
@@ -133,18 +152,21 @@ nav .dot{position:absolute;margin:2px 0 0 22px;width:8px;height:8px;border-radiu
 /* ===== 설정 ===== */
 const REPO = 'yunsub2002/yscomnaver', BRANCH = 'main';
 const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/`;
-const NAVER_BLOG = 'https://m.blog.naver.com/';           // 아이폰에 네이버 블로그 앱이 있으면 앱으로 열림
+const LINKS = {blog: 'https://m.blog.naver.com/', insta: 'https://www.instagram.com/', threads: 'https://www.threads.net/'};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const S = {posts: [], rank: null, post: null, view: 'post', files: {}, sel: null};
+const S = {posts: [], rank: null, view: 'post', sel: {post: null, hot: null}, cur: {}, files: {}, insta: null, threads: null,
+           months: [], arc: {month: '', kind: 'all', q: '', list: null}, social: {insta: '', threads: ''}};
+const TITLES = {post: '블로그', hot: '🔥 화제 글', insta: '📸 인스타', threads: '🧵 스레드', rank: '실시간 순위', arc: '보관함'};
 
-/* ===== 저장 (이 아이폰에만 기록: 어떤 글을 올렸는지) ===== */
+/* ===== 이 아이폰에만 저장: 올린 기록 ===== */
 const store = {
  get(){ try { return JSON.parse(localStorage.getItem('posted') || '{}') } catch(e){ return {} } },
- set(v){ try { localStorage.setItem('posted', JSON.stringify(v)) } catch(e){} }
+ set(v){ try { localStorage.setItem('posted', JSON.stringify(v)) } catch(e){} },
+ toggle(id){ const s = this.get(); if (s[id]) delete s[id]; else s[id] = new Date().toISOString(); this.set(s); return !!s[id]; }
 };
 
-/* ===== 데이터 불러오기: GitHub 원본 → 실패하면 같은 사이트 경로 ===== */
+/* ===== 데이터 불러오기 ===== */
 async function load(path){
  const bust = '?t=' + Math.floor(Date.now() / 60000);
  for (const base of [RAW, '']) {
@@ -153,36 +175,52 @@ async function load(path){
  throw new Error(path);
 }
 const img = p => (S.base ?? RAW) + p;
+const isHot = x => (x.kind || '') === 'hot';
+const blogPosts = () => S.posts.filter(x => !isHot(x));
+const hotPosts = () => S.posts.filter(isHot);
 
 async function refresh(){
  const b = $('#refresh'); b.classList.add('spin');
  try {
-  const [posts, rank] = await Promise.all([load('data/posts.json').catch(() => []), load('data/rank.json').catch(() => null)]);
-  S.posts = posts; S.rank = rank;
-  const id = S.sel || pickDefault(posts);
-  S.post = id ? await load(`data/posts/${id}.json`).catch(() => null) : null;
+  const [posts, rank, months] = await Promise.all([load('data/posts.json').catch(() => []), load('data/rank.json').catch(() => null), load('data/archive/index.json').catch(() => [])]);
+  S.posts = posts; S.rank = rank; S.months = months; S.insta = S.threads = null; S.cur = {};
+  await ensureView();
   render();
-  if (S.post) prefetch(S.post);
- } catch(e) {
-  $('#upd').textContent = '불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.';
- }
+ } catch(e) { $('#upd').textContent = '불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.'; }
  b.classList.remove('spin');
 }
 
-/* ===== 오늘 글 목록 (가장 최근 날짜의 글들) ===== */
-function todays(posts){
- if (!posts.length) return [];
- const day = posts[0].id.slice(0, 8);
- return posts.filter(x => x.id.slice(0, 8) === day).sort((a, b) => a.created < b.created ? -1 : 1);
+/* 화면에 필요한 데이터만 그때그때 불러오기 */
+async function ensureView(){
+ const v = S.view;
+ if (v === 'post' || v === 'hot') {
+  const list = v === 'post' ? todays(blogPosts()) : todays(hotPosts());
+  const id = S.sel[v] || pickDefault(list, v === 'hot');
+  if (id && (!S.cur[v] || S.cur[v].id !== id)) S.cur[v] = await load(`data/posts/${id}.json`).catch(() => null);
+  if (!id) S.cur[v] = null;
+ }
+ if ((v === 'insta' || v === 'threads') && !S[v]) {
+  const m = S.social[v];
+  S[v] = m ? (await load(`data/social/archive/${v}-${m}.json`).catch(() => [])).slice().reverse() : await load(`data/social/${v}.json`).catch(() => []);
+ }
+ if (v === 'arc' && !S.arc.list) {
+  if (!S.arc.month) S.arc.month = S.months[0] || '';
+  S.arc.list = S.arc.month ? (await load(`data/archive/${S.arc.month}.json`).catch(() => [])).slice().reverse() : S.posts;
+ }
 }
-function pickDefault(posts){
- const t = todays(posts), done = store.get();
- const x = t.find(p => !done[p.id]) || t[t.length - 1] || posts[0];
+
+/* ===== 날짜 · 시간 ===== */
+function todays(list){
+ if (!list.length) return [];
+ const day = list[0].id.slice(0, 8);
+ return list.filter(x => x.id.slice(0, 8) === day).sort((a, b) => a.created < b.created ? -1 : 1);
+}
+function pickDefault(list, newestFirst){
+ const done = store.get(), l = newestFirst ? list.slice().reverse() : list;
+ const x = l.find(p => !done[p.id]) || l[l.length - 1];
  return x && x.id;
 }
-const kindLabel = x => x.label || (x.id.endsWith('-am') ? '오전 트렌드' : x.id.endsWith('-pm') ? '오후 트렌드' : '테마 글');
-
-/* ===== 시간 표시 ===== */
+const kindLabel = x => x.label || (x.id.endsWith('-am') ? '오전 트렌드' : x.id.endsWith('-pm') ? '오후 트렌드' : '글');
 function when(iso){
  if (!iso) return '';
  const d = new Date(iso), now = new Date(), m = Math.round((now - d) / 60000);
@@ -195,60 +233,83 @@ function when(iso){
 
 /* ===== 화면 그리기 ===== */
 function render(){
- const posted = store.get();
- $('#dot').hidden = !todays(S.posts).some(x => !posted[x.id]);
- const t = {post: '오늘의 글', rank: '실시간 순위', arc: '지난 글'}[S.view];
- $('#htitle').textContent = t;
- $('#upd').textContent = S.view === 'rank' && S.rank ? `순위 업데이트 ${when(S.rank.updated)} · 2시간마다 갱신`
-  : S.post ? `글 만든 시각 ${when(S.post.created)} · 매일 3편 (오전·점심·오후)` : '아직 만들어진 글이 없어요';
- ['post', 'rank', 'arc'].forEach(v => $('#v-' + v).hidden = v !== S.view);
- document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === S.view));
- if (S.view === 'post') drawPost(posted);
- if (S.view === 'rank') drawRank();
- if (S.view === 'arc') drawArc(posted);
+ const posted = store.get(), v = S.view;
+ $('#dot').hidden = !todays(blogPosts()).some(x => !posted[x.id]);
+ $('#htitle').textContent = TITLES[v];
+ const up = {post: S.cur.post ? `글 만든 시각 ${when(S.cur.post.created)} · 하루 3편 (오전 트렌드·점심 심층·오후 트렌드)` : '아직 만들어진 글이 없어요',
+             hot: `매시간 지금 막 뜬 키워드로 자동 작성 · 최근 ${when((hotPosts()[0] || {}).created) || '-'}`,
+             insta: '심층 글은 카드뉴스, 화제 글은 이슈 카드로 자동 제작', threads: '첫 줄 후킹 → 내용 → 질문 순서의 연속 글',
+             rank: S.rank ? `순위 업데이트 ${when(S.rank.updated)} · 매시간 갱신` : '', arc: '만들어진 모든 글이 월별로 계속 쌓여요'}[v];
+ $('#upd').textContent = up;
+ ['post', 'hot', 'insta', 'threads', 'rank', 'arc'].forEach(x => $('#v-' + x).hidden = x !== v);
+ document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === v));
+ if (v === 'post') drawPost('post', todays(blogPosts()), posted);
+ if (v === 'hot') drawPost('hot', todays(hotPosts()).slice().reverse(), posted);
+ if (v === 'insta') drawSocial('insta', posted);
+ if (v === 'threads') drawSocial('threads', posted);
+ if (v === 'rank') drawRank();
+ if (v === 'arc') drawArc(posted);
 }
 
-function drawPost(posted){
- const p = S.post, el = $('#v-post'), td = todays(S.posts);
- const todayBar = td.length > 1 ? `<div class="sec-t" style="margin-top:6px">오늘 올릴 글 ${td.length}편 · ${td.filter(x => posted[x.id]).length}편 완료</div>
- <div class="today">${td.map(x => `<button class="tbtn ${p && x.id === p.id ? 'on' : ''} ${posted[x.id] ? 'done' : ''}" data-id="${esc(x.id)}">${esc(kindLabel(x))}<small>${posted[x.id] ? '✓ 올림' : '아직 안 올림'}</small></button>`).join('')}</div>` : '';
- if (!p) { el.innerHTML = `<div class="card empty">첫 글을 만드는 중이에요.<br>GitHub Actions 가 한 번 돌고 나면 여기에 나타나요.</div>`; return; }
- const done = posted[p.id], latest = td.some(x => x.id === p.id);
- const ims = p.images || [];
- el.innerHTML = todayBar + `
+function drawPost(v, td, posted){
+ const p = S.cur[v], el = $('#v-' + v);
+ const bar = td.length > 1 ? `<div class="sec-t" style="margin-top:6px">${v === 'hot' ? '오늘 만들어진 화제 글' : '오늘 올릴 글'} ${td.length}편 · ${td.filter(x => posted[x.id]).length}편 완료</div>
+ <div class="today">${td.map(x => `<button class="tbtn ${p && x.id === p.id ? 'on' : ''} ${posted[x.id] ? 'done' : ''}" data-pick="${esc(x.id)}" data-v="${v}">${esc(kindLabel(x))}<small>${posted[x.id] ? '✓ 올림' : (v === 'hot' ? esc(x.title.match(/'([^']+)'/)?.[1] || '') : '아직 안 올림')}</small></button>`).join('')}</div>` : '';
+ if (!p) { el.innerHTML = `<div class="card empty">${v === 'hot' ? '첫 화제 글을 기다리는 중이에요.<br>매시간 자동으로 만들어져요.' : '첫 글을 만드는 중이에요.'}</div>`; return; }
+ const done = posted[p.id], ims = p.images || [];
+ el.innerHTML = bar + `
  <div class="card">
   <span class="chip" style="margin-right:4px">${esc(kindLabel(p))}</span>
-  <span class="chip ${done ? 'done' : 'todo'}">${done ? '✓ 올림 완료 · ' + esc(when(done)) : (latest ? '● 올릴 차례' : '아직 안 올린 글')}</span>
-  ${!td.some(x => x.id === p.id) ? '<span class="chip" style="margin-left:4px">지난 글</span>' : ''}
+  <span class="chip ${done ? 'done' : 'todo'}">${done ? '✓ 올림 완료 · ' + esc(when(done)) : '● 올릴 차례'}</span>
   <div class="ptitle">${esc(p.title)}</div>
   <div class="btns">
-   <button class="btn pri wide" data-act="photos">📷 사진 ${ims.length}장 저장</button>
-   <button class="btn" data-act="title">📋 제목 복사</button>
-   <button class="btn" data-act="body">📋 본문 복사</button>
-   <button class="btn" data-act="tags">🏷 태그 복사</button>
-   <a class="btn blue" href="${NAVER_BLOG}" target="_blank" rel="noopener">N 블로그 열기</a>
+   <button class="btn pri wide" data-act="photos" data-key="${esc(p.id)}">📷 사진 ${ims.length}장 저장</button>
+   <button class="btn" data-act="copy" data-what="title">📋 제목 복사</button>
+   <button class="btn" data-act="copy" data-what="body">📋 본문 복사</button>
+   <button class="btn" data-act="copy" data-what="tags">🏷 태그 복사</button>
+   <a class="btn blue" href="${LINKS.blog}" target="_blank" rel="noopener">N 블로그 열기</a>
   </div>
  </div>
  ${ims.length ? `<div class="sec-t">사진 · 길게 누르면 하나씩 저장할 수도 있어요</div>
- <div class="photos">${ims.map((s, i) => `<div class="ph${/-rank/.test(s) ? ' tall' : ''}"><img src="${esc(img(s))}" alt="사진 ${i + 1}" loading="lazy"><span class="n">${i + 1}</span></div>`).join('')}</div>` : ''}
+ <div class="photos">${ims.map((s, i) => `<div class="ph"><img src="${esc(img(s))}" alt="사진 ${i + 1}" loading="lazy"><span class="n">${i + 1}</span></div>`).join('')}</div>` : ''}
  <div class="card">
   <details class="more"${done ? '' : ' open'}><summary>네이버 블로그에 올리는 순서</summary>
   <ol class="steps" style="margin-top:8px">
-   <li><span><b>사진 저장</b>을 누르고 공유 화면에서 ‘이미지 저장’을 고르세요.</span></li>
-   <li><span><b>블로그 열기</b> → 네이버 블로그 앱에서 글쓰기(✏️)를 누르세요.</span></li>
-   <li><span><b>제목 복사</b> 후 제목 칸에 붙여넣기.</span></li>
-   <li><span><b>본문 복사</b> 후 본문 칸에 붙여넣기.</span></li>
-   <li><span>사진 버튼으로 방금 저장한 사진 ${ims.length}장을 넣으세요.</span></li>
-   <li><span>발행 화면의 태그 칸에 <b>태그 복사</b>한 내용을 붙여넣고 발행!</span></li>
-   <li><span>다 올렸으면 아래 <b>올렸어요</b>를 눌러 체크해 두세요.</span></li>
+   <li><span><b>사진 저장</b> → 공유 화면에서 ‘이미지 저장’</span></li>
+   <li><span><b>블로그 열기</b> → 글쓰기(✏️)</span></li>
+   <li><span><b>제목 복사</b>·<b>본문 복사</b>를 각각 붙여넣기</span></li>
+   <li><span>본문 속 <b>[📷 사진 N]</b> 자리에 사진 N번을 넣고 표시 줄은 지우기 (사진 ${ims.length}장)</span></li>
+   <li><span>발행 화면 태그 칸에 <b>태그 복사</b> 붙여넣고 발행 → 아래 <b>올렸어요</b> 체크</span></li>
   </ol></details>
  </div>
- <div class="card">
-  <details class="more"><summary>본문 미리보기</summary><div class="preview" style="margin-top:10px">${p.html}</div></details>
- </div>
- <button class="donebtn ${done ? 'on' : ''}" data-act="done">${done ? '✓ 네이버에 올렸어요 (취소하려면 누르기)' : '✅ 네이버에 올렸어요'}</button>
- ${p.kind === 'theme' ? `<p class="note">사진: ${esc((p.photo_credits || []).map(c => c.credit).join(' / ') || '자체 제작')} — 상업적 이용이 허용된 무료 사진이에요. 본문 끝의 사진 출처 줄은 그대로 두는 걸 권장해요.</p>` : ''}
- <p class="note">${p.kind === 'theme' ? '글은 직접 쓴 원고를 바탕으로 자동 구성돼요.' : '순위 출처: Google 트렌드(대한민국). 사건·사고·정치 키워드는 자동으로 뺐어요.'} ${p.kind === 'theme' ? '' : ' 기사 제목·링크는 각 언론사 원문입니다.'} 본문은 붙여넣은 뒤 내 말투로 한두 줄 다듬어 주면 더 좋아요.</p>`;
+ <div class="card"><details class="more"><summary>본문 미리보기</summary><div class="preview" style="margin-top:10px">${p.html}</div></details></div>
+ <button class="donebtn ${done ? 'on' : ''}" data-act="done" data-key="${esc(p.id)}">${done ? '✓ 네이버에 올렸어요 (취소하려면 누르기)' : '✅ 네이버에 올렸어요'}</button>
+ <p class="note">${p.kind === 'deep' ? `직접 쓴 심층 원고 · 약 ${(p.chars || 0).toLocaleString()}자 · 사진은 모두 자체 제작 디자인 이미지예요.` : '순위 출처: Google 트렌드(대한민국). 사건·사고·재판·정치 키워드는 자동으로 뺐어요. 기사 제목·링크는 각 언론사 원문입니다.'} 붙여넣은 뒤 내 말투로 한두 줄 덧붙이면 더 잘 읽혀요.</p>`;
+}
+
+function monthSelect(cur, attr){
+ return `<select data-${attr}><option value="">최근 300개</option>${S.months.map(m => `<option value="${m}" ${m === cur ? 'selected' : ''}>${m.replace('-', '년 ')}월 전체</option>`).join('')}</select>`;
+}
+
+function drawSocial(kind, posted){
+ const el = $('#v-' + kind), list = S[kind] || [];
+ const top = `<div class="filters">${monthSelect(S.social[kind], 'smonth')}<a class="btn blue" style="min-height:42px;flex:none;padding:0 14px" href="${LINKS[kind]}" target="_blank" rel="noopener">${kind === 'insta' ? '인스타 열기' : '스레드 열기'}</a></div>`;
+ if (!list.length) { el.innerHTML = top + `<div class="card empty">아직 만들어진 콘텐츠가 없어요.<br>심층 글(점심)·화제 글(매시간)이 만들어질 때 함께 생겨요.</div>`; return; }
+ el.innerHTML = top + list.slice(0, 40).map((x, i) => {
+  const done = posted[x.id], ims = x.images || [];
+  const head = `<div class="sc-head"><span class="chip">${x.src === 'deep' ? '카드뉴스' : '🔥 이슈'}</span><span class="t">${esc(x.title)}</span>${done ? '<span class="ok-chip">✓ 올림</span>' : ''}</div>
+   <div class="upd" style="margin:-6px 0 4px">${esc(x.label || '')} · ${esc(when(x.created))} · 사진 ${ims.length}장</div>
+   <div class="mini">${ims.map(s => `<img src="${esc(img(s))}" loading="lazy" alt="">`).join('')}</div>`;
+  const btns = `<div class="btns" style="margin-top:10px">
+    <button class="btn pri" data-act="sphotos" data-kind="${kind}" data-i="${i}">📷 사진 저장</button>
+    <button class="btn" data-act="scopy" data-kind="${kind}" data-i="${i}">${kind === 'insta' ? '📋 캡션 복사' : '📋 전체 복사'}</button>
+    ${kind === 'insta' ? `<button class="btn" data-act="tagcopy" data-i="${i}">🏷 해시태그만</button>` : ''}
+    <button class="btn ${done ? '' : 'blue'}" data-act="done" data-key="${esc(x.id)}" ${kind === 'threads' ? 'style="grid-column:2"' : ''}>${done ? '✓ 올림 (취소)' : '✅ 올렸어요'}</button></div>`;
+  const body = kind === 'insta'
+   ? `<div class="cap" id="cap${i}">${esc(x.caption)}</div><button class="cap-more" data-act="capmore" data-i="${i}">캡션 전체 보기</button>`
+   : `<div>${x.posts.map((t, j) => `<div class="thp"><span class="n">${j + 1}</span><span class="x">${esc(t)}</span><button data-act="tcopy" data-i="${i}" data-j="${j}">복사</button></div>`).join('')}</div>`;
+  return `<div class="card">${head}${body}${btns}</div>`;
+ }).join('') + `<p class="note">${kind === 'insta' ? '인스타: 사진 저장 → 인스타 앱 새 게시물에서 순서대로 선택 → 캡션 붙여넣기. 해시태그는 첫 댓글에 따로 달아도 좋아요.' : '스레드: 1번을 먼저 올리고, 나머지는 각 글의 ‘복사’로 이어서 답글(스레드에 추가)로 붙여넣으세요. 사진은 1번 글에 넣는 걸 추천해요.'} 기사 관련 내용은 원문으로 사실을 꼭 확인하세요.</p>`;
 }
 
 function drawRank(){
@@ -261,18 +322,23 @@ function drawRank(){
    <span class="kw"><b>${esc(x.keyword)}${x.safe === false ? '<span class="tag-x">블로그 제외</span>' : ''}</b><span>${esc(x.emo)} ${esc(x.cat)} · 검색 ${esc(x.label)}</span></span>${mv(x)}</button>
   <div class="news" id="nw${i}" hidden>${(x.news || []).map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} <small>${esc(n.source)}</small></a>`).join('')}
    <a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
- </div><p class="note">키워드를 누르면 관련 기사가 열려요. ▲▼ 는 2시간 전 순위와 비교한 변화예요. ‘블로그 제외’는 사건·사고·재판·정치 관련이라 블로그 글에서 뺀 키워드예요.</p>`;
+ </div><p class="note">키워드를 누르면 관련 기사가 열려요. ▲▼ 는 직전 갱신과 비교한 변화예요. ‘블로그 제외’는 사건·사고·재판·정치 관련이라 글에서 뺀 키워드예요. 시간별 순위 기록은 모두 저장소에 쌓여요.</p>`;
 }
 
 function drawArc(posted){
- const el = $('#v-arc');
- if (!S.posts.length) { el.innerHTML = `<div class="card empty">아직 만들어진 글이 없어요.</div>`; return; }
- el.innerHTML = `<div class="card" style="padding:6px 14px">${S.posts.map(x => `
-  <button class="arc" data-id="${esc(x.id)}"><img src="${esc(x.thumb ? img(x.thumb) : '')}" alt="" loading="lazy">
-   <span style="flex:1;min-width:0"><span class="t">${esc(x.title)}</span><span class="s">${esc(kindLabel(x))} · ${posted[x.id] ? '✓ 올림' : '안 올림'} · ${esc(when(x.created))}</span></span></button>`).join('')}</div>`;
+ const el = $('#v-arc'), A = S.arc, all = A.list || [];
+ const q = A.q.trim().toLowerCase();
+ const list = all.filter(x => (A.kind === 'all' || (A.kind === 'hot' ? isHot(x) : !isHot(x))) && (!q || x.title.toLowerCase().includes(q)));
+ el.innerHTML = `<div class="filters">${monthSelect(A.month, 'amonth').replace('최근 300개', '최근 글')}<input id="aq" placeholder="제목 검색" value="${esc(A.q)}"></div>
+ <div class="seg">${[['all', '전체'], ['blog', '블로그'], ['hot', '화제']].map(([k, l]) => `<button class="${A.kind === k ? 'on' : ''}" data-akind="${k}">${l}</button>`).join('')}</div>
+ <div class="sec-t">${list.length}편 · 올림 ${list.filter(x => posted[x.id]).length}편</div>
+ ${list.length ? `<div class="card" style="padding:6px 14px">${list.slice(0, 300).map(x => `
+  <button class="arc" data-open="${esc(x.id)}" data-hot="${isHot(x) ? 1 : 0}"><img src="${esc(x.thumb ? img(x.thumb) : '')}" alt="" loading="lazy">
+   <span style="flex:1;min-width:0"><span class="t">${esc(x.title)}</span><span class="s">${esc(kindLabel(x))} · ${posted[x.id] ? '✓ 올림' : '안 올림'} · ${esc(when(x.created))}</span></span></button>`).join('')}</div>` : '<div class="card empty">해당하는 글이 없어요.</div>'}
+ <p class="note">글·순위·인스타·스레드는 모두 월별 보관함에 지우지 않고 쌓여요. 사진 원본은 PC의 ‘전체자료’ 폴더로도 매일 모을 수 있어요.</p>`;
 }
 
-/* ===== 복사 (아이폰 사파리 대응) ===== */
+/* ===== 복사 ===== */
 async function copy(text, what){
  let ok = false;
  try { await navigator.clipboard.writeText(text); ok = true; } catch(e) {
@@ -281,57 +347,74 @@ async function copy(text, what){
   const r = document.createRange(); r.selectNodeContents(ta); const s = getSelection(); s.removeAllRanges(); s.addRange(r);
   ta.setSelectionRange(0, text.length); ok = document.execCommand('copy'); ta.remove();
  }
- toast(ok ? `${what} 복사했어요` : '복사하지 못했어요. 미리보기에서 길게 눌러 복사해 주세요.');
+ toast(ok ? `${what} 복사했어요` : '복사하지 못했어요. 길게 눌러 복사해 주세요.');
 }
 
-/* ===== 사진 저장: 공유 시트(이미지 저장) → 안 되면 새 탭으로 열기 ===== */
-async function prefetch(p){
- const key = p.id;
- if (S.files[key]) return;
- try {
-  S.files[key] = await Promise.all((p.images || []).map(async (s, i) => {
-   const b = await (await fetch(img(s))).blob();
-   const ext = (s.split('.').pop() || 'png').toLowerCase();
-   return new File([b], `${p.id}-${i + 1}.${ext}`, {type: b.type || (ext === 'jpg' ? 'image/jpeg' : 'image/png')});
-  }));
- } catch(e) { S.files[key] = null; }
+/* ===== 사진 저장 (공유 시트 → 안 되면 새 탭) ===== */
+async function getFiles(key, paths){
+ if (S.files[key]) return S.files[key];
+ S.files[key] = await Promise.all(paths.map(async (s, i) => {
+  const b = await (await fetch(img(s))).blob();
+  const ext = (s.split('.').pop() || 'jpg').toLowerCase();
+  return new File([b], `${key}-${i + 1}.${ext}`, {type: b.type || (ext === 'png' ? 'image/png' : 'image/jpeg')});
+ }));
+ return S.files[key];
 }
-async function savePhotos(){
- const p = S.post, files = S.files[p.id];
+async function savePhotos(key, paths){
+ const had = !!S.files[key];
+ let files = null;
+ try { files = await getFiles(key, paths); } catch(e) {}
  if (files && navigator.canShare && navigator.canShare({files})) {
-  try { await navigator.share({files}); return; } catch(e) { if (e.name === 'AbortError') return; }
+  try { await navigator.share({files}); return; }
+  catch(e) { if (e.name === 'AbortError') return; if (!had) { toast('사진 준비 완료! 한 번 더 눌러 주세요'); return; } }
  }
- if (!files) prefetch(p);
- (p.images || []).forEach(s => window.open(img(s), '_blank'));
+ paths.forEach(s => window.open(img(s), '_blank'));
  toast('사진을 길게 눌러 ‘사진 앱에 저장’을 고르세요');
 }
-
 let tt;
 function toast(m){ const t = $('#toast'); t.textContent = m; t.classList.add('show'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('show'), 1900); }
 
 /* ===== 버튼 처리 ===== */
 document.addEventListener('click', async e => {
  const nb = e.target.closest('nav button');
- if (nb) { S.view = nb.dataset.v; if (S.view === 'post' && S.sel && S.posts[0] && S.sel !== S.posts[0].id && nb.classList.contains('on')) { S.sel = null; return refresh(); } render(); scrollTo(0, 0); return; }
+ if (nb) {
+  const v = nb.dataset.v;
+  if (v === S.view && (v === 'post' || v === 'hot')) S.sel[v] = null;    // 같은 탭 다시 누르면 오늘 글로
+  S.view = v; await ensureView(); render(); scrollTo(0, 0); return;
+ }
+ const pk = e.target.closest('[data-pick]');
+ if (pk) { const v = pk.dataset.v; S.sel[v] = pk.dataset.pick; await ensureView(); render(); prefetchCur(v); return; }
+ const op = e.target.closest('[data-open]');
+ if (op) { const v = op.dataset.hot === '1' ? 'hot' : 'post'; S.sel[v] = op.dataset.open; S.view = v; S.cur[v] = null; await ensureView(); render(); prefetchCur(v); scrollTo(0, 0); return; }
+ const ak = e.target.closest('[data-akind]');
+ if (ak) { S.arc.kind = ak.dataset.akind; render(); return; }
  const a = e.target.closest('[data-act]');
  if (a) {
-  const p = S.post, act = a.dataset.act;
-  if (act === 'title') copy(p.title, '제목을');
-  if (act === 'body') copy(p.text, '본문을');
-  if (act === 'tags') copy(p.tags.map(t => '#' + t).join(' '), '태그를');
-  if (act === 'photos') savePhotos();
-  if (act === 'done') { const s = store.get(); if (s[p.id]) delete s[p.id]; else s[p.id] = new Date().toISOString(); store.set(s); render(); toast(s[p.id] ? '체크했어요 👍' : '체크를 풀었어요'); }
+  const act = a.dataset.act, v = S.view, p = S.cur[v];
+  if (act === 'copy') { const w = a.dataset.what; copy(w === 'title' ? p.title : w === 'body' ? p.text : p.tags.map(t => '#' + t).join(' '), {title: '제목을', body: '본문을', tags: '태그를'}[w]); }
+  if (act === 'photos') savePhotos(p.id, p.images || []);
+  if (act === 'done') { const on = store.toggle(a.dataset.key); render(); toast(on ? '체크했어요 👍' : '체크를 풀었어요'); }
+  const it = (S[a.dataset.kind || v] || [])[+a.dataset.i];
+  if (act === 'sphotos' && it) savePhotos(it.id, it.images || []);
+  if (act === 'scopy' && it) copy(a.dataset.kind === 'insta' ? it.caption : it.posts.join('\n\n'), a.dataset.kind === 'insta' ? '캡션을' : '스레드 전체를');
+  if (act === 'tagcopy' && it) copy(it.tags.map(t => '#' + t).join(' '), '해시태그를');
+  if (act === 'tcopy' && it) copy(it.posts[+a.dataset.j], `${+a.dataset.j + 1}번 글을`);
+  if (act === 'capmore') { const c = $('#cap' + a.dataset.i); c.classList.toggle('open'); a.textContent = c.classList.contains('open') ? '접기' : '캡션 전체 보기'; }
   return;
  }
  const rk = e.target.closest('[data-rk]');
- if (rk) { const n = $('#nw' + rk.dataset.rk); n.hidden = !n.hidden; return; }
- const ar = e.target.closest('[data-id]');
- if (ar) { S.sel = ar.dataset.id; S.view = 'post'; S.post = await load(`data/posts/${S.sel}.json`).catch(() => S.post); render(); prefetch(S.post); scrollTo(0, 0); }
+ if (rk) { const n = $('#nw' + rk.dataset.rk); n.hidden = !n.hidden; }
 });
-$('#refresh').addEventListener('click', () => { S.sel = null; refresh(); });
+document.addEventListener('change', async e => {
+ if (e.target.matches('[data-smonth]')) { const k = S.view; S.social[k] = e.target.value; S[k] = null; await ensureView(); render(); }
+ if (e.target.matches('[data-amonth]')) { S.arc.month = e.target.value; S.arc.list = null; if (!S.arc.month) S.arc.list = S.posts; await ensureView(); render(); }
+});
+document.addEventListener('input', e => { if (e.target.id === 'aq') { S.arc.q = e.target.value; const pos = e.target.selectionStart; render(); const i = $('#aq'); i.focus(); i.setSelectionRange(pos, pos); } });
+function prefetchCur(v){ const p = S.cur[v]; if (p) getFiles(p.id, p.images || []).catch(() => {}); }
+$('#refresh').addEventListener('click', () => { S.sel = {post: null, hot: null}; refresh(); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
 setInterval(() => { if (document.visibilityState === 'visible') refresh(); }, 10 * 60 * 1000);
-refresh();
+refresh().then(() => prefetchCur('post'));
 </script>
 </body>
 </html>
