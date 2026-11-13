@@ -1,16 +1,44 @@
 {
- "updated": "2026-11-13T16:53:00+09:00",
- "prev_updated": "2026-11-13T15:57:00+09:00",
+ "updated": "2026-11-13T18:17:00+09:00",
+ "prev_updated": "2026-11-13T16:53:00+09:00",
  "items": [
   {
    "rank": 1,
+   "keyword": "sk해운",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "up",
+   "delta": 1,
+   "news": [
+    {
+     "title": "국산 LNG선 결함, 가스公 2685억 배상 판결…2심서 800억 늘어",
+     "url": "https://www.chosun.com/economy/economy_general/2026/11/13/MGW2ELZPSVG6DFFWJELTEZSFKI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "가스공사 LNG 화물창 설계 결함 책임, SK해운에 2204억 배상 판결 나와",
+     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=451990",
+     "source": "비즈니스포스트"
+    },
+    {
+     "title": "'LNG선 화물창 결함' 가스공사 2심서 배상액↑…\"2천600억 지급\"",
+     "url": "https://www.yna.co.kr/view/AKR20261113086900004",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 2,
    "keyword": "광교 신도시",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "GH, '국내 1호' 광교 지분적립형 분양주택 240가구 모집에 2만946건 몰려",
@@ -31,154 +59,138 @@
    "safe": true
   },
   {
-   "rank": 2,
-   "keyword": "sk해운",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "국산 LNG선 결함, 가스公 2685억 배상 판결…2심서 800억 늘어",
-     "url": "https://www.chosun.com/economy/economy_general/2026/11/13/MGW2ELZPSVG6DFFWJELTEZSFKI/",
-     "source": "조선일보"
-    },
-    {
-     "title": "[단독] “가스공사, 2200억원 물어줘라”…‘한국형 LNG 화물창’ 초유의 소송전 SK해운 웃었다 [세상&]",
-     "url": "https://biz.heraldcorp.com/article/10935820",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "법원 \"'한국형 LNG선 하자' 가스공사, SK해운에 2200억 배상\"",
-     "url": "https://www.news1.kr/society/court-prosecution/6353183",
-     "source": "뉴스1"
-    }
-   ],
-   "safe": false
-  },
-  {
    "rank": 3,
-   "keyword": "블랙웰",
+   "keyword": "주간조선",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "down",
-   "delta": -1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "“오픈AI, 美 의회 中 AI칩 수출 제한 법안 지지”",
-     "url": "https://biz.chosun.com/it-science/ict/2026/11/13/W3GSV2HRNVCW5HMKBABFHSBOEA/",
-     "source": "Chosunbiz"
+     "title": "2934 목차",
+     "url": "https://weekly.chosun.com/bbs/view.html?idxno=284",
+     "source": "주간조선"
     },
     {
-     "title": "미국의 반도체 수출 규제 강화 우려에 중국 AI 주식 급락",
-     "url": "https://kr.investing.com/news/stock-market-news/article-2174451",
-     "source": "Investing.com 한국어"
+     "title": "반도체 물 ‘속도전’의 숙제…가뭄 검증도, 농민 설득도, 기업 절수도 ‘아직’",
+     "url": "https://www.khan.co.kr/article/202611130600011",
+     "source": "경향신문"
     },
     {
-     "title": "美 무역대표 \"엔비디아 우려…핵심 기술자산 美나 동맹국에 있어야\"",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444506",
-     "source": "연합인포맥스"
+     "title": "엉뚱한 영산강물 더럽다고 손가락질한 주간조선",
+     "url": "https://www.mindlenews.com/news/articleView.html?idxno=23169",
+     "source": "세상을 바꾸는 시민언론 민들레"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "익산",
+   "keyword": "공인중개사",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"기업 고충 바로바로 해결\"…익산시 '기업 119 동행단' 가동",
-     "url": "https://www.yna.co.kr/view/AKR20261113122700055",
-     "source": "연합뉴스"
+     "title": "등기부 열람료 700원→1100원… 공인 중개사들 국회서 “철회하라”",
+     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/13/73ITORNBEVDAXPOPULZKAL64CA/",
+     "source": "Chosunbiz"
     },
     {
-     "title": "익산 기업 고충 즉각 해결…'기업119 동행단' 뛴다",
-     "url": "https://www.yna.co.kr/view/RPR20261113007300353",
-     "source": "연합뉴스"
+     "title": "등기 열람 수수료 700원 →1100원… 공인중개사들 반발",
+     "url": "https://www.donga.com/news/Society/article/all/20261113/135017604/2",
+     "source": "동아일보"
     },
     {
-     "title": "오산 가장3산단 기업들 \"출퇴근 교통 불편 개선해 달라\"",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867229",
-     "source": "뉴시스"
+     "title": "대법원, 25년 만에 등기부등본 열람·발급 수수료 400원 인상",
+     "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=229284",
+     "source": "법률신문"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "035420",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "Naver's Q3 operating profit falls 21% as it bets on 2 trillion won deal, AI agent app and logistics subsidiary",
+     "url": "https://www.mt.co.kr/en/tech/2026/11/12/2026111215474393674",
+     "source": "머니투데이"
+    },
+    {
+     "title": "Naver Establishes Logistics Subsidiary to Challenge Coupang's Rocket Delivery",
+     "url": "https://www.chosun.com/english/industry-en/2026/11/13/NIY2CTCHFFCZHLNWVLTNUGBS74/",
+     "source": "조선일보"
+    },
+    {
+     "title": "NAVER's Core Ad Business Wavers... Personalized AI Agents as Its Big Bet",
+     "url": "https://www.asiae.co.kr/en/article/IT/2026111310295830817",
+     "source": "아시아경제"
     }
    ],
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "구본현",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "’주가조작’ 범LG가 3세 구본현 검거…해외도피 8년 만",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261113142509Zjm",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "‘145억원 주가조작’ 혐의 재벌 3세 구본현, 8년 해외도피 끝에 캄보디아서 검거",
-     "url": "https://www.khan.co.kr/article/202611131437001",
-     "source": "경향신문"
-    },
-    {
-     "title": "8년간 해외도피 범LG家 3세 구본현 캄보디아서 송환…주가조작 혐의",
-     "url": "https://www.kyeonggi.com/article/20261113580276",
-     "source": "경기일보"
-    }
-   ],
-   "safe": false
-  },
-  {
    "rank": 6,
-   "keyword": "리트 만점자 ai 안경",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "down",
-   "delta": -3,
-   "news": [
-    {
-     "title": "‘AI 안경 의혹’ 세무사 수석 합격자, CCTV는 없었지만 감독관 바로 앞에서 시험",
-     "url": "https://www.khan.co.kr/article/202611131019001",
-     "source": "경향신문"
-    },
-    {
-     "title": "63회 세무사시험 수석 한원석씨 “매일 새벽 2시30분 싸주신 김밥...어머니가 합격 시켰다”",
-     "url": "https://www.intn.co.kr/news/articleView.html?idxno=3000154",
-     "source": "Daily NTN"
-    },
-    {
-     "title": "“너도 AI 안경?” 의심에 리트 만점자 “수능 국어 생중계 풀이”",
-     "url": "https://www.hani.co.kr/arti/society/society_general/1287171.html",
-     "source": "한겨레"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "로보택시",
+   "keyword": "문화누리카드",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "탁재훈",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "장서희, 탁재훈과 ‘베드신’ 찍나…“시키는 대로 하겠다”",
+     "url": "https://www.twig24.com/news/entertainments/celebrity/2026/11/12/20261112500312",
+     "source": "TWIG"
+    },
+    {
+     "title": "장서희, 日 AV 배우 오구라 유나 작품 찾아봤다…\"안 귀엽더라\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111317585223286",
+     "source": "머니투데이"
+    },
+    {
+     "title": "'54세 싱글' 장서희 \"꽃미남보다 남자다운 사람 좋아\" 이상형 고백",
+     "url": "https://www.news1.kr/entertain/celebrity-topic/6351759",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "로보택시",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "\"운전대도, 페달도 없다\"‥테슬라 사이버캡 국내 첫 공개에도 \"판매 계획은 없다\"",
@@ -199,14 +211,14 @@
    "safe": true
   },
   {
-   "rank": 8,
+   "rank": 9,
    "keyword": "이창호",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "\"이창호 9단과의 대국은 양보합니다\"",
@@ -227,14 +239,14 @@
    "safe": true
   },
   {
-   "rank": 9,
+   "rank": 10,
    "keyword": "이혼숙려캠프",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "이호선 “헛소리 마요” 경고… 숙소 발칵 뒤집혀 (이혼숙려캠프)",
@@ -250,34 +262,6 @@
      "title": "“여자가 예쁘면 남사친 절대 불가”…누구보다 보수적인 캐나다 남편 (이숙캠)",
      "url": "https://sports.khan.co.kr/article/202611130759003",
      "source": "스포츠경향"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "국기",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -2,
-   "news": [
-    {
-     "title": "北, 헌법 개정해 인공기 비율 변경…1948년 건국 이후 처음(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261113030351504",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "北, 78년 만에 국기 비율 변경…김정은 시대 차별화 포석",
-     "url": "https://www.koreadaily.com/article/20261112193925025",
-     "source": "미주중앙일보"
-    },
-    {
-     "title": "북한, 선전매체에 헌법 전문 공개…’두 국가’ 공식화",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261112053319dE2",
-     "source": "연합뉴스TV"
     }
    ],
    "safe": true
