@@ -119,6 +119,8 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
 .filters select,.filters input{font:inherit;font-size:15px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:9px 11px}
 .filters input{flex:1;min-width:140px}
 .seg{display:flex;background:var(--soft);border-radius:12px;padding:3px;gap:3px;margin:6px 0}.seg button{flex:1;padding:8px 0;border-radius:10px;font-size:13.5px;font-weight:800;color:var(--mut)}.seg button.on{background:var(--card);color:var(--ink);box-shadow:var(--shadow)}
+.aibtn{flex:none;align-self:center;margin-right:8px;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,#ff4d2e,#ffb020);color:#fff;font-weight:800;font-size:13.5px;text-decoration:none;white-space:nowrap}
+.news .ai{display:inline-block;margin:6px 10px 0 0;padding:6px 11px;border-radius:999px;background:linear-gradient(90deg,#ff4d2e,#ffb020);color:#fff;font-weight:800;text-decoration:none}
 .ok-chip{font-size:12px;font-weight:800;color:var(--new)}
 </style>
 </head>
@@ -127,6 +129,7 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
  <header>
   <div class="hrow">
    <div style="flex:1;min-width:0"><h1 id="htitle">블로그</h1><div class="upd" id="upd">불러오는 중…</div></div>
+   <a class="aibtn" href="https://claude.ai/artifact/89NTv8EgNK9gNHkgXd1qZw" target="_blank" rel="noopener">✍️ AI 글쓰기</a>
    <button class="iconbtn" id="refresh" aria-label="새로고침"><span>↻</span></button>
   </div>
  </header>
@@ -312,6 +315,8 @@ function drawSocial(kind, posted){
  }).join('') + `<p class="note">${kind === 'insta' ? '인스타: 사진 저장 → 인스타 앱 새 게시물에서 순서대로 선택 → 캡션 붙여넣기. 해시태그는 첫 댓글에 따로 달아도 좋아요.' : '스레드: 1번을 먼저 올리고, 나머지는 각 글의 ‘복사’로 이어서 답글(스레드에 추가)로 붙여넣으세요. 사진은 1번 글에 넣는 걸 추천해요.'} 기사 관련 내용은 원문으로 사실을 꼭 확인하세요.</p>`;
 }
 
+const GEN_URL = 'https://claude.ai/artifact/89NTv8EgNK9gNHkgXd1qZw';
+function genLink(k){ return GEN_URL + '#k-' + Array.from(new TextEncoder().encode(String(k||''))).map(b => b.toString(16).padStart(2,'0')).join(''); }
 function drawRank(){
  const r = S.rank, el = $('#v-rank');
  if (!r || !r.items || !r.items.length) { el.innerHTML = `<div class="card empty">순위 데이터를 기다리는 중이에요.</div>`; return; }
@@ -321,7 +326,7 @@ function drawRank(){
   <button class="rk" data-rk="${i}"><span class="no ${x.rank <= 3 ? 'top' : ''}">${x.rank}</span>
    <span class="kw"><b>${esc(x.keyword)}${x.safe === false ? '<span class="tag-x">블로그 제외</span>' : ''}</b><span>${esc(x.emo)} ${esc(x.cat)} · 검색 ${esc(x.label)}</span></span>${mv(x)}</button>
   <div class="news" id="nw${i}" hidden>${(x.news || []).map(n => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)} <small>${esc(n.source)}</small></a>`).join('')}
-   <a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
+   <a class="ai" href="${genLink(x.keyword)}" target="_blank" rel="noopener">✍️ 이 키워드로 AI 글쓰기</a><a class="q" href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.keyword)}" target="_blank" rel="noopener">네이버에서 ‘${esc(x.keyword)}’ 검색 →</a></div>`).join('')}
  </div><p class="note">키워드를 누르면 관련 기사가 열려요. ▲▼ 는 직전 갱신과 비교한 변화예요. ‘블로그 제외’는 사건·사고·재판·정치 관련이라 글에서 뺀 키워드예요. 시간별 순위 기록은 모두 저장소에 쌓여요.</p>`;
 }
 
