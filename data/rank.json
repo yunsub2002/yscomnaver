@@ -1,58 +1,58 @@
 {
- "updated": "2026-11-14T19:41:00+09:00",
- "prev_updated": "2026-11-14T18:44:00+09:00",
+ "updated": "2026-11-14T20:37:00+09:00",
+ "prev_updated": "2026-11-14T19:41:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "일본 대 브라질",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "장한별",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "日 축구 이 정도였나! 세계 55위→17위 ‘38계단 폭등’…독일·브라질·잉글랜드 꺾은 명감독 효과→ESPN \"트로피가 전부 아냐\" 모리야스 8년 재조명",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019556",
-     "source": "SPOTV NEWS"
+     "title": "장한별(Hanbyul Jang) - 엄마의 일기 | KBS 261114 방송",
+     "url": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188915-01-000_MFSC20&program_code=T2011-0781&program_id=PS-2026188915-01-000&section_code=04&broadcast_complete_yn=N&section_id=10739",
+     "source": "대한민국 대표 공영미디어 KBS"
     },
     {
-     "title": "`만나면 접전` 브라질 수비수 마갈량이스 일본 경계 \"무실점 경기가 목표\"",
-     "url": "https://mydaily.co.kr/page/view/2026111214195889875",
-     "source": "마이데일리"
+     "title": "이찬원, 카메라 향한 환한 미소로 주말 인사… ‘불후의 명곡’ 안방극장 출격",
+     "url": "http://www.jemin.com/news/articleView.html?idxno=847277",
+     "source": "제민일보"
     },
     {
-     "title": "한국은 사우디에 졌는데...월드컵 이후 또다시 ‘삼바군단’ 상대하는 일본, 현지 매체 “더 이상 수비만 할 필요 없어, 공격 축구 할 것”",
-     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698449",
-     "source": "인터풋볼"
+     "title": "'불후' 장한별, 말레이시아 공항 마비 '월드스타'...무대 후 폭풍 오열 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/14/2026111408387263852",
+     "source": "머니투데이"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "기아",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "홍라희",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "기아 카렌스 EV 12월 인도 시작, 현지 부품비율 80% 달성",
-     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/2026111411184721922bd56fbc3c_1",
-     "source": "글로벌이코노믹"
+     "title": "이재용 회장, 삼전 지분 1.58→1.75% 확대…홍라희 여사 증여",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444719",
+     "source": "연합인포맥스"
     },
     {
-     "title": "현대차, 中 브랜드에 밀린 인도네시아서 반격…딜러점 100곳↑ 확대 목표",
-     "url": "https://theguru.co.kr/news/article.html?no=109667",
-     "source": "더구루"
+     "title": "모친 홍라희에 삼전 주식 1115만8000주 받은 이재용, 증여세는 얼마나?",
+     "url": "https://www.munhwa.com/article/11631281",
+     "source": "문화일보"
     },
     {
-     "title": "현대차, 중국차 공세 뚫고 15% 성장…인도네시아 반등 승부수",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261110010003845",
+     "title": "[마켓파워] 삼성전자 직접 지분 늘리는 이재용…물산·생명 중심 지배구조 속 의미는",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261112010004877",
      "source": "아시아투데이"
     }
    ],
@@ -60,208 +60,136 @@
   },
   {
    "rank": 3,
-   "keyword": "웨이브",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "keyword": "강의",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "[OTT리뷰]",
-     "url": "https://cine21.com/news/view/?mag_id=111266",
-     "source": "씨네21"
+     "title": "\"아파서 수능 강의 쉰다\"더니…넷플 예능 간 강사의 결말",
+     "url": "https://www.hankyung.com/article/2026111463557",
+     "source": "한국경제"
     },
     {
-     "title": "‘옆자리, 프란체스카’ 김현진 “행복했던 작품, 더 성장했다”",
-     "url": "https://www.kmib.co.kr/article/20261113500582",
-     "source": "국민일보"
+     "title": "수능 3주 앞 강의 중단, 예능 출연한 이도 결국 이투스서 퇴출…\"다 폐강\"",
+     "url": "https://www.news1.kr/society/general-society/6353492",
+     "source": "뉴스1"
     },
     {
-     "title": "[TV톡] 숏폼이 살린 추억, 웨이브가 잇는다…'프란체스카'·'무한상사'의 부활",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524454",
-     "source": "iMBC 연예"
+     "title": "'강의중단 논란' 이도와 정반대…이지영, 완강 후 소감 \"올해는 가장 바쁜 한 해\"[이슈S]",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019690",
+     "source": "SPOTV NEWS"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 4,
-   "keyword": "이로운",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "up",
-   "delta": 3,
-   "news": [
-    {
-     "title": "[사진]한국 벤치에 인사하는 장스룬",
-     "url": "https://www.chosun.com/sports/sports_photo/2026/11/14/MQYTIZLFHFTDEN3DMFSDCYZTGA/",
-     "source": "조선일보"
-    },
-    {
-     "title": "[사진]최원호 감독과 인사 나누는 가오즈강 감독",
-     "url": "https://www.chosun.com/sports/sports_photo/2026/11/14/GJQTCNDDGRRTEYRZGRRWGYLDMM/",
-     "source": "조선일보"
-    },
-    {
-     "title": "'호주 16-1 콜드승' 일본 땡큐! 결승에서 만나자…한국, 대만전 몇 점 차든 이기기만 하면 된다 [오!쎈 도쿄] - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/14/202611141419776777O",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "구성환",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "down",
-   "delta": -2,
-   "news": [
-    {
-     "title": "\"반지 선물하고, 5㎞ 업고...\" 구성환, 첫사랑과 30년만 재회 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/14/2026111407075647670",
-     "source": "머니투데이"
-    },
-    {
-     "title": "구성환, '결혼 약속' 여자친구 공개했다",
-     "url": "https://www.newsis.com/view/NISX20261114_0003867961",
-     "source": "뉴시스"
-    },
-    {
-     "title": "구성환, 첫사랑과 헤어진 이유…‘4대 천왕’ 과거 눈길 (나혼산)",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524758",
-     "source": "iMBC 연예"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "전소영",
+   "keyword": "하나",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "전소영, 단추 하나 잠근 과감함…이러니 '부국제'에서 미모로 화제되지",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/MVSGIZJSGU3TCNLCMI3TEY3DHE/",
-     "source": "Chosunbiz"
+     "title": "금메달 이어 우승컵 노리는 이해란… 삼성생명 비상 견인",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261113232752Qo6",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "'부국제 강타' 전소영, 반전 '베이글녀' 자태…가죽 재킷 속 과감한 크롭톱",
-     "url": "https://supple.kr/news/cmw8gt2g4eppsal9pmerm9jjh",
-     "source": "서플 뉴스"
+     "title": "'3점 슛 13개' 여자농구 신한은행, 하나은행 꺾고 공동 선두(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261114038751007",
+     "source": "연합뉴스"
     },
     {
-     "title": "'부국제 강타' 전소영, 반전 '베이글녀' 자태…가죽 재킷 속 과감한 크롭톱",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/09/MJRTSNJRGE3GMZRXMY2GCODFHA/",
-     "source": "Chosunbiz"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "박지현",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "나 혼자 산다",
-     "url": "https://m.imbc.com/VOD/VodView?progCode=1002831100000100000&broadcastID=1002831101572100005&type=Clip",
-     "source": "MBC"
-    },
-    {
-     "title": "박지현, 코드쿤스트에 감동…‘대학가요제’서 깜짝 만남",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261114/135023608/1",
-     "source": "동아일보"
-    },
-    {
-     "title": "전현무·코드쿤스트, '나혼산' 박지현에 애정 폭발..\"소개 멘트 두 배로\"",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/HBSWKYRQMRSWCMZRG43WCYZWMI/",
+     "title": "'신지현 18점 폭발' 신한은행, 하나은행 87-73 제압...3승 1패로 우리은행·삼성생명과 공동 선두",
+     "url": "https://biz.chosun.com/sports/sports_general/2026/11/14/ME4TKYRXGE3GKNBVMVRTENJXMY/",
      "source": "Chosunbiz"
     }
    ],
    "safe": false
   },
   {
-   "rank": 8,
-   "keyword": "멜론뮤직어워드 2026",
+   "rank": 5,
+   "keyword": "최예나",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [],
    "safe": true
   },
   {
-   "rank": 9,
-   "keyword": "호나우지뉴",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "46세 호나우지뉴, 11년 만에 공식전 선발 출격…300호골 정조준",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712853",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "브라질 축구 전설 호나우지뉴, 15일 공식 경기 출장",
-     "url": "https://www.ytn.co.kr/_ln/0107_202611141117186115",
-     "source": "YTN"
-    },
-    {
-     "title": "46세 '외계인' 호나우지뉴, 11년 만에 공식전 선발 출격",
-     "url": "https://www.newspim.com/news/view/20261114000049",
-     "source": "뉴스핌"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "대한민국 국군",
+   "rank": 6,
+   "keyword": "주우재",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "new",
+   "delta": 0,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "유재석",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "국방홍보원, 국방일보 창간 62주년 맞이 보도 사진전 개최",
-     "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6353308",
+     "title": "허경환, 김희선 '찐팬'이었네→함께 찍은 사진 공개 \"저 기억하시죠?\"",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/14/GE4TONJRMY2GIZRXMUZTOMJSMM/",
+     "source": "조선일보"
+    },
+    {
+     "title": "김희선, ‘95 서울가요제’ 진행 맡는다… 유재석과 손잡고 90년대 추억 소환",
+     "url": "http://www.jemin.com/news/articleView.html?idxno=847234",
+     "source": "제민일보"
+    },
+    {
+     "title": "허경환, 김희선 등장에 땀샘 폭발 \"기억하시죠?\"",
+     "url": "https://www.newsis.com/view/NISX20261114_0003868185",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "유영우",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "리센느 미나미, 곽범·이선민 사이에 끼어 ‘고통’…무슨 일?",
+     "url": "https://sports.donga.com/ent/article/all/20261114/135023881/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "'놀뭐?' 유영우, 이소라→거미도 놀란 당찬 무대…유재석 \"깡 대단해\"",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524718",
+     "source": "iMBC 연예"
+    },
+    {
+     "title": "'가미디언' 유영우, 이소라·거미 앞 기세 넘치는 열창…유재석 \"깡이 대단\"",
+     "url": "https://www.news1.kr/entertain/broadcast-tv/6353289",
      "source": "뉴스1"
-    },
-    {
-     "title": "국방홍보원 '국방일보 보도사진전' 개최 \"대한민국 국군의 어제와 오늘 조명\"",
-     "url": "https://www.fnnews.com/news/202611130903127570",
-     "source": "파이낸셜뉴스"
-    },
-    {
-     "title": "국방홍보원, 「창간 62주년 국방일보 보도사진전」 개최",
-     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=456861",
-     "source": "서울Pn"
     }
    ],
    "safe": true
