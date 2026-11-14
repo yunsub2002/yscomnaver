@@ -1,16 +1,44 @@
 {
- "updated": "2026-11-15T07:37:00+09:00",
- "prev_updated": "2026-11-15T06:36:00+09:00",
+ "updated": "2026-11-15T07:57:00+09:00",
+ "prev_updated": "2026-11-15T07:37:00+09:00",
  "items": [
   {
    "rank": 1,
+   "keyword": "sk하이닉스",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "국내·외 증권사 목표가 ‘들쭉날쭉’…길 잃은 ‘삼전닉스’ 개미들",
+     "url": "https://www.segye.com/newsView/20261113514396",
+     "source": "세계일보"
+    },
+    {
+     "title": "“48만→40만전자”…실적 좋은데 목표가 낮춘 이유",
+     "url": "https://www.edaily.co.kr/News/Read?newsId=02371446645645064&mediaCodeNo=257",
+     "source": "이데일리"
+    },
+    {
+     "title": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]",
+     "url": "https://www.hankyung.com/article/2026111079756",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
    "keyword": "복권",
    "traffic": "5000+",
    "label": "약 5,000회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "제1250회 로또 1등 9명···당첨금 31억원",
@@ -31,14 +59,14 @@
    "safe": true
   },
   {
-   "rank": 2,
+   "rank": 3,
    "keyword": "이승기",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "'105억 전세 피해' 이승기 \"부동산에 악마들이 득실거려\"",
@@ -59,70 +87,98 @@
    "safe": true
   },
   {
-   "rank": 3,
-   "keyword": "김하성",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "up",
-   "delta": 1,
-   "news": [
-    {
-     "title": "\"2000만 달러 받고 타율 .116 충격\" 김하성, 몸값 폭락이 오히려 기회? 美 매체 \"최고의 알짜 영입 될 수도\"",
-     "url": "https://www.chosun.com/sports/world-baseball/2026/11/14/GI3TEOJTGIZGKOBZMY4GIOBVG4/",
-     "source": "조선일보"
-    },
-    {
-     "title": "초대형 희소식! 김하성, 난생처음 인기팀 관심! → 키움 컴백 이유 사라졌다",
-     "url": "https://www.sportschosun.com/baseball/2026-11-14/202611140100094330008858",
-     "source": "스포츠조선"
-    },
-    {
-     "title": "타격 부진에 FA 인기 걱정했는데‥\"필라델피아, 김하성 영입 검토\"",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6864665_37004.html",
-     "source": "MBC 뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 4,
-   "keyword": "아버지",
+   "keyword": "100일의 거짓말",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "up",
-   "delta": 3,
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "하리수 \"중학생 때부터 父와 대화 단절…몰래 성전환 수술\"",
-     "url": "https://www.newsis.com/view/NISX20261115_0003868296",
-     "source": "뉴시스"
+     "title": "[오수경의 TVIEW]",
+     "url": "https://cine21.com/news/view/?mag_id=111267",
+     "source": "씨네21"
     },
     {
-     "title": "\"8㎝ 뇌종양, 두개골 제거\"…빽가, 부모에 진단 숨기다 '눈물' - 머니투데이",
-     "url": "https://www.mt.co.kr/index.php/entertainment/2026/11/12/2026111209361465715",
-     "source": "머니투데이"
+     "title": "'100일의 거짓말' 김유정, 박진영에게 다시 정체 발각 위기 [N컷]",
+     "url": "https://www.news1.kr/entertain/broadcast-tv/6353973",
+     "source": "뉴스1"
     },
     {
-     "title": "하리수 \"성전환 반대 父, '낳아서 저따위'라고 폭언…화해한 적 없다\" 오열 ('동치미')",
-     "url": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100096800009038",
-     "source": "스포츠조선"
+     "title": "‘100일의 거짓말’ 이무생, 김현주 앞 무릎 꿇고 오열… “난 당신이라서 결혼했는데, 죽어버리겠다고?”",
+     "url": "https://sports.khan.co.kr/article/202611150225003",
+     "source": "스포츠경향"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "잠실주공5단지 아파트",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "엘리나 스비톨리나",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "무려 '735억' 잭팟→\"돈 더 달라\"→'파격 시스루 논란' 세계 1위 허무한 굴욕... '또' 분노 조절 실패 '도대체 왜' - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/15/2026111416335893727",
+     "source": "머니투데이"
+    },
+    {
+     "title": "사발렌카 꺾고 기뻐하는 안드레예바",
+     "url": "https://mobile.newsis.com/photo/NISI20261112_0002290552",
+     "source": "뉴시스"
+    },
+    {
+     "title": "[WTA 파이널] 승리 기뻐하는 안드레예바의 코치",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3750198",
+     "source": "국제뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "성리",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "임영웅 뒤쫓는 성리, K-브랜드지수 2위…‘성리학자’ 팬덤의 힘",
+     "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082592",
+     "source": "진일보 | 전남일보"
+    },
+    {
+     "title": "임영웅, ASEA 10월 트로트 투표 1위 차지… 글로벌 팬덤의 저력 재확인",
+     "url": "http://www.jemin.com/news/articleView.html?idxno=847219",
+     "source": "제민일보"
+    },
+    {
+     "title": "이찬원, 'K-브랜드지수' 트로트 가수 부문 순위에서 몇 위?",
+     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16273332",
+     "source": "톱스타뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "잠실주공5단지 아파트",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "down",
+   "delta": -2,
    "news": [
     {
      "title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
@@ -143,32 +199,60 @@
    "safe": true
   },
   {
-   "rank": 6,
-   "keyword": "미라 안드레예바",
+   "rank": 8,
+   "keyword": "메이저 리그 베이스볼",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "무려 '735억' 잭팟→\"돈 더 달라\"→'파격 시스루 논란' 세계 1위 허무한 굴욕... '또' 분노 조절 실패 '도대체 왜' - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/15/2026111416335893727",
+     "title": "삼성 구자욱, MLB 도전 추진…“좌타자 전문 에이전트 선임”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712231",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "'한국시리즈 MVP' 구자욱‥메이저리그 도전 선언",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865543_37004.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "'내 나이가 어때서' 韓 타격왕 평가절하, 美 매체 \"구자욱 향한 MLB 관심 제한될 것\" - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/14/2026111314564665043",
      "source": "머니투데이"
-    },
-    {
-     "title": "사발렌카 꺾고 기뻐하는 안드레예바",
-     "url": "https://mobile.newsis.com/photo/NISI20261112_0002290552",
-     "source": "뉴시스"
-    },
-    {
-     "title": "[WTA 파이널] 승리 기뻐하는 안드레예바의 코치",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3750198",
-     "source": "국제뉴스"
     }
    ],
-   "safe": false
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "홍현희",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "홍현희, 시모 사랑 듬뿍..“子 제이쓴, 왜 아깝다고 하는지 이해 안가” (홍쓴TV)",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/14/MQ3GGMJWMVRTKMBVHA4WKMBXMU/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "“아버님 영상 보지 마세요” 홍현희, 시母 ‘졸혼’ 고백에 당황",
+     "url": "https://sports.donga.com/ent/article/all/20261114/135023868/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "홍현희 시어머니 \"결혼한지 42년 돼 졸혼 생각해봤다\"",
+     "url": "https://www.newsis.com/view/NISX20261113_0003867855",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
   }
  ]
 }
