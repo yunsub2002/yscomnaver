@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-14T17:49:00+09:00",
- "prev_updated": "2026-11-14T16:59:00+09:00",
+ "updated": "2026-11-14T18:05:00+09:00",
+ "prev_updated": "2026-11-14T17:49:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 2,000회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -32,41 +32,69 @@
   },
   {
    "rank": 2,
-   "keyword": "화장품",
+   "keyword": "이로운",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "영국, 안티에이징 광고 입증 기준 강화... 사우디 주사기형 화장품 포장 용기 금지",
-     "url": "https://www.cncnews.co.kr/news/article.html?no=11401",
-     "source": "CNC NEWS"
+     "title": "'결승행 걸렸다' 한국, 대만전 김지찬 리드오프 전진 배치…DH 안재석 첫 선발 출전 [오!쎈 도쿄]",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/14/GNQTANJQHA2DGNJXGAYTKOBWMM/",
+     "source": "조선일보"
     },
     {
-     "title": "필러는 누가 놓고, 부작용은 누가 책임지나…영국 의회가 짚은 미용산업의 빈틈",
-     "url": "https://www.hkn24.com/news/articleView.html?idxno=351578",
-     "source": "헬스코리아뉴스"
+     "title": "'호주 16-1 콜드승' 일본 땡큐! 결승에서 만나자…한국, 대만전 몇 점 차든 이기기만 하면 된다 [오!쎈 도쿄] - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/14/202611141419776777O",
+     "source": "머니투데이"
     },
     {
-     "title": "대한화장품산업연구원, 美·EU 화장품 규제 대응 세미나",
-     "url": "https://www.cosmorning.com/news/article.html?no=53902",
-     "source": "코스모닝"
+     "title": "日 도움에 복잡한 경우의 수 없다…한국, 대만 잡으면 APBC 결승행",
+     "url": "https://www.news1.kr/sports/baseball/6354059",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "닭한마리",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "up",
+   "delta": 1,
+   "news": [
+    {
+     "title": "\"먹다 남긴 재료 재사용, 비위 상해 나왔다\"…닭한마리집 주방 영상 논란 - 머니투데이",
+     "url": "https://www.mt.co.kr/society/2026/11/14/2026111416053177286",
+     "source": "머니투데이"
+    },
+    {
+     "title": "\"먹다 남긴 반찬 다시 통에 쏙\"… 종로 식당서 위생 의혹",
+     "url": "https://www.newsis.com/view/NISX20261113_0003867818",
+     "source": "뉴시스"
+    },
+    {
+     "title": "\"먹던 마늘·부추를…\" 손님이 목격한 '닭한마리집' 충격 장면",
+     "url": "https://www.hankyung.com/article/2026111464097",
+     "source": "한국경제"
     }
    ],
    "safe": false
   },
   {
-   "rank": 3,
+   "rank": 4,
    "keyword": "수수료",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "배민發 수수료 개편, 쿠팡이츠로 확산되나",
@@ -87,42 +115,14 @@
    "safe": true
   },
   {
-   "rank": 4,
-   "keyword": "닭한마리",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"먹다 남긴 재료 재사용, 비위 상해 나왔다\"…닭한마리집 주방 영상 논란 - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/14/2026111416053177286",
-     "source": "머니투데이"
-    },
-    {
-     "title": "\"먹던 마늘·부추를…\" 손님이 목격한 '닭한마리집' 충격 장면",
-     "url": "https://www.hankyung.com/article/2026111464097",
-     "source": "한국경제"
-    },
-    {
-     "title": "\"먹다 남긴 반찬 다시 통에 쏙\"… 종로 식당서 위생 의혹",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867818",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": false
-  },
-  {
    "rank": 5,
    "keyword": "문지애",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "문지애♥전종환 “아들, 수학 시험 27점에 온 집안 비상…결국 3등 들어”",
@@ -149,8 +149,8 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "Russia Revives Demand That NATO Retrench to Secure Ukraine Deal",
@@ -186,27 +186,55 @@
      "source": "글로벌이코노믹"
     },
     {
+     "title": "GH, '국내 1호' 광교 지분적립형 분양주택 240가구 모집에 2만946건 몰려",
+     "url": "https://www.yna.co.kr/view/RPR20261112007600353",
+     "source": "연합뉴스"
+    },
+    {
      "title": "분양가 25%만 내고 입주…내달 고양창릉 지분적립형 284가구 공급",
      "url": "https://www.news1.kr/realestate/general/6353065",
      "source": "뉴스1"
-    },
-    {
-     "title": "광교 웃고 평택 울고…경기도 청약시장 양극화",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336726",
-     "source": "인천일보"
     }
    ],
    "safe": false
   },
   {
    "rank": 8,
+   "keyword": "대한민국 국군",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "국방홍보원, 국방일보 창간 62주년 맞이 보도 사진전 개최",
+     "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6353308",
+     "source": "뉴스1"
+    },
+    {
+     "title": "국방홍보원 '국방일보 보도사진전' 개최 \"대한민국 국군의 어제와 오늘 조명\"",
+     "url": "https://www.fnnews.com/news/202611130903127570",
+     "source": "파이낸셜뉴스"
+    },
+    {
+     "title": "국방홍보원, 「창간 62주년 국방일보 보도사진전」 개최",
+     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=456861",
+     "source": "서울Pn"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
    "keyword": "인수 합병",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "\"지분 높을수록 소액주주 몫 줄어\"…의무공개매수법 '역진' 논란",
@@ -227,7 +255,7 @@
    "safe": false
   },
   {
-   "rank": 9,
+   "rank": 10,
    "keyword": "로켓",
    "traffic": "100+",
    "label": "약 100회 이상",
@@ -237,9 +265,9 @@
    "delta": -1,
    "news": [
     {
-     "title": "[영상]‘스타십’ 1단 로켓 지상 회수 불발…바다에 착수",
-     "url": "https://www.khan.co.kr/article/202611140848001",
-     "source": "경향신문"
+     "title": "스페이스X, 스타십 시험발사…'우주선 1·2단 전부 회수'는 실패",
+     "url": "https://www.yna.co.kr/view/AKR20261114027900075",
+     "source": "연합뉴스"
     },
     {
      "title": "지구 14바퀴 ‘코끼리코’ 돌고 ‘젓가락 잡기’ 2단 회수…머스크의 ‘무한도전’",
@@ -247,37 +275,9 @@
      "source": "한겨레"
     },
     {
-     "title": "초대형 로켓 스타십 발사 성공…스페이스X 15번째 시험 비행 진행",
-     "url": "https://www.yna.co.kr/view/IPT20261114000004365?section=gallery/index",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "장동윤",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "'김승윤과 결혼' 장동윤, 새신랑됐는데..인도 미용실서 혼절 직전? 곽튜브는 비명 ('지구마불4')",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/14/MU3DGMRYMMZTMZBUGU3GMZTFMM/",
-     "source": "조선일보"
-    },
-    {
-     "title": "장동윤, 인도 마사지에 혼절 직전…곽튜브는 비명 (지구마불4)",
-     "url": "https://sports.donga.com/ent/article/all/20261114/135024272/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "'지구마불4' 빠니보틀·규현 '탱크 포격'⋯원지·천우희 '3단 마라룽샤'",
-     "url": "https://www.joynews24.com/view/2026095",
-     "source": "조이뉴스24"
+     "title": "[영상]‘스타십’ 1단 로켓 지상 회수 불발…바다에 착수",
+     "url": "https://www.khan.co.kr/article/202611140848001",
+     "source": "경향신문"
     }
    ],
    "safe": true
