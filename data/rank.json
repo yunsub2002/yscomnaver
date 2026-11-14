@@ -1,44 +1,16 @@
 {
- "updated": "2026-11-14T23:42:00+09:00",
- "prev_updated": "2026-11-14T22:50:00+09:00",
+ "updated": "2026-11-15T00:37:00+09:00",
+ "prev_updated": "2026-11-14T23:42:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "문무",
+   "keyword": "천천히 강렬하게",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[2화 예고] 너도 이제 나라를 위해 칼을 들어야 한다 [문무] | KBS 방송",
-     "url": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2025206252-01-000_20261114_TECH002&program_code=T2025-0499&program_id=PS-2025206252-01-000&section_code=03&broadcast_complete_yn=N&section_id=28257",
-     "source": "대한민국 대표 공영미디어 KBS"
-    },
-    {
-     "title": "'문무' D-DAY, 전란에 휘말린 삼국...폭풍전야 긴장감 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/14/2026111408237294118",
-     "source": "머니투데이"
-    },
-    {
-     "title": "인사말하는 최예빈",
-     "url": "https://www.yna.co.kr/view/PYH20261112155500013",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "천천히 강렬하게",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "송혜교, 20대 시절 후회하는 이유..\"노는 것 좋아했다\" ('핑계고')",
@@ -46,20 +18,60 @@
      "source": "조선일보"
     },
     {
+     "title": "송혜교, 미국서 와인 사려다 거절 \"18살인 줄 알고 못 판다고\"",
+     "url": "https://www.newsis.com/view/NISX20261114_0003868197",
+     "source": "뉴시스"
+    },
+    {
      "title": "‘천천히 강렬하게’ 송혜교 “‘더 글로리’ 이후 유럽 입국심사관 사진 촬영 제안도 받아” (핑계고)",
      "url": "https://sports.khan.co.kr/article/202611141810003",
      "source": "스포츠경향"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 2,
+   "keyword": "버거킹",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "up",
+   "delta": 3,
+   "news": [
+    {
+     "title": "욕심껏 ‘꽉꽉’ 채운 내 버거가 신메뉴로?…버거킹 플레임 랩 가보니 [현장]",
+     "url": "https://www.mk.co.kr/news/economy/12205410",
+     "source": "매일경제"
     },
     {
-     "title": "송혜교 실제 성격, 남모를 속앓이...\"술 마시고 솔직해졌다가 이불킥\"",
-     "url": "https://www.sportschosun.com/entertainment/2026-11-14/202611140100094300008856",
-     "source": "스포츠조선"
+     "title": "“두툼한 패티 2장에 치즈 3장, 나만의 버거”…버거킹 연구소에선 다 된다 [르포]",
+     "url": "https://biz.heraldcorp.com/article/10934528",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "[현장] \"와퍼에 새우패티 넣어볼까?\"…버거킹 연구원이 된 하루",
+     "url": "https://www.dailian.co.kr/news/view/1713648/%ED%98%84%EC%9E%A5-%EC%99%80%ED%8D%BC-%EC%83%88%EC%9A%B0%ED%8C%A8%ED%8B%B0-%EB%84%A3%EC%96%B4%EB%B3%BC%EA%B9%8C%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%97%B0-2026",
+     "source": "데일리안"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
+   "keyword": "데블스 플랜",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "up",
+   "delta": 4,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 4,
    "keyword": "갈비뼈",
    "traffic": "500+",
    "label": "약 500회 이상",
@@ -87,14 +99,14 @@
    "safe": true
   },
   {
-   "rank": 4,
+   "rank": 5,
    "keyword": "맥도날드 세종dt점",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "up",
-   "delta": 2,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
@@ -115,42 +127,14 @@
    "safe": false
   },
   {
-   "rank": 5,
-   "keyword": "버거킹",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -2,
-   "news": [
-    {
-     "title": "욕심껏 ‘꽉꽉’ 채운 내 버거가 신메뉴로?…버거킹 플레임 랩 가보니 [현장]",
-     "url": "https://www.mk.co.kr/news/economy/12205410",
-     "source": "매일경제"
-    },
-    {
-     "title": "“두툼한 패티 2장에 치즈 3장, 나만의 버거”…버거킹 연구소에선 다 된다 [르포]",
-     "url": "https://biz.heraldcorp.com/article/10934528",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "[현장] \"와퍼에 새우패티 넣어볼까?\"…버거킹 연구원이 된 하루",
-     "url": "https://www.dailian.co.kr/news/view/1713648/%ED%98%84%EC%9E%A5-%EC%99%80%ED%8D%BC-%EC%83%88%EC%9A%B0%ED%8C%A8%ED%8B%B0-%EB%84%A3%EC%96%B4%EB%B3%BC%EA%B9%8C%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%97%B0-2026",
-     "source": "데일리안"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 6,
    "keyword": "로또1250",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "down",
-   "delta": -2,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "제1250회 로또 1등 9명···당첨금 31억원",
@@ -158,9 +142,9 @@
      "source": "경향신문"
     },
     {
-     "title": "[속보]로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8'",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02794566645645720&mediaCodeNo=257",
-     "source": "edaily.co.kr"
+     "title": "로또 1250회 1등 9명, 31억씩 받는다…당첨 번호는? - 머니투데이",
+     "url": "https://www.mt.co.kr/society/2026/11/14/2026111420352340811",
+     "source": "머니투데이"
     },
     {
      "title": "1250회 로또판매·추첨시간, 1249회 1등당첨지역 공개",
@@ -172,15 +156,31 @@
   },
   {
    "rank": 7,
-   "keyword": "데블스 플랜",
+   "keyword": "채령",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
-   "news": [],
-   "safe": true
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'박서진 동생' 박효정, '연하' 보디빌더 품에 쏙 안겼다…전완근 보며 미소('살림남')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYGGMJZGBQWKMTDGZTDKZDBMI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "‘슈스’ 박서진, 팬클럽 2700명 체육대회…“팬카페 회원수 임영웅 다음” (살림남)",
+     "url": "https://sports.khan.co.kr/article/202611130819003",
+     "source": "스포츠경향"
+    },
+    {
+     "title": "'살림남' 채령, 박서진 동생 폭행(?)에 충격⋯\"왜 그렇게 막 때리냐\"",
+     "url": "https://www.etoday.co.kr/news/view/2648193",
+     "source": "이투데이"
+    }
+   ],
+   "safe": false
   },
   {
    "rank": 8,
@@ -189,8 +189,8 @@
    "label": "약 200회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "LG헬로 시청자 투니버스 못 보게 된다?… 시청자는 무슨 죄",
@@ -212,31 +212,31 @@
   },
   {
    "rank": 9,
-   "keyword": "아이오아이",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "down",
-   "delta": -2,
+   "keyword": "그것이 알고싶다",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "[포토] 라이즈 앤톤, 우수에 찬 하트",
-     "url": "https://m.imbc.com/enews/view/524813",
-     "source": "MBC"
+     "title": "'그것이 알고 싶다'(그알) 14일 결방 이유는?",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752131",
+     "source": "국제뉴스"
     },
     {
-     "title": "[ET포토] 리센느, '역주행의 헤전드'",
-     "url": "https://www.etnews.com/20261114000051",
-     "source": "전자신문"
+     "title": "‘나의 이방인’ 여객기 참사로 세상을 떠난 딸…엄마에게 주어진 단 7일",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524840",
+     "source": "iMBC 연예"
     },
     {
-     "title": "라이즈 원빈, 그윽한 눈빛",
-     "url": "https://mobile.newsis.com/photo/NISI20261114_0021532698",
-     "source": "뉴시스"
+     "title": "'그것이 알고 싶다', 오늘(14일) 결방⋯창사 36주년 '나의 이방인' 편성",
+     "url": "https://www.etoday.co.kr/news/view/2648192",
+     "source": "이투데이"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
