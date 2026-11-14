@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-15T02:34:00+09:00",
- "prev_updated": "2026-11-15T01:39:00+09:00",
+ "updated": "2026-11-15T03:41:00+09:00",
+ "prev_updated": "2026-11-15T02:34:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "천천히 강렬하게",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
+   "keyword": "강신철",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'천천히 강렬하게', 12월 11일부터 3주 간 파트별 공개…분할 이유는?",
-     "url": "https://www.ytn.co.kr/_sn/0117_202611131034130083",
-     "source": "YTN"
+     "title": "미 전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6865577_36925.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "'천천히 강렬하게' 송혜교, \"돈이 있다고\" 강렬 눈빛...총 3개 파트로 공개 [공식] - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/13/2026111310137276826",
+     "title": "브룩스 前사령관, ‘전작권 당장 전환 가능’ 강신철에 “매우 실망”",
+     "url": "https://www.chosun.com/international/us/2026/11/14/UNVTC33XERFVLDHL3IAUAS74YQ/",
+     "source": "조선일보"
+    },
+    {
+     "title": "前 주한미군 사령관, '전작권 전환 당장 가능' 韓 국방 발언 겨냥 \"실망\" - 머니투데이",
+     "url": "https://www.mt.co.kr/world/2026/11/14/2026111409494799617",
      "source": "머니투데이"
-    },
-    {
-     "title": "송혜교·공유·김설현·차승원 ‘천천히 강렬하게’, 베일 벗었다… 티저 예고편 공개",
-     "url": "https://www.viva100.com/article/20261113500297",
-     "source": "브릿지경제"
     }
    ],
    "safe": true
@@ -33,12 +33,12 @@
   {
    "rank": 2,
    "keyword": "저축",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "같은 900만 원 넣어도 세금 29만원 차이? 청년 IRP 공제율 15% 핵심 정리",
@@ -65,8 +65,8 @@
    "label": "약 1,000회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "제1250회 로또 1등 9명···당첨금 31억원",
@@ -74,27 +74,55 @@
      "source": "경향신문"
     },
     {
-     "title": "로또 1250회 1등 9명, 31억씩 받는다…당첨 번호는? - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/14/2026111420352340811",
-     "source": "머니투데이"
-    },
-    {
      "title": "1250회 로또판매·추첨시간, 1249회 1등당첨지역 공개",
      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3751761",
      "source": "국제뉴스"
+    },
+    {
+     "title": "“로또 1등 9명 전부 자동”…31억 대박 터진 명당 어디",
+     "url": "https://www.kyeonggi.com/article/20261114580139",
+     "source": "경기일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
+   "keyword": "비트코인",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "up",
+   "delta": 2,
+   "news": [
+    {
+     "title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720",
+     "source": "마켓인"
+    },
+    {
+     "title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "젠슨 황 사임에 금리공포 겹쳐… 비트코인, 1억→9천만 ‘뚝’ [주간코인시황]",
+     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000935",
+     "source": "IT조선"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
    "keyword": "나의 이방인",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "'그것이 알고 싶다'(그알) 14일 결방 이유는?",
@@ -115,41 +143,29 @@
    "safe": false
   },
   {
-   "rank": 5,
-   "keyword": "데블스 플랜",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [],
-   "safe": true
-  },
-  {
    "rank": 6,
-   "keyword": "비트코인",
+   "keyword": "젠지",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "same",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720",
-     "source": "마켓인"
+     "title": "'월즈 우승 도전' 젠지 \"상대 탑·정글 경계…밴픽 자신있다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261114020600017",
+     "source": "연합뉴스"
     },
     {
-     "title": "젠슨 황 사임에 금리공포 겹쳐… 비트코인, 1억→9천만 ‘뚝’ [주간코인시황]",
-     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000935",
-     "source": "IT조선"
+     "title": "[롤드컵]쵸비 \"젠지의 해로\"…기인·캐니언 \"3대1로 우승 예상\"",
+     "url": "https://www.newsis.com/view/NISX20261114_0003867963",
+     "source": "뉴시스"
     },
     {
-     "title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
-     "url": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html",
-     "source": "MBC 뉴스"
+     "title": "‘캐니언’ 김건부 “월즈 결승은 흔치 않은 기회⋯팀원들 모두 자기 기량 뽐내길”",
+     "url": "https://www.kmib.co.kr/article/20261114500020",
+     "source": "국민일보"
     }
    ],
    "safe": true
@@ -178,34 +194,6 @@
      "title": "ITZY 채령 ‘사랑스러움의 의인화’···신곡 ‘Lovesick’ 음악 방송 활동 시작",
      "url": "https://sports.khan.co.kr/article/202611131043003",
      "source": "스포츠경향"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "쵸비",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'월즈 우승 도전' 젠지 \"상대 탑·정글 경계…밴픽 자신있다\"",
-     "url": "https://www.yna.co.kr/view/AKR20261114020600017",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "[롤드컵]쵸비 \"젠지의 해로\"…기인·캐니언 \"3대1로 우승 예상\"",
-     "url": "https://www.newsis.com/view/NISX20261114_0003867963",
-     "source": "뉴시스"
-    },
-    {
-     "title": "‘캐니언’ 김건부 “월즈 결승은 흔치 않은 기회⋯팀원들 모두 자기 기량 뽐내길”",
-     "url": "https://www.kmib.co.kr/article/20261114500020",
-     "source": "국민일보"
     }
    ],
    "safe": true
