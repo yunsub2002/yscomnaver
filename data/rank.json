@@ -1,72 +1,16 @@
 {
- "updated": "2026-11-15T04:41:00+09:00",
- "prev_updated": "2026-11-15T03:41:00+09:00",
+ "updated": "2026-11-15T05:37:00+09:00",
+ "prev_updated": "2026-11-15T04:41:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "강신철",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "미 전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
-     "url": "https://imnews.imbc.com/news/2026/world/article/6865577_36925.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "브룩스 前사령관, ‘전작권 당장 전환 가능’ 강신철에 “매우 실망”",
-     "url": "https://www.chosun.com/international/us/2026/11/14/UNVTC33XERFVLDHL3IAUAS74YQ/",
-     "source": "조선일보"
-    },
-    {
-     "title": "前 주한미군 사령관, '전작권 전환 당장 가능' 韓 국방 발언 겨냥 \"실망\" - 머니투데이",
-     "url": "https://www.mt.co.kr/world/2026/11/14/2026111409494799617",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "치지직",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "네이버, 스트리머·팬 소통 특화 '크리에이터 카페' 내달 출시",
-     "url": "https://www.etnews.com/20261113000071",
-     "source": "전자신문"
-    },
-    {
-     "title": "네이버, 방송·팬덤 결합한 크리에이터 카페 출시",
-     "url": "https://www.i-boss.co.kr/ab-2877-18474",
-     "source": "아이보스"
-    },
-    {
-     "title": "네이버, 크리에이터·팬 잇는 ‘크리에이터 카페’ 선봬…치지직·팬카페 연동",
-     "url": "https://www.sentv.co.kr/article/view/sentv202611130084",
-     "source": "서울경제TV"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "젠지",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "바이퍼",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "up",
-   "delta": 3,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
      "title": "'월즈 우승 도전' 젠지 \"상대 탑·정글 경계…밴픽 자신있다\"",
@@ -87,57 +31,80 @@
    "safe": true
   },
   {
-   "rank": 4,
-   "keyword": "천준호",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "rank": 2,
+   "keyword": "포르투갈 대 덴마크",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "이 대통령 \"가장 힘든 건 등 뒤에서 날아오는 화살\"",
-     "url": "https://imnews.imbc.com/news/2026/politics/article/6865696_36911.html",
-     "source": "MBC 뉴스"
+     "title": "네이션스 리그 포르투갈 대 덴마크 경기 예측",
+     "url": "https://ko.laodong.vn/bong-da-quoc-te/nhan-dinh-tran-bo-dao-nha-vs-dan-mach-tai-nations-league-1799982.ldo",
+     "source": "Laodong.vn"
     },
     {
-     "title": "이 대통령, 천준호에 “고생 많았다···등 뒤에서 날아오는 화살 가장 힘들어”",
-     "url": "https://www.khan.co.kr/article/202611142106001",
-     "source": "경향신문"
-    },
-    {
-     "title": "李대통령 “가장 힘든 건 등 뒤에서 날아오는 화살”…민주당 내홍 겨냥?",
-     "url": "http://weekly.chosun.com/news/articleView.html?idxno=57129",
-     "source": "주간조선"
+     "title": "경기 프리뷰: 포르투갈 vs 덴마크, 11월 15일 오전 2시 45분: 조 1위 자리를 놓고 경쟁.",
+     "url": "https://www.vietnam.vn/ko/nhan-dinh-tran-dau-bo-dao-nha-vs-dan-mach-2h45-ngay-15-11-can-dich-ngoi-dau",
+     "source": "Vietnam.vn"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "음식 배달",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "rank": 3,
+   "keyword": "아프리카",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "전배모 \"배달 라이더 84%, 수익감소 우려…수수료 규제 반대\" - 머니투데이",
-     "url": "https://www.mt.co.kr/industry/2026/11/13/2026111314260557793",
-     "source": "머니투데이"
+     "title": "매출 1년 새 15배 성장… 스킨서울랩, 정주영 창업경진대회 글로벌 부문 최우수상",
+     "url": "https://www.seoultopnews.kr/news/articleView.html?idxno=100353",
+     "source": "톱뉴스"
     },
     {
-     "title": "배달앱 수수료 15% 상한제 입법추진...음식점측 “빨리 도입” vs 라이더 “최저 배달비 보장”",
-     "url": "https://contents.premium.naver.com/backbriefing/news/contents/261114134414874tv",
-     "source": "네이버 프리미엄콘텐츠"
+     "title": "한·아프리카재단, ‘2026 글로벌 액셀러레이팅 in Africa’ 기후테크 성과공유회 개최",
+     "url": "https://wowtale.net/2026/11/14/268054/",
+     "source": "와우테일"
     },
     {
-     "title": "라이더 소득 위협하는 배달시장 규제 반대 기자회견",
-     "url": "https://www.news1.kr/photos/8210963",
-     "source": "뉴스1"
+     "title": "[AI서머리] 경기창경, 2026 경기스타트업페스타 개최‧스킨서울랩, 정주영 창업경진대회 최우수상",
+     "url": "https://startuprecipe.co.kr/archives/5841370",
+     "source": "스타트업레시피"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "이세계아이돌",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "이세계아이돌, 지상파 '음악중심' 출격…실제 몸 없는 6인조 걸그룹, 멜론 7위 이어 무대까지",
+     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16276419",
+     "source": "톱스타뉴스"
+    },
+    {
+     "title": "지니뮤직, 버추얼걸그룹 이세계아이돌 마케팅 '시동'",
+     "url": "https://www.fnnews.com/news/202611100905129167",
+     "source": "파이낸셜뉴스"
+    },
+    {
+     "title": "이세계아이돌 미니 2집 발매…전국 15곳 팝업 진행 : 연예",
+     "url": "https://news.jkn.co.kr/post/1083484",
+     "source": "재경일보"
     }
    ],
    "safe": true
