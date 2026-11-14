@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-15T03:41:00+09:00",
- "prev_updated": "2026-11-15T02:34:00+09:00",
+ "updated": "2026-11-15T04:41:00+09:00",
+ "prev_updated": "2026-11-15T03:41:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 1만 회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -32,125 +32,41 @@
   },
   {
    "rank": 2,
-   "keyword": "저축",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
+   "keyword": "치지직",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "같은 900만 원 넣어도 세금 29만원 차이? 청년 IRP 공제율 15% 핵심 정리",
-     "url": "https://story.pay.naver.com/content/3939",
-     "source": "네이버페이 머니스토리"
+     "title": "네이버, 스트리머·팬 소통 특화 '크리에이터 카페' 내달 출시",
+     "url": "https://www.etnews.com/20261113000071",
+     "source": "전자신문"
     },
     {
-     "title": "\"마트 세일에 국가 쿠폰 겹쳤다\"…하락장 속 '연금저축·IRP' 절세 전략",
-     "url": "https://www.newsis.com/view/NISX20261112_0003864767",
-     "source": "뉴시스"
+     "title": "네이버, 방송·팬덤 결합한 크리에이터 카페 출시",
+     "url": "https://www.i-boss.co.kr/ab-2877-18474",
+     "source": "아이보스"
     },
     {
-     "title": "[생활정보] 단톡방에 '이것' 보내지 마세요…연말정산 동의는 이렇게 받습니다",
-     "url": "https://www.wikitree.co.kr/articles/1174082",
-     "source": "위키트리"
+     "title": "네이버, 크리에이터·팬 잇는 ‘크리에이터 카페’ 선봬…치지직·팬카페 연동",
+     "url": "https://www.sentv.co.kr/article/view/sentv202611130084",
+     "source": "서울경제TV"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "1250 회 로또",
+   "keyword": "젠지",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "제1250회 로또 1등 9명···당첨금 31억원",
-     "url": "https://www.khan.co.kr/article/202611142052001",
-     "source": "경향신문"
-    },
-    {
-     "title": "1250회 로또판매·추첨시간, 1249회 1등당첨지역 공개",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3751761",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "“로또 1등 9명 전부 자동”…31억 대박 터진 명당 어디",
-     "url": "https://www.kyeonggi.com/article/20261114580139",
-     "source": "경기일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "비트코인",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "up",
-   "delta": 2,
-   "news": [
-    {
-     "title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720",
-     "source": "마켓인"
-    },
-    {
-     "title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
-     "url": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "젠슨 황 사임에 금리공포 겹쳐… 비트코인, 1억→9천만 ‘뚝’ [주간코인시황]",
-     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000935",
-     "source": "IT조선"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "나의 이방인",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "'그것이 알고 싶다'(그알) 14일 결방 이유는?",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752131",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "[다시보기] 나의 이방인 1회",
-     "url": "https://programs.sbs.co.kr/culture/dearstranger/vod/90792/22000639770",
-     "source": "programs.sbs.co.kr"
-    },
-    {
-     "title": "‘나의 이방인’ 여객기 참사로 세상을 떠난 딸…엄마에게 주어진 단 7일",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524840",
-     "source": "iMBC 연예"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 6,
-   "keyword": "젠지",
-   "traffic": "200+",
-   "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 3,
    "news": [
     {
      "title": "'월즈 우승 도전' 젠지 \"상대 탑·정글 경계…밴픽 자신있다\"",
@@ -171,29 +87,57 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "채령",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
+   "rank": 4,
+   "keyword": "천준호",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“혼자 빨리 준비해서 좋다” 솔로 데뷔 채령, 멤버들 없는 단점에 ‘침묵’ 폭소 (‘살림남’)",
-     "url": "https://www.mk.co.kr/news/broadcasting-service/12209046",
-     "source": "매일경제"
+     "title": "이 대통령 \"가장 힘든 건 등 뒤에서 날아오는 화살\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6865696_36911.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "박진영 프로듀서가 먼저 스포한 채령의 솔로 데뷔 앨범 'Lovesick' 안무 비하인드? [웬디의 영스트리트]",
-     "url": "https://programs.sbs.co.kr/radio/wendy0s/clip/69682/22000639796?div=live_end",
-     "source": "programs.sbs.co.kr"
+     "title": "이 대통령, 천준호에 “고생 많았다···등 뒤에서 날아오는 화살 가장 힘들어”",
+     "url": "https://www.khan.co.kr/article/202611142106001",
+     "source": "경향신문"
     },
     {
-     "title": "ITZY 채령 ‘사랑스러움의 의인화’···신곡 ‘Lovesick’ 음악 방송 활동 시작",
-     "url": "https://sports.khan.co.kr/article/202611131043003",
-     "source": "스포츠경향"
+     "title": "李대통령 “가장 힘든 건 등 뒤에서 날아오는 화살”…민주당 내홍 겨냥?",
+     "url": "http://weekly.chosun.com/news/articleView.html?idxno=57129",
+     "source": "주간조선"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "음식 배달",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "전배모 \"배달 라이더 84%, 수익감소 우려…수수료 규제 반대\" - 머니투데이",
+     "url": "https://www.mt.co.kr/industry/2026/11/13/2026111314260557793",
+     "source": "머니투데이"
+    },
+    {
+     "title": "배달앱 수수료 15% 상한제 입법추진...음식점측 “빨리 도입” vs 라이더 “최저 배달비 보장”",
+     "url": "https://contents.premium.naver.com/backbriefing/news/contents/261114134414874tv",
+     "source": "네이버 프리미엄콘텐츠"
+    },
+    {
+     "title": "라이더 소득 위협하는 배달시장 규제 반대 기자회견",
+     "url": "https://www.news1.kr/photos/8210963",
+     "source": "뉴스1"
     }
    ],
    "safe": true
