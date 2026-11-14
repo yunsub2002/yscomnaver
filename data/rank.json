@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-15T00:37:00+09:00",
- "prev_updated": "2026-11-14T23:42:00+09:00",
+ "updated": "2026-11-15T01:39:00+09:00",
+ "prev_updated": "2026-11-15T00:37:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,8 +9,8 @@
    "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "송혜교, 20대 시절 후회하는 이유..\"노는 것 좋아했다\" ('핑계고')",
@@ -32,108 +32,12 @@
   },
   {
    "rank": 2,
-   "keyword": "버거킹",
+   "keyword": "1250 회 로또",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 3,
-   "news": [
-    {
-     "title": "욕심껏 ‘꽉꽉’ 채운 내 버거가 신메뉴로?…버거킹 플레임 랩 가보니 [현장]",
-     "url": "https://www.mk.co.kr/news/economy/12205410",
-     "source": "매일경제"
-    },
-    {
-     "title": "“두툼한 패티 2장에 치즈 3장, 나만의 버거”…버거킹 연구소에선 다 된다 [르포]",
-     "url": "https://biz.heraldcorp.com/article/10934528",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "[현장] \"와퍼에 새우패티 넣어볼까?\"…버거킹 연구원이 된 하루",
-     "url": "https://www.dailian.co.kr/news/view/1713648/%ED%98%84%EC%9E%A5-%EC%99%80%ED%8D%BC-%EC%83%88%EC%9A%B0%ED%8C%A8%ED%8B%B0-%EB%84%A3%EC%96%B4%EB%B3%BC%EA%B9%8C%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%97%B0-2026",
-     "source": "데일리안"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "데블스 플랜",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 4,
-   "news": [],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "갈비뼈",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "멀쩡한 갈비뼈 6개 부러뜨린 30대 여성...이유는?",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261114141351tED",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "호리병 몸매가 뭐라고…멀쩡한 갈비뼈 6개 부러뜨린 30대女",
-     "url": "https://www.koreadaily.com/article/20261113203409480",
-     "source": "미주중앙일보"
-    },
-    {
-     "title": "\"모래시계 몸매 원해\"…갈비뼈 6개 부러뜨린 30대 여성",
-     "url": "https://www.hankyung.com/article/2026111464437",
-     "source": "한국경제"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "맥도날드 세종dt점",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
-     "url": "https://www.segye.com/newsView/20261114502699",
-     "source": "세계일보"
-    },
-    {
-     "title": "\"맥도날드 먹으러 원정까지\"…인구 40만 도시에 무슨 일이",
-     "url": "https://www.hankyung.com/article/2026111359347",
-     "source": "한국경제"
-    },
-    {
-     "title": "\"살다 살다 이런 오픈런 처음 본다\"…새벽 2시부터 '우르르' 맥날 개점에 난리난 도시",
-     "url": "https://view.asiae.co.kr/article/2026111320395050229",
-     "source": "아시아경제"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 6,
-   "keyword": "로또1250",
-   "traffic": "500+",
-   "label": "약 500회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
@@ -155,32 +59,128 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "채령",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 3,
+   "keyword": "저축",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'박서진 동생' 박효정, '연하' 보디빌더 품에 쏙 안겼다…전완근 보며 미소('살림남')",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MIYGGMJZGBQWKMTDGZTDKZDBMI/",
-     "source": "조선일보"
+     "title": "같은 900만 원 넣어도 세금 29만원 차이? 청년 IRP 공제율 15% 핵심 정리",
+     "url": "https://story.pay.naver.com/content/3939",
+     "source": "네이버페이 머니스토리"
     },
     {
-     "title": "‘슈스’ 박서진, 팬클럽 2700명 체육대회…“팬카페 회원수 임영웅 다음” (살림남)",
-     "url": "https://sports.khan.co.kr/article/202611130819003",
-     "source": "스포츠경향"
+     "title": "\"마트 세일에 국가 쿠폰 겹쳤다\"…하락장 속 '연금저축·IRP' 절세 전략",
+     "url": "https://www.newsis.com/view/NISX20261112_0003864767",
+     "source": "뉴시스"
     },
     {
-     "title": "'살림남' 채령, 박서진 동생 폭행(?)에 충격⋯\"왜 그렇게 막 때리냐\"",
-     "url": "https://www.etoday.co.kr/news/view/2648193",
-     "source": "이투데이"
+     "title": "[생활정보] 단톡방에 '이것' 보내지 마세요…연말정산 동의는 이렇게 받습니다",
+     "url": "https://www.wikitree.co.kr/articles/1174082",
+     "source": "위키트리"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "나의 이방인",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'그것이 알고 싶다'(그알) 14일 결방 이유는?",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752131",
+     "source": "국제뉴스"
+    },
+    {
+     "title": "[다시보기] 나의 이방인 1회",
+     "url": "https://programs.sbs.co.kr/culture/dearstranger/vod/90792/22000639770",
+     "source": "programs.sbs.co.kr"
+    },
+    {
+     "title": "‘나의 이방인’ 여객기 참사로 세상을 떠난 딸…엄마에게 주어진 단 7일",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524840",
+     "source": "iMBC 연예"
     }
    ],
    "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "데블스 플랜",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -2,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "비트코인",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"비트코인 하락, 앤트로픽 IPO 전 투자자금 이동 때문\"",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02797846645645720",
+     "source": "마켓인"
+    },
+    {
+     "title": "비트코인 하루 새 7% 급락‥2조 원 규모 강제청산",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865461_36932.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "젠슨 황 사임에 금리공포 겹쳐… 비트코인, 1억→9천만 ‘뚝’ [주간코인시황]",
+     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000935",
+     "source": "IT조선"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "채령",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "same",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“혼자 빨리 준비해서 좋다” 솔로 데뷔 채령, 멤버들 없는 단점에 ‘침묵’ 폭소 (‘살림남’)",
+     "url": "https://www.mk.co.kr/news/broadcasting-service/12209046",
+     "source": "매일경제"
+    },
+    {
+     "title": "박진영 프로듀서가 먼저 스포한 채령의 솔로 데뷔 앨범 'Lovesick' 안무 비하인드? [웬디의 영스트리트]",
+     "url": "https://programs.sbs.co.kr/radio/wendy0s/clip/69682/22000639796?div=live_end",
+     "source": "programs.sbs.co.kr"
+    },
+    {
+     "title": "ITZY 채령 ‘사랑스러움의 의인화’···신곡 ‘Lovesick’ 음악 방송 활동 시작",
+     "url": "https://sports.khan.co.kr/article/202611131043003",
+     "source": "스포츠경향"
+    }
+   ],
+   "safe": true
   },
   {
    "rank": 8,
@@ -209,34 +209,6 @@
     }
    ],
    "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "그것이 알고싶다",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'그것이 알고 싶다'(그알) 14일 결방 이유는?",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752131",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "‘나의 이방인’ 여객기 참사로 세상을 떠난 딸…엄마에게 주어진 단 7일",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524840",
-     "source": "iMBC 연예"
-    },
-    {
-     "title": "'그것이 알고 싶다', 오늘(14일) 결방⋯창사 36주년 '나의 이방인' 편성",
-     "url": "https://www.etoday.co.kr/news/view/2648192",
-     "source": "이투데이"
-    }
-   ],
-   "safe": false
   }
  ]
 }
