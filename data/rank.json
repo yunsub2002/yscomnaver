@@ -1,66 +1,38 @@
 {
- "updated": "2026-11-14T08:40:00+09:00",
- "prev_updated": "2026-11-14T08:03:00+09:00",
+ "updated": "2026-11-14T09:56:00+09:00",
+ "prev_updated": "2026-11-14T08:40:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "날씨",
-   "traffic": "500000+",
-   "label": "약 50만 회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "same",
+   "keyword": "매일경제신문",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "은행나무 ‘노란 단풍’ 절정…토요일 전국에 비",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8712490",
-     "source": "KBS 뉴스"
+     "title": "낮에 싸게 팔아도 … 기업들 전기 안쓰는 이유는",
+     "url": "https://stock.mk.co.kr/news/view/1197131",
+     "source": "매일경제 마켓"
     },
     {
-     "title": "전국 대부분 흐리고 비‥낮 최고 11~18도",
-     "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6865601_37012.html",
-     "source": "MBC 뉴스"
+     "title": "전기밥솥, 취사보다 ‘이것’에 전기 더 쓴다?…돈 아끼는 가전 습관",
+     "url": "https://www.nongmin.com/article/20261110500035",
+     "source": "농민신문"
     },
     {
-     "title": "제주, 흐리고 곳에 따라 비",
-     "url": "https://www.yna.co.kr/view/AKR20261114012500056",
-     "source": "연합뉴스"
+     "title": "하숙생의 생활비를 줄이는 데 도움이 되는 전기 절약 팁",
+     "url": "https://ko.laodong.vn/video/meo-tiet-kiem-dien-giup-nguoi-o-tro-giam-chi-phi-sinh-hoat-1798523.ldo",
+     "source": "Laodong.vn"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "참교육",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "아동학대 논란 휩싸인 민속촌 귀신…“웃는다고 괜찮은 건 아냐” 세계의 ‘공포 훈육’ 돌아보니 [이윤정 기자의 소소월드]",
-     "url": "https://www.khan.co.kr/article/202611121023001",
-     "source": "경향신문"
-    },
-    {
-     "title": "\"학대냐 아니냐\" 불붙은 논란‥'어둠의 오은영' 이제 못 보나",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865252_37004.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "[참성단] ‘귀신 훈육’ 딜레마",
-     "url": "https://www.kyeongin.com/article/1774690",
-     "source": "경인일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "아르헨티나 대 우루과이",
+   "keyword": "lg 트윈스",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "스포츠",
@@ -69,78 +41,246 @@
    "delta": 0,
    "news": [
     {
-     "title": "한국 4-1로 무너뜨리더니 자신감 제대로 붙었다…포를란 감독, 모레노호 상대 대승에 만족 “수준 높은 한국 상대로 매우 좋은 경기력 보여줬다”",
-     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698363",
-     "source": "인터풋볼"
+     "title": "KBO FA 시장 개장! 원태인·구자욱·양의지 등 28명 자격 공시",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8712285",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "전 맨체스터 유나이티드 공격수 포를란이 우루과이 대표팀을 이끌며 눈부신 활약을 펼치고 있다.",
-     "url": "https://www.vietnam.vn/ko/cuu-tien-dao-man-united-forlan-toa-sang-khi-dan-dat-uruguay",
-     "source": "Vietnam.vn"
+     "title": "'744억' 쓰고 떠난 손혁 단장, '큰 손' 한화 FA 중견수 사올까…김호령 최지훈 홍창기 배정대 등 매물은 많다",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/14/GYYDMMTBMQ2TOYRYMFTGEOJZG4/",
+     "source": "조선일보"
     },
     {
-     "title": "아르헨티나 vs 우루과이 예측: 상대 전적에서 우세.",
-     "url": "https://www.vietnam.vn/ko/nhan-dinh-argentina-vs-uruguay-diem-tua-tu-thanh-tich-doi-dau",
-     "source": "Vietnam.vn"
+     "title": "kt 위즈, 외야수 김민혁·배정대 FA 시장 나온다",
+     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3040879",
+     "source": "기호일보"
     }
    ],
    "safe": true
   },
   {
-   "rank": 4,
-   "keyword": "주한 미군의 철수",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "rank": 3,
+   "keyword": "대한민국의 특별검사제도",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "up",
-   "delta": 3,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "美전문가들 \"트럼프, 전작권 전환을 주한미군 철수 수단으로 봐\"",
-     "url": "https://www.yna.co.kr/view/AKR20261114002200071",
-     "source": "연합뉴스"
+     "title": "검찰 불법 행위 밝히자는데 저주 퍼붓는 주류 매체들",
+     "url": "https://newstapa.org/article/iKKSJ",
+     "source": "뉴스타파"
     },
     {
-     "title": "브룩스 前사령관, ‘전작권 당장 전환 가능’ 강신철에 “매우 실망”",
-     "url": "https://www.chosun.com/international/us/2026/11/14/UNVTC33XERFVLDHL3IAUAS74YQ/",
-     "source": "조선일보"
+     "title": "국힘, 부산서 ‘조작기소 특검법’ 규탄 장외 집회",
+     "url": "https://www.khan.co.kr/article/202611140852001",
+     "source": "경향신문"
     },
     {
-     "title": "김건 의원 \"한미 조인트 팩트시트 1년에도 핵잠수함·원자력 협력 제자리\"",
-     "url": "https://www.newspim.com/news/view/20261113000598",
-     "source": "뉴스핌"
+     "title": "오세훈 \"정부가 법치주의 훼손하면 목소리 아끼지 않을 것\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6865482_36911.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 5,
-   "keyword": "보안",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 4,
+   "keyword": "단풍",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 5,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "‘플라이빗’ 개인정보 40건 유출... 다우기술 그룹웨어 해킹 3번째 피해",
-     "url": "https://www.boannews.com/news/articleView.html?idxno=147241",
-     "source": "보안뉴스"
+     "title": "달랏의 가을 단풍은 관광객들을 매료시킨다.",
+     "url": "https://www.vietnam.vn/ko/sac-thu-da-lat-niu-chan-du-khach",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "\"해킹 의심 땐 입출금 선제 차단\"...가상자산거래소 보안 강화",
-     "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611131602032869",
-     "source": "YTN 사이언스"
+     "title": "\"애기단풍이 절정인데 5,000그루 천연 비자림까지?\"... 입장료 0원으로 숲길 걷는 천년 고찰",
+     "url": "https://www.ardentnews.co.kr/news/articleView.html?idxno=21546",
+     "source": "아던트뉴스"
     },
     {
-     "title": "[위클리크립토] 금융위, 디지털자산 거래소에 ‘금융사 수준’ 보안 요구 外",
-     "url": "https://www.donga.com/news/It/article/all/20261113/135021081/1",
-     "source": "동아일보"
+     "title": "전국 천년 사찰에 붉은 단풍잎이 빚어낸 가을의 시간",
+     "url": "https://www.ujnews.co.kr/news/newsview.php?ncode=1065578053755500",
+     "source": "울산종합일보"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "한국교원단체총연합회",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[오늘을 생각한다] 이게 법이냐?",
+     "url": "https://weekly.khan.co.kr/article/202611140600061",
+     "source": "주간경향"
+    },
+    {
+     "title": "조희주 참교육동지회 회장 \"교사의 정당 가입서 안 받아주면 우리가 정당 만들자\"",
+     "url": "https://www.ohmynews.com/NWS_Web/View/mov_pg.aspx?CNTN_CD=ME000116633",
+     "source": "OhmyNews"
+    },
+    {
+     "title": "교사에게 정치기본권을…더 이상 유예하지 말라",
+     "url": "https://www.hani.co.kr/arti/opinion/column/1287079.html",
+     "source": "한겨레"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "리그 오브 레전드",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "내년 롤드컵 결승전 서울에서 열린다···창동 서울아레나 개최",
+     "url": "https://www.khan.co.kr/article/202611140800021",
+     "source": "경향신문"
+    },
+    {
+     "title": "2027 LoL 월드 챔피언십, 서울 창동서 결승…일본도 공동개최",
+     "url": "https://www.yna.co.kr/view/AKR20261114020700017",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "롤드컵 17년 역사상 첫 한일(韓日) 공동 개최… 2027 월즈 결승 피날레 ‘서울 아레나’",
+     "url": "https://www.koreadaily.com/article/20261113155538371",
+     "source": "미주중앙일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "보험계약",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘대체 누구야? 개인이 보장금액 4270억원짜리 생명보험 가입’…기네스 오른 세계 최고액 생명보험[아하 홍콩]",
+     "url": "https://www.munhwa.com/article/11630683",
+     "source": "문화일보"
+    },
+    {
+     "title": "뉴스후] 홍콩서 보도된 ‘생명보험 한 건 4,270억’의 의미와 파장",
+     "url": "https://dailyan.com/news/article.html?no=784157",
+     "source": "데일리연합"
+    },
+    {
+     "title": "생명보험 한 건에 4270억원…홍콩서 세계 최고액 기록",
+     "url": "https://view.asiae.co.kr/article/2026111208175372249",
+     "source": "아시아경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "윤아",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "윤아, 크롭 민소매 입고 뽐낸 한 줌 허리…비결은 공복 ‘이 운동’",
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261114/135023540/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "드파운드, 임윤아 겨울 캠페인 이후 점퍼 판매 급증 - 머니투데이",
+     "url": "https://www.mt.co.kr/living/2026/11/13/2026111308220930807",
+     "source": "머니투데이"
+    },
+    {
+     "title": "임윤아, 민소매 톱 하나만 입어도 미모가 다하는 중…한결같은 슬렌더 여신",
+     "url": "https://biz.chosun.com/entertainment/tv/2026/11/13/MU3GMZBVME4TIYJSMQ3TOOBVMQ/",
+     "source": "Chosunbiz"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "방탄소년단",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "월드스타도 예외 없다…BTS 뷔, 첫 예비군 소화",
+     "url": "https://www.mk.co.kr/news/musics/12207744",
+     "source": "매일경제"
+    },
+    {
+     "title": "'월클' BTS도 예비군 앞에선 똑같네…진·제이홉·지민 군복 입고 \"고생했다 애들아\"→뷔는 '특급전사' 인증 [핫피플]",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/GM3GMODCHE4DOOLBGZRWKMZSMY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "BTS 뷔, 예비군복 입은 김태형의 일상…“대충 이러고 살아요”",
+     "url": "https://sports.donga.com/ent/article/all/20261113/135018128/1",
+     "source": "스포츠동아"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "조현",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "APEC 닷새 앞 방중 조현 “북미회담 가능성 있다”",
+     "url": "https://www.donga.com/news/Politics/article/all/20261113/135023336/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "조현 \"한반도 평화 한중 공동 이익\"…中 왕이 \"건설적 역할 지속할 것\" - 머니투데이",
+     "url": "https://www.mt.co.kr/politics/2026/11/14/2026111409071348835",
+     "source": "머니투데이"
+    },
+    {
+     "title": "한·중 외교장관 베이징에서 회담…한국인 관광객 중국 무비자 입국 연장될까",
+     "url": "https://www.khan.co.kr/article/202611131939001",
+     "source": "경향신문"
+    }
+   ],
+   "safe": false
   }
  ]
 }
