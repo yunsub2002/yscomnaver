@@ -1,100 +1,44 @@
 {
- "updated": "2026-11-15T07:57:00+09:00",
- "prev_updated": "2026-11-15T07:37:00+09:00",
+ "updated": "2026-11-15T08:34:00+09:00",
+ "prev_updated": "2026-11-15T07:57:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "sk하이닉스",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "국내·외 증권사 목표가 ‘들쭉날쭉’…길 잃은 ‘삼전닉스’ 개미들",
-     "url": "https://www.segye.com/newsView/20261113514396",
-     "source": "세계일보"
-    },
-    {
-     "title": "“48만→40만전자”…실적 좋은데 목표가 낮춘 이유",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02371446645645064&mediaCodeNo=257",
-     "source": "이데일리"
-    },
-    {
-     "title": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]",
-     "url": "https://www.hankyung.com/article/2026111079756",
+     "title": "\"10년 모은 4억이 와르르\"…'SK하닉 몰빵' 30대 피눈물",
+     "url": "https://www.hankyung.com/article/2026111465357",
      "source": "한국경제"
+    },
+    {
+     "title": "“10년 모은 4억이 1억으로…” 반도체 레버리지 투자에 무너진 30대 직장인의 눈물",
+     "url": "https://stock.mk.co.kr/news/view/1198926",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "\"빚 포함 5억 잃었다\" \"내 인생 더 망했다\"…직장인들 '주식 손실' 배틀",
+     "url": "https://www.fnnews.com/news/202611140002259330",
+     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "복권",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "제1250회 로또 1등 9명···당첨금 31억원",
-     "url": "https://www.khan.co.kr/article/202611142052001",
-     "source": "경향신문"
-    },
-    {
-     "title": "1250회 로또 1등번호 당첨자 14명...20억씩 배당",
-     "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=602149",
-     "source": "헤드라인제주"
-    },
-    {
-     "title": "[속보]로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8'",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02794566645645720&mediaCodeNo=257",
-     "source": "edaily.co.kr"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "이승기",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "'105억 전세 피해' 이승기 \"부동산에 악마들이 득실거려\"",
-     "url": "https://www.newsis.com/view/NISX20261114_0003868186",
-     "source": "뉴시스"
-    },
-    {
-     "title": "‘105억 전세금 분쟁’ 이승기, “부동산에 악마 가득해, 안 당하면 모른다” 뼈있는 경고",
-     "url": "https://sports.khan.co.kr/article/202611141748013",
-     "source": "스포츠경향"
-    },
-    {
-     "title": "＂안 당해 보면 모른다＂…경험자의 뼈때리는 조언",
-     "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611150002",
-     "source": "한국경제TV"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
    "keyword": "100일의 거짓말",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 2,
    "news": [
     {
      "title": "[오수경의 TVIEW]",
@@ -102,17 +46,73 @@
      "source": "씨네21"
     },
     {
-     "title": "'100일의 거짓말' 김유정, 박진영에게 다시 정체 발각 위기 [N컷]",
-     "url": "https://www.news1.kr/entertain/broadcast-tv/6353973",
-     "source": "뉴스1"
+     "title": "'100일의 거짓말' 박진영, 김유정 밀정 정체 알고도 사랑 시작…시청률 8.0% [종합] - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/15/2026111508157290086",
+     "source": "머니투데이"
     },
     {
-     "title": "‘100일의 거짓말’ 이무생, 김현주 앞 무릎 꿇고 오열… “난 당신이라서 결혼했는데, 죽어버리겠다고?”",
-     "url": "https://sports.khan.co.kr/article/202611150225003",
+     "title": "‘100일의 거짓말’ 진선규, 김유정에 꽂혔다",
+     "url": "https://sports.khan.co.kr/article/202611150813003",
      "source": "스포츠경향"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "잠실주공5단지 아파트",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "up",
+   "delta": 4,
+   "news": [
+    {
+     "title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
+     "url": "https://news.mtn.co.kr/article/2026111415191575156",
+     "source": "MTN 머니투데이방송"
+    },
+    {
+     "title": "“강남 학원가 월세 400만원 시대”…통학권 실거주 단지 보니",
+     "url": "https://www.mk.co.kr/news/realestate/12206774",
+     "source": "매일경제"
+    },
+    {
+     "title": "아파트 규제 청구서, 빌라 세입자가 받았다 [심형석의 부동산 정석]",
+     "url": "https://www.hankyung.com/article/202611094543Q",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "육군사관학교",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[보도정정] 국군사관학교 창설 기본계획 수정안은 확정된 바 없으며 각군 총장을 비롯하여 다양한 계층의 의견을 수렴하고 있습니다.",
+     "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975649",
+     "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "빈총 경계·北지뢰 무대응 논란 속... 후반기 장성 인사도 ‘육사’ 배제?",
+     "url": "https://www.chosun.com/politics/2026/11/15/H4UB4LI7IFHKPGIUQILRP3QA5A/",
+     "source": "조선일보"
+    },
+    {
+     "title": "국방부, 육해공 사관생도 대상 국군사관학교 설문 착수",
+     "url": "https://www.yna.co.kr/view/MYH20261114003100038",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": false
   },
   {
    "rank": 5,
@@ -121,7 +121,7 @@
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -149,7 +149,7 @@
    "label": "약 500회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -172,31 +172,31 @@
   },
   {
    "rank": 7,
-   "keyword": "잠실주공5단지 아파트",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -2,
+   "keyword": "함덕주",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "[단독]잠실주공5단지, 분양신청 저조에 조합장 해임 기로…재건축 ‘삐걱’",
-     "url": "https://news.mtn.co.kr/article/2026111415191575156",
-     "source": "MTN 머니투데이방송"
-    },
-    {
-     "title": "\"9개월 전 37억 찍었는데…\" 잠실엘스, 29억대 매물 등장",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=01082406645645392&mediaCodeNo=257",
-     "source": "이데일리"
-    },
-    {
-     "title": "\"잠실 30억도 흔들린다\"…강남·서초로 몰리는 매수세에 중상위권 '주춤'",
-     "url": "https://www.newsis.com/view/NISX20261113_0003867547",
+     "title": "함덕주, 옵트아웃 행사…시장 나와 새 둥지 찾는다",
+     "url": "https://www.newsis.com/view/NISX20261114_0003868178",
      "source": "뉴시스"
+    },
+    {
+     "title": "'후반기 실종→옵트아웃' 함덕주 결국 LG 떠난다, 염경엽 감독의 \"노 코멘트\" 그 말이 힌트였나",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019868",
+     "source": "SPOTV NEWS"
+    },
+    {
+     "title": "좌완 함덕주, LG와 남은 1년 계약 포기…9개 구단과 협상 가능",
+     "url": "https://www.news1.kr/sports/baseball/6354145",
+     "source": "뉴스1"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 8,
@@ -205,7 +205,7 @@
    "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -233,7 +233,7 @@
    "label": "약 100회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
