@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-14T21:46:00+09:00",
- "prev_updated": "2026-11-14T20:37:00+09:00",
+ "updated": "2026-11-14T22:50:00+09:00",
+ "prev_updated": "2026-11-14T21:46:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "문무",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -32,41 +32,153 @@
   },
   {
    "rank": 2,
-   "keyword": "문정빈",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "갈비뼈",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'2연승 절실' 한국, 허인서 선발 포수 마스크 쓴다…김지찬도 스타팅, 문정빈은 국가대표 데뷔전 [오!쎈 도쿄]",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/13/MYYTOMTBHFQWCZBYMI4DSMBXGE/",
-     "source": "조선일보"
+     "title": "멀쩡한 갈비뼈 6개 부러뜨린 30대 여성...이유는?",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261114141351tED",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "한국, APBC 일본전 라인업 발표…'5번 타자' 김휘집",
-     "url": "https://www.news1.kr/sports/baseball/6353831",
-     "source": "뉴스1"
+     "title": "호리병 몸매가 뭐라고…멀쩡한 갈비뼈 6개 부러뜨린 30대女",
+     "url": "https://www.koreadaily.com/article/20261113203409480",
+     "source": "미주중앙일보"
     },
     {
-     "title": "RAXUS 후원 2026 아시아 프로야구 챔피언십: 도쿄돔에서 맞붙을 4개국 대표팀 확정",
-     "url": "https://www.wbsc.org/ko/news/asia-professional-baseball-championship-2026-four-teams-ready-for-tokyo-dome-showdown",
-     "source": "World Baseball Softball Confederation (WBSC)"
+     "title": "\"모래시계 몸매 원해\"…갈비뼈 6개 부러뜨린 30대 여성",
+     "url": "https://www.hankyung.com/article/2026111464437",
+     "source": "한국경제"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
+   "keyword": "버거킹",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "욕심껏 ‘꽉꽉’ 채운 내 버거가 신메뉴로?…버거킹 플레임 랩 가보니 [현장]",
+     "url": "https://www.mk.co.kr/news/economy/12205410",
+     "source": "매일경제"
+    },
+    {
+     "title": "“두툼한 패티 2장에 치즈 3장, 나만의 버거”…버거킹 연구소에선 다 된다 [르포]",
+     "url": "https://biz.heraldcorp.com/article/10934528",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "[현장] \"와퍼에 새우패티 넣어볼까?\"…버거킹 연구원이 된 하루",
+     "url": "https://www.dailian.co.kr/news/view/1713648/%ED%98%84%EC%9E%A5-%EC%99%80%ED%8D%BC-%EC%83%88%EC%9A%B0%ED%8C%A8%ED%8B%B0-%EB%84%A3%EC%96%B4%EB%B3%BC%EA%B9%8C%EB%B2%84%EA%B1%B0%ED%82%B9-%EC%97%B0-2026",
+     "source": "데일리안"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "로또1250",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "제1250회 로또 1등 9명···당첨금 31억원",
+     "url": "https://www.khan.co.kr/article/202611142052001",
+     "source": "경향신문"
+    },
+    {
+     "title": "[속보]로또 1250회 당첨번호 '1·5·18·23·27·28'…보너스 '8'",
+     "url": "https://www.edaily.co.kr/News/Read?newsId=02794566645645720&mediaCodeNo=257",
+     "source": "edaily.co.kr"
+    },
+    {
+     "title": "1250회 로또판매·추첨시간, 1249회 1등당첨지역 공개",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3751761",
+     "source": "국제뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "딜라이브",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "LG헬로 시청자 투니버스 못 보게 된다?… 시청자는 무슨 죄",
+     "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338414",
+     "source": "미디어오늘"
+    },
+    {
+     "title": "합의제 기구 방미통위, 합의만 기다릴 것인가 [강소현의 방송통신문]",
+     "url": "https://www.ddaily.co.kr/page/view/2026111316500450204",
+     "source": "디지털데일리"
+    },
+    {
+     "title": "CJ ENM, 딜라이브에 “송출 중단 수용 어려워”…협의는 계속",
+     "url": "https://www.etnews.com/20261112000455",
+     "source": "전자신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "맥도날드 세종dt점",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "새벽 2시부터 줄 섰다…‘인구 40만’ 세종시 첫 맥도날드, 오픈런에 경찰까지 출동",
+     "url": "https://www.segye.com/newsView/20261114502699",
+     "source": "세계일보"
+    },
+    {
+     "title": "\"맥도날드 먹으러 원정까지\"…인구 40만 도시에 무슨 일이",
+     "url": "https://www.hankyung.com/article/2026111359347",
+     "source": "한국경제"
+    },
+    {
+     "title": "\"살다 살다 이런 오픈런 처음 본다\"…새벽 2시부터 '우르르' 맥날 개점에 난리난 도시",
+     "url": "https://view.asiae.co.kr/article/2026111320395050229",
+     "source": "아시아경제"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 7,
    "keyword": "아이오아이",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -4,
    "news": [
     {
      "title": "[ET포토] 라이즈, '여심 헌터들'",
@@ -87,144 +199,44 @@
    "safe": true
   },
   {
-   "rank": 4,
-   "keyword": "박근혜",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "AI영상으로 되살아난 박정희…구미서 탄신 109돌 문화행사",
-     "url": "https://www.yna.co.kr/view/AKR20261114030900053",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "박근혜 전 대통령 “정치는 국민의 먹고사는 문제 해결 위한 것…걱정 덜어드려야”",
-     "url": "https://www.kyeonggi.com/article/20261114580079",
-     "source": "경기일보"
-    },
-    {
-     "title": "박근혜 “경제 어렵고 살림살이 팍팍…잘사는 나라 후손에 물려줘야” [현장영상]",
-     "url": "https://ichannela.com/news/detail/000000559954.do",
-     "source": "채널A"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 5,
-   "keyword": "미미미누",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 8,
+   "keyword": "데블스 플랜",
+   "traffic": "100+",
+   "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
-   "news": [
-    {
-     "title": "'놀라운 토요일' 규현·궤도·미미미누 출격… 이과 vs 문과 자존심 건 암기력 대결",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752115",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "“고대는 경쟁 상대도 아냐”… 궤도vs미미미누 연고전 제대로 붙었다 (‘놀토’)",
-     "url": "https://www.mk.co.kr/news/broadcasting-service/12209021",
-     "source": "매일경제"
-    },
-    {
-     "title": "궤도, 미미미누와 대학 신경전…\"견제 자체가 성립 되는가\"",
-     "url": "https://www.news1.kr/entertain/broadcast-tv/6354160",
-     "source": "뉴스1"
-    }
-   ],
+   "news": [],
    "safe": true
   },
   {
-   "rank": 6,
-   "keyword": "김휘집",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "rank": 9,
+   "keyword": "한국 야구",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'악!' 오른손 맞은 한동희, 결국 경기 빠졌다…\"뼈에는 이상 無, 송구 불편해 보호 차원 교체\" [오!쎈 도쿄]",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/14/GAZGIYJTGU4GINRSHA2DQOJQMU/",
-     "source": "조선일보"
+     "title": "'피홈런 4방'에 한일전 12연패‥'약속의 8회 없었다'",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865690_37004.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "[APBC] 오른손 맞은 한동희, 대만전 도중 교체…\"뼈 이상은 없어\"",
-     "url": "https://www.newspim.com/news/view/20261114000087",
-     "source": "뉴스핌"
+     "title": "APBC 일본에 패…한일전 13경기 연속 무승",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712788",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "[사진]김휘집,'오늘도 타점 올렸어' - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/14/202611142009776418O",
+     "title": "1년 전 군대로 도피해야하나 했는데, 이 정도로 컸다…어엿한 국대 좌완 에이스로 우뚝 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/14/202611141203772466O",
      "source": "머니투데이"
     }
    ],
    "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "오은영",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "오은영, 헤어스타일 바꿨다... \"10년 어려보여 소녀 같아\"",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/14/MU2WKYLFGBRDEYZTMRTGIMRVG4/",
-     "source": "조선일보"
-    },
-    {
-     "title": "오은영, 61세에 ‘사자머리’ 대신 빗으로 넘겼을 뿐인데…김형석 “10년은 젊어지신 것 같다”",
-     "url": "https://www.mk.co.kr/news/entertain/12208792",
-     "source": "매일경제"
-    },
-    {
-     "title": "오은영, '사자머리' 벗고 차분한 생머리..\"이게 원래 내 머리\"→\"10년은 젊어보여\"",
-     "url": "https://www.sportschosun.com/entertainment/2026-11-14/202611140100093330008769",
-     "source": "스포츠조선"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "군산 불꽃 축제",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"철새도래지서 폭죽이라니\"…군산 불꽃축제에 환경단체 반발",
-     "url": "https://www.yna.co.kr/view/AKR20261113070300055",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "김재준 군산시장, 국회서 2027년 국가예산 증액 건의…새만금·현대차 연계사업 요청",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3751917",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "\"멸종위기종도 있는데\"…철새도래지서 불꽃축제 논란",
-     "url": "https://m.mbn.co.kr/tv/program_view.mbn?seq=552&bcast_seq=1433676&type=bcast",
-     "source": "m.mbn.co.kr"
-    }
-   ],
-   "safe": false
   }
  ]
 }
