@@ -1034,5 +1034,33 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-15T12:51:00+09:00"
+},
+{
+"id": "na344a25088",
+"cat": "show",
+"title": "시흥시, 미래 첨단 바이오 꿈나무 키운다…'시흥어린이과학관' 개관",
+"source": "연합뉴스",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0VGp3NWdIaXg3S0Y3UVlKemdyenhPY1BxcXBFZ25rWmNfdHQxWlFkMlctU2tnc1hoTWZzSzlwdmFTMWxSRmhxTGxmM3RCY1BxLXA1UEdzY0hQNTQ?oc=5",
+"pub": "2026-11-09T14:37:55+09:00",
+"region": "시흥",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T13:54:00+09:00"
+},
+{
+"id": "n7c1e6d8b30",
+"cat": "place",
+"title": "푸른 초원 위 양 떼와 가축 교감, 늦가을 가족 나들이 명소 안성팜랜드",
+"source": "이트레블뉴스",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1OVG9GMU9aVUdLMHNlY000V1RiT2pqSkxpb3F2Z1JpV2ZsUWFfbGxKTGdaQXJ2Sk1scW5FbC1jMWE2eFJp?oc=5",
+"pub": "2026-11-09T02:21:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T13:54:00+09:00"
 }
 ]
