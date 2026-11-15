@@ -1062,5 +1062,61 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-15T13:54:00+09:00"
+},
+{
+"id": "n71f49f3eb0",
+"cat": "festival",
+"title": "진주시, ‘우리농산물 가족요리 체험행사’ 개최",
+"source": "진주인터넷뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mdjZpeS1zdlJPc0xhRmgxelNoSEFuaWF2aEZJbms4S20tSnJiUURZdUV1ZzRWMGFDc2JLYk1PNWpoWXlJZFNKQXBnSTlVdjEzRldQT01jejBLZW1ueHJBZ0NjYjFmWkZDXy1RWEFqSU0zUQ?oc=5",
+"pub": "2026-11-14T18:00:05+09:00",
+"region": "진주",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T14:52:00+09:00"
+},
+{
+"id": "nf71939f093",
+"cat": "show",
+"title": "대구행복진흥원, 어린이 대상 ‘뇌과학 체험전’ 개최… 20일까지 무료 운영",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXpQSWVyNkdURUZJYlhtb0ZzaFJOMkl5dXIweU8wS1pSdUlFSFpGVHZnOTg2QWJtVjBRR2lLSFpsRVAwRUtSaWU4N3JaM2U3bkZzTXZoeE5FVVJlUlBEUkRIeWc?oc=5",
+"pub": "2026-11-09T16:51:52+09:00",
+"region": "대구",
+"period": "~20일",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T14:52:00+09:00"
+},
+{
+"id": "e02de4137df",
+"cat": null,
+"title": "뇌과학 체험전",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXpQSWVyNkdURUZJYlhtb0ZzaFJOMkl5dXIweU8wS1pSdUlFSFpGVHZnOTg2QWJtVjBRR2lLSFpsRVAwRUtSaWU4N3JaM2U3bkZzTXZoeE5FVVJlUlBEUkRIeWc?oc=5",
+"pub": "2026-11-09T16:51:52+09:00",
+"region": "대구",
+"period": "~20일",
+"start": null,
+"end": null,
+"addr": "대구",
+"seen": "2026-11-15T14:52:00+09:00"
+},
+{
+"id": "ef096927088",
+"cat": null,
+"title": "우리농산물 가족요리 체험행사",
+"source": "진주인터넷뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9mdjZpeS1zdlJPc0xhRmgxelNoSEFuaWF2aEZJbms4S20tSnJiUURZdUV1ZzRWMGFDc2JLYk1PNWpoWXlJZFNKQXBnSTlVdjEzRldQT01jejBLZW1ueHJBZ0NjYjFmWkZDXy1RWEFqSU0zUQ?oc=5",
+"pub": "2026-11-14T18:00:05+09:00",
+"region": "진주",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "진주",
+"seen": "2026-11-15T14:52:00+09:00"
 }
 ]

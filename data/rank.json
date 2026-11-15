@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-15T13:54:00+09:00",
- "prev_updated": "2026-11-15T12:51:00+09:00",
+ "updated": "2026-11-15T14:52:00+09:00",
+ "prev_updated": "2026-11-15T13:54:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "차예련",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -37,7 +37,7 @@
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -46,107 +46,23 @@
      "source": "Chosunbiz"
     },
     {
-     "title": "[사진]김휘집,'오늘도 타점 올렸어' - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/14/202611142009776418O",
-     "source": "머니투데이"
-    },
-    {
      "title": "만루 기회 살려 2점차 벌리는 김휘집",
      "url": "https://www.newsis.com/view/NISI20261114_0002292136",
      "source": "뉴시스"
+    },
+    {
+     "title": "[사진]김휘집,'오늘도 타점 올렸어' - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/14/202611142009776418O",
+     "source": "머니투데이"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "김성한",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "잠실구장 2032년엔 꼭 만나자…백발 노장과 전설들, 빗속의 작별",
-     "url": "https://www.hani.co.kr/arti/society/society_general/1287334.html",
-     "source": "한겨레"
-    },
-    {
-     "title": "프로야구 레전드와 함께하는 ’마지막 잠실’…한화 레전드 김태균, 멀티히트",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261115110002izR",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "[포토] MVP 이병규, 야신에 꾸벅 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/14/2026111420392575543",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "김지찬",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "한일전 12연속 무승, 삼성 김지찬 우승 기운 전파하겠다!",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8710671",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "중전 안타로 진루하는 김민석",
-     "url": "https://www.newsis.com/view/NISI20261113_0002291780",
-     "source": "뉴시스"
-    },
-    {
-     "title": "일본 매체 “APBC 호주전서 흐름 바꾼 김지찬, 한일전서 주목해야”",
-     "url": "https://www.donga.com/news/Sports/article/all/20261113/135020908/1",
-     "source": "동아일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "케빈 홀랜드",
+   "keyword": "최예나",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "UFC 334 live blog: Uros Medic vs. Kevin Holland",
-     "url": "https://www.mmafighting.com/ufc/521230/ufc-334-live-blog-uros-medic-vs-kevin-holland",
-     "source": "MMA Fighting"
-    },
-    {
-     "title": "Uros Medic vs. Kevin Holland prediction, pick, start time, odds for UFC 334",
-     "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2026/11/14/uros-medic-vs-kevin-holland-ufc-334-prediction-expert-pick/92771950007/",
-     "source": "MMA Junkie"
-    },
-    {
-     "title": "UFC 334: Confusion reigns in Uros Medic vs. Kevin Holland after Bruce Buffer misreads cards in bizarre majority draw",
-     "url": "https://sports.yahoo.com/mma/article/ufc-334-confusion-reigns-in-uros-medic-vs-kevin-holland-after-bruce-buffer-misreads-cards-in-bizarre-majority-draw-040921507.html",
-     "source": "Yahoo Sports"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "케이조선",
-   "traffic": "100+",
-   "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
@@ -155,14 +71,70 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "카르다노",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "rank": 4,
+   "keyword": "수출",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "AI 특수에 ICT 수출 703억달러‥증가율 202% '역대 최고'",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865752_36932.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "10월 정보통신산업(ICT) 수출액, 전년 동기 대비 202.0% 성장",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261115.99099004272",
+     "source": "국제신문"
+    },
+    {
+     "title": "AI 산업 ‘인간 가속기’ 젠슨 황 사퇴 직전 한 달, D램 수출 595%↑",
+     "url": "https://www.hani.co.kr/arti/economy/marketing/1287364.html",
+     "source": "한겨레"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "범죄자",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "범죄자도 아닌데 계좌 묶여…\"직원 월급도 못줄 판\" 패닉 [사장님 고충백서]",
+     "url": "https://www.hankyung.com/article/202611146105i",
+     "source": "한국경제"
+    },
+    {
+     "title": "모르는 돈 들어와 계좌 묶였다면 돌려줘야 할까⋯법원 \"부당이득 반환 의무 없다\"",
+     "url": "https://lawtalknews.co.kr/article/S71WC27P3ZPB",
+     "source": "로톡뉴스"
+    },
+    {
+     "title": "사기범 돈줄 막다가 억울한 계좌주 속출… 금융사기 구제 딜레마",
+     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000000539",
+     "source": "IT조선"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "카르다노",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "카르다노 가격이 10% 하락",
@@ -183,31 +155,15 @@
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "축제",
+   "rank": 7,
+   "keyword": "케이조선",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김치 휘낭시에·김치 붕어빵 맛본다…20일 ‘김치의 날’ 축제",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01397286645646048",
-     "source": "마켓인"
-    },
-    {
-     "title": "농식품부, 20일 aT서 '김치의 날' 행사…김장 체험·김치 할인",
-     "url": "https://www.yna.co.kr/view/AKR20261114028600030",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "올해 '김치의 날' 기념식, 체험형으로 개최…김치 맛보고, 30% 할인까지",
-     "url": "https://www.news1.kr/economy/agri-food/6354293",
-     "source": "뉴스1"
-    }
-   ],
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
+   "news": [],
    "safe": true
   }
  ]
