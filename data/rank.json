@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-16T03:43:00+09:00",
- "prev_updated": "2026-11-16T02:36:00+09:00",
+ "updated": "2026-11-16T04:43:00+09:00",
+ "prev_updated": "2026-11-16T03:43:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,23 +9,23 @@
    "label": "약 5,000회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
-     "title": "매물 늘고 가격 조정…시들해진 서울 아파트 '매수' 심리",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444785",
-     "source": "연합인포맥스"
+     "title": "강남 집값 내리는데 경기 규제지역은 상승…연말 토허제 ‘딜레마’",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01889286645646048",
+     "source": "마켓인"
     },
     {
-     "title": "\"호가 수억 낮춰도 안 팔려\"…서울 집값 오르는데 강남은 왜",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02630566645645720&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "\"이제 와서 2억 더 내라고?\"…서초 아파트 주민들 '날벼락' [김용우의 각개전투]",
+     "url": "https://www.hankyung.com/article/202611146307i",
+     "source": "한국경제"
     },
     {
-     "title": "수도권, 내년 1분기까지 4.4만 가구 입주",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336840",
-     "source": "인천일보"
+     "title": "재초환 '날벼락'에...재건축 조합장들 한 곳에",
+     "url": "https://www.fnnews.com/news/202611131524554357",
+     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
@@ -37,7 +37,7 @@
    "label": "약 5,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -60,41 +60,13 @@
   },
   {
    "rank": 3,
-   "keyword": "미미미누",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "매력적인 아일릿",
-     "url": "https://www.newsis.com/view/NISI20261115_0021533395",
-     "source": "뉴시스"
-    },
-    {
-     "title": "[사진]미미미누, 2026 멜론뮤직어워드 사회 맡았어요",
-     "url": "https://www.chosun.com/entertainments/entertain_photo/2026/11/15/GMZGKMBZGJRGEMRTHBRDMYJVMY/",
-     "source": "조선일보"
-    },
-    {
-     "title": "[포토] 윤아, 매너가 사람을 만드는 킹스걸",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524940",
-     "source": "iMBC 연예"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
    "keyword": "알렉산더 즈베레프",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "즈베레프, 험난한 조 편성 속 호다르와 첫판… 알카라스는 '비교적 수월'",
@@ -102,17 +74,45 @@
      "source": "테니스코리아"
     },
     {
-     "title": "ATP 파이널 2026 예측: 알카라스 1위 후보",
-     "url": "https://ko.laodong.vn/tennis/nhan-dinh-atp-finals-2026-alcaraz-ung-vien-so-1-1800096.ldo",
-     "source": "Laodong.vn"
+     "title": "올림픽 경기장의 두 가지 운명…토리노는 ATP 파이널스, 강릉은 무엇을 남겼나",
+     "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19838",
+     "source": "테니스피플"
     },
     {
-     "title": "[ATP 파이널스] 8개월 공백 딛고 첫 토리노行… 피스의 2026시즌 해피엔딩",
-     "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54301",
-     "source": "테니스코리아"
+     "title": "즈베레프가 2026 ATP 파이널에서 좋은 출발을 보였다.",
+     "url": "https://www.vietnam.vn/ko/zverev-ra-quan-thuan-loi-tai-atp-finals-2026",
+     "source": "Vietnam.vn"
     }
    ],
-   "safe": false
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "입양",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "up",
+   "delta": 3,
+   "news": [
+    {
+     "title": "\"다시는 안 키운다\" 입양 거절했는데... 예상 못한 일이 벌어졌다",
+     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003284762",
+     "source": "OhmyNews"
+    },
+    {
+     "title": "\"여기가 미감 종착지\"…김나영, ♥마이큐 작업실서 허리 감싸 안으며 '사랑꾼 면모' 과시",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/HE3TSNRSGAYTANZTGI2TEMDGMU/",
+     "source": "조선일보"
+    },
+    {
+     "title": "\"누가 여기에 갖다 놓은 거야?\"...김나영, 주방 서랍 열어보고 '깜짝' 놀란 사연 ('노필터티비')",
+     "url": "https://www.koreadaily.com/article/20261115040636923",
+     "source": "미주중앙일보"
+    }
+   ],
+   "safe": true
   },
   {
    "rank": 5,
@@ -121,7 +121,7 @@
    "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -172,28 +172,28 @@
   },
   {
    "rank": 7,
-   "keyword": "입양",
+   "keyword": "박현주",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -2,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "\"여기가 미감 종착지\"…김나영, ♥마이큐 작업실서 허리 감싸 안으며 '사랑꾼 면모' 과시",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/15/MI4GKYJWGMYDIZDCGA2DOYRRHA/",
-     "source": "Chosunbiz"
+     "title": "“보스 돌려줘” 12만명 젠슨 황 복귀 청원…“타락한 실리콘밸리”",
+     "url": "https://www.hani.co.kr/arti/international/international_general/1287402.html",
+     "source": "한겨레"
     },
     {
-     "title": "\"누가 여기에 갖다 놓은 거야?\"...김나영, 주방 서랍 열어보고 '깜짝' 놀란 사연 ('노필터티비')",
-     "url": "https://www.koreadaily.com/article/20261115040636923",
-     "source": "미주중앙일보"
+     "title": "창업자 한 명에 매달린 빅테크… '열쇠' 빠지자 뻥 뚫린 경영 - 머니투데이",
+     "url": "https://www.mt.co.kr/world/2026/11/16/2026111519385397101",
+     "source": "머니투데이"
     },
     {
-     "title": "김나영♥마이큐, 작업실서 과감한 스킨십...\"진짜 천생연분\" 신혼 일상 (노필터)",
-     "url": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100101580009397",
-     "source": "스포츠조선"
+     "title": "\"죽었으면 좋겠다\"…젠슨 황, 엔비디아 임원에 폭언했다는 증언 나와",
+     "url": "https://www.newsis.com/view/NISX20261115_0003868691",
+     "source": "뉴시스"
     }
    ],
    "safe": true
@@ -214,42 +214,42 @@
      "source": "조선일보"
     },
     {
+     "title": "사람 대신 AI 승조원… 한미 무인군함 첫선 - 머니투데이",
+     "url": "https://www.mt.co.kr/industry/2026/11/16/2026111519590590555",
+     "source": "머니투데이"
+    },
+    {
      "title": "HD현대, 미 무인함정 시장 공략 발판",
      "url": "https://www.khan.co.kr/article/202611152031025",
      "source": "경향신문"
-    },
-    {
-     "title": "함장도 기관사도 없는 600t급 군함… AI가 정찰 등 작전까지 수행",
-     "url": "https://www.donga.com/news/Economy/article/all/20261115/135027906/2",
-     "source": "동아일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "장혁",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "빙그레",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "＂내 어찌 경의 뜻을 모르겠는가＂ 양현민을 설득시킨 선동혁 [문무] | KBS 261115 방송",
-     "url": "https://www.kbs.co.kr/index.html?source=smr&sname=vod&stype=vod&contents_id=K02_PS-2026188993-01-000_MFSC1&program_code=T2025-0499&program_id=PS-2026188993-01-000&section_code=03&broadcast_complete_yn=N&section_id=28257",
-     "source": "대한민국 대표 공영미디어 KBS"
+     "title": "“한국인은 언제든 먹잖아요”에 우유 양보…빙그레도 나섰다 [잇슈#태그]",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713167",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "'문무' 이현욱, 294억 대작 주인공다운 묵직한 첫 등장 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/15/2026111509237266143",
-     "source": "머니투데이"
+     "title": "“뚱바 양보한 시민 찾습니다”…빙그레, 수소문 끝에 ‘명예 앰배서더’ 위촉",
+     "url": "https://www.donga.com/news/Society/article/all/20261113/135023432/1",
+     "source": "동아일보"
     },
     {
-     "title": "장혁, 왕좌 찬탈하고 조성하와 살기 어린 만남..피할 수 없는 대결(‘문무’)",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/MY3WIMRYHE4DKNZRMNSWIODBGI/",
-     "source": "조선일보"
+     "title": "공항서 ‘툭툭’ 치더니 “한국인이니까 양보해 달라”는 외국인…무슨 사연?",
+     "url": "https://www.sedaily.com/article/20114331",
+     "source": "서울경제"
     }
    ],
    "safe": true
@@ -261,8 +261,8 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "김민하 착시현상 뭐길래? 살구빛 '누드톤' 의상으로 존재감 과시",
