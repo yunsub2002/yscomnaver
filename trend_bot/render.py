@@ -212,14 +212,14 @@ def t_kids_list(d, p):
     rows = "".join(f"""<div style="display:flex;gap:24px;align-items:center;background:#fff;border-radius:24px;padding:26px 30px;margin-bottom:18px;border:3px solid {p['c']}">
   <div style="flex:none;width:70px;height:70px;border-radius:50%;background:{p['a']};color:#fff;font-size:36px;font-weight:900;display:flex;align-items:center;justify-content:center">{i}</div>
   <div style="flex:1;min-width:0"><div style="font-size:35px;font-weight:900;color:#1d2330;line-height:1.3;letter-spacing:-.6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{e(x['t'])}</div>
-  <div style="font-size:26px;font-weight:700;color:#6b7385;margin-top:8px">📅 {e(x.get('p',''))} · 📍 {e(x.get('r',''))}</div></div>
+  {'' if d.get('plain') else f'<div style="font-size:26px;font-weight:700;color:#6b7385;margin-top:8px">📅 {e(x.get("p",""))} · 📍 {e(x.get("r",""))}</div>'}</div>
   {f'<div style="flex:none;font-size:24px;font-weight:900;color:{p["a"]};background:{p["c"]};border-radius:99px;padding:8px 16px">{e(x["st"])}</div>' if x.get('st') else ''}</div>""" for i, x in enumerate(d["items"][:6], 1))
     return f"""<div class="card" style="background:{p['c']};padding:80px 56px 100px">
  <div style="font-size:30px;font-weight:800;color:{p['a']};margin-bottom:14px">{e(d.get('kicker',''))}</div>
  <div style="font-size:60px;font-weight:900;color:#2b1b38;letter-spacing:-1.5px;line-height:1.25;margin-bottom:44px">{e(d['title'])}</div>
  {rows}
- <div class="emo" style="position:absolute;right:56px;top:62px;font-size:110px">🎪</div>
- <div style="font-size:24px;color:#8a8f9c;margin-top:16px">※ 한국관광공사 축제 정보 기준 · 일정은 방문 전 공식 안내 확인</div>
+ <div class="emo" style="position:absolute;right:56px;top:62px;font-size:110px">{'✅' if d.get('plain') else '🎪'}</div>
+ <div style="font-size:24px;color:#8a8f9c;margin-top:16px">{e(d.get('foot','※ 일정은 방문 전 공식 안내 확인'))}</div>
 </div>"""
 
 T = {"kids_cover": t_kids_cover, "kids_list": t_kids_list, "hot_cover": t_hot_cover, "headlines": t_headlines, "cover": t_cover, "summary": t_summary, "table": t_table, "checklist": t_checklist, "points": t_points,

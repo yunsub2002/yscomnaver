@@ -102,6 +102,25 @@ def from_kids(post):
                "images": post["images"][:1], "posts": posts, "tags": tags[:5]}
     return insta, threads
 
+def from_kids_hot(post):
+    h = post["kidshot"]
+    rnd = random.Random(post["id"])
+    n = h["name"]
+    tags = hashtags(post["tags"], "kids")
+    first = rnd.choice([f"👀 요즘 아이들 사이 ‘{n}’ 난리라던데?", f"🔥 초등맘들 사이 화제 ‘{n}’ 정리", f"📌 ‘{n}’ 모르면 아이랑 대화 안 돼요"])
+    info = f"최근 기사 {h['count']}건" + (f" · 네이버 블로그 {h['blog_total']:,}건" if h.get("blog_total") else "")
+    cap = [first, "", info, "", "📰 지금 나온 소식"] + [f"• {a['title']}" for a in h["arts"][:3]] + ["", "✅ 엄마 아빠 체크"] + [f"• {c}" for c in h["cps"][:3]]
+    cap += ["", "자세한 정리는 프로필 링크(블로그) 👉", ".", " ".join("#" + t for t in tags)]
+    insta = {"id": post["id"] + "-ig", "src": "kids", "label": post["label"], "created": post["created"], "title": f"키즈 화제 ‘{n}’",
+             "images": post["images"], "caption": "\n".join(cap), "tags": tags}
+    posts = [clip(f"{first} 🧵\n\n{info}. 무슨 일인지 짧게 정리해 볼게요."),
+             clip("1/ 지금 나온 소식\n" + "\n".join(f"- {a['title']}" for a in h["arts"][:3])),
+             clip("2/ 엄마 아빠 체크 포인트\n" + "\n".join(f"- {c}" for c in h["cps"])),
+             clip(f"여러분 아이도 ‘{n}’ 좋아하나요? 댓글로 이야기 나눠요 👇")]
+    threads = {"id": post["id"] + "-th", "src": "kids", "label": post["label"], "created": post["created"], "title": f"키즈 화제 ‘{n}’",
+               "images": post["images"][:1], "posts": posts, "tags": tags[:5]}
+    return insta, threads
+
 def save(base, kind, item):
     d = os.path.join(base, "social")
     os.makedirs(os.path.join(d, "archive"), exist_ok=True)

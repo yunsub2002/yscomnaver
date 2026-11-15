@@ -136,6 +136,16 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
 .gimgs img{flex:0 0 62%;width:62%;border-radius:14px;display:block;background:var(--soft)}
 .gwarn{font-size:13px;font-weight:700;color:var(--hot);margin:8px 2px 0}
 /* 키즈 탭 */
+.kpgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+.kp{background:var(--soft);border-radius:14px;overflow:hidden;position:relative}
+.kp img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.kp .no{position:absolute;left:6px;top:6px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;font-weight:800;border-radius:99px;padding:2px 8px}
+.kp .cv{position:absolute;right:6px;top:6px;background:#ff7a45;color:#fff;font-size:11px;font-weight:900;border-radius:99px;padding:2px 7px}
+.kp input{border:0!important;border-radius:0!important;font-size:14px!important;padding:8px 10px!important;background:var(--card)!important}
+.kp .tools{display:flex;border-top:1px solid var(--line)}
+.kp .tools button{flex:1;padding:7px 0;font-size:14px;font-weight:800;color:var(--mut)}
+.kform .kpadd{display:flex;align-items:center;justify-content:center;font-size:15px;margin:8px 0 0;color:var(--blue)}
+.kpadd{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;min-height:54px;border-radius:14px;border:2px dashed var(--line);font-weight:800;font-size:15px;color:var(--blue);background:var(--blue-soft)}
 .kchips{display:flex;gap:6px;overflow-x:auto;margin:6px -16px 2px;padding:2px 16px 6px;scrollbar-width:none}.kchips::-webkit-scrollbar{display:none}
 .kchips button{flex:none;font-size:13.5px;font-weight:800;padding:7px 12px;border-radius:99px;background:var(--card);box-shadow:var(--shadow);color:var(--mut)}
 .kchips button.on{background:#ff7a45;color:#fff}
@@ -297,7 +307,7 @@ function render(){
  $('#htitle').textContent = TITLES[v];
  const up = {post: S.cur.post ? `글 만든 시각 ${when(S.cur.post.created)} · 하루 3편 (오전 트렌드·점심 심층·오후 트렌드)` : '아직 만들어진 글이 없어요',
              hot: `매시간 지금 막 뜬 키워드로 자동 작성 · 최근 ${when((hotPosts()[0] || {}).created) || '-'}`,
-             kids: S.kids && S.kids.updated ? `소식 업데이트 ${when(S.kids.updated)} · 매시간 갱신 · 정리 글은 매일 아침` : '아이랑 갈 만한 축제·행사·키즈카페·맛집 소식',
+             kids: S.kids && S.kids.updated ? `소식 업데이트 ${when(S.kids.updated)} · 화제 글 약 3시간마다 · 정리 글 매일 아침` : '아이랑 갈 만한 축제·행사·키즈카페·맛집·유행 소식',
              insta: '심층 글은 카드뉴스, 화제 글은 이슈 카드로 자동 제작', threads: '첫 줄 후킹 → 내용 → 질문 순서의 연속 글',
              rank: S.rank ? `순위 업데이트 ${when(S.rank.updated)} · 매시간 갱신` : '', arc: '만들어진 모든 글이 월별로 계속 쌓여요'}[v];
  $('#upd').textContent = up;
@@ -596,7 +606,8 @@ async function genMake(){
  genOut();
  $('#gimgs').innerHTML = '<div class="note" style="padding:20px 0">카드 이미지 만드는 중…</div>';
  const files = kids ? await drawKidsCards(x, G.d) : await drawCards(x, G.d); G.files = files; G.urls = files.map(f => URL.createObjectURL(f));
- $('#gimgs').innerHTML = G.urls.map(u => `<img src="${u}" alt="">`).join('');
+ $('#gimgs').innerHTML = G.urls.map((u, i) => `<div style="flex:0 0 62%;position:relative"><img src="${u}" alt="" style="width:100%;flex:none"><span class="n" style="position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:12px;font-weight:700;padding:2px 8px;border-radius:99px">${i + 1}</span></div>`).join('');
+ $('[data-g="photos"]').textContent = files.length > 3 ? `📥 사진 ${files.length}장 순서대로 저장` : '📥 카드 이미지 3장 저장';
 }
 function genOut(){
  const d = G.d, x = G.x; document.querySelectorAll('#gtab button').forEach(b => b.classList.toggle('on', b.dataset.g === 't-' + G.tab));
@@ -635,35 +646,47 @@ document.addEventListener('click', e => {
  if (a === 'chash') copy(d.hashtags.map(t => '#' + t).join(' '), '해시태그를');
 });
 /* ===== 👧 키즈 실시간 탭 ===== */
-const KCAT = {festival: ['🎪', '축제·행사'], place: ['🗺️', '가볼만한곳'], kidscafe: ['🧸', '키즈카페'], food: ['🍽️', '맛집·외식'], show: ['🎭', '공연·전시']};
-const KSEG = [['live', '📰 실시간'], ['fest', '🎪 축제'], ['post', '📝 오늘 글'], ['review', '✍️ 후기']];
+const KCAT = {festival: ['🎪', '축제·행사'], place: ['🗺️', '가볼만한곳'], kidscafe: ['🧸', '키즈카페'], food: ['🍽️', '맛집·외식'], show: ['🎭', '공연·전시'], trend: ['🔥', '요즘 유행']};
+const KSEG = [['live', '📰 실시간'], ['trend', '🔥 유행'], ['fest', '🎪 축제'], ['post', '📝 글'], ['review', '✍️ 후기']];
 function kidsList(){ const f = S.kids || {}, n = f.news || []; return S.kcat === 'all' ? n : n.filter(x => x.cat === S.kcat); }
 function drawKids(posted){
  const f = S.kids || {}, el = $('#v-kids');
  const seg = `<div class="seg">${KSEG.map(([k, l]) => `<button class="${S.kseg === k ? 'on' : ''}" data-kseg="${k}">${l}</button>`).join('')}</div>`;
  if (S.kseg === 'post') return drawPost('kids', todays(kidsPosts()).slice().reverse(), posted, seg);
- if (S.kseg === 'review') { el.innerHTML = seg + kidsForm(); return; }
+ if (S.kseg === 'review') { el.innerHTML = seg + kidsForm(); kpLoad(); return; }
+ if (S.kseg === 'trend') {
+  const tr = f.trends || [];
+  if (!tr.length) { el.innerHTML = seg + `<div class="card empty">요즘 화제인 주제를 찾는 중이에요.<br>매시간 기사를 다시 살펴봐요.</div>`; return; }
+  el.innerHTML = seg + `<div class="sec-t">최근 7일 기사에 여러 번 나온 아이·가족 화제 · ${tr.length}개</div>` + tr.map((t, i) => `<div class="card">
+   <div class="sc-head"><span class="chip">${t.kind === 'fest' ? '🎪 행사' : '🔥 유행'}</span><span class="t">${t.new ? '<span class="knew">NEW</span>' : ''}${esc(t.name)}</span></div>
+   <div class="upd" style="margin:-4px 0 8px">기사 ${t.count}건${t.blog_total ? ` · 네이버 블로그 ${t.blog_total.toLocaleString()}건` : ''}${t.region ? ' · 📍' + esc(t.region) : ''}${t.period && t.period !== '기사에서 확인' ? ' · 📅 ' + esc(t.period) : ''}</div>
+   <div class="kn" style="padding:0;border:0">${(t.arts || []).slice(0, 3).map(a => `<a class="km" style="display:block;padding:3px 0;color:var(--ink);text-decoration:none;font-size:14px" href="${esc(a.url)}" target="_blank" rel="noopener">📰 ${esc(a.title)} <span style="color:var(--mut)">${esc(a.source || '')}</span></a>`).join('')}
+   ${(t.blogs || []).map(b => `<a class="km" style="display:block;padding:3px 0;color:var(--ink);text-decoration:none;font-size:14px" href="${esc(b.url)}" target="_blank" rel="noopener">📝 ${esc(b.title)} <span style="color:var(--mut)">${esc(b.by)} ${esc(b.date)}</span></a>`).join('')}
+   <div class="ka"><button class="go" data-kgen="trend" data-i="${i}">✍️ 글쓰기</button><a href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(t.name)}" target="_blank" rel="noopener">🔎 네이버</a></div></div></div>`).join('')
+   + `<p class="note">키즈 화제 글은 아침 8시~밤 10시 사이 약 3시간마다 이 목록 1위 주제로 자동으로 만들어져 ‘📝 글’에 쌓여요. 36시간 안에 쓴 주제는 건너뛰어요.${f.has_naver ? '' : ' 네이버 검색 키를 넣으면(선택) 블로그 반응 수와 다른 블로그 후기 글도 함께 보여요.'}</p>`;
+  return;
+ }
  if (S.kseg === 'fest') {
   const fs = f.festivals || [];
   const head = `<div class="sec-t">${esc(f.range ? f.range.label : '')} 열리는 축제 · ${fs.length}곳</div>`;
-  if (!f.has_tour) { el.innerHTML = seg + `<div class="card"><b>🎪 전국 축제 목록을 켜 주세요</b><div class="kbox">한국관광공사 무료 키를 넣으면 이번 주 진행 중인 전국 축제·행사(기간·장소·사진)가 매시간 자동으로 나와요.<br><br>PC에서 <b>6_관광공사키_넣기.bat</b> 실행 → 안내대로 키 붙여넣기 (5분)</div><div class="note">키를 넣기 전에도 ‘실시간’ 탭의 어린이 축제·행사 기사는 계속 모여요.</div></div>`; return; }
   if (!fs.length) { el.innerHTML = seg + `<div class="card empty">이번 주 축제 정보를 기다리는 중이에요.</div>`; return; }
   el.innerHTML = seg + head + `<div class="card" style="padding:4px 14px">${fs.map((x, i) => `<div class="kf">
    ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="noimg">🎪</div>'}
    <div class="b"><b>${x.new ? '<span class="knew">NEW</span>' : ''}${esc(x.title)}${x.kid > 0 ? '<span class="kst">👧 아이 추천</span>' : ''}</b>
-    <div class="km" style="font-size:12.5px;color:var(--mut);font-weight:700;margin-top:3px">📅 ${esc(x.period)}${x.status ? ' · ' + esc(x.status) : ''}<br>📍 ${esc(x.addr || x.region)}</div>
-    <div class="tip">💡 ${esc(x.tip)}</div>
+    <div class="km" style="font-size:12.5px;color:var(--mut);font-weight:700;margin-top:3px">📅 ${esc(x.period)}${x.status ? ' · ' + esc(x.status) : ''}${x.addr || x.region ? '<br>📍 ' + esc(x.addr || x.region) : ''}</div>
+    <div class="tip">💡 ${esc(x.tip)}</div>${x.from === 'news' && x.url ? `<a class="tip" style="display:block;color:var(--blue);text-decoration:none" href="${esc(x.url)}" target="_blank" rel="noopener">📰 ${esc(x.src_title || '관련 기사')} · ${esc(x.source || '')}</a>` : ''}
     <div class="kn" style="padding:0;border:0"><div class="ka"><button class="go" data-kgen="fest" data-i="${i}">✍️ 글쓰기</button><a href="${esc(x.map)}" target="_blank" rel="noopener">🗺 지도</a>${x.tel ? `<a href="tel:${esc(x.tel.replace(/[^0-9]/g, ''))}">☎ 전화</a>` : ''}</div></div></div></div>`).join('')}</div>
-   <p class="note">출처: 한국관광공사 TourAPI. 아이 추천은 축제 이름(어린이·가족·체험·빛·눈썰매 등)을 보고 자동으로 고른 거예요. 일정·요금은 방문 전 공식 안내로 확인하세요.</p>`;
+   <p class="note">${f.has_tour ? '출처: 한국관광공사 TourAPI + 언론 보도.' : '출처: 최근 7일 언론 보도에서 축제·행사 이름을 자동으로 뽑았어요(이미 끝난 행사·성인 위주 축제는 제외).'} 아이 추천은 이름과 기사 내용으로 자동 판단한 거예요. 일정·장소는 방문 전 공식 안내로 확인하세요.</p>`;
   return;
  }
  // 실시간 소식
  const cats = f.cats || [], list = kidsList();
  const chips = `<div class="kchips"><button class="${S.kcat === 'all' ? 'on' : ''}" data-kcat="all">전체 ${(f.news || []).length}</button>${cats.map(c => `<button class="${S.kcat === c.key ? 'on' : ''}" data-kcat="${c.key}">${c.emo} ${esc(c.name)} ${c.count}</button>`).join('')}</div>`;
- const fs = (f.festivals || []).filter(x => x.kid > 0).slice(0, 3);
- const fbox = fs.length && S.kcat === 'all' ? `<div class="card" style="padding:10px 14px"><div class="sec-t" style="margin:2px 0 4px">🎪 이번 주 아이랑 갈 만한 축제</div>${fs.map(x => `<div class="km" style="padding:4px 0;font-size:14px"><b>${esc(x.title)}</b> <span style="color:var(--mut)">· ${esc(x.region)} · ${esc(x.period)}</span></div>`).join('')}<button class="cap-more" data-kseg="fest">전체 축제 보기 →</button></div>` : '';
+ const fs = (f.festivals || []).filter(x => x.kid > 0).slice(0, 3), tr = (f.trends || []).slice(0, 5);
+ const tbox = tr.length && S.kcat === 'all' ? `<div class="card" style="padding:10px 14px"><div class="sec-t" style="margin:2px 0 6px">🔥 요즘 아이들 사이 화제</div><div class="kchips" style="margin:0 -14px;padding:0 14px 4px">${tr.map((t, i) => `<button data-kgen="trend" data-i="${i}">${t.new ? '🆕 ' : ''}${esc(t.name)} <small style="opacity:.7">${t.count}건</small></button>`).join('')}</div><button class="cap-more" data-kseg="trend">화제 전체 보기 →</button></div>` : '';
+ const fbox = fs.length && S.kcat === 'all' ? `<div class="card" style="padding:10px 14px"><div class="sec-t" style="margin:2px 0 4px">🎪 이번 주 아이랑 갈 만한 축제</div>${fs.map(x => `<div class="km" style="padding:4px 0;font-size:14px"><b>${esc(x.title)}</b> <span style="color:var(--mut)">${x.region ? '· ' + esc(x.region) : ''} · ${esc(x.period)}</span></div>`).join('')}<button class="cap-more" data-kseg="fest">전체 축제 보기 →</button></div>` : '';
  if (!list.length) { el.innerHTML = seg + chips + `<div class="card empty">키즈 소식을 모으는 중이에요.<br>매시간 자동으로 새 소식이 들어와요.</div>`; return; }
- el.innerHTML = seg + chips + fbox + `<div class="card" style="padding:2px 14px">${list.slice(0, 80).map(x => {
+ el.innerHTML = seg + chips + tbox + fbox + `<div class="card" style="padding:2px 14px">${list.slice(0, 80).map(x => {
   const [em, nm] = KCAT[x.cat] || ['📰', '소식'], i = (f.news || []).indexOf(x);
   return `<div class="kn"><a class="kt" href="${esc(x.url)}" target="_blank" rel="noopener">${x.new ? '<span class="knew">NEW</span>' : ''}${esc(x.title)}</a>
    <div class="km">${em} ${esc(nm)} · ${esc(x.source || '')} · ${esc(when(x.pub))}${x.region ? ' · 📍' + esc(x.region) : ''}${x.period ? ' · 📅 ' + esc(x.period) : ''}</div>
@@ -672,6 +695,41 @@ function drawKids(posted){
 }
 /* --- 후기 쓰기 폼 (내가 다녀온 곳 → 블로그 글) --- */
 const KR = {get(){ try { return JSON.parse(localStorage.getItem('kidsReview') || '{}') } catch(e){ return {} } }, set(v){ try { localStorage.setItem('kidsReview', JSON.stringify(v)) } catch(e){} }};
+/* --- 내 사진 (이 폰 안에만 저장 · IndexedDB) --- */
+const KP = {list: [], ready: false};
+const PDB = {
+ db: null,
+ open(){ return this.db ? Promise.resolve(this.db) : new Promise((ok, no) => { try { const r = indexedDB.open('kidsPhotos', 1); r.onupgradeneeded = () => r.result.createObjectStore('p', {keyPath: 'id'}); r.onsuccess = () => ok(this.db = r.result); r.onerror = () => no(r.error); } catch(e) { no(e); } }); },
+ async tx(mode, fn){ try { const db = await this.open(); return await new Promise((ok, no) => { const t = db.transaction('p', mode), st = t.objectStore('p'), r = fn(st); t.oncomplete = () => ok(r && r.result); t.onerror = () => no(t.error); }); } catch(e) { return null; } },
+ all(){ return this.tx('readonly', st => st.getAll()); },
+ put(v){ return this.tx('readwrite', st => st.put(v)); },
+ del(id){ return this.tx('readwrite', st => st.delete(id)); }
+};
+async function kpLoad(){
+ if (KP.ready) return; KP.ready = true;
+ const rows = (await PDB.all()) || [];
+ KP.list = rows.sort((a, b) => a.order - b.order).map(r => ({...r, url: URL.createObjectURL(r.blob)}));
+ const box = $('#kpbox'); if (box) box.innerHTML = kpHTML();
+}
+function kpSave(){ KP.list.forEach((p, i) => { p.order = i; PDB.put({id: p.id, order: i, cap: p.cap || '', blob: p.blob}); }); }
+async function kpResize(file){
+ let src;
+ try { src = await createImageBitmap(file, {imageOrientation: 'from-image'}); }
+ catch(e) { src = await new Promise((ok, no) => { const im = new Image(); im.onload = () => ok(im); im.onerror = no; im.src = URL.createObjectURL(file); }); }
+ const max = 1440, w0 = src.width, h0 = src.height, r = Math.min(1, max / Math.max(w0, h0));
+ const c = document.createElement('canvas'); c.width = Math.round(w0 * r); c.height = Math.round(h0 * r);
+ c.getContext('2d').drawImage(src, 0, 0, c.width, c.height);
+ return new Promise(ok => c.toBlob(ok, 'image/jpeg', .88));
+}
+function kpHTML(){
+ const L = KP.list;
+ return `${L.length ? `<div class="kpgrid">${L.map((p, i) => `<div class="kp"><img src="${p.url}" alt=""><span class="no">${i + 1}</span>${i === 0 ? '<span class="cv">표지</span>' : ''}
+  <input data-kpcap="${i}" value="${esc(p.cap || '')}" placeholder="설명 (예: 외관, 키즈메뉴)">
+  <div class="tools"><button data-kpmv="${i}" data-d="-1" aria-label="앞으로">◀</button><button data-kpmv="${i}" data-d="1" aria-label="뒤로">▶</button><button data-kpdel="${i}" aria-label="삭제">🗑</button></div></div>`).join('')}</div>` : ''}
+  ${L.length < 10 ? `<label class="kpadd" style="margin-top:8px;color:var(--blue)">➕ 사진 ${L.length ? '더 ' : ''}올리기<input type="file" id="kpfile" accept="image/*" multiple hidden></label>` : ''}
+  ${L.length ? `<div class="note">사진은 이 폰에만 저장돼요. ◀ ▶ 로 순서를 바꾸면 블로그 본문 사진 순서도 함께 바뀌어요. <button class="cap-more" style="margin:0" data-kpclear="1">사진 모두 지우기</button></div>` : ''}`;
+}
+
 function kidsForm(){
  const r = Object.assign({type: 'food', age: '초등 저학년', star: 5}, KR.get());
  const opt = (arr, cur) => arr.map(([v, l]) => `<option value="${v}" ${v === cur ? 'selected' : ''}>${l}</option>`).join('');
@@ -684,12 +742,15 @@ function kidsForm(){
   <label>별점</label><div class="kstar">${[1, 2, 3, 4, 5].map(n => `<button data-kstar="${n}" class="${n <= r.star ? 'on' : ''}">⭐</button>`).join('')}</div>
   <label>좋았던 점 (줄마다 하나씩)</label><textarea data-kr="good" placeholder="아이가 2시간 동안 안 나오려고 했어요&#10;키즈 메뉴가 맵지 않고 양이 많았어요">${esc(r.good || '')}</textarea>
   <label>아쉬운 점</label><textarea data-kr="bad" placeholder="주말 점심엔 웨이팅 30분">${esc(r.bad || '')}</textarea>
+  <label>📷 내 사진 (최대 10장 · 첫 사진은 제목이 들어간 표지가 돼요)</label>
+  <div id="kpbox">${kpHTML()}</div>
   <label>꿀팁 (주차·예약·가격·메뉴 등)</label><textarea data-kr="tip" placeholder="건물 지하 주차 2시간 무료&#10;평일 오전이 한산해요">${esc(r.tip || '')}</textarea>
   <button class="donebtn" style="margin-top:14px;background:linear-gradient(90deg,#ff7a45,#ffb347);color:#fff" data-krgo="1">✍️ 후기 글 만들기</button>
  </div>`;
 }
 /* --- 키즈 글 만들기 (기사 · 축제 · 내 후기) --- */
 const KCP = {
+ trend: ['공식 판매처·안내에서 정보 확인', '안전 인증(KC)·성분 먼저 확인', '아이와 함께 사용 시간·용돈 기준 정하기', '유행 따라 무리한 소비는 금물', '주변 부모님 후기도 한 번 더 확인'],
  food: ['아기 의자·유아 식기 있는지', '맵지 않은 키즈 메뉴 유무', '주차·유모차 진입 편한지', '웨이팅 시간 미리 확인', '노키즈존 여부 사전 확인'],
  kidscafe: ['예약제·회차 시간 확인', '이용 연령·키 제한 확인', '보호자·아이 양말 필수', '음식 반입 가능 여부', '주말은 오픈 직후가 여유로워요'],
  place: ['운영 시간·휴관일 확인', '주차 가능 여부', '유모차·수유실 여부', '실내 공간 있는지 (날씨 대비)', '입장료·사전 예약 확인'],
@@ -703,13 +764,13 @@ function kidsTags(x){
  const reg = (x.region || '').replace(/\s+/g, '').slice(0, 6), nm = x.kk === 'news' ? '' : (x.name || '').replace(/[^\w가-힣]/g, '').slice(0, 15);
  const by = {food: ['아이랑맛집', '아이와맛집', '키즈메뉴', '가족외식', '노키즈존아님'], kidscafe: ['키즈카페', '공공형키즈카페', '실내놀이터', '아이랑실내', '키즈카페추천'],
   place: ['아이랑가볼만한곳', '아이와가볼만한곳', '주말나들이', '아이랑체험', '가족나들이'], festival: ['어린이축제', '아이랑축제', '가족축제', '주말나들이', '이번주축제'],
-  show: ['어린이공연', '어린이뮤지컬', '아이랑전시', '실내데이트', '가족공연']}[x.type] || [];
+  show: ['어린이공연', '어린이뮤지컬', '아이랑전시', '실내데이트', '가족공연'], trend: ['요즘유행', '초등학생유행', '아이들사이인기', '키즈트렌드', '육아정보']}[x.type] || [];
  return [...new Set([nm, reg && reg + (x.type === 'food' ? '맛집' : '가볼만한곳'), reg && reg + '아이랑', ...by, '초등맘', '육아맘', '육아스타그램', '아이랑놀기'].filter(Boolean))].slice(0, 15);
 }
 function makeKids(x, spice){
  const hot = spice === 'hot', k = x.name, [em, nm] = KCAT[x.type] || ['📍', '장소'], cps = shuf(KCP[x.type] || KCP.place).slice(0, 4);
  const eul = josa(k, '을', '를'), H = hot ? ['🔥', '📍', '👍', '🤔', '💡', '✅'] : ['■', '■', '■', '■', '■', '■'];
- let titles, body, facts, fill = false;
+ let titles, body, facts, fill = false, imgOrder = null;
  const hello = pick(['안녕하세요! 주말마다 아이랑 어디 갈지 고민하는 키즈 나들이 블로거예요 😊', '초등 아이 키우는 엄마 아빠라면 공감하실 고민, ‘이번 주말엔 어디 가지?’ 🤔', '아이랑 갈 곳 찾는 부모님들 반가워요! 오늘도 알찬 정보 들고 왔어요 🎈']);
  const end = [`여러분은 아이랑 어디 다녀오셨어요? 댓글로 추천 장소 공유해 주세요 👇`, '', '※ 운영 시간·요금·예약 방법은 바뀔 수 있으니 방문 전 공식 안내를 확인해 주세요.'];
  if (x.kk === 'review') {
@@ -717,6 +778,22 @@ function makeKids(x, spice){
   facts = [`📍 ${x.region || '지역 미입력'}`, `👧 ${x.age} 아이와 방문`, `${star} (${x.star || 5}/5)`];
   titles = hot ? [`${x.region ? x.region + ' ' : ''}${k} 솔직 후기 | ${x.age} 아이가 또 가자고 조른 곳`, `아이랑 ${k} 다녀왔어요, 이건 알고 가세요! (${x.region || nm} ${nm})`, `${k} 내돈내산 후기 ${star} | 장단점·꿀팁 총정리`]
    : [`${x.region ? x.region + ' ' : ''}${nm} ${k} 후기 | ${x.age} 아이와 다녀왔어요`, `아이랑 ${k} 방문 후기 (장점·아쉬운 점·꿀팁)`, `${k} 아이와 가기 좋은지 솔직하게 정리했어요`];
+  const P = x.photos || [], n = P.length;
+  if (n) {   // 내 사진이 있으면: 1 표지 카드 → 내 사진 2~n+1 → 좋았던 점 카드 → 꿀팁 카드 순서
+   const ph = i => `{{IMG:p${i}|${P[i].cap || '내 사진 ' + (i + 1)}}}`, grp = [[], [], [], [], []];
+   P.forEach((_, i) => grp[Math.min(4, Math.floor(i * 5 / n))].push(ph(i)));
+   if (!b.length) { grp[1].push(...grp[2]); grp[2] = []; }
+   const blk = a => a.length ? [...a, ''] : [];
+   body = [hello, `오늘은 ${x.age} 아이와 직접 다녀온 ${x.region ? x.region + ' ' : ''}‘${k}’ 후기를 남겨 볼게요.`, '', '{{IMG:cover|표지}}', '',
+    `${H[1]} 기본 정보`, `· 장소: ${k}`, x.region ? `· 지역: ${x.region}` : '', `· 함께 간 아이: ${x.age}`, `· 제 별점: ${star}`, '', ...blk(grp[0]),
+    `${H[2]} 좋았던 점`, ...(g.length ? g.map((s, i) => `${i + 1}. ${s}`) : ['✏️ (좋았던 점을 적어 주세요)']), '', ...blk(grp[1]), '{{IMG:good|좋았던 점 정리}}', '',
+    ...(b.length ? [`${H[3]} 아쉬운 점`, ...b.map(s => `· ${s}`), '', ...blk(grp[2])] : []),
+    `${H[4]} 다녀와 보니 꿀팁`, ...(t.length ? t.map(s => `☑ ${s}`) : cps.map(s => `☑ ${s}`)), '', ...blk(grp[3]), '{{IMG:tip|꿀팁 정리}}', '',
+    `${H[5]} 이런 가족께 추천해요`, `· ${x.age} 아이와 ${pick(['반나절 알차게 보내고 싶은 분', '주말 나들이 장소 찾는 분', '비 오는 날 갈 곳 찾는 분'])}`, `· ${KOP[x.type] || ''}`, '', ...blk(grp[4]),
+    `한 줄 정리 👉 ${g[0] ? g[0] + '! ' : ''}${(x.star || 5) >= 4 ? '재방문 의사 있어요 💛' : '참고해서 계획 세워 보세요!'}`, '', ...end].filter((s, i, a) => !(s === '' && a[i - 1] === '')).join('\n').trim();
+   // 본문에 나오는 순서대로 사진 번호 매기기 (저장도 이 순서)
+   imgOrder = []; body = body.replace(/\{\{IMG:(\w+)\|([^}]*)\}\}/g, (_, key, cap) => { imgOrder.push(key); return `[📷 사진 ${imgOrder.length} · ${cap}]`; });
+  } else
   body = [hello, `오늘은 ${x.age} 아이와 직접 다녀온 ${x.region ? x.region + ' ' : ''}‘${k}’ 후기를 남겨 볼게요.`, '', '[📷 내 사진 1 · 외관/입구]', '',
    `${H[1]} 기본 정보`, `· 장소: ${k}`, x.region ? `· 지역: ${x.region}` : '', `· 함께 간 아이: ${x.age}`, `· 제 별점: ${star}`, '',
    `${H[2]} 좋았던 점`, ...(g.length ? g.map((s, i) => `${i + 1}. ${s}`) : ['✏️ (좋았던 점을 적어 주세요)']), '', '[📷 내 사진 2 · 아이가 좋아한 곳/메뉴]', '',
@@ -729,11 +806,21 @@ function makeKids(x, spice){
   titles = hot ? [`이번 주 아이랑 ‘${k}’ 꼭 가보세요! 기간·장소·꿀팁 총정리`, `${x.region} 아이랑 가볼만한곳 | ${k} 놓치면 1년 기다려요`, `주말 뭐 하지? ${k} 아이랑 가기 전 필독 정리`]
    : [`${k} 기간·장소·아이랑 가기 팁 정리 (${x.period})`, `${x.region} 가족 나들이 | ${k} 한눈에 정리`, `아이와 함께 ${k} 가기 전에 알아 둘 것`];
   body = [hello, `${x.region}에서 ${x.status === '진행 중' ? '지금 열리고 있는' : '곧 열리는'} ‘${k}’ 정보를 정리했어요. 아이랑 주말 계획 세우실 때 참고해 보세요!`, '', '[📷 사진 1]', '',
-   `${H[1]} 기본 정보`, `· 행사명: ${k}`, `· 기간: ${x.period}`, `· 장소: ${x.addr || x.region}`, x.tel ? `· 문의: ${x.tel}` : '', `· 지도: ${x.map}`, '',
+   `${H[1]} 기본 정보`, `· 행사명: ${k}`, `· 기간: ${x.period}`, `· 장소: ${x.addr || x.region || '기사에서 확인'}`, x.tel ? `· 문의: ${x.tel}` : '', `· 지도: ${x.map}`, x.url ? `· 관련 기사: ${x.src_title || ''} ${x.url}` : '', '',
    `${H[2]} 아이랑 가면 좋은 이유`, `✏️ (공식 안내에서 확인한 프로그램·체험을 적어 주세요)`, '', '[📷 사진 2]', '',
    `${H[4]} 아이랑 갈 때 팁`, `👉 ${x.tip}`, ...cps.map(s => `☑ ${s}`), '', '[📷 사진 3]', '',
    `${H[5]} 한 줄 정리`, `아이에게 특별한 하루가 될 ‘${k}’, 기간 안에 꼭 들러 보세요 💛`, '', ...end].filter(s => s !== null).join('\n').replace(/\n{3,}/g, '\n\n').trim();
   fill = true;
+ } else if (x.kk === 'trend') {
+  const arts = x.arts || [];
+  facts = [`🔥 최근 기사 ${x.count}건`, x.blog_total ? `📝 네이버 블로그 ${x.blog_total.toLocaleString()}건` : `📰 ${arts[0]?.source || '언론 보도'}`, '👧 아이 키우는 집 화제'];
+  titles = hot ? [`요즘 아이들 사이 난리 난 ‘${k}’, 부모님이 알아야 할 것`, `초등학생 사이 화제 ‘${k}’ 대체 뭐길래?`, `‘${k}’ 모르면 아이랑 대화 안 돼요! 핵심 정리`]
+   : [`요즘 아이들 사이 화제 ‘${k}’ 정리`, `‘${k}’ 왜 인기일까? 부모 입장에서 정리했어요`, `초등 아이 키우는 집이라면 알아 둘 ‘${k}’`];
+  body = [hello, `요즘 아이 친구 엄마들 사이에서 자주 나오는 ‘${k}’ 이야기, 관련 소식을 모아 정리해 봤어요.`, '', '[📷 사진 1]', '',
+   `${H[0]} 왜 화제일까?`, `최근 일주일 동안 ‘${k}’ 관련 기사가 ${x.count}건 나왔어요.${x.blog_total ? ` 네이버 블로그에도 관련 글이 ${x.blog_total.toLocaleString()}건 있어요.` : ''}`, '',
+   `${H[1]} 관련 기사`, ...arts.slice(0, 3).map(a => `▶ ${a.title}${a.source ? ' (' + a.source + ')' : ''}\n   ${a.url}`), '', '[📷 사진 2]', '',
+   `${H[5]} 엄마 아빠 체크 포인트`, ...cps.map((c, i) => `${i + 1}. ${c}`), '', `${H[3]} 제 생각`, '유행은 빠르게 바뀌지만, 아이가 왜 좋아하는지 들어 보면 의외로 배울 점이 많더라고요.', '', '[📷 사진 3]', '',
+   `한 줄 정리 👉 요즘 화제인 ‘${k}’, 핵심만 알고 아이와 즐겁게 이야기 나눠 보세요 💛`, '', `여러분 아이도 ‘${k}’ 좋아하나요? 댓글로 이야기 나눠요 👇`].join('\n').trim();
  } else {
   facts = [`${em} ${nm}`, `📰 ${x.source || '언론 보도'}`, x.period ? `📅 ${x.period}` : (x.region ? `📍 ${x.region}` : '🔎 원문에서 자세히 확인')];
   const short = k.length > 26 ? k.slice(0, 26) + '…' : k;
@@ -749,14 +836,15 @@ function makeKids(x, spice){
  const threads = [first + ' 🧵', facts.join('\n'), `✅ 가기 전 체크\n${cps.map(c => '- ' + c).join('\n')}`, `여러분은 아이랑 어디 다녀오셨어요?\n추천 장소 댓글로 알려 주세요 👇`];
  if (x.kk === 'review') threads.splice(2, 0, `👍 좋았던 점\n${lines(x.good).slice(0, 4).map(s => '- ' + s).join('\n') || '- 아이가 정말 좋아했어요'}`);
  const caption = [first, '', ...facts, '', '✅ 가기 전 체크', ...cps.map(c => '• ' + c), '', '도움 됐다면 저장해 두고, 아이 친구 엄마에게 공유해 주세요 🙌'].join('\n');
- return {title: ttl[0], titles: ttl, body, tags, threads, caption, hashtags: tags, cps, facts, fill, hot};
+ return {title: ttl[0], titles: ttl, body, tags, threads, caption, hashtags: tags, cps, facts, fill, hot, imgOrder};
 }
 const KPAL = [['#ff7a45', '#fff4e6', '#3b1d4a'], ['#12b886', '#e6fcf5', '#0b3a3a'], ['#7950f2', '#f3f0ff', '#2b1b55'], ['#f06595', '#fff0f6', '#4a1530'], ['#228be6', '#e7f5ff', '#0b2a4a']];
 async function drawKidsCards(x, d){
  const [ac, lt, dk] = pick(KPAL), W = 1080, H = 1350, out = [], k = x.name;
+ const PH = x.kk === 'review' ? (G.photos || []) : [];
  const mk = () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; };
  const rr = (g, a, b, w, h, r) => { g.beginPath(); g.roundRect ? g.roundRect(a, b, w, h, r) : g.rect(a, b, w, h); g.fill(); };
- const foot = (g, n, col) => { g.font = `700 30px ${GF}`; g.fillStyle = col; g.textAlign = 'left'; g.fillText('#' + (d.tags[0] || '아이랑'), 80, H - 70); g.textAlign = 'right'; g.fillText(n + ' / 3', W - 80, H - 70); g.textAlign = 'left'; };
+ const foot = (g, n, col) => { g.font = `700 30px ${GF}`; g.fillStyle = col; g.textAlign = 'left'; g.fillText('#' + (d.tags[0] || '아이랑'), 80, H - 70); if (!PH.length) { g.textAlign = 'right'; g.fillText(n + ' / 3', W - 80, H - 70); } g.textAlign = 'left'; };
  const [em, nm] = KCAT[x.type] || ['📍', '장소'];
  // 1 표지
  let c = mk(), g = c.getContext('2d'), gr = g.createLinearGradient(0, 0, W, H); gr.addColorStop(0, lt); gr.addColorStop(1, '#ffffff'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
@@ -769,7 +857,21 @@ async function drawKidsCards(x, d){
  g.font = `800 50px ${GF}`; g.fillStyle = ac; g.fillText(d.hot ? '아이랑 가기 전 필독!' : '아이랑 가기 전 체크', 80, y);
  y += 70; g.fillStyle = 'rgba(255,255,255,.9)'; rr(g, 80, y, W - 160, 70 + d.facts.length * 62, 28);
  g.fillStyle = dk; g.font = `700 40px ${GF}`; d.facts.forEach((t, i) => g.fillText(gwrap(g, t, W - 240)[0], 120, y + 80 + i * 62));
- foot(g, 1, dk); out.push(c);
+ foot(g, 1, dk);
+ if (PH.length) {   // 첫 사진을 배경으로 한 표지
+  try {
+   const bm = await createImageBitmap(PH[0].blob), s2 = Math.max(W / bm.width, H / bm.height), dw = bm.width * s2, dh = bm.height * s2;
+   c = mk(); g = c.getContext('2d'); g.drawImage(bm, (W - dw) / 2, (H - dh) / 2, dw, dh);
+   gr = g.createLinearGradient(0, H * .35, 0, H); gr.addColorStop(0, 'rgba(0,0,0,0)'); gr.addColorStop(1, 'rgba(0,0,0,.82)'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+   g.fillStyle = ac; rr(g, 70, 70, 400, 76, 38); g.fillStyle = '#fff'; g.font = `800 36px ${GF}`; g.fillText(`${em} 아이랑 다녀왔어요`, 100, 121);
+   g.font = `900 ${k.length > 12 ? 84 : 104}px ${GF}`; const L = gwrap(g, k, W - 140).slice(0, 3), lh2 = k.length > 12 ? 100 : 122;
+   let yy = H - 230 - (L.length - 1) * lh2; g.shadowColor = 'rgba(0,0,0,.45)'; g.shadowBlur = 18;
+   L.forEach((l, i) => g.fillText(l, 70, yy + i * lh2)); g.shadowBlur = 0;
+   g.font = `700 40px ${GF}`; g.fillStyle = 'rgba(255,255,255,.92)'; g.fillText([x.region, `${'⭐'.repeat(x.star || 5)}`, x.age].filter(Boolean).join(' · '), 70, H - 130);
+   g.font = `700 30px ${GF}`; g.fillStyle = 'rgba(255,255,255,.7)'; g.fillText('#' + (d.tags[0] || '아이랑'), 70, H - 70);
+  } catch(e) {}
+ }
+ out.push(c);
  // 2 정보 / 좋았던 점
  c = mk(); g = c.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0, 0, W, H); g.fillStyle = ac; g.fillRect(0, 0, W, 250);
  g.font = `900 76px ${GF}`; g.fillStyle = '#fff'; g.fillText(x.kk === 'review' ? '👍 좋았던 점' : '📌 한눈에 보기', 80, 160);
@@ -785,9 +887,13 @@ async function drawKidsCards(x, d){
   g.strokeStyle = ac; g.lineWidth = 8; g.strokeRect(120, y + 55, 60, 60); g.fillStyle = dk; g.font = `800 42px ${GF}`; const L = gwrap(g, t, W - 360).slice(0, 2); L.forEach((l, j) => g.fillText(l, 220, y + (L.length > 1 ? 72 : 100) + j * 56)); y += bh + 28; });
  g.font = `800 36px ${GF}`; g.fillStyle = '#fff'; g.fillText('저장해 두고 주말에 꺼내 보세요 🎈', 80, H - 150); foot(g, 3, 'rgba(255,255,255,.8)'); out.push(c);
  const fn = k.replace(/[\\/:*?"<>|\s]+/g, '_').slice(0, 30);
- return Promise.all(out.map((cv, i) => new Promise(res => cv.toBlob(b => res(new File([b], `${fn}_${i + 1}.jpg`, {type: 'image/jpeg'})), 'image/jpeg', .92))));
+ const blobs = await Promise.all(out.map(cv => new Promise(res => cv.toBlob(res, 'image/jpeg', .92))));
+ const pick2 = {cover: blobs[0], good: blobs[1], tip: blobs[2]};
+ PH.forEach((p, i) => pick2['p' + i] = p.blob);
+ const seq = PH.length && d.imgOrder ? d.imgOrder.map(k2 => pick2[k2]).filter(Boolean) : blobs;   // 본문 [📷 사진 N] 순서 그대로
+ return seq.map((b, i) => new File([b], `${fn}_${String(i + 1).padStart(2, '0')}.jpg`, {type: 'image/jpeg'}));
 }
-function kidsOpen(x){ G.mode = 'kids'; G.x = x; G.tab = 'blog'; G.spice = 'mild'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
+function kidsOpen(x){ if (x.kk !== 'review') G.photos = []; G.mode = 'kids'; G.x = x; G.tab = 'blog'; G.spice = 'mild'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
 document.addEventListener('click', async e => {
  const ks = e.target.closest('[data-kseg]'); if (ks) { S.kseg = ks.dataset.kseg; await ensureView(); render(); scrollTo(0, 0); return; }
  const kc = e.target.closest('[data-kcat]'); if (kc) { S.kcat = kc.dataset.kcat; render(); return; }
@@ -795,16 +901,37 @@ document.addEventListener('click', async e => {
  const kg = e.target.closest('[data-kgen]');
  if (kg) {
   const f = S.kids || {}, i = +kg.dataset.i;
-  if (kg.dataset.kgen === 'fest') { const x = (f.festivals || [])[i]; if (x) kidsOpen({...x, kk: 'fest', type: 'festival', name: x.title}); }
+  if (kg.dataset.kgen === 'trend') { const t = (f.trends || [])[i]; if (t) kidsOpen({...t, kk: t.kind === 'fest' ? 'fest' : 'trend', type: t.kind === 'fest' ? 'festival' : 'trend', title: t.name, url: (t.arts || [])[0]?.url, source: (t.arts || [])[0]?.source, src_title: (t.arts || [])[0]?.title}); }
+  else if (kg.dataset.kgen === 'fest') { const x = (f.festivals || [])[i]; if (x) kidsOpen({...x, kk: 'fest', type: 'festival', name: x.title}); }
   else { const x = (f.news || [])[i]; if (x) kidsOpen({...x, kk: 'news', type: x.cat, name: x.title}); }
   return;
  }
  if (e.target.closest('[data-krgo]')) {
   const r = Object.assign({type: 'food', age: '초등 저학년', star: 5}, KR.get());
   if (!(r.name || '').trim()) { toast('장소 이름을 적어 주세요'); return; }
-  kidsOpen({...r, kk: 'review', name: r.name.trim()});
+  await kpLoad();
+  G.photos = KP.list.slice();
+  kidsOpen({...r, kk: 'review', name: r.name.trim(), photos: KP.list.map(p => ({cap: (p.cap || '').trim()}))});
  }
 });
+document.addEventListener('change', async e => {
+ if (e.target.id !== 'kpfile') return;
+ const fs = [...e.target.files].slice(0, 10 - KP.list.length); if (!fs.length) return;
+ toast(`사진 ${fs.length}장 준비 중…`);
+ for (const f of fs) {
+  try { const blob = await kpResize(f); const p = {id: Date.now() + '-' + Math.random().toString(36).slice(2, 7), cap: '', blob, url: URL.createObjectURL(blob)}; KP.list.push(p); }
+  catch(err) { toast('읽지 못한 사진이 있어요'); }
+ }
+ kpSave(); $('#kpbox').innerHTML = kpHTML(); toast(`사진 ${KP.list.length}장 · 첫 사진이 표지가 돼요`);
+});
+document.addEventListener('click', e => {
+ const mv = e.target.closest('[data-kpmv]');
+ if (mv) { const i = +mv.dataset.kpmv, j = i + +mv.dataset.d; if (j < 0 || j >= KP.list.length) return; [KP.list[i], KP.list[j]] = [KP.list[j], KP.list[i]]; kpSave(); $('#kpbox').innerHTML = kpHTML(); return; }
+ const dl = e.target.closest('[data-kpdel]');
+ if (dl) { const [p] = KP.list.splice(+dl.dataset.kpdel, 1); PDB.del(p.id); URL.revokeObjectURL(p.url); kpSave(); $('#kpbox').innerHTML = kpHTML(); return; }
+ if (e.target.closest('[data-kpclear]')) { if (!confirm('올린 사진을 모두 지울까요?')) return; KP.list.forEach(p => { PDB.del(p.id); URL.revokeObjectURL(p.url); }); KP.list = []; $('#kpbox').innerHTML = kpHTML(); }
+});
+let kpT; document.addEventListener('input', e => { const i = e.target.dataset && e.target.dataset.kpcap; if (i !== undefined && KP.list[+i]) { KP.list[+i].cap = e.target.value; clearTimeout(kpT); kpT = setTimeout(kpSave, 400); } });
 document.addEventListener('input', e => { const k = e.target.dataset && e.target.dataset.kr; if (k) { const r = KR.get(); r[k] = e.target.value; KR.set(r); } });
 document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.kr; if (k) { const r = KR.get(); r[k] = e.target.value; KR.set(r); } });
 </script>

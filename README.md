@@ -15,7 +15,7 @@
 | `index.html` | 아이폰 대시보드 (사진 저장 · 제목/본문/태그 복사 · 실시간 순위 · 지난 글) |
 | `trend_bot/make_post.py` | 트렌드 수집 → 글·사진 만들기 |
 | `trend_bot/theme_post.py` · `themes/` | 요일별 생활 테마 글과 원고 50편 |
-| `trend_bot/kids_post.py` | 👧 키즈 실시간 소식(매시간) · 키즈 나들이 글(매일 08:43) — 한국관광공사 축제 정보(TOUR_API_KEY) + Google 뉴스 |
+| `trend_bot/kids_post.py` | 👧 키즈 실시간 소식(매시간) · 키즈 나들이 글(매일 08:43) · 키즈 화제 글(8~22시 약 3시간마다) — Google 뉴스(키 없음) + 선택: 관광공사(TOUR_API_KEY)·네이버 검색(NAVER_CLIENT_ID/SECRET) |
 | `trend_bot/photos.py` | 저작권 걱정 없는 사진 가져오기 (Pixabay / Openverse CC0) |
 | `.github/workflows/trend.yml` | 자동 실행 시간표 |
 | `data/` | 자동으로 만들어지는 순위·글·사진 (직접 고칠 필요 없음) |

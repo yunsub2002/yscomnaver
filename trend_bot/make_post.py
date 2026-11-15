@@ -366,8 +366,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rss", help="테스트용 RSS 파일")
     ap.add_argument("--out", default=".", help="저장소 폴더")
-    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "hot", "post", "theme", "deep", "kids"],
-                    help="rank = 순위만 · hot = 순위 + 화제 글·인스타·스레드 + 키즈 소식(매시간) · post = 트렌드 글 · deep = 심층 글 + 인스타·스레드 · kids = 키즈 나들이 글")
+    ap.add_argument("--mode", default=os.environ.get("MODE", "rank"), choices=["rank", "hot", "post", "theme", "deep", "kids", "kidshot"],
+                    help="rank = 순위만 · hot = 순위 + 화제 글·인스타·스레드 + 키즈 소식(매시간) · post = 트렌드 글 · deep = 심층 글 + 인스타·스레드 · kids = 키즈 나들이 글 · kidshot = 키즈 화제 글")
     ap.add_argument("--edition", default=os.environ.get("EDITION", "auto"), choices=["auto", "am", "pm"])
     a = ap.parse_args()
 
@@ -383,12 +383,21 @@ def main():
 
     # 👧 키즈 실시간 소식 (매시간 hot 과 함께 · kids 모드) — 실패해도 다른 작업은 계속
     kids_feed = None
-    if a.mode in ("hot", "kids"):
+    if a.mode in ("hot", "kids", "kidshot"):
         try:
-            import kids_post
+            import kids_post, social
             kids_feed = kids_post.refresh_feed(now, base)
+            # 🔥 키즈 화제 글: 아침 8시~밤 10시, 약 3시간마다 (kidshot 모드면 바로)
+            if a.mode == "kidshot" or (a.mode == "hot" and kids_post.due_hot(base, now)):
+                kp = kids_post.build_hot(now, base, a.out, kids_feed)
+                if kp:
+                    save_post(kp, base)
+                    ig, th = social.from_kids_hot(kp)
+                    social.save(base, "insta", ig); social.save(base, "threads", th)
         except Exception as ex:
-            print(f"키즈 소식 갱신 실패 (다른 작업은 계속): {ex}")
+            print(f"키즈 소식·화제 글 실패 (다른 작업은 계속): {ex}")
+    if a.mode == "kidshot":
+        return
     if a.mode == "kids":
         import kids_post, social
         post = kids_post.build(now, base, a.out, kids_feed)
