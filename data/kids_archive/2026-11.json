@@ -1384,5 +1384,33 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-15T21:48:00+09:00"
+},
+{
+"id": "n2b4206404d",
+"cat": "festival",
+"title": "제33회 전국어린이연극잔치 14일 개막",
+"source": "K스피릿",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TeEVjWVp2b2o4dGtfbC1jd1BDZEF6YmdNZno1WXlMdUV0bGpUa2ZYemtQeFM5TGRlR1o0elJOci1ha1I2dDVVR2NpVmFYbTdFd3htRzlzbFBhMm1SX3Y5ZGwzdXNzdXdoVVVydDMxRdIBc0FVX3lxTFAyclA3cTRmaVh6amhmNFZVdTlHY0x3Q09kNmJKSkJ3Tm42MWRIOWJRNk5OWDYzZDlBUmVkcnRuMnZfZDFvbHFKaDhobEJLV1lJN2FRWHlEcmRMeklaYTFkdHBCZ2g5cVc0cFBnNHd4RzFwS0U?oc=5",
+"pub": "2026-11-15T21:45:27+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T23:43:00+09:00"
+},
+{
+"id": "n25ace3293a",
+"cat": "place",
+"title": "광주체육회, 겨울방학 맞아 초등학생 빙상 교실 운영",
+"source": "진일보 | 전남일보",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TZXplN3F4bUljcEtRX0tRUDJ2Nmo4d2UzeDh2SG14VjhSUUFWcWJYdWZhYVpXVnBpRGJKSFlIbmxaUndac0FGSmRFT3FESGxXX2w0NXJkMDBQOElvd1RzaWl0cGVaNTM5Q19MTDZYdw?oc=5",
+"pub": "2026-11-12T10:53:01+09:00",
+"region": "광주",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-15T23:43:00+09:00"
 }
 ]
