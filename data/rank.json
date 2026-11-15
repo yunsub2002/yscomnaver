@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T23:43:00+09:00",
- "prev_updated": "2026-11-15T22:52:00+09:00",
+ "updated": "2026-11-16T00:38:00+09:00",
+ "prev_updated": "2026-11-15T23:43:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "재건축",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "강남 집값 내리는데 경기 규제지역은 상승…연말 토허제 ‘딜레마’",
@@ -32,97 +32,41 @@
   },
   {
    "rank": 2,
-   "keyword": "일본 한국 야구",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "침묵하던 김도영이 ‘쾅’... 대만 꺾고 日과 우승 다툰다",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/14/MTLH675YURA6XD3ICXSKJ2KTWQ/",
-     "source": "조선일보"
-    },
-    {
-     "title": "깨어난 김도영‥'한일전 12연패, 오늘 끊어낼까'",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865820_37004.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "김도영, APBC 첫 홈런 ‘쾅’…한국, 대만 꺾고 오늘 일본과 결승",
-     "url": "https://www.hani.co.kr/arti/international/international_general/1287342.html",
-     "source": "한겨레"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "입양",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"다시는 안 키운다\" 입양 거절했는데... 예상 못한 일이 벌어졌다",
-     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003284762",
-     "source": "OhmyNews"
-    },
-    {
-     "title": "서울청년 70% \"남녀 모두 차별겪어\"…\"결혼싫다\" 여성은 남성 두 배",
-     "url": "https://www.yna.co.kr/view/AKR20261113112800004",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "서울 여성 청년 25% \"결혼 안 해\"…출산·입양도 남성보다 부정적",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261115141231CT3",
-     "source": "연합뉴스TV"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "퇴직금",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "알렉산더 즈베레프",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "퇴직연금 대수술, 뭐가 달라질까?",
-     "url": "https://story.pay.naver.com/content/3912",
-     "source": "네이버페이 머니스토리"
+     "title": "즈베레프, 험난한 조 편성 속 호다르와 첫판… 알카라스는 '비교적 수월'",
+     "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54294",
+     "source": "테니스코리아"
     },
     {
-     "title": "NH농협금융, 기금형 퇴직연금 대비 그룹 TF 가동",
-     "url": "https://www.yna.co.kr/view/AKR20261113118100002",
-     "source": "연합뉴스"
+     "title": "즈베레프와 알카라즈는 ATP 파이널에서 각 조 1위를 차지할 예정이다.",
+     "url": "https://www.vietnam.vn/ko/zverev-va-alcaraz-se-dan-dau-2-bang-dau-tai-atp-finals",
+     "source": "Vietnam.vn"
     },
     {
-     "title": "박예희 노무사의 즐거운 인사노무",
-     "url": "https://www.dongbukilbo.com/etnews/?fn=v&no=42757&cid=21070200",
-     "source": "동북일보"
+     "title": "ATP 파이널 2026 예측: 알카라스 1위 후보",
+     "url": "https://ko.laodong.vn/tennis/nhan-dinh-atp-finals-2026-alcaraz-ung-vien-so-1-1800096.ldo",
+     "source": "Laodong.vn"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 5,
+   "rank": 3,
    "keyword": "미미미누",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 2,
    "news": [
     {
      "title": "힐링 아일릿",
@@ -143,13 +87,69 @@
    "safe": true
   },
   {
+   "rank": 4,
+   "keyword": "입양",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "\"여기가 미감 종착지\"…김나영, ♥마이큐 작업실서 허리 감싸 안으며 '사랑꾼 면모' 과시",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/HE3TSNRSGAYTANZTGI2TEMDGMU/",
+     "source": "조선일보"
+    },
+    {
+     "title": "\"누가 여기에 갖다 놓은 거야?\"...김나영, 주방 서랍 열어보고 '깜짝' 놀란 사연 ('노필터티비')",
+     "url": "https://www.koreadaily.com/article/20261115040636923",
+     "source": "미주중앙일보"
+    },
+    {
+     "title": "김나영♥마이큐, 작업실서 과감한 스킨십...\"진짜 천생연분\" 신혼 일상 (노필터)",
+     "url": "https://www.sportschosun.com/entertainment/2026-11-15/202611150100101580009397",
+     "source": "스포츠조선"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "퇴직금",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "퇴직연금 대수술, 뭐가 달라질까?",
+     "url": "https://story.pay.naver.com/content/3912",
+     "source": "네이버페이 머니스토리"
+    },
+    {
+     "title": "NH농협금융, 기금형 퇴직연금 대비 그룹 TF 가동",
+     "url": "https://www.yna.co.kr/view/AKR20261113118100002",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "박예희 노무사의 즐거운 인사노무",
+     "url": "https://www.dongbukilbo.com/etnews/?fn=v&no=42757&cid=21070200",
+     "source": "동북일보"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 6,
    "keyword": "부고",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -177,7 +177,7 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -186,14 +186,14 @@
      "source": "조선일보"
     },
     {
-     "title": "복귀 청원 14만 넘겨 vs \"겸손은 연기, 폭언 일삼아\"",
-     "url": "https://www.ytn.co.kr/_cs/_ln_0104_202611152213408716_005.html",
-     "source": "YTN"
+     "title": "[씨줄날줄] 차등의결권",
+     "url": "https://www.seoul.co.kr/news/editOpinion/weft-column/2026/11/16/20261116027006",
+     "source": "서울신문"
     },
     {
-     "title": "‘강심장’ 서학개미?…‘젠슨 황 스캔들’ 엔비디아 4500억원 샀다",
-     "url": "https://www.donga.com/news/Economy/article/all/20261115/135026650/1",
-     "source": "동아일보"
+     "title": "“보스 돌려줘” 12만명 젠슨 황 복귀 청원…“타락한 실리콘밸리”",
+     "url": "https://www.hani.co.kr/arti/international/international_general/1287402.html",
+     "source": "한겨레"
     }
    ],
    "safe": true
@@ -203,9 +203,9 @@
    "keyword": "수상함",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -214,14 +214,14 @@
      "source": "조선일보"
     },
     {
+     "title": "HD현대, 美기업과 ‘바다의 드론’ 진수",
+     "url": "https://www.seoul.co.kr/news/economy/industry/2026/11/16/20261116032006",
+     "source": "서울신문"
+    },
+    {
      "title": "HD현대, 미 무인함정 시장 공략 발판",
      "url": "https://www.khan.co.kr/article/202611152031025",
      "source": "경향신문"
-    },
-    {
-     "title": "적과 아군 사이 승조원 없는 함정…\"미래 해상전 게임체인저\"",
-     "url": "https://stock.mk.co.kr/news/view/1199092",
-     "source": "매일경제 마켓"
     }
    ],
    "safe": true
@@ -233,8 +233,8 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -4,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "이란, 두달 만에 미군 기지 공습…미국 ‘봉쇄 강화’ 기조에 강경 대응",
@@ -261,8 +261,8 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "[사진]도루 성공하는 쇼지",
@@ -275,9 +275,9 @@
      "source": "머니투데이"
     },
     {
-     "title": "[사진]홈에서 아웃되는 김주원",
-     "url": "https://www.osen.co.kr/article/G1112910278",
-     "source": "OSEN"
+     "title": "만루 기회 살려 2점차 벌리는 김휘집",
+     "url": "https://www.newsis.com/view/NISI20261114_0002292136",
+     "source": "뉴시스"
     }
    ],
    "safe": true
