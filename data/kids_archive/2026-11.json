@@ -1426,5 +1426,47 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-16T00:38:00+09:00"
+},
+{
+"id": "n40834f8b87",
+"cat": "show",
+"title": "남해탈공연박물관, 어린이 음악극 저승할망 공연",
+"source": "이트레블뉴스",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9TZ01iUE1wd1lfQm1QZ1FabFcxUlMxaDJJWVUtbXduUjJBNFFhZUYydkVLZDcyT1RMR1h4RGVmcHQ3NDV6?oc=5",
+"pub": "2026-11-15T00:19:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T02:36:00+09:00"
+},
+{
+"id": "nbe3e37141f",
+"cat": "place",
+"title": "용산구, 2026학년도 겨울방학 어린이 영어캠프 112명 모집…참가비 50만원 지원",
+"source": "금융계",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5Z3JRZHdKa2dSVFVGc1AtUjZYSkIxMzU1NkFWOTZ4czVoQ2JWdTVNTEk1UHNCd0lfaVo2Y0JQbmdSQTg5Si0xUVIwN2RWaHcxNVAyX3JGYm5xU295RGNRQXl3OXdMdXJNbTdV0gFrQVVfeXFMUDlnclFkd0prZ1JUVUZzUC1SNlhKQjEzNTU2QVY5NnhzNWhDYlZ1NU1MSTVQc0J3SV9pWjZjQlBuZ1JBODlKLTFRUjA3ZFZodzE1UDJfckZibnFTb3lEY1FBeXc5d0x1ck1tN1U?oc=5",
+"pub": "2026-11-12T03:17:25+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T02:36:00+09:00"
+},
+{
+"id": "n0c3bdb1a8e",
+"cat": "place",
+"title": "용산구, 겨울방학 초등생 영어캠프 12일부터 참가접수",
+"source": "문화일보",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DOVZFdXZNbjFUTURRY1lRSl9TZGltQmdIQ2tpQkRQWlRVb3Q2MlQ4MVBVM0psa2pHdng1dHJjR3JMMDdwQjY3bjlCWVJwWWN6?oc=5",
+"pub": "2026-11-10T11:33:06+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T02:36:00+09:00"
 }
 ]
