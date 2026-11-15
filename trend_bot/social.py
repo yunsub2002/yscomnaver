@@ -14,6 +14,7 @@ CTA_INSTA = ["📌 저장해 두고 필요할 때 꺼내 보세요", "💬 도�
 CAT_TAGS = {"money": ["재테크", "돈관리", "경제공부", "재테크꿀팁", "월급관리"], "it": ["IT꿀팁", "스마트폰꿀팁", "디지털라이프", "생활꿀팁", "테크"],
             "parenting": ["육아", "육아꿀팁", "육아정보", "엄마표", "육아스타그램"], "health": ["건강", "건강관리", "생활습관", "건강정보", "웰니스"],
             "food": ["요리", "요리꿀팁", "집밥", "레시피", "살림꿀팁"], "travel": ["여행", "여행꿀팁", "여행준비", "여행스타그램", "여행정보"],
+            "kids": ["아이랑가볼만한곳", "주말나들이", "어린이축제", "키즈카페", "육아스타그램", "초등맘", "아이랑놀기"],
             "culture": ["문화생활", "영화추천", "책추천", "취미", "문화"], "hot": ["실시간검색어", "오늘의이슈", "이슈", "화제", "트렌드"]}
 COMMON = ["정보공유", "꿀팁", "알아두면좋은정보", "저장각"]
 
@@ -74,6 +75,30 @@ def from_hot(post):
         posts.append(clip("2/ 검색 흐름\n" + " → ".join(f"{t} {r}위" for t, r in h["timeline"][-6:]) + "\n관심이 계속 올라가는 중이에요."))
     posts.append(clip(f"여러분은 '{kw}' 소식 어떻게 보세요? 댓글로 의견 남겨 주세요 👇\n(기사 원문으로 꼭 사실 확인!)"))
     threads = {"id": post["id"] + "-th", "src": "hot", "label": post["label"], "created": post["created"], "title": f"'{kw}' 실시간 {h['rank']}위",
+               "images": post["images"][:1], "posts": posts, "tags": tags[:5]}
+    return insta, threads
+
+def from_kids(post):
+    k = post["kids"]
+    rnd = random.Random(post["id"])
+    when, F, news = k["when"], k["fests"], k["news"]
+    tags = hashtags(post["tags"], "kids")
+    first = rnd.choice([f"🎈 {when} 아이랑 어디 가지? 고민 끝!", f"📌 저장 필수! {when} 아이랑 갈 만한 곳 모음", f"👧 {when} 키즈 나들이 리스트 정리했어요"])
+    cap = [first, "", f"📅 {k['range']}", ""]
+    if F:
+        cap += ["🎪 이번 주 축제·행사"] + [f"{i}. {f['title']} ({f['region']} · {f['period']})" for i, f in enumerate(F[:5], 1)] + [""]
+    if news:
+        cap += ["📰 새로 나온 키즈 소식"] + [f"• {n['title']}" for n in news[:4]] + [""]
+    cap += ["일정·예약은 방문 전 공식 안내로 꼭 확인하세요 🙏", "👉 자세한 정리는 프로필 링크(블로그)", ".", " ".join("#" + t for t in tags)]
+    insta = {"id": post["id"] + "-ig", "src": "kids", "label": post["label"], "created": post["created"], "title": post["title"],
+             "images": post["images"], "caption": "\n".join(cap), "tags": tags}
+    posts = [clip(f"{first} 🧵\n\n축제·공연·키즈카페·외식 소식까지 아이 키우는 집에 필요한 것만 모았어요.")]
+    if F:
+        posts.append(clip("1/ 이번 주 열리는 축제\n" + "\n".join(f"- {f['title']} ({f['region']}, {f['period']})" for f in F[:4])))
+    if news:
+        posts.append(clip(f"{2 if F else 1}/ 새로 나온 키즈 소식\n" + "\n".join(f"- {n['title']}" for n in news[:4])))
+    posts.append(clip("여러분은 이번 주말 아이랑 어디 가세요?\n추천 장소 댓글로 알려 주세요 👇 (일정은 공식 안내 확인!)"))
+    threads = {"id": post["id"] + "-th", "src": "kids", "label": post["label"], "created": post["created"], "title": post["title"],
                "images": post["images"][:1], "posts": posts, "tags": tags[:5]}
     return insta, threads
 

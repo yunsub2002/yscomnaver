@@ -135,6 +135,29 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
 .gimgs{display:flex;gap:8px;overflow-x:auto;margin:0 -16px;padding:2px 16px 6px;scrollbar-width:none}.gimgs::-webkit-scrollbar{display:none}
 .gimgs img{flex:0 0 62%;width:62%;border-radius:14px;display:block;background:var(--soft)}
 .gwarn{font-size:13px;font-weight:700;color:var(--hot);margin:8px 2px 0}
+/* 키즈 탭 */
+.kchips{display:flex;gap:6px;overflow-x:auto;margin:6px -16px 2px;padding:2px 16px 6px;scrollbar-width:none}.kchips::-webkit-scrollbar{display:none}
+.kchips button{flex:none;font-size:13.5px;font-weight:800;padding:7px 12px;border-radius:99px;background:var(--card);box-shadow:var(--shadow);color:var(--mut)}
+.kchips button.on{background:#ff7a45;color:#fff}
+.kn{padding:12px 0;border-bottom:1px solid var(--line)}.kn:last-child{border:0}
+.kn .kt{display:block;font-size:15.5px;font-weight:800;line-height:1.45;color:var(--ink);text-decoration:none;word-break:keep-all}
+.kn .km{font-size:12.5px;color:var(--mut);font-weight:600;margin-top:3px}
+.kn .ka{display:flex;gap:6px;margin-top:8px}
+.kn .ka a,.kn .ka button{font-size:12.5px;font-weight:800;padding:6px 10px;border-radius:10px;background:var(--soft);color:var(--ink);text-decoration:none}
+.kn .ka .go{background:linear-gradient(90deg,#ff7a45,#ffb347);color:#fff}
+.knew{font-size:10.5px;font-weight:900;color:#fff;background:#ff7a45;border-radius:6px;padding:1px 5px;margin-right:4px;vertical-align:2px}
+.kf{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.kf:last-child{border:0}
+.kf img,.kf .noimg{flex:none;width:84px;height:84px;border-radius:14px;object-fit:cover;background:linear-gradient(135deg,#ffe8cc,#e5dbff);display:grid;place-items:center;font-size:34px}
+.kf .b{flex:1;min-width:0}.kf .b b{display:block;font-size:15.5px;line-height:1.4}
+.kf .tip{font-size:12.5px;color:var(--mut);margin-top:4px;line-height:1.45}
+.kst{display:inline-block;font-size:11px;font-weight:900;padding:2px 7px;border-radius:6px;background:#fff1e6;color:#e8590c;margin-left:4px;vertical-align:2px}
+@media (prefers-color-scheme:dark){.kst{background:#3a2516}}
+.kform label{display:block;font-size:13px;font-weight:800;color:var(--mut);margin:12px 2px 5px}
+.kform input,.kform select,.kform textarea{width:100%;font:inherit;font-size:16px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:10px 12px}
+.kform textarea{min-height:76px;resize:vertical}
+.kstar{display:flex;gap:4px}.kstar button{font-size:28px;filter:grayscale(1);opacity:.35}.kstar button.on{filter:none;opacity:1}
+.kbox{background:linear-gradient(135deg,#fff4e6,#f3f0ff);border-radius:16px;padding:12px 14px;font-size:13.5px;color:#5f3d7a;margin:8px 0}
+@media (prefers-color-scheme:dark){.kbox{background:#2a2236;color:#d0bfff}}
 </style>
 </head>
 <body>
@@ -147,6 +170,7 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
  </header>
  <main id="v-post"></main>
  <main id="v-hot" hidden></main>
+ <main id="v-kids" hidden></main>
  <main id="v-insta" hidden></main>
  <main id="v-threads" hidden></main>
  <main id="v-rank" hidden></main>
@@ -156,6 +180,7 @@ nav button{font-size:10.5px}nav button i{font-size:21px}
 <nav><div class="in">
  <button data-v="post" class="on"><i>📝</i>블로그<span class="dot" id="dot" hidden></span></button>
  <button data-v="hot"><i>🔥</i>화제</button>
+ <button data-v="kids"><i>👧</i>키즈</button>
  <button data-v="insta"><i>📸</i>인스타</button>
  <button data-v="threads"><i>🧵</i>스레드</button>
  <button data-v="rank"><i>📈</i>순위</button>
@@ -179,9 +204,9 @@ const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}/`;
 const LINKS = {blog: 'https://m.blog.naver.com/', insta: 'https://www.instagram.com/', threads: 'https://www.threads.net/'};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const S = {posts: [], rank: null, view: 'post', sel: {post: null, hot: null}, cur: {}, files: {}, insta: null, threads: null,
+const S = {posts: [], rank: null, view: 'post', sel: {post: null, hot: null, kids: null}, cur: {}, kids: null, kseg: 'live', kcat: 'all', files: {}, insta: null, threads: null,
            months: [], arc: {month: '', kind: 'all', q: '', list: null}, social: {insta: '', threads: ''}};
-const TITLES = {post: '블로그', hot: '🔥 화제 글', insta: '📸 인스타', threads: '🧵 스레드', rank: '실시간 순위', arc: '보관함'};
+const TITLES = {post: '블로그', hot: '🔥 화제 글', kids: '👧 키즈 실시간', insta: '📸 인스타', threads: '🧵 스레드', rank: '실시간 순위', arc: '보관함'};
 
 /* ===== 이 아이폰에만 저장: 올린 기록 ===== */
 const store = {
@@ -200,14 +225,16 @@ async function load(path){
 }
 const img = p => (S.base ?? RAW) + p;
 const isHot = x => (x.kind || '') === 'hot';
-const blogPosts = () => S.posts.filter(x => !isHot(x));
+const isKids = x => (x.kind || '') === 'kids';
+const blogPosts = () => S.posts.filter(x => !isHot(x) && !isKids(x));
+const kidsPosts = () => S.posts.filter(isKids);
 const hotPosts = () => S.posts.filter(isHot);
 
 async function refresh(){
  const b = $('#refresh'); b.classList.add('spin');
  try {
   const [posts, rank, months] = await Promise.all([load('data/posts.json').catch(() => []), load('data/rank.json').catch(() => null), load('data/archive/index.json').catch(() => [])]);
-  S.posts = posts; S.rank = rank; S.months = months; S.insta = S.threads = null; S.cur = {};
+  S.posts = posts; S.rank = rank; S.months = months; S.insta = S.threads = S.kids = null; S.cur = {};
   await ensureView();
   render();
  } catch(e) { $('#upd').textContent = '불러오지 못했어요. 잠시 뒤 다시 시도해 주세요.'; }
@@ -222,6 +249,14 @@ async function ensureView(){
   const id = S.sel[v] || pickDefault(list, v === 'hot');
   if (id && (!S.cur[v] || S.cur[v].id !== id)) S.cur[v] = await load(`data/posts/${id}.json`).catch(() => null);
   if (!id) S.cur[v] = null;
+ }
+ if (v === 'kids') {
+  if (!S.kids) S.kids = await load('data/kids.json').catch(() => ({}));
+  if (S.kseg === 'post') {
+   const id = S.sel.kids || pickDefault(todays(kidsPosts()), true);
+   if (id && (!S.cur.kids || S.cur.kids.id !== id)) S.cur.kids = await load(`data/posts/${id}.json`).catch(() => null);
+   if (!id) S.cur.kids = null;
+  }
  }
  if ((v === 'insta' || v === 'threads') && !S[v]) {
   const m = S.social[v];
@@ -262,26 +297,28 @@ function render(){
  $('#htitle').textContent = TITLES[v];
  const up = {post: S.cur.post ? `글 만든 시각 ${when(S.cur.post.created)} · 하루 3편 (오전 트렌드·점심 심층·오후 트렌드)` : '아직 만들어진 글이 없어요',
              hot: `매시간 지금 막 뜬 키워드로 자동 작성 · 최근 ${when((hotPosts()[0] || {}).created) || '-'}`,
+             kids: S.kids && S.kids.updated ? `소식 업데이트 ${when(S.kids.updated)} · 매시간 갱신 · 정리 글은 매일 아침` : '아이랑 갈 만한 축제·행사·키즈카페·맛집 소식',
              insta: '심층 글은 카드뉴스, 화제 글은 이슈 카드로 자동 제작', threads: '첫 줄 후킹 → 내용 → 질문 순서의 연속 글',
              rank: S.rank ? `순위 업데이트 ${when(S.rank.updated)} · 매시간 갱신` : '', arc: '만들어진 모든 글이 월별로 계속 쌓여요'}[v];
  $('#upd').textContent = up;
- ['post', 'hot', 'insta', 'threads', 'rank', 'arc'].forEach(x => $('#v-' + x).hidden = x !== v);
+ ['post', 'hot', 'kids', 'insta', 'threads', 'rank', 'arc'].forEach(x => $('#v-' + x).hidden = x !== v);
  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.v === v));
  if (v === 'post') drawPost('post', todays(blogPosts()), posted);
  if (v === 'hot') drawPost('hot', todays(hotPosts()).slice().reverse(), posted);
+ if (v === 'kids') drawKids(posted);
  if (v === 'insta') drawSocial('insta', posted);
  if (v === 'threads') drawSocial('threads', posted);
  if (v === 'rank') drawRank();
  if (v === 'arc') drawArc(posted);
 }
 
-function drawPost(v, td, posted){
+function drawPost(v, td, posted, pre = ''){
  const p = S.cur[v], el = $('#v-' + v);
- const bar = td.length > 1 ? `<div class="sec-t" style="margin-top:6px">${v === 'hot' ? '오늘 만들어진 화제 글' : '오늘 올릴 글'} ${td.length}편 · ${td.filter(x => posted[x.id]).length}편 완료</div>
+ const bar = td.length > 1 ? `<div class="sec-t" style="margin-top:6px">${v === 'hot' ? '오늘 만들어진 화제 글' : v === 'kids' ? '오늘 키즈 글' : '오늘 올릴 글'} ${td.length}편 · ${td.filter(x => posted[x.id]).length}편 완료</div>
  <div class="today">${td.map(x => `<button class="tbtn ${p && x.id === p.id ? 'on' : ''} ${posted[x.id] ? 'done' : ''}" data-pick="${esc(x.id)}" data-v="${v}">${esc(kindLabel(x))}<small>${posted[x.id] ? '✓ 올림' : (v === 'hot' ? esc(x.title.match(/'([^']+)'/)?.[1] || '') : '아직 안 올림')}</small></button>`).join('')}</div>` : '';
- if (!p) { el.innerHTML = `<div class="card empty">${v === 'hot' ? '첫 화제 글을 기다리는 중이에요.<br>매시간 자동으로 만들어져요.' : '첫 글을 만드는 중이에요.'}</div>`; return; }
+ if (!p) { el.innerHTML = pre + `<div class="card empty">${v === 'kids' ? '첫 키즈 나들이 글을 기다리는 중이에요.<br>매일 아침 8시 40분쯤 자동으로 만들어져요.' : v === 'hot' ? '첫 화제 글을 기다리는 중이에요.<br>매시간 자동으로 만들어져요.' : '첫 글을 만드는 중이에요.'}</div>`; return; }
  const done = posted[p.id], ims = p.images || [];
- el.innerHTML = bar + `
+ el.innerHTML = pre + bar + `
  <div class="card">
   <span class="chip" style="margin-right:4px">${esc(kindLabel(p))}</span>
   <span class="chip ${done ? 'done' : 'todo'}">${done ? '✓ 올림 완료 · ' + esc(when(done)) : '● 올릴 차례'}</span>
@@ -308,7 +345,7 @@ function drawPost(v, td, posted){
  </div>
  <div class="card"><details class="more"><summary>본문 미리보기</summary><div class="preview" style="margin-top:10px">${p.html}</div></details></div>
  <button class="donebtn ${done ? 'on' : ''}" data-act="done" data-key="${esc(p.id)}">${done ? '✓ 네이버에 올렸어요 (취소하려면 누르기)' : '✅ 네이버에 올렸어요'}</button>
- <p class="note">${p.kind === 'deep' ? `직접 쓴 심층 원고 · 약 ${(p.chars || 0).toLocaleString()}자 · 사진은 모두 자체 제작 디자인 이미지예요.` : '순위 출처: Google 트렌드(대한민국). 사건·사고·재판·정치 키워드는 자동으로 뺐어요. 기사 제목·링크는 각 언론사 원문입니다.'} 붙여넣은 뒤 내 말투로 한두 줄 덧붙이면 더 잘 읽혀요.</p>`;
+ <p class="note">${p.kind === 'kids' ? '축제: 한국관광공사 TourAPI · 소식: 각 언론사 기사. 일정·요금·예약은 바뀔 수 있으니 올리기 전 공식 안내를 한 번 확인하세요.' : p.kind === 'deep' ? `직접 쓴 심층 원고 · 약 ${(p.chars || 0).toLocaleString()}자 · 사진은 모두 자체 제작 디자인 이미지예요.` : '순위 출처: Google 트렌드(대한민국). 사건·사고·재판·정치 키워드는 자동으로 뺐어요. 기사 제목·링크는 각 언론사 원문입니다.'} 붙여넣은 뒤 내 말투로 한두 줄 덧붙이면 더 잘 읽혀요.</p>`;
 }
 
 function monthSelect(cur, attr){
@@ -321,7 +358,7 @@ function drawSocial(kind, posted){
  if (!list.length) { el.innerHTML = top + `<div class="card empty">아직 만들어진 콘텐츠가 없어요.<br>심층 글(점심)·화제 글(매시간)이 만들어질 때 함께 생겨요.</div>`; return; }
  el.innerHTML = top + list.slice(0, 40).map((x, i) => {
   const done = posted[x.id], ims = x.images || [];
-  const head = `<div class="sc-head"><span class="chip">${x.src === 'deep' ? '카드뉴스' : '🔥 이슈'}</span><span class="t">${esc(x.title)}</span>${done ? '<span class="ok-chip">✓ 올림</span>' : ''}</div>
+  const head = `<div class="sc-head"><span class="chip">${x.src === 'deep' ? '카드뉴스' : x.src === 'kids' ? '👧 키즈' : '🔥 이슈'}</span><span class="t">${esc(x.title)}</span>${done ? '<span class="ok-chip">✓ 올림</span>' : ''}</div>
    <div class="upd" style="margin:-6px 0 4px">${esc(x.label || '')} · ${esc(when(x.created))} · 사진 ${ims.length}장</div>
    <div class="mini">${ims.map(s => `<img src="${esc(img(s))}" loading="lazy" alt="">`).join('')}</div>`;
   const btns = `<div class="btns" style="margin-top:10px">
@@ -357,12 +394,12 @@ function isKo(x){ const k = x.keyword || ''; if (HANGUL.test(k)) return true; re
 function drawArc(posted){
  const el = $('#v-arc'), A = S.arc, all = A.list || [];
  const q = A.q.trim().toLowerCase();
- const list = all.filter(x => (A.kind === 'all' || (A.kind === 'hot' ? isHot(x) : !isHot(x))) && (!q || x.title.toLowerCase().includes(q)));
+ const list = all.filter(x => (A.kind === 'all' || (A.kind === 'hot' ? isHot(x) : A.kind === 'kids' ? isKids(x) : !isHot(x) && !isKids(x))) && (!q || x.title.toLowerCase().includes(q)));
  el.innerHTML = `<div class="filters">${monthSelect(A.month, 'amonth').replace('최근 300개', '최근 글')}<input id="aq" placeholder="제목 검색" value="${esc(A.q)}"></div>
- <div class="seg">${[['all', '전체'], ['blog', '블로그'], ['hot', '화제']].map(([k, l]) => `<button class="${A.kind === k ? 'on' : ''}" data-akind="${k}">${l}</button>`).join('')}</div>
+ <div class="seg">${[['all', '전체'], ['blog', '블로그'], ['hot', '화제'], ['kids', '키즈']].map(([k, l]) => `<button class="${A.kind === k ? 'on' : ''}" data-akind="${k}">${l}</button>`).join('')}</div>
  <div class="sec-t">${list.length}편 · 올림 ${list.filter(x => posted[x.id]).length}편</div>
  ${list.length ? `<div class="card" style="padding:6px 14px">${list.slice(0, 300).map(x => `
-  <button class="arc" data-open="${esc(x.id)}" data-hot="${isHot(x) ? 1 : 0}"><img src="${esc(x.thumb ? img(x.thumb) : '')}" alt="" loading="lazy">
+  <button class="arc" data-open="${esc(x.id)}" data-hot="${isHot(x) ? 1 : isKids(x) ? 2 : 0}"><img src="${esc(x.thumb ? img(x.thumb) : '')}" alt="" loading="lazy">
    <span style="flex:1;min-width:0"><span class="t">${esc(x.title)}</span><span class="s">${esc(kindLabel(x))} · ${posted[x.id] ? '✓ 올림' : '안 올림'} · ${esc(when(x.created))}</span></span></button>`).join('')}</div>` : '<div class="card empty">해당하는 글이 없어요.</div>'}
  <p class="note">글·순위·인스타·스레드는 모두 월별 보관함에 지우지 않고 쌓여요. 사진 원본은 PC의 ‘전체자료’ 폴더로도 매일 모을 수 있어요.</p>`;
 }
@@ -414,7 +451,7 @@ document.addEventListener('click', async e => {
  const pk = e.target.closest('[data-pick]');
  if (pk) { const v = pk.dataset.v; S.sel[v] = pk.dataset.pick; await ensureView(); render(); prefetchCur(v); return; }
  const op = e.target.closest('[data-open]');
- if (op) { const v = op.dataset.hot === '1' ? 'hot' : 'post'; S.sel[v] = op.dataset.open; S.view = v; S.cur[v] = null; await ensureView(); render(); prefetchCur(v); scrollTo(0, 0); return; }
+ if (op) { const v = op.dataset.hot === '1' ? 'hot' : op.dataset.hot === '2' ? 'kids' : 'post'; if (v === 'kids') S.kseg = 'post'; S.sel[v] = op.dataset.open; S.view = v; S.cur[v] = null; await ensureView(); render(); prefetchCur(v); scrollTo(0, 0); return; }
  const ak = e.target.closest('[data-akind]');
  if (ak) { S.arc.kind = ak.dataset.akind; render(); return; }
  const a = e.target.closest('[data-act]');
@@ -440,12 +477,12 @@ document.addEventListener('change', async e => {
 });
 document.addEventListener('input', e => { if (e.target.id === 'aq') { S.arc.q = e.target.value; const pos = e.target.selectionStart; render(); const i = $('#aq'); i.focus(); i.setSelectionRange(pos, pos); } });
 function prefetchCur(v){ const p = S.cur[v]; if (p) getFiles(p.id, p.images || []).catch(() => {}); }
-$('#refresh').addEventListener('click', () => { S.sel = {post: null, hot: null}; refresh(); });
+$('#refresh').addEventListener('click', () => { S.sel = {post: null, hot: null, kids: null}; refresh(); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') refresh(); });
 setInterval(() => { if (document.visibilityState === 'visible') refresh(); }, 10 * 60 * 1000);
 refresh().then(() => prefetchCur('post'));
 /* ===== 바로 글쓰기 (검색어 → 블로그·스레드·인스타 + 카드 이미지, 서버·AI 없이 폰에서 바로) ===== */
-const G = {x: null, spice: 'hot', tab: 'blog', d: null, files: null, urls: []};
+const G = {mode: 'trend', x: null, spice: 'hot', tab: 'blog', d: null, files: null, urls: []};
 const pick = a => a[Math.floor(Math.random() * a.length)];
 const shuf = a => a.map(v => [Math.random(), v]).sort((p, q) => p[0] - q[0]).map(v => v[1]);
 const josa = (w, a, b) => { const c = (w || '').charCodeAt(w.length - 1); return (c >= 0xac00 && c <= 0xd7a3 && (c - 0xac00) % 28) ? a : b; };
@@ -551,13 +588,14 @@ async function drawCards(x, d){
  return Promise.all(out.map((cv, i) => new Promise(res => cv.toBlob(b => res(new File([b], `${k.replace(/[\\/:*?"<>|\s]+/g, '_')}_${i + 1}.jpg`, {type: 'image/jpeg'})), 'image/jpeg', .92))));
 }
 async function genMake(){
- const x = G.x; G.d = makeContent(x, G.spice); G.files = null;
+ const x = G.x, kids = G.mode === 'kids'; G.d = kids ? makeKids(x, G.spice) : makeContent(x, G.spice); G.files = null;
+ const sp = $('#gspice').children; sp[0].textContent = kids ? '😊 다정한 말투' : '😌 정보형'; sp[1].textContent = kids ? '🔥 후킹형' : '🔥 자극형';
  G.urls.forEach(u => URL.revokeObjectURL(u)); G.urls = [];
- $('#gk').textContent = '✍️ ' + x.keyword;
+ $('#gk').textContent = '✍️ ' + (kids ? x.name : x.keyword);
  document.querySelectorAll('#gspice button').forEach(b => b.classList.toggle('on', b.dataset.g === G.spice));
  genOut();
  $('#gimgs').innerHTML = '<div class="note" style="padding:20px 0">카드 이미지 만드는 중…</div>';
- const files = await drawCards(x, G.d); G.files = files; G.urls = files.map(f => URL.createObjectURL(f));
+ const files = kids ? await drawKidsCards(x, G.d) : await drawCards(x, G.d); G.files = files; G.urls = files.map(f => URL.createObjectURL(f));
  $('#gimgs').innerHTML = G.urls.map(u => `<img src="${u}" alt="">`).join('');
 }
 function genOut(){
@@ -565,7 +603,7 @@ function genOut(){
  const warn = x.safe === false ? '<div class="gwarn">⚠️ 사건·사고·정치 관련 키워드예요. 사실 확인 후 올리고, 단정·비방 표현은 피하세요.</div>' : '';
  let h = '';
  if (G.tab === 'blog') h = `<div class="card"><div class="sec-t" style="margin-top:0">제목 후보 (눌러서 복사)</div>${d.titles.map((t, i) => `<button class="btn wide" style="width:100%;justify-content:flex-start;text-align:left;margin-bottom:6px;min-height:46px" data-g="ct" data-i="${i}">${esc(t)}</button>`).join('')}
-  <div class="sec-t">본문</div><div class="gtxt">${esc(d.body)}</div><div class="note">${esc(d.tags.map(t => '#' + t).join(' '))}</div></div>
+  ${d.fill ? `<div class="gwarn" style="color:var(--blue)">✏️ 본문 속 ✏️ 표시 줄은 기사·공식 안내에서 확인한 내용으로 채우거나 지워 주세요.</div>` : ''}<div class="sec-t">본문</div><div class="gtxt">${esc(d.body)}</div><div class="note">${esc(d.tags.map(t => '#' + t).join(' '))}</div></div>
   <div class="btns"><button class="btn pri" data-g="cb">📋 본문 복사</button><button class="btn" data-g="ctag">🏷 태그 복사</button><a class="btn blue wide" href="${LINKS.blog}" target="_blank" rel="noopener">네이버 블로그 열기 →</a></div>`;
  if (G.tab === 'threads') h = `<div class="card">${d.threads.map((t, i) => `<div class="thp"><span class="n">${i + 1}</span><div class="x">${esc(t)}</div><button data-g="cth" data-i="${i}">복사</button></div>`).join('')}</div>
   <div class="btns"><button class="btn pri" data-g="cthall">📋 전체 복사</button><a class="btn blue" href="${LINKS.threads}" target="_blank" rel="noopener">스레드 열기 →</a></div><p class="note">1번 글에 카드 이미지를 붙여 올리고, 나머지는 ‘스레드에 추가’로 이어 붙이세요.</p>`;
@@ -573,7 +611,7 @@ function genOut(){
   <div class="btns"><button class="btn pri" data-g="cin">📋 캡션+해시태그</button><button class="btn" data-g="chash">🏷 해시태그만</button><a class="btn blue wide" href="${LINKS.insta}" target="_blank" rel="noopener">인스타 열기 →</a></div>`;
  $('#gout').innerHTML = warn + h;
 }
-function genOpen(i){ const all = (S.rank && S.rank.items || []), x0 = all[i]; if (!x0) return; const x = {...x0, rank: all.filter(isKo).indexOf(x0) + 1 || x0.rank}; G.x = x; G.tab = 'blog'; G.spice = x.safe === false ? 'mild' : 'hot'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
+function genOpen(i){ const all = (S.rank && S.rank.items || []), x0 = all[i]; if (!x0) return; const x = {...x0, rank: all.filter(isKo).indexOf(x0) + 1 || x0.rank}; G.mode = 'trend'; G.x = x; G.tab = 'blog'; G.spice = x.safe === false ? 'mild' : 'hot'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
 async function genSave(){
  const files = G.files; if (!files) { toast('이미지를 만드는 중이에요'); return; }
  if (navigator.canShare && navigator.canShare({files})) { try { await navigator.share({files}); return; } catch(e) { if (e.name === 'AbortError') return; } }
@@ -596,6 +634,179 @@ document.addEventListener('click', e => {
  if (a === 'cin') copy(d.caption + '\n\n' + d.hashtags.map(t => '#' + t).join(' '), '캡션을');
  if (a === 'chash') copy(d.hashtags.map(t => '#' + t).join(' '), '해시태그를');
 });
+/* ===== 👧 키즈 실시간 탭 ===== */
+const KCAT = {festival: ['🎪', '축제·행사'], place: ['🗺️', '가볼만한곳'], kidscafe: ['🧸', '키즈카페'], food: ['🍽️', '맛집·외식'], show: ['🎭', '공연·전시']};
+const KSEG = [['live', '📰 실시간'], ['fest', '🎪 축제'], ['post', '📝 오늘 글'], ['review', '✍️ 후기']];
+function kidsList(){ const f = S.kids || {}, n = f.news || []; return S.kcat === 'all' ? n : n.filter(x => x.cat === S.kcat); }
+function drawKids(posted){
+ const f = S.kids || {}, el = $('#v-kids');
+ const seg = `<div class="seg">${KSEG.map(([k, l]) => `<button class="${S.kseg === k ? 'on' : ''}" data-kseg="${k}">${l}</button>`).join('')}</div>`;
+ if (S.kseg === 'post') return drawPost('kids', todays(kidsPosts()).slice().reverse(), posted, seg);
+ if (S.kseg === 'review') { el.innerHTML = seg + kidsForm(); return; }
+ if (S.kseg === 'fest') {
+  const fs = f.festivals || [];
+  const head = `<div class="sec-t">${esc(f.range ? f.range.label : '')} 열리는 축제 · ${fs.length}곳</div>`;
+  if (!f.has_tour) { el.innerHTML = seg + `<div class="card"><b>🎪 전국 축제 목록을 켜 주세요</b><div class="kbox">한국관광공사 무료 키를 넣으면 이번 주 진행 중인 전국 축제·행사(기간·장소·사진)가 매시간 자동으로 나와요.<br><br>PC에서 <b>6_관광공사키_넣기.bat</b> 실행 → 안내대로 키 붙여넣기 (5분)</div><div class="note">키를 넣기 전에도 ‘실시간’ 탭의 어린이 축제·행사 기사는 계속 모여요.</div></div>`; return; }
+  if (!fs.length) { el.innerHTML = seg + `<div class="card empty">이번 주 축제 정보를 기다리는 중이에요.</div>`; return; }
+  el.innerHTML = seg + head + `<div class="card" style="padding:4px 14px">${fs.map((x, i) => `<div class="kf">
+   ${x.img ? `<img src="${esc(x.img)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="noimg">🎪</div>'}
+   <div class="b"><b>${x.new ? '<span class="knew">NEW</span>' : ''}${esc(x.title)}${x.kid > 0 ? '<span class="kst">👧 아이 추천</span>' : ''}</b>
+    <div class="km" style="font-size:12.5px;color:var(--mut);font-weight:700;margin-top:3px">📅 ${esc(x.period)}${x.status ? ' · ' + esc(x.status) : ''}<br>📍 ${esc(x.addr || x.region)}</div>
+    <div class="tip">💡 ${esc(x.tip)}</div>
+    <div class="kn" style="padding:0;border:0"><div class="ka"><button class="go" data-kgen="fest" data-i="${i}">✍️ 글쓰기</button><a href="${esc(x.map)}" target="_blank" rel="noopener">🗺 지도</a>${x.tel ? `<a href="tel:${esc(x.tel.replace(/[^0-9]/g, ''))}">☎ 전화</a>` : ''}</div></div></div></div>`).join('')}</div>
+   <p class="note">출처: 한국관광공사 TourAPI. 아이 추천은 축제 이름(어린이·가족·체험·빛·눈썰매 등)을 보고 자동으로 고른 거예요. 일정·요금은 방문 전 공식 안내로 확인하세요.</p>`;
+  return;
+ }
+ // 실시간 소식
+ const cats = f.cats || [], list = kidsList();
+ const chips = `<div class="kchips"><button class="${S.kcat === 'all' ? 'on' : ''}" data-kcat="all">전체 ${(f.news || []).length}</button>${cats.map(c => `<button class="${S.kcat === c.key ? 'on' : ''}" data-kcat="${c.key}">${c.emo} ${esc(c.name)} ${c.count}</button>`).join('')}</div>`;
+ const fs = (f.festivals || []).filter(x => x.kid > 0).slice(0, 3);
+ const fbox = fs.length && S.kcat === 'all' ? `<div class="card" style="padding:10px 14px"><div class="sec-t" style="margin:2px 0 4px">🎪 이번 주 아이랑 갈 만한 축제</div>${fs.map(x => `<div class="km" style="padding:4px 0;font-size:14px"><b>${esc(x.title)}</b> <span style="color:var(--mut)">· ${esc(x.region)} · ${esc(x.period)}</span></div>`).join('')}<button class="cap-more" data-kseg="fest">전체 축제 보기 →</button></div>` : '';
+ if (!list.length) { el.innerHTML = seg + chips + `<div class="card empty">키즈 소식을 모으는 중이에요.<br>매시간 자동으로 새 소식이 들어와요.</div>`; return; }
+ el.innerHTML = seg + chips + fbox + `<div class="card" style="padding:2px 14px">${list.slice(0, 80).map(x => {
+  const [em, nm] = KCAT[x.cat] || ['📰', '소식'], i = (f.news || []).indexOf(x);
+  return `<div class="kn"><a class="kt" href="${esc(x.url)}" target="_blank" rel="noopener">${x.new ? '<span class="knew">NEW</span>' : ''}${esc(x.title)}</a>
+   <div class="km">${em} ${esc(nm)} · ${esc(x.source || '')} · ${esc(when(x.pub))}${x.region ? ' · 📍' + esc(x.region) : ''}${x.period ? ' · 📅 ' + esc(x.period) : ''}</div>
+   <div class="ka"><button class="go" data-kgen="news" data-i="${i}">✍️ 글쓰기</button><a href="https://m.search.naver.com/search.naver?query=${encodeURIComponent(x.title.slice(0, 40))}" target="_blank" rel="noopener">🔎 네이버</a></div></div>`; }).join('')}</div>
+ <p class="note">최근 7일 기사 중 아이·가족과 관련된 소식만 자동으로 골랐어요(사건·사고·학대 기사는 제외). 제목을 누르면 기사 원문이 열려요. 일정은 원문으로 꼭 확인하세요.</p>`;
+}
+/* --- 후기 쓰기 폼 (내가 다녀온 곳 → 블로그 글) --- */
+const KR = {get(){ try { return JSON.parse(localStorage.getItem('kidsReview') || '{}') } catch(e){ return {} } }, set(v){ try { localStorage.setItem('kidsReview', JSON.stringify(v)) } catch(e){} }};
+function kidsForm(){
+ const r = Object.assign({type: 'food', age: '초등 저학년', star: 5}, KR.get());
+ const opt = (arr, cur) => arr.map(([v, l]) => `<option value="${v}" ${v === cur ? 'selected' : ''}>${l}</option>`).join('');
+ return `<div class="card kform">
+  <div class="kbox">📸 직접 다녀온 곳을 몇 줄만 적으면, 키즈 블로거 말투의 후기 글·스레드·인스타 캡션과 카드 이미지가 만들어져요. 실제 경험을 쓰는 글이라 블로그 품질 평가에도 가장 좋아요.</div>
+  <label>어떤 곳인가요?</label><select data-kr="type">${opt([['food', '🍽️ 아이랑 맛집'], ['kidscafe', '🧸 키즈카페·실내놀이터'], ['place', '🗺️ 가볼만한곳·체험'], ['festival', '🎪 축제·행사'], ['show', '🎭 공연·전시']], r.type)}</select>
+  <label>장소 이름 *</label><input data-kr="name" value="${esc(r.name || '')}" placeholder="예) ○○ 키즈카페 송도점">
+  <label>지역</label><input data-kr="region" value="${esc(r.region || '')}" placeholder="예) 인천 송도">
+  <label>아이 나이</label><select data-kr="age">${opt([['유아(4~7세)', '유아 (4~7세)'], ['초등 저학년', '초등 저학년'], ['초등 고학년', '초등 고학년'], ['형제자매', '형제·자매 (나이 다름)']], r.age)}</select>
+  <label>별점</label><div class="kstar">${[1, 2, 3, 4, 5].map(n => `<button data-kstar="${n}" class="${n <= r.star ? 'on' : ''}">⭐</button>`).join('')}</div>
+  <label>좋았던 점 (줄마다 하나씩)</label><textarea data-kr="good" placeholder="아이가 2시간 동안 안 나오려고 했어요&#10;키즈 메뉴가 맵지 않고 양이 많았어요">${esc(r.good || '')}</textarea>
+  <label>아쉬운 점</label><textarea data-kr="bad" placeholder="주말 점심엔 웨이팅 30분">${esc(r.bad || '')}</textarea>
+  <label>꿀팁 (주차·예약·가격·메뉴 등)</label><textarea data-kr="tip" placeholder="건물 지하 주차 2시간 무료&#10;평일 오전이 한산해요">${esc(r.tip || '')}</textarea>
+  <button class="donebtn" style="margin-top:14px;background:linear-gradient(90deg,#ff7a45,#ffb347);color:#fff" data-krgo="1">✍️ 후기 글 만들기</button>
+ </div>`;
+}
+/* --- 키즈 글 만들기 (기사 · 축제 · 내 후기) --- */
+const KCP = {
+ food: ['아기 의자·유아 식기 있는지', '맵지 않은 키즈 메뉴 유무', '주차·유모차 진입 편한지', '웨이팅 시간 미리 확인', '노키즈존 여부 사전 확인'],
+ kidscafe: ['예약제·회차 시간 확인', '이용 연령·키 제한 확인', '보호자·아이 양말 필수', '음식 반입 가능 여부', '주말은 오픈 직후가 여유로워요'],
+ place: ['운영 시간·휴관일 확인', '주차 가능 여부', '유모차·수유실 여부', '실내 공간 있는지 (날씨 대비)', '입장료·사전 예약 확인'],
+ festival: ['행사 기간·시간 확인', '체험은 조기 마감 주의', '주차 혼잡 → 대중교통 추천', '날씨 맞춰 겉옷·간식', '아이 이름·연락처 팔찌'],
+ show: ['관람 연령 확인', '예매·잔여석 확인', '10~20분 일찍 도착', '공연 중 간식 반입 규정', '화장실 미리 다녀오기']
+};
+const KOP = {food: '아이랑 외식은 맛도 중요하지만 ‘편하게 먹을 수 있는지’가 제일 중요하더라고요.', kidscafe: '날씨 상관없이 아이 체력 쏙 빼기엔 키즈카페만 한 곳이 없죠.',
+ place: '아이랑 가는 곳은 동선이 짧고 쉴 곳이 있는지가 만족도를 크게 좌우해요.', festival: '축제는 아이에게 특별한 하루가 되는 만큼, 준비물만 잘 챙기면 반은 성공이에요.', show: '공연은 아이 집중 시간에 맞는 길이인지 꼭 확인하고 가면 좋아요.'};
+const lines = t => String(t || '').split(/\n|,|·/).map(s => s.trim()).filter(Boolean);
+function kidsTags(x){
+ const reg = (x.region || '').replace(/\s+/g, '').slice(0, 6), nm = x.kk === 'news' ? '' : (x.name || '').replace(/[^\w가-힣]/g, '').slice(0, 15);
+ const by = {food: ['아이랑맛집', '아이와맛집', '키즈메뉴', '가족외식', '노키즈존아님'], kidscafe: ['키즈카페', '공공형키즈카페', '실내놀이터', '아이랑실내', '키즈카페추천'],
+  place: ['아이랑가볼만한곳', '아이와가볼만한곳', '주말나들이', '아이랑체험', '가족나들이'], festival: ['어린이축제', '아이랑축제', '가족축제', '주말나들이', '이번주축제'],
+  show: ['어린이공연', '어린이뮤지컬', '아이랑전시', '실내데이트', '가족공연']}[x.type] || [];
+ return [...new Set([nm, reg && reg + (x.type === 'food' ? '맛집' : '가볼만한곳'), reg && reg + '아이랑', ...by, '초등맘', '육아맘', '육아스타그램', '아이랑놀기'].filter(Boolean))].slice(0, 15);
+}
+function makeKids(x, spice){
+ const hot = spice === 'hot', k = x.name, [em, nm] = KCAT[x.type] || ['📍', '장소'], cps = shuf(KCP[x.type] || KCP.place).slice(0, 4);
+ const eul = josa(k, '을', '를'), H = hot ? ['🔥', '📍', '👍', '🤔', '💡', '✅'] : ['■', '■', '■', '■', '■', '■'];
+ let titles, body, facts, fill = false;
+ const hello = pick(['안녕하세요! 주말마다 아이랑 어디 갈지 고민하는 키즈 나들이 블로거예요 😊', '초등 아이 키우는 엄마 아빠라면 공감하실 고민, ‘이번 주말엔 어디 가지?’ 🤔', '아이랑 갈 곳 찾는 부모님들 반가워요! 오늘도 알찬 정보 들고 왔어요 🎈']);
+ const end = [`여러분은 아이랑 어디 다녀오셨어요? 댓글로 추천 장소 공유해 주세요 👇`, '', '※ 운영 시간·요금·예약 방법은 바뀔 수 있으니 방문 전 공식 안내를 확인해 주세요.'];
+ if (x.kk === 'review') {
+  const g = lines(x.good), b = lines(x.bad), t = lines(x.tip), star = '⭐'.repeat(x.star || 5);
+  facts = [`📍 ${x.region || '지역 미입력'}`, `👧 ${x.age} 아이와 방문`, `${star} (${x.star || 5}/5)`];
+  titles = hot ? [`${x.region ? x.region + ' ' : ''}${k} 솔직 후기 | ${x.age} 아이가 또 가자고 조른 곳`, `아이랑 ${k} 다녀왔어요, 이건 알고 가세요! (${x.region || nm} ${nm})`, `${k} 내돈내산 후기 ${star} | 장단점·꿀팁 총정리`]
+   : [`${x.region ? x.region + ' ' : ''}${nm} ${k} 후기 | ${x.age} 아이와 다녀왔어요`, `아이랑 ${k} 방문 후기 (장점·아쉬운 점·꿀팁)`, `${k} 아이와 가기 좋은지 솔직하게 정리했어요`];
+  body = [hello, `오늘은 ${x.age} 아이와 직접 다녀온 ${x.region ? x.region + ' ' : ''}‘${k}’ 후기를 남겨 볼게요.`, '', '[📷 내 사진 1 · 외관/입구]', '',
+   `${H[1]} 기본 정보`, `· 장소: ${k}`, x.region ? `· 지역: ${x.region}` : '', `· 함께 간 아이: ${x.age}`, `· 제 별점: ${star}`, '',
+   `${H[2]} 좋았던 점`, ...(g.length ? g.map((s, i) => `${i + 1}. ${s}`) : ['✏️ (좋았던 점을 적어 주세요)']), '', '[📷 내 사진 2 · 아이가 좋아한 곳/메뉴]', '',
+   b.length ? `${H[3]} 아쉬운 점` : '', ...b.map(s => `· ${s}`), b.length ? '' : '',
+   `${H[4]} 다녀와 보니 꿀팁`, ...(t.length ? t.map(s => `☑ ${s}`) : cps.map(s => `☑ ${s}`)), '', '[📷 내 사진 3 · 내부/메뉴판/주차]', '',
+   `${H[5]} 이런 가족께 추천해요`, `· ${x.age} 아이와 ${pick(['반나절 알차게 보내고 싶은 분', '주말 나들이 장소 찾는 분', '비 오는 날 갈 곳 찾는 분'])}`, `· ${KOP[x.type] || ''}`, '',
+   `한 줄 정리 👉 ${g[0] ? g[0] + '! ' : ''}${(x.star || 5) >= 4 ? '재방문 의사 있어요 💛' : '참고해서 계획 세워 보세요!'}`, '', ...end].filter((s, i, a) => !(s === '' && a[i - 1] === '')).join('\n').trim();
+ } else if (x.kk === 'fest') {
+  facts = [`📅 ${x.period}${x.status ? ' · ' + x.status : ''}`, `📍 ${x.addr || x.region}`, x.tel ? `☎ ${x.tel}` : '👧 아이와 가기 좋은 행사'];
+  titles = hot ? [`이번 주 아이랑 ‘${k}’ 꼭 가보세요! 기간·장소·꿀팁 총정리`, `${x.region} 아이랑 가볼만한곳 | ${k} 놓치면 1년 기다려요`, `주말 뭐 하지? ${k} 아이랑 가기 전 필독 정리`]
+   : [`${k} 기간·장소·아이랑 가기 팁 정리 (${x.period})`, `${x.region} 가족 나들이 | ${k} 한눈에 정리`, `아이와 함께 ${k} 가기 전에 알아 둘 것`];
+  body = [hello, `${x.region}에서 ${x.status === '진행 중' ? '지금 열리고 있는' : '곧 열리는'} ‘${k}’ 정보를 정리했어요. 아이랑 주말 계획 세우실 때 참고해 보세요!`, '', '[📷 사진 1]', '',
+   `${H[1]} 기본 정보`, `· 행사명: ${k}`, `· 기간: ${x.period}`, `· 장소: ${x.addr || x.region}`, x.tel ? `· 문의: ${x.tel}` : '', `· 지도: ${x.map}`, '',
+   `${H[2]} 아이랑 가면 좋은 이유`, `✏️ (공식 안내에서 확인한 프로그램·체험을 적어 주세요)`, '', '[📷 사진 2]', '',
+   `${H[4]} 아이랑 갈 때 팁`, `👉 ${x.tip}`, ...cps.map(s => `☑ ${s}`), '', '[📷 사진 3]', '',
+   `${H[5]} 한 줄 정리`, `아이에게 특별한 하루가 될 ‘${k}’, 기간 안에 꼭 들러 보세요 💛`, '', ...end].filter(s => s !== null).join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  fill = true;
+ } else {
+  facts = [`${em} ${nm}`, `📰 ${x.source || '언론 보도'}`, x.period ? `📅 ${x.period}` : (x.region ? `📍 ${x.region}` : '🔎 원문에서 자세히 확인')];
+  const short = k.length > 26 ? k.slice(0, 26) + '…' : k;
+  titles = hot ? [`엄마들 사이 벌써 화제! ${short}`, `아이랑 가볼 곳 생겼어요 | ${short}`, `${x.region ? x.region + ' ' : ''}부모님들 주목! ${short} 정리`]
+   : [`[키즈 소식] ${short}`, `${x.region ? x.region + ' ' : ''}아이랑 가볼 만한 소식 | ${short}`, `${nm} 소식 정리 | ${short}`];
+  body = [hello, `오늘은 아이 키우는 집이라면 눈여겨볼 ${nm} 소식을 가져왔어요.`, '', '[📷 사진 1]', '',
+   `${H[0]} 어떤 소식?`, `‘${k}’${x.source ? ` (${x.source})` : ''}`, `👉 기사 원문: ${x.url}`, '', '✏️ (기사에서 확인한 일정·장소·대상·요금을 2~3줄로 적어 주세요)', '', '[📷 사진 2]', '',
+   `${H[1]} 엄마 아빠 체크 포인트`, ...cps.map((s, i) => `${i + 1}. ${s}`), '', `${H[3]} 제 생각`, KOP[x.type] || KOP.place, '', '[📷 사진 3]', '', ...end].join('\n').trim();
+  fill = true;
+ }
+ const tags = kidsTags(x), ttl = shuf(titles);
+ const first = hot ? pick([`📌 저장 필수! ${k}`, `👧 아이랑 여기 어때요? ${k}`, `🎈 이번 주말 고민 끝! ${k}`]) : `${em} ${k}`;
+ const threads = [first + ' 🧵', facts.join('\n'), `✅ 가기 전 체크\n${cps.map(c => '- ' + c).join('\n')}`, `여러분은 아이랑 어디 다녀오셨어요?\n추천 장소 댓글로 알려 주세요 👇`];
+ if (x.kk === 'review') threads.splice(2, 0, `👍 좋았던 점\n${lines(x.good).slice(0, 4).map(s => '- ' + s).join('\n') || '- 아이가 정말 좋아했어요'}`);
+ const caption = [first, '', ...facts, '', '✅ 가기 전 체크', ...cps.map(c => '• ' + c), '', '도움 됐다면 저장해 두고, 아이 친구 엄마에게 공유해 주세요 🙌'].join('\n');
+ return {title: ttl[0], titles: ttl, body, tags, threads, caption, hashtags: tags, cps, facts, fill, hot};
+}
+const KPAL = [['#ff7a45', '#fff4e6', '#3b1d4a'], ['#12b886', '#e6fcf5', '#0b3a3a'], ['#7950f2', '#f3f0ff', '#2b1b55'], ['#f06595', '#fff0f6', '#4a1530'], ['#228be6', '#e7f5ff', '#0b2a4a']];
+async function drawKidsCards(x, d){
+ const [ac, lt, dk] = pick(KPAL), W = 1080, H = 1350, out = [], k = x.name;
+ const mk = () => { const c = document.createElement('canvas'); c.width = W; c.height = H; return c; };
+ const rr = (g, a, b, w, h, r) => { g.beginPath(); g.roundRect ? g.roundRect(a, b, w, h, r) : g.rect(a, b, w, h); g.fill(); };
+ const foot = (g, n, col) => { g.font = `700 30px ${GF}`; g.fillStyle = col; g.textAlign = 'left'; g.fillText('#' + (d.tags[0] || '아이랑'), 80, H - 70); g.textAlign = 'right'; g.fillText(n + ' / 3', W - 80, H - 70); g.textAlign = 'left'; };
+ const [em, nm] = KCAT[x.type] || ['📍', '장소'];
+ // 1 표지
+ let c = mk(), g = c.getContext('2d'), gr = g.createLinearGradient(0, 0, W, H); gr.addColorStop(0, lt); gr.addColorStop(1, '#ffffff'); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+ g.globalAlpha = .25; g.fillStyle = ac; g.beginPath(); g.arc(W - 120, 200, 300, 0, 7); g.fill(); g.beginPath(); g.arc(60, H - 120, 220, 0, 7); g.fill(); g.globalAlpha = 1;
+ g.font = `140px ${GF}`; g.fillText(em, W - 300, 290);
+ g.fillStyle = ac; rr(g, 80, 130, 420, 76, 38); g.fillStyle = '#fff'; g.font = `800 36px ${GF}`;
+ g.fillText(x.kk === 'review' ? `${em} 아이랑 다녀왔어요` : x.kk === 'fest' ? '🎪 이번 주 축제' : `${em} 키즈 ${nm} 소식`, 110, 181);
+ g.fillStyle = dk; g.font = `900 ${k.length > 14 ? 88 : 112}px ${GF}`; const kl = gwrap(g, k, W - 160).slice(0, 4), lh = k.length > 14 ? 106 : 132;
+ kl.forEach((l, i) => g.fillText(l, 80, 420 + i * lh)); let y = 420 + kl.length * lh + 30;
+ g.font = `800 50px ${GF}`; g.fillStyle = ac; g.fillText(d.hot ? '아이랑 가기 전 필독!' : '아이랑 가기 전 체크', 80, y);
+ y += 70; g.fillStyle = 'rgba(255,255,255,.9)'; rr(g, 80, y, W - 160, 70 + d.facts.length * 62, 28);
+ g.fillStyle = dk; g.font = `700 40px ${GF}`; d.facts.forEach((t, i) => g.fillText(gwrap(g, t, W - 240)[0], 120, y + 80 + i * 62));
+ foot(g, 1, dk); out.push(c);
+ // 2 정보 / 좋았던 점
+ c = mk(); g = c.getContext('2d'); g.fillStyle = '#fff'; g.fillRect(0, 0, W, H); g.fillStyle = ac; g.fillRect(0, 0, W, 250);
+ g.font = `900 76px ${GF}`; g.fillStyle = '#fff'; g.fillText(x.kk === 'review' ? '👍 좋았던 점' : '📌 한눈에 보기', 80, 160);
+ const items = x.kk === 'review' ? (lines(x.good).length ? lines(x.good) : ['아이가 정말 좋아했어요']) : d.facts.map(s => s.replace(/^\S+\s/, ''));
+ y = 360; items.slice(0, 4).forEach((t, i) => { g.fillStyle = ac; g.beginPath(); g.arc(110, y, 18, 0, 7); g.fill(); g.fillStyle = dk; g.font = `800 48px ${GF}`;
+  const L = gwrap(g, t, W - 260).slice(0, 3); L.forEach((l, j) => g.fillText(l, 150, y + 16 + j * 66)); y += L.length * 66 + 70; });
+ foot(g, 2, dk); out.push(c);
+ // 3 체크리스트
+ c = mk(); g = c.getContext('2d'); gr = g.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, ac); gr.addColorStop(1, dk); g.fillStyle = gr; g.fillRect(0, 0, W, H);
+ g.font = `900 80px ${GF}`; g.fillStyle = '#fff'; g.fillText(x.kk === 'review' ? '💡 다녀와 보니 꿀팁' : '✅ 가기 전 체크', 80, 200);
+ const tips = x.kk === 'review' && lines(x.tip).length ? lines(x.tip) : d.cps;
+ y = 300; tips.slice(0, 4).forEach(t => { const bh = 170; g.fillStyle = 'rgba(255,255,255,.95)'; rr(g, 80, y, W - 160, bh, 28);
+  g.strokeStyle = ac; g.lineWidth = 8; g.strokeRect(120, y + 55, 60, 60); g.fillStyle = dk; g.font = `800 42px ${GF}`; const L = gwrap(g, t, W - 360).slice(0, 2); L.forEach((l, j) => g.fillText(l, 220, y + (L.length > 1 ? 72 : 100) + j * 56)); y += bh + 28; });
+ g.font = `800 36px ${GF}`; g.fillStyle = '#fff'; g.fillText('저장해 두고 주말에 꺼내 보세요 🎈', 80, H - 150); foot(g, 3, 'rgba(255,255,255,.8)'); out.push(c);
+ const fn = k.replace(/[\\/:*?"<>|\s]+/g, '_').slice(0, 30);
+ return Promise.all(out.map((cv, i) => new Promise(res => cv.toBlob(b => res(new File([b], `${fn}_${i + 1}.jpg`, {type: 'image/jpeg'})), 'image/jpeg', .92))));
+}
+function kidsOpen(x){ G.mode = 'kids'; G.x = x; G.tab = 'blog'; G.spice = 'mild'; $('#gen').hidden = false; $('#gen').scrollTop = 0; document.body.style.overflow = 'hidden'; genMake(); }
+document.addEventListener('click', async e => {
+ const ks = e.target.closest('[data-kseg]'); if (ks) { S.kseg = ks.dataset.kseg; await ensureView(); render(); scrollTo(0, 0); return; }
+ const kc = e.target.closest('[data-kcat]'); if (kc) { S.kcat = kc.dataset.kcat; render(); return; }
+ const kst = e.target.closest('[data-kstar]'); if (kst) { const r = KR.get(); r.star = +kst.dataset.kstar; KR.set(r); document.querySelectorAll('[data-kstar]').forEach(b => b.classList.toggle('on', +b.dataset.kstar <= r.star)); return; }
+ const kg = e.target.closest('[data-kgen]');
+ if (kg) {
+  const f = S.kids || {}, i = +kg.dataset.i;
+  if (kg.dataset.kgen === 'fest') { const x = (f.festivals || [])[i]; if (x) kidsOpen({...x, kk: 'fest', type: 'festival', name: x.title}); }
+  else { const x = (f.news || [])[i]; if (x) kidsOpen({...x, kk: 'news', type: x.cat, name: x.title}); }
+  return;
+ }
+ if (e.target.closest('[data-krgo]')) {
+  const r = Object.assign({type: 'food', age: '초등 저학년', star: 5}, KR.get());
+  if (!(r.name || '').trim()) { toast('장소 이름을 적어 주세요'); return; }
+  kidsOpen({...r, kk: 'review', name: r.name.trim()});
+ }
+});
+document.addEventListener('input', e => { const k = e.target.dataset && e.target.dataset.kr; if (k) { const r = KR.get(); r[k] = e.target.value; KR.set(r); } });
+document.addEventListener('change', e => { const k = e.target.dataset && e.target.dataset.kr; if (k) { const r = KR.get(); r[k] = e.target.value; KR.set(r); } });
 </script>
 </body>
 </html>

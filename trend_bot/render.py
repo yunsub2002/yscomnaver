@@ -23,6 +23,8 @@ PALETTES = {
     "culture":   {"a": "#7048e8", "b": "#1f1446", "c": "#ece5ff", "acc": "#9775fa", "emo": ["🎬", "🎵", "📖", "🎧"]},
     "life":      {"a": "#2f9e44", "b": "#0f2e17", "c": "#e0f7e4", "acc": "#51cf66", "emo": ["🏠", "🧺", "🌿", "🧹"]},
     "hot":       {"a": "#ff2d3d", "b": "#2a0a12", "c": "#ffe3e6", "acc": "#ff6b76", "emo": ["🔥", "📈", "⚡", "👀"]},
+    "kids":      {"a": "#ff7a45", "b": "#3b1d4a", "c": "#fff4e6", "acc": "#ffd43b", "emo": ["🎈", "🧸", "🎪", "🌈"]},
+    "kids2":     {"a": "#12b886", "b": "#0b3a3a", "c": "#e6fcf5", "acc": "#63e6be", "emo": ["🎒", "🧤", "🧃", "☀️"]},
     "trend":     {"a": "#e03131", "b": "#1b1d2e", "c": "#ffe3e3", "acc": "#ff6b6b", "emo": ["🔥", "📊", "🔎", "⚡"]},
 }
 
@@ -188,7 +190,39 @@ def t_headlines(d, p):
  <div style="font-size:26px;color:#868e96;margin-top:20px">※ 기사 제목은 각 언론사 원문 · 자세한 내용은 원문 확인</div>
 </div>"""
 
-T = {"hot_cover": t_hot_cover, "headlines": t_headlines, "cover": t_cover, "summary": t_summary, "table": t_table, "checklist": t_checklist, "points": t_points,
+def t_kids_cover(d, p):
+    rows = "".join(f"""<div style="display:flex;align-items:center;gap:22px;background:#fff;border-radius:26px;padding:22px 28px;margin-bottom:16px;box-shadow:0 8px 24px rgba(59,29,74,.12)">
+  <div class="emo" style="flex:none;font-size:52px">{e(x.get('emo','🎈'))}</div>
+  <div style="flex:1;min-width:0"><div style="font-size:36px;font-weight:900;color:#2b1b38;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:-.6px">{e(x['t'])}</div>
+  <div style="font-size:25px;font-weight:700;color:#8a7a99;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{e(x.get('s',''))}</div></div></div>""" for x in d.get("items", [])[:5])
+    title = "<br>".join(e(t) for t in d["title"].split("\n"))
+    return f"""<div class="card" style="min-height:1080px;background:linear-gradient(165deg,#ffe8cc 0,#ffd8e4 55%,#e5dbff 100%);padding:70px 64px 110px">
+ <div style="position:absolute;right:-90px;top:-90px;width:420px;height:420px;border-radius:50%;background:#ffd43b;opacity:.55"></div>
+ <div style="position:absolute;left:-120px;bottom:-140px;width:380px;height:380px;border-radius:50%;background:#91a7ff;opacity:.35"></div>
+ <div class="emo" style="position:absolute;right:70px;top:70px;font-size:120px;transform:rotate(10deg)">🎈</div>
+ <div class="emo" style="position:absolute;right:230px;top:190px;font-size:70px;transform:rotate(-12deg)">🧸</div>
+ <span class="pill" style="position:relative;background:{p['a']};color:#fff">{e(d.get('badge',''))}</span>
+ <div style="position:relative;font-size:84px;font-weight:900;line-height:1.18;letter-spacing:-2.5px;color:#2b1b38;margin:34px 0 14px">{title}</div>
+ <div style="position:relative;font-size:32px;font-weight:800;color:#7c4d9e;margin-bottom:40px">📅 {e(d.get('date',''))}</div>
+ <div style="position:relative">{rows}</div>
+ <div class="brand" style="color:#5f3d7a">아이랑 나들이 · 축제 · 키즈카페</div>
+</div>"""
+
+def t_kids_list(d, p):
+    rows = "".join(f"""<div style="display:flex;gap:24px;align-items:center;background:#fff;border-radius:24px;padding:26px 30px;margin-bottom:18px;border:3px solid {p['c']}">
+  <div style="flex:none;width:70px;height:70px;border-radius:50%;background:{p['a']};color:#fff;font-size:36px;font-weight:900;display:flex;align-items:center;justify-content:center">{i}</div>
+  <div style="flex:1;min-width:0"><div style="font-size:35px;font-weight:900;color:#1d2330;line-height:1.3;letter-spacing:-.6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{e(x['t'])}</div>
+  <div style="font-size:26px;font-weight:700;color:#6b7385;margin-top:8px">📅 {e(x.get('p',''))} · 📍 {e(x.get('r',''))}</div></div>
+  {f'<div style="flex:none;font-size:24px;font-weight:900;color:{p["a"]};background:{p["c"]};border-radius:99px;padding:8px 16px">{e(x["st"])}</div>' if x.get('st') else ''}</div>""" for i, x in enumerate(d["items"][:6], 1))
+    return f"""<div class="card" style="background:{p['c']};padding:80px 56px 100px">
+ <div style="font-size:30px;font-weight:800;color:{p['a']};margin-bottom:14px">{e(d.get('kicker',''))}</div>
+ <div style="font-size:60px;font-weight:900;color:#2b1b38;letter-spacing:-1.5px;line-height:1.25;margin-bottom:44px">{e(d['title'])}</div>
+ {rows}
+ <div class="emo" style="position:absolute;right:56px;top:62px;font-size:110px">🎪</div>
+ <div style="font-size:24px;color:#8a8f9c;margin-top:16px">※ 한국관광공사 축제 정보 기준 · 일정은 방문 전 공식 안내 확인</div>
+</div>"""
+
+T = {"kids_cover": t_kids_cover, "kids_list": t_kids_list, "hot_cover": t_hot_cover, "headlines": t_headlines, "cover": t_cover, "summary": t_summary, "table": t_table, "checklist": t_checklist, "points": t_points,
      "tip": t_tip, "trend_cover": t_trend_cover, "trend_dist": t_trend_dist}
 
 # ---------------------------------------------------------------- 찍기

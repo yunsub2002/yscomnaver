@@ -2,17 +2,18 @@ name: 트렌드 순위·블로그·SNS 자동 갱신
 
 on:
   schedule:
-    - cron: '7 * * * *'     # 매시간 7분: 실시간 순위 + 🔥 화제 글 + 인스타·스레드
+    - cron: '7 * * * *'     # 매시간 7분: 실시간 순위 + 🔥 화제 글 + 인스타·스레드 + 👧 키즈 실시간 소식
     - cron: '23 22 * * *'   # 매일 07:23 (한국 시간) 오전 트렌드 글
+    - cron: '43 23 * * *'   # 매일 08:43 (한국 시간) 👧 키즈 나들이 글 (축제·행사·키즈카페·맛집) + 인스타·스레드
     - cron: '23 3 * * *'    # 매일 12:23 (한국 시간) 점심 심층 분석 글 + 인스타 카드뉴스·스레드
     - cron: '23 8 * * *'    # 매일 17:23 (한국 시간) 오후 트렌드 글
   workflow_dispatch:
     inputs:
       mode:
-        description: 'hot = 화제 글(+인스타·스레드) / deep = 심층 글(+인스타·스레드) / post = 트렌드 글 / rank = 순위만'
+        description: 'hot = 화제 글(+인스타·스레드·키즈 소식) / deep = 심층 글(+인스타·스레드) / post = 트렌드 글 / kids = 키즈 나들이 글 / rank = 순위만'
         type: choice
         default: hot
-        options: [hot, deep, post, rank]
+        options: [hot, deep, post, kids, rank]
 
 permissions:
   contents: write
@@ -43,7 +44,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: 순위 · 글 · SNS 콘텐츠 만들기
         env:
-          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '7 * * * *' && 'hot') || (github.event.schedule == '23 3 * * *' && 'deep') || 'post' }}
+          MODE: ${{ github.event.inputs.mode || (github.event.schedule == '7 * * * *' && 'hot') || (github.event.schedule == '23 3 * * *' && 'deep') || (github.event.schedule == '43 23 * * *' && 'kids') || 'post' }}
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+          PIXABAY_KEY: ${{ secrets.PIXABAY_KEY }}
         run: python trend_bot/make_post.py --out .
       - name: 저장소에 올리기 (대시보드 자동 반영 · 모든 기록 축적)
         run: |
