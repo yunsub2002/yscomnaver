@@ -1,72 +1,123 @@
 {
- "updated": "2026-11-15T11:02:00+09:00",
- "prev_updated": "2026-11-15T09:59:00+09:00",
+ "updated": "2026-11-15T11:50:00+09:00",
+ "prev_updated": "2026-11-15T11:02:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "신인감독 김연경",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "keyword": "골프",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "김연경 따끔한 지적에 윤영인 왈칵 눈물…반전 주인공 될까 (신인감독 김연경2)",
-     "url": "https://m.imbc.com/enews/view/524823",
-     "source": "MBC"
+     "title": "인천 영종구의회, 제1회 구청장배 골프대회 참석",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752215",
+     "source": "국제뉴스"
     },
     {
-     "title": "필승 원더독스vs포항시체육회, 불꽃튀는 맞대결 현장 최초 공개(‘신인감독2’)",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/15/MRSTCM3EME4DKNBYMFQTMNLFMM/",
-     "source": "조선일보"
+     "title": "인천 영종구의회, 제1회 영종구청장배 골프대회 참석",
+     "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=803626",
+     "source": "일간투데이"
     },
     {
-     "title": "‘신인감독 김연경2’ 윤영인, 김연경 매서운 일대일 특훈에 끝내 눈물..“달라져야겠다”",
-     "url": "https://www.koreadaily.com/article/20261113224101268",
-     "source": "미주중앙일보"
+     "title": "성남시의회, 제23회 성남시장배 족구대회 참석",
+     "url": "https://www.ggpyeonghwa.com/626491",
+     "source": "경기평화신문"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "아시아 프로 야구 챔피언십",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "down",
-   "delta": -1,
+   "keyword": "항공모함",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "침묵하던 김도영이 ‘쾅’... 대만 꺾고 日과 우승 다툰다",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/14/MTLH675YURA6XD3ICXSKJ2KTWQ/",
-     "source": "조선일보"
+     "title": "한국 해군, F-35B 항모 접고 무인기 20대 탑재 270m 대형 모함 택했다",
+     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611150721222083fbbec65dfb_1",
+     "source": "글로벌이코노믹"
     },
     {
-     "title": "한국 야구, 대만 꺾고 APBC 결승 진출…15일 일본과 재격돌",
-     "url": "https://www.yna.co.kr/view/AKR20261114031700007",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "KIA 19홈런 재간둥이, 도쿄돔마저 넘겼다…결승전도 기대하시라 \"오늘보다 더 할 수도 있다\" [오!쎈 도쿄] - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/15/202611150842771600O",
-     "source": "머니투데이"
+     "title": "증기식 캐터펄트 전환 검토에 USS 도리스 밀러 인도 지연 우려",
+     "url": "https://meta-defense.fr/ko/2026/11/14/doris-miller-refonte-catapulte-vapeur/",
+     "source": "Meta-Defense"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
+   "keyword": "카리나",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "BTS 3관왕·에스파 2관왕…'MMA2026' 첫날 나란히 대상",
+     "url": "https://www.yna.co.kr/view/AKR20261114049700005",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "MMA2026 참석한 에스파",
+     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261114_0021532630&provider_id=&cID=&type=Main&catg=&idx=5",
+     "source": "뉴시스"
+    },
+    {
+     "title": "빅히트 뮤직 김현정 부대표, ‘MMA2026’ 베스트 프로듀서 수상 “방탄소년단에 감사”",
+     "url": "https://www.chosun.com/entertainments/music/2026/11/15/MEYWMNBRMM2TAMRVMMYTINDFMY/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "세무냥이 자수",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[속보] 'AI 안경 의혹' 세무사 수석합격자 \"전자기기·생성형 AI로 부정행위 했다\"",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6865737_36918.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "세무사 시험 수석 합격자, 경찰에 ‘AI 부정행위’ 자수…“초소형 카메라 이용했다”",
+     "url": "https://www.khan.co.kr/article/202611151034001",
+     "source": "경향신문"
+    },
+    {
+     "title": "세무사 수석 충격 자백…\"초소형 카메라로 찍어 AI로 전송\"",
+     "url": "https://www.hankyung.com/article/202611156922i",
+     "source": "한국경제"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
    "keyword": "로스앤젤레스 fc",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -2,
    "news": [
     {
      "title": "'충격 또 충격' 손흥민, MLS MVP 후보 5인에도 들지 못했다...메시 MVP 3연패 유력",
@@ -74,21 +125,77 @@
      "source": "조선일보"
     },
     {
-     "title": "손흥민, MLS MVP 후보 제외…메시, 최초의 3연속 수상 도전",
-     "url": "https://www.news1.kr/sports/overseas-soccer/6353883",
-     "source": "뉴스1"
-    },
-    {
      "title": "[오피셜] ‘韓 축구 안타까운 소식’ 손흥민 이름은 없었다···MLS 최우수 선수 ‘후보 5인’ 공개, 메시 ‘...",
      "url": "https://sports.khan.co.kr/article/202611140707003",
      "source": "스포츠경향"
+    },
+    {
+     "title": "손흥민, MLS MVP 후보 제외…메시, 최초의 3연속 수상 도전",
+     "url": "https://www.news1.kr/sports/overseas-soccer/6353883",
+     "source": "뉴스1"
     }
    ],
    "safe": false
   },
   {
-   "rank": 4,
+   "rank": 6,
+   "keyword": "임예진",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "15년 전 5천만원 주고 산 제주땅이 고작 82만원…충격 받은 임예진, 무슨 사연",
+     "url": "https://www.mk.co.kr/news/culture/12208840",
+     "source": "매일경제"
+    },
+    {
+     "title": "임예진, 5000만원 주고 산 제주 땅 15년 만에 확인…“지분 가치 약 82만원”",
+     "url": "https://www.donga.com/news/Culture/article/all/20261113/135021854/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "임예진, 기획부동산 피해자였다 \"5천만원 매입 제주땅 주인만 178명\"",
+     "url": "https://www.newsis.com/view/NISX20261113_0003867248",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
    "keyword": "서초구",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -3,
+   "news": [
+    {
+     "title": "서초구, 겨울 앞두고 공중·민간 개방화장실 139곳 점검",
+     "url": "https://www.newsis.com/view/NISX20261115_0003868457",
+     "source": "뉴시스"
+    },
+    {
+     "title": "서초구, 동절기 앞두고 공중화장실 139곳 현장순찰 강화",
+     "url": "https://biz.heraldcorp.com/article/10937269",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "서초구, 겨울 앞두고 공중화장실 139곳 안전관리 집중 점검",
+     "url": "https://view.asiae.co.kr/article/2026111510512290182",
+     "source": "아시아경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "진양곤",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
@@ -97,60 +204,32 @@
    "delta": 0,
    "news": [
     {
-     "title": "서초구, 동절기 앞두고 공중화장실 139곳 현장순찰 강화",
-     "url": "https://biz.heraldcorp.com/article/10937269",
-     "source": "헤럴드경제"
+     "title": "HLB제약, 3분기 영업이익 8억5천만원…전년 대비 급증",
+     "url": "https://www.yna.co.kr/view/AKR20261113027500017",
+     "source": "연합뉴스"
     },
     {
-     "title": "서초구, 공중화장실 139개소 안전·위생 집중점검…여성안심귀갓길도 살핀다",
-     "url": "https://womannews.net/detail.php?number=459328",
-     "source": "여성종합뉴스"
+     "title": "HLB제약, 향남 신공장으로 체급 키운다…‘1조 기업’ 도약 승부수",
+     "url": "https://m.ekn.kr/view.php?key=20261113020358946",
+     "source": "에너지경제신문"
     },
     {
-     "title": "서초구, 공중화장실 139곳 안전·위생 집중점검",
-     "url": "https://www.munhwa.com/article/11631321",
-     "source": "문화일보"
+     "title": "HLB제약, 향남 신공장 기공…외주 의약품 자체 생산 전환 추진",
+     "url": "https://news.mtn.co.kr/video/2026111216160267613",
+     "source": "MTN 머니투데이방송"
     }
    ],
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "세무사 시험",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[속보] 세무사 시험 수석 합격자 \"부정행위 했다\" 실토",
-     "url": "https://www.chosun.com/national/labor/2026/11/15/J2BRRAJ4RFGFHBZU4537ENJX3I/",
-     "source": "조선일보"
-    },
-    {
-     "title": "[속보] 'AI 안경 의혹' 세무사 수석합격자 \"전자기기·생성형 AI로 부정행위 했다\"",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6865737_36918.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "세무사 수석합격자, AI 부정행위 시인…경찰에 자수",
-     "url": "https://www.yna.co.kr/view/AKR20261115016200530",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 6,
+   "rank": 9,
    "keyword": "케일라 해리슨",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -3,
    "news": [
     {
      "title": "'첫 헤비급 방어전' 시릴 간, 호킷과 맞대결 \"마음가짐 늘 똑같아... 반드시 승리할 것\" - 머니투데이",
@@ -168,46 +247,6 @@
      "source": "이데일리"
     }
    ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "주영훈",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "주영훈, 전 연인과 학부모로 재회 \"내 딸과 그 집 아들 짝으로 만나\"",
-     "url": "https://www.newsis.com/view/NISX20261114_0003868195",
-     "source": "뉴시스"
-    },
-    {
-     "title": "주영훈, 윤정수 과거 폭로 \"두 달마다 짝사랑 女연예인 바뀌어\"",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/13/MUYTSYTDGVSTAYJXGQ4DEOJSMY/",
-     "source": "조선일보"
-    },
-    {
-     "title": "주영훈 딸, 전 연인 아들과 짝 돼 \"학부모로 재회..운명의 장난\" ('선정하기')",
-     "url": "https://www.koreadaily.com/article/20261114003206841",
-     "source": "미주중앙일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "주간한국",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [],
    "safe": true
   }
  ]
