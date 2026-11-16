@@ -1,44 +1,16 @@
 {
- "updated": "2026-11-17T04:55:00+09:00",
- "prev_updated": "2026-11-17T03:53:00+09:00",
+ "updated": "2026-11-17T05:51:00+09:00",
+ "prev_updated": "2026-11-17T04:55:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "드라마",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "스푼랩스 ‘비글루’, AI 숏드라마 2차 공모전 연다",
-     "url": "https://zdnet.co.kr/view/?no=20261116165905",
-     "source": "지디넷코리아"
-    },
-    {
-     "title": "\"클링 AI로 만드는 숏드라마\"…비글루, 새 IP 찾는다",
-     "url": "https://www.ddaily.co.kr/page/view/2026111618282434761",
-     "source": "디지털데일리"
-    },
-    {
-     "title": "디딤돌·미래디지털AI협회, 'AI 숏드라마 실전반 1기' 개강… AI 영상 제작 본격 실습",
-     "url": "https://www.youthassembly.kr/news/1037290",
-     "source": "유스연합"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
    "keyword": "로버트 패틴슨",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "로버트 패틴슨, 7대 제임스 본드 된다…'007시리즈' 주인공 낙점",
@@ -59,52 +31,52 @@
    "safe": true
   },
   {
-   "rank": 3,
-   "keyword": "김주혁",
+   "rank": 2,
+   "keyword": "독일 대 네덜란드",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“오빠 생각이 나서” 문근영, 故 김주혁과의 추억이 담긴 노래에 뭉클한 마음",
-     "url": "https://programs.sbs.co.kr/enter/theballad2/clip/89099/OC483613514",
-     "source": "programs.sbs.co.kr"
+     "title": "오렌지군단 7골 폭발…전차군단도 화력쇼",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261115105804QnZ",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "우리들의 발라드 2 : 임바다×허채민, 짙은 호소력으로 탑백귀에게 감동 선사한 무대",
-     "url": "https://programs.sbs.co.kr/enter/theballad2/clip/89099/OC483614081",
-     "source": "programs.sbs.co.kr"
+     "title": "클롭의 독일, 세르비아 3-1 제압…사비의 네덜란드는 7-0 대승",
+     "url": "https://www.yna.co.kr/view/AKR20261114016200007",
+     "source": "연합뉴스"
     },
     {
-     "title": "변우석, ‘절친’ 주우재 밀어내려 했나 “탑백귀 자리에 앉고 싶다고”(우발라2)",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/16/HBSDGYTBMNTDMOJYMIYDEMZYGA/",
-     "source": "Chosunbiz"
+     "title": "네덜란드, 그리스 7대0 대파… 네이션스리그 8강 진출 청신호",
+     "url": "https://www.chosun.com/sports/world-football/2026/11/14/3J7CZZTQLJDITCXIZ6SKUIBKAU/",
+     "source": "조선일보"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 4,
+   "rank": 3,
    "keyword": "임예진",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
-    {
-     "title": "임예진, 5천만원에 산 제주 땅 “현재 지분 가치 82만원”",
-     "url": "https://m.seoul.co.kr/news/2026/11/15/20261115500058",
-     "source": "서울신문"
-    },
     {
      "title": "\"5000만원 주고 샀는데 82만원 됐다\"…배우 임예진, 15년 전 산 제주 땅, 무슨 일",
      "url": "https://www.fnnews.com/news/202611150830151414",
      "source": "파이낸셜뉴스"
+    },
+    {
+     "title": "임예진, 5천만원에 산 제주 땅 “현재 지분 가치 82만원”",
+     "url": "https://m.seoul.co.kr/news/2026/11/15/20261115500058",
+     "source": "서울신문"
     },
     {
      "title": "\"기획부동산에 속아\"…임예진, 5000만원에 산 제주 땅 15년 만에 '80만원'",
@@ -115,7 +87,7 @@
    "safe": true
   },
   {
-   "rank": 5,
+   "rank": 4,
    "keyword": "경비원",
    "traffic": "200+",
    "label": "약 200회 이상",
@@ -143,14 +115,14 @@
    "safe": false
   },
   {
-   "rank": 6,
+   "rank": 5,
    "keyword": "추미애",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "down",
-   "delta": -1,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
@@ -171,14 +143,70 @@
    "safe": true
   },
   {
+   "rank": 6,
+   "keyword": "장항준",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "장항준, '왕사남' 흥행 수익 26억 스태프들과 나눴다",
+     "url": "https://www.ytn.co.kr/_ln/0117_202611161700574516",
+     "source": "YTN"
+    },
+    {
+     "title": "“계약에도 없던 돈”…장항준, ‘왕사남’ 배우·스태프에 26억 쐈다",
+     "url": "https://www.joongang.co.kr/article/25479103",
+     "source": "중앙일보"
+    },
+    {
+     "title": "유해진·박지훈 제외..'왕사남' 장항준, 흥행 인센티브 26억 스태프에 줬다 '미담 화제' [Oh!쎈 이슈]",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/16/MQ2TCOBQG43TKMJTG5SGEMDEME/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 7,
+   "keyword": "차장",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "오현주 코이카 이사장 취임 \"사업수행 넘어 개발협력 미래 기획\"",
+     "url": "https://www.yna.co.kr/view/AKR20261116077200371",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "“국제 개발원조도 미래 기획으로 가야”",
+     "url": "https://www.dt.co.kr/article/12095534",
+     "source": "www.dt.co.kr"
+    },
+    {
+     "title": "오현주 신임 코이카 이사장 \"통합의 코이카로 재도약…상생 개발협력 실현\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003869630",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
    "keyword": "다시보기",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "[다시보기] 11월 16일 (월) 오후 사이언스 투데이",
@@ -189,14 +217,14 @@
    "safe": true
   },
   {
-   "rank": 8,
+   "rank": 9,
    "keyword": "최우제",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
