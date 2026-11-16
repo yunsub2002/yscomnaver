@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T01:42:00+09:00",
+"updated": "2026-11-17T03:00:00+09:00",
 "has_tour": false,
 "has_naver": false,
 "trends": [
@@ -8,7 +8,7 @@
 "kind": "trend",
 "name": "구슬 튕기기",
 "count": 1,
-"score": 11.55,
+"score": 11.5,
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "arts": [
@@ -26,7 +26,7 @@
 "kind": "trend",
 "name": "초등생은",
 "count": 1,
-"score": 11.53,
+"score": 11.48,
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "arts": [
@@ -44,7 +44,7 @@
 "kind": "trend",
 "name": "빼난지원금",
 "count": 2,
-"score": 10.61,
+"score": 10.56,
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "arts": [
@@ -122,13 +122,13 @@
 "key": "place",
 "name": "가볼만한곳",
 "emo": "🗺️",
-"count": 8
+"count": 7
 },
 {
 "key": "kidscafe",
 "name": "키즈카페",
 "emo": "🧸",
-"count": 12
+"count": 11
 },
 {
 "key": "food",
@@ -267,6 +267,35 @@
 "new": false
 },
 {
+"id": "ef919f975a5",
+"title": "2026 고성문화가족축제",
+"period": "기사에서 확인",
+"addr": "",
+"region": "",
+"city": "",
+"img": "",
+"tel": "",
+"kid": 2,
+"count": 1,
+"status": "기사 1건",
+"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
+"map": "https://map.naver.com/p/search/2026%20%EA%B3%A0%EC%84%B1%EB%AC%B8%ED%99%94%EA%B0%80%EC%A1%B1%EC%B6%95%EC%A0%9C",
+"url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZUjV0bkUzeHVOSjBYenFYZFliWTNZeG45SHhDWUd0d0NCTE1Ha0RTZDZBdFVyamo4N0Z6RkV1V2tzcnhDWHdr?oc=5",
+"source": "코리아투데이뉴스",
+"src_title": "2026 고성문화가족축제, 11월 19일 개최",
+"pub": "2026-11-14T10:47:48+09:00",
+"from": "news",
+"arts": [
+{
+"title": "2026 고성문화가족축제, 11월 19일 개최",
+"url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9ZUjV0bkUzeHVOSjBYenFYZFliWTNZeG45SHhDWUd0d0NCTE1Ha0RTZDZBdFVyamo4N0Z6RkV1V2tzcnhDWHdr?oc=5",
+"source": "코리아투데이뉴스",
+"pub": "2026-11-14T10:47:48+09:00"
+}
+],
+"new": false
+},
+{
 "id": "e6e9a94adf1",
 "title": "안전체험 한마당",
 "period": "기사에서 확인",
@@ -291,35 +320,6 @@
 "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BZnNwVTNUcTNTeFJaaThXaFEtdDJHWUtWYmlwNll6bkpkWHBubU4yWG9DdXdlM09EWXZ1UHpLSXV2ZEJKVlkwYXlqR2ZpVTN6YU16ZVZvQVZJSFhYQmdJSzRNWDQ0SGVkbTVUZ3YzYw?oc=5",
 "source": "진일보 | 전남일보",
 "pub": "2026-11-15T11:58:58+09:00"
-}
-],
-"new": false
-},
-{
-"id": "ef919f975a5",
-"title": "2026 고성문화가족축제",
-"period": "기사에서 확인",
-"addr": "",
-"region": "",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 2,
-"count": 1,
-"status": "기사 1건",
-"tip": "공연 시간표를 미리 확인하고 10~20분 일찍 도착하면 앞자리 잡기 좋아요.",
-"map": "https://map.naver.com/p/search/2026%20%EA%B3%A0%EC%84%B1%EB%AC%B8%ED%99%94%EA%B0%80%EC%A1%B1%EC%B6%95%EC%A0%9C",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YdjFxc2tZQXR3TDF2eWZPRV9ZMDUtZWw5RWRVakNDX1VoazRCZkZOaFRqTU5HVGZlZ183NV9zTjJxVlBqX0tnWjZmZlk0UDFNR0JFU2lnSUtCWm9oQW8wcW9NTVpWcUplQ2ZmM29ZYmw?oc=5",
-"source": "신아일보",
-"src_title": "고성문화원, 19일 '2026 고성문화가족축제' 개최…수강생 작품·공연 선보여",
-"pub": "2026-11-16T12:28:17+09:00",
-"from": "news",
-"arts": [
-{
-"title": "고성문화원, 19일 '2026 고성문화가족축제' 개최…수강생 작품·공연 선보여",
-"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YdjFxc2tZQXR3TDF2eWZPRV9ZMDUtZWw5RWRVakNDX1VoazRCZkZOaFRqTU5HVGZlZ183NV9zTjJxVlBqX0tnWjZmZlk0UDFNR0JFU2lnSUtCWm9oQW8wcW9NTVpWcUplQ2ZmM29ZYmw?oc=5",
-"source": "신아일보",
-"pub": "2026-11-16T12:28:17+09:00"
 }
 ],
 "new": false
@@ -537,7 +537,7 @@
 "pub": "2026-11-16T23:17:36+09:00",
 "region": "",
 "period": "",
-"score": 4.9,
+"score": 4.85,
 "id": "n4aee362fee",
 "new": false
 },
@@ -549,7 +549,7 @@
 "pub": "2026-11-16T20:24:00+09:00",
 "region": "",
 "period": "",
-"score": 1.78,
+"score": 1.73,
 "id": "n1d730b51fe",
 "new": false
 },
@@ -561,7 +561,7 @@
 "pub": "2026-11-16T19:12:00+09:00",
 "region": "",
 "period": "",
-"score": 8.73,
+"score": 8.68,
 "id": "nadbd33d75a",
 "new": false
 },
@@ -573,7 +573,7 @@
 "pub": "2026-11-16T19:11:50+09:00",
 "region": "인천",
 "period": "",
-"score": 8.73,
+"score": 8.67,
 "id": "n3075ad96d8",
 "new": false
 },
@@ -585,21 +585,9 @@
 "pub": "2026-11-16T18:56:27+09:00",
 "region": "거제",
 "period": "",
-"score": 6.72,
+"score": 6.66,
 "id": "nf6b904e74f",
 "new": false
-},
-{
-"cat": "festival",
-"title": "남원시 어린이청소년도서관, 11월 10일부터 송년 문화행사 개최!",
-"source": "국제뉴스",
-"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ndzlYcVlTUjRmLUVjeXF1ZUhMaFlFUDR2NFpDQTNkaXNzTG5mZzVhX2hBNGVtbDk0V0JfaC1tYXJHeVQxSDR4MnJScmFRVEZQNG1EWGRjVVBHRVZjcDFzalhRTWx2Tkp3eEpTejNR?oc=5",
-"pub": "2026-11-16T17:35:38+09:00",
-"region": "",
-"period": "",
-"score": 4.66,
-"id": "n2e3aae3190",
-"new": true
 },
 {
 "cat": "show",
@@ -609,7 +597,7 @@
 "pub": "2026-11-16T17:25:39+09:00",
 "region": "인천",
 "period": "21~22일",
-"score": 8.66,
+"score": 8.6,
 "id": "nacc06b3f9a",
 "new": false
 },
@@ -621,7 +609,7 @@
 "pub": "2026-11-16T17:09:15+09:00",
 "region": "",
 "period": "",
-"score": 1.64,
+"score": 1.59,
 "id": "n36eb54a71d",
 "new": false
 },
@@ -633,7 +621,7 @@
 "pub": "2026-11-16T16:59:57+09:00",
 "region": "대구",
 "period": "",
-"score": 6.64,
+"score": 6.58,
 "id": "n27384a5f8e",
 "new": false
 },
@@ -645,7 +633,7 @@
 "pub": "2026-11-16T16:58:00+09:00",
 "region": "공주",
 "period": "",
-"score": 8.64,
+"score": 8.58,
 "id": "n937aa11f3e",
 "new": false
 },
@@ -657,7 +645,7 @@
 "pub": "2026-11-16T16:48:38+09:00",
 "region": "제주",
 "period": "",
-"score": 3.63,
+"score": 3.58,
 "id": "n0118900dfd",
 "new": false
 },
@@ -669,7 +657,7 @@
 "pub": "2026-11-16T16:35:12+09:00",
 "region": "부산",
 "period": "",
-"score": 6.62,
+"score": 6.57,
 "id": "n16e60647a7",
 "new": false
 },
@@ -681,7 +669,7 @@
 "pub": "2026-11-16T16:25:26+09:00",
 "region": "",
 "period": "",
-"score": 6.61,
+"score": 6.56,
 "id": "nbae25e2a40",
 "new": false
 },
@@ -693,7 +681,7 @@
 "pub": "2026-11-16T16:17:28+09:00",
 "region": "부산",
 "period": "",
-"score": 3.61,
+"score": 3.55,
 "id": "n4b6b27b2c8",
 "new": false
 },
@@ -705,7 +693,7 @@
 "pub": "2026-11-16T15:15:16+09:00",
 "region": "충주",
 "period": "",
-"score": 5.56,
+"score": 5.51,
 "id": "n2b5ebf6067",
 "new": false
 },
@@ -717,7 +705,7 @@
 "pub": "2026-11-16T15:12:08+09:00",
 "region": "거제",
 "period": "",
-"score": 10.56,
+"score": 10.51,
 "id": "nb91f1d413d",
 "new": false
 },
@@ -729,7 +717,7 @@
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "period": "",
-"score": 1.55,
+"score": 1.5,
 "id": "nfa6357a9dc",
 "new": false
 },
@@ -741,7 +729,7 @@
 "pub": "2026-11-16T14:55:03+09:00",
 "region": "충남",
 "period": "",
-"score": 12.55,
+"score": 12.5,
 "id": "nfdf5e67301",
 "new": false
 },
@@ -753,7 +741,7 @@
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "period": "",
-"score": 1.53,
+"score": 1.48,
 "id": "n68b322a206",
 "new": false
 },
@@ -765,7 +753,7 @@
 "pub": "2026-11-16T14:23:19+09:00",
 "region": "인천",
 "period": "",
-"score": 8.53,
+"score": 8.47,
 "id": "nab9d31060c",
 "new": false
 },
@@ -777,9 +765,9 @@
 "pub": "2026-11-16T12:11:00+09:00",
 "region": "진주",
 "period": "",
-"score": 6.44,
+"score": 6.38,
 "id": "ne7d8ecc59d",
-"new": true
+"new": false
 },
 {
 "cat": "festival",
@@ -789,7 +777,7 @@
 "pub": "2026-11-16T12:00:37+09:00",
 "region": "인천",
 "period": "",
-"score": 8.43,
+"score": 8.38,
 "id": "n2d2d68737c",
 "new": false
 },
@@ -801,7 +789,7 @@
 "pub": "2026-11-16T11:17:57+09:00",
 "region": "",
 "period": "",
-"score": 8.4,
+"score": 8.35,
 "id": "n17b3fde429",
 "new": false
 },
@@ -813,7 +801,7 @@
 "pub": "2026-11-16T11:13:23+09:00",
 "region": "",
 "period": "",
-"score": 6.4,
+"score": 6.34,
 "id": "n1e1f3c5a98",
 "new": false
 },
@@ -825,7 +813,7 @@
 "pub": "2026-11-16T10:21:24+09:00",
 "region": "진주",
 "period": "",
-"score": 3.36,
+"score": 3.31,
 "id": "nef3d0ad766",
 "new": false
 },
@@ -837,7 +825,7 @@
 "pub": "2026-11-16T09:54:44+09:00",
 "region": "",
 "period": "",
-"score": 6.34,
+"score": 6.29,
 "id": "n4dc9f28a2d",
 "new": false
 },
@@ -849,7 +837,7 @@
 "pub": "2026-11-16T09:29:37+09:00",
 "region": "부산",
 "period": "~22일",
-"score": 8.32,
+"score": 8.27,
 "id": "ncfebafd95b",
 "new": false
 },
@@ -861,7 +849,7 @@
 "pub": "2026-11-16T09:01:31+09:00",
 "region": "아산",
 "period": "",
-"score": 8.31,
+"score": 8.25,
 "id": "n9605de5126",
 "new": false
 },
@@ -873,7 +861,7 @@
 "pub": "2026-11-16T08:07:40+09:00",
 "region": "경북",
 "period": "",
-"score": 8.27,
+"score": 8.21,
 "id": "nbcfc5c8b66",
 "new": false
 },
@@ -885,7 +873,7 @@
 "pub": "2026-11-16T00:07:00+09:00",
 "region": "충남",
 "period": "",
-"score": 5.93,
+"score": 5.88,
 "id": "nc1a74d2f14",
 "new": false
 },
@@ -897,7 +885,7 @@
 "pub": "2026-11-15T21:40:45+09:00",
 "region": "평창",
 "period": "",
-"score": 2.83,
+"score": 2.78,
 "id": "n3a01b11d47",
 "new": false
 },
@@ -909,7 +897,7 @@
 "pub": "2026-11-15T17:09:50+09:00",
 "region": "",
 "period": "",
-"score": 3.64,
+"score": 3.59,
 "id": "n68ff41bee0",
 "new": false
 },
@@ -921,7 +909,7 @@
 "pub": "2026-11-15T15:20:13+09:00",
 "region": "대전",
 "period": "",
-"score": 5.57,
+"score": 5.51,
 "id": "n2f183114e5",
 "new": false
 },
@@ -933,7 +921,7 @@
 "pub": "2026-11-15T11:58:58+09:00",
 "region": "광주",
 "period": "",
-"score": 7.43,
+"score": 7.37,
 "id": "n9b29701be2",
 "new": false
 },
@@ -945,7 +933,7 @@
 "pub": "2026-11-15T10:36:09+09:00",
 "region": "속초",
 "period": "",
-"score": 2.37,
+"score": 2.32,
 "id": "n1b6e1140fa",
 "new": false
 },
@@ -957,7 +945,7 @@
 "pub": "2026-11-15T09:00:00+09:00",
 "region": "김해",
 "period": "",
-"score": 8.3,
+"score": 8.25,
 "id": "n0edc58fdb6",
 "new": false
 },
@@ -969,20 +957,8 @@
 "pub": "2026-11-14T22:33:00+09:00",
 "region": "전남",
 "period": "",
-"score": 1.87,
+"score": 1.81,
 "id": "n979d6f4206",
-"new": false
-},
-{
-"cat": "kidscafe",
-"title": "강서구 ‘서울형키즈카페 시립화곡점’ 전국 우수 인증",
-"source": "시정일보",
-"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZNFMtU1hiVWx1NGpMeWhlZmFhM3g1MEZ4WWU5bnA5Um54c2JlbjM5ZnVoZWJUQ2p6MlNZQmFNVEU5NnRSTVUzd3FZd0FoMnRDUEZrdDZTZW9ELVZhQ2lOMGFWN1VOVEh4QzNF?oc=5",
-"pub": "2026-11-14T15:11:00+09:00",
-"region": "서울",
-"period": "",
-"score": 1.56,
-"id": "nedb707da82",
 "new": false
 },
 {
@@ -993,7 +969,7 @@
 "pub": "2026-11-14T15:00:00+09:00",
 "region": "서울",
 "period": "",
-"score": 3.55,
+"score": 3.5,
 "id": "n9077877da0",
 "new": false
 },
@@ -1005,7 +981,7 @@
 "pub": "2026-11-14T14:49:04+09:00",
 "region": "부산",
 "period": "",
-"score": 3.55,
+"score": 3.49,
 "id": "ned377c4477",
 "new": false
 },
@@ -1017,7 +993,7 @@
 "pub": "2026-11-14T13:47:00+09:00",
 "region": "",
 "period": "",
-"score": 1.5,
+"score": 1.45,
 "id": "ne48208a232",
 "new": false
 },
@@ -1029,7 +1005,7 @@
 "pub": "2026-11-14T08:00:00+09:00",
 "region": "대구",
 "period": "19~20일",
-"score": 6.26,
+"score": 6.21,
 "id": "nd2d40a023b",
 "new": false
 },
@@ -1041,7 +1017,7 @@
 "pub": "2026-11-13T19:29:00+09:00",
 "region": "아산",
 "period": "",
-"score": 7.74,
+"score": 7.69,
 "id": "n465f54eaf3",
 "new": false
 },
@@ -1053,7 +1029,7 @@
 "pub": "2026-11-13T18:47:00+09:00",
 "region": "안동",
 "period": "",
-"score": 5.71,
+"score": 5.66,
 "id": "n19fcf5de9b",
 "new": false
 },
@@ -1065,7 +1041,7 @@
 "pub": "2026-11-13T18:05:00+09:00",
 "region": "전주",
 "period": "",
-"score": 5.68,
+"score": 5.63,
 "id": "nce44e7466f",
 "new": false
 },
@@ -1077,7 +1053,7 @@
 "pub": "2026-11-13T17:16:06+09:00",
 "region": "",
 "period": "",
-"score": -1.35,
+"score": -1.41,
 "id": "n5b0e708cf0",
 "new": false
 },
@@ -1089,7 +1065,7 @@
 "pub": "2026-11-13T14:35:50+09:00",
 "region": "인천",
 "period": "",
-"score": 4.54,
+"score": 4.48,
 "id": "n0e62b4dedd",
 "new": false
 },
@@ -1101,7 +1077,7 @@
 "pub": "2026-11-13T12:33:00+09:00",
 "region": "서울",
 "period": "",
-"score": 5.45,
+"score": 5.4,
 "id": "nf47909deac",
 "new": false
 },
@@ -1113,7 +1089,7 @@
 "pub": "2026-11-13T12:07:00+09:00",
 "region": "",
 "period": "",
-"score": 1.43,
+"score": 1.38,
 "id": "n217da11f55",
 "new": false
 },
@@ -1125,7 +1101,7 @@
 "pub": "2026-11-12T19:17:00+09:00",
 "region": "창원",
 "period": "",
-"score": -0.27,
+"score": -0.32,
 "id": "n070e8ffae1",
 "new": false
 },
@@ -1137,7 +1113,7 @@
 "pub": "2026-11-12T17:57:12+09:00",
 "region": "구미",
 "period": "",
-"score": 2.68,
+"score": 2.62,
 "id": "n543540d47f",
 "new": false
 },
@@ -1149,9 +1125,9 @@
 "pub": "2026-11-12T17:44:32+09:00",
 "region": "인천",
 "period": "",
-"score": 4.67,
+"score": 4.61,
 "id": "n1425b71dca",
-"new": true
+"new": false
 },
 {
 "cat": "show",
@@ -1161,7 +1137,7 @@
 "pub": "2026-11-12T14:29:26+09:00",
 "region": "충주",
 "period": "",
-"score": 1.53,
+"score": 1.48,
 "id": "n126d577a08",
 "new": false
 },
@@ -1173,7 +1149,7 @@
 "pub": "2026-11-12T13:45:52+09:00",
 "region": "서울",
 "period": "",
-"score": -0.5,
+"score": -0.55,
 "id": "n8664a29ece",
 "new": false
 },
@@ -1185,7 +1161,7 @@
 "pub": "2026-11-12T11:22:02+09:00",
 "region": "서울",
 "period": "",
-"score": -0.6,
+"score": -0.65,
 "id": "ncb4871dd76",
 "new": false
 },
@@ -1197,7 +1173,7 @@
 "pub": "2026-11-12T10:00:00+09:00",
 "region": "",
 "period": "",
-"score": -2.65,
+"score": -2.71,
 "id": "n704f92cf5a",
 "new": false
 },
@@ -1209,7 +1185,7 @@
 "pub": "2026-11-12T09:07:26+09:00",
 "region": "경기",
 "period": "",
-"score": 4.31,
+"score": 4.26,
 "id": "ne4095e761f",
 "new": false
 },
@@ -1221,7 +1197,7 @@
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "period": "",
-"score": -3.39,
+"score": -3.44,
 "id": "n93b449af25",
 "new": false
 },
@@ -1233,7 +1209,7 @@
 "pub": "2026-11-11T14:50:05+09:00",
 "region": "서울",
 "period": "",
-"score": 3.55,
+"score": 3.49,
 "id": "n5d6ec9bd1b",
 "new": false
 },
@@ -1245,21 +1221,21 @@
 "pub": "2026-11-11T13:04:23+09:00",
 "region": "",
 "period": "",
-"score": -3.53,
+"score": -3.58,
 "id": "nffb7d5067d",
 "new": false
 },
 {
-"cat": "place",
-"title": "추워도 즐겁다… 아이와 떠나는 서천 겨울여행",
-"source": "중부시사신문",
-"url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fQmhtV042LVJFN1BwSzRHSUZycVhPVkVuOE9YY1Rmc2U4LWl3VUpRMGRUUjh2a2Qxb2lvUWRVUER6VEhtMkkwbjFfZmh0dlJNRmtGSFhzQ3cxTUFZR0M1cEpUdw?oc=5",
-"pub": "2026-11-11T10:10:06+09:00",
-"region": "",
+"cat": "festival",
+"title": "부산시재향군인회, 아동 등 800명 초청 군함승선체험 안보체험 행사",
+"source": "국제신문",
+"url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2NZVlNiZVNvY04xMDduaGI4czFieUVyYVdqUy1KSlgzRGFOUVJ3T1JfN3VCWC1MUThtS1ZIRVJ3aktndHdpUFZ6MTNPejBhd012ck1YNm15MEh3XzJ2YjA3N05FTTVHSXNfVkdDXzdkYmx3SHZOazh4eTVqNW1zdjB2NTF2MEwtMHM5UUFn?oc=5",
+"pub": "2026-11-10T19:27:00+09:00",
+"region": "부산",
 "period": "",
-"score": -3.65,
-"id": "nf82b96c4bd",
-"new": false
+"score": 4.69,
+"id": "n488aaf9c9c",
+"new": true
 },
 {
 "cat": "food",
@@ -1269,7 +1245,7 @@
 "pub": "2026-11-10T17:35:18+09:00",
 "region": "파주",
 "period": "",
-"score": -2.34,
+"score": -2.39,
 "id": "n7b86845fe9",
 "new": false
 },
@@ -1281,9 +1257,21 @@
 "pub": "2026-11-10T11:40:48+09:00",
 "region": "서울",
 "period": "",
-"score": -2.58,
+"score": -2.64,
 "id": "ne25d081f99",
 "new": false
+},
+{
+"cat": "kidscafe",
+"title": "서울시 저출생 대책 확대...키즈카페와 안심 산후조리원,신혼부부 미리내집 추가 공급",
+"source": "BBS불교방송",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IXzRCZllRNUt3Q2JyT3lNZTZBbHRtcHhXVVY0dndpU1VObUVqVzRFTmNKaWNSbmp0Mm41akpnZE1XdUotM0Z3bEFvTFNwMVhrZEdBVmdfVjRVWlpmeVk4UnRwZzQ3bl9FSjRn?oc=5",
+"pub": "2026-11-10T11:03:28+09:00",
+"region": "서울",
+"period": "",
+"score": -2.66,
+"id": "n04dc6be7c6",
+"new": true
 },
 {
 "cat": "place",
@@ -1293,20 +1281,8 @@
 "pub": "2026-11-10T11:02:59+09:00",
 "region": "",
 "period": "",
-"score": 0.39,
+"score": 0.34,
 "id": "n9a51a65858",
-"new": false
-},
-{
-"cat": "kidscafe",
-"title": "서울시 저출생 대책 확장…키즈카페 430곳·미리내집 1.7만호",
-"source": "연합뉴스",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnZXZVMXFhbV9yZWJ4QzYyeGF6QWtHWmpjTGQ4TWdlSmFocVR1Y1REcDMySGZ6T3ZmNGNKRnlWa0dyX3NBVHFQVHRDbUduTG9DNEFIampiV2Q0aUXSAWBBVV95cUxQUTNhcTBkeUM5dkIta1FOR3M3VWxKOUNncDFadGs0RkVSQmNQbmRCUG9ZM3RCTUVuZzVaeXAwUWJkQktmUWpzcTBkVHB1WlJTZmpMaDJ4TjFpNFQ5UnJhamI?oc=5",
-"pub": "2026-11-10T10:30:00+09:00",
-"region": "서울",
-"period": "",
-"score": -2.63,
-"id": "n4f1169254b",
 "new": false
 }
 ]

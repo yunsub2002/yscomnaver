@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T01:42:00+09:00",
- "prev_updated": "2026-11-17T00:05:00+09:00",
+ "updated": "2026-11-17T03:00:00+09:00",
+ "prev_updated": "2026-11-17T01:42:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 1만 회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -37,17 +37,17 @@
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "로버트 패틴슨, 차기 제임스 본드 공식 확정",
-     "url": "https://hypebeast.kr/2026/11/robert-pattinson-officially-next-james-bond-announcement",
-     "source": "Hypebeast.KR"
+     "title": "로버트 패틴슨, 7대 제임스 본드 된다…'007시리즈' 주인공 낙점",
+     "url": "https://www.yna.co.kr/view/AKR20261117002400075",
+     "source": "연합뉴스"
     },
     {
      "title": "로버트 패틴슨, 다니엘 크레이그 이어 차기 제임스 본드로 선정",
-     "url": "https://www.hankookilbo.com/news/article/A2026111700500000146?dtypecode=pancode_world",
+     "url": "https://www.hankookilbo.com/news/article/A2026111700500000146",
      "source": "한국일보"
     },
     {
@@ -65,7 +65,7 @@
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -93,8 +93,8 @@
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "퇴역 앞둔 KTX, 고속 화물열차로 변신하나…코레일 사업화 검토",
@@ -119,15 +119,15 @@
    "keyword": "추미애",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "경기도, 내년 국비 8841억원 추가 확보 추진…부지사 국회에 상주",
-     "url": "https://www.etnews.com/20261116000545",
-     "source": "전자신문"
+     "title": "추미애 “경기도 가용재원 2조원 줄어···정부·국회 세제 개편 응답해달라”",
+     "url": "https://www.khan.co.kr/article/202611161131021",
+     "source": "경향신문"
     },
     {
      "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
@@ -172,69 +172,31 @@
   },
   {
    "rank": 7,
-   "keyword": "사업",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "다시보기",
+   "traffic": "100+",
+   "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
-     "title": "동국생명과학, 수익성 낮은 진단장비 사업 정리…사명 변경",
-     "url": "https://biz.chosun.com/science-chosun/bio/2026/11/16/X5CKQN2M6BGEDN4FIG2RAXIOUY/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "동국생명과학, 'DK 루오닉스'로 사명 변경…사업구조 재편 본격화 - 머니투데이",
-     "url": "https://www.mt.co.kr/thebio/2026/11/16/2026111616470797474",
-     "source": "머니투데이"
-    },
-    {
-     "title": "동국생명과학, 글로벌 성장 기반 강화 및 사업구조 재편",
-     "url": "https://zdnet.co.kr/view/?no=20261116170331",
-     "source": "지디넷코리아"
+     "title": "[다시보기] 11월 16일 (월) 오후 사이언스 투데이",
+     "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611161604549260&s_hcd=0023",
+     "source": "YTN 사이언스"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "다시보기",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[다시보기] 11월 16일 (월) 오후 사이언스 투데이",
-     "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611161604549260&s_hcd=0023",
-     "source": "YTN 사이언스"
-    },
-    {
-     "title": "[이시각헤드라인] 11월 16일 뉴스현장",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116132324DuC",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "[여담야담] 초유의 'AI 커닝' 시인…사흘 남은 수능 어쩌나?",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008847977",
-     "source": "SBS 뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
    "keyword": "최우제",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
