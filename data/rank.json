@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-16T17:45:00+09:00",
- "prev_updated": "2026-11-16T15:06:00+09:00",
+ "updated": "2026-11-16T19:20:00+09:00",
+ "prev_updated": "2026-11-16T17:45:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "신랑",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -23,50 +23,22 @@
      "source": "위키트리"
     },
     {
-     "title": "하정우, 결혼 한 달 앞두고 확 달라졌다…“살 많이 빠졌네”",
-     "url": "https://www.segye.com/newsView/20261109502145",
-     "source": "세계일보"
+     "title": "걸그룹·야구선수 부부 탄생…배드키즈 연지, 강동연과 12월 결혼",
+     "url": "https://www.mk.co.kr/news/culture/12209857",
+     "source": "매일경제"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "뉴스",
+   "keyword": "김지수",
    "traffic": "5000+",
    "label": "약 5,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[뉴스포커스] 11월1６일 다시보기",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116141042CpO",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "뉴스투데이│2026년 11월 16일 (월)",
-     "url": "https://jejumbc.com/NewsArticle/873426",
-     "source": "제주MBC"
-    },
-    {
-     "title": "2026년 11월 16일 주간 – 2026년 11월 22일 주간",
-     "url": "https://www.vietnam.vn/ko/tuan-16-11-2026-22-11-2026",
-     "source": "Vietnam.vn"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "김지수",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "\"음주운전 두 번·만취 인터뷰까지\"…김지수, 2년 만에 예능 복귀 - 머니투데이",
@@ -74,55 +46,27 @@
      "source": "머니투데이"
     },
     {
-     "title": "김지수·유이·클라라, ‘솔로라서2’ 합류… 프라하 CEO부터 2조 흥행 배우까지 반전 일상",
-     "url": "https://www.viva100.com/article/20261116500510",
-     "source": "브릿지경제"
+     "title": "[공식] 김지수, 체코 프라하서 여행사 차렸다…유이와 ‘솔로라서2’ 합류",
+     "url": "https://sports.donga.com/ent/article/all/20261116/135033317/1",
+     "source": "스포츠동아"
     },
     {
-     "title": "김지수, 체코 프라하서 여행사 CEO 변신…직접 가이드까지",
-     "url": "https://sports.donga.com/ent/article/all/20261116/135029575/1",
-     "source": "스포츠동아"
+     "title": "고경표 음주운전 파문 속…‘음주운전 2회’ 김지수 예능 복귀에 여론 냉담",
+     "url": "https://www.mk.co.kr/news/hot-issues/12210071",
+     "source": "매일경제"
     }
    ],
    "safe": false
   },
   {
-   "rank": 4,
-   "keyword": "검사",
+   "rank": 3,
+   "keyword": "캄보디아",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[단독]與TF, 새 형소법 40여일만에 ‘경찰 모든 수사기록 검사에 전달’ 검토",
-     "url": "https://www.donga.com/news/Politics/article/all/20261116/135028760/2",
-     "source": "동아일보"
-    },
-    {
-     "title": "검찰 수사권 폐지하더니…與, '경찰 모든 수사기록 검사에 전달' 논의",
-     "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/16/2026111690083.html",
-     "source": "TV조선뉴스"
-    },
-    {
-     "title": "與경찰개혁TF, 경찰 수사기록 전부 '공소청 검토' 추진…경찰대 폐지도 공감대",
-     "url": "https://www.news1.kr/politics/assembly/6354803",
-     "source": "뉴스1"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 5,
-   "keyword": "캄보디아",
-   "traffic": "200+",
-   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 2,
    "news": [
     {
      "title": "수원시 의료봉사단, 캄보디아 수원마을서 민관 의료 봉사 활동 전개",
@@ -143,14 +87,14 @@
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 4,
    "keyword": "검찰",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 2,
    "news": [
     {
      "title": "홈플러스 사태·盧 비자금 은닉 의혹… 45일 남기고 ‘수사 액셀’ 밟는 공소청",
@@ -171,17 +115,45 @@
    "safe": false
   },
   {
-   "rank": 7,
+   "rank": 5,
+   "keyword": "(주)명륜당",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "up",
+   "delta": 3,
+   "news": [
+    {
+     "title": "[속보]서울중수청, ‘대부업체 부당지원 의혹’ 명륜진사갈비 압수수색",
+     "url": "https://www.khan.co.kr/article/202611161016001",
+     "source": "경향신문"
+    },
+    {
+     "title": "[단독] 중수청 1호 기업 수사… ‘이자 장사 의혹’ 명륜당 압수수색",
+     "url": "https://m.go.seoul.co.kr/news/society/2026/11/17/20261117010001",
+     "source": "서울Pn"
+    },
+    {
+     "title": "중수청, 가맹점주에 ‘고금리 대출’ 명륜당 본사 압수수색",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1287488.html",
+     "source": "한겨레"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
    "keyword": "박지윤",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
-     "title": "최동석, 박지윤 지인 상대 상간 소송 2심 일부 승소…1심 뒤집혔다 - 머니투데이",
+     "title": "'박지윤 남사친'에 상간 소송...최동석, 1심 뒤집고 일부 승소 - 머니투데이",
      "url": "https://www.mt.co.kr/society/2026/11/16/2026111615464396280",
      "source": "머니투데이"
     },
@@ -191,40 +163,12 @@
      "source": "한국경제"
     },
     {
-     "title": "“불륜 없다” 했는데… 최동석, ‘박지윤 男지인’ 상간 소송 1심 뒤집고 ‘일부 승소’",
-     "url": "https://www.seoul.co.kr/news/society/law/2026/11/16/20261116500286",
-     "source": "서울신문"
+     "title": "최동석, '파경' 박지윤 지인 상대 상간자 소송 항소심서 일부 승소",
+     "url": "https://www.news1.kr/society/general-society/6355598",
+     "source": "뉴스1"
     }
    ],
    "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "(주)명륜당",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "서울중수청, 명륜당 본사 압수수색…대부업체 부당 지원 의혹",
-     "url": "https://news.jtbc.co.kr/article/NB12328220",
-     "source": "JTBC"
-    },
-    {
-     "title": "[속보]서울중수청, ‘대부업체 부당지원 의혹’ 명륜진사갈비 압수수색",
-     "url": "https://www.khan.co.kr/article/202611161016001",
-     "source": "경향신문"
-    },
-    {
-     "title": "중수청, '내부거래 의혹' 명륜당 본사 압수수색",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6865933_36918.html",
-     "source": "MBC 뉴스"
-    }
-   ],
-   "safe": false
   }
  ]
 }
