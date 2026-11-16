@@ -1538,5 +1538,33 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-16T08:45:00+09:00"
+},
+{
+"id": "n9605de5126",
+"cat": "place",
+"title": "아산 신정호, 가족 나들이 명소로 새 단장 '키즈가든·별빛오름길' 개장",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"pub": "2026-11-16T09:01:31+09:00",
+"region": "아산",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T09:28:00+09:00"
+},
+{
+"id": "eedb59237fe",
+"cat": null,
+"title": "키즈가든·별빛오름길",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"pub": "2026-11-16T09:01:31+09:00",
+"region": "아산",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "아산",
+"seen": "2026-11-16T09:28:00+09:00"
 }
 ]
