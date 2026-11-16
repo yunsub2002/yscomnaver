@@ -1,31 +1,31 @@
 {
- "updated": "2026-11-17T03:00:00+09:00",
- "prev_updated": "2026-11-17T01:42:00+09:00",
+ "updated": "2026-11-17T03:53:00+09:00",
+ "prev_updated": "2026-11-17T03:00:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "드라마",
    "traffic": "10000+",
    "label": "약 1만 회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "고수, '나인투식스'로 15년 만의 로맨스 복귀…\"이번 작품서 내 비주얼 살짝 아쉬워\"",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008848354",
-     "source": "SBS 뉴스"
+     "title": "스푼랩스 ‘비글루’, AI 숏드라마 2차 공모전 연다",
+     "url": "https://zdnet.co.kr/view/?no=20261116165905",
+     "source": "지디넷코리아"
     },
     {
-     "title": "[드라마 속 음악②] \"마지막 장면이 가장 중요\"…OST 제작의 숨은 공식",
-     "url": "https://news.tf.co.kr/read/entertain/2389544.htm",
-     "source": "더팩트"
+     "title": "\"클링 AI로 만드는 숏드라마\"…비글루, 새 IP 찾는다",
+     "url": "https://www.ddaily.co.kr/page/view/2026111618282434761",
+     "source": "디지털데일리"
     },
     {
-     "title": "‘북부대공’ 최산, 박민영·육성재 큐피드 된다",
-     "url": "https://sports.khan.co.kr/article/202611161717003",
-     "source": "스포츠경향"
+     "title": "디딤돌·미래디지털AI협회, 'AI 숏드라마 실전반 1기' 개강… AI 영상 제작 본격 실습",
+     "url": "https://www.youthassembly.kr/news/1037290",
+     "source": "유스연합"
     }
    ],
    "safe": true
@@ -119,20 +119,20 @@
    "keyword": "추미애",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "추미애 “경기도 가용재원 2조원 줄어···정부·국회 세제 개편 응답해달라”",
-     "url": "https://www.khan.co.kr/article/202611161131021",
-     "source": "경향신문"
-    },
-    {
      "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753979",
      "source": "국제뉴스"
+    },
+    {
+     "title": "경기도, 내년 국비 8841억원 추가 확보 추진…부지사 국회에 상주",
+     "url": "https://www.etnews.com/20261116000545",
+     "source": "전자신문"
     },
     {
      "title": "MBC의 편파 왜곡 방송, 무단 침입에 대해 법적 책임을 묻겠습니다",
@@ -144,31 +144,31 @@
   },
   {
    "rank": 6,
-   "keyword": "코리아 패싱",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "경비원",
+   "traffic": "100+",
+   "label": "약 100회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[이하경 칼럼] 한·미 동맹은 저주가 아니다",
-     "url": "https://www.joongang.co.kr/article/25478852",
-     "source": "중앙일보"
+     "title": "화재 속 주민 구한 70대 경비원…'의사자' 추진",
+     "url": "https://www.yna.co.kr/view/MYH20261115001300038",
+     "source": "연합뉴스"
     },
     {
-     "title": "트럼프의 '코리아 패싱', 또 드리워지는 '불길한 그림자'",
-     "url": "https://www.newdaily.co.kr/site/data/html/2026/11/16/2026111650286.html",
-     "source": "뉴데일리"
+     "title": "불난 아파트 19층부터 문두드려 대피 돕던 경비원 숨져",
+     "url": "https://www.donga.com/news/Society/article/all/20261116/135029032/2",
+     "source": "동아일보"
     },
     {
-     "title": "[朝鮮칼럼] 북·중·러 위협 속 한미동맹의 새로운 전략",
-     "url": "https://www.chosun.com/opinion/chosun_column/2026/11/16/F2NGGNEI25GJDIVVJCSNPBMLGE/",
-     "source": "조선일보"
+     "title": "`1명 사망·13명 부상` 광주 아파트 방화범 구속",
+     "url": "https://www.busan.com/view/busan/view.php?code=2026111419400379116&recCode=preset&invenCode=opqrJMFB&pageSeq=ae97351e3fb5d019a261837e0f2a4a61",
+     "source": "부산일보"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 7,
@@ -177,8 +177,8 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "[다시보기] 11월 16일 (월) 오후 사이언스 투데이",
@@ -195,8 +195,8 @@
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
