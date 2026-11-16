@@ -2210,5 +2210,33 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-16T19:40:00+09:00"
+},
+{
+"id": "n1d730b51fe",
+"cat": "show",
+"title": "수성아트피아, 아이들이 직접 빚어낸 15색 소리판 > 뉴스",
+"source": "대구경북일보",
+"url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT3Rpd2JZNXlIUXM0QWp1SVNTYVBWMF8wNUx1cFUwbGVTQ05oTHpCdDRmMG1vUVhGdUpnNk1INDFDWTYyTDN6RF9SelRORWdqaWsxZ19QZDV0emQtOFVtRXkwN05BYU1BbktveUVRaU04MERDc1dHemFhbGhsMWZTVjFkVFpoZw?oc=5",
+"pub": "2026-11-16T20:24:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T21:04:00+09:00"
+},
+{
+"id": "nf6b904e74f",
+"cat": "festival",
+"title": "거제 외국인 노동자 가족사진·태권도 교실 운영",
+"source": "경남포스트",
+"url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zRE8zNFRPcTA5djM2VXJIbWZkX1VyVUZXRHdhbXNoSTVMb1VDWng5TldwU2FTcm1RQzBicWRFTVNZaDNSWkRlZE1MSG1kUTZw?oc=5",
+"pub": "2026-11-16T18:56:27+09:00",
+"region": "거제",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-16T21:04:00+09:00"
 }
 ]

@@ -1,94 +1,38 @@
 {
- "updated": "2026-11-16T19:40:00+09:00",
- "prev_updated": "2026-11-16T19:20:00+09:00",
+ "updated": "2026-11-16T21:04:00+09:00",
+ "prev_updated": "2026-11-16T19:40:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "신랑",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"야 너 이리 와\"…결혼식 날 신랑에게 엎드려뻗쳐 시킨 신부 이모부",
-     "url": "https://www.news1.kr/society/general-society/6355215",
-     "source": "뉴스1"
-    },
-    {
-     "title": "“살면서 듣도 보도 못했다, 내 가족이 봤다면...” 신랑이 결혼식서 신부 이모부에게 당한 일",
-     "url": "https://www.wikitree.co.kr/articles/1175001",
-     "source": "위키트리"
-    },
-    {
-     "title": "걸그룹·야구선수 부부 탄생…배드키즈 연지, 강동연과 12월 결혼",
-     "url": "https://www.mk.co.kr/news/culture/12209857",
-     "source": "매일경제"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "공무원",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "keyword": "서울 sk 대 울산 현대모비스",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“축구공 하나로 가까워진 두 도시”… 우정 깊어지는 평택·마쓰야마",
-     "url": "https://www.kyeonggi.com/article/20261116580361",
-     "source": "경기일보"
+     "title": "[사진]전희철 감독, 워니와 즐거운 대화",
+     "url": "https://www.chosun.com/sports/sports_photo/2026/11/16/GZRTGZBRHE2DOZLDGY3TOY3EME/",
+     "source": "조선일보"
     },
     {
-     "title": "평택시와 마쓰야마시 공무원 교류, 스포츠로 잇고 행정으로 넓힌다",
-     "url": "https://www.yna.co.kr/view/RPR20261116003800353",
-     "source": "연합뉴스"
+     "title": "'예기치 못한 악재' 국가대표 슈터마저 쓰러졌다, 양동근 감독 \"선수 생활만 20년을 해봤는데...\" [잠실 현장] - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/16/2026111617434984515",
+     "source": "머니투데이"
     },
     {
-     "title": "김해시, 日 마쓰바라시와 우호도시 교류 확대 논의",
-     "url": "https://www.viva100.com/article/20261116500797",
-     "source": "브릿지경제"
+     "title": "[프로농구] 현대모비스 이우석, 허벅지 근육 파열로 전력 이탈",
+     "url": "https://www.newspim.com/news/view/20261116001373",
+     "source": "뉴스핌"
     }
    ],
    "safe": true
   },
   {
-   "rank": 3,
-   "keyword": "김지수",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "\"음주운전 두 번·만취 인터뷰까지\"…김지수, 2년 만에 예능 복귀 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/16/2026111612520380605",
-     "source": "머니투데이"
-    },
-    {
-     "title": "[공식] 김지수, 체코 프라하서 여행사 차렸다…유이와 ‘솔로라서2’ 합류",
-     "url": "https://sports.donga.com/ent/article/all/20261116/135033317/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "고경표 음주운전 파문 속…‘음주운전 2회’ 김지수 예능 복귀에 여론 냉담",
-     "url": "https://www.mk.co.kr/news/hot-issues/12210071",
-     "source": "매일경제"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 4,
-   "keyword": "성과급",
+   "rank": 2,
+   "keyword": "빙부상",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "사회·정치",
@@ -97,78 +41,246 @@
    "delta": 0,
    "news": [
     {
-     "title": "월급은 3.3% 오르는데 근로소득세 40% 더 내라… 정부, 삼전닉스 성과급 가정에 기댔다 [2027 나라살림 대해부]",
-     "url": "https://www.hankookilbo.com/news/article/A2026111420400003767",
-     "source": "한국일보"
+     "title": "‘한동훈 장인’ 진형구 별세…생전 “검찰이 파업 유도” 폭탄발언도",
+     "url": "https://www.hani.co.kr/arti/politics/politics_general/1287380.html",
+     "source": "한겨레"
     },
     {
-     "title": "[단상지대] 이익은 누구의 것인가",
-     "url": "https://www.yeongnam.com/web/view.php?key=20261115021402310",
-     "source": "영남일보"
+     "title": "[여적] ‘최초 특검’ 피의자의 별세",
+     "url": "https://www.khan.co.kr/article/202611161903011",
+     "source": "경향신문"
     },
     {
-     "title": "[탁류세평] 모르는 게 약일까?",
-     "url": "https://www.kunews.ac.kr/news/articleView.html?idxno=51800",
-     "source": "고대신문"
+     "title": "오세훈 시장, 한동훈 빙부상 조문",
+     "url": "https://www.newsis.com/view/NISI20261116_0021534619",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 3,
+   "keyword": "간호",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "작은 산부인과에서 AI 첨단병원까지, 70년 역사의 병원이 미래 의료를 여는 법",
+     "url": "https://science.ytn.co.kr/program/view.php?mcd=1753&key=202611160918175563",
+     "source": "YTN 사이언스"
+    },
+    {
+     "title": "을지국제간호학술대회 서울서 개최…간호 실무 미래 방향 논의",
+     "url": "https://www.donga.com/news/Society/article/all/20261116/135034691/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "을지대의료원, '미래 간호 실무' 학술대회…\"경험 공유\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003869708",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "캄보디아",
+   "rank": 4,
+   "keyword": "인사청문회",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -2,
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "수원시 의료봉사단, 캄보디아 수원마을서 민관 의료 봉사 활동 전개",
-     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041013",
-     "source": "기호일보"
+     "title": "이 대통령, 법무장관·국세청장 후보자 인사청문요청안 재가",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0101_202611161657584232_005.html",
+     "source": "YTN"
     },
     {
-     "title": "수원 의료진 32명, 캄보디아 자매도시서 주민 진료",
-     "url": "https://www.newsis.com/view/NISX20261116_0003869726",
-     "source": "뉴시스"
+     "title": "이용철 법무장관 후보자 청문회 열린다…이 대통령, 요청안 재가",
+     "url": "https://news.jtbc.co.kr/article/NB12328300",
+     "source": "JTBC"
     },
     {
-     "title": "수원시, 캄보디아 시엠립 수원마을서 민관 의료봉사…800명 진료",
-     "url": "https://www.yna.co.kr/view/AKR20261116106300061",
+     "title": "이 대통령, 이용철 법무장관·안덕수 국세청장 후보자 인사청문요청안 재가",
+     "url": "https://www.hani.co.kr/arti/politics/bluehouse/1287563.html",
+     "source": "한겨레"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "보안",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "금보원, 해킹 공격 246개 IP 주소 차단 완료... ‘유동 IP 접속 허용’ 원인 지목",
+     "url": "https://www.boannews.com/news/articleView.html?idxno=147263",
+     "source": "보안뉴스"
+    },
+    {
+     "title": "금융위, '침해' 금융보안원에 쇄신 요구…인력·조직 강화 예상(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261116047251002",
      "source": "연합뉴스"
+    },
+    {
+     "title": "금융위, '해킹 사고' 금융보안원 현장 점검‥\"대응기관서 발생한 사고, 깊은 유감\"",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6865939_36932.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "검찰",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "down",
-   "delta": -2,
+   "keyword": "두두",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "홈플러스 사태·盧 비자금 은닉 의혹… 45일 남기고 ‘수사 액셀’ 밟는 공소청",
-     "url": "https://www.chosun.com/national/court_law/2026/11/16/LFGRSWBDXRFZPAG5OCO42UBOCQ/",
-     "source": "조선일보"
+     "title": "[오피셜] '두두' 이동주, DN 수퍼스와 28년까지 동행… \"보답하고 싶다\"",
+     "url": "https://www.dailyesports.com/view.php?ud=20261116201733393074bcc1e038_27",
+     "source": "데일리e스포츠"
     },
     {
-     "title": "‘대형 기업수사’ 연내 처분…중수청에 안넘긴다",
-     "url": "https://www.sedaily.com/article/20114551",
-     "source": "서울경제"
+     "title": "DN 수퍼스, 2027 LCK 시즌 앞두고 '두두'와 재계약",
+     "url": "https://www.sheepesports.com/kr/articles/sources-dn-soopers-re-sign-dudu-for-the-2027-lck-season/kr",
+     "source": "Sheep Esports"
     },
     {
-     "title": "검찰 직접수사 유예기간 45일…공소청, 미이관 주요 사건 처리 속도전",
-     "url": "https://www.thepublic.kr/news/articleView.html?idxno=326907",
-     "source": "더퍼블릭"
+     "title": "[오피셜] '두두' 이동주, DNS와 2028년까지 동행",
+     "url": "https://www.inven.co.kr/webzine/news/?news=323430&site=lol",
+     "source": "인벤"
     }
    ],
-   "safe": false
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "나솔",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'나솔' 31기 옥순 \"'취집' 오해 억울\"…영호와 재결합설 일축 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/15/2026111519355822809",
+     "source": "머니투데이"
+    },
+    {
+     "title": "‘나는 솔로’ 31기 영호, 옥순과 결별 공식 인정…“재회 생각 없다”",
+     "url": "https://www.mk.co.kr/news/broadcasting-service/12209089",
+     "source": "매일경제"
+    },
+    {
+     "title": "‘나솔’ 31기 영호, 직접 등판 “옥순과 결별 맞다…내 치과도 별점 테러 피해”",
+     "url": "https://sports.khan.co.kr/article/202611151016003",
+     "source": "스포츠경향"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "김강우",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "김강우, 아내 몰래 1년간 활동 중단…\"일 안 들어온다고 거짓말\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/16/2026111609332944832",
+     "source": "머니투데이"
+    },
+    {
+     "title": "김강우, 육아 위해 1년 연기 중단 \"일 안 들어온다고 했다\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003869242",
+     "source": "뉴시스"
+    },
+    {
+     "title": "김강우, 아내 몰래 1년간 배우 활동 중단…“일 안 들어온다고 했다” (옥문아)",
+     "url": "https://sports.donga.com/ent/article/all/20261116/135029690/1",
+     "source": "스포츠동아"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "결승전",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "스마일게이트 '에픽세븐', E7WC 2026 결승전 티켓 예매 시작",
+     "url": "https://zdnet.co.kr/view/?no=20261116180636",
+     "source": "지디넷코리아"
+    },
+    {
+     "title": "스마일게이트, `에픽세븐` 월드 챔피언십 결승전 예매 시작",
+     "url": "https://www.ddaily.co.kr/page/view/2026111617383582222",
+     "source": "디지털데일리"
+    },
+    {
+     "title": "Epic Seven esports tournament E7WC finals seat reservations begin",
+     "url": "https://www.gamemeca.com/en/mv.php?gid=1783589",
+     "source": "게임메카"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "구글플레이",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "지스타 2026, 제2전시장에 글로벌·인디 쇼케이스... 150대 시연대 운영",
+     "url": "https://www.etnews.com/20261116000232",
+     "source": "전자신문"
+    },
+    {
+     "title": "웹젠, 지스타 2026 출품작 코스프레 화보 공개",
+     "url": "https://zdnet.co.kr/view/?no=20261116151509",
+     "source": "지디넷코리아"
+    },
+    {
+     "title": "‘지스타 2026’ D-3, 국내 게임사 빈자리 채운 해외 대작들",
+     "url": "https://www.viva100.com/article/20261116500647",
+     "source": "브릿지경제"
+    }
+   ],
+   "safe": true
   }
  ]
 }
