@@ -2490,5 +2490,33 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-17T07:46:00+09:00"
+},
+{
+"id": "nbadb893ecb",
+"cat": "festival",
+"title": "충북 충주시, 아이들과 함께 숲을 가꾸며 계명산의 미래를 그리다",
+"source": "청주일보",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OdHpMRlJzS2JLRVZ1RTBNdUhtNWVSYV9KeWRYWU1Kc3lzcU9hX25GdWp4SW1maFQ3aWZycllOYTJaTzBsUWxqdjB6WnFJTEpVSWNVQi0yQk54cUJwcjJmOUdRcDM4WmpKVXk4?oc=5",
+"pub": "2026-11-17T05:00:00+09:00",
+"region": "충북",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T08:42:00+09:00"
+},
+{
+"id": "n96cbc51505",
+"cat": "festival",
+"title": "고성문화원, 19일 '2026 고성문화가족축제' 개최…수강생 작품·공연 선보여",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YdjFxc2tZQXR3TDF2eWZPRV9ZMDUtZWw5RWRVakNDX1VoazRCZkZOaFRqTU5HVGZlZ183NV9zTjJxVlBqX0tnWjZmZlk0UDFNR0JFU2lnSUtCWm9oQW8wcW9NTVpWcUplQ2ZmM29ZYmw?oc=5",
+"pub": "2026-11-16T12:28:17+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T08:42:00+09:00"
 }
 ]

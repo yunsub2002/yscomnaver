@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T08:07:00+09:00",
- "prev_updated": "2026-11-17T07:46:00+09:00",
+ "updated": "2026-11-17T08:42:00+09:00",
+ "prev_updated": "2026-11-17T08:07:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -18,14 +18,14 @@
      "source": "경향신문"
     },
     {
+     "title": "[날씨] 전국 온화하지만 오후부터 비…수능일 기온 ’뚝’",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH202611170805066Si",
+     "source": "연합뉴스TV"
+    },
+    {
      "title": "강원, 대체로 흐리고 비…낮 최고 16도",
      "url": "https://www.yna.co.kr/view/AKR20261117009000062",
      "source": "연합뉴스"
-    },
-    {
-     "title": "[날씨] 전국 오후부터 비…수능일 곳곳 영하권 추위",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261117070140Vpr",
-     "source": "연합뉴스TV"
     }
    ],
    "safe": true
@@ -35,25 +35,25 @@
    "keyword": "환승",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
+     "title": "경기 버스 환승할인비 내년 8개월치만 담아…추미애, 재정 쥐어짜 민생예산 편성",
      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753979",
      "source": "국제뉴스"
     },
     {
-     "title": "추미애 경기지사, 42조1946억원 본예산안 설명…정부·국회에 재정대책 촉구",
-     "url": "https://www.etnews.com/20261117000004",
-     "source": "전자신문"
+     "title": "경기도, MBC 예산 보도 반박…조정 신청·고발 예고",
+     "url": "https://www.newstown.co.kr/news/articleView.html?idxno=722180",
+     "source": "뉴스타운"
     },
     {
-     "title": "경기도, 본예산 수치로 드러난 재정난…국비 매칭과 복지 예산 ‘절반’ 육박",
-     "url": "https://www.kyeonggi.com/article/20261116580547",
-     "source": "경기일보"
+     "title": "[브리핑 하이라이트] 2027년 본예산안 편성 관련 기자회견",
+     "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202611161748435016C071&s_code=daily",
+     "source": "경기도뉴스포털"
     }
    ],
    "safe": false
@@ -65,8 +65,8 @@
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "황보라 子, 놀이공원서 바지 탈의 후 활보 \"이건 안 돼\"(보라이어티)",
@@ -88,9 +88,37 @@
   },
   {
    "rank": 4,
+   "keyword": "앤트로픽 상장일",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "121조 노리는 앤트로픽 IPO...중국·홍콩 기관투자자 청약 배제",
+     "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611161600490528",
+     "source": "YTN 사이언스"
+    },
+    {
+     "title": "美 로펌 앤트로픽 지분 받아 ‘잭팟’… “돈 대신 주식 달라” 국내도 확산",
+     "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=229146",
+     "source": "법률신문"
+    },
+    {
+     "title": "몸값 1.4조달러 노리는 앤스로픽…'클로드'로 얼마나 벌까",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01131606645646704",
+     "source": "마켓인"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
    "keyword": "부산날씨",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
    "move": "down",
@@ -107,9 +135,9 @@
      "source": "국제신문"
     },
     {
-     "title": "울산, 가끔 구름 많고 오후부터 비… 예상 강수량 5~20mm",
-     "url": "https://ujnews.co.kr/news/newsview.php?ncode=1065571148383053",
-     "source": "울산종합일보"
+     "title": "부산, 흐리고 가끔 비…예상강수량 5㎜ 안팎",
+     "url": "https://www.newsis.com/view/NISX20261117_0003870644",
+     "source": "뉴시스"
     }
    ],
    "safe": true
