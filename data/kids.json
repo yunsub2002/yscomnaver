@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-16T15:06:00+09:00",
+"updated": "2026-11-16T17:45:00+09:00",
 "has_tour": false,
 "has_naver": false,
 "trends": [
@@ -8,7 +8,7 @@
 "kind": "trend",
 "name": "구슬 튕기기",
 "count": 1,
-"score": 11.99,
+"score": 11.88,
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "arts": [
@@ -19,14 +19,14 @@
 "pub": "2026-11-16T14:57:36+09:00"
 }
 ],
-"new": true
+"new": false
 },
 {
 "id": "t1b890f3b6e",
 "kind": "trend",
 "name": "초등생은",
 "count": 1,
-"score": 11.97,
+"score": 11.86,
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "arts": [
@@ -37,14 +37,14 @@
 "pub": "2026-11-16T14:26:41+09:00"
 }
 ],
-"new": true
+"new": false
 },
 {
 "id": "tf67cc5d794",
 "kind": "trend",
 "name": "빼난지원금",
 "count": 2,
-"score": 11.05,
+"score": 10.94,
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "arts": [
@@ -128,7 +128,7 @@
 "key": "kidscafe",
 "name": "키즈카페",
 "emo": "🧸",
-"count": 9
+"count": 12
 },
 {
 "key": "food",
@@ -204,35 +204,6 @@
 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQmtCMUdEemxqa2M0UHlTeDduZVVjU0k2N3hpU0JlTzBialZfS1pJQmFsMi1QOVh4aXJZZGFrMmk3X0Z3LTh0MVUzOHVWT0lDY2hOV2ZB?oc=5",
 "source": "뉴스21 통신",
 "pub": "2026-11-12T13:18:53+09:00"
-}
-],
-"new": false
-},
-{
-"id": "e08f78cb481",
-"title": "신나는 과학 놀이 한마당",
-"period": "기사에서 확인",
-"addr": "",
-"region": "",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 2,
-"count": 1,
-"status": "기사 1건",
-"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
-"map": "https://map.naver.com/p/search/%EC%8B%A0%EB%82%98%EB%8A%94%20%EA%B3%BC%ED%95%99%20%EB%86%80%EC%9D%B4%20%ED%95%9C%EB%A7%88%EB%8B%B9",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUFg3dHg4XzZtQjdhZTVUdW42VVhUZmp6RHhRVDN6TGhaZVVxVmV6UElGelA1MUN2TElxSmVGN19PMUR0UXJqT0h0aHdPNjJ6VTcycC1xcTV4d3NQODFRQjJ3WjNITlZ2VlI4dHhwTQ?oc=5",
-"source": "중부일보",
-"src_title": "[시민기자가 간다] “신나는 과학 놀이 한마당”으로 창의성 기르는 축제",
-"pub": "2026-11-09T15:39:00+09:00",
-"from": "news",
-"arts": [
-{
-"title": "[시민기자가 간다] “신나는 과학 놀이 한마당”으로 창의성 기르는 축제",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFByUFg3dHg4XzZtQjdhZTVUdW42VVhUZmp6RHhRVDN6TGhaZVVxVmV6UElGelA1MUN2TElxSmVGN19PMUR0UXJqT0h0aHdPNjJ6VTcycC1xcTV4d3NQODFRQjJ3WjNITlZ2VlI4dHhwTQ?oc=5",
-"source": "중부일보",
-"pub": "2026-11-09T15:39:00+09:00"
 }
 ],
 "new": false
@@ -354,93 +325,6 @@
 "new": false
 },
 {
-"id": "e506c72b37f",
-"title": "배움 축제",
-"period": "기사에서 확인",
-"addr": "의정부",
-"region": "의정부",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 1,
-"count": 1,
-"status": "기사 1건",
-"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
-"map": "https://map.naver.com/p/search/%EB%B0%B0%EC%9B%80%20%EC%B6%95%EC%A0%9C",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfajlDRnh1QlN4YUt3ZUQta1U2STFlZlVJeFBieFh0VExOeEdBMm9maFpTaFBFMmlFMWx2MzVOdWhtRjJUbTFmc0Mzb1FRZHNtMnh5dXBWcUIwOURDUkFKYnViNFo5OEJ5WWtnc1ZXNA?oc=5",
-"source": "위클리오늘",
-"src_title": "[위클리오늘] 의정부, 5세 어린이부터 80대 어르신까지…1천 명이 함께한 배움 축제",
-"pub": "2026-11-09T15:34:39+09:00",
-"from": "news",
-"arts": [
-{
-"title": "[위클리오늘] 의정부, 5세 어린이부터 80대 어르신까지…1천 명이 함께한 배움 축제",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBfajlDRnh1QlN4YUt3ZUQta1U2STFlZlVJeFBieFh0VExOeEdBMm9maFpTaFBFMmlFMWx2MzVOdWhtRjJUbTFmc0Mzb1FRZHNtMnh5dXBWcUIwOURDUkFKYnViNFo5OEJ5WWtnc1ZXNA?oc=5",
-"source": "위클리오늘",
-"pub": "2026-11-09T15:34:39+09:00"
-}
-],
-"new": false
-},
-{
-"id": "ec2a6972748",
-"title": "화합의 축제",
-"period": "기사에서 확인",
-"addr": "",
-"region": "",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 1,
-"count": 1,
-"status": "기사 1건",
-"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
-"map": "https://map.naver.com/p/search/%ED%99%94%ED%95%A9%EC%9D%98%20%EC%B6%95%EC%A0%9C",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iNjEzZUpnNVlWRTdTQXFCdFpadGdIdmFsbWpwRVYxMy1CaGdSRXZjVTVjbXhJdGV5aFh6ZEZSTXI2MEJDN0FfQzYxN0JQNkJuRTRiVjNLb0xVeU5YdTZEWFJKQkM5QU9RZzE2a1BxNXh6RU3SAXNBVV95cUxNYjYxM2VKZzVZVkU3U0FxQnRaWnRnSHZhbG1qcEVWMTMtQmhnUkV2Y1U1Y214SXRleWhYemRGUk1yNjBCQzdBX0M2MTdCUDZCbkU0YlYzS29MVXlOWHU2RFhSSkJDOUFPUWcxNmtQcTV4ekVN?oc=5",
-"source": "K스피릿",
-"src_title": "“어린이부터 어르신까지” 전통스포츠 국학기공으로 건강‧화합의 축제",
-"pub": "2026-11-12T15:01:09+09:00",
-"from": "news",
-"arts": [
-{
-"title": "“어린이부터 어르신까지” 전통스포츠 국학기공으로 건강‧화합의 축제",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iNjEzZUpnNVlWRTdTQXFCdFpadGdIdmFsbWpwRVYxMy1CaGdSRXZjVTVjbXhJdGV5aFh6ZEZSTXI2MEJDN0FfQzYxN0JQNkJuRTRiVjNLb0xVeU5YdTZEWFJKQkM5QU9RZzE2a1BxNXh6RU3SAXNBVV95cUxNYjYxM2VKZzVZVkU3U0FxQnRaWnRnSHZhbG1qcEVWMTMtQmhnUkV2Y1U1Y214SXRleWhYemRGUk1yNjBCQzdBX0M2MTdCUDZCbkU0YlYzS29MVXlOWHU2RFhSSkJDOUFPUWcxNmtQcTV4ekVN?oc=5",
-"source": "K스피릿",
-"pub": "2026-11-12T15:01:09+09:00"
-}
-],
-"new": false
-},
-{
-"id": "e6c8b0042be",
-"title": "수공예 크리스마스 마켓",
-"period": "기사에서 확인",
-"addr": "",
-"region": "",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 1,
-"count": 1,
-"status": "기사 1건",
-"tip": "해 진 뒤가 가장 예뻐요. 저녁엔 기온이 뚝 떨어지니 겉옷·핫팩을 챙기세요.",
-"map": "https://map.naver.com/p/search/%EC%88%98%EA%B3%B5%EC%98%88%20%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%20%EB%A7%88%EC%BC%93",
-"url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNeFFZRzJVZVRmMHk0S0oxWk5kUko3bUV6M3lQcWM3a3RnZmxYczRMY0FRZTJPN1BfTFY3QmR5Tmpjdi0xcldMUTVMV2VVSEdhNzBMdmNYQmd2Y3lDLWVfX2ptcENMckllUkxqNGgtNW80alBqaXpOXy1CVlNlMjRQUkxLU3ZpWllqbWZ2aGZFdW9HYzNMWXhBMG9jRC1KZnEtc0FLUW9qY3VkellTQ0VON1ZUMDQ5dHJTX1BFbngxYTdRa2NNRUM1Rzd6M1R3a3B4bTdvUVVuOHE0OS0weFJsd0pHSU00dFo5c3JSaHRuS3doNkh0Qk9BSEVwTEREUWlaRDRMd3o2bkFiOXp4eXJmNzJvZkJPYnRMYTJKM29tWl96MkdkajFkQ0NNdENabko3?oc=5",
-"source": "Sortir à Paris",
-"src_title": "브리콩트로베르의 2026년 크리스마스: 수공예 크리스마스 마켓, 불꽃놀이와 조명 장식 트리",
-"pub": "2026-11-12T20:00:00+09:00",
-"from": "news",
-"arts": [
-{
-"title": "브리콩트로베르의 2026년 크리스마스: 수공예 크리스마스 마켓, 불꽃놀이와 조명 장식 트리",
-"url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNeFFZRzJVZVRmMHk0S0oxWk5kUko3bUV6M3lQcWM3a3RnZmxYczRMY0FRZTJPN1BfTFY3QmR5Tmpjdi0xcldMUTVMV2VVSEdhNzBMdmNYQmd2Y3lDLWVfX2ptcENMckllUkxqNGgtNW80alBqaXpOXy1CVlNlMjRQUkxLU3ZpWllqbWZ2aGZFdW9HYzNMWXhBMG9jRC1KZnEtc0FLUW9qY3VkellTQ0VON1ZUMDQ5dHJTX1BFbngxYTdRa2NNRUM1Rzd6M1R3a3B4bTdvUVVuOHE0OS0weFJsd0pHSU00dFo5c3JSaHRuS3doNkh0Qk9BSEVwTEREUWlaRDRMd3o2bkFiOXp4eXJmNzJvZkJPYnRMYTJKM29tWl96MkdkajFkQ0NNdENabko3?oc=5",
-"source": "Sortir à Paris",
-"pub": "2026-11-12T20:00:00+09:00"
-}
-],
-"new": false
-},
-{
 "id": "e82dee662d7",
 "title": "mom편한 놀이터",
 "period": "기사에서 확인",
@@ -528,6 +412,35 @@
 "new": false
 },
 {
+"id": "e9ed5794b9f",
+"title": "2026 거제면아동놀이축제",
+"period": "기사에서 확인",
+"addr": "거제",
+"region": "거제",
+"city": "",
+"img": "",
+"tel": "",
+"kid": 1,
+"count": 1,
+"status": "기사 1건",
+"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
+"map": "https://map.naver.com/p/search/2026%20%EA%B1%B0%EC%A0%9C%EB%A9%B4%EC%95%84%EB%8F%99%EB%86%80%EC%9D%B4%EC%B6%95%EC%A0%9C",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMTh1eGJDd1lTMFd4Um4ybzdnUDBEX1F1SnJ2WnFKMjdidDl0c0FwVHhwZDcwV214SDg3a0JjN29sS1ZwN1hrRTBDNFFQS2pUQ2QzMVpPaGU4S3FXempmR0pIT1dQYk80YnFZ?oc=5",
+"source": "새거제신문",
+"src_title": "거제면 아동 주도 '2026 거제면아동놀이축제' 개최",
+"pub": "2026-11-16T12:37:56+09:00",
+"from": "news",
+"arts": [
+{
+"title": "거제면 아동 주도 '2026 거제면아동놀이축제' 개최",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMTh1eGJDd1lTMFd4Um4ybzdnUDBEX1F1SnJ2WnFKMjdidDl0c0FwVHhwZDcwV214SDg3a0JjN29sS1ZwN1hrRTBDNFFQS2pUQ2QzMVpPaGU4S3FXempmR0pIT1dQYk80YnFZ?oc=5",
+"source": "새거제신문",
+"pub": "2026-11-16T12:37:56+09:00"
+}
+],
+"new": false
+},
+{
 "id": "efb6e03d1de",
 "title": "빛나는 너를 위한 축제",
 "period": "기사에서 확인",
@@ -554,39 +467,118 @@
 "pub": "2026-11-16T13:06:45+09:00"
 }
 ],
-"new": true
-},
-{
-"id": "e9ed5794b9f",
-"title": "거제면 아동놀이 축제",
-"period": "기사에서 확인",
-"addr": "거제",
-"region": "거제",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 1,
-"count": 1,
-"status": "기사 1건",
-"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
-"map": "https://map.naver.com/p/search/%EA%B1%B0%EC%A0%9C%EB%A9%B4%20%EC%95%84%EB%8F%99%EB%86%80%EC%9D%B4%20%EC%B6%95%EC%A0%9C",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GVEhCMmNZaXhUOWZVN1RCWDkzbGpSUUVwXzdkSW11RnljLWp5TDlna0MwNmg4LW5XTi1naWhDcXY5Qng1WWF0Ml9Sd1VJYmxZS0Uxb0FQTTEwVTJqOGNhVTFWcWwzZTNGRGxkd09yZVlkVHM?oc=5",
-"source": "거제저널",
-"src_title": "'거제면 아동놀이 축제’ 개최",
-"pub": "2026-11-16T13:59:04+09:00",
-"from": "news",
-"arts": [
-{
-"title": "'거제면 아동놀이 축제’ 개최",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GVEhCMmNZaXhUOWZVN1RCWDkzbGpSUUVwXzdkSW11RnljLWp5TDlna0MwNmg4LW5XTi1naWhDcXY5Qng1WWF0Ml9Sd1VJYmxZS0Uxb0FQTTEwVTJqOGNhVTFWcWwzZTNGRGxkd09yZVlkVHM?oc=5",
-"source": "거제저널",
-"pub": "2026-11-16T13:59:04+09:00"
-}
-],
 "new": false
 }
 ],
 "news": [
+{
+"cat": "festival",
+"title": "남원시 어린이청소년도서관, 11월 10일부터 송년 문화행사 개최!",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ndzlYcVlTUjRmLUVjeXF1ZUhMaFlFUDR2NFpDQTNkaXNzTG5mZzVhX2hBNGVtbDk0V0JfaC1tYXJHeVQxSDR4MnJScmFRVEZQNG1EWGRjVVBHRVZjcDFzalhRTWx2Tkp3eEpTejNR?oc=5",
+"pub": "2026-11-16T17:35:38+09:00",
+"region": "",
+"period": "",
+"score": 4.99,
+"id": "n2e3aae3190",
+"new": true
+},
+{
+"cat": "show",
+"title": "인천 계양문화회관, 어린이 가족뮤지컬 ‘최고다! 호기심딱지’ 21~22일 공연",
+"source": "여성종합뉴스",
+"url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QUFVQQ2MtMm1jWVBTaFNremNzZzQxWDREOWtSS3FVMThVc1VWN2EwUk1NNXoyU2xwZkEyVHlLc2VkclZQaV9jckQtS2EyVXdiTDR2VTNaNWRlZw?oc=5",
+"pub": "2026-11-16T17:25:39+09:00",
+"region": "인천",
+"period": "21~22일",
+"score": 8.99,
+"id": "nacc06b3f9a",
+"new": true
+},
+{
+"cat": "festival",
+"title": "[아이들과 가볼 만한 곳] 롯데월드, 쿠키런과 함께하는 겨울 축제 ‘스위트 윈터 어드벤처’ 개최 外",
+"source": "베이비뉴스",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUDRlSTQxRG16NEFySHhLaXl2aGhROHdhNkUtOUxoNUR5Vjd6cFNMSzBVSmpVR1MzOVRBbDJmU25RNHNUTG9NZHFvY3NXWXFRM08xcWxDOFhtNlV3MWhCNXdiVlpwRzRST01sOQ?oc=5",
+"pub": "2026-11-16T17:16:02+09:00",
+"region": "",
+"period": "",
+"score": 4.98,
+"id": "n4aee362fee",
+"new": false
+},
+{
+"cat": "show",
+"title": "라움아트센터 2027 시즌, 어린이날·부부의 날 기획 공연 준비",
+"source": "유스연합",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JcWRWbGxEN01OMnVQMGJ2SlNGTTFqa2w3LVpULWh0Y0YxLU44ZGxxZl9JQWxQdzEyS1JjRGpnYVE3Z3VuUUhPNmZBZU03cl9oT1hv?oc=5",
+"pub": "2026-11-16T17:09:15+09:00",
+"region": "",
+"period": "",
+"score": 1.98,
+"id": "n36eb54a71d",
+"new": true
+},
+{
+"cat": "festival",
+"title": "장생포문화창고 어린이·가족 대상 뮤지컬 \\'반짝반짝 백설공주\\' 개최",
+"source": "culturegb.com",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nYVVOVlZsQ1gzUENyQ1VfZGpQa3QtNC1YVnpZcjNrdGRlWThSeXZfWEg4d0NwWWlsOHM3TFFDNGI3dmREbmY2Y2JqR0hVbzJJeXA5X1pTX0lJOEdN?oc=5",
+"pub": "2026-11-16T16:58:00+09:00",
+"region": "공주",
+"period": "",
+"score": 8.97,
+"id": "n937aa11f3e",
+"new": true
+},
+{
+"cat": "show",
+"title": "어린이의 말이 춤이 되다…제주 무용 공연 ‘창문은 돌고래야’",
+"source": "제주의소리",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaQms3U2VzQW5TUW00d2RMTTQwSFRVeGpkbnF1cWk4My1KVmlmNV9UZVJIRDQ3M2piYnB6eVhpSG1STTQzWTk4Zm1VdHJZWm4yZ3cxNm1DQWFfc2RMajhQaGdrcjR4ZnFRZERJ?oc=5",
+"pub": "2026-11-16T16:48:38+09:00",
+"region": "제주",
+"period": "",
+"score": 3.96,
+"id": "n0118900dfd",
+"new": true
+},
+{
+"cat": "show",
+"title": "부산 어린이들이 가꾼 작은 정원…'꿈을 그린 원정대' 성과 전시",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1La0d1VXZUS0hNNEFwcE4yWU1zaWpQakoyNDNSOUc2RjFLY1V5Y0R3a1R0U0kyX29zU24wbU1pZXJheHRVN1dJbzNSOF9iVnp4dDVKQXc2QnB4ZHhXSEN6OHRBRWUwRElEOTFIVkln?oc=5",
+"pub": "2026-11-16T16:17:28+09:00",
+"region": "부산",
+"period": "",
+"score": 3.94,
+"id": "n4b6b27b2c8",
+"new": true
+},
+{
+"cat": "festival",
+"title": "“장애 예술인 무대에 환자·가족 초대”…코웨이, ‘빛나눔 예술축제’ 개최",
+"source": "더게이트",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtdWR1Zl96T3VCakhodDhOZGcwOXpmQUNWY1lfemh0YVdHWThjY0hWVVh6LVEzVll3UEdNSUNJLTMzUjlGTC1IWDNXa2NJaWRLWE5KU3Nra0xVdEpCNUt4b05nREtTYmky0gFsQVVfeXFMTzBsZ3kzVGVQMWhjQnhNZTNJS0tqcTh6Y196a0hKTWJBcFVFcGE3X3Zub3Yya0NCRXhHLVJTRS1QNVZCc004NTVHRnlIbHpoRHV3TnBzR3R3T1RGbGJrS3c0QlJObUMxcHpWNk9I?oc=5",
+"pub": "2026-11-16T15:55:16+09:00",
+"region": "",
+"period": "",
+"score": 4.92,
+"id": "nff5ffa85b6",
+"new": true
+},
+{
+"cat": "festival",
+"title": "충주 어린이들, 계명산서 숲가꾸기 체험",
+"source": "충청매일",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uU3ZWZk1QS05JeTRwNWpjbkl0X0xDMnZkRmx0aE1GUnd6QzJtb0RGdElrYUJIREtqTGVIVEg2Rm1YU0dmNm1OckNacXpiT0o3bFN6dWlDZUtJbUs1QXV6WUIwYk1mZ2NmS0E?oc=5",
+"pub": "2026-11-16T15:15:16+09:00",
+"region": "충주",
+"period": "",
+"score": 5.9,
+"id": "n2b5ebf6067",
+"new": true
+},
 {
 "cat": "trend",
 "title": "AI 시대에 웬 주판?…카자흐 아이들 ‘구슬 튕기기’ 열풍",
@@ -595,8 +587,32 @@
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "period": "",
-"score": 1.99,
+"score": 1.88,
 "id": "nfa6357a9dc",
+"new": false
+},
+{
+"cat": "festival",
+"title": "충남 홍성군, 유아숲체험원에서 아이들의 숲 체험 기록 선보인다.",
+"source": "충청매일",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9zbDk1RzF0MXQtZ2lBZk5SbHJ1MEFqMGpwN2RYOHBfdDVkc0FoUlVxekEyeC10WHFxbmFrVWVRUlRXUjAzZVVjWUxOZE5iTzlqYWE3cXdTMzdPaGpwaXVsM0tqNVpPb3Fmd3c?oc=5",
+"pub": "2026-11-16T14:55:03+09:00",
+"region": "충남",
+"period": "",
+"score": 12.88,
+"id": "nfdf5e67301",
+"new": true
+},
+{
+"cat": "show",
+"title": "두빛나래어린이도서관, 영어독서와 공연으로 만나는 글로벌 도서관",
+"source": "투데이안",
+"url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53RTUxUlpNWWV3YkVGS0lKMl9sLUMtM3Y2VTd4eURkZDJtWW45RU4xZmRVRWtacHVzbW1NcjhkNWNkUkFjX3V1ZGdpYVZfVWZMQUhyRk1fMlVHLUZsNlE?oc=5",
+"pub": "2026-11-16T14:42:00+09:00",
+"region": "",
+"period": "",
+"score": 1.87,
+"id": "nedfdeb14cf",
 "new": true
 },
 {
@@ -607,9 +623,9 @@
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "period": "",
-"score": 1.97,
+"score": 1.86,
 "id": "n68b322a206",
-"new": true
+"new": false
 },
 {
 "cat": "festival",
@@ -619,33 +635,33 @@
 "pub": "2026-11-16T14:23:19+09:00",
 "region": "인천",
 "period": "",
-"score": 8.97,
+"score": 8.86,
 "id": "nab9d31060c",
+"new": false
+},
+{
+"cat": "show",
+"title": "인천시설공단, 생애주기별 시설 체험으로 가족 소통 시간 마련",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LZnVzaXZoblJtYnpnbGtCUHp0VE1lbkRjNFZnaUpRU1hjWWhwbnoyWHNwZlhzV2ktTndEREE3WWFjemNIV3hPLXFfdHJpYWlqY2x3Ukw3VjNuRGtKUkVIcENWZXQ?oc=5",
+"pub": "2026-11-16T13:02:12+09:00",
+"region": "인천",
+"period": "",
+"score": 5.8,
+"id": "nbdd94ebbcf",
 "new": true
 },
 {
 "cat": "festival",
-"title": "'거제면 아동놀이 축제’ 개최",
-"source": "거제저널",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GVEhCMmNZaXhUOWZVN1RCWDkzbGpSUUVwXzdkSW11RnljLWp5TDlna0MwNmg4LW5XTi1naWhDcXY5Qng1WWF0Ml9Sd1VJYmxZS0Uxb0FQTTEwVTJqOGNhVTFWcWwzZTNGRGxkd09yZVlkVHM?oc=5",
-"pub": "2026-11-16T13:59:04+09:00",
+"title": "거제면 아동 주도 '2026 거제면아동놀이축제' 개최",
+"source": "새거제신문",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlMTh1eGJDd1lTMFd4Um4ybzdnUDBEX1F1SnJ2WnFKMjdidDl0c0FwVHhwZDcwV214SDg3a0JjN29sS1ZwN1hrRTBDNFFQS2pUQ2QzMVpPaGU4S3FXempmR0pIT1dQYk80YnFZ?oc=5",
+"pub": "2026-11-16T12:37:56+09:00",
 "region": "거제",
 "period": "",
-"score": 8.95,
-"id": "nf8de2fdc60",
+"score": 10.79,
+"id": "na5d033e42b",
 "new": true
-},
-{
-"cat": "show",
-"title": "계양문화회관, 어린이 가족뮤지컬 ‘최고다! 호기심딱지’ 시즌 4 개최",
-"source": "뉴스다",
-"url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ibjk0d01WbmtRUTExeFRrOXJoakVqcDNkVEtjc2QzdnFXbm5NcnVLMDU4Z2FXRS04X1c0ejBCMXBKR2tGenYyRWZhOTBZYUoyZ0diSHpIZEEwc0hUZzRr?oc=5",
-"pub": "2026-11-16T12:30:06+09:00",
-"region": "",
-"period": "",
-"score": 6.89,
-"id": "n1258fd8bb9",
-"new": false
 },
 {
 "cat": "show",
@@ -655,7 +671,7 @@
 "pub": "2026-11-16T12:11:00+09:00",
 "region": "진주",
 "period": "",
-"score": 6.88,
+"score": 6.77,
 "id": "ne7d8ecc59d",
 "new": false
 },
@@ -667,33 +683,21 @@
 "pub": "2026-11-16T12:00:37+09:00",
 "region": "인천",
 "period": "",
-"score": 8.87,
+"score": 8.76,
 "id": "n2d2d68737c",
 "new": false
 },
 {
-"cat": "show",
-"title": "푸른솔지역아동센터, 백제문화공원서 버스킹 공연",
-"source": "송파타임즈",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMZHFBOERkVFBUNzc3dzhha0ZmZkc1N2p6Z0VQRHhfMFJtQXpIbW5kUGY3OEVRUkh0ZFFYTjRXUmRmb2MxbnIxV2tCcmFLQ0F5TmdDYVFwZ01JRUwtMXg4VTRBbXNmTWpIbFNFbUNRNA?oc=5",
-"pub": "2026-11-16T12:00:07+09:00",
-"region": "",
-"period": "",
-"score": 1.87,
-"id": "n0683926297",
-"new": false
-},
-{
 "cat": "festival",
-"title": "[아이들과 가볼 만한 곳] 롯데월드, 쿠키런과 함께하는 겨울 축제 ‘스위트 윈터 어드벤처’ 개최 外",
-"source": "베이비뉴스",
-"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUDRlSTQxRG16NEFySHhLaXl2aGhROHdhNkUtOUxoNUR5Vjd6cFNMSzBVSmpVR1MzOVRBbDJmU25RNHNUTG9NZHFvY3NXWXFRM08xcWxDOFhtNlV3MWhCNXdiVlpwRzRST01sOQ?oc=5",
-"pub": "2026-11-16T11:20:19+09:00",
+"title": "경산시, 가족과 함께하는 문화공연 개최",
+"source": "sisakoreanews.kr",
+"url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBmaTE1SDA4aTlxTVpqNWp6YTl2dmFaMmNmQWZnSk5DbEc5R3cxME8wQi1rQ1dza0FsNU90ck4yLUdPc25pNzliUzFpOA?oc=5",
+"pub": "2026-11-16T11:47:00+09:00",
 "region": "",
 "period": "",
-"score": 4.84,
-"id": "n4aee362fee",
-"new": false
+"score": 4.75,
+"id": "n373459b353",
+"new": true
 },
 {
 "cat": "show",
@@ -703,7 +707,7 @@
 "pub": "2026-11-16T11:17:57+09:00",
 "region": "",
 "period": "",
-"score": 8.84,
+"score": 8.73,
 "id": "n17b3fde429",
 "new": false
 },
@@ -715,20 +719,8 @@
 "pub": "2026-11-16T11:13:23+09:00",
 "region": "",
 "period": "",
-"score": 6.84,
+"score": 6.73,
 "id": "n1e1f3c5a98",
-"new": false
-},
-{
-"cat": "festival",
-"title": "진안군 드림스타트, 가족과 함께하는 김장체험 운영",
-"source": "전북제일신문",
-"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RdjNWWnBfVVdQOFBneUlJV3ZPN1lxUksyS3VsSzJqTy02MVRDSFRxM2VWbFBCdkNfTHhyaVV6c0JTbWM3MFNtTGxrb0M0d1B1Q0VVb1hQOEVhUmV3WFd4TmtGdFBkVzQySVE?oc=5",
-"pub": "2026-11-16T11:13:17+09:00",
-"region": "",
-"period": "",
-"score": 6.84,
-"id": "n8b90b56c16",
 "new": false
 },
 {
@@ -739,9 +731,9 @@
 "pub": "2026-11-16T10:21:24+09:00",
 "region": "진주",
 "period": "",
-"score": 3.8,
+"score": 3.69,
 "id": "nef3d0ad766",
-"new": true
+"new": false
 },
 {
 "cat": "show",
@@ -751,20 +743,8 @@
 "pub": "2026-11-16T09:54:44+09:00",
 "region": "",
 "period": "",
-"score": 6.78,
+"score": 6.67,
 "id": "n4dc9f28a2d",
-"new": false
-},
-{
-"cat": "festival",
-"title": "홍성군, 2026년 아이들의 숲 체험 기록 행사 개최",
-"source": "충남일보",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zS3RoaFZVZ21hYWppSDFnRHZZRklDYjNPVllLR1NDT0M0R2ZDM0lSRjVmQ01Fbk9NY3VNLTR3eURTa0hDWHRqVnlrdDNHbFNja0ttMC1FNzhiLUd0TngzSEpVVE1nb2ptelhvU3NwRmxVUmc?oc=5",
-"pub": "2026-11-16T09:41:55+09:00",
-"region": "",
-"period": "",
-"score": 6.77,
-"id": "nacbee1bc2e",
 "new": false
 },
 {
@@ -775,7 +755,7 @@
 "pub": "2026-11-16T09:29:37+09:00",
 "region": "부산",
 "period": "~22일",
-"score": 8.77,
+"score": 8.66,
 "id": "ncfebafd95b",
 "new": false
 },
@@ -787,7 +767,7 @@
 "pub": "2026-11-16T09:01:31+09:00",
 "region": "아산",
 "period": "",
-"score": 8.75,
+"score": 8.64,
 "id": "n9605de5126",
 "new": false
 },
@@ -799,20 +779,8 @@
 "pub": "2026-11-16T08:07:40+09:00",
 "region": "경북",
 "period": "",
-"score": 8.71,
+"score": 8.6,
 "id": "nbcfc5c8b66",
-"new": true
-},
-{
-"cat": "festival",
-"title": "홍성군, 유아숲체험원에서 아이들의 숲 체험 기록 선보인다",
-"source": "굿뉴스365",
-"url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56aUJzanNhTFNDQ3A2c2RSUkxEWHdXWHNUTmR5dzhQc0dMRGV2RlBkakEzVldLcTc3T21NUnBiUElBME5oYWpURUZfd3FiQk5SYTVRcXozM0NDWVpQcUFVeGZ5M3BzendrV0NualA3QlM1R0gtbmc?oc=5",
-"pub": "2026-11-16T06:41:00+09:00",
-"region": "",
-"period": "",
-"score": 10.65,
-"id": "n00e93be918",
 "new": false
 },
 {
@@ -823,20 +791,8 @@
 "pub": "2026-11-16T00:07:00+09:00",
 "region": "충남",
 "period": "",
-"score": 6.38,
+"score": 6.27,
 "id": "nc1a74d2f14",
-"new": false
-},
-{
-"cat": "festival",
-"title": "제33회 전국어린이연극잔치 14일 개막",
-"source": "K스피릿",
-"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyclA3cTRmaVh6amhmNFZVdTlHY0x3Q09kNmJKSkJ3Tm42MWRIOWJRNk5OWDYzZDlBUmVkcnRuMnZfZDFvbHFKaDhobEJLV1lJN2FRWHlEcmRMeklaYTFkdHBCZ2g5cVc0cFBnNHd4RzFwS0XSAXNBVV95cUxQMnJQN3E0ZmlYempoZjRWVXU5R2NMd0NPZDZiSkpCd05uNjFkSDliUTZOTlg2M2Q5QVJlZHJ0bjJ2X2Qxb2xxSmg4aGxCS1dZSTdhUVh5RHJkTHpJWmExZHRwQmdoOXFXNHBQZzR3eEcxcEtF?oc=5",
-"pub": "2026-11-15T22:03:52+09:00",
-"region": "",
-"period": "",
-"score": 4.29,
-"id": "n2b4206404d",
 "new": false
 },
 {
@@ -847,7 +803,7 @@
 "pub": "2026-11-15T21:40:45+09:00",
 "region": "평창",
 "period": "",
-"score": 3.27,
+"score": 3.16,
 "id": "n3a01b11d47",
 "new": false
 },
@@ -859,7 +815,7 @@
 "pub": "2026-11-15T18:16:08+09:00",
 "region": "양산",
 "period": "",
-"score": 6.13,
+"score": 6.02,
 "id": "n206b605f7d",
 "new": false
 },
@@ -871,19 +827,19 @@
 "pub": "2026-11-15T17:09:50+09:00",
 "region": "",
 "period": "",
-"score": 4.09,
+"score": 3.98,
 "id": "n68ff41bee0",
 "new": false
 },
 {
-"cat": "show",
+"cat": "festival",
 "title": "광주 치평초 등 전국 9개교 대학로 무대에…어린이 연극잔치 본선 개막",
 "source": "진일보 | 전남일보",
 "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1HOE5rNTk0cW50cHFfNkNIdVpRZ1hBblM3ZnJ4SVUzczUyTWZVZ0NsMm0xTHAyTFZnTnVESDVsMFZTeWE4M2xCY3VnWnZvVlN6Z0RCeENiWG40QzNLUDJBc2JxY0NRNEw4Y1BfSVN0cw?oc=5",
 "pub": "2026-11-15T16:12:21+09:00",
 "region": "광주",
 "period": "",
-"score": 6.05,
+"score": 5.94,
 "id": "ne9c796d6bd",
 "new": false
 },
@@ -895,7 +851,7 @@
 "pub": "2026-11-15T15:20:13+09:00",
 "region": "대전",
 "period": "",
-"score": 6.01,
+"score": 5.9,
 "id": "n2f183114e5",
 "new": false
 },
@@ -907,7 +863,7 @@
 "pub": "2026-11-15T11:58:58+09:00",
 "region": "광주",
 "period": "",
-"score": 7.87,
+"score": 7.76,
 "id": "n9b29701be2",
 "new": false
 },
@@ -919,7 +875,7 @@
 "pub": "2026-11-15T10:36:09+09:00",
 "region": "속초",
 "period": "",
-"score": 2.81,
+"score": 2.7,
 "id": "n1b6e1140fa",
 "new": false
 },
@@ -931,7 +887,7 @@
 "pub": "2026-11-15T09:00:00+09:00",
 "region": "김해",
 "period": "",
-"score": 8.75,
+"score": 8.64,
 "id": "n0edc58fdb6",
 "new": false
 },
@@ -943,7 +899,7 @@
 "pub": "2026-11-14T22:33:00+09:00",
 "region": "전남",
 "period": "",
-"score": 2.31,
+"score": 2.2,
 "id": "n979d6f4206",
 "new": false
 },
@@ -955,7 +911,7 @@
 "pub": "2026-11-14T15:11:00+09:00",
 "region": "서울",
 "period": "",
-"score": 2.0,
+"score": 1.89,
 "id": "nedb707da82",
 "new": false
 },
@@ -967,7 +923,7 @@
 "pub": "2026-11-14T15:00:00+09:00",
 "region": "서울",
 "period": "",
-"score": 4.0,
+"score": 3.89,
 "id": "n9077877da0",
 "new": false
 },
@@ -979,20 +935,8 @@
 "pub": "2026-11-14T14:49:04+09:00",
 "region": "부산",
 "period": "",
-"score": 3.99,
+"score": 3.88,
 "id": "ned377c4477",
-"new": false
-},
-{
-"cat": "show",
-"title": "양자과학 어린이 눈높이로…국립과천과학관 전시",
-"source": "연합뉴스TV",
-"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCM3IzUnNBT29heWtxVGQ3TXJfZHN4ZGFqSmZTSTBZNWpFeWVDd1dMRDVzRk9CbG9aMGlXQlFXUVhiVElNa3g2T25kdVh0WnljZWIxcmRyRDZqT2R3b09Eb0FIWGJJN00?oc=5",
-"pub": "2026-11-14T13:47:00+09:00",
-"region": "",
-"period": "",
-"score": 1.95,
-"id": "ne48208a232",
 "new": false
 },
 {
@@ -1003,20 +947,8 @@
 "pub": "2026-11-14T08:00:00+09:00",
 "region": "대구",
 "period": "19~20일",
-"score": 6.7,
+"score": 6.59,
 "id": "nd2d40a023b",
-"new": false
-},
-{
-"cat": "show",
-"title": "부산시설공단, 부산복합문화공간 새모서'놀이로 발견하는-천재들의 생각비법' 전시 선보인다",
-"source": "뉴스에이",
-"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByUndKTS1iU0ZNaGI2NE5ZaGNHNlU1RkRlNERDdVV4NmMzZVBTZDR0MmllSzQtdkhvYkhxanZkSDFrWFRtUXBZVUliX1BqODl4MzlXU1pmMGlxZ2twMFNiVE9FREt4TnltZ1E?oc=5",
-"pub": "2026-11-14T05:02:03+09:00",
-"region": "부산",
-"period": "",
-"score": 4.58,
-"id": "nba06ddcc77",
 "new": false
 },
 {
@@ -1027,7 +959,7 @@
 "pub": "2026-11-13T19:29:00+09:00",
 "region": "아산",
 "period": "",
-"score": 8.18,
+"score": 8.07,
 "id": "n465f54eaf3",
 "new": false
 },
@@ -1039,7 +971,7 @@
 "pub": "2026-11-13T18:47:00+09:00",
 "region": "안동",
 "period": "",
-"score": 6.15,
+"score": 6.04,
 "id": "n19fcf5de9b",
 "new": false
 },
@@ -1051,7 +983,7 @@
 "pub": "2026-11-13T18:05:00+09:00",
 "region": "전주",
 "period": "",
-"score": 6.12,
+"score": 6.01,
 "id": "nce44e7466f",
 "new": false
 },
@@ -1063,7 +995,7 @@
 "pub": "2026-11-13T17:16:06+09:00",
 "region": "",
 "period": "",
-"score": -0.91,
+"score": -1.02,
 "id": "n5b0e708cf0",
 "new": false
 },
@@ -1075,7 +1007,7 @@
 "pub": "2026-11-13T14:35:50+09:00",
 "region": "인천",
 "period": "",
-"score": 4.98,
+"score": 4.87,
 "id": "n0e62b4dedd",
 "new": false
 },
@@ -1087,9 +1019,21 @@
 "pub": "2026-11-13T12:33:00+09:00",
 "region": "서울",
 "period": "",
-"score": 5.89,
+"score": 5.78,
 "id": "nf47909deac",
 "new": false
+},
+{
+"cat": "kidscafe",
+"title": "구로구 최초 ‘공원형 키즈카페’ 선보여",
+"source": "시정일보",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MNk94Y0hfcHJFdEVJRzVZekdGcGl4UzRXSVd2dnQzenJTR3gta1ZEMmtqUXNtMnZPQzBSMmhxZXNtZzBQNE5WNWtOY3oyVmZfNThxLXpnQmU5M0VJTVhPcXNTbjhjVWg3dkdF?oc=5",
+"pub": "2026-11-13T12:07:00+09:00",
+"region": "",
+"period": "",
+"score": 1.77,
+"id": "n217da11f55",
+"new": true
 },
 {
 "cat": "kidscafe",
@@ -1099,7 +1043,7 @@
 "pub": "2026-11-12T22:04:54+09:00",
 "region": "창원",
 "period": "",
-"score": 4.29,
+"score": 4.18,
 "id": "n4628a51892",
 "new": false
 },
@@ -1111,7 +1055,7 @@
 "pub": "2026-11-12T17:57:12+09:00",
 "region": "구미",
 "period": "",
-"score": 3.12,
+"score": 3.01,
 "id": "n543540d47f",
 "new": false
 },
@@ -1123,7 +1067,7 @@
 "pub": "2026-11-12T17:44:32+09:00",
 "region": "인천",
 "period": "",
-"score": 5.11,
+"score": 5.0,
 "id": "n1425b71dca",
 "new": false
 },
@@ -1135,7 +1079,7 @@
 "pub": "2026-11-12T14:29:26+09:00",
 "region": "충주",
 "period": "",
-"score": 1.97,
+"score": 1.86,
 "id": "n126d577a08",
 "new": false
 },
@@ -1147,7 +1091,7 @@
 "pub": "2026-11-12T14:04:27+09:00",
 "region": "",
 "period": "",
-"score": 4.96,
+"score": 4.85,
 "id": "n48daa725c6",
 "new": false
 },
@@ -1159,20 +1103,8 @@
 "pub": "2026-11-12T13:45:52+09:00",
 "region": "서울",
 "period": "",
-"score": -0.06,
+"score": -0.17,
 "id": "n8664a29ece",
-"new": false
-},
-{
-"cat": "show",
-"title": "울산문화예술회관, 어린이 창작연극 '다섯 빛을 품은 아이, 처용' 공연",
-"source": "뉴스21 통신",
-"url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQmtCMUdEemxqa2M0UHlTeDduZVVjU0k2N3hpU0JlTzBialZfS1pJQmFsMi1QOVh4aXJZZGFrMmk3X0Z3LTh0MVUzOHVWT0lDY2hOV2ZB?oc=5",
-"pub": "2026-11-12T13:18:53+09:00",
-"region": "울산",
-"period": "",
-"score": 1.93,
-"id": "n202fde88f3",
 "new": false
 },
 {
@@ -1183,7 +1115,7 @@
 "pub": "2026-11-12T11:22:02+09:00",
 "region": "서울",
 "period": "",
-"score": -0.16,
+"score": -0.27,
 "id": "ncb4871dd76",
 "new": false
 },
@@ -1195,7 +1127,7 @@
 "pub": "2026-11-12T10:00:00+09:00",
 "region": "",
 "period": "",
-"score": -2.21,
+"score": -2.32,
 "id": "n704f92cf5a",
 "new": false
 },
@@ -1207,33 +1139,9 @@
 "pub": "2026-11-12T09:07:26+09:00",
 "region": "경기",
 "period": "",
-"score": 4.75,
+"score": 4.64,
 "id": "ne4095e761f",
 "new": false
-},
-{
-"cat": "festival",
-"title": "'나를 찾아 떠나는 여행' 11월 28일 '개최'… 원주 어린이 위한 체험형 음악극",
-"source": "gukjenews.com",
-"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzNnNJYjliQzRPVURRMm02emZYUUhhM1R0VEk4R3lobTVQeVZELTl1SmU3TWZWN2ZFQ3FDR2pNeVVjOWQ5NHpXcUVmWTlOSVN4RjZIMU1NbnBybEtUeC00UGIwTi14ZUF6OEdxYTRR?oc=5",
-"pub": "2026-11-12T09:04:22+09:00",
-"region": "원주",
-"period": "",
-"score": 4.75,
-"id": "n821a2edd38",
-"new": false
-},
-{
-"cat": "festival",
-"title": "\"오늘은 나도 소방관\"…대전서부소방서, 직원 자녀 초청 체험행사",
-"source": "뉴스핌",
-"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2cmRZWi1UNUlDSGh3RlpnX1FMZnJhUTBIWnhhZEhLMVFwWWRiVjQ3V21Sdlo4c3h0d1VlRnEtV1E5SUQzekt4U0p6QkNaY3c4aktwbE5KVnVKLVdQ?oc=5",
-"pub": "2026-11-11T17:48:00+09:00",
-"region": "대전",
-"period": "",
-"score": 4.11,
-"id": "n960d709020",
-"new": true
 },
 {
 "cat": "trend",
@@ -1243,7 +1151,7 @@
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "period": "",
-"score": -2.95,
+"score": -3.06,
 "id": "n93b449af25",
 "new": false
 },
@@ -1255,7 +1163,7 @@
 "pub": "2026-11-11T14:50:05+09:00",
 "region": "서울",
 "period": "",
-"score": 3.99,
+"score": 3.88,
 "id": "n5d6ec9bd1b",
 "new": false
 },
@@ -1267,7 +1175,7 @@
 "pub": "2026-11-11T13:04:23+09:00",
 "region": "",
 "period": "",
-"score": -3.08,
+"score": -3.19,
 "id": "nffb7d5067d",
 "new": false
 },
@@ -1279,9 +1187,21 @@
 "pub": "2026-11-11T10:10:06+09:00",
 "region": "",
 "period": "",
-"score": -3.21,
+"score": -3.32,
 "id": "nf82b96c4bd",
 "new": false
+},
+{
+"cat": "kidscafe",
+"title": "공공 키즈놀이터 대박인데 “뒷감당 어쩌죠?”",
+"source": "광주드림",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PSjZrX1VwQTlZSFA0VlZmZF9lY2hYaXN2VDFtUEYwSWlsdmxxZHFRbWxLQ3JCMGxON2NPSDZqOHhXZkowakJad3c2ZDg2S05LOC1OVHJ2NW9ObFdsU1FUS05RWVVvWnRkQmc?oc=5",
+"pub": "2026-11-11T00:10:00+09:00",
+"region": "",
+"period": "",
+"score": -1.73,
+"id": "ned08238e93",
+"new": true
 },
 {
 "cat": "festival",
@@ -1291,7 +1211,7 @@
 "pub": "2026-11-10T19:27:00+09:00",
 "region": "부산",
 "period": "",
-"score": 5.18,
+"score": 5.07,
 "id": "n488aaf9c9c",
 "new": false
 },
@@ -1303,7 +1223,7 @@
 "pub": "2026-11-10T17:35:18+09:00",
 "region": "파주",
 "period": "",
-"score": -1.9,
+"score": -2.01,
 "id": "n7b86845fe9",
 "new": false
 },
@@ -1315,21 +1235,21 @@
 "pub": "2026-11-10T11:02:59+09:00",
 "region": "",
 "period": "",
-"score": 0.83,
+"score": 0.72,
 "id": "n9a51a65858",
 "new": false
 },
 {
-"cat": "festival",
-"title": "과학과 예술이 만나는 특별한 하루...구미어린이과학체험관, 가족 과학문화 축제 개최",
-"source": "프레시안",
-"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BQ0hQaFFYVlpZb1lic0F6VVY1SS1sY25BM0NaMTNlNjZ5WXhhN2RMZFNoX1A2VXVFc2pqNzMyWkJpVEJlWlNPTDg4d0pwa3cwWkJQMnFrRFczd1hDT21WcUxRM2FHYXJaYWk4?oc=5",
-"pub": "2026-11-10T10:08:44+09:00",
-"region": "구미",
+"cat": "kidscafe",
+"title": "서울시 저출생 대책 확장…키즈카페 430곳·미리내집 1.7만호",
+"source": "연합뉴스",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnZXZVMXFhbV9yZWJ4QzYyeGF6QWtHWmpjTGQ4TWdlSmFocVR1Y1REcDMySGZ6T3ZmNGNKRnlWa0dyX3NBVHFQVHRDbUduTG9DNEFIampiV2Q0aUXSAWBBVV95cUxQUTNhcTBkeUM5dkIta1FOR3M3VWxKOUNncDFadGs0RkVSQmNQbmRCUG9ZM3RCTUVuZzVaeXAwUWJkQktmUWpzcTBkVHB1WlJTZmpMaDJ4TjFpNFQ5UnJhamI?oc=5",
+"pub": "2026-11-10T10:30:00+09:00",
+"region": "서울",
 "period": "",
-"score": 4.79,
-"id": "n5a990b88bd",
-"new": false
+"score": -2.3,
+"id": "n4f1169254b",
+"new": true
 }
 ]
 }

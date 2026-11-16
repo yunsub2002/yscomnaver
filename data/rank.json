@@ -1,150 +1,150 @@
 {
- "updated": "2026-11-16T15:06:00+09:00",
- "prev_updated": "2026-11-16T13:10:00+09:00",
+ "updated": "2026-11-16T17:45:00+09:00",
+ "prev_updated": "2026-11-16T15:06:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "은행",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "신랑",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "IBK기업은행 '매월 이자주는 통장' 출시…연 3.85% 금리",
-     "url": "https://www.yna.co.kr/view/AKR20261116072100002",
-     "source": "연합뉴스"
+     "title": "\"야 너 이리 와\"…결혼식 날 신랑에게 엎드려뻗쳐 시킨 신부 이모부",
+     "url": "https://www.news1.kr/society/general-society/6355215",
+     "source": "뉴스1"
     },
     {
-     "title": "IBK기업은행, ‘매월 이자주는 통장’ 출시…“목돈은 그대로, 이자는 생활비처럼”",
-     "url": "https://www.donga.com/news/Economy/article/all/20261116/135030841/1",
-     "source": "동아일보"
+     "title": "“살면서 듣도 보도 못했다, 내 가족이 봤다면...” 신랑이 결혼식서 신부 이모부에게 당한 일",
+     "url": "https://www.wikitree.co.kr/articles/1175001",
+     "source": "위키트리"
     },
     {
-     "title": "매달 생활비처럼 이자 받는다…기업은행, 중금채 신상품 출시",
-     "url": "https://www.mk.co.kr/news/economy/12209883",
-     "source": "매일경제"
+     "title": "하정우, 결혼 한 달 앞두고 확 달라졌다…“살 많이 빠졌네”",
+     "url": "https://www.segye.com/newsView/20261109502145",
+     "source": "세계일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "배구",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "뉴스",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "마나베 IBK기업은행 감독의 ‘데이터 배구’, V리그 강타중",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261113010005342",
-     "source": "아시아투데이"
+     "title": "[뉴스포커스] 11월1６일 다시보기",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116141042CpO",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "IBK, 흥국생명에 3-0 완승…4연승 질주",
-     "url": "https://www.yna.co.kr/view/MYH20261113023500038",
-     "source": "연합뉴스"
+     "title": "뉴스투데이│2026년 11월 16일 (월)",
+     "url": "https://jejumbc.com/NewsArticle/873426",
+     "source": "제주MBC"
     },
     {
-     "title": "[사진]빈틈 공략하는 이소영의 공격",
-     "url": "https://biz.chosun.com/sports/sports_photo/2026/11/13/GY2DGMRXG5RDEMLDGZRGIMRUGY/",
-     "source": "Chosunbiz"
+     "title": "2026년 11월 16일 주간 – 2026년 11월 22일 주간",
+     "url": "https://www.vietnam.vn/ko/tuan-16-11-2026-22-11-2026",
+     "source": "Vietnam.vn"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "삼성sdi",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "김지수",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "삼성SDI, 미국 주피터파워에 ESS용 LFP 배터리 16GWh 공급",
-     "url": "https://www.khan.co.kr/article/202611161404001",
-     "source": "경향신문"
+     "title": "\"음주운전 두 번·만취 인터뷰까지\"…김지수, 2년 만에 예능 복귀 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/16/2026111612520380605",
+     "source": "머니투데이"
     },
     {
-     "title": "HD현대, 북미 청정에너지 전시회서 태양광 모듈 등 공개",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261116141357ApQ",
-     "source": "연합뉴스TV"
+     "title": "김지수·유이·클라라, ‘솔로라서2’ 합류… 프라하 CEO부터 2조 흥행 배우까지 반전 일상",
+     "url": "https://www.viva100.com/article/20261116500510",
+     "source": "브릿지경제"
     },
     {
-     "title": "발전부터 전력망까지 한자리에…HD현대, 북미 전력시장 공략",
-     "url": "https://zdnet.co.kr/view/?no=20261116113503",
-     "source": "지디넷코리아"
+     "title": "김지수, 체코 프라하서 여행사 CEO 변신…직접 가이드까지",
+     "url": "https://sports.donga.com/ent/article/all/20261116/135029575/1",
+     "source": "스포츠동아"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 4,
-   "keyword": "숙박",
+   "keyword": "검사",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "BTS 공연 때처럼 숙박 예약 일방 취소 안 된다‥총요금 200% 배상",
-     "url": "https://imnews.imbc.com/news/2026/econo/article/6865938_36932.html",
-     "source": "MBC 뉴스"
+     "title": "[단독]與TF, 새 형소법 40여일만에 ‘경찰 모든 수사기록 검사에 전달’ 검토",
+     "url": "https://www.donga.com/news/Politics/article/all/20261116/135028760/2",
+     "source": "동아일보"
     },
     {
-     "title": "소비자분쟁해결기준 개정안 행정예고",
-     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=457051",
-     "source": "서울Pn"
+     "title": "검찰 수사권 폐지하더니…與, '경찰 모든 수사기록 검사에 전달' 논의",
+     "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/16/2026111690083.html",
+     "source": "TV조선뉴스"
     },
     {
-     "title": "행사 앞두고 숙박 예약 일방 취소?…공정위 “요금 200% 배상”",
-     "url": "https://www.kyeonggi.com/article/20261116580248",
-     "source": "경기일보"
+     "title": "與경찰개혁TF, 경찰 수사기록 전부 '공소청 검토' 추진…경찰대 폐지도 공감대",
+     "url": "https://www.news1.kr/politics/assembly/6354803",
+     "source": "뉴스1"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 5,
-   "keyword": "대한민국",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "keyword": "캄보디아",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "조지현 박사, K-푸드 대한민국 '남도음식 명장' 선정",
-     "url": "https://www.ikbc.co.kr/article/view/kbc202611160051",
-     "source": "KBC광주방송"
+     "title": "수원시 의료봉사단, 캄보디아 수원마을서 민관 의료 봉사 활동 전개",
+     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041013",
+     "source": "기호일보"
     },
     {
-     "title": "월남전 참전용사 \"명예수당 5만원 인상?...대폭 인상해야\"",
-     "url": "https://www.chosun.com/politics/politics_general/2026/11/11/7XNZN4MMDZA27HTSRB7QBUL2IU/",
-     "source": "조선일보"
+     "title": "수원 의료진 32명, 캄보디아 자매도시서 주민 진료",
+     "url": "https://www.newsis.com/view/NISX20261116_0003869726",
+     "source": "뉴시스"
     },
     {
-     "title": "대한민국의 오늘을 지켜낸 참전영웅, 이제는 합당한 예우로 보답해야 한다",
-     "url": "https://www.dkilbo.com/news/articleView.html?idxno=560857",
-     "source": "대경일보"
+     "title": "수원시, 캄보디아 시엠립 수원마을서 민관 의료봉사…800명 진료",
+     "url": "https://www.yna.co.kr/view/AKR20261116106300061",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "한동훈 장인",
+   "keyword": "검찰",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "사회·정치",
@@ -153,82 +153,26 @@
    "delta": 0,
    "news": [
     {
-     "title": "‘한동훈 장인’ 진형구 별세…생전 “검찰이 파업 유도” 폭탄발언도",
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1287380.html",
-     "source": "한겨레"
+     "title": "홈플러스 사태·盧 비자금 은닉 의혹… 45일 남기고 ‘수사 액셀’ 밟는 공소청",
+     "url": "https://www.chosun.com/national/court_law/2026/11/16/LFGRSWBDXRFZPAG5OCO42UBOCQ/",
+     "source": "조선일보"
     },
     {
-     "title": "오늘의 부고-김연희 국토교통부 홍보담당관 모친상 외",
-     "url": "https://www.khan.co.kr/article/202611151256001",
-     "source": "경향신문"
+     "title": "‘대형 기업수사’ 연내 처분…중수청에 안넘긴다",
+     "url": "https://www.sedaily.com/article/20114551",
+     "source": "서울경제"
     },
     {
-     "title": "[부음]한동훈(국회의원)씨 빙부상",
-     "url": "https://www.etnews.com/20261115000060",
-     "source": "전자신문"
+     "title": "검찰 직접수사 유예기간 45일…공소청, 미이관 주요 사건 처리 속도전",
+     "url": "https://www.thepublic.kr/news/articleView.html?idxno=326907",
+     "source": "더퍼블릭"
     }
    ],
    "safe": false
   },
   {
    "rank": 7,
-   "keyword": "개인정보",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "한국조폐공사 모바일 상품권 ‘착’, 해킹으로 3083명 개인정보 유출",
-     "url": "https://www.boannews.com/news/articleView.html?idxno=147268",
-     "source": "보안뉴스"
-    },
-    {
-     "title": "조폐공사 \"'chak' 정보 유출 사고는 API 인증 허점 노린 공격\"",
-     "url": "https://stock.mk.co.kr/news/view/1199429",
-     "source": "매일경제 마켓"
-    },
-    {
-     "title": "조폐공사, 지역화폐 '착' 개인정보 3083명 유출 “API 인증 허점 악용”",
-     "url": "https://www.etnews.com/20261116000262",
-     "source": "전자신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "용인반도체클러스터",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[르포] 양산 검증 장벽 허문다…SK하이닉스가 용인에 품은 '상생의 팹'",
-     "url": "https://zdnet.co.kr/view/?no=20261113134910",
-     "source": "지디넷코리아"
-    },
-    {
-     "title": "8,700억 들인 반도체 시험장…소부장 키운다",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116091456N2l",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "하이닉스 \"내년 용인 팹 가동\"...내부 협력업체 공간도",
-     "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611161104164083",
-     "source": "YTN 사이언스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "건강 수명",
+   "keyword": "박지윤",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
@@ -237,26 +181,26 @@
    "delta": 0,
    "news": [
     {
-     "title": "전남광주 농어촌과 경기 신도시, 건강수명 ‘12년 격차’",
-     "url": "https://www.hani.co.kr/arti/society/health/1287463.html",
-     "source": "한겨레"
+     "title": "최동석, 박지윤 지인 상대 상간 소송 2심 일부 승소…1심 뒤집혔다 - 머니투데이",
+     "url": "https://www.mt.co.kr/society/2026/11/16/2026111615464396280",
+     "source": "머니투데이"
     },
     {
-     "title": "\"가난하면 검진도 못 받아\"‥'건강도 불평등'",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6865818_37004.html",
-     "source": "MBC 뉴스"
+     "title": "최동석, 박지윤 지인 상대 상간 소송 항소심 일부 승소",
+     "url": "https://www.hankyung.com/article/2026111695337",
+     "source": "한국경제"
     },
     {
-     "title": "사는 곳 따라 건강수명 12년 차이…분당 72.8세, 영광 60.9세",
-     "url": "https://www.abcn.kr/news/articleView.html?idxno=94572",
-     "source": "ABC뉴스"
+     "title": "“불륜 없다” 했는데… 최동석, ‘박지윤 男지인’ 상간 소송 1심 뒤집고 ‘일부 승소’",
+     "url": "https://www.seoul.co.kr/news/society/law/2026/11/16/20261116500286",
+     "source": "서울신문"
     }
    ],
    "safe": true
   },
   {
-   "rank": 10,
-   "keyword": "공군사관학교",
+   "rank": 8,
+   "keyword": "(주)명륜당",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -265,22 +209,22 @@
    "delta": 0,
    "news": [
     {
-     "title": "공군사관학교, 2027학년도 제79기 공군사관생도 우선선발 합격자 발표…19일 오후 5시 등록 마감",
-     "url": "https://www.kyobit.com/news/articleView.html?idxno=8176",
-     "source": "교육을 비추다"
+     "title": "서울중수청, 명륜당 본사 압수수색…대부업체 부당 지원 의혹",
+     "url": "https://news.jtbc.co.kr/article/NB12328220",
+     "source": "JTBC"
     },
     {
-     "title": "[2027대입] 공군사관학교, 13일 우선선발 합격자 발표.. 등록 19일 오후 5시까지",
-     "url": "https://www.hanibnews.com/news/articleView.html?idxno=1172",
-     "source": "한입신문"
+     "title": "[속보]서울중수청, ‘대부업체 부당지원 의혹’ 명륜진사갈비 압수수색",
+     "url": "https://www.khan.co.kr/article/202611161016001",
+     "source": "경향신문"
     },
     {
-     "title": "[보도정정] 국군사관학교 창설 기본계획 수정안은 확정된 바 없으며 각군 총장을 비롯하여 다양한 계층의 의견을 수렴하고 있습니다.",
-     "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148975649",
-     "source": "대한민국 정책브리핑"
+     "title": "중수청, '내부거래 의혹' 명륜당 본사 압수수색",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6865933_36918.html",
+     "source": "MBC 뉴스"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
