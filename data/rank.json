@@ -1,44 +1,72 @@
 {
- "updated": "2026-11-17T07:46:00+09:00",
- "prev_updated": "2026-11-17T06:47:00+09:00",
+ "updated": "2026-11-17T08:07:00+09:00",
+ "prev_updated": "2026-11-17T07:46:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "날씨",
-   "traffic": "100000+",
-   "label": "약 10만 회 이상",
+   "traffic": "200000+",
+   "label": "약 20만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "대구·경북 흐리고 밤부터 비…낮 최고 13∼17도",
-     "url": "https://www.yna.co.kr/view/AKR20261117007400053",
+     "title": "“출근길 우산 챙기세요”····전국 대체로 흐리고 비",
+     "url": "https://www.khan.co.kr/article/202611170742001",
+     "source": "경향신문"
+    },
+    {
+     "title": "강원, 대체로 흐리고 비…낮 최고 16도",
+     "url": "https://www.yna.co.kr/view/AKR20261117009000062",
      "source": "연합뉴스"
     },
     {
      "title": "[날씨] 전국 오후부터 비…수능일 곳곳 영하권 추위",
      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261117070140Vpr",
      "source": "연합뉴스TV"
-    },
-    {
-     "title": "전국 흐리고 오후부터 비‥늦은 밤 차차 그쳐",
-     "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6866121_36989.html",
-     "source": "MBC 뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "황보라",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "환승",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753979",
+     "source": "국제뉴스"
+    },
+    {
+     "title": "추미애 경기지사, 42조1946억원 본예산안 설명…정부·국회에 재정대책 촉구",
+     "url": "https://www.etnews.com/20261117000004",
+     "source": "전자신문"
+    },
+    {
+     "title": "경기도, 본예산 수치로 드러난 재정난…국비 매칭과 복지 예산 ‘절반’ 육박",
+     "url": "https://www.kyeonggi.com/article/20261116580547",
+     "source": "경기일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 3,
+   "keyword": "황보라",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "황보라 子, 놀이공원서 바지 탈의 후 활보 \"이건 안 돼\"(보라이어티)",
@@ -59,14 +87,14 @@
    "safe": true
   },
   {
-   "rank": 3,
+   "rank": 4,
    "keyword": "부산날씨",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "부산·울산·경남 흐리고 아침까지 비…밤부터 가끔 비",
@@ -82,34 +110,6 @@
      "title": "울산, 가끔 구름 많고 오후부터 비… 예상 강수량 5~20mm",
      "url": "https://ujnews.co.kr/news/newsview.php?ncode=1065571148383053",
      "source": "울산종합일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "범죄",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "인천시, 흉기난동 피해자들에 긴급구호금 5천만원 지원(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261116019151065",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "인천시, 신한은행 기탁금 활용해 범죄 피해 시민 돕는다…상해 정도따라 구호금",
-     "url": "https://www.kyeonggi.com/article/20261116580068",
-     "source": "경기일보"
-    },
-    {
-     "title": "인천시, 범죄 피해 구호 사각지대 해소…중증 피해 가구 최대 3000만원 지원",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1336879",
-     "source": "인천일보"
     }
    ],
    "safe": true
