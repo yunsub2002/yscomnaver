@@ -1,94 +1,78 @@
 {
- "updated": "2026-11-17T08:42:00+09:00",
- "prev_updated": "2026-11-17T08:07:00+09:00",
+ "updated": "2026-11-17T10:00:00+09:00",
+ "prev_updated": "2026-11-17T08:42:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "날씨",
-   "traffic": "200000+",
-   "label": "약 20만 회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
+   "keyword": "축구",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“출근길 우산 챙기세요”····전국 대체로 흐리고 비",
-     "url": "https://www.khan.co.kr/article/202611170742001",
-     "source": "경향신문"
+     "title": "모레노 감독 고별전? 카타르와 올해 마지막 A매치",
+     "url": "https://www.chosun.com/sports/football/2026/11/17/EMNOIJYBCZFXXKQM3SMGWIPUDA/",
+     "source": "조선일보"
     },
     {
-     "title": "[날씨] 전국 온화하지만 오후부터 비…수능일 기온 ’뚝’",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH202611170805066Si",
+     "title": "카타르전 앞둔 황인범 “올해 많은 일들…선수들이 해결해야 한다”",
+     "url": "https://www.hani.co.kr/arti/sports/soccer/1287652.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "손흥민·이강인 반등 실패…’무색무취’ 모레노, 끝이 보인다",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116212054JzE",
      "source": "연합뉴스TV"
-    },
-    {
-     "title": "강원, 대체로 흐리고 비…낮 최고 16도",
-     "url": "https://www.yna.co.kr/view/AKR20261117009000062",
-     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "환승",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "경기 버스 환승할인비 내년 8개월치만 담아…추미애, 재정 쥐어짜 민생예산 편성",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753979",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "경기도, MBC 예산 보도 반박…조정 신청·고발 예고",
-     "url": "https://www.newstown.co.kr/news/articleView.html?idxno=722180",
-     "source": "뉴스타운"
-    },
-    {
-     "title": "[브리핑 하이라이트] 2027년 본예산안 편성 관련 기자회견",
-     "url": "https://gnews.gg.go.kr/news/news_detail.do?number=202611161748435016C071&s_code=daily",
-     "source": "경기도뉴스포털"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "황보라",
+   "keyword": "폭싹 속았수다",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
+   "move": "new",
+   "delta": 0,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "어벤져스",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "황보라 子, 놀이공원서 바지 탈의 후 활보 \"이건 안 돼\"(보라이어티)",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/16/MUZDQMZXGJQTKNJSGZQTSMLBGU/",
+     "title": "'어벤져스: 둠스데이', 압도적인 스케일 기대…서로 다른 세계의 히어로들 총집결",
+     "url": "https://www.chosun.com/entertainments/movie/2026/11/16/G4ZDQNRSMQ3DGM3GGJTDQYTCMI/",
      "source": "조선일보"
     },
     {
-     "title": "황보라, 2살 아들 롯데월드서 바지 훌렁…“이건 안 돼” 당황",
-     "url": "https://sports.donga.com/ent/article/all/20261117/135036009/1",
-     "source": "스포츠동아"
+     "title": "'토르' 헴스워스, 무서워서 못 와? 외국인 눈에 비친 '휴전' 한국 [영화있슈] - 머니투데이",
+     "url": "https://www.mt.co.kr/culture/2026/11/17/2026111614230524371",
+     "source": "머니투데이"
     },
     {
-     "title": "놀이공원서 바지 탈의..황보라, 子 돌발행동에 백기→내복 차림으로 활보",
-     "url": "https://www.sportschosun.com/entertainment/2026-11-16/202611160100106410009835",
-     "source": "스포츠조선"
+     "title": "마블과 크록스의 만남, '닥터 둠' 클래식 클로그 출시",
+     "url": "https://hypebeast.kr/2026/11/marvel-crocs-classic-clog-doctor-doom-212995-90h-official-look-release-info",
+     "source": "Hypebeast.KR"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "앤트로픽 상장일",
+   "keyword": "변동성",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "경제·재테크",
@@ -97,47 +81,159 @@
    "delta": 0,
    "news": [
     {
-     "title": "121조 노리는 앤트로픽 IPO...중국·홍콩 기관투자자 청약 배제",
-     "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611161600490528",
-     "source": "YTN 사이언스"
+     "title": "\"주식시장 변동성, 위기 아닌 기회… 역발상 투자로 손실 만회할 때\"",
+     "url": "https://www.chosun.com/economy/money/2026/11/17/KSINDNN225EURDSORYINN2AUWA/",
+     "source": "조선일보"
     },
     {
-     "title": "美 로펌 앤트로픽 지분 받아 ‘잭팟’… “돈 대신 주식 달라” 국내도 확산",
-     "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=229146",
-     "source": "법률신문"
+     "title": "\"이런 폭락장 뒤엔 항상 반전 있었다\"…1년 뒤 웃을 종목은 [한경우의 케이스스터디]",
+     "url": "https://www.hankyung.com/article/2026111350516",
+     "source": "한국경제"
     },
     {
-     "title": "몸값 1.4조달러 노리는 앤스로픽…'클로드'로 얼마나 벌까",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01131606645646704",
-     "source": "마켓인"
+     "title": "등락 반복하는 증시...대응 전략도 달라져야 할 때",
+     "url": "https://www.asiae.co.kr/article/2026111613172018519",
+     "source": "아시아경제"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "부산날씨",
+   "keyword": "수원 fc",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[단독]시민구단 아닌 ‘시장님 구단’… 치적 쌓으려 추경까지 받아 돈 댔다",
+     "url": "https://www.chosun.com/national/national_general/2026/11/17/UDECO7N2KVHUVADPGTSE6IMSHY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "축구단 주요 보직을 선거 전리품으로… 일부 지자체장, 측근들 꽂아넣어",
+     "url": "https://www.chosun.com/national/national_general/2026/11/17/UG6BLDLWSJCSNMMZPZQE7S6EUI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "리그 2위에도 홈관중 1,605명…수원FC, 시 지원금은 150억 원",
+     "url": "https://www.youthassembly.kr/news/1034885",
+     "source": "유스연합"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "쇼트트랙",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘국대 마지막 시즌’ 최민정, 세계 1위까지 16점…안방서 역전 노린다",
+     "url": "https://view.asiae.co.kr/article/2026110610515768268",
+     "source": "아시아경제"
+    },
+    {
+     "title": "대한빙상경기연맹, KB금융그룹과 함께 'KB금융-ISU 쇼트트랙 월드투어 서울 2026/27'개최",
+     "url": "http://www.eduyonhap.com/news/view.php?no=105458",
+     "source": "교육연합신문"
+    },
+    {
+     "title": "쇼트트랙 월드투어 2026/27: 서울 3차 대회 경기 일정 및 관전 포인트",
+     "url": "https://www.olympics.com/ko/news/team-korea-preview-schedule-isu-short-track-world-tour-seoul-2026",
+     "source": "Olympic Channel"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "수능일",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "down",
-   "delta": -1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "부산·울산·경남 흐리고 아침까지 비…밤부터 가끔 비",
-     "url": "https://www.yna.co.kr/view/AKR20261117008900052",
-     "source": "연합뉴스"
+     "title": "수능 3일 앞으로...시험 문제지·답안지 이송 시작",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0103_202611160612338508_005.html",
+     "source": "YTN"
     },
     {
-     "title": "오늘의 날씨- 2026년 11월 17일",
-     "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261117.22016004933",
-     "source": "국제신문"
+     "title": "서울시, 수능일 지하철 27회 증편‥차량 614대 지원",
+     "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6866000_36974.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "부산, 흐리고 가끔 비…예상강수량 5㎜ 안팎",
-     "url": "https://www.newsis.com/view/NISX20261117_0003870644",
-     "source": "뉴시스"
+     "title": "경기도내 지자체·경찰 수능 앞두고 종합대책 시동",
+     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041132",
+     "source": "기호일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "한국투자증권",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "한국투자증권, 유튜브 '한국인의 연금' 통해 시황 라이브 진행",
+     "url": "https://www.etnews.com/20261117000054",
+     "source": "전자신문"
+    },
+    {
+     "title": "한투증권, 유튜브 '한국인의 연금'서 매주 화요일 시황 라이브",
+     "url": "https://core.asiae.co.kr/article/2026111709111366247",
+     "source": "아시아경제"
+    },
+    {
+     "title": "한국투자증권, 연금 운용에 시장 진단·리밸런싱 접목..매주 라이브 세미나",
+     "url": "https://kpenews.com/View.aspx?No=4315615",
+     "source": "한국정경신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "엘리베이터",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "스마트 엘리베이터 및 에스컬레이터 시장의 15개 기업",
+     "url": "https://www.sphericalinsights.com/ko/blogs/top-15-companies-in-global-smart-elevators-and-escalators-market-2026-2035-expert-view-by-spherical-insights",
+     "source": "Spherical Insights"
+    },
+    {
+     "title": "승강기 산업, '애프터마켓'으로 무게중심 이동…현대엘리베이터 마진 개선",
+     "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=11283",
+     "source": "리드경제"
+    },
+    {
+     "title": "도시화와 현대화가 이끄는 엘리베이터 및 부속품 시장 2035년 전망",
+     "url": "https://www.indexbox.io/ko/blog/elevators-and-accessories-market-forecast-to-2035-driven-by-urbanization-and-modernization/",
+     "source": "IndexBox"
     }
    ],
    "safe": true
