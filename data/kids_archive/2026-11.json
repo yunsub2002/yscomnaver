@@ -3064,5 +3064,47 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-17T19:00:00+09:00"
+},
+{
+"id": "n0749a0be17",
+"cat": "place",
+"title": "눈썰매장부터 노천 온천 스파까지, 겨울 나들이 명소 에버랜드 크리스마스",
+"source": "네이트뷰",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WUWhSVjRZMXNROXVIcmJXbXJTWXB1Wkw5TmpIVzJxYUhHU2ZYVEs4dUpPc1loeGx2RWRweDRsdzRJTGxHdHJrZ0ZfZUxoekxrU3BZ0gFYQVVfeXFMUExWYk9kMWlOWWxIRnp6M1VLaFRwR1UwaXRyb1RrUUliR2ZITGJTOHBtNmJlNGY2VzZXdTNNM2M1ZGszQnZiclg1X3Y4clFXNVdTai0yU2lCeg?oc=5",
+"pub": "2026-11-17T18:57:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T20:00:00+09:00"
+},
+{
+"id": "n0fe9b12780",
+"cat": "festival",
+"title": "경남수목원 단풍축제, 21·22일 가족 공연과 체험 마련",
+"source": "미디어이슈",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CZk5neEFNRW0yYTVEOER6LUlxd0xBaEYyNzVQYm5XMjhYa3lsZUZzTE5UaXZlVm9JbnZoV0ZyU2JKaFl4LXJUXw?oc=5",
+"pub": "2026-11-17T12:41:00+09:00",
+"region": "경남",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T20:00:00+09:00"
+},
+{
+"id": "e682e7c33f9",
+"cat": null,
+"title": "단풍축제",
+"source": "미디어이슈",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CZk5neEFNRW0yYTVEOER6LUlxd0xBaEYyNzVQYm5XMjhYa3lsZUZzTE5UaXZlVm9JbnZoV0ZyU2JKaFl4LXJUXw?oc=5",
+"pub": "2026-11-17T12:41:00+09:00",
+"region": "경남",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "경남",
+"seen": "2026-11-17T20:00:00+09:00"
 }
 ]
