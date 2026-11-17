@@ -1,162 +1,38 @@
 {
- "updated": "2026-11-17T22:02:00+09:00",
- "prev_updated": "2026-11-17T20:50:00+09:00",
+ "updated": "2026-11-17T23:18:00+09:00",
+ "prev_updated": "2026-11-17T22:02:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "최희",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "미사일",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“아이들 두고 어떻게 떠나나”…최희 장기기증 결심, 무슨 일?",
-     "url": "https://www.mk.co.kr/news/culture/12211368",
-     "source": "매일경제"
+     "title": "젤렌스키 \"더 많은 北미사일 러에 공급‥韓주변에 도전 과제\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6866144_36925.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "‘사업가♥’ 최희, 사후 장기기증 서약했다..“슬프고 무섭지만 용기내”",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/17/MM4GINJRHAYDQYJXMQ3TGOBQGA/",
+     "title": "“매달 수십 발씩 러시아에 공급”…우크라전 겪으며 진화하는 北 미사일의 공포 [밀리터리노트]",
+     "url": "https://m.go.seoul.co.kr/news/international/europe/2026/11/17/20261117500289",
+     "source": "서울Pn"
+    },
+    {
+     "title": "\"북한, 한 달 수십 발씩 러시아에 탄도미사일 제공…미사일 성능 갈고 닦아\"",
+     "url": "https://www.chosun.com/international/international_general/2026/11/17/ZN7KQ3MVTRBQDFLCF4JHHPYDJY/",
      "source": "조선일보"
-    },
-    {
-     "title": "“장기기증 희망자 등록했다” 1남 1녀 둔 방송인, 갑작스레 SNS에 남긴 말",
-     "url": "https://www.wikitree.co.kr/articles/1175379",
-     "source": "위키트리"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "로베르트 모레노",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "모레노 감독, 카타르전 끝으로 스페인행…한국 대표팀 복귀 불투명",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=04660886645646704&mediaCodeNo=257",
-     "source": "이데일리"
-    },
-    {
-     "title": "눈물 글썽이던 韓 중원의 핵심 황인범, 또 한번 '작심 발언'…\"임시 감독 체제, 대표팀에 긍정적이지 않다\"",
-     "url": "https://www.chosun.com/sports/football/2026/11/17/G5QTGOJXGYYTKNZVMNQTQNTGHA/",
-     "source": "조선일보"
-    },
-    {
-     "title": "올해 마지막 A매치…\"오늘 밤, 반등의 시작점\"",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850431",
-     "source": "SBS 뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "박정훈",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "up",
-   "delta": 5,
-   "news": [
-    {
-     "title": "‘박정훈 처벌받게 하려고 위증 혐의’ 해병대 김화동 대령 무죄···법원 “허위진술 아냐”",
-     "url": "https://www.khan.co.kr/article/202611171703011",
-     "source": "경향신문"
-    },
-    {
-     "title": "'채 해병 수사 외압 관여' 김화동 대령 1심 무죄…\"허위진술 아니다\" - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/17/2026111714034019151",
-     "source": "머니투데이"
-    },
-    {
-     "title": "'채 상병 수사외압 모해위증' 김화동 대령 1심 선고공판 출석",
-     "url": "https://www.newsis.com/view/NISI20261117_0021535460",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 4,
-   "keyword": "심우정",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "down",
-   "delta": -3,
-   "news": [
-    {
-     "title": "노만석 \"尹 구속 취소, 법원 결정에 불만 있어도 석방하자는 게 검찰 다수 의견\"",
-     "url": "https://www.chosun.com/national/court_law/2026/11/17/GXOJ6QZHIZELZACVJNNH3NKK7Q/",
-     "source": "조선일보"
-    },
-    {
-     "title": "공소장 보완에만 석 달 쓴 종합특검…내란 재판 ‘가시밭길’",
-     "url": "https://www.khan.co.kr/article/202611162101025",
-     "source": "경향신문"
-    },
-    {
-     "title": "노만석 “윤석열 구속취소 즉시 항고 포기, 심우정이 최종 결정”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715122",
-     "source": "KBS 뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 5,
-   "keyword": "권순우",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "미스터트롯3",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "down",
-   "delta": -3,
-   "news": [
-    {
-     "title": "‘미스터트롯3’ TOP7, 서울서 투어 피날레…“끝 아닌 새로운 시작”",
-     "url": "https://www.mk.co.kr/news/musics/12211506",
-     "source": "매일경제"
-    },
-    {
-     "title": "‘미스터트롯3’ TOP7, 서울 콘서트 마무리… 투어 마무리 소감은?",
-     "url": "https://www.ggilbo.com/news/articleView.html?idxno=1193818",
-     "source": "금강일보"
-    },
-    {
-     "title": "‘미스터트롯3’ TOP7, 서울 공연 성료",
-     "url": "https://www.bntnews.co.kr/article/view/bnt202611170023",
-     "source": "BNT뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "gta6 출시일",
+   "keyword": "lg그룹",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
@@ -165,59 +41,159 @@
    "delta": 0,
    "news": [
     {
-     "title": "출시 이틀 앞둔 ‘GTA6’, 사전예약 1500만장 육박…매출 2조원 달해",
-     "url": "https://biz.chosun.com/it-science/ict/2026/11/17/Y2MS2PYBSVAT7KRSMUY6X7BCSI/",
-     "source": "Chosunbiz"
+     "title": "[단독] 이상엽 LGU+ CTO 물러난다…LG그룹 임원인사 통보 시작",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006517",
+     "source": "아시아투데이"
     },
     {
-     "title": "“이게 게임이라고?”…실사 같은 'GTA 6' 영상",
-     "url": "https://www.etnews.com/20261113000179",
-     "source": "전자신문"
+     "title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562",
+     "source": "아시아투데이"
     },
     {
-     "title": "싱가포르 기차역에 걸린 미국 게임사 락스타 게임즈 광고판",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755071",
-     "source": "국제뉴스"
+     "title": "보조금·보상금 뺀 본업은 ‘글쎄’…김동명 LG엔솔 사장, 연임 문턱 넘을까",
+     "url": "https://www.ilyo.co.kr/?ac=article_view&entry_id=513649",
+     "source": "일요신문"
     }
    ],
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "엔비디아 우회 수출 의혹 및 젠슨 황 복귀 논의에 대한 최신 뉴스 알려줘",
+   "rank": 3,
+   "keyword": "배정혜",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
-   "news": [],
+   "news": [
+    {
+     "title": "원로 무용가 배정혜 리틀엔젤스예술단 명예예술감독 별세",
+     "url": "https://www.donga.com/news/People/article/all/20261117/135040268/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "“나는 지금도 무대 막이 열릴 때 죽을 것처럼 떨려요” ‘한국 창작춤의 선구자’ 배정혜 무용가 별세",
+     "url": "https://www.segye.com/newsView/20261117509155",
+     "source": "세계일보"
+    },
+    {
+     "title": "'한국 창작춤 선구자' 원로 안무가 배정혜, 향년 82세로 별세(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261117065951005",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "가덕도신공항",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "국힘 부산시당, 내일 가덕도신공항 공사비 현실화 간담회",
+     "url": "https://www.yna.co.kr/view/AKR20261116121000051",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "국힘, 가덕 공사비 현실화 특별법 개정 동참",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0100&key=20261118.22005005299",
+     "source": "국제신문"
+    },
+    {
+     "title": "“공사비 증액 없인 적기개항 위태”… 국민의힘 부산시당, 정부에 ‘확약’ 압박",
+     "url": "https://sports.donga.com/region/article/all/20261116/135032409/1",
+     "source": "스포츠동아"
+    }
+   ],
    "safe": false
   },
   {
-   "rank": 9,
-   "keyword": "mbk 파트너스",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 5,
+   "keyword": "최저임금",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "간호조무사 임금 \"수가 체계와 연동해야\"",
+     "url": "https://www.doctorsnews.co.kr/news/articleView.html?idxno=200078",
+     "source": "의협신문"
+    },
+    {
+     "title": "간무협, 국회 입법박람회서 정책 부스 운영",
+     "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044369",
+     "source": "청년의사"
+    },
+    {
+     "title": "대한간호조무사협회, “벼랑 끝 간호조무사 처우, 이대로 괜찮은가”… 11월17일 국회 토론회",
+     "url": "https://www.kmpnews.co.kr/news/articleView.html?idxno=74237",
+     "source": "한국의약통신"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "디지털 자산",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "회수부터 투자까지…MBK SS, 신규 펀드레이징 배경은",
-     "url": "https://marketin.edaily.co.kr/News/Read?newsId=04149206645646704",
-     "source": "마켓인"
-    },
-    {
-     "title": "MBK파트너스, 2026 연차총회 개최…내년 해외투자 적극 확대",
-     "url": "https://www.yna.co.kr/view/AKR20261117056600008",
+     "title": "빗썸 매출 99.99%가 수수료 수입…두나무와 격차 확대",
+     "url": "https://www.yna.co.kr/view/AKR20261117085400002",
      "source": "연합뉴스"
     },
     {
-     "title": "한국 노인 2050년 39.7%...MBK \"고령화사회 필요섹터에 투자하겠다\"",
-     "url": "https://www.fnnews.com/news/202611171054413817",
-     "source": "파이낸셜뉴스"
+     "title": "두나무, 3분기 영업손실 35억원⋯코인거래 위축에 적자 전환",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR202611161655198Qh",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "기약없는 디지털자산법에… 국내 톱2 거래소, 거래절벽 신음",
+     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000001202",
+     "source": "IT조선"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "비니시우스 주니오르",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'레알서 12경기 1골 극도의 부진' 비니시우스 또 핑계 댄다 \"아스날 이적설 때문에 부담감 컸다\" - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/17/202611171835775620O",
+     "source": "머니투데이"
+    },
+    {
+     "title": "브라질 비니시우스가 밝힌 부진 이유…\"월드컵 탈락 충격\"",
+     "url": "https://www.newsis.com/view/NISX20261117_0003872197",
+     "source": "뉴시스"
+    },
+    {
+     "title": "너무 못해서 ‘외계인 납치설’까지 나온 비니시우스, 드디어 입 열었다…“월드컵 탈락+이적설 때문에”",
+     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698583",
+     "source": "인터풋볼"
     }
    ],
    "safe": true
