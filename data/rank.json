@@ -1,150 +1,206 @@
 {
- "updated": "2026-11-18T05:53:00+09:00",
- "prev_updated": "2026-11-18T05:01:00+09:00",
+ "updated": "2026-11-18T06:52:00+09:00",
+ "prev_updated": "2026-11-18T05:53:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "경찰",
-   "traffic": "20000+",
-   "label": "약 2만 회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"이렇게까지 한다고?\" 웃음보인 장관‥\"믿음 깨져\" 냉소 속출",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866389_37004.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "당정, '수능 AI 부정행위' 대책 협의회…입법 과제 등 논의",
-     "url": "https://www.yna.co.kr/view/AKR20261117175800001",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "문과 '士'자 직업이면 뭐하나…수험생 돌변에 '서늘한 경고'",
-     "url": "https://www.hankyung.com/article/2026111727641",
-     "source": "한국경제"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 2,
-   "keyword": "데블스플랜3",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "정현규, 공황 증상으로 '데블스 플랜3' 하차 \"극복했다 생각\"",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525195",
-     "source": "iMBC 연예"
-    },
-    {
-     "title": "정현규, 비난 여론 딛고 '데블스플랜' 새 시즌 합류하더니 공황으로 중도 하차",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020407",
-     "source": "SPOTV NEWS"
-    },
-    {
-     "title": "데블스플랜 정현규 공황으로 하차, 괜찮을 줄 알았는데 아니었다…퇴소 후 공개한 현재 건강 상태와 마지막 고백",
-     "url": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224481199187&redirect=Dlog",
-     "source": "Naver Blog"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "국제 통화 기금",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "안세영",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "IMF, 올해 우리나라 성장률 3.9% 전망…내년엔 3.3%",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975912",
-     "source": "대한민국 정책브리핑"
+     "title": "[뉴스9 강원 클로징]",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713273",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "IMF, 올해 경제 성장률 3.9%로 상향…’통화 긴축’ 주문",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261118044902M56",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "기자 질문 받는 코린 들레샤 단장",
-     "url": "https://www.newsis.com/view/NISI20261117_0021535578",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "애플",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[단독]카카오뱅크, 애플페이 서비스 시작",
-     "url": "https://www.etnews.com/20261116000304",
-     "source": "전자신문"
-    },
-    {
-     "title": "카드업권, 애플페이 인뱅 진출에도 머뭇…삼성페이 '눈치'",
-     "url": "https://www.yna.co.kr/view/AKR20261117137300002",
+     "title": "세계 최강 안세영의 미소",
+     "url": "https://www.yna.co.kr/view/PYH20261116156200013",
      "source": "연합뉴스"
     },
     {
-     "title": "카뱅 이어 토스뱅크도 연내 애플페이 출시…카드사 진입 포문 열리나",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445087",
-     "source": "연합인포맥스"
+     "title": "[스포츠 영상] '12승 신기록 도전' 안세영 '오늘은 팬들과 함께!'",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866097_37004.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "아이폰",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 2,
+   "keyword": "뉴스",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "Apple to Let Users Face-Unlock iPhone Duo, Addressing Key Drawback",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/apple-to-let-users-face-unlock-iphone-duo-addressing-key-drawback",
-     "source": "Bloomberg.com"
+     "title": "◇내일의 경기(19일)",
+     "url": "https://www.yna.co.kr/view/AKR20261116168552007",
+     "source": "연합뉴스"
     },
     {
-     "title": "The iPhone Duo feels far more intuitive with Apple’s new face unlock",
-     "url": "https://www.theverge.com/tech/1035437/iphone-duo-face-unlock-front-camera-hands-on",
-     "source": "The Verge"
+     "title": "李 \"부정 신고땐 건당 1억 포상... 수능 중 수시로 재난문자 검토\"",
+     "url": "https://www.chosun.com/politics/blue_house/2026/11/17/XRXRH6TAK5FKDPJJYLJTFVQCQM/",
+     "source": "조선일보"
     },
     {
-     "title": "Everything New in iOS 27.3 Beta 2",
-     "url": "https://www.macrumors.com/2026/11/16/ios-27-3-beta-2-everything-new/",
-     "source": "MacRumors"
+     "title": "세무냥이 ‘AI 커닝’은 업무방해죄? 시험 부정 엄벌할 특별법 필요할까",
+     "url": "https://www.khan.co.kr/article/202611180600061",
+     "source": "경향신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "가상자산",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“디지털자산기본법 임박…가상자산·주식 형평과세 추진해야”",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01285766645647032",
+     "source": "마켓인"
+    },
+    {
+     "title": "코인 공제한도 확대 제동 걸리나",
+     "url": "https://biz.heraldcorp.com/article/10939888",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "시민사회 “임광현 대통령 비서, 가상자산 과세 입장 밝혀라”",
+     "url": "https://www.greened.kr/news/articleView.html?idxno=354871",
+     "source": "녹색경제신문"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 4,
+   "keyword": "수능 예비소집",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
+     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450",
+     "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "[수능 D-1] 전자기기 미제출 땐 시험 무효…단추 달린 옷도 피해야",
+     "url": "https://stock.mk.co.kr/news/view/1201065",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "오늘은 새 문제보다 오답노트 집중…수험표 받으면 선택과목 확인",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261118.22012005404",
+     "source": "국제신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "알렉산더 즈베레프",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'세계 랭킹 1위' 트로피에 입 맞추는 즈베레프",
+     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261117_0002293855&pID=1&cID=&sID=1&type=photoMain&idx=7",
+     "source": "뉴시스"
+    },
+    {
+     "title": "2027 호주오픈, 시너가 있고 없고의 차이",
+     "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19848",
+     "source": "테니스피플"
+    },
+    {
+     "title": "[박준용 인앤아웃] 당뇨병도 꺾지 못한 꿈... 즈베레프 마침내 세계 1위에 서다",
+     "url": "https://sports.khan.co.kr/article/202611101026003",
+     "source": "스포츠경향"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "백신",
+   "keyword": "김장",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "충북농협, 7400㎏ 김장 행사…취약계층·복지시설에 전달",
+     "url": "https://www.news1.kr/local/sejong-chungbuk/6356875",
+     "source": "뉴스1"
+    },
+    {
+     "title": "충북농협, 김장김치 7.4t 나눔…충청대엔 1000원 점심 지원",
+     "url": "https://www.newspim.com/news/view/20261117000791",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "농협은행, 김장철 맞아 지역 어르신에 온정 나눔 실천",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=757530",
+     "source": "ER 이코노믹리뷰"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "정웅인",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "정웅인, 전 매니저 사기 피해→소속사 대표 사망…\"또 위기\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111706401419953",
+     "source": "머니투데이"
+    },
+    {
+     "title": "정웅인, 세 딸 근황 공개…\"첫째는 배우 준비, 둘째는 예고 재학\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003870591",
+     "source": "뉴시스"
+    },
+    {
+     "title": "“어떻게 일 할지”…정웅인, 소속사 대표 사망 언급하며 눈물",
+     "url": "https://www.koreadaily.com/article/20261116095006328",
+     "source": "미주중앙일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "노동자",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "사회·정치",
@@ -153,106 +209,50 @@
    "delta": 0,
    "news": [
     {
-     "title": "예방접종 피해 국가보상, 대리인도 신청 가능",
-     "url": "https://www.yna.co.kr/view/AKR20261117059800530",
+     "title": "얼굴 파랗게 질려 숨진 27살…HD현대삼호 하청 ‘장례도 못 치른 보름’",
+     "url": "https://www.hani.co.kr/arti/area/honam/1287732.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "'노동자 사망' 영암 조선소 협력사들 \"사고 책임 단정해선 안돼\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117122100054",
      "source": "연합뉴스"
     },
     {
-     "title": "「감염병예방법 시행령 및 시행규칙」 일부개정령안 공포·시행(11.17.화)",
-     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=457313",
-     "source": "서울Pn"
-    },
-    {
-     "title": "이소희 의원, ‘코로나 백신 피해 국가책임법’ 발의…피해 입증책임 국가로",
-     "url": "https://monthly.chosun.com/news/articleView.html?idxno=72005",
-     "source": "월간조선"
+     "title": "금속노조 \"HD현대삼호 협력사 대표들의 노조 규탄은 2차 가해\"",
+     "url": "https://www.nocutnews.co.kr/news/6608468",
+     "source": "노컷뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 7,
-   "keyword": "엔비디아 실적",
+   "rank": 9,
+   "keyword": "훈련",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "9개월 만에 5,000선 붕괴, 코스피에 무슨 일이?",
-     "url": "https://story.pay.naver.com/content/3985_3_C1",
-     "source": "네이버페이 머니스토리"
-    },
-    {
-     "title": "엔비디아가 누른 코스피, 실적이 만회할까 - 머니투데이",
-     "url": "https://www.mt.co.kr/stock/2026/11/18/2026111719550672404",
-     "source": "머니투데이"
-    },
-    {
-     "title": "젠슨 황 후폭풍에 ‘5000P’ 무너져… 9개월새 최저",
-     "url": "https://www.donga.com/news/Economy/article/all/20261117/135043015/2",
-     "source": "동아일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "mbk파트너스",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "회수부터 투자까지…MBK SS, 신규 펀드레이징 배경은",
-     "url": "https://marketin.edaily.co.kr/News/Read?newsId=04149206645646704",
-     "source": "마켓인"
-    },
-    {
-     "title": "MBK파트너스, 2026 연차총회 개최…내년 해외투자 적극 확대",
-     "url": "https://www.yna.co.kr/view/AKR20261117056600008",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "한국 노인 2050년 39.7%...MBK \"고령화사회 필요섹터에 투자하겠다\"",
-     "url": "https://www.fnnews.com/news/202611171054413817",
-     "source": "파이낸셜뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "정우영",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "정우영 2년 7개월 만에 복귀…카타르전 대거 로테이션 : 스포츠",
-     "url": "https://news.jkn.co.kr/post/1102804",
-     "source": "재경일보"
-    },
-    {
-     "title": "모레노 감독이 원하는 높은 '에너지 레벨'에 딱! 분데스서도 '최상위급 고강도' 정우영, 측면 경쟁에 '새바람'",
-     "url": "https://www.chosun.com/sports/football/2026/11/13/MVSWIMRRHBSDAMBVGU4DSNBTMQ/",
+     "title": "러 \"한미 훈련 탓에 한반도 긴장 높아져\" \"푸틴, 李대통령 만날 것\"",
+     "url": "https://www.chosun.com/international/international_general/2026/11/18/D5RLZIK4LJB5HHCCTU5XU74VWY/",
      "source": "조선일보"
     },
     {
-     "title": "황희찬 입지는 어떻게 될까… 韓 대표팀 고민거리 ‘왼쪽 윙어’, 송민규·엄지성·정우영과 무한 경쟁?",
-     "url": "https://www.besteleven.com/news/articleView.html?idxno=313996",
-     "source": "베스트일레븐"
+     "title": "러 외무 \"한·미·일 군사훈련 목적은 북한 억제\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117176600109",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "러 외무 \"대북 제재·한미일 핵 군사훈련이 한반도 긴장 고조 원인\"",
+     "url": "https://www.news1.kr/world/europe/6357283",
+     "source": "뉴스1"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
