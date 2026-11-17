@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T02:00:00+09:00",
- "prev_updated": "2026-11-18T00:56:00+09:00",
+ "updated": "2026-11-18T02:59:00+09:00",
+ "prev_updated": "2026-11-18T02:00:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -13,103 +13,103 @@
    "delta": 0,
    "news": [
     {
-     "title": "[속보] 경북 상주시 북서쪽 22km 지역서 규모 3.7 지진 발생",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755162",
-     "source": "국제뉴스"
+     "title": "[속보] 경북 상주 올해 최대 규모 3.6 지진…전국 곳곳서 감지",
+     "url": "https://www.imaeil.com/page/view/2026111723110253780",
+     "source": "매일신문"
+    },
+    {
+     "title": "[속보] 기상청 \"경북 상주 북서쪽서 규모 3.7 지진 발생\"",
+     "url": "https://www.hankyung.com/article/2026111731047",
+     "source": "한국경제"
     },
     {
      "title": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
      "url": "https://www.yna.co.kr/view/AKR20261118002600017",
      "source": "연합뉴스"
-    },
-    {
-     "title": "[속보] 기상청 “경북 상주 북서쪽서 규모 3.6 지진”",
-     "url": "https://www.kyeongin.com/article/1774969",
-     "source": "경인일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "일본 파라과이",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "카타르 대 한국",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "브라질도 꺾은 일본, '모리야스 고별전'서 파라과이에 1-2 패배",
-     "url": "https://www.yna.co.kr/view/AKR20261118004400007",
+     "title": "모레노 \"다시 맡을 가능성 당연히 생각…시간과 신뢰가 중요\"",
+     "url": "https://www.yna.co.kr/view/AKR20261118004600007",
      "source": "연합뉴스"
     },
     {
-     "title": "'브라질 잡았다고 신났는데 파라과이에 무너졌다' 일본, FIFA 33위 상대 전반에만 2실점...올해 마지막 경기 1-2 패배 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/18/202611180005779880O",
-     "source": "머니투데이"
+     "title": "카타르전 결승골 오세훈 \"민규 크로스 믿어…동료들에 너무 미안\"",
+     "url": "https://www.newsis.com/view/NISX20261118_0003872310",
+     "source": "뉴시스"
     },
     {
-     "title": "'모리야스 고별전' 일본, 파라과이에 1-2 패배...5경기 연속 무패 마침표",
-     "url": "https://www.newspim.com/news/view/20261118000005",
-     "source": "뉴스핌"
+     "title": "중원의 핵 황인범의 소신발언 “임시 감독 체제 긍정적이지 않아”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715445",
+     "source": "KBS 뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "권고",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
+   "keyword": "데블스플랜3",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "국힘, 대구 남구의회 의장·부의장 ‘탈당 권고’",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713243",
-     "source": "KBS 뉴스"
+     "title": "‘데블스 플랜3’ 5회 만에 7명 탈락...판 뒤집을 유배지 등장",
+     "url": "https://www.mk.co.kr/news/hot-issues/12210932",
+     "source": "매일경제"
     },
     {
-     "title": "김재겸·함광식 대구 남구의원 \"이번 주 탈당계 제출\"",
-     "url": "https://www.newsis.com/view/NISX20261117_0003871400",
-     "source": "뉴시스"
+     "title": "[TF초점] '데블스 플랜3', 5회 만에 빠져든 두뇌 싸움…역시 근본 조합",
+     "url": "https://news.tf.co.kr/read/entertain/2389546.htm",
+     "source": "더팩트"
     },
     {
-     "title": "민주당 대구시당, 국민의힘 대구시당에 ‘야합’ 주장 철회 촉구",
-     "url": "https://www.pressian.com/pages/articles/2026111618485737969",
-     "source": "프레시안"
+     "title": "????: 장동민이 누군데??ㅣ⚠️무단복제·재가공 엄금 #데블스플랜3 #장동민 #홍진호 #정현규",
+     "url": "https://korean-vibe.com/article/179586602921155",
+     "source": "K-VIBE"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 4,
-   "keyword": "lg그룹",
+   "keyword": "탄도 미사일",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "same",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[단독] 이상엽 LGU+ CTO 물러난다…LG그룹 임원인사 통보 시작",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006517",
-     "source": "아시아투데이"
+     "title": "젤렌스키 \"더 많은 北미사일 러에 공급‥韓주변에 도전 과제\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6866144_36925.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562",
-     "source": "아시아투데이"
+     "title": "“매달 수십 발씩 러시아에 공급”…우크라전 겪으며 진화하는 北 미사일의 공포 [밀리터리노트]",
+     "url": "https://m.go.seoul.co.kr/news/international/europe/2026/11/17/20261117500289",
+     "source": "서울Pn"
     },
     {
-     "title": "[리포트 브리핑]LG에너지솔루션, '실적 추이 및 전망' 목표가 460,000원 - 삼성증권",
-     "url": "https://www.newspim.com/news/view/20261117001009",
-     "source": "뉴스핌"
+     "title": "\"북한, 한 달 수십 발씩 러시아에 탄도미사일 제공…미사일 성능 갈고 닦아\"",
+     "url": "https://www.chosun.com/international/international_general/2026/11/17/ZN7KQ3MVTRBQDFLCF4JHHPYDJY/",
+     "source": "조선일보"
     }
    ],
    "safe": true
@@ -177,13 +177,13 @@
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "이강인은 오른쪽 고정 전망… 카타르전 왼쪽은 ‘돌아온 돌격대장’ 정우영이 기회 얻을까?",
-     "url": "https://www.footballist.co.kr/news/articleView.html?idxno=216906",
-     "source": "풋볼리스트"
+     "title": "정우영 2년 7개월 만에 복귀…카타르전 대거 로테이션 : 스포츠",
+     "url": "https://news.jkn.co.kr/post/1102804",
+     "source": "재경일보"
     },
     {
      "title": "‘엄지성 천금 결승골’...일본 꺾고 AG 축구 4연패",
@@ -205,7 +205,7 @@
    "label": "약 100회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -222,6 +222,34 @@
      "title": "한국 노인 2050년 39.7%...MBK \"고령화사회 필요섹터에 투자하겠다\"",
      "url": "https://www.fnnews.com/news/202611171054413817",
      "source": "파이낸셜뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "헝거게임",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "잔인한 생존 게임, 판을 뒤집어라…'헝거게임 50번째 추첨의 날'",
+     "url": "https://www.yna.co.kr/view/AKR20261114033700005",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "연말 극장가 8천억원 블록버스터 전쟁",
+     "url": "https://www.mk.co.kr/news/culture/12211334",
+     "source": "매일경제"
+    },
+    {
+     "title": "‘헝거게임 50번째 추첨의 날’, 개봉 외화 예매율 1위…18일 출격",
+     "url": "https://www.sportsworldi.com/newsView/20261116519561",
+     "source": "스포츠월드"
     }
    ],
    "safe": true
