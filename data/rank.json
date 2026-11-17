@@ -1,122 +1,66 @@
 {
- "updated": "2026-11-18T06:52:00+09:00",
- "prev_updated": "2026-11-18T05:53:00+09:00",
+ "updated": "2026-11-18T07:53:00+09:00",
+ "prev_updated": "2026-11-18T06:52:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "안세영",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "이민정",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[뉴스9 강원 클로징]",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8713273",
-     "source": "KBS 뉴스"
+     "title": "이병헌·이민정 LA 저택 공개…주방만 봐도 좋아 보인다",
+     "url": "https://www.newsis.com/view/NISX20261117_0003872161",
+     "source": "뉴시스"
     },
     {
-     "title": "세계 최강 안세영의 미소",
-     "url": "https://www.yna.co.kr/view/PYH20261116156200013",
-     "source": "연합뉴스"
+     "title": "이민정, 맥주 배달한 ♥이병헌 덕에 행복…쿨한 퇴장",
+     "url": "https://www.news1.kr/entertain/broadcast-tv/6357198",
+     "source": "뉴스1"
     },
     {
-     "title": "[스포츠 영상] '12승 신기록 도전' 안세영 '오늘은 팬들과 함께!'",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866097_37004.html",
-     "source": "MBC 뉴스"
+     "title": "이병헌, 집에선 ♥이민정 술 심부름 드는 스윗남..문자 한 통에 바로 배달(MJ)",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/17/MMZDIYRZHA2GINRXHBTDIMJYGI/",
+     "source": "Chosunbiz"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "뉴스",
+   "keyword": "김현태",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "◇내일의 경기(19일)",
-     "url": "https://www.yna.co.kr/view/AKR20261116168552007",
+     "title": "법원, ‘국회 봉쇄’ 김현태 전 707 단장 구속취소 요청 기각",
+     "url": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8712031",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "내란특검 완패 뒤 벌어진 일... \"나도 무죄\" 쏟아졌다",
+     "url": "https://www.ohmynews.com/NWS_Web/Series/series_premium_pg.aspx?CNTN_CD=A0003285743",
+     "source": "OhmyNews"
+    },
+    {
+     "title": "김현태 前707단장측 \"특임단 아닌, 시민들이 폭동 행위\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117150400004",
      "source": "연합뉴스"
-    },
-    {
-     "title": "李 \"부정 신고땐 건당 1억 포상... 수능 중 수시로 재난문자 검토\"",
-     "url": "https://www.chosun.com/politics/blue_house/2026/11/17/XRXRH6TAK5FKDPJJYLJTFVQCQM/",
-     "source": "조선일보"
-    },
-    {
-     "title": "세무냥이 ‘AI 커닝’은 업무방해죄? 시험 부정 엄벌할 특별법 필요할까",
-     "url": "https://www.khan.co.kr/article/202611180600061",
-     "source": "경향신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "가상자산",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“디지털자산기본법 임박…가상자산·주식 형평과세 추진해야”",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01285766645647032",
-     "source": "마켓인"
-    },
-    {
-     "title": "코인 공제한도 확대 제동 걸리나",
-     "url": "https://biz.heraldcorp.com/article/10939888",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "시민사회 “임광현 대통령 비서, 가상자산 과세 입장 밝혀라”",
-     "url": "https://www.greened.kr/news/articleView.html?idxno=354871",
-     "source": "녹색경제신문"
     }
    ],
    "safe": false
   },
   {
-   "rank": 4,
-   "keyword": "수능 예비소집",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
-     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "[수능 D-1] 전자기기 미제출 땐 시험 무효…단추 달린 옷도 피해야",
-     "url": "https://stock.mk.co.kr/news/view/1201065",
-     "source": "매일경제 마켓"
-    },
-    {
-     "title": "오늘은 새 문제보다 오답노트 집중…수험표 받으면 선택과목 확인",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261118.22012005404",
-     "source": "국제신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "알렉산더 즈베레프",
+   "rank": 3,
+   "keyword": "보안 취약점",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
@@ -125,131 +69,75 @@
    "delta": 0,
    "news": [
     {
-     "title": "'세계 랭킹 1위' 트로피에 입 맞추는 즈베레프",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261117_0002293855&pID=1&cID=&sID=1&type=photoMain&idx=7",
-     "source": "뉴시스"
-    },
-    {
-     "title": "2027 호주오픈, 시너가 있고 없고의 차이",
-     "url": "http://www.tennispeople.kr/news/articleView.html?idxno=19848",
-     "source": "테니스피플"
-    },
-    {
-     "title": "[박준용 인앤아웃] 당뇨병도 꺾지 못한 꿈... 즈베레프 마침내 세계 1위에 서다",
-     "url": "https://sports.khan.co.kr/article/202611101026003",
-     "source": "스포츠경향"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "김장",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "충북농협, 7400㎏ 김장 행사…취약계층·복지시설에 전달",
-     "url": "https://www.news1.kr/local/sejong-chungbuk/6356875",
-     "source": "뉴스1"
-    },
-    {
-     "title": "충북농협, 김장김치 7.4t 나눔…충청대엔 1000원 점심 지원",
-     "url": "https://www.newspim.com/news/view/20261117000791",
-     "source": "뉴스핌"
-    },
-    {
-     "title": "농협은행, 김장철 맞아 지역 어르신에 온정 나눔 실천",
-     "url": "https://www.econovill.com/news/articleView.html?idxno=757530",
-     "source": "ER 이코노믹리뷰"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "정웅인",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "정웅인, 전 매니저 사기 피해→소속사 대표 사망…\"또 위기\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111706401419953",
-     "source": "머니투데이"
-    },
-    {
-     "title": "정웅인, 세 딸 근황 공개…\"첫째는 배우 준비, 둘째는 예고 재학\"",
-     "url": "https://www.newsis.com/view/NISX20261116_0003870591",
-     "source": "뉴시스"
-    },
-    {
-     "title": "“어떻게 일 할지”…정웅인, 소속사 대표 사망 언급하며 눈물",
-     "url": "https://www.koreadaily.com/article/20261116095006328",
-     "source": "미주중앙일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 8,
-   "keyword": "노동자",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "얼굴 파랗게 질려 숨진 27살…HD현대삼호 하청 ‘장례도 못 치른 보름’",
-     "url": "https://www.hani.co.kr/arti/area/honam/1287732.html",
-     "source": "한겨레"
-    },
-    {
-     "title": "'노동자 사망' 영암 조선소 협력사들 \"사고 책임 단정해선 안돼\"",
-     "url": "https://www.yna.co.kr/view/AKR20261117122100054",
+     "title": "PHP 이어 '자바'서도 치명적 취약점…공공·기업 보안 비상",
+     "url": "https://www.yna.co.kr/view/AKR20261118014000017",
      "source": "연합뉴스"
     },
     {
-     "title": "금속노조 \"HD현대삼호 협력사 대표들의 노조 규탄은 2차 가해\"",
-     "url": "https://www.nocutnews.co.kr/news/6608468",
-     "source": "노컷뉴스"
+     "title": "국가안보실, '자바' 취약점 확인에 민관군 긴급회의…대책 수립",
+     "url": "https://www.yna.co.kr/view/AKR20261118018300001",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "방화벽이 침투 통로로... 이스라엘 기관, 체크포인트 장비 뚫려 서버 파일까지 삭제",
+     "url": "https://www.boannews.com/news/articleView.html?idxno=147277",
+     "source": "보안뉴스"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
-   "rank": 9,
-   "keyword": "훈련",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 4,
+   "keyword": "사고",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "사회·정치",
    "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "러 \"한미 훈련 탓에 한반도 긴장 높아져\" \"푸틴, 李대통령 만날 것\"",
-     "url": "https://www.chosun.com/international/international_general/2026/11/18/D5RLZIK4LJB5HHCCTU5XU74VWY/",
+     "title": "고경표 때문에 더 주목받는 '술꾼들'...신동엽·성시경이 '무사고' 지킨 비결",
+     "url": "https://www.chosun.com/entertainments/enter_general/2026/11/17/MNQTOM3BG5SDONJTGQ2TMMLDGY/",
      "source": "조선일보"
     },
     {
-     "title": "러 외무 \"한·미·일 군사훈련 목적은 북한 억제\"",
-     "url": "https://www.yna.co.kr/view/AKR20261117176600109",
+     "title": "고경표처럼 청소차 '쾅'...호란, 세 번째 음주운전 사고 '재조명' - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111707460827049",
+     "source": "머니투데이"
+    },
+    {
+     "title": "고경표까지 음주운전 사고로 활동 중단…끊이지 않는 연예계 음주운전 [N이슈]",
+     "url": "https://www.news1.kr/entertain/celebrity-topic/6356206",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "화재",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "청주 옥산면 단독주택서 화재…60대 거주자 사망",
+     "url": "https://www.yna.co.kr/view/AKR20261118013500064",
      "source": "연합뉴스"
     },
     {
-     "title": "러 외무 \"대북 제재·한미일 핵 군사훈련이 한반도 긴장 고조 원인\"",
-     "url": "https://www.news1.kr/world/europe/6357283",
-     "source": "뉴스1"
+     "title": "청주 주택서 불…60대 남성 심정지 상태 발견",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261118001658qQv",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "충북 옥산 단독주택서 불‥60대 거주자 숨져",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6866452_36918.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": false
