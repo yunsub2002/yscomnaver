@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T17:58:00+09:00",
- "prev_updated": "2026-11-17T16:13:00+09:00",
+ "updated": "2026-11-17T18:21:00+09:00",
+ "prev_updated": "2026-11-17T17:58:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 5,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -37,7 +37,7 @@
    "label": "약 2,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -60,41 +60,13 @@
   },
   {
    "rank": 3,
-   "keyword": "김우석",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김우석 \"'환자 바라기'…어떻게든 돕고 싶단 생각만 했죠\"",
-     "url": "https://www.yna.co.kr/view/AKR20261117096200005",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "\"야, 네가 김지원·손현주와 연기를 해?\"…김우석, 친형 멜로망스 김민석의 현실 반응 공개",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849744",
-     "source": "SBS 뉴스"
-    },
-    {
-     "title": "[인터뷰②]'닥터X' 김우석 \"촬영 중 진짜 의사로 오해받아…환자가 길 물어 당황\"",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/17/GBSTAOLEGVRDIMJVMRRDIMLBGI/",
-     "source": "조선일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
    "keyword": "아동수당",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "“내년부터 12세까지 월 30만원?”…아동수당 확대 추진, 대상은",
@@ -115,24 +87,52 @@
    "safe": true
   },
   {
+   "rank": 4,
+   "keyword": "김우석",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "김우석 \"'환자 바라기'…어떻게든 돕고 싶단 생각만 했죠\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117096200005",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "\"야, 네가 김지원·손현주와 연기를 해?\"…김우석, 친형 멜로망스 김민석의 현실 반응 공개",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008849744",
+     "source": "SBS 뉴스"
+    },
+    {
+     "title": "[인터뷰②]'닥터X' 김우석 \"촬영 중 진짜 의사로 오해받아…환자가 길 물어 당황\"",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/17/GBSTAOLEGVRDIMJVMRRDIMLBGI/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 5,
    "keyword": "조국",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "혁신당 \"일본, 조국 입국 거부‥즉각 해명·사과하라\"",
-     "url": "https://imnews.imbc.com/news/2026/politics/article/6866293_36911.html",
+     "title": "'조국 일본 입국 거부' 외교부 \"유감 표명‥재발 방지 요구\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6866340_36911.html",
      "source": "MBC 뉴스"
     },
     {
-     "title": "조국, 일본 공항서 입국거부…일본 정부, 1990년대 형사처벌 전력 문제삼은 듯",
-     "url": "https://www.khan.co.kr/article/202611171741001",
-     "source": "경향신문"
+     "title": "일본서 ‘상륙거부’ 당한 조국⋯\"일본 정부 사과하라\"",
+     "url": "https://www.kmib.co.kr/article/20261117501506",
+     "source": "국민일보"
     },
     {
      "title": "조국 혁신당 전 대표, 일본 입국 거부 당해... 독도 방문 이력 때문?",
@@ -149,7 +149,7 @@
    "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -177,7 +177,7 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -205,26 +205,26 @@
    "label": "약 100회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "EU, 베트남산 냉연강판에 16% 반덤핑 관세 부과…포스코도 포함",
-     "url": "https://www.fnnews.com/news/202611171553514737",
-     "source": "파이낸셜뉴스"
+     "title": "시진핑, 캐나다·베트남 정상과 연쇄 회담…경협·다자주의 강조",
+     "url": "https://www.yna.co.kr/view/AKR20261117147800083",
+     "source": "연합뉴스"
     },
     {
-     "title": "EU, 인도 등 5개국 철강에 최고 27.9% 반덤핑 관세 부과",
-     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611170653365432bd56fbc3c_1",
-     "source": "글로벌이코노믹"
+     "title": "‘APEC 맞이’ 시진핑, 캐나다 총리 만나 “다자무역체제 수호”",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04473926645646704",
+     "source": "마켓인"
     },
     {
-     "title": "EU, 日·대만 등 냉연강판 최고 27.9% 반덤핑관세…포스코베트남 16%",
-     "url": "https://www.news1.kr/world/europe/6356096",
-     "source": "뉴스1"
+     "title": "’트럼프와 갈등’ 캐나다, 中과 추가 관세 인하 합의",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261117153422CIh",
+     "source": "연합뉴스TV"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
