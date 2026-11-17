@@ -2798,5 +2798,47 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-17T12:54:00+09:00"
+},
+{
+"id": "ne612a0ca84",
+"cat": "festival",
+"title": "화성시어린이문화센터, 19~22일 ‘2026 아동권리주간’ 운영",
+"source": "AI경기방송",
+"url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CTTQ5azVIUWtNLTBSUmlWN0lxQlFQNXozVW9QTlprUEs1V1NrLXRhLVUxX0lYVWoyNnJIcWdnam9GYTBKM2V0bzFpM1dzNEc1bWc?oc=5",
+"pub": "2026-11-17T13:35:00+09:00",
+"region": "화성",
+"period": "19~22일",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T13:57:00+09:00"
+},
+{
+"id": "n6a49016bfe",
+"cat": "place",
+"title": "\"11월 아이와 어디 갈까?\"... 치즈 만들고 산양 만나는 이색 가족 여행지 테마파크",
+"source": "리포테라",
+"url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLUmk5LVV5VEF5X0JDcEdrYlh6YzdScnlCYU5GZnJSS2VBdU5rcDBwMjZkNEJpZkFkS1FOQ3l3eE1CUUYtOXVBOUZxOXVxUVU0QmdvUlpXTVp5SnBHWVQ4Yk5PSjgxVlpuZGlIbW0wRGNQTEliNmxN0gF_QVVfeXFMUFk1ZjVhdTdRQU40Y3FPQ3pDUFoycUdzNzBjYzVQTERTc0NZUGxJck9iWHg1dG5tSm5HbXNwS2xJOWN4RURPZ3pSMnFVaGp0RkNNTTFYZVZBcUNFckhmN0FVSEp3NEs1OVctTTNCNVkyZnVOb1JVS21uUGJqU0ZRRQ?oc=5",
+"pub": "2026-11-17T08:00:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T13:57:00+09:00"
+},
+{
+"id": "n853529dfbe",
+"cat": "show",
+"title": "계룡시, 어린이감성체험장 개관 6주년 맞아 전통문화 체험마당 개최",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nblFOQzhBbE13RlhfZEFsVV9pYmFxVlo1X1VVa2VVQWNpMmxDaHRjbnJkMzVUQlZyLUNub1NIRUNGa0hLZHNGaWROZXhnMVJOUFhtVUZReng2SzFvWWFzWnN3azQ?oc=5",
+"pub": "2026-11-14T17:00:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-17T13:57:00+09:00"
 }
 ]
