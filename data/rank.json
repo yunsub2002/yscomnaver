@@ -1,190 +1,206 @@
 {
- "updated": "2026-11-17T11:12:00+09:00",
- "prev_updated": "2026-11-17T10:00:00+09:00",
+ "updated": "2026-11-17T12:54:00+09:00",
+ "prev_updated": "2026-11-17T11:12:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "김주애",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "피의자",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "김정은, 백두산 인근 관광지구 시찰…스키 실력 뽐낸 주애(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261117012451504",
-     "source": "연합뉴스"
+     "title": "2mm 초소형 카메라 AI 연결하니…순식간에 문제 풀이",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8714200",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "北 ‘스키 타는 김주애’ 공개…김정은과 삼지연 관광지구 시찰",
-     "url": "https://www.donga.com/news/Politics/article/all/20261117/135037029/2",
-     "source": "동아일보"
+     "title": "[뉴스초점] ’AI 부정행위’ 세무사 시험 수석 경찰 출석",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261117124007pNf",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "김정은, 삼지연 관광지구 이틀간 시찰‥관광자원 중요성 부각",
-     "url": "https://imnews.imbc.com/news/2026/politics/article/6866195_36911.html",
-     "source": "MBC 뉴스"
+     "title": "[속보] 한성숙 “수능 스마트기기 휴대 원천차단, 안경·시계 전수점검도…부정행위 ‘사회악’ 규정”",
+     "url": "https://www.khan.co.kr/article/202611171039001",
+     "source": "경향신문"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 2,
-   "keyword": "전쟁",
+   "keyword": "김선태",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"한국서 곧 전쟁 난다\"…전 세계 발칵 뒤집은 '30일치 비축령'의 정체",
-     "url": "https://view.asiae.co.kr/article/2026111619334374520",
-     "source": "아시아경제"
+     "title": "AI 안경 쓰고 공무원 시험 본 '충주맨', 25점 받은 이유가",
+     "url": "https://www.hankyung.com/article/2026111708667",
+     "source": "한국경제"
     },
     {
-     "title": "한국도 전쟁 나는 거 아냐?…“30일치 식량·식수 챙겨라” 해외서 난리 난 게시물, 알고보니",
-     "url": "https://www.sedaily.com/article/20114939",
-     "source": "서울경제"
+     "title": "김선태, 이번엔 ‘충주냥이’…“공무원 국어 시험 라이브로 풀겠다”",
+     "url": "https://www.koreadaily.com/article/20261116060854028",
+     "source": "미주중앙일보"
     },
     {
-     "title": "韓에 전쟁난다는데 우리만 몰랐다?…해외서 퍼진 `비상물품 목록` 실체는",
-     "url": "https://www.imaeil.com/page/view/2026111710383930445",
-     "source": "매일신문"
+     "title": "’수학 7등급’인데 AI 안경 썼더니…결과 충격적",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261115231402nwH",
+     "source": "연합뉴스TV"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "뉴올리언스 대 골든 스테이트",
+   "keyword": "너구리",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "Game Preview: Warriors at New Orleans Pelicans - 11/16/26",
-     "url": "https://warriors.com/news/gameday-preview-20261116",
-     "source": "NBA.com"
+     "title": "농심, '볶음너구리' 정식 판매 전환…신제품 '매콤마요'도 출시",
+     "url": "https://www.yna.co.kr/view/AKR20261117045300030",
+     "source": "연합뉴스"
     },
     {
-     "title": "Warriors vs Pelicans Injury Report Rules Out Several Starters",
-     "url": "https://sports.yahoo.com/articles/warriors-vs-pelicans-injury-report-204935734.html",
-     "source": "Yahoo Sports"
+     "title": "너구리 변신 계속된다…농심, '매콤마요 볶음너구리' 등 라인업 확대",
+     "url": "https://www.newsis.com/view/NISX20261117_0003870880",
+     "source": "뉴시스"
     },
     {
-     "title": "How to watch Warriors vs. Pelicans",
-     "url": "https://www.goldenstateofmind.com/warriors-game-previews/113498/how-to-watch-warriors-vs-pelicans",
-     "source": "Golden State Of Mind"
+     "title": "농심, '볶음너구리' 다시 정식 판매…매콤마요 신제품도 출시",
+     "url": "https://www.etnews.com/20261117000166",
+     "source": "전자신문"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "폭싹 속았수다",
+   "keyword": "장동혁",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -2,
-   "news": [],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "브루클린 대 필라데피아",
-   "traffic": "500+",
-   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "76ers star LeBron James ruled out vs. Nets due to lower back management",
-     "url": "https://www.espn.com/nba/story/_/id/50503255/lebron-james-ruled-vs-nets-due-lower-back-management",
-     "source": "ESPN"
+     "title": "장동혁, 한동훈 장인상 조문… 7분간 머물러",
+     "url": "https://www.chosun.com/politics/assembly/2026/11/17/FKM4AA2WCFCCFPYATWVGRER5PI/",
+     "source": "조선일보"
     },
     {
-     "title": "LeBron James Injury Update, Latest on 76ers Star's Status vs. Nets",
-     "url": "https://bleacherreport.com/articles/25532769-lebron-james-injury-update-latest-76ers-stars-status-vs-nets",
-     "source": "Bleacher Report"
+     "title": "[여적] ‘최초 특검’ 피의자의 별세",
+     "url": "https://www.khan.co.kr/article/202611161903011",
+     "source": "경향신문"
     },
     {
-     "title": "NBA season live updates: Latest from Rockets-Heat, Timberwolves-Trail Blazers and more - The Athletic",
-     "url": "https://www.nytimes.com/athletic/live-blogs/nba-news-schedule-scores-games-live-updates-2026/CzqWv0txVItd/",
-     "source": "The New York Times"
+     "title": "장동혁, 한동훈 빙부상 조문…7분여 머물러",
+     "url": "https://www.donga.com/news/Politics/article/all/20261117/135036688/1",
+     "source": "동아일보"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 6,
-   "keyword": "롤 스토브",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 5,
+   "keyword": "장민기",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "LCK 스토브리그 일정은?⋯코치 영입 15일ㆍ선수 FA 17일",
-     "url": "https://www.etoday.co.kr/news/view/2647803",
-     "source": "이투데이"
+     "title": "'9위 추락' KIA 마운드의 희망이었는데…방출 칼바람에 야구공 놓는다 \"인생에서 가장 빛나는 추억\"",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1019982",
+     "source": "SPOTV NEWS"
     },
     {
-     "title": "'BLG 우승' 롤드컵 막 내렸다… 폭풍전야 LCK 스토브리그, 탑과 정글로 쏠리는 눈",
-     "url": "https://www.standingout.kr/news/articleView.html?idxno=1907",
-     "source": "https://www.standingout.kr/"
+     "title": "[오피셜] \"타이거즈라는 멋진 팀에서 야구를 할 수 있어 언제나 행복했습니다\" 국대 마무리 조병현보다 먼저 뽑혔던 2001년생 좌완 유망주 장민기, 은퇴 선언",
+     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553702539",
+     "source": "스포탈코리아"
     },
     {
-     "title": "젠지, '기인' 김기인ㆍ'캐니언' 김건부 계약 종료 [공식]",
-     "url": "https://www.etoday.co.kr/news/view/2649030",
-     "source": "이투데이"
+     "title": "KIA 투수 장민기 타이거즈 선수여서 행복…평생 잊지 않겠다",
+     "url": "https://www.ajunews.com/view/20261116062601922",
+     "source": "아주경제"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "상장",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"이 신호 뜨면 주식 팔아라?\"…앤트로픽 상장 앞두고 나온 경고 [분석+]",
+     "url": "https://www.hankyung.com/article/2026111695036",
+     "source": "한국경제"
+    },
+    {
+     "title": "AI칩 투자 줄이고 앤스로픽에 50억달러 청약…거스너 “젠슨 황 복귀 서두르지 말라”",
+     "url": "https://www.mk.co.kr/news/it/12210622",
+     "source": "매일경제"
+    },
+    {
+     "title": "증시 덮친 ‘앤트로픽 수급 공포’···삼전닉스 2차 매물폭탄 쏟아지나",
+     "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=425062",
+     "source": "시사저널e"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "남진",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "자오창펑",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "남진, 46세·42세 두 딸 미혼 고백…“아직 시집 안 갔다”",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261116/135030857/1",
-     "source": "동아일보"
+     "title": "자오창펑 바이낸스 CEO \"우린 비트코인 안 팔았다\"",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03581766645646376",
+     "source": "마켓인"
     },
     {
-     "title": "미운 우리 새끼 : 설운도, 허경환의 처참한 부추전 요리에 도움 나선 후 빠른 손절",
-     "url": "https://programs.sbs.co.kr/enter/woori/clip/52019/OC483367571?div=live_end",
-     "source": "programs.sbs.co.kr"
+     "title": "비트코인 추가 폭락 가능성? 지금 시장에서 벌어지는 수상한 움직임",
+     "url": "https://contents.premium.naver.com/net/go/contents/261116154239161xy",
+     "source": "네이버 프리미엄콘텐츠"
     },
     {
-     "title": "'45세 미혼' 허경환, 결혼 임박? \"여자 없으면 거짓말\"",
-     "url": "https://www.newsis.com/view/NISX20261115_0003868821",
-     "source": "뉴시스"
+     "title": "비트코인 6만 2,000달러 폭락, 바이낸스가 팔았나? CZ 직접 입 열었다",
+     "url": "https://www.coinreaders.com/270458",
+     "source": "코인리더스"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "파라타항공",
+   "keyword": "김준호",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -193,75 +209,47 @@
    "delta": 0,
    "news": [
     {
-     "title": "파라타항공, 내년 5월 인천~LA 매일 운항…첫 미주 노선 판매 개시 - 머니투데이",
-     "url": "https://www.mt.co.kr/industry/2026/11/17/2026111709541769331",
+     "title": "'만삭' 김지민, 장롱면허 김준호 대신해 운전대 잡았다",
+     "url": "https://www.newsis.com/view/NISX20261116_0003868998",
+     "source": "뉴시스"
+    },
+    {
+     "title": "'만삭' 김지민이 운전하고 김준호는 조수석에 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/16/2026111607243073022",
      "source": "머니투데이"
     },
     {
-     "title": "파라타항공, 첫 미주 노선 LA 항공권 판매 개시… 내년 5월 취항",
-     "url": "https://www.viva100.com/article/20261117500418",
-     "source": "브릿지경제"
-    },
-    {
-     "title": "윤철민號 파라타항공, LCC 틀 깬다…노선 확대·서비스 고급화 승부수 [파라타항공 성장 날갯짓]",
-     "url": "https://www.etoday.co.kr/news/view/2648644",
-     "source": "이투데이"
+     "title": "‘임신’ 김지민, 해외 촬영 다녀온 ♥김준호 위해 거한 한식 상차림 “귀한 자연산 송이도”",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/16/MZRDOYLEMFQTEMTBMVTDQYRVGM/",
+     "source": "Chosunbiz"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "김포시",
+   "keyword": "예비소집일",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "김포시, 공직자 대상 기본사회 이해 교육으로 정책 공감대 넓혀",
-     "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=804152",
-     "source": "일간투데이"
+     "title": "수능 수험생 여러분! 전자기기 가져오지 마세요! - 카드/한컷 | 멀티미디어",
+     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148975450",
+     "source": "대한민국 정책브리핑"
     },
     {
-     "title": "거창군, 문화공연‧정책특강 함께한 11월 정례조회 개최",
-     "url": "https://www.bultopnews.com/news/article.html?no=20032",
-     "source": "불탑뉴스"
+     "title": "[지지대] 흔들리지 말고 당당하게",
+     "url": "https://www.kyeonggi.com/article/20261116580050",
+     "source": "경기일보"
     },
     {
-     "title": "전남광주통합특별시의회 대통령직속 기본사회위원회, 간담회 개최 > 뉴스",
-     "url": "https://www.thekorea.kr/bbs/board.php?bo_table=news&wr_id=569533",
-     "source": "더코리아"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 10,
-   "keyword": "한국투자증권",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -2,
-   "news": [
-    {
-     "title": "한국투자증권, 유튜브 '한국인의 연금' 통해 시황 라이브 진행",
-     "url": "https://www.etnews.com/20261117000054",
-     "source": "전자신문"
-    },
-    {
-     "title": "LS증권, '투혼클럽' 고객 초청 자산관리 세미나 개최",
-     "url": "https://core.asiae.co.kr/article/2026111710210972334",
-     "source": "아시아경제"
-    },
-    {
-     "title": "한투, 매주 화요일 '연금 시황 라이브' 세미나 \"연금 자산배분 전략 제시\"",
-     "url": "https://www.fnnews.com/news/202611171018443072",
-     "source": "파이낸셜뉴스"
+     "title": "N수생 최대·AI 안경까지···‘현행 마지막 시험’ 올 수능 변수는?",
+     "url": "https://www.khan.co.kr/article/202611151412011",
+     "source": "경향신문"
     }
    ],
    "safe": true
