@@ -1,10 +1,66 @@
 {
- "updated": "2026-11-17T14:58:00+09:00",
- "prev_updated": "2026-11-17T13:57:00+09:00",
+ "updated": "2026-11-17T16:13:00+09:00",
+ "prev_updated": "2026-11-17T14:58:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "실종자",
+   "keyword": "압구정동",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"너무 싸서 못 믿겠다\"…60억 넘던 압구정 아파트에 무슨 일이 [시장톡]",
+     "url": "https://www.hankyung.com/article/2026111351626",
+     "source": "한국경제"
+    },
+    {
+     "title": "압구정동 현대8차 71억5천만원·현대5차 54억원·현대14차 52억6천만원… 강남구 아파트 고가 거래 [MAI부동산]",
+     "url": "https://www.mk.co.kr/news/realestate/12209622",
+     "source": "매일경제"
+    },
+    {
+     "title": "[11.16] 압구정 현대14차 1년 새 10억 폭락…은평뉴타운 국 · 평 2.5억 하락 거래",
+     "url": "https://www.ledesk.co.kr/view.php?uid=16833",
+     "source": "르데스크"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "전남광주통합특별시교육청",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "수능 감독 교사는 수당 17만원인데···전남광주교육청 간부는 최대 330만원 챙겼다",
+     "url": "https://www.khan.co.kr/article/202611171217001",
+     "source": "경향신문"
+    },
+    {
+     "title": "수능 감독교사는 수당 17만원 받는데…교육감은 330만원 챙겼다",
+     "url": "https://www.mk.co.kr/news/society/12211185",
+     "source": "매일경제"
+    },
+    {
+     "title": "수능 감독수당 교사는 17만원, 교육청 고위직은 수백만원",
+     "url": "https://www.yna.co.kr/view/AKR20261117114400054",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "고지용",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "기타",
@@ -13,271 +69,187 @@
    "delta": 0,
    "news": [
     {
-     "title": "부안 갯벌서 남성 시신 발견…실종자와 신원 대조",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712895",
-     "source": "KBS 뉴스"
+     "title": "고지용 \"건강 악화로 63㎏까지 빠져…술에 의존해\"",
+     "url": "https://www.newsis.com/view/NISX20261116_0003870556",
+     "source": "뉴시스"
     },
     {
-     "title": "갯벌서 발견된 남성 변사체…해경 수사 중",
-     "url": "https://www.nocutnews.co.kr/news/6606902",
-     "source": "노컷뉴스"
+     "title": "\"'슈돌'은 시간 맞춰줘\" 고지용, 젝키 불참 해명…팬들 '발끈' - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111710464723184",
+     "source": "머니투데이"
     },
     {
-     "title": "부안 갯벌서 남성 시신 발견…전날 실종된 60대 추정",
-     "url": "https://www.theonetv.kr/news/articleView.html?idxno=255198",
-     "source": "OBC 뉴스"
+     "title": "\"아들 더 보고 싶다\" 고지용, 허양임과 법정까지 간 이유보니 [Oh!쎈 이슈]",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/17/GEZDQNZTGYYTEZLCGI2GKNRRGI/",
+     "source": "조선일보"
     }
    ],
    "safe": false
-  },
-  {
-   "rank": 2,
-   "keyword": "조작기소 특검법",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[속보] 정부, 총리 주재 국무회의에서 '조작기소 특검법' 의결",
-     "url": "https://imnews.imbc.com/news/2026/politics/article/6866240_36911.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "與 “진실 밝히는 출발점“ 野 “’쿠데타’ 의결“",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261117143019mcd",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "[속보] 조작기소특검법 공포안, 이 대통령 순방 중 한성숙 총리 주재 국무회의서 의결",
-     "url": "https://www.khan.co.kr/article/202611171134001",
-     "source": "경향신문"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "김기인",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "젠지, '기인' 김기인ㆍ'캐니언' 김건부 계약 종료 [공식]",
-     "url": "https://www.etoday.co.kr/news/view/2649030",
-     "source": "이투데이"
-    },
-    {
-     "title": "'BLG 우승' 롤드컵 막 내렸다… 폭풍전야 LCK 스토브리그, 탑과 정글로 쏠리는 눈",
-     "url": "https://www.standingout.kr/news/articleView.html?idxno=1907",
-     "source": "https://www.standingout.kr/"
-    },
-    {
-     "title": "'기인' 김기인, 젠지 떠나 FA 시장으로",
-     "url": "https://www.dailyesports.com/view.php?ud=20261117095801736374bcc1e038_27",
-     "source": "데일리e스포츠"
-    }
-   ],
-   "safe": true
   },
   {
    "rank": 4,
-   "keyword": "잠실 래미안 아이파크",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
+   "keyword": "소프트웨어",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "잠실서 '20억 로또' 나온다…'잠실래미안아이파크' 3가구 줍줍",
-     "url": "https://realty.chosun.com/site/data/html_dir/2026/11/17/2026111700960.html",
-     "source": "땅집고"
+     "title": "KMS테크놀로지, 테너블·비욘드트러스트와 19일 OT 보안 웨비나",
+     "url": "https://www.ddaily.co.kr/page/view/2026111610152690942",
+     "source": "디지털데일리"
     },
     {
-     "title": "잠실 래미안아이파크 3가구 재공급…시세 차익 최대 24억",
-     "url": "https://www.news1.kr/realestate/general/6356521",
-     "source": "뉴스1"
+     "title": "앤앤에스피, 'CPS 시큐어 AX 서밋 2026' 개최",
+     "url": "https://www.etnews.com/20261113000267",
+     "source": "전자신문"
     },
     {
-     "title": "잠실 래미안아이파크 불법행위재공급 줍줍 (’26. 11/23~24)",
-     "url": "https://homedubu.com/12996/",
-     "source": "홈두부"
+     "title": "전망 상향 조정이 포티넷(FTNT) 주가에 있어 중요한 전환점이 될 수 있다",
+     "url": "https://simplywall.st/ko/stocks/us/software/nasdaq-ftnt/fortinet/news/56a22980989bd92e",
+     "source": "Simply Wall St"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "삼양식품",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "구축함",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "급락장에도 홀로 불기둥…'통 큰 베팅'에 증권가도 주목",
-     "url": "https://www.hankyung.com/article/202611169651i",
-     "source": "한국경제"
+     "title": "\"北 신형 구축함, 핵·재래무기 동시 탑재…속도 등 한계\"",
+     "url": "https://www.yna.co.kr/view/AKR20261111084300009",
+     "source": "연합뉴스"
     },
     {
-     "title": "\"이빨이 아파\" 불닭 미국·유럽 확장…삼양식품 장 초반 5% 강세[핫종목]",
-     "url": "https://www.news1.kr/finance/market-exr/6354875",
-     "source": "뉴스1"
+     "title": "[위성+] 5000톤급 구축함 ‘강건호’ 마양도 배치, ‘최현호’ 남포항 계류",
+     "url": "https://www.dailynk.com/20261117-2/",
+     "source": "데일리NK"
     },
     {
-     "title": "[특징주]삼양식품, 외국인 순매수에 6.20% 상승마감…중국 신공장 성장 기대",
-     "url": "https://www.namdonews.com/news/articleView.html?idxno=929378",
-     "source": "남도일보"
+     "title": "北 해군도 핵무장… 시급한 ‘해양 킬웹’[포럼]",
+     "url": "https://www.munhwa.com/article/11630506",
+     "source": "문화일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "담보 대출",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "내일부터 5대은행 주담대 변동금리 또 올라···최고 연 6.51%",
-     "url": "https://www.khan.co.kr/article/202611161646001",
-     "source": "경향신문"
-    },
-    {
-     "title": "코픽스마저 또 올랐다…짙어지는 ‘고금리의 그늘’",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03276726645646376",
-     "source": "마켓인"
-    },
-    {
-     "title": "\"변동금리 더 싸다더니\"…시장금리 내릴 때 또 오른 변동형 주담대 - 머니투데이",
-     "url": "https://www.mt.co.kr/finance/2026/11/16/2026111616275049949",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "파업",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "더플레이",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'25일 서울 지하철 총파업' 예고한 노조 \"인력감축 철회·임금 인상\"",
-     "url": "https://www.yna.co.kr/view/AKR20261117078100004",
-     "source": "연합뉴스"
+     "title": "'너구리' 장하권, 더플레이와 에이전시 계약 [공식]",
+     "url": "https://www.etoday.co.kr/news/view/2649352",
+     "source": "이투데이"
     },
     {
-     "title": "철도노조, 서울 도심서 결의대회…다음 달 총파업 예고",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712905",
-     "source": "KBS 뉴스"
+     "title": "[단독] '너구리' 장하권, 4년 만의 현역 복귀 타진",
+     "url": "https://www.inven.co.kr/webzine/news/?news=323467",
+     "source": "인벤"
     },
     {
-     "title": "SR 노조도 “교섭 결렬 땐 파업”…통합 서두른 고속철도 ‘비상’",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261116010006161",
-     "source": "아시아투데이"
+     "title": "[단독] '너구리' 장하권, 4년 만의 현역 복귀 타진",
+     "url": "https://www.inven.co.kr/webzine/news/?news=323467&site=lol",
+     "source": "인벤"
     }
    ],
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "메디게이트뉴스",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "무면허 음주운전으로 면허 잃은 의사, 1심 패소…법원, 위헌 제청 신청도 기각",
-     "url": "https://www.medigatenews.com/news/1491780453",
-     "source": "MEDI:GATE NEWS"
-    },
-    {
-     "title": "[판결] 법원, “음주·무면허운전으로 징역 확정 의사 면허취소는 정당”",
-     "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=229520",
-     "source": "법률신문"
-    },
-    {
-     "title": "음주운전 의사 면허 취소에 법원 “정당”…개정 의료법 첫 판단",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713822",
-     "source": "KBS 뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 9,
-   "keyword": "농구",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“승부보다 뜨거운 농구 열정”…김포 농구 동호인 900여 명 한자리에",
-     "url": "http://www.joongboo.com/news/articleView.html?idxno=363742724",
-     "source": "중부일보"
-    },
-    {
-     "title": "김포시,제21회 김포시장기 금쌀사랑 종별 생활체육 농구대회 성황리 개최",
-     "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=804146",
-     "source": "일간투데이"
-    },
-    {
-     "title": "김포시, 생활체육관서 탁구대회 개최…450여 명 동호인 참가",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3747222",
-     "source": "국제뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "롤 도벽",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 7,
+   "keyword": "와퍼",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "IT·테크",
    "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "요약 문서: 2027 시즌 1 개발 업데이트",
-     "url": "https://www.leagueoflegends.com/ko-kr/news/dev/tldw-season-1-2027-dev-update---lol-website-article-lollol27-s1225r001/",
-     "source": "League of Legends"
+     "title": "\"8년 전 만우절 콘텐츠가 현실로\"…버거킹, '초콜릿 와퍼' 출시",
+     "url": "https://www.yna.co.kr/view/AKR20261117028800030",
+     "source": "연합뉴스"
     },
     {
-     "title": "라이엇게임즈, LoL 출시 후 최대 규모 '차세대 업데이트'…2027년 도입 목표",
-     "url": "https://www.etnews.com/20261116000256",
-     "source": "전자신문"
+     "title": "패티는 브라우니, 피클은 초콜릿…버거킹 '초콜릿 와퍼' 성수서 첫선",
+     "url": "https://www.newsis.com/view/NISX20261117_0003870829",
+     "source": "뉴시스"
     },
     {
-     "title": "[게임업계 소식] 라이엇 게임즈, LoL 2027년 첫 콘텐츠 공개 外",
-     "url": "https://www.viva100.com/article/20261117500407",
-     "source": "브릿지경제"
+     "title": "\"당 충전 끝판왕 나왔다\"…버거킹이 내놓은 '단단버거' 뭐길래",
+     "url": "https://www.hankyung.com/article/202611170751g",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "전두환",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "전두환 일가 비자금 의혹 사건, 중수청이 맡는다…추징 미납 800억대",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1287673.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "[단독] ‘전우원 폭로’ 故 전두환 비자금 의혹 서울중수청이 맡는다…공소청서 이송[세상&]",
+     "url": "https://biz.heraldcorp.com/article/10939286",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "서울중수청, ‘전두환 비자금 의혹’ 넘겨받아 기록 검토 중",
+     "url": "https://www.khan.co.kr/article/202611171054001",
+     "source": "경향신문"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 9,
+   "keyword": "시그니엘 서울",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "84억에 산 메가커피 법인 소유 시그니엘… 오너 일가 주소지로 등재",
+     "url": "https://biz.chosun.com/distribution/food/2026/11/17/UFQAXVG5JRBEXMXPWPSPJNFCUY/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "김대영 메가커피 회장 '황제사택' 누렸나…수십억 회사대출도 이용",
+     "url": "https://www.1conomynews.co.kr/news/articleView.html?idxno=51332",
+     "source": "1코노미뉴스"
+    },
+    {
+     "title": "84억 시그니엘 회사 소유, 주소는 오너 일가…메가커피의 '깜깜이 임대차'",
+     "url": "https://www.e-science.co.kr/news/articleView.html?idxno=140034",
+     "source": "이코노미사이언스"
     }
    ],
    "safe": true
