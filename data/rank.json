@@ -1,44 +1,16 @@
 {
- "updated": "2026-11-18T03:57:00+09:00",
- "prev_updated": "2026-11-18T02:59:00+09:00",
+ "updated": "2026-11-18T05:01:00+09:00",
+ "prev_updated": "2026-11-18T03:57:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "상주 지진",
-   "traffic": "20000+",
-   "label": "약 2만 회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "경북 상주 규모 3.6 지진…유감 신고 16건",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715579",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "원안위 \"상주 인근 규모 3.6 지진, 원자로 안전에 영향 없어\"",
-     "url": "https://www.yna.co.kr/view/AKR20261118002600017",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "[속보] 기상청 \"경북 상주 북서쪽서 규모 3.7 지진 발생\"",
-     "url": "https://www.hankyung.com/article/2026111731047",
-     "source": "한국경제"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "데블스플랜3",
+   "keyword": "데블스플랜",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "up",
-   "delta": 1,
+   "delta": 6,
    "news": [
     {
      "title": "‘데블스 플랜3’ 5회 만에 7명 탈락...판 뒤집을 유배지 등장",
@@ -59,14 +31,70 @@
    "safe": true
   },
   {
+   "rank": 2,
+   "keyword": "탄도 미사일",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "젤렌스키 \"더 많은 北미사일 러에 공급‥韓주변에 도전 과제\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6866144_36925.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "“매달 수십 발씩 러시아에 공급”…우크라전 겪으며 진화하는 北 미사일의 공포 [밀리터리노트]",
+     "url": "https://m.go.seoul.co.kr/news/international/europe/2026/11/17/20261117500289",
+     "source": "서울Pn"
+    },
+    {
+     "title": "\"북한, 한 달 수십 발씩 러시아에 탄도미사일 제공…미사일 성능 갈고 닦아\"",
+     "url": "https://www.chosun.com/international/international_general/2026/11/17/ZN7KQ3MVTRBQDFLCF4JHHPYDJY/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 3,
+   "keyword": "친선경기",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "콜롬비아, 칠레와 친선 경기…수아레스, 마리판·울로아와 공 다툼",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3752319",
+     "source": "국제뉴스"
+    },
+    {
+     "title": "칠레 vs 콜롬비아 친선 경기 예측 - 국제 친선 경기",
+     "url": "https://www.vietnam.vn/ko/nhan-dinh-chile-vs-colombia-giao-huu-dtqg-friendlies",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "콜롬비아 대 칠레 경기 예측: 예측하기 어려운 경기",
+     "url": "https://www.vietnam.vn/ko/nhan-dinh-colombia-vs-chile-cuoc-doi-dau-kho-phan-dinh",
+     "source": "Vietnam.vn"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
    "keyword": "애플",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "[단독]카카오뱅크, 애플페이 서비스 시작",
@@ -74,27 +102,55 @@
      "source": "전자신문"
     },
     {
-     "title": "카뱅 이어 토스뱅크도 연내 애플페이 출시…카드사 진입 포문 열리나",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445087",
-     "source": "연합인포맥스"
-    },
-    {
      "title": "카드업권, 애플페이 인뱅 진출에도 머뭇…삼성페이 '눈치'",
      "url": "https://www.yna.co.kr/view/AKR20261117137300002",
      "source": "연합뉴스"
+    },
+    {
+     "title": "카뱅 이어 토스뱅크도 연내 애플페이 출시…카드사 진입 포문 열리나",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445087",
+     "source": "연합인포맥스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "keyword": "서울경제",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "일본 경유하려다 ‘날벼락’ 맞을 수도…“이것 없인 비행기 못 탄다” 대체 무슨 제도길래",
+     "url": "https://www.sedaily.com/article/20114910",
+     "source": "서울경제"
+    },
+    {
+     "title": "日, 2028년부터 일부 환승객도 전자여행허가 추진…인천공항과 허브 경쟁 변수",
+     "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=625420",
+     "source": "메디컬투데이"
+    },
+    {
+     "title": "日, 입국 안 하는 환승객도 사전 인증 추진…항공업계 우려",
+     "url": "https://www.newsis.com/view/NISX20261116_0003869538",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
    "keyword": "김다현",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "up",
-   "delta": 1,
+   "move": "down",
+   "delta": -2,
    "news": [
     {
      "title": "'가요무대' 김다현·빈예서 듀엣부터 배아현·신유·신승태까지 총출동",
@@ -115,85 +171,29 @@
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "포스코홀딩스",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 1,
-   "news": [
-    {
-     "title": "포스코인터내셔널, 거대 분지에서 끌어올린 '천연가스 잭팟'…파이프라인서 2000억 쏟아졌다",
-     "url": "https://www.hankyung.com/article/2026111710841",
-     "source": "한국경제"
-    },
-    {
-     "title": "장인화의 '선택과 집중' 통했다 … 2.2조 실탄 확보하고 리튬은 8년만에 흑자 전환",
-     "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/11/2026111100053.html",
-     "source": "뉴데일리 경제"
-    },
-    {
-     "title": "[현장] 전기로로 저탄소 쇳물 생산…전지소재·희귀가스 공급망도 지킨다",
-     "url": "https://edata.ekn.kr/article/view/ekn202611100004",
-     "source": "기후에너지데이터뱅크"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "지진 3.7",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "지수 선물 시황 - 이벤트 경계 심리 확대로 기술주 주도 약세 지속",
-     "url": "https://kr.investing.com/analysis/article-200459919",
-     "source": "Investing.com 한국어"
-    },
-    {
-     "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 동반 하락… 알테오젠·유한양행은 상승랠리",
-     "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=505142",
-     "source": "핀포인트뉴스"
-    },
-    {
-     "title": "지수 선물 시황 - 반발 매수세 유입 속 고용 서프라이즈, 지수별 차별화",
-     "url": "https://kr.investing.com/analysis/article-200459800",
-     "source": "Investing.com 한국어"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 7,
-   "keyword": "데블스플랜",
+   "keyword": "mbk파트너스",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "정현규, 비난 여론 딛고 '데블스플랜' 새 시즌 합류하더니 공황으로 중도 하차",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020407",
-     "source": "SPOTV NEWS"
+     "title": "회수부터 투자까지…MBK SS, 신규 펀드레이징 배경은",
+     "url": "https://marketin.edaily.co.kr/News/Read?newsId=04149206645646704",
+     "source": "마켓인"
     },
     {
-     "title": "정현규, 공황 증상으로 '데블스 플랜3' 하차 \"극복했다 생각\"",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525195",
-     "source": "iMBC 연예"
+     "title": "MBK파트너스, 2026 연차총회 개최…내년 해외투자 적극 확대",
+     "url": "https://www.yna.co.kr/view/AKR20261117056600008",
+     "source": "연합뉴스"
     },
     {
-     "title": "데블스플랜 정현규 공황으로 하차, 괜찮을 줄 알았는데 아니었다…퇴소 후 공개한 현재 건강 상태와 마지막 고백",
-     "url": "https://blog.naver.com/PostView.naver?blogId=yooju0913&logNo=224481199187&redirect=Dlog",
-     "source": "Naver Blog"
+     "title": "한국 노인 2050년 39.7%...MBK \"고령화사회 필요섹터에 투자하겠다\"",
+     "url": "https://www.fnnews.com/news/202611171054413817",
+     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
@@ -205,8 +205,8 @@
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "정우영 2년 7개월 만에 복귀…카타르전 대거 로테이션 : 스포츠",
