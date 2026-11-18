@@ -1,30 +1,30 @@
 {
- "updated": "2026-11-19T04:57:00+09:00",
- "prev_updated": "2026-11-19T03:54:00+09:00",
+ "updated": "2026-11-19T05:53:00+09:00",
+ "prev_updated": "2026-11-19T04:57:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "한화오션",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "삼전 닉스",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "3천600톤급 호위함 ‘평택함’ 진수…시운전 거쳐 내년 해군 인도",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715888",
-     "source": "KBS 뉴스"
+     "title": "[마감시황] 11/18 엔비디아 호실적에 코스피 +1.99% 반등",
+     "url": "https://contents.premium.naver.com/ontimebrief/sihwangontime/contents/261118175325946ih",
+     "source": "네이버 프리미엄콘텐츠"
     },
     {
-     "title": "평택함 한화오션에서 진수",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261118_0021537299&provider_id=&cID=&type=Main&catg=&idx=4",
-     "source": "뉴시스"
+     "title": "오천피 이끈 기관… 삼전닉스는 숨돌리기 - 머니투데이",
+     "url": "https://www.mt.co.kr/stock/2026/11/19/2026111819575381013",
+     "source": "머니투데이"
     },
     {
-     "title": "[영상] 어느덧 5번함…3천600t급 최신예 호위함 '평택함' 진수",
-     "url": "https://www.yna.co.kr/view/AKR20261118170400704",
+     "title": "삼성전자, 2.3% 상승 마감…하닉은 4.2%↑(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261118045151008",
      "source": "연합뉴스"
     }
    ],
@@ -32,14 +32,47 @@
   },
   {
    "rank": 2,
+   "keyword": "한화오션",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "[영상] 어느덧 5번함…3천600t급 최신예 호위함 '평택함' 진수",
+     "url": "https://www.yna.co.kr/view/AKR20261118170400704",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "3,600톤급 호위함 ’평택함’ 진수…내년 해군 인도 예정",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261119051543jAe",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "평택함 한화오션에서 진수",
+     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261118_0021537299&provider_id=&cID=&type=Main&catg=&idx=4",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
    "keyword": "기인",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
+    {
+     "title": "[단독] 한화생명, ‘기인’ 김기인·'캐니언' 김건부 영입",
+     "url": "https://www.kmib.co.kr/article/20261119500020",
+     "source": "국민일보"
+    },
     {
      "title": "LCK 스토브리그 개장 첫날 기인·캐니언 FA…하루 새 주전 10명 시장행",
      "url": "https://www.jbnews.com/news/articleView.html?idxno=1516224",
@@ -49,67 +82,34 @@
      "title": "롤드컵 끝나자 LCK 스토브리그…한화 ‘모글리’, DK 해체설 진화",
      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000083816",
      "source": "진일보 | 전남일보"
-    },
-    {
-     "title": "젠지, '기인' 김기인ㆍ'캐니언' 김건부 계약 종료 [공식]",
-     "url": "https://www.etoday.co.kr/news/view/2649030",
-     "source": "이투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "김정은",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[속보] \"미중러 정상, APEC 환영만찬서 첫 인사 나눠\" AFP",
-     "url": "https://news.jtbc.co.kr/article/NB12328748",
-     "source": "JTBC"
-    },
-    {
-     "title": "미중러 정상회담일, 유럽은 ’의지의 연합’ 정상회의",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261119040138wAU",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "APEC 담판, 전쟁 끝낼까...\"해법 쉽지 않을 것\"",
-     "url": "https://www.ytn.co.kr/_cs/_ln_0104_202611182303205047_005.html",
-     "source": "YTN"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "신세계",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "same",
-   "delta": 0,
+   "keyword": "김정은",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
-     "title": "신세계 3분기 실적, 어디 하나 빠진 곳이 없네",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445071",
-     "source": "연합인포맥스"
+     "title": "미중러 정상 오늘 사상 첫 3자회담…세계질서 중대 분수령",
+     "url": "https://www.yna.co.kr/view/AKR20261118159000083",
+     "source": "연합뉴스"
     },
     {
-     "title": "[리포트 브리핑]신세계, '3Q26 Re: 탄탄한 실적, 백화점 성장률이 관건' 목표가 365,000원 - 하나증권",
-     "url": "https://www.newspim.com/news/view/20261111000117",
-     "source": "뉴스핌"
+     "title": "시진핑, 직접 공항 나가 트럼프 ‘포옹 영접’",
+     "url": "https://www.donga.com/news/Inter/article/all/20261119/135050902/2",
+     "source": "동아일보"
     },
     {
-     "title": "\"지방 알부자 잡아라\"…백화점들, 매장 팔고 '수조원 베팅' [분석+]",
-     "url": "https://www.hankyung.com/article/202611135317g",
-     "source": "한국경제"
+     "title": "견제서 초밀착으로 변한 중국·러시아…미국과 ‘2 대 1’ 새 강대국 구도 첫선",
+     "url": "https://www.khan.co.kr/article/202611182117005",
+     "source": "경향신문"
     }
    ],
    "safe": true
@@ -117,11 +117,11 @@
   {
    "rank": 5,
    "keyword": "자영업",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -149,18 +149,18 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
-    {
-     "title": "승리 '임신한 부인과 함께 귀국'",
-     "url": "https://www.mt.co.kr/photo/202611182305239152",
-     "source": "머니투데이"
-    },
     {
      "title": "승리, 만삭 20대 아내와 동반 입국…D라인 포착",
      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/19/2026111990001.html",
      "source": "TV조선뉴스"
+    },
+    {
+     "title": "승리 '임신한 부인과 함께 귀국'",
+     "url": "https://www.mt.co.kr/photo/202611182305239152",
+     "source": "머니투데이"
     },
     {
      "title": "승리, ♥임신한 20대 아내와 동반 입국..\"여기까지 찍어라\" 취재진 경계",
@@ -177,7 +177,7 @@
    "label": "약 100회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -242,14 +242,14 @@
      "source": "미주중앙일보"
     },
     {
-     "title": "한화생명e스포츠, 신임 감독으로 ‘모글리’ 이재하 선임",
-     "url": "https://www.kukinews.com/article/view/kuk202611180049",
-     "source": "쿠키뉴스"
-    },
-    {
      "title": "한화생명 창단 첫 MSI 우승 감독 '옴므' 윤성영 떠난다",
      "url": "https://www.dailyesports.com/view.php?ud=20261117105922509374bcc1e038_27",
      "source": "데일리e스포츠"
+    },
+    {
+     "title": "정글러에서 롤드컵 우승 코치로... ‘모글리’, 한화생명 새 사령탑",
+     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325677",
+     "source": "STN SPORTS"
     }
    ],
    "safe": true
@@ -261,7 +261,7 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -270,14 +270,14 @@
      "source": "인천일보"
     },
     {
-     "title": "한반도 고유종 멸종위기Ⅰ급 ‘흰수마자’, 파주 문산천서 발견",
-     "url": "https://www.kyeonggi.com/article/20261117580015",
-     "source": "경기일보"
+     "title": "20년 만에 돌아온 '흰수마자'…경기북부 하천서 서식 확인 - 보도자료 | 기사",
+     "url": "https://news.tf.co.kr/read/releasecopy/2389652.htm",
+     "source": "더팩트"
     },
     {
-     "title": "경기도, 파주 문산천서 멸종위기야생생물 ‘흰수마자’ 서식 확인",
-     "url": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=S017&number=71991",
-     "source": "경기도뉴스포털"
+     "title": "파주 문산천에 돌아온 멸종위기 물고기…모래 여울 되살아나자 모습 드러냈다",
+     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7194206",
+     "source": "주간한국"
     }
    ],
    "safe": true
