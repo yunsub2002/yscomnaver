@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T03:00:00+09:00",
- "prev_updated": "2026-11-19T02:02:00+09:00",
+ "updated": "2026-11-19T03:54:00+09:00",
+ "prev_updated": "2026-11-19T03:00:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -32,41 +32,13 @@
   },
   {
    "rank": 2,
-   "keyword": "마린 르펜",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "나라 곳간 빨간불인데…\"60세부터 연금 수령\" 파격 승부수",
-     "url": "https://www.hankyung.com/article/2026111855181",
-     "source": "한국경제"
-    },
-    {
-     "title": "佛 대선 유력주자 르펜 \"정년 60세로 낮추겠다\"",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02679766645647032",
-     "source": "마켓인"
-    },
-    {
-     "title": "프랑스 극우 르펜도 극좌 멜랑숑도 \"은퇴 60세로 낮추겠다\"",
-     "url": "https://www.yna.co.kr/view/AKR20261117178100085",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
    "keyword": "기인",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "LCK 스토브리그 개장 첫날 기인·캐니언 FA…하루 새 주전 10명 시장행",
@@ -87,42 +59,42 @@
    "safe": true
   },
   {
-   "rank": 4,
-   "keyword": "김명민",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
+   "rank": 3,
+   "keyword": "김정은",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "김명민 “스키복 팔다 경찰서까지”…20대 시절 회상",
-     "url": "https://www.donga.com/news/Entertainment/article/all/20261118/135051018/1",
-     "source": "동아일보"
+     "title": "시진핑, 공항서 트럼프 포옹... 美中러 담판 전날 ‘파격 예우’",
+     "url": "https://www.chosun.com/international/international_general/2026/11/18/HB7CW2IV6BG3FJCBMRDVBHFA4E/",
+     "source": "조선일보"
     },
     {
-     "title": "‘데뷔 30년만 첫 예능’ 김명민, 오늘‘유 퀴즈’ 출격…알고보니 유재석 대학 동기",
-     "url": "https://www.viva100.com/article/20261118500603",
-     "source": "브릿지경제"
+     "title": "[속보] \"미중러 정상, APEC 환영만찬서 첫 인사 나눠\" AFP",
+     "url": "https://news.jtbc.co.kr/article/NB12328748",
+     "source": "JTBC"
     },
     {
-     "title": "'유퀴즈' 김명민, 동갑 동문 유재석 만나 터진 입담…\"머리털 나고 처음\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111817057240149",
-     "source": "머니투데이"
+     "title": "APEC 담판, 전쟁 끝낼까...\"해법 쉽지 않을 것\"",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0104_202611182303205047_005.html",
+     "source": "YTN"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
-   "rank": 5,
+   "rank": 4,
    "keyword": "신세계",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "신세계 3분기 실적, 어디 하나 빠진 곳이 없네",
@@ -143,31 +115,31 @@
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 5,
    "keyword": "김간지",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [],
    "safe": true
   },
   {
-   "rank": 7,
+   "rank": 6,
    "keyword": "김소희",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
-     "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
-     "url": "https://sports.donga.com/ent/article/all/20261117/135039372/1",
-     "source": "스포츠동아"
+     "title": "김소희, 유흥업소 루머 유포자 상대로 승소 \"징역 1년 6개월…경각심 일깨우는 계기 되길\"",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/18/GM2WKNRQGJRGEZRTGY3TMZDFHE/",
+     "source": "Chosunbiz"
     },
     {
      "title": "\"술집서 일하다 남편 만나\"…앨리스 소희, 소문 유포자 징역 1년 6개월 - 머니투데이",
@@ -175,9 +147,37 @@
      "source": "머니투데이"
     },
     {
-     "title": "김소희, 유흥업소 루머 유포자 상대로 승소 \"징역 1년 6개월…경각심 일깨우는 계기 되길\"",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/18/GM2WKNRQGJRGEZRTGY3TMZDFHE/",
-     "source": "Chosunbiz"
+     "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
+     "url": "https://sports.donga.com/ent/article/all/20261117/135039372/1",
+     "source": "스포츠동아"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "승리",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "승리 '임신한 부인과 함께 귀국'",
+     "url": "https://www.mt.co.kr/photo/202611182305239152",
+     "source": "머니투데이"
+    },
+    {
+     "title": "승리, ♥임신한 20대 아내와 동반 입국..\"여기까지 찍어라\" 취재진 경계",
+     "url": "https://www.sportschosun.com/entertainment/2026-11-18/202611180100121320011250",
+     "source": "스포츠조선"
+    },
+    {
+     "title": "만삭 아내와 입국한 승리, 주변 시선에 당황⋯같이 들어와 따로 나갔다",
+     "url": "https://www.sportsseoul.com/news/read/1650769",
+     "source": "스포츠서울"
     }
    ],
    "safe": true
@@ -189,9 +189,14 @@
    "label": "약 100회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
+    {
+     "title": "한화시스템, 미국 방산기업에 레이다 첫 수출…\"대량 공급 협의\"",
+     "url": "https://www.yna.co.kr/view/AKR20261118046200003",
+     "source": "연합뉴스"
+    },
     {
      "title": "한화시스템, 드론 잡는 'AI 레이다' 美 첫 수출",
      "url": "https://www.hankyung.com/article/202611184776i",
@@ -201,11 +206,6 @@
      "title": "한화시스템, 단거리 AESA 레이다 미국 시장 첫 진출",
      "url": "https://www.khan.co.kr/article/202611181028011",
      "source": "경향신문"
-    },
-    {
-     "title": "한화시스템, 미국 방산기업에 레이다 첫 수출…\"대량 공급 협의\"",
-     "url": "https://www.yna.co.kr/view/AKR20261118046200003",
-     "source": "연합뉴스"
     }
    ],
    "safe": true
@@ -217,7 +217,7 @@
    "label": "약 100회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
