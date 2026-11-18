@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T00:58:00+09:00",
- "prev_updated": "2026-11-18T23:53:00+09:00",
+ "updated": "2026-11-19T02:02:00+09:00",
+ "prev_updated": "2026-11-19T00:58:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,23 +9,23 @@
    "label": "약 1만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
-    {
-     "title": "[단독] \"계산기 안에 키보드\" \"쿠팡·알리서 구매\" 세무사 수석 어떻게 뚫었나",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866705_37004.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "고3 딸 둔 박명수 “추접스러운 인간들”…수능 앞두고 AI 부정행위에 일침",
-     "url": "https://www.donga.com/news/Culture/article/all/20261118/135051043/1",
-     "source": "동아일보"
-    },
     {
      "title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975944",
      "source": "대한민국 정책브리핑"
+    },
+    {
+     "title": "수정테이프엔 카메라, '쌀집 계산기'엔 키보드",
+     "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6866750_36989.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "“커닝 못 막아”…부정행위로 증명하겠다는 서울대생? [잇슈#태그]",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715925",
+     "source": "KBS 뉴스"
     }
    ],
    "safe": false
@@ -37,8 +37,8 @@
    "label": "약 1만 회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "나라 곳간 빨간불인데…\"60세부터 연금 수령\" 파격 승부수",
@@ -63,9 +63,9 @@
    "keyword": "강형욱",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -74,55 +74,27 @@
      "source": "동아일보"
     },
     {
+     "title": "첫 반려견을 불의의 사고로 잃고 새롭게 맞이한 강아지 ’윌리’?! 그런 윌리가 왜 이곳에?!",
+     "url": "https://ichannela.com/program/clip/000000560649.do",
+     "source": "채널A"
+    },
+    {
      "title": "강형욱, 입질견에 초강수 경고…\"이런 개체는 없어져야\" (개늑시2)",
      "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525234",
      "source": "iMBC 연예"
-    },
-    {
-     "title": "마음처럼 되지 않는 셀프 훈련에 눈물을 보이는 보호자ㅠㅠ",
-     "url": "https://ichannela.com/program/clip/000000560654.do",
-     "source": "채널A"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "교통 사고",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "down",
-   "delta": -2,
-   "news": [
-    {
-     "title": "김포 선진버스, ‘교통사고 50% 줄이기’ 과제 조기 달성",
-     "url": "https://www.newswire.co.kr/newsRead.php?no=1047435",
-     "source": "뉴스와이어"
-    },
-    {
-     "title": "선진버스, 교통사고 감축 목표 조기 달성…안전관리 강화",
-     "url": "https://www.cvinfo.com/news/articleView.html?idxno=32047",
-     "source": "상용차매거진"
-    },
-    {
-     "title": "인천 미추홀구에서 SUV 차량 중앙선 침범해 승용차와 충돌‥3명 부상",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6866631_36918.html",
-     "source": "MBC 뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 5,
+   "rank": 4,
    "keyword": "김명민",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "down",
-   "delta": -2,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "김명민 “스키복 팔다 경찰서까지”…20대 시절 회상",
@@ -135,12 +107,40 @@
      "source": "브릿지경제"
     },
     {
-     "title": "김명민, '불멸의 이순신'으로 대상 수상 비하인드 \"퍼머를 심하게 하고 갔다\"('유퀴즈')",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MJTGGOBQGVSGCOLDGMZTSZRTMY/",
-     "source": "조선일보"
+     "title": "'유퀴즈' 김명민, 동갑 동문 유재석 만나 터진 입담…\"머리털 나고 처음\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111817057240149",
+     "source": "머니투데이"
     }
    ],
    "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "신세계",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "신세계 3분기 실적, 어디 하나 빠진 곳이 없네",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445071",
+     "source": "연합인포맥스"
+    },
+    {
+     "title": "[리포트 브리핑]신세계, '3Q26 Re: 탄탄한 실적, 백화점 성장률이 관건' 목표가 365,000원 - 하나증권",
+     "url": "https://www.newspim.com/news/view/20261111000117",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "'적자 꼬리표' 떼어낼까…롯데·신세계, 편의점·이커머스 실적 개선 '주목'",
+     "url": "https://news.tf.co.kr/read/economy/2389287.htm",
+     "source": "더팩트"
+    }
+   ],
+   "safe": true
   },
   {
    "rank": 6,
@@ -149,7 +149,7 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [],
    "safe": true
@@ -161,8 +161,8 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
@@ -175,9 +175,9 @@
      "source": "머니투데이"
     },
     {
-     "title": "\"술집서 15살 연상 남편을…\" 앨리스 소희에 '루머'…잇단 '사이버 악행' 어디까지",
-     "url": "https://economist.co.kr/article/view/ecn202611180027",
-     "source": "이코노미스트"
+     "title": "김소희, 유흥업소 루머 유포자 상대로 승소 \"징역 1년 6개월…경각심 일깨우는 계기 되길\"",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/18/GM2WKNRQGJRGEZRTGY3TMZDFHE/",
+     "source": "Chosunbiz"
     }
    ],
    "safe": true
@@ -189,8 +189,8 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
@@ -217,8 +217,8 @@
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "35세 그리에즈만, MLS 4월 뛰고 신인왕…14골 8도움 폭발",
