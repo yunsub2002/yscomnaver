@@ -1,34 +1,34 @@
 {
- "updated": "2026-11-19T03:54:00+09:00",
- "prev_updated": "2026-11-19T03:00:00+09:00",
+ "updated": "2026-11-19T04:57:00+09:00",
+ "prev_updated": "2026-11-19T03:54:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "수능 재난문자 시간",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "same",
+   "keyword": "한화오션",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975944",
-     "source": "대한민국 정책브리핑"
+     "title": "3천600톤급 호위함 ‘평택함’ 진수…시운전 거쳐 내년 해군 인도",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8715888",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "\"딱 한 문제 틀렸다?\"...세무사 의혹 파고든 누리꾼들",
-     "url": "https://www.ytn.co.kr/_ln/0106_202611190229218044",
-     "source": "YTN"
+     "title": "평택함 한화오션에서 진수",
+     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261118_0021537299&provider_id=&cID=&type=Main&catg=&idx=4",
+     "source": "뉴시스"
     },
     {
-     "title": "[단독] \"계산기 안에 키보드\" \"쿠팡·알리서 구매\" 세무사 수석 어떻게 뚫었나",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866705_37004.html",
-     "source": "MBC 뉴스"
+     "title": "[영상] 어느덧 5번함…3천600t급 최신예 호위함 '평택함' 진수",
+     "url": "https://www.yna.co.kr/view/AKR20261118170400704",
+     "source": "연합뉴스"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 2,
@@ -37,8 +37,8 @@
    "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "LCK 스토브리그 개장 첫날 기인·캐니언 FA…하루 새 주전 10명 시장행",
@@ -61,22 +61,22 @@
   {
    "rank": 3,
    "keyword": "김정은",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
-    {
-     "title": "시진핑, 공항서 트럼프 포옹... 美中러 담판 전날 ‘파격 예우’",
-     "url": "https://www.chosun.com/international/international_general/2026/11/18/HB7CW2IV6BG3FJCBMRDVBHFA4E/",
-     "source": "조선일보"
-    },
     {
      "title": "[속보] \"미중러 정상, APEC 환영만찬서 첫 인사 나눠\" AFP",
      "url": "https://news.jtbc.co.kr/article/NB12328748",
      "source": "JTBC"
+    },
+    {
+     "title": "미중러 정상회담일, 유럽은 ’의지의 연합’ 정상회의",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261119040138wAU",
+     "source": "연합뉴스TV"
     },
     {
      "title": "APEC 담판, 전쟁 끝낼까...\"해법 쉽지 않을 것\"",
@@ -93,8 +93,8 @@
    "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "up",
-   "delta": 1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "신세계 3분기 실적, 어디 하나 빠진 곳이 없네",
@@ -107,62 +107,50 @@
      "source": "뉴스핌"
     },
     {
-     "title": "'적자 꼬리표' 떼어낼까…롯데·신세계, 편의점·이커머스 실적 개선 '주목'",
-     "url": "https://news.tf.co.kr/read/economy/2389287.htm",
-     "source": "더팩트"
+     "title": "\"지방 알부자 잡아라\"…백화점들, 매장 팔고 '수조원 베팅' [분석+]",
+     "url": "https://www.hankyung.com/article/202611135317g",
+     "source": "한국경제"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "김간지",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 1,
-   "news": [],
-   "safe": true
+   "keyword": "자영업",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "울산 남구, 골목상권 소통·상생의 날… 민생경제 활력 모색",
+     "url": "https://ujnews.co.kr/news/newsview.php?ncode=1065591419687808",
+     "source": "울산종합일보"
+    },
+    {
+     "title": "골목상인 10명 중 6명 \"작년보다 매출 감소\"",
+     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1072977",
+     "source": "경상일보"
+    },
+    {
+     "title": "이은주 울산시의원 “골목상권 소상공인 자생력 향상 방안 적극 추진해야”",
+     "url": "http://www.ujeil.com/news/articleView.html?idxno=395520",
+     "source": "울산제일일보"
+    }
+   ],
+   "safe": false
   },
   {
    "rank": 6,
-   "keyword": "김소희",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 1,
-   "news": [
-    {
-     "title": "김소희, 유흥업소 루머 유포자 상대로 승소 \"징역 1년 6개월…경각심 일깨우는 계기 되길\"",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/18/GM2WKNRQGJRGEZRTGY3TMZDFHE/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "\"술집서 일하다 남편 만나\"…앨리스 소희, 소문 유포자 징역 1년 6개월 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111714403611889",
-     "source": "머니투데이"
-    },
-    {
-     "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
-     "url": "https://sports.donga.com/ent/article/all/20261117/135039372/1",
-     "source": "스포츠동아"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
    "keyword": "승리",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "승리 '임신한 부인과 함께 귀국'",
@@ -170,42 +158,70 @@
      "source": "머니투데이"
     },
     {
+     "title": "승리, 만삭 20대 아내와 동반 입국…D라인 포착",
+     "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/19/2026111990001.html",
+     "source": "TV조선뉴스"
+    },
+    {
      "title": "승리, ♥임신한 20대 아내와 동반 입국..\"여기까지 찍어라\" 취재진 경계",
      "url": "https://www.sportschosun.com/entertainment/2026-11-18/202611180100121320011250",
      "source": "스포츠조선"
-    },
-    {
-     "title": "만삭 아내와 입국한 승리, 주변 시선에 당황⋯같이 들어와 따로 나갔다",
-     "url": "https://www.sportsseoul.com/news/read/1650769",
-     "source": "스포츠서울"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "한화생명",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'350조 운용' KIC 차기 CIO에 신민식…다음주 초 인사 발표",
+     "url": "https://marketin.edaily.co.kr/News/Read?newsId=03178326645647032",
+     "source": "마켓인"
+    },
+    {
+     "title": "350조 굴릴 한국투자공사 새 CIO에 한화생명 출신 신민식",
+     "url": "https://view.asiae.co.kr/article/2026111818335608440",
+     "source": "아시아경제"
+    },
+    {
+     "title": "KIC 신임 CIO에 신민식·COO에 신용선 내정",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445349",
+     "source": "연합인포맥스"
+    }
+   ],
+   "safe": false
   },
   {
    "rank": 8,
    "keyword": "한화",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "한화시스템, 미국 방산기업에 레이다 첫 수출…\"대량 공급 협의\"",
-     "url": "https://www.yna.co.kr/view/AKR20261118046200003",
-     "source": "연합뉴스"
+     "title": "한화비전, 한화세미텍 매각설 일축…\"검토한 바 없다\"",
+     "url": "https://v.daum.net/v/1WNhADiPof",
+     "source": "Daum"
     },
     {
-     "title": "한화시스템, 드론 잡는 'AI 레이다' 美 첫 수출",
-     "url": "https://www.hankyung.com/article/202611184776i",
-     "source": "한국경제"
+     "title": "[한화세미텍의 민낯] 호실적에도 매각설…TC 본더 성장세 '물음표'",
+     "url": "https://dealsite.co.kr/articles/172804",
+     "source": "딜사이트"
     },
     {
-     "title": "한화시스템, 단거리 AESA 레이다 미국 시장 첫 진출",
-     "url": "https://www.khan.co.kr/article/202611181028011",
-     "source": "경향신문"
+     "title": "한화비전, 한화세미텍 매각설에 \"사실무근…기술 강화 힘쓸 것\"",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03548966645647032",
+     "source": "마켓인"
     }
    ],
    "safe": true
@@ -226,14 +242,42 @@
      "source": "미주중앙일보"
     },
     {
-     "title": "정글러에서 롤드컵 우승 코치로... ‘모글리’, 한화생명 새 사령탑",
-     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=325677",
-     "source": "STN SPORTS"
+     "title": "한화생명e스포츠, 신임 감독으로 ‘모글리’ 이재하 선임",
+     "url": "https://www.kukinews.com/article/view/kuk202611180049",
+     "source": "쿠키뉴스"
     },
     {
      "title": "한화생명 창단 첫 MSI 우승 감독 '옴므' 윤성영 떠난다",
      "url": "https://www.dailyesports.com/view.php?ud=20261117105922509374bcc1e038_27",
      "source": "데일리e스포츠"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "흰수마자",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "경기 문산천에 멸종위기 1급 '흰수마자' 서식",
+     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1337070",
+     "source": "인천일보"
+    },
+    {
+     "title": "한반도 고유종 멸종위기Ⅰ급 ‘흰수마자’, 파주 문산천서 발견",
+     "url": "https://www.kyeonggi.com/article/20261117580015",
+     "source": "경기일보"
+    },
+    {
+     "title": "경기도, 파주 문산천서 멸종위기야생생물 ‘흰수마자’ 서식 확인",
+     "url": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=S017&number=71991",
+     "source": "경기도뉴스포털"
     }
    ],
    "safe": true
