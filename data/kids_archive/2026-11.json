@@ -3428,5 +3428,61 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-18T12:55:00+09:00"
+},
+{
+"id": "n7a5115982f",
+"cat": "show",
+"title": "서울시청에서 미로 탐험하고 기념품까지! '서울탐험대' 어린이 전시",
+"source": "내 손안에 서울",
+"url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lbWxBVGxiZjlJT19MVUtXY1lGTk9adUFyRlV0T0h4RnNTRnF4WjNYTGZrdjlBN2g1STJuSTNNOXlRMVpLTzBJUk9qVzVLdEt6ZnZicG9kNk0?oc=5",
+"pub": "2026-11-18T13:42:00+09:00",
+"region": "서울",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T13:59:00+09:00"
+},
+{
+"id": "n07e786f8f7",
+"cat": "trend",
+"title": "치타부, 누적 조회수 100억 뷰 인기 업고 순천서 공룡 체험 팝업…지역 가족 공략",
+"source": "퍼블릭타임스",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1acFlpb2JfbEUtLU1LR3JUNkY2QjhWNEpRcGxmMEZUNzFWSXUxTVlQSXdiUHpsNDZpQXF5bi01SnNSUGVkemYxcDlyZG5ZTHpkWjkzVEtqdnVEcXdKZmZYd284S25VSFB6QVHSAW5BVV95cUxQRF92VkhwNl9sMHprYXNJMEliOGFweG5HZHZsMmtLUXZwSHVEb2doaXg1T1ZzTnJhbFctdGE2U3djMlBCSXJzNjlBR1VMcFJXdmtQTnEwNjFnZUp4QTZxbEF4VlZrVkd2VTJYRnBwdw?oc=5",
+"pub": "2026-11-18T12:42:59+09:00",
+"region": "순천",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T13:59:00+09:00"
+},
+{
+"id": "n5597d2cecb",
+"cat": "festival",
+"title": "순창군립도서관, 이달 28일 ‘달리는 책놀이터’ 운영",
+"source": "전북제일신문",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRmxmc3Iza0dvcGNGcDMyZFFFV1A0Q1gyZHhScDBoX0ZRcjdGakVkU1U2dS1TX2VjUV94MEpXUzZ4STVGSFNjNGNjM2V2WTA3VWtLMTVQdlJONHhKMVZzdUNuS1c1UWNCT1E?oc=5",
+"pub": "2026-11-18T11:35:58+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T13:59:00+09:00"
+},
+{
+"id": "eb069b1b917",
+"cat": null,
+"title": "달리는 책놀이터",
+"source": "전북제일신문",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XRmxmc3Iza0dvcGNGcDMyZFFFV1A0Q1gyZHhScDBoX0ZRcjdGakVkU1U2dS1TX2VjUV94MEpXUzZ4STVGSFNjNGNjM2V2WTA3VWtLMTVQdlJONHhKMVZzdUNuS1c1UWNCT1E?oc=5",
+"pub": "2026-11-18T11:35:58+09:00",
+"region": "",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-18T13:59:00+09:00"
 }
 ]
