@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-18T18:00:00+09:00",
- "prev_updated": "2026-11-18T16:14:00+09:00",
+ "updated": "2026-11-18T18:22:00+09:00",
+ "prev_updated": "2026-11-18T18:00:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "솔비",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -37,7 +37,7 @@
    "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -65,7 +65,7 @@
    "label": "약 2,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -93,8 +93,8 @@
    "label": "약 2,000회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "네이버 뉴스제휴 심사 607개사 신청…최종 통과 언론사 0곳",
@@ -117,11 +117,11 @@
   {
    "rank": 5,
    "keyword": "중대범죄수사청",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -130,45 +130,45 @@
      "source": "MBC 뉴스"
     },
     {
-     "title": "[단독] 중수청, ‘한동훈 딸 허위스펙 의혹’ 사건 공수처·경찰로 이첩 통지",
-     "url": "https://news.jtbc.co.kr/article/NB12328637",
-     "source": "JTBC"
-    },
-    {
      "title": "중수청, ‘한동훈 딸 허위 스펙·수사 무마’ 사건 공수처·경찰 이첩",
      "url": "https://www.hani.co.kr/arti/society/society_general/1287901.html",
      "source": "한겨레"
+    },
+    {
+     "title": "[단독] 중수청, ‘한동훈 딸 허위스펙 의혹’ 사건 공수처·경찰로 이첩 통지",
+     "url": "https://news.jtbc.co.kr/article/NB12328637",
+     "source": "JTBC"
     }
    ],
    "safe": false
   },
   {
    "rank": 6,
-   "keyword": "이혜훈",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "keyword": "백금",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "down",
-   "delta": -1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "이혜훈 ‘40억 로또’ 반포 아파트 날아갈 판…국토부, 조합에 계약 취소 요청",
-     "url": "https://www.khan.co.kr/article/202611181138001",
-     "source": "경향신문"
+     "title": "금 한 돈 63만원도 깨졌다…3900달러 무너진 금값, 바닥은 어디?",
+     "url": "https://kr.investing.com/news/commodities-news/article-2176525",
+     "source": "Investing.com 한국어"
     },
     {
-     "title": "국토부, 이혜훈 ‘반포 원펜타스’ 조합에 계약취소 요청…몰수 가능성",
-     "url": "https://www.donga.com/news/Economy/article/all/20261118/135047828/1",
-     "source": "동아일보"
+     "title": "[뉴욕 금가격] 증시 하락에 긴축 우려 완화…0.5% 상승",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445227",
+     "source": "연합인포맥스"
     },
     {
-     "title": "국토부, 이혜훈 위장전입 의혹 '래미안 원펜타스' 계약 취소 요청",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=02266486645647032&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "금값 1년 만에 최저…달러·금리 압박",
+     "url": "https://www.yna.co.kr/view/AKR20261117065600009",
+     "source": "연합뉴스"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 7,
@@ -177,8 +177,8 @@
    "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "down",
-   "delta": -3,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "남자대표팀, 2027 FIBA 농구월드컵 아시아예선 윈도우5 대비 최종 엔트리 변경 ... - 이규태-이동근, - 5대5 성인남자 국가대표팀 첫 발탁",
@@ -205,23 +205,23 @@
    "label": "약 100회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "'전 국민과 방귀 튼' 상철…’계약결혼' 악마 편집 '소감문' 일침 [손남원의 연예산책]",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MU2WINJZGBQWKMBVGQ3DQYJQGA/",
-     "source": "조선일보"
+     "title": "최정현 프러포즈, 정민현에 “결혼하고 싶다” (계약결혼)",
+     "url": "https://sports.donga.com/ent/article/all/20261116/135032862/1",
+     "source": "스포츠동아"
     },
     {
-     "title": "“원초적인 가스 배출”…방송 중 방귀 뀐 출연자, 긴급 사과문",
-     "url": "https://www.seoul.co.kr/news/entertainment/broadcastN/2026/11/18/20261118500009",
-     "source": "서울신문"
+     "title": "'계약결혼' 32기 영수, 국화에 \"결혼하고 싶다\" 고백…금연 결심까지",
+     "url": "https://www.news1.kr/entertain/broadcast-tv/6355055",
+     "source": "뉴스1"
     },
     {
-     "title": "나솔 16기 상철 계약결혼 방귀 장면 “역대급 흑역사”",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261118010006798",
-     "source": "아시아투데이"
+     "title": "'계약결혼' 정현, 민현에 \"결혼하고 싶어\" 직진 고백…금연 선언까지",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/524973",
+     "source": "iMBC 연예"
     }
    ],
    "safe": true
