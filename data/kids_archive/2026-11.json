@@ -3722,5 +3722,33 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-18T22:08:00+09:00"
+},
+{
+"id": "ncd41fa0795",
+"cat": "show",
+"title": "자이에스앤디, 아이프칠드런과 어린이 예술 체험 프로그램 진행",
+"source": "대한경제",
+"url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBibmNMa0N2bXFDNUFZRXNQZHUybFJSXzE2YVNLb29uV0NIRFBmSHRWMFJPc0FKbnFhRThlQXYzcVhVTm5fMmc4VVh4UUdzaEJyMjBJQjlyYVdzQS1TdU1pb0wzRUJXX0RtUWd1WTdiYVJoSWc?oc=5",
+"pub": "2026-11-16T15:38:31+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T23:53:00+09:00"
+},
+{
+"id": "e03d756f298",
+"cat": null,
+"title": "한마음 페스티벌",
+"source": "당진신문",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoZXFuUWYycFRPNWViMU1LVUM2YjdZSnNWMFJEejlMUVltd1NKU3NOb0xudnBYa0NXRFYtMGhUa2VUYkFKeGs2ZUQxdnduWGJyZzd2WkRjSG1DQW13aDhVbkV3bE01NTR4?oc=5",
+"pub": "2026-11-18T10:02:06+09:00",
+"region": "",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-18T23:53:00+09:00"
 }
 ]

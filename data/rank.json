@@ -1,94 +1,94 @@
 {
- "updated": "2026-11-18T22:08:00+09:00",
- "prev_updated": "2026-11-18T20:00:00+09:00",
+ "updated": "2026-11-18T23:53:00+09:00",
+ "prev_updated": "2026-11-18T22:08:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "gta6 메타 크리틱",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "keyword": "마린 르펜",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "‘GTA 6’ 예약판매량 1500만장…콘솔게임 시장 살리나",
-     "url": "https://www.khan.co.kr/article/202611182036015",
-     "source": "경향신문"
+     "title": "나라 곳간 빨간불인데…\"60세부터 연금 수령\" 파격 승부수",
+     "url": "https://www.hankyung.com/article/2026111855181",
+     "source": "한국경제"
     },
     {
-     "title": "[리뷰] 드디어 나온 'GTA 6' 락스타는 게임이 아닌 세계를 빚어냈다",
-     "url": "https://www.thisisgame.com/articles/432817",
-     "source": "디스이즈게임"
+     "title": "佛 대선 유력주자 르펜 \"정년 60세로 낮추겠다\"",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02679766645647032",
+     "source": "마켓인"
     },
     {
-     "title": "GTA 6 하려고 회사 쉰다?…직장인들을 위한 '장례식'",
-     "url": "https://www.etnews.com/20261117000373",
-     "source": "전자신문"
+     "title": "프랑스 극우 르펜도 극좌 멜랑숑도 \"은퇴 60세로 낮추겠다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261117178100085",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "유칼",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "교통 사고",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[오피셜] '유칼' 손우현, 7년 만에 DN 복귀...'두두'-'커즈'와 함께 상체 구축",
-     "url": "https://www.koreadaily.com/article/20261118031442027",
-     "source": "미주중앙일보"
+     "title": "김포 선진버스, ‘교통사고 50% 줄이기’ 과제 조기 달성",
+     "url": "https://www.newswire.co.kr/newsRead.php?no=1047435",
+     "source": "뉴스와이어"
     },
     {
-     "title": "kt 롤스터, '지우' 정지우ㆍ'에포트' 이상호 등 선수 5명 계약 종료 [공식]",
-     "url": "https://www.etoday.co.kr/news/view/2649076",
-     "source": "이투데이"
+     "title": "선진버스, 교통사고 감축 목표 조기 달성…안전관리 강화",
+     "url": "https://www.cvinfo.com/news/articleView.html?idxno=32047",
+     "source": "상용차매거진"
     },
     {
-     "title": "'커즈' 문우찬의 2027 LCK는 'DN 수퍼스'",
-     "url": "https://www.dailyesports.com/view.php?ud=20261117200624970274bcc1e038_27",
-     "source": "데일리e스포츠"
+     "title": "인천 미추홀구에서 SUV 차량 중앙선 침범해 승용차와 충돌‥3명 부상",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6866631_36918.html",
+     "source": "MBC 뉴스"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 3,
-   "keyword": "삼양식품",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "김명민",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“100일 만에 1000만개 판매”…삼양식품 '짜르르', 코스트코 전국 입점",
-     "url": "https://www.etnews.com/20261118000405",
-     "source": "전자신문"
+     "title": "배우 김명민, 데뷔 첫 예능 출연 \"유퀴즈 관계자 여러분 감사\" 수상 소감 같은 인사('유퀴즈')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MFQWKNLDHEYGMNDCGUYGGMDEME/",
+     "source": "조선일보"
     },
     {
-     "title": "삼양식품, 우지 짜장라면 ‘짜르르’ 코스트코 전국 매장서 선봬",
-     "url": "https://www.newscj.com/news/articleView.html?idxno=3449887",
-     "source": "천지일보"
+     "title": "'유퀴즈' 김명민, 동갑 동문 유재석 만나 터진 입담…\"머리털 나고 처음\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111817057240149",
+     "source": "머니투데이"
     },
     {
-     "title": "[똑똑한한끼] 삼양식품 짜르르 코스트코 입점, 롯데관광개발 흑돼지 자장면 세트…대상웰라이프·잠바·페르노리카",
-     "url": "https://m.ekn.kr/view.php?key=20261118023231648",
-     "source": "에너지경제신문"
+     "title": "김명민, 아내 임신 중 배우 은퇴 고민…뉴질랜드 이민까지 준비 (유퀴즈)",
+     "url": "https://sports.donga.com/ent/article/all/20261118/135044604/1",
+     "source": "스포츠동아"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "국제신문",
+   "keyword": "김소희",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
@@ -97,26 +97,110 @@
    "delta": 0,
    "news": [
     {
-     "title": "소각장 멈추면 쓰레기 대신 처리…부산·김해시 손 잡았다",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261118.22006005238",
-     "source": "국제신문"
+     "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
+     "url": "https://sports.donga.com/ent/article/all/20261117/135039372/1",
+     "source": "스포츠동아"
     },
     {
-     "title": "부산시*경남 김해시 폐기물 교차 소각 추진",
-     "url": "https://news.knn.co.kr/news/article/194487",
-     "source": "부산경남대표방송 KNN 뉴스"
+     "title": "\"술집서 일하다 남편 만나\"…앨리스 소희, 소문 유포자 징역 1년 6개월 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/17/2026111714403611889",
+     "source": "머니투데이"
     },
     {
-     "title": "부산시·김해시, 폐기물 교차소각 협약 추진…연간 3천t씩 처리",
-     "url": "https://www.yna.co.kr/view/AKR20261113137300051",
-     "source": "연합뉴스"
+     "title": "\"술집서 15살 연상 남편을…\" 앨리스 소희에 '루머'…잇단 '사이버 악행' 어디까지",
+     "url": "https://economist.co.kr/article/view/ecn202611180027",
+     "source": "이코노미스트"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "헝거게임",
+   "keyword": "누리호",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "누리호가 가리키는 7대 시드의 길[기고/배경훈]",
+     "url": "https://www.donga.com/news/Opinion/article/all/20261118/135050513/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716239",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "누리호 5차 발사 검토회의 개최…큐브위성 1기 미사출 원인 특정 실패",
+     "url": "https://www.etnews.com/20261118000157",
+     "source": "전자신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "앙투안 그리즈만",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "35세 그리에즈만, MLS 4월 뛰고 신인왕…14골 8도움 폭발",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR202611181347499bG",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "[공식발표] 손흥민도 놓쳤던 그 상, '35살' 그리즈만이 받았다! 18경기 14골 8도움→MLS 올해의 영입생 등극 \"올랜도 역사상 최초\"",
+     "url": "https://www.chosun.com/sports/world-football/2026/11/18/MZSGGYZTGVSWEMRUGFQTENZQGQ/",
+     "source": "조선일보"
+    },
+    {
+     "title": "'35세' 그리스만, MLS 신인왕…4개월 뛰고 '14골 8도움'",
+     "url": "https://www.newsis.com/view/NISX20261118_0003873740",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 7,
+   "keyword": "시계",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "전 세계 시계 전문가들이 선정한, 2026 올해의 스포츠 워치",
+     "url": "https://www.gqkorea.co.kr/2026/11/18/%EC%A0%84-%EC%84%B8%EA%B3%84-%EC%8B%9C%EA%B3%84-%EC%A0%84%EB%AC%B8%EA%B0%80%EB%93%A4%EC%9D%B4-%EC%84%A0%EC%A0%95%ED%95%9C-2026-%EC%98%AC%ED%95%B4%EC%9D%98-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%9B%8C/",
+     "source": "GQ Korea"
+    },
+    {
+     "title": "공식 발표된 올해 최고의 시계, 의외로 독립 브랜드의 것",
+     "url": "https://www.gqkorea.co.kr/2026/11/17/%EA%B3%B5%EC%8B%9D-%EB%B0%9C%ED%91%9C%EB%90%9C-%EC%98%AC%ED%95%B4-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EC%8B%9C%EA%B3%84-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%8F%85%EB%A6%BD-%EB%B8%8C%EB%9E%9C%EB%93%9C%EC%9D%98/",
+     "source": "GQ Korea"
+    },
+    {
+     "title": "[단독] \"계산기 안에 키보드\" \"쿠팡·알리서 구매\" 세무사 수석 어떻게 뚫었나",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866705_37004.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "gta6 메타",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
@@ -125,47 +209,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "[포토] 엘 패닝 ‘동화 속 비주얼’",
-     "url": "https://www.seoul.co.kr/news/entertainment/foreigncountryN/2026/11/17/20261117500296",
-     "source": "서울신문"
-    },
-    {
-     "title": "네자, 뉴욕 앨리스 털리 홀서 '헝거 게임' 프리미어 참석",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755325",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "빈티지 콤팩트로 뒤덮인 드레스! 엘르 패닝의 ‘헝거 게임’ 프리미어 룩",
-     "url": "https://www.vogue.co.kr/2026/11/18/%EB%B9%88%ED%8B%B0%EC%A7%80-%EC%BD%A4%ED%8C%A9%ED%8A%B8%EB%A1%9C-%EB%92%A4%EB%8D%AE%EC%9D%B8-%EB%93%9C%EB%A0%88%EC%8A%A4-%EC%97%98%EB%A5%B4-%ED%8C%A8%EB%8B%9D%EC%9D%98-%ED%97%9D%EA%B1%B0-%EA%B2%8C/",
-     "source": "Vogue korea"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "gta6 출시",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "펄어비스 ‘붉은사막’, 더게임어워드 1개 부문 후보 올라",
-     "url": "https://www.khan.co.kr/article/202611180744001",
-     "source": "경향신문"
-    },
-    {
-     "title": "‘GTA6’ 출시도 전에 TGA 올해의 게임 후보로",
-     "url": "https://zdnet.co.kr/view/?no=20261118090703",
-     "source": "지디넷코리아"
+     "title": "[공지사항] The Game Awards 2026 베스트 커뮤니티 서포트 부문 후보 선정 안내 | 붉은사막",
+     "url": "https://crimsondesert.pearlabyss.com/ko-KR/News/Notice/Detail?_boardNo=160",
+     "source": "펄어비스 공식 홈페이지"
     },
     {
      "title": "더게임어워드 후보작 공개…'붉은사막' 1개 부문 올라",
      "url": "https://www.yna.co.kr/view/AKR20261118015500017",
      "source": "연합뉴스"
+    },
+    {
+     "title": "‘GTA6’ 출시도 전에 TGA 올해의 게임 후보로",
+     "url": "https://zdnet.co.kr/view/?no=20261118090703",
+     "source": "지디넷코리아"
     }
    ],
    "safe": false
