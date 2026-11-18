@@ -1,283 +1,143 @@
 {
- "updated": "2026-11-19T07:51:00+09:00",
- "prev_updated": "2026-11-19T06:53:00+09:00",
+ "updated": "2026-11-19T08:13:00+09:00",
+ "prev_updated": "2026-11-19T07:51:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "옥주현",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "미역국",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "핑클, 21년 만의 완전체 컴백 초읽기…새 프로필 공개",
-     "url": "https://www.newsis.com/view/NISX20261118_0003873940",
-     "source": "뉴시스"
+     "title": "수능 날 미역국 먹어도 된다면서…고3 딸 둔 의사가 말리는 이유 [29면]",
+     "url": "https://www.segye.com/newsView/20261117513101",
+     "source": "세계일보"
     },
     {
-     "title": "'핑클 완전체' 이효리, 요가원장은 잠시 안녕…가죽바지·하이힐 '꾸꾸꾸' 귀환",
-     "url": "https://www.chosun.com/entertainments/enter_general/2026/11/18/HEZTOMRRMJRDQOJQGUZTONZYMU/",
+     "title": "수시 먹통, N수생 최다, AI 커닝… 08년생 ‘고난의 수능’",
+     "url": "https://www.chosun.com/national/education/2026/11/19/72LF3FHY75GRNMERHEJX6ILGMY/",
      "source": "조선일보"
     },
     {
-     "title": "이효리, 완전체 컴백 앞두고 핑클 멤버들과 밀착 일상…변함없는 '미모 합'",
-     "url": "https://www.news1.kr/entertain/broadcast-tv/6358545",
-     "source": "뉴스1"
+     "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+     "url": "https://www.yna.co.kr/view/AKR20261119013600011",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "야구",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "다우 존스 산업평균지수",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[오피셜] '국제경쟁력 위기' 韓 야구 세계랭킹 4위에서 5위로…미국도 순위 떨어졌다, 'WBC 우승' 베네수엘라 3위 등극",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1020675",
-     "source": "SPOTV NEWS"
+     "title": "엔비디아 실적보다 AI 투자 부담…힘 못 쓰는 뉴욕증시 [월가 업&다운]",
+     "url": "https://www.hankyung.com/article/202611196100i",
+     "source": "한국경제"
     },
     {
-     "title": "김우빈 선발·김래원 불펜, 올겨울 야구는 쉴틈 없다···안방극장 플레이볼, ‘스토브리그’ 잇는 대작 나올까",
-     "url": "https://www.khan.co.kr/article/202611180600081",
-     "source": "경향신문"
+     "title": "엔비디아 호실적에도 젠슨 황 스캔들에 발목…나스닥만 반등[뉴욕마감] - 머니투데이",
+     "url": "https://www.mt.co.kr/world/2026/11/19/2026111906582147139",
+     "source": "머니투데이"
     },
     {
-     "title": "김우빈, 초능력으로 야구부 살릴까…'기프트' 23인 선수단과 특별한 만남",
-     "url": "https://www.newspim.com/news/view/20261118000161",
-     "source": "뉴스핌"
+     "title": "엔비디아 호실적에도 경계감 지속, 앤트로픽 상장 변수",
+     "url": "https://story.pay.naver.com/content/3996_39_C9",
+     "source": "네이버페이 머니스토리"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "kbo 리그",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "lg그룹",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'韓 최초 역사 쓴 외인' 에레디아, 결국 SSG 떠난다 \"작별인사 전한다, 진심으로 감사해\" - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/18/2026111819465096590",
-     "source": "머니투데이"
+     "title": "LG유플러스 쇄신 인사…4개 부문장 교체 유력",
+     "url": "https://www.etnews.com/20261118000030",
+     "source": "전자신문"
     },
     {
-     "title": "마이너 100홈런 26살 거포, 한국행 위해 볼티모어에서 방출…SSG 합류할까 \"충분히 임팩트 있는 타자\"",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/18/MJRGCZRSGAZTONLGGRRDMMJZMU/",
-     "source": "조선일보"
+     "title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562",
+     "source": "아시아투데이"
     },
     {
-     "title": "[프로야구] SSG, 에레디아와 결별...26세 호타준족 하인즈 영입 수순",
-     "url": "https://www.newspim.com/news/view/20261118000866",
-     "source": "뉴스핌"
+     "title": "[단독] 이상엽 LGU+ CTO 물러난다…LG그룹 임원인사 통보 시작",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006517",
+     "source": "아시아투데이"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "이민정",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "새마을금고",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "이민정, 미국 저택 주방 공개…대형 가스레인지부터 고급스러운 인테리어까지",
-     "url": "https://www.segye.com/newsView/20261118502794",
-     "source": "세계일보"
+     "title": "양주시, 지방보조금 전용 계좌 운영 업무 협약 체결",
+     "url": "https://www.yna.co.kr/view/AKR20261118146000060",
+     "source": "연합뉴스"
     },
     {
-     "title": "이병헌·이민정 LA 저택 공개…주방만 봐도 좋아 보인다",
-     "url": "https://www.newsis.com/view/NISX20261117_0003872161",
-     "source": "뉴시스"
+     "title": "새마을금고 서울 자치구 진출...용산구, 새마을금고와 손잡고 지방보조사업자 금융 편의 높인다",
+     "url": "https://biz.heraldcorp.com/article/10941776",
+     "source": "헤럴드경제"
     },
     {
-     "title": "이민정, '24억 LA 저택' 공개 [소셜in]",
-     "url": "https://m.imbc.com/enews/view/525217",
-     "source": "MBC"
+     "title": "양주시, 신협·새마을금고와 보조금 전용계좌 협약…개설처 확대",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755989",
+     "source": "국제뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "보안 취약점",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "정부, 자바 보안 취약점 관련 보안조치 당부",
-     "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611181101399981",
-     "source": "YTN 사이언스"
-    },
-    {
-     "title": "PHP 이어 자바도 해킹 위험…정부 긴급 보안점검",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261119055157apu",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "[자바 취약점 비상] 중앙부처 시스템 89%가 쓰는데… ‘자바’ 긴급 보안 패치 배포에 공공·민간 점검 비상",
-     "url": "https://www.boannews.com/news/articleView.html?idxno=147347",
-     "source": "보안뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "유해란",
+   "keyword": "겨울",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "최혜진, LPGA 투어 최종전 CME그룹 투어 챔피언십서 ‘우승’ 도전",
-     "url": "https://www.viva100.com/article/20261118500117",
-     "source": "브릿지경제"
-    },
-    {
-     "title": "유해란은 티띠꾼, 김효주는 인뤄닝과 격돌…53억원 놓고 LPGA 시즌 마지막 샷 대결",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=04293526645647032&mediaCodeNo=257",
-     "source": "이데일리"
-    },
-    {
-     "title": "최혜진, 작년 ‘플리트우드의 드라마’ 재현 나선다…최종전에서 ‘무관 상금왕’ 탈출 기대",
-     "url": "https://sports.khan.co.kr/article/202611181611013",
-     "source": "스포츠경향"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "오늘의 운세",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[오늘의 운세] 2026년 11월 19일 띠별 운세",
-     "url": "https://www.ytn.co.kr/_ln/0121_202611190000000001",
-     "source": "YTN"
-    },
-    {
-     "title": "[오늘의 운세] 11월 19일 목요일 (음력 10월 11일) 띠별 운세",
-     "url": "https://www.kyeonggi.com/article/20261113580082",
+     "title": "“겨울철 안전 강화 나선다”…시흥시, 폭설·도로 결빙 대비 제설 대응체계 가동",
+     "url": "https://www.kyeonggi.com/article/20261118580157",
      "source": "경기일보"
     },
     {
-     "title": "[녹유 오늘의 운세] 05년생 잡음이나 시비 도망가듯 해요",
-     "url": "https://www.newsis.com/view/NISX20261117_0003872184",
+     "title": "청양군 ‘폭설 고립·한파 피해 막는다’…260명 마을 제설단·쉼터 340곳 가동",
+     "url": "https://www.greened.kr/news/articleView.html?idxno=354995",
+     "source": "녹색경제신문"
+    },
+    {
+     "title": "안성시, 내년 3월까지 자연재난 비상 대응",
+     "url": "https://www.newsis.com/view/NISX20261118_0003873186",
      "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "홍현희",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "홍현희, 父 장례식서 친오빠와 고성 오가며 싸움..\"살아계실때 잘하지\"[순간포착]",
-     "url": "https://www.koreadaily.com/article/20261118012335323",
-     "source": "미주중앙일보"
-    },
-    {
-     "title": "홍현희 \"화목한 가정 아니었다…밥 각자 먹고 각방에 TV, 삭막해\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111812202647428",
-     "source": "머니투데이"
-    },
-    {
-     "title": "홍현희, 부친상 당시 조혜련에 감동…\"이런 위로는 세상에 없어\"",
-     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525232",
-     "source": "iMBC 연예"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "마우리시오 포체티노",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "포체티노 고별전서 풀리식 바이시클킥…미국, 아이티 2-0 제압",
-     "url": "https://www.yna.co.kr/view/AKR20261118096400007",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "[공식발표] 미국에서 비행기 내리자마자 맨유 훈련장 직행...포체티노 시대 공식 개막 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/19/202611190107774961O",
-     "source": "머니투데이"
-    },
-    {
-     "title": "\"맨체스터가 영원히 파란색일 것 같나\" 포체티노의 출사표...맨시티 향한 선전포고 \"시간만 주면 내가 바꾼다\"",
-     "url": "https://www.koreadaily.com/article/20261118031441564",
-     "source": "미주중앙일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 10,
-   "keyword": "3기신도시 남양주 왕숙지구",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "남양주 왕숙 A-17블록 ‘왕숙 한신더휴 센텀’ 이달 분양…전용 59㎡ 379가구",
-     "url": "https://www.donga.com/news/Economy/article/all/20261118/135044016/1",
-     "source": "동아일보"
-    },
-    {
-     "title": "3기 신도시 입주 지연에 ‘광교·일산’ 신규 분양 대안으로",
-     "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/18/72R5ILH57FHQRMA735YJZPNWBM/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "3기 신도시 입주 늦어지자…교통·학군 갖춘 기존 신도시 뜬다",
-     "url": "https://www.fnnews.com/news/202611181349474785",
-     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
