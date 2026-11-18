@@ -3288,5 +3288,33 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-18T09:28:00+09:00"
+},
+{
+"id": "n621d88acba",
+"cat": "show",
+"title": "서울평창어린이합창단, 창작뮤지컬 '오즈의 마법사' 21일 선보여…꿈과 용기 전한다",
+"source": "knpp.co.kr",
+"url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9SdnFMeXFrOHhkSFVGR1ZnTEoycmZsdmVPYVB4VkQ0VmZGMThheUdBVS1rc1BaMWI4cHpBUjdWbVJtX1k?oc=5",
+"pub": "2026-11-18T10:06:27+09:00",
+"region": "서울",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T10:08:00+09:00"
+},
+{
+"id": "nf3271fad2b",
+"cat": "show",
+"title": "상주시육아종합지원센터, 가족 뮤지컬 공연 개최…1천500명 관람",
+"source": "대경일보",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yNDE2OXlxR1pRTVU1Ull0YVFqQ1p3bFJZX0V2OGRiaUJOQVN4WHZ6b09WQ3IzYzdJUFpCM2tJX2dPWXpkd3RsVGlXSEszU1FXVDA4anNISzRJM1F3ODFFQWVINnVYZG5z?oc=5",
+"pub": "2026-11-17T17:02:07+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T10:08:00+09:00"
 }
 ]
