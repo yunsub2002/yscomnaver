@@ -1,16 +1,44 @@
 {
- "updated": "2026-11-18T23:53:00+09:00",
- "prev_updated": "2026-11-18T22:08:00+09:00",
+ "updated": "2026-11-19T00:58:00+09:00",
+ "prev_updated": "2026-11-18T23:53:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "마린 르펜",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "수능 재난문자 시간",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "[단독] \"계산기 안에 키보드\" \"쿠팡·알리서 구매\" 세무사 수석 어떻게 뚫었나",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866705_37004.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "고3 딸 둔 박명수 “추접스러운 인간들”…수능 앞두고 AI 부정행위에 일침",
+     "url": "https://www.donga.com/news/Culture/article/all/20261118/135051043/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "이 대통령 \"수능 문제지 AI 업로드 전수조사…부정행위 철저히 엄단\"",
+     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148975944",
+     "source": "대한민국 정책브리핑"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 2,
+   "keyword": "마린 르펜",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "나라 곳간 빨간불인데…\"60세부터 연금 수령\" 파격 승부수",
@@ -18,9 +46,9 @@
      "source": "한국경제"
     },
     {
-     "title": "佛 대선 유력주자 르펜 \"정년 60세로 낮추겠다\"",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=02679766645647032",
-     "source": "마켓인"
+     "title": "佛 대선 1·2위 후보 \"정년 60세로 낮출 것\"… 마크롱 연금 개혁에 반기",
+     "url": "https://www.chosun.com/international/international_general/2026/11/19/CP4WA5FVJBGB5MSHW57VAVTM3E/",
+     "source": "조선일보"
     },
     {
      "title": "프랑스 극우 르펜도 극좌 멜랑숑도 \"은퇴 60세로 낮추겠다\"",
@@ -28,17 +56,45 @@
      "source": "연합뉴스"
     }
    ],
+   "safe": false
+  },
+  {
+   "rank": 3,
+   "keyword": "강형욱",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[오늘의 채널A] 가족 물어대는 두살 몰티즈, 공존 해결책은",
+     "url": "https://www.donga.com/news/article/all/20261117/135042032/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "강형욱, 입질견에 초강수 경고…\"이런 개체는 없어져야\" (개늑시2)",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525234",
+     "source": "iMBC 연예"
+    },
+    {
+     "title": "마음처럼 되지 않는 셀프 훈련에 눈물을 보이는 보호자ㅠㅠ",
+     "url": "https://ichannela.com/program/clip/000000560654.do",
+     "source": "채널A"
+    }
+   ],
    "safe": true
   },
   {
-   "rank": 2,
+   "rank": 4,
    "keyword": "교통 사고",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -2,
    "news": [
     {
      "title": "김포 선진버스, ‘교통사고 50% 줄이기’ 과제 조기 달성",
@@ -59,42 +115,54 @@
    "safe": false
   },
   {
-   "rank": 3,
+   "rank": 5,
    "keyword": "김명민",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -2,
    "news": [
     {
-     "title": "배우 김명민, 데뷔 첫 예능 출연 \"유퀴즈 관계자 여러분 감사\" 수상 소감 같은 인사('유퀴즈')",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MFQWKNLDHEYGMNDCGUYGGMDEME/",
+     "title": "김명민 “스키복 팔다 경찰서까지”…20대 시절 회상",
+     "url": "https://www.donga.com/news/Entertainment/article/all/20261118/135051018/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "‘데뷔 30년만 첫 예능’ 김명민, 오늘‘유 퀴즈’ 출격…알고보니 유재석 대학 동기",
+     "url": "https://www.viva100.com/article/20261118500603",
+     "source": "브릿지경제"
+    },
+    {
+     "title": "김명민, '불멸의 이순신'으로 대상 수상 비하인드 \"퍼머를 심하게 하고 갔다\"('유퀴즈')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MJTGGOBQGVSGCOLDGMZTSZRTMY/",
      "source": "조선일보"
-    },
-    {
-     "title": "'유퀴즈' 김명민, 동갑 동문 유재석 만나 터진 입담…\"머리털 나고 처음\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111817057240149",
-     "source": "머니투데이"
-    },
-    {
-     "title": "김명민, 아내 임신 중 배우 은퇴 고민…뉴질랜드 이민까지 준비 (유퀴즈)",
-     "url": "https://sports.donga.com/ent/article/all/20261118/135044604/1",
-     "source": "스포츠동아"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 4,
-   "keyword": "김소희",
+   "rank": 6,
+   "keyword": "김간지",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
+   "news": [],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "김소희",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -3,
    "news": [
     {
      "title": "[전문] 김소희 루머 가해자 징역형 “타인 삶 짓밟는 행위, 책임 뒤따라”",
@@ -115,42 +183,42 @@
    "safe": true
   },
   {
-   "rank": 5,
+   "rank": 8,
    "keyword": "누리호",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -3,
    "news": [
+    {
+     "title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
+     "url": "https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8716239",
+     "source": "KBS 뉴스"
+    },
     {
      "title": "누리호가 가리키는 7대 시드의 길[기고/배경훈]",
      "url": "https://www.donga.com/news/Opinion/article/all/20261118/135050513/2",
      "source": "동아일보"
     },
     {
-     "title": "누리호 5차 발사 성공 최종 확인…“목표궤도 진입 정상 수행”",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716239",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "누리호 5차 발사 검토회의 개최…큐브위성 1기 미사출 원인 특정 실패",
-     "url": "https://www.etnews.com/20261118000157",
-     "source": "전자신문"
+     "title": "누리호 5차 발사 성공 최종 확인…위성 1기 미사출 원인은 미궁",
+     "url": "https://www.yna.co.kr/view/AKR20261118110600017",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 9,
    "keyword": "앙투안 그리즈만",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -3,
    "news": [
     {
      "title": "35세 그리에즈만, MLS 4월 뛰고 신인왕…14골 8도움 폭발",
@@ -166,62 +234,6 @@
      "title": "'35세' 그리스만, MLS 신인왕…4개월 뛰고 '14골 8도움'",
      "url": "https://www.newsis.com/view/NISX20261118_0003873740",
      "source": "뉴시스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "시계",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "전 세계 시계 전문가들이 선정한, 2026 올해의 스포츠 워치",
-     "url": "https://www.gqkorea.co.kr/2026/11/18/%EC%A0%84-%EC%84%B8%EA%B3%84-%EC%8B%9C%EA%B3%84-%EC%A0%84%EB%AC%B8%EA%B0%80%EB%93%A4%EC%9D%B4-%EC%84%A0%EC%A0%95%ED%95%9C-2026-%EC%98%AC%ED%95%B4%EC%9D%98-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%9B%8C/",
-     "source": "GQ Korea"
-    },
-    {
-     "title": "공식 발표된 올해 최고의 시계, 의외로 독립 브랜드의 것",
-     "url": "https://www.gqkorea.co.kr/2026/11/17/%EA%B3%B5%EC%8B%9D-%EB%B0%9C%ED%91%9C%EB%90%9C-%EC%98%AC%ED%95%B4-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EC%8B%9C%EA%B3%84-%EC%9D%98%EC%99%B8%EB%A1%9C-%EB%8F%85%EB%A6%BD-%EB%B8%8C%EB%9E%9C%EB%93%9C%EC%9D%98/",
-     "source": "GQ Korea"
-    },
-    {
-     "title": "[단독] \"계산기 안에 키보드\" \"쿠팡·알리서 구매\" 세무사 수석 어떻게 뚫었나",
-     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6866705_37004.html",
-     "source": "MBC 뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "gta6 메타",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[공지사항] The Game Awards 2026 베스트 커뮤니티 서포트 부문 후보 선정 안내 | 붉은사막",
-     "url": "https://crimsondesert.pearlabyss.com/ko-KR/News/Notice/Detail?_boardNo=160",
-     "source": "펄어비스 공식 홈페이지"
-    },
-    {
-     "title": "더게임어워드 후보작 공개…'붉은사막' 1개 부문 올라",
-     "url": "https://www.yna.co.kr/view/AKR20261118015500017",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "‘GTA6’ 출시도 전에 TGA 올해의 게임 후보로",
-     "url": "https://zdnet.co.kr/view/?no=20261118090703",
-     "source": "지디넷코리아"
     }
    ],
    "safe": false

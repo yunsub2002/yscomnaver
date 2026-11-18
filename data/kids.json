@@ -1,14 +1,32 @@
 {
-"updated": "2026-11-18T23:53:00+09:00",
+"updated": "2026-11-19T00:58:00+09:00",
 "has_tour": false,
 "has_naver": false,
 "trends": [
+{
+"id": "tdc4569b372",
+"kind": "trend",
+"name": "유산균",
+"count": 1,
+"score": 11.37,
+"pub": "2026-11-18T09:48:27+09:00",
+"region": "",
+"arts": [
+{
+"title": "쎌바이오텍 듀오락, 어린이 팝핑 유산균 인기…일주일 만에 완판",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0NuZEJNa1V5WnpSZTVwOEtORS1pcnlLSjN5S3hHWi1xU1d4aDk2QkZPS0hBV0E0eUxydy1ZSjJac1ZCU0pDX1JTeEtrbll3Rm1NMzFoTHFIVURKQ0xjRjZxTVhJdw?oc=5",
+"source": "푸드투데이",
+"pub": "2026-11-18T09:48:27+09:00"
+}
+],
+"new": true
+},
 {
 "id": "t34d59042fc",
 "kind": "trend",
 "name": "구슬 튕기기",
 "count": 1,
-"score": 9.63,
+"score": 9.58,
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "arts": [
@@ -26,7 +44,7 @@
 "kind": "trend",
 "name": "초등생은",
 "count": 1,
-"score": 9.61,
+"score": 9.56,
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "arts": [
@@ -68,9 +86,9 @@
 }
 ],
 "range": {
-"from": "2026-11-18",
-"to": "2026-11-25",
-"label": "11/18(수) ~ 11/25(수)"
+"from": "2026-11-19",
+"to": "2026-11-26",
+"label": "11/19(목) ~ 11/26(목)"
 },
 "cats": [
 {
@@ -83,7 +101,7 @@
 "key": "place",
 "name": "가볼만한곳",
 "emo": "🗺️",
-"count": 15
+"count": 14
 },
 {
 "key": "kidscafe",
@@ -95,7 +113,7 @@
 "key": "food",
 "name": "맛집·외식",
 "emo": "🍽️",
-"count": 1
+"count": 0
 },
 {
 "key": "show",
@@ -107,7 +125,7 @@
 "key": "trend",
 "name": "요즘 유행",
 "emo": "🔥",
-"count": 3
+"count": 4
 }
 ],
 "festivals": [
@@ -350,35 +368,6 @@
 "new": false
 },
 {
-"id": "ec2a6972748",
-"title": "화합의 축제",
-"period": "기사에서 확인",
-"addr": "",
-"region": "",
-"city": "",
-"img": "",
-"tel": "",
-"kid": 1,
-"count": 1,
-"status": "기사 1건",
-"tip": "행사장 주차가 붐빌 수 있어요. 대중교통이나 오전 일찍 방문을 추천해요.",
-"map": "https://map.naver.com/p/search/%ED%99%94%ED%95%A9%EC%9D%98%20%EC%B6%95%EC%A0%9C",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12bVVHTi1oMmdpZ0VfUEdPVk9CWXJGT29vMW9QOTRpblBYMWJ2Qi00US1vS0VqUzJDZk11RFJFOVUxdTNRd1NrRWl1TjRiRUlNbUVBSjdFUHIyc0N5UFZpVUVCdGpsSzlQN0RDTXZzY9IBc0FVX3lxTE1iNjEzZUpnNVlWRTdTQXFCdFpadGdIdmFsbWpwRVYxMy1CaGdSRXZjVTVjbXhJdGV5aFh6ZEZSTXI2MEJDN0FfQzYxN0JQNkJuRTRiVjNLb0xVeU5YdTZEWFJKQkM5QU9RZzE2a1BxNXh6RU0?oc=5",
-"source": "K스피릿",
-"src_title": "“어린이부터 어르신까지” 전통스포츠 국학기공으로 건강‧화합의 축제",
-"pub": "2026-11-12T14:55:29+09:00",
-"from": "news",
-"arts": [
-{
-"title": "“어린이부터 어르신까지” 전통스포츠 국학기공으로 건강‧화합의 축제",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12bVVHTi1oMmdpZ0VfUEdPVk9CWXJGT29vMW9QOTRpblBYMWJ2Qi00US1vS0VqUzJDZk11RFJFOVUxdTNRd1NrRWl1TjRiRUlNbUVBSjdFUHIyc0N5UFZpVUVCdGpsSzlQN0RDTXZzY9IBc0FVX3lxTE1iNjEzZUpnNVlWRTdTQXFCdFpadGdIdmFsbWpwRVYxMy1CaGdSRXZjVTVjbXhJdGV5aFh6ZEZSTXI2MEJDN0FfQzYxN0JQNkJuRTRiVjNLb0xVeU5YdTZEWFJKQkM5QU9RZzE2a1BxNXh6RU0?oc=5",
-"source": "K스피릿",
-"pub": "2026-11-12T14:55:29+09:00"
-}
-],
-"new": false
-},
-{
 "id": "e82dee662d7",
 "title": "mom편한 놀이터",
 "period": "기사에서 확인",
@@ -579,7 +568,7 @@
 "pub": "2026-11-18T10:02:06+09:00"
 }
 ],
-"new": true
+"new": false
 },
 {
 "id": "eb069b1b917",
@@ -613,6 +602,18 @@
 ],
 "news": [
 {
+"cat": "festival",
+"title": "제물포구가족센터, ‘제물포구 가족이음’축제 개최",
+"source": "미디어생활",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0RGo1dE5JMHdGNW0zRmJrNGhWOFZ4SEQ3MFJJSEdtcGdUelFWWHh0RURDdW4xbkFkWVNfU0dmdU52dkU1eWN4bkR1MUd6MGgtMldXLTBfSGkwZVJ3alZ1S1NqYVQ0RzRQUkkzUnFhMA?oc=5",
+"pub": "2026-11-19T00:23:37+09:00",
+"region": "",
+"period": "",
+"score": 6.98,
+"id": "n6fe1a1f75a",
+"new": false
+},
+{
 "cat": "show",
 "title": "충남어린이인성학습원, 종이회전극 '파푸아뉴기니의 돼지' 공연 운영",
 "source": "웹이코노미",
@@ -620,7 +621,7 @@
 "pub": "2026-11-18T18:39:39+09:00",
 "region": "충남",
 "period": "",
-"score": 6.78,
+"score": 6.74,
 "id": "n4ae69b887b",
 "new": false
 },
@@ -632,7 +633,7 @@
 "pub": "2026-11-18T16:20:53+09:00",
 "region": "포항",
 "period": "",
-"score": 5.69,
+"score": 5.64,
 "id": "nb656024a36",
 "new": false
 },
@@ -644,7 +645,7 @@
 "pub": "2026-11-18T15:02:41+09:00",
 "region": "",
 "period": "",
-"score": 6.63,
+"score": 6.59,
 "id": "n8cd783169b",
 "new": false
 },
@@ -656,7 +657,7 @@
 "pub": "2026-11-18T13:42:29+09:00",
 "region": "서울",
 "period": "",
-"score": 3.58,
+"score": 3.53,
 "id": "n7a5115982f",
 "new": false
 },
@@ -668,7 +669,7 @@
 "pub": "2026-11-18T12:44:00+09:00",
 "region": "성남",
 "period": "",
-"score": 8.54,
+"score": 8.49,
 "id": "n98324ddde5",
 "new": false
 },
@@ -680,7 +681,7 @@
 "pub": "2026-11-18T12:42:59+09:00",
 "region": "순천",
 "period": "",
-"score": 5.53,
+"score": 5.49,
 "id": "n07e786f8f7",
 "new": false
 },
@@ -692,20 +693,8 @@
 "pub": "2026-11-18T12:30:00+09:00",
 "region": "",
 "period": "",
-"score": 1.53,
+"score": 1.48,
 "id": "n32a1b727cf",
-"new": false
-},
-{
-"cat": "festival",
-"title": "제물포구가족센터, ‘제물포구 가족이음’축제 개최",
-"source": "미디어생활",
-"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0RGo1dE5JMHdGNW0zRmJrNGhWOFZ4SEQ3MFJJSEdtcGdUelFWWHh0RURDdW4xbkFkWVNfU0dmdU52dkU1eWN4bkR1MUd6MGgtMldXLTBfSGkwZVJ3alZ1S1NqYVQ0RzRQUkkzUnFhMA?oc=5",
-"pub": "2026-11-18T12:18:18+09:00",
-"region": "",
-"period": "",
-"score": 6.52,
-"id": "n6fe1a1f75a",
 "new": false
 },
 {
@@ -716,7 +705,7 @@
 "pub": "2026-11-18T12:09:18+09:00",
 "region": "",
 "period": "",
-"score": 6.51,
+"score": 6.47,
 "id": "n916b1cd2e8",
 "new": false
 },
@@ -728,7 +717,7 @@
 "pub": "2026-11-18T10:41:53+09:00",
 "region": "세종",
 "period": "",
-"score": 6.45,
+"score": 6.41,
 "id": "n3cfc3d3263",
 "new": false
 },
@@ -740,7 +729,7 @@
 "pub": "2026-11-18T10:18:50+09:00",
 "region": "",
 "period": "",
-"score": 1.43,
+"score": 1.39,
 "id": "nde7fe7a35f",
 "new": false
 },
@@ -752,9 +741,21 @@
 "pub": "2026-11-18T10:06:27+09:00",
 "region": "서울",
 "period": "",
-"score": 6.43,
+"score": 6.38,
 "id": "n621d88acba",
 "new": false
+},
+{
+"cat": "trend",
+"title": "쎌바이오텍 듀오락, 어린이 팝핑 유산균 인기…일주일 만에 완판",
+"source": "푸드투데이",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0NuZEJNa1V5WnpSZTVwOEtORS1pcnlLSjN5S3hHWi1xU1d4aDk2QkZPS0hBV0E0eUxydy1ZSjJac1ZCU0pDX1JTeEtrbll3Rm1NMzFoTHFIVURKQ0xjRjZxTVhJdw?oc=5",
+"pub": "2026-11-18T09:48:27+09:00",
+"region": "",
+"period": "",
+"score": 1.37,
+"id": "n7f40821163",
+"new": true
 },
 {
 "cat": "show",
@@ -764,7 +765,7 @@
 "pub": "2026-11-18T09:06:49+09:00",
 "region": "",
 "period": "",
-"score": 3.38,
+"score": 3.34,
 "id": "n629bad1092",
 "new": false
 },
@@ -776,7 +777,7 @@
 "pub": "2026-11-18T08:10:29+09:00",
 "region": "",
 "period": "",
-"score": 4.35,
+"score": 4.3,
 "id": "nd15f6749bf",
 "new": false
 },
@@ -788,7 +789,7 @@
 "pub": "2026-11-18T06:29:17+09:00",
 "region": "대구",
 "period": "",
-"score": 5.28,
+"score": 5.23,
 "id": "nf41a94d92a",
 "new": false
 },
@@ -800,7 +801,7 @@
 "pub": "2026-11-17T22:15:36+09:00",
 "region": "화성",
 "period": "",
-"score": 9.93,
+"score": 9.89,
 "id": "n25221fe40e",
 "new": false
 },
@@ -812,7 +813,7 @@
 "pub": "2026-11-17T20:15:00+09:00",
 "region": "부산",
 "period": "",
-"score": 5.85,
+"score": 5.8,
 "id": "nf6a382c2f3",
 "new": false
 },
@@ -824,7 +825,7 @@
 "pub": "2026-11-17T18:57:00+09:00",
 "region": "",
 "period": "",
-"score": 0.79,
+"score": 0.75,
 "id": "n0749a0be17",
 "new": false
 },
@@ -836,7 +837,7 @@
 "pub": "2026-11-17T18:45:13+09:00",
 "region": "진주",
 "period": "",
-"score": 4.79,
+"score": 4.74,
 "id": "n41df21f7e3",
 "new": false
 },
@@ -848,7 +849,7 @@
 "pub": "2026-11-17T17:02:28+09:00",
 "region": "대구",
 "period": "",
-"score": 6.71,
+"score": 6.67,
 "id": "n5a6cecdb6e",
 "new": false
 },
@@ -860,7 +861,7 @@
 "pub": "2026-11-17T14:05:57+09:00",
 "region": "서울",
 "period": "",
-"score": 7.59,
+"score": 7.55,
 "id": "n23f41a19fc",
 "new": false
 },
@@ -872,7 +873,7 @@
 "pub": "2026-11-17T13:07:34+09:00",
 "region": "인천",
 "period": "",
-"score": 5.55,
+"score": 5.51,
 "id": "n70797a70d7",
 "new": false
 },
@@ -884,7 +885,7 @@
 "pub": "2026-11-17T12:41:00+09:00",
 "region": "경남",
 "period": "",
-"score": 4.53,
+"score": 4.49,
 "id": "n0fe9b12780",
 "new": false
 },
@@ -896,7 +897,7 @@
 "pub": "2026-11-17T11:35:13+09:00",
 "region": "익산",
 "period": "",
-"score": 5.49,
+"score": 5.44,
 "id": "na94106a868",
 "new": false
 },
@@ -908,7 +909,7 @@
 "pub": "2026-11-17T11:23:23+09:00",
 "region": "",
 "period": "",
-"score": 3.48,
+"score": 3.43,
 "id": "nc635c8260a",
 "new": false
 },
@@ -920,7 +921,7 @@
 "pub": "2026-11-17T11:20:32+09:00",
 "region": "광주",
 "period": "",
-"score": 7.48,
+"score": 7.43,
 "id": "na1742b9049",
 "new": false
 },
@@ -932,9 +933,21 @@
 "pub": "2026-11-17T11:15:00+09:00",
 "region": "서울",
 "period": "",
-"score": 7.47,
+"score": 7.43,
 "id": "ncee425e721",
 "new": false
+},
+{
+"cat": "show",
+"title": "국립진주박물관, 어린이 인형극 공연",
+"source": "경남도민일보",
+"url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nQzZIeXJMeXFZaDlMVjVhaC1WeDNKWmNFNlNsZ1BfZFY0ckZxUnE0eFdPbFpBeUNEc0lwYm1BUFB0NzhpRHJVN1FyeXhmSkFHaTF2QkJpQVczX3kxOUFjdHEzcnlPRDVsNGc?oc=5",
+"pub": "2026-11-17T11:03:32+09:00",
+"region": "진주",
+"period": "",
+"score": 2.42,
+"id": "naf5dc4bf70",
+"new": true
 },
 {
 "cat": "festival",
@@ -944,9 +957,9 @@
 "pub": "2026-11-17T10:46:16+09:00",
 "region": "춘천",
 "period": "",
-"score": 4.45,
+"score": 4.41,
 "id": "n393f716bec",
-"new": true
+"new": false
 },
 {
 "cat": "show",
@@ -956,20 +969,8 @@
 "pub": "2026-11-17T10:36:22+09:00",
 "region": "용인",
 "period": "",
-"score": 5.45,
+"score": 5.4,
 "id": "n72dd22dfbd",
-"new": false
-},
-{
-"cat": "show",
-"title": "경희대 산업디자인학과 체험형 전시 '서울디자인어워드 2026' 파이널리스트 선정.. '놀이로 배우는 자원순환 RE:Play Green Hero'",
-"source": "베리타스알파",
-"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SRzg1UTQ5UGtOUUlPcEt5czRvb213M1k3MWI2TUN4YndGaVU2Smg5QzVTZEFPdURlV1FrSzlMUndjdUZ6S21MNG9uTGlSTGNyUHoyQ1AyOExUNHVDdG12bGpHakJsTFJNdGNBeA?oc=5",
-"pub": "2026-11-17T10:15:00+09:00",
-"region": "서울",
-"period": "",
-"score": 4.43,
-"id": "n29afc71c73",
 "new": false
 },
 {
@@ -980,7 +981,7 @@
 "pub": "2026-11-17T10:10:08+09:00",
 "region": "서울",
 "period": "~3/7",
-"score": 5.43,
+"score": 5.38,
 "id": "nadc62c204a",
 "new": false
 },
@@ -992,7 +993,7 @@
 "pub": "2026-11-17T09:51:39+09:00",
 "region": "통영",
 "period": "",
-"score": 9.42,
+"score": 9.37,
 "id": "n5e565a27d6",
 "new": false
 },
@@ -1004,7 +1005,7 @@
 "pub": "2026-11-17T09:32:00+09:00",
 "region": "",
 "period": "",
-"score": 5.4,
+"score": 5.36,
 "id": "n2c3698f441",
 "new": false
 },
@@ -1016,9 +1017,9 @@
 "pub": "2026-11-17T08:00:24+09:00",
 "region": "원주",
 "period": "",
-"score": 5.34,
+"score": 5.29,
 "id": "n09fd290e94",
-"new": true
+"new": false
 },
 {
 "cat": "place",
@@ -1028,7 +1029,7 @@
 "pub": "2026-11-17T08:00:00+09:00",
 "region": "",
 "period": "",
-"score": 2.34,
+"score": 2.29,
 "id": "n6a49016bfe",
 "new": false
 },
@@ -1040,7 +1041,7 @@
 "pub": "2026-11-16T19:11:50+09:00",
 "region": "인천",
 "period": "",
-"score": 6.8,
+"score": 6.76,
 "id": "n3075ad96d8",
 "new": false
 },
@@ -1052,7 +1053,7 @@
 "pub": "2026-11-16T17:26:08+09:00",
 "region": "인천",
 "period": "21~22일",
-"score": 6.73,
+"score": 6.69,
 "id": "nacc06b3f9a",
 "new": false
 },
@@ -1064,7 +1065,7 @@
 "pub": "2026-11-16T16:53:00+09:00",
 "region": "화성",
 "period": "",
-"score": 4.71,
+"score": 4.66,
 "id": "nb96cdcc32a",
 "new": false
 },
@@ -1076,7 +1077,7 @@
 "pub": "2026-11-16T16:35:12+09:00",
 "region": "부산",
 "period": "",
-"score": 4.7,
+"score": 4.65,
 "id": "n16e60647a7",
 "new": false
 },
@@ -1088,9 +1089,9 @@
 "pub": "2026-11-16T15:38:31+09:00",
 "region": "",
 "period": "",
-"score": 6.66,
+"score": 6.61,
 "id": "ncd41fa0795",
-"new": true
+"new": false
 },
 {
 "cat": "trend",
@@ -1100,7 +1101,7 @@
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "period": "",
-"score": -0.37,
+"score": -0.42,
 "id": "nfa6357a9dc",
 "new": false
 },
@@ -1112,7 +1113,7 @@
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "period": "",
-"score": -0.39,
+"score": -0.44,
 "id": "n68b322a206",
 "new": false
 },
@@ -1124,7 +1125,7 @@
 "pub": "2026-11-16T14:23:19+09:00",
 "region": "인천",
 "period": "",
-"score": 6.6,
+"score": 6.56,
 "id": "nab9d31060c",
 "new": false
 },
@@ -1136,7 +1137,7 @@
 "pub": "2026-11-16T13:27:00+09:00",
 "region": "아산",
 "period": "",
-"score": 4.57,
+"score": 4.52,
 "id": "n88ec357b99",
 "new": false
 },
@@ -1148,7 +1149,7 @@
 "pub": "2026-11-16T11:19:30+09:00",
 "region": "진주",
 "period": "",
-"score": 4.48,
+"score": 4.43,
 "id": "ne7d8ecc59d",
 "new": false
 },
@@ -1160,20 +1161,8 @@
 "pub": "2026-11-16T10:30:59+09:00",
 "region": "인천",
 "period": "",
-"score": 6.44,
+"score": 6.4,
 "id": "n5d19110b98",
-"new": false
-},
-{
-"cat": "place",
-"title": "9m 레고 트리 떴다… 올겨울 아이들이 가장 먼저 달려갈 그곳",
-"source": "reporternside.com",
-"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43dVRQOEVoT0cwNGdnOTZpdnpHVjMzeGJXVHhiTnpFVThEamZ5eVlha0YtOG14LVFKUnlXdGF4MjlwN01DYk1hLUdEZXh5cDVRdjQ2MzZPY1lHaGREWWlOSDJOMmNGeGNXLVA3SnV1Y3dvZw?oc=5",
-"pub": "2026-11-16T10:03:03+09:00",
-"region": "",
-"period": "",
-"score": -0.58,
-"id": "n0b7dfe4c1e",
 "new": false
 },
 {
@@ -1184,7 +1173,7 @@
 "pub": "2026-11-16T09:44:00+09:00",
 "region": "",
 "period": "",
-"score": 4.41,
+"score": 4.37,
 "id": "ne2a7060f1e",
 "new": false
 },
@@ -1196,7 +1185,7 @@
 "pub": "2026-11-16T06:41:00+09:00",
 "region": "",
 "period": "",
-"score": 8.28,
+"score": 8.24,
 "id": "n00e93be918",
 "new": false
 },
@@ -1208,7 +1197,7 @@
 "pub": "2026-11-16T00:07:00+09:00",
 "region": "충남",
 "period": "",
-"score": 4.01,
+"score": 3.96,
 "id": "nc1a74d2f14",
 "new": false
 },
@@ -1220,7 +1209,7 @@
 "pub": "2026-11-15T21:40:45+09:00",
 "region": "평창",
 "period": "",
-"score": 0.91,
+"score": 0.86,
 "id": "n3a01b11d47",
 "new": false
 },
@@ -1232,7 +1221,7 @@
 "pub": "2026-11-15T09:00:00+09:00",
 "region": "김해",
 "period": "",
-"score": 6.38,
+"score": 6.33,
 "id": "n0edc58fdb6",
 "new": false
 },
@@ -1244,7 +1233,7 @@
 "pub": "2026-11-14T22:33:00+09:00",
 "region": "전남",
 "period": "",
-"score": -0.06,
+"score": -0.1,
 "id": "n979d6f4206",
 "new": false
 },
@@ -1256,7 +1245,7 @@
 "pub": "2026-11-14T15:00:00+09:00",
 "region": "서울",
 "period": "",
-"score": 1.63,
+"score": 1.58,
 "id": "n9077877da0",
 "new": false
 },
@@ -1268,7 +1257,7 @@
 "pub": "2026-11-14T08:00:00+09:00",
 "region": "대구",
 "period": "19~20일",
-"score": 4.34,
+"score": 4.29,
 "id": "nd2d40a023b",
 "new": false
 },
@@ -1280,7 +1269,7 @@
 "pub": "2026-11-13T19:29:00+09:00",
 "region": "아산",
 "period": "",
-"score": 5.82,
+"score": 5.77,
 "id": "n465f54eaf3",
 "new": false
 },
@@ -1292,7 +1281,7 @@
 "pub": "2026-11-13T17:16:06+09:00",
 "region": "",
 "period": "",
-"score": -3.28,
+"score": -3.32,
 "id": "n5b0e708cf0",
 "new": false
 },
@@ -1304,7 +1293,7 @@
 "pub": "2026-11-13T14:35:50+09:00",
 "region": "인천",
 "period": "",
-"score": 2.61,
+"score": 2.57,
 "id": "n0e62b4dedd",
 "new": false
 },
@@ -1316,7 +1305,7 @@
 "pub": "2026-11-13T12:33:00+09:00",
 "region": "서울",
 "period": "",
-"score": 3.53,
+"score": 3.48,
 "id": "nf47909deac",
 "new": false
 },
@@ -1328,20 +1317,8 @@
 "pub": "2026-11-13T12:07:00+09:00",
 "region": "",
 "period": "",
-"score": -0.49,
+"score": -0.54,
 "id": "n217da11f55",
-"new": false
-},
-{
-"cat": "food",
-"title": "단독) 강문경·신승태·이찬원 등 트로트 스타 가족이 운영하는 전국 맛집 10곳 눈길",
-"source": "한국미디어일보",
-"url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uZHFPSjlGdzFnR1VCdmJSbE9XWGpBUHR6VHhsNzM1MFpnMnp0VU8zLThLRk5NdEI0ZFlPb1RqdzZRZjlWdlYwc3dqOXNfTTdXMmNwY2dlUUNOMEp2TEZSS19GUHdrcm4zbzRmcWtOdDFkancySUI4Z3Ywa0pxZw?oc=5",
-"pub": "2026-11-13T12:03:00+09:00",
-"region": "",
-"period": "",
-"score": -0.49,
-"id": "n20e9ec2fa7",
 "new": false
 },
 {
@@ -1352,7 +1329,7 @@
 "pub": "2026-11-13T02:44:52+09:00",
 "region": "",
 "period": "",
-"score": -0.88,
+"score": -0.93,
 "id": "n4d720282e1",
 "new": false
 },
@@ -1364,7 +1341,7 @@
 "pub": "2026-11-12T19:17:00+09:00",
 "region": "창원",
 "period": "",
-"score": -2.19,
+"score": -2.24,
 "id": "n070e8ffae1",
 "new": false
 },
@@ -1376,7 +1353,7 @@
 "pub": "2026-11-12T13:45:52+09:00",
 "region": "서울",
 "period": "",
-"score": -2.42,
+"score": -2.47,
 "id": "n8664a29ece",
 "new": false
 },
@@ -1388,7 +1365,7 @@
 "pub": "2026-11-12T11:22:02+09:00",
 "region": "서울",
 "period": "",
-"score": -2.52,
+"score": -2.57,
 "id": "ncb4871dd76",
 "new": false
 },
@@ -1400,7 +1377,7 @@
 "pub": "2026-11-12T10:53:01+09:00",
 "region": "광주",
 "period": "",
-"score": 2.46,
+"score": 2.41,
 "id": "n25ace3293a",
 "new": false
 },
@@ -1412,7 +1389,7 @@
 "pub": "2026-11-12T10:00:00+09:00",
 "region": "",
 "period": "",
-"score": -4.58,
+"score": -4.62,
 "id": "n704f92cf5a",
 "new": false
 }
