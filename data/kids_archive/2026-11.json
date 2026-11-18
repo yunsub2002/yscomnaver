@@ -3246,5 +3246,47 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-18T08:49:00+09:00"
+},
+{
+"id": "n629bad1092",
+"cat": "show",
+"title": "[이집트 미라전] 아이들과 탐험하는 고대 이집트…체험 코너 풍성",
+"source": "연합뉴스",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pWnNyd0xWWTJWRTNuaTFwZnlmejVGZUlsVmFMcExjWVM2TjNnM0FBMkFWSlpLUGR6Vm8yTmR1UUM4QkNNRUNiTkJjWnptNnAxaURFLXVSTGVjV2fSAWBBVV95cUxNZEo0Q2ZqV0ZLbmNZdzFQMU9uNXF0UllqdjBfeVkwVXl2TFZMclRmYlctT3hta3ZmMW5MQ0ZyMEZjSVNrSWwzazlySS10VkxLNHpfQVoycjJtRTFlUnNCVlA?oc=5",
+"pub": "2026-11-18T09:06:49+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-18T09:28:00+09:00"
+},
+{
+"id": "ef981201a8b",
+"cat": null,
+"title": "생각자람 한마당",
+"source": "시사줌뉴스",
+"url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5aMjdvV2dnc0VmZWdhUkF6Z1dSYzBBdXBZeVBLMkp5eEFmT1pvWTJ3WmxudFZVVV9JTmZqNVlxZjdwaWV0bmxZ?oc=5",
+"pub": "2026-11-17T08:00:00+09:00",
+"region": "원주",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "원주",
+"seen": "2026-11-18T09:28:00+09:00"
+},
+{
+"id": "ef932eb8313",
+"cat": null,
+"title": "건강한마당",
+"source": "데일리한국",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1aSDhiR1dXLXNLVFJwU1gzZlNmVVBZbEthWWxFcTVITmNtQS1GTkdTV2Y1QzVzRWtrS0RORkkxNlBuZ3R2QU41YTR0Wkw1SFQ2LU9rYzVXSTYxT1A3MXdveV8wTjkxdHRHVEVOU0FFa9IBc0FVX3lxTE1hMDFGU1A5X2h6UjE4X1REbWQyYkk1bXJMTjZiampmYmY4aFpnLTBfOHlaOXAtWW8xQlpyMFhLOHNlaVBkMUdfbzBXbDRpLWpDR285T2h4RmhmM2F4S0xtSmNCeWlRVkwxRDN6ZWFMWnlyeVE?oc=5",
+"pub": "2026-11-18T07:30:03+09:00",
+"region": "",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-18T09:28:00+09:00"
 }
 ]
