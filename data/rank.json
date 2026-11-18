@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-19T08:13:00+09:00",
- "prev_updated": "2026-11-19T07:51:00+09:00",
+ "updated": "2026-11-19T08:50:00+09:00",
+ "prev_updated": "2026-11-19T08:13:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "미역국",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -18,111 +18,27 @@
      "source": "세계일보"
     },
     {
-     "title": "수시 먹통, N수생 최다, AI 커닝… 08년생 ‘고난의 수능’",
-     "url": "https://www.chosun.com/national/education/2026/11/19/72LF3FHY75GRNMERHEJX6ILGMY/",
-     "source": "조선일보"
+     "title": "\"1년 간 기다려온 시험\"...수험생 곧 입실 마감",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0103_202611190756474671_005.html",
+     "source": "YTN"
     },
     {
-     "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
-     "url": "https://www.yna.co.kr/view/AKR20261119013600011",
-     "source": "연합뉴스"
+     "title": "[2027 수능] 1312개 시험장서 55만명 응시… AI 부정행위 방지 총력전",
+     "url": "https://biz.chosun.com/topics/topics_social/2026/11/19/RZIJ3WNYPZCOXPWFUJAZUXSL2E/",
+     "source": "Chosunbiz"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "다우 존스 산업평균지수",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "엔비디아 실적보다 AI 투자 부담…힘 못 쓰는 뉴욕증시 [월가 업&다운]",
-     "url": "https://www.hankyung.com/article/202611196100i",
-     "source": "한국경제"
-    },
-    {
-     "title": "엔비디아 호실적에도 젠슨 황 스캔들에 발목…나스닥만 반등[뉴욕마감] - 머니투데이",
-     "url": "https://www.mt.co.kr/world/2026/11/19/2026111906582147139",
-     "source": "머니투데이"
-    },
-    {
-     "title": "엔비디아 호실적에도 경계감 지속, 앤트로픽 상장 변수",
-     "url": "https://story.pay.naver.com/content/3996_39_C9",
-     "source": "네이버페이 머니스토리"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "lg그룹",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "LG유플러스 쇄신 인사…4개 부문장 교체 유력",
-     "url": "https://www.etnews.com/20261118000030",
-     "source": "전자신문"
-    },
-    {
-     "title": "[단독] LGU+, 기술 조직 ‘고강도 쇄신’…AI·데이터 임원 교체",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006562",
-     "source": "아시아투데이"
-    },
-    {
-     "title": "[단독] 이상엽 LGU+ CTO 물러난다…LG그룹 임원인사 통보 시작",
-     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261117010006517",
-     "source": "아시아투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "새마을금고",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "양주시, 지방보조금 전용 계좌 운영 업무 협약 체결",
-     "url": "https://www.yna.co.kr/view/AKR20261118146000060",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "새마을금고 서울 자치구 진출...용산구, 새마을금고와 손잡고 지방보조사업자 금융 편의 높인다",
-     "url": "https://biz.heraldcorp.com/article/10941776",
-     "source": "헤럴드경제"
-    },
-    {
-     "title": "양주시, 신협·새마을금고와 보조금 전용계좌 협약…개설처 확대",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755989",
-     "source": "국제뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
    "keyword": "겨울",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 3,
    "news": [
     {
      "title": "“겨울철 안전 강화 나선다”…시흥시, 폭설·도로 결빙 대비 제설 대응체계 가동",
@@ -141,6 +57,90 @@
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "다우 존스 산업평균지수",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "엔비디아 실적보다 AI 투자 부담…힘 못 쓰는 뉴욕증시 [월가 업&다운]",
+     "url": "https://www.hankyung.com/article/202611196100i",
+     "source": "한국경제"
+    },
+    {
+     "title": "엔비디아 호실적에도 S&P500 5일연속 하락…나스닥만 0.4%↑(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261119010551072",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "컨콜 첫 등장한 ‘쿠다의 아버지’…‘포스트 젠슨 황’ 꿰차나 [갭 월드]",
+     "url": "https://www.sedaily.com/article/20116193",
+     "source": "서울경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "새마을금고",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "same",
+   "delta": 0,
+   "news": [
+    {
+     "title": "양주시, 지방보조금 전용 계좌 운영 업무 협약 체결",
+     "url": "https://www.yna.co.kr/view/AKR20261118146000060",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "새마을금고 서울 자치구 진출...용산구, 새마을금고와 손잡고 지방보조사업자 금융 편의 높인다",
+     "url": "https://biz.heraldcorp.com/article/10941776",
+     "source": "헤럴드경제"
+    },
+    {
+     "title": "양주시, 새마을금고·신협과 지방보조금 전용계좌 업무협약 체결",
+     "url": "http://www.nbnnews.co.kr/news/articleView.html?idxno=1071212",
+     "source": "내외뉴스통신"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "kb금융그룹",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "KB금융 '생산적 금융' 김성현·AX 이창권 부문장 사의…거버넌스 재편",
+     "url": "https://v.daum.net/v/VT9QWXIkki",
+     "source": "Daum"
+    },
+    {
+     "title": "KB금융, 부문장직 폐지하나…이재근式 '시스템·분권화' 지배구조는",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445371",
+     "source": "연합인포맥스"
+    },
+    {
+     "title": "국민연금, KB금융 사내이사 후보 이재근 선임안에 찬성",
+     "url": "https://bravo.etoday.co.kr/view/atc_view/20503",
+     "source": "이투데이"
+    }
+   ],
+   "safe": false
   }
  ]
 }

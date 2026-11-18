@@ -3792,5 +3792,47 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-19T03:54:00+09:00"
+},
+{
+"id": "n81c83c1165",
+"cat": "festival",
+"title": "안산시, 겨울 빛축제에 체험·지역소비 할인 결합",
+"source": "뉴스타운",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETGJRazMxLURUaC1Vbmh2dU9KN3BqLWU4ZkNjM1c0aXJwbWxJN2ZxNXdDNTNFMGpHd2xGazJmUnlfbE9Vdk51YmZ2enkyVlp0S3dIdkFoejBKbkFnbjRqSEZuNjQ2SXNtNlhFYw?oc=5",
+"pub": "2026-11-19T08:41:17+09:00",
+"region": "안산",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T08:50:00+09:00"
+},
+{
+"id": "nb29838c513",
+"cat": "trend",
+"title": "\"우리 아이가 방송 시간만 기다려요\" EBS AI 역사 애니메이션 '덩이랑 쾡이랑 인물 한국사' 화제",
+"source": "베리타스알파",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kTHRCZ2pVMjdOaE5WT2k4WVNrUk1VU0FnZWhOY19wa2FTMVl6RnBhNzhRQXpWSmhZM0FFR2VuRktLVWx5M2VfQXY0cllIVlFZMFZZRkkyOUNvNldkRl9kSVhRUjdkMTZoS2cyeQ?oc=5",
+"pub": "2026-11-19T08:10:12+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T08:50:00+09:00"
+},
+{
+"id": "e50affa4296",
+"cat": null,
+"title": "겨울 빛축제",
+"source": "뉴스타운",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ETGJRazMxLURUaC1Vbmh2dU9KN3BqLWU4ZkNjM1c0aXJwbWxJN2ZxNXdDNTNFMGpHd2xGazJmUnlfbE9Vdk51YmZ2enkyVlp0S3dIdkFoejBKbkFnbjRqSEZuNjQ2SXNtNlhFYw?oc=5",
+"pub": "2026-11-19T08:41:17+09:00",
+"region": "안산",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "안산",
+"seen": "2026-11-19T08:50:00+09:00"
 }
 ]
