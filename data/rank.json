@@ -1,10 +1,66 @@
 {
- "updated": "2026-11-18T11:50:00+09:00",
- "prev_updated": "2026-11-18T10:08:00+09:00",
+ "updated": "2026-11-18T12:55:00+09:00",
+ "prev_updated": "2026-11-18T11:50:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "국제 a매치",
+   "keyword": "혈당",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"갑자기 혈당 확 오르다면\"…생존율 최악 '이 암'?",
+     "url": "https://www.newsis.com/view/NISX20261117_0003871362",
+     "source": "뉴시스"
+    },
+    {
+     "title": "\"갑자기 혈당이 올랐네?\"…'침묵의 암' 췌장암의 첫 신호일 수도 [헬스톡]",
+     "url": "https://www.fnnews.com/news/202611171443294938",
+     "source": "파이낸셜뉴스"
+    },
+    {
+     "title": "[포토뉴스] 충남대병원 대전지역암센터, 췌장암 시민건강강좌 개최",
+     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1425628",
+     "source": "데일리한국"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "10억",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'아빠, 이 집 나 줄 거지?'…10억 있는 3040 부모들 '뜻밖의 대답'",
+     "url": "https://www.hankyung.com/article/2026111727421",
+     "source": "한국경제"
+    },
+    {
+     "title": "자산 30억 넘는 3040 절반 이상 “현금·부동산 이미 물려받았다”",
+     "url": "https://www.khan.co.kr/article/202611171102001",
+     "source": "경향신문"
+    },
+    {
+     "title": "\"자녀 성인 되기 전에 물려주겠다\"…유자녀 3040 자산가 40%, '조기 증여' 원해",
+     "url": "https://www.fnnews.com/news/202611180851556738",
+     "source": "파이낸셜뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "선수",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "스포츠",
@@ -13,26 +69,54 @@
    "delta": 0,
    "news": [
     {
-     "title": "축구 A매치에서 \"대~한민국\" 구호가 사라졌다",
-     "url": "https://www.chosun.com/sports/football/2026/11/18/PEHQPEUKWNCQFIKOJ6PWL4TNUQ/",
-     "source": "조선일보"
+     "title": "러시아 피겨 선수 7명, 핀란드 입국 금지로 그랑프리 출전 무산",
+     "url": "https://www.yna.co.kr/view/AKR20261118082900007",
+     "source": "연합뉴스"
     },
     {
-     "title": "[로드 투 아시안컵①] 최악의 1년 뒤 희망의 1년… 아시안컵·월드컵 향한 재건의 시간",
-     "url": "https://www.sportsworldi.com/newsView/20261112520068",
-     "source": "스포츠월드"
+     "title": "캐나다 세계 주니어 선수권대회에서 러시아가 배제된 뒤 해킹 보도…IIHF 웹사이트 접속 불가",
+     "url": "https://mezha.net/ko/news/mezha-ee3b03f57aa84a08d430dc88_iihf-website-offline-after-reported-hack/",
+     "source": "Mezha.net"
     },
     {
-     "title": "축구대표팀 인기 이 정도였나…손흥민∙이강인 출전 11월 중동 A매치, '10년 계약' TV조선 미중계→지상파가 나눠 맡는다",
-     "url": "https://www.xportsnews.com/article/2217893",
-     "source": "엑스포츠뉴스"
+     "title": "5전 전승으로 1부 승격했는데…러시아 복귀에 노르웨이 U20 하키 2부로",
+     "url": "https://www.newsis.com/view/NISX20261109_0003860298",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 2,
-   "keyword": "음료",
+   "rank": 4,
+   "keyword": "잠실래미안아이파크",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"당첨되면 20억\"…잠실 아파트 '줍줍' 3가구 나온다",
+     "url": "https://www.newsis.com/view/NISX20261117_0003872071",
+     "source": "뉴시스"
+    },
+    {
+     "title": "잠실서 또 '로또 청약'…래미안아이파크 3가구 무순위 공급",
+     "url": "https://www.newspim.com/news/view/20261117001303",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "\"당첨되면 24억 대박?\"…'잠실 래미안아이파크' 계약취소 3가구 재공급",
+     "url": "https://www.kyeonggi.com/article/20261117580574",
+     "source": "경기일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "고발",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "IT·테크",
@@ -41,138 +125,138 @@
    "delta": 0,
    "news": [
     {
-     "title": "이마트24, '옐로우' 차음료 2종 출시…헬시 플레저 수요 공략",
-     "url": "https://www.etnews.com/20261118000110",
-     "source": "전자신문"
+     "title": "[단독] 리트 만점자 \"AI 안 썼지만 확률 희박은 인정\"",
+     "url": "https://imnews.imbc.com/replay/2026/nw2500/article/6866434_36989.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "이마트24, 겨울 음료 1000원대로 즐긴다…자허블·배도라지로 상품군 확대",
-     "url": "https://www.newsis.com/view/NISX20261118_0003872444",
-     "source": "뉴시스"
+     "title": "[단독] ‘리트 만점자’ 이진우 결국 ‘공무집행방해’ 혐의 형사고발 수순",
+     "url": "https://news.jtbc.co.kr/article/NB12328614",
+     "source": "JTBC"
     },
     {
-     "title": "이마트24, 자허블T·배도담으로 ‘옐로우’ 차음료 라인업 확대",
-     "url": "https://www.metroseoul.co.kr/article/20261118500068",
-     "source": "메트로신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "탄약",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "인니 방산 컨설턴트, KF-21 계약 지연과 풍산 탄약 미납이 양국 신뢰 흔든다고 진단",
-     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611180348057973fbbec65dfb_1",
-     "source": "글로벌이코노믹"
-    },
-    {
-     "title": "KAI, 민항기로 글로벌 시장 진출한다",
-     "url": "https://www.gnmaeil.com/news/articleView.html?idxno=598709",
-     "source": "경남매일"
-    },
-    {
-     "title": "[중화학 ON] KAI, 인니 PTDI와 항공산업협력 확대 外 : 네이버 블로그",
-     "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224478042568&redirect=Dlog",
-     "source": "Naver Blog"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "금양",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "금양, 분기보고서 미제출로 상장폐지 사유 추가…가처분 결과까지 절차 보류",
-     "url": "https://www.cbci.co.kr/news/articleView.html?idxno=627441",
-     "source": "CBC뉴스"
-    },
-    {
-     "title": "[상폐 호흡기] 120억 떼먹고 \"할말 없다\"…류광지 금양, 끝없는 추락",
-     "url": "https://www.hansbiz.co.kr/news/articleView.html?idxno=884225",
-     "source": "한스경제"
-    },
-    {
-     "title": "피씨엘, 정기보고서 잇단 미제출에도 상장폐지 절차 보류 상태 유지",
-     "url": "https://www.topstarnews.net/news/articleView.html?idxno=16278031",
-     "source": "톱스타뉴스"
+     "title": "시대인재, 'AI 부정 의혹' 리트 만점 이진우 계약해지 결정",
+     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286041",
+     "source": "OhmyNews"
     }
    ],
    "safe": false
   },
   {
-   "rank": 5,
-   "keyword": "삼천당제약",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[속보] 삼천당제약 주가 돌연 급락, 장초반 강세 어디로…18% 가까이 ‘뚝’",
-     "url": "https://www.cbci.co.kr/news/articleView.html?idxno=628089",
-     "source": "CBC뉴스"
-    },
-    {
-     "title": "'53억 승부수' 삼천당제약, 日 약가 등재 … 셀트리온과 맞대결",
-     "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/12/2026111200274.html",
-     "source": "뉴데일리 경제"
-    },
-    {
-     "title": "삼천당제약 2%대 하락…매출·이익 개선 뒤 임상 변수 주목",
-     "url": "https://www.job-post.co.kr/news/articleView.html?idxno=239027",
-     "source": "잡포스트"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 6,
-   "keyword": "변요한",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "삼성바이오로직스",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "변요한·티파니 영, MMA 동반 참석…달달한 신혼부부",
-     "url": "https://www.ytn.co.kr/_ln/0117_202611160936386674",
-     "source": "YTN"
+     "title": "삼성바이오 노조, 한국노총 가입…노사 교섭 갈등 ‘평행선’",
+     "url": "https://www.newstomato.com/ReadNews.aspx?no=1320885",
+     "source": "뉴스토마토"
     },
     {
-     "title": "‘혼인신고만 한’ 변요한♥티파니, 시상식이 결혼식장인 줄…부부 첫 공식활동[Oh!쎈 이슈]",
-     "url": "https://www.koreadaily.com/article/20261115152613295",
-     "source": "미주중앙일보"
+     "title": "삼성바이오로직스 노사 교섭 재개…사측, 임금 6.2% 선적용 카드 꺼내",
+     "url": "https://pharm.edaily.co.kr/news/read?newsId=04851126645646704",
+     "source": "팜이데일리"
     },
     {
-     "title": "'신혼' 티파니, 변요한 팔짱 끼고 브이…듬직한 남편",
-     "url": "https://www.newsis.com/view/NISX20261117_0003871619",
-     "source": "뉴시스"
+     "title": "삼성바이오 노조, 한국노총 가입…조합원 88% 찬성",
+     "url": "https://stock.mk.co.kr/news/view/1201477",
+     "source": "매일경제 마켓"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "정치",
+   "keyword": "기예르모 에레디아",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘홈런왕’ 김도영, 2026 일구대상 수상…하현승은 고교야구 MVP상",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715939",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "화려하게 부활한 KIA 김도영, 2026 일구대상 수상",
+     "url": "https://www.yna.co.kr/view/AKR20261118064900007",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "[오피셜]'설마 KBO 최초 기록 쓰고 작별인가' 김도영 압도적 1위, SSG 키스톤 쾌거까지",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/18/HE2TKNBQMM3TCNDFHBRTAMRVGY/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "폭설",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "눈을 믿지 마세요",
+     "url": "https://www.donga.com/news/Culture/article/all/20261117/135042453/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "‘폭설’ 구교환 “홍의정 감독에 뜨거운 구애중..감독교체 부담NO, 자신있다”[인터뷰②]",
+     "url": "https://www.chosun.com/entertainments/movie/2026/11/18/GZTDINDEHA2TAY3BMFRTEOLCMY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "[인터뷰] 홍의정 감독 저수지의 개들, 권선징악보다는 카르마 (영화 ‘폭설’)",
+     "url": "https://kstar.kbs.co.kr/list_view.html?idx=415046",
+     "source": "KBS연예"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "롤 패치노트",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "리그 오브 레전드 26.23 패치 노트",
+     "url": "https://www.leagueoflegends.com/ko-kr/news/game-updates/league-of-legends-patch-26-23-notes/",
+     "source": "League of Legends"
+    },
+    {
+     "title": "라이엇게임즈, LoL 2027 시즌1 공개... '도벽' 복귀·랭크 보상 개편",
+     "url": "https://www.etnews.com/20261117000187",
+     "source": "전자신문"
+    },
+    {
+     "title": "롤 서버점검 18일 \"접속 차단 90분전부터\" 정상화시간 언제",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3755176",
+     "source": "국제뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "양주시",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -181,47 +265,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "[속보] ‘정치 관여’ 조태용 전 국정원장, 대법서 징역 2년 6개월 확정",
-     "url": "https://www.chosun.com/national/court_law/2026/11/18/3SYWNG2CPFFUJFRUAOV7NQPGN4/",
-     "source": "조선일보"
+     "title": "양주시, 버스노선 체계 개선 설문… 30일까지 시민 의견 수렴",
+     "url": "https://www.munhwa.com/article/11632083",
+     "source": "문화일보"
     },
     {
-     "title": "[속보]조태용 전 국정원장 ‘계엄 위증·정치관여’ 2년6개월 실형 확정",
-     "url": "https://www.khan.co.kr/article/202611181112001",
-     "source": "경향신문"
+     "title": "[양주 소식]버스노선 체계 개선 설문조사 등",
+     "url": "https://www.pressian.com/pages/articles/2026111717361407420",
+     "source": "프레시안"
     },
     {
-     "title": "‘尹 정치인 체포 지시 없었다’ 허위발언 조태용 前국정원장 징역 2년6월 확정",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20261118.99099005527",
-     "source": "국제신문"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 8,
-   "keyword": "광화문 빵 축제",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "네이버페이, 광화문 빵 축제서 얼굴인식 결제·입장 지원",
-     "url": "https://www.yna.co.kr/view/AKR20261117035100017",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "성심당, 풍년제과, 베비에르가 광화문 광장에 온대요",
-     "url": "https://www.chosun.com/kid/kid_economy/kid_honeybee/2026/11/16/2G47DQTY7RAGJB4RCMO5WUTM6Q/",
-     "source": "조선일보"
-    },
-    {
-     "title": "성심당 빵도 줄 안 서고 받는다…배민, 'K-베이커리 페스티벌'서 픽업 서비스 제공",
-     "url": "https://www.etnews.com/20261116000140",
-     "source": "전자신문"
+     "title": "양주시, 버스노선 개선 시민 설문…11월 30일까지 이용객 참여",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3754895",
+     "source": "국제뉴스"
     }
    ],
    "safe": true

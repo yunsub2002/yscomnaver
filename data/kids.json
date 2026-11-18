@@ -1,14 +1,32 @@
 {
-"updated": "2026-11-18T11:50:00+09:00",
+"updated": "2026-11-18T12:55:00+09:00",
 "has_tour": false,
 "has_naver": false,
 "trends": [
+{
+"id": "tdc4569b372",
+"kind": "trend",
+"name": "유산균",
+"count": 1,
+"score": 11.87,
+"pub": "2026-11-18T09:48:27+09:00",
+"region": "",
+"arts": [
+{
+"title": "쎌바이오텍 듀오락, 어린이 팝핑 유산균 인기…일주일 만에 완판",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0NuZEJNa1V5WnpSZTVwOEtORS1pcnlLSjN5S3hHWi1xU1d4aDk2QkZPS0hBV0E0eUxydy1ZSjJac1ZCU0pDX1JTeEtrbll3Rm1NMzFoTHFIVURKQ0xjRjZxTVhJdw?oc=5",
+"source": "푸드투데이",
+"pub": "2026-11-18T09:48:27+09:00"
+}
+],
+"new": true
+},
 {
 "id": "t34d59042fc",
 "kind": "trend",
 "name": "구슬 튕기기",
 "count": 1,
-"score": 10.13,
+"score": 10.09,
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "arts": [
@@ -26,7 +44,7 @@
 "kind": "trend",
 "name": "초등생은",
 "count": 1,
-"score": 10.11,
+"score": 10.06,
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "arts": [
@@ -44,7 +62,7 @@
 "kind": "trend",
 "name": "빼난지원금",
 "count": 2,
-"score": 9.19,
+"score": 9.14,
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "arts": [
@@ -62,6 +80,27 @@
 }
 ],
 "new": false
+},
+{
+"id": "teedb59237fe",
+"kind": "fest",
+"name": "키즈가든·별빛오름길",
+"count": 1,
+"pub": "2026-11-16T09:01:31+09:00",
+"score": 6.5,
+"region": "아산",
+"period": "기사에서 확인",
+"tip": "해 진 뒤가 가장 예뻐요. 저녁엔 기온이 뚝 떨어지니 겉옷·핫팩을 챙기세요.",
+"map": "https://map.naver.com/p/search/%ED%82%A4%EC%A6%88%EA%B0%80%EB%93%A0%C2%B7%EB%B3%84%EB%B9%9B%EC%98%A4%EB%A6%84%EA%B8%B8",
+"arts": [
+{
+"title": "아산 신정호, 가족 나들이 명소로 새 단장 '키즈가든·별빛오름길' 개장",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"source": "국제뉴스",
+"pub": "2026-11-16T09:01:31+09:00"
+}
+],
+"new": true
 },
 {
 "id": "te2e6fc0ac62",
@@ -107,7 +146,7 @@
 "key": "place",
 "name": "가볼만한곳",
 "emo": "🗺️",
-"count": 8
+"count": 11
 },
 {
 "key": "kidscafe",
@@ -131,10 +170,39 @@
 "key": "trend",
 "name": "요즘 유행",
 "emo": "🔥",
-"count": 4
+"count": 5
 }
 ],
 "festivals": [
+{
+"id": "eedb59237fe",
+"title": "키즈가든·별빛오름길",
+"period": "기사에서 확인",
+"addr": "아산",
+"region": "아산",
+"city": "",
+"img": "",
+"tel": "",
+"kid": 4,
+"count": 1,
+"status": "기사 1건",
+"tip": "해 진 뒤가 가장 예뻐요. 저녁엔 기온이 뚝 떨어지니 겉옷·핫팩을 챙기세요.",
+"map": "https://map.naver.com/p/search/%ED%82%A4%EC%A6%88%EA%B0%80%EB%93%A0%C2%B7%EB%B3%84%EB%B9%9B%EC%98%A4%EB%A6%84%EA%B8%B8",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"source": "국제뉴스",
+"src_title": "아산 신정호, 가족 나들이 명소로 새 단장 '키즈가든·별빛오름길' 개장",
+"pub": "2026-11-16T09:01:31+09:00",
+"from": "news",
+"arts": [
+{
+"title": "아산 신정호, 가족 나들이 명소로 새 단장 '키즈가든·별빛오름길' 개장",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"source": "국제뉴스",
+"pub": "2026-11-16T09:01:31+09:00"
+}
+],
+"new": true
+},
 {
 "id": "e8922603985",
 "title": "그림책 축제",
@@ -580,26 +648,26 @@
 "news": [
 {
 "cat": "festival",
-"title": "제물포구가족센터, '제물포구 가족이음' 축제 개최",
-"source": "국제뉴스",
-"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsdVMwTE0xVGlGY1BYZGNrN0N0VHN1Q2NFTWQ1eEZma081X0kzTXZZY2J3S084YXREc2prUkNWZlo0REg0Mm1vOThaay1aZHZiYUdlN2xWTEtJM2JLSzVyLTVKWmRwZV9CSmV5bTFR?oc=5",
-"pub": "2026-11-18T11:00:21+09:00",
+"title": "제물포구가족센터, ‘제물포구 가족이음’축제 개최",
+"source": "미디어생활",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0RGo1dE5JMHdGNW0zRmJrNGhWOFZ4SEQ3MFJJSEdtcGdUelFWWHh0RURDdW4xbkFkWVNfU0dmdU52dkU1eWN4bkR1MUd6MGgtMldXLTBfSGkwZVJ3alZ1S1NqYVQ0RzRQUkkzUnFhMA?oc=5",
+"pub": "2026-11-18T12:18:18+09:00",
 "region": "",
 "period": "",
 "score": 6.97,
 "id": "n6fe1a1f75a",
-"new": true
+"new": false
 },
 {
-"cat": "place",
-"title": "CJ도너스캠프, 3200명 아이들에게 '특별한 한 끼'...레이먼 킴과 손잡아",
-"source": "소비자경제",
-"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xTHNxaklzSE9TZDNHaTlJc1cxcG41V3RSeFlIWlNYbDdubjJtblpmeDBVeWxOZ3BsMkJIZWl5NE1JUWtXUGxpb25qdjdlMWFBRWhvb09HZnFyYVJiX2Jud3ZjRV9MdE1WQ2pj?oc=5",
-"pub": "2026-11-18T10:18:50+09:00",
+"cat": "festival",
+"title": "구로구, 어린이들과 도시농업체험장서 배추 수확 행사 진행",
+"source": "웹이코노미",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94TlZ6VUc3WDZjWW1kbGFiVW9GUGMzaXJUdDg4XzYzVl9NZUhSdWVyRExUcmNaYzk1VU0yUkJLblhQT0tRZjRkMk5HV3locVZrU2JUWU4tRGdyekVXLUs2UUlVQTBMN0xwemlsT1FnbkdlZw?oc=5",
+"pub": "2026-11-18T12:09:18+09:00",
 "region": "",
 "period": "",
-"score": 1.94,
-"id": "nde7fe7a35f",
+"score": 6.97,
+"id": "n916b1cd2e8",
 "new": true
 },
 {
@@ -610,9 +678,9 @@
 "pub": "2026-11-18T10:17:33+09:00",
 "region": "",
 "period": "",
-"score": 8.94,
+"score": 8.89,
 "id": "nfc97b9e025",
-"new": true
+"new": false
 },
 {
 "cat": "show",
@@ -622,9 +690,21 @@
 "pub": "2026-11-18T10:06:27+09:00",
 "region": "서울",
 "period": "",
-"score": 6.93,
+"score": 6.88,
 "id": "n621d88acba",
 "new": false
+},
+{
+"cat": "trend",
+"title": "쎌바이오텍 듀오락, 어린이 팝핑 유산균 인기…일주일 만에 완판",
+"source": "푸드투데이",
+"url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiT0NuZEJNa1V5WnpSZTVwOEtORS1pcnlLSjN5S3hHWi1xU1d4aDk2QkZPS0hBV0E0eUxydy1ZSjJac1ZCU0pDX1JTeEtrbll3Rm1NMzFoTHFIVURKQ0xjRjZxTVhJdw?oc=5",
+"pub": "2026-11-18T09:48:27+09:00",
+"region": "",
+"period": "",
+"score": 1.87,
+"id": "n7f40821163",
+"new": true
 },
 {
 "cat": "show",
@@ -634,21 +714,9 @@
 "pub": "2026-11-18T09:06:49+09:00",
 "region": "",
 "period": "",
-"score": 3.89,
+"score": 3.84,
 "id": "n629bad1092",
 "new": false
-},
-{
-"cat": "festival",
-"title": "구로구, 어린이들과 함께 도시농업체험장 배추 수확 행사 개최",
-"source": "한경일보",
-"url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9mbHdyaUFYNWo2YmZaUmFzRlpZUmQ4bFdsQ2pIOXhHWGRQVzJzY1RBckY4Z0pRRF9mUE5HY3V2RTBSZGN6cGZCNl82NjFuOFdqUVhUb1M4TEZhX0ZKaUVLQkYxMzhqV0k?oc=5",
-"pub": "2026-11-18T09:03:59+09:00",
-"region": "",
-"period": "",
-"score": 6.88,
-"id": "nb3dd32c0e4",
-"new": true
 },
 {
 "cat": "show",
@@ -658,7 +726,7 @@
 "pub": "2026-11-18T08:10:29+09:00",
 "region": "",
 "period": "",
-"score": 4.85,
+"score": 4.8,
 "id": "nd15f6749bf",
 "new": false
 },
@@ -670,7 +738,7 @@
 "pub": "2026-11-18T06:29:17+09:00",
 "region": "대구",
 "period": "",
-"score": 5.78,
+"score": 5.73,
 "id": "nf41a94d92a",
 "new": false
 },
@@ -682,7 +750,7 @@
 "pub": "2026-11-17T23:33:18+09:00",
 "region": "인천",
 "period": "",
-"score": 6.49,
+"score": 6.44,
 "id": "n17a015e60c",
 "new": false
 },
@@ -694,9 +762,9 @@
 "pub": "2026-11-17T22:15:36+09:00",
 "region": "화성",
 "period": "",
-"score": 10.43,
+"score": 10.39,
 "id": "n25221fe40e",
-"new": true
+"new": false
 },
 {
 "cat": "festival",
@@ -706,7 +774,7 @@
 "pub": "2026-11-17T20:15:00+09:00",
 "region": "부산",
 "period": "",
-"score": 6.35,
+"score": 6.31,
 "id": "nf6a382c2f3",
 "new": false
 },
@@ -718,7 +786,7 @@
 "pub": "2026-11-17T18:57:00+09:00",
 "region": "",
 "period": "",
-"score": 1.3,
+"score": 1.25,
 "id": "n0749a0be17",
 "new": false
 },
@@ -730,7 +798,7 @@
 "pub": "2026-11-17T18:45:13+09:00",
 "region": "진주",
 "period": "",
-"score": 5.29,
+"score": 5.24,
 "id": "n41df21f7e3",
 "new": false
 },
@@ -742,9 +810,21 @@
 "pub": "2026-11-17T17:02:28+09:00",
 "region": "대구",
 "period": "",
-"score": 7.22,
+"score": 7.17,
 "id": "n5a6cecdb6e",
 "new": false
+},
+{
+"cat": "festival",
+"title": "통영 BOOK통통축제 11월 21일 개최…강구안에서 작가와의 만남·AI 독서 체험",
+"source": "진주인터넷뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TVkd4RlF4bU1ral9FZ3NqLThZMDRLMnNxaFo3SGcxUDdxdlhVYlB2c0ZqbVQwQ2l5N0pSMER0LWVua1ZIamlEU0JwOGRDZm9xOWw2SkhET2k0bGdKZ1VvQVAxODk5UWNkSkdaNjltd2Jfdw?oc=5",
+"pub": "2026-11-17T16:00:05+09:00",
+"region": "통영",
+"period": "",
+"score": 6.13,
+"id": "n1af99508d9",
+"new": true
 },
 {
 "cat": "show",
@@ -754,7 +834,7 @@
 "pub": "2026-11-17T14:05:57+09:00",
 "region": "서울",
 "period": "",
-"score": 8.09,
+"score": 8.05,
 "id": "n23f41a19fc",
 "new": false
 },
@@ -766,7 +846,7 @@
 "pub": "2026-11-17T13:03:09+09:00",
 "region": "부산",
 "period": "",
-"score": 3.05,
+"score": 3.01,
 "id": "ne765368004",
 "new": false
 },
@@ -778,7 +858,7 @@
 "pub": "2026-11-17T12:41:00+09:00",
 "region": "경남",
 "period": "",
-"score": 5.04,
+"score": 4.99,
 "id": "n0fe9b12780",
 "new": false
 },
@@ -790,7 +870,7 @@
 "pub": "2026-11-17T11:35:13+09:00",
 "region": "익산",
 "period": "",
-"score": 5.99,
+"score": 5.94,
 "id": "na94106a868",
 "new": false
 },
@@ -802,7 +882,7 @@
 "pub": "2026-11-17T11:33:40+09:00",
 "region": "통영",
 "period": "",
-"score": 9.99,
+"score": 9.94,
 "id": "n5e565a27d6",
 "new": false
 },
@@ -814,7 +894,7 @@
 "pub": "2026-11-17T11:23:23+09:00",
 "region": "",
 "period": "",
-"score": 3.98,
+"score": 3.94,
 "id": "nc635c8260a",
 "new": false
 },
@@ -826,7 +906,7 @@
 "pub": "2026-11-17T11:20:32+09:00",
 "region": "광주",
 "period": "",
-"score": 7.98,
+"score": 7.93,
 "id": "na1742b9049",
 "new": false
 },
@@ -838,20 +918,8 @@
 "pub": "2026-11-17T11:03:32+09:00",
 "region": "진주",
 "period": "",
-"score": 2.97,
+"score": 2.92,
 "id": "naf5dc4bf70",
-"new": true
-},
-{
-"cat": "festival",
-"title": "농협 춘천시지부, 후평초서 어린이 김장 체험 행사",
-"source": "연합뉴스",
-"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hbFlXRk1HX3hKd1FZaE4xVng0TTVMdTkzX21DSDVUakc2Q2RhRnV1am1KdjNMZHd4WkRqRXY1Vmlld19ObHpreURoQWVkb0RvZHNwbDR0bEdIbW_SAWBBVV95cUxNOTU5X3pXeGxTUldZOEF3SmVmZTFrYlV1MVhPam8zT2xpazZmV3ZWY2Rha25QMkV2QUd1cUNwMVp0SU9wVDhfSWYtOW5xZmY1VTM5WXB5cXp3bjRTMFM4SVI?oc=5",
-"pub": "2026-11-17T10:46:16+09:00",
-"region": "춘천",
-"period": "",
-"score": 4.96,
-"id": "n393f716bec",
 "new": false
 },
 {
@@ -862,7 +930,7 @@
 "pub": "2026-11-17T10:36:22+09:00",
 "region": "용인",
 "period": "",
-"score": 5.95,
+"score": 5.9,
 "id": "n72dd22dfbd",
 "new": false
 },
@@ -874,7 +942,7 @@
 "pub": "2026-11-17T10:15:00+09:00",
 "region": "서울",
 "period": "",
-"score": 4.93,
+"score": 4.89,
 "id": "n29afc71c73",
 "new": false
 },
@@ -886,7 +954,7 @@
 "pub": "2026-11-17T10:10:08+09:00",
 "region": "서울",
 "period": "~3/7",
-"score": 5.93,
+"score": 5.89,
 "id": "nadc62c204a",
 "new": false
 },
@@ -898,7 +966,7 @@
 "pub": "2026-11-17T09:32:00+09:00",
 "region": "",
 "period": "",
-"score": 5.9,
+"score": 5.86,
 "id": "n2c3698f441",
 "new": false
 },
@@ -910,7 +978,7 @@
 "pub": "2026-11-17T08:00:00+09:00",
 "region": "원주",
 "period": "",
-"score": 5.84,
+"score": 5.8,
 "id": "n09fd290e94",
 "new": false
 },
@@ -922,7 +990,7 @@
 "pub": "2026-11-17T08:00:00+09:00",
 "region": "",
 "period": "",
-"score": 2.84,
+"score": 2.8,
 "id": "n6a49016bfe",
 "new": false
 },
@@ -934,7 +1002,7 @@
 "pub": "2026-11-16T19:11:50+09:00",
 "region": "인천",
 "period": "",
-"score": 7.31,
+"score": 7.26,
 "id": "n3075ad96d8",
 "new": false
 },
@@ -946,7 +1014,7 @@
 "pub": "2026-11-16T17:26:08+09:00",
 "region": "인천",
 "period": "21~22일",
-"score": 7.23,
+"score": 7.19,
 "id": "nacc06b3f9a",
 "new": false
 },
@@ -958,7 +1026,7 @@
 "pub": "2026-11-16T16:53:00+09:00",
 "region": "화성",
 "period": "",
-"score": 5.21,
+"score": 5.17,
 "id": "nb96cdcc32a",
 "new": false
 },
@@ -970,7 +1038,7 @@
 "pub": "2026-11-16T16:35:12+09:00",
 "region": "부산",
 "period": "",
-"score": 5.2,
+"score": 5.15,
 "id": "n16e60647a7",
 "new": false
 },
@@ -982,7 +1050,7 @@
 "pub": "2026-11-16T15:12:08+09:00",
 "region": "거제",
 "period": "",
-"score": 9.14,
+"score": 9.1,
 "id": "nb91f1d413d",
 "new": false
 },
@@ -994,7 +1062,7 @@
 "pub": "2026-11-16T14:57:36+09:00",
 "region": "",
 "period": "",
-"score": 0.13,
+"score": 0.09,
 "id": "nfa6357a9dc",
 "new": false
 },
@@ -1006,7 +1074,7 @@
 "pub": "2026-11-16T14:26:41+09:00",
 "region": "",
 "period": "",
-"score": 0.11,
+"score": 0.06,
 "id": "n68b322a206",
 "new": false
 },
@@ -1018,7 +1086,7 @@
 "pub": "2026-11-16T14:23:19+09:00",
 "region": "인천",
 "period": "",
-"score": 7.11,
+"score": 7.06,
 "id": "nab9d31060c",
 "new": false
 },
@@ -1030,7 +1098,7 @@
 "pub": "2026-11-16T12:11:00+09:00",
 "region": "진주",
 "period": "",
-"score": 5.01,
+"score": 4.97,
 "id": "ne7d8ecc59d",
 "new": false
 },
@@ -1042,7 +1110,7 @@
 "pub": "2026-11-16T10:30:59+09:00",
 "region": "인천",
 "period": "",
-"score": 6.95,
+"score": 6.9,
 "id": "n5d19110b98",
 "new": false
 },
@@ -1054,7 +1122,7 @@
 "pub": "2026-11-16T09:54:44+09:00",
 "region": "",
 "period": "",
-"score": 4.92,
+"score": 4.87,
 "id": "n4dc9f28a2d",
 "new": false
 },
@@ -1066,7 +1134,7 @@
 "pub": "2026-11-16T09:44:00+09:00",
 "region": "",
 "period": "",
-"score": 4.91,
+"score": 4.87,
 "id": "ne2a7060f1e",
 "new": false
 },
@@ -1078,9 +1146,21 @@
 "pub": "2026-11-16T09:29:37+09:00",
 "region": "부산",
 "period": "~22일",
-"score": 6.9,
+"score": 6.86,
 "id": "ncfebafd95b",
 "new": false
+},
+{
+"cat": "place",
+"title": "아산 신정호, 가족 나들이 명소로 새 단장 '키즈가든·별빛오름길' 개장",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZGxTNzhRZVlESFNGYW5Cc0hFNUpPSjN4TnZsa2QxZ2ltTUZDY2J3a2psY25WbjdRejNFQ1ZwSkkyOTJoODd0dWM3UmlVY0NkMVBOUjRPNFFaUWdSenR4eW1uZkszZS15aGVYdE1R?oc=5",
+"pub": "2026-11-16T09:01:31+09:00",
+"region": "아산",
+"period": "",
+"score": 6.84,
+"id": "n9605de5126",
+"new": true
 },
 {
 "cat": "show",
@@ -1090,9 +1170,21 @@
 "pub": "2026-11-16T06:41:00+09:00",
 "region": "",
 "period": "",
-"score": 8.79,
+"score": 8.74,
 "id": "n00e93be918",
 "new": false
+},
+{
+"cat": "place",
+"title": "충남도·아산시, 7만 1000㎡ 규모 신정호 키즈가든 공식 개장",
+"source": "이트레블뉴스",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1kNGNtZk5oN1Y5akFWR3g1RVRhMjZhVm81UHlYdVNZZ0haRnlpeUhmNFRNMVNCWEJxMVBOUS15WlUzXzI0?oc=5",
+"pub": "2026-11-16T00:07:00+09:00",
+"region": "충남",
+"period": "",
+"score": 4.47,
+"id": "nc1a74d2f14",
+"new": true
 },
 {
 "cat": "place",
@@ -1102,7 +1194,7 @@
 "pub": "2026-11-15T21:40:45+09:00",
 "region": "평창",
 "period": "",
-"score": 1.41,
+"score": 1.37,
 "id": "n3a01b11d47",
 "new": false
 },
@@ -1114,7 +1206,7 @@
 "pub": "2026-11-15T09:00:00+09:00",
 "region": "김해",
 "period": "",
-"score": 6.88,
+"score": 6.84,
 "id": "n0edc58fdb6",
 "new": false
 },
@@ -1126,7 +1218,7 @@
 "pub": "2026-11-14T22:33:00+09:00",
 "region": "전남",
 "period": "",
-"score": 0.45,
+"score": 0.4,
 "id": "n979d6f4206",
 "new": false
 },
@@ -1138,7 +1230,7 @@
 "pub": "2026-11-14T15:00:00+09:00",
 "region": "서울",
 "period": "",
-"score": 2.13,
+"score": 2.09,
 "id": "n9077877da0",
 "new": false
 },
@@ -1150,7 +1242,7 @@
 "pub": "2026-11-14T08:00:00+09:00",
 "region": "대구",
 "period": "19~20일",
-"score": 4.84,
+"score": 4.8,
 "id": "nd2d40a023b",
 "new": false
 },
@@ -1162,9 +1254,21 @@
 "pub": "2026-11-13T19:29:00+09:00",
 "region": "아산",
 "period": "",
-"score": 6.32,
+"score": 6.27,
 "id": "n465f54eaf3",
 "new": false
+},
+{
+"cat": "place",
+"title": "별빛오름길 전망대에선 호수에 탄성, 키즈가든에선 웃음…신정호의 새 하루",
+"source": "아산데일리",
+"url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvbTA3bjN6TDdEVzNIZkpUSHY4Wk1wWEM0TVlSdjU0U21rMHNhVkctdFpSaXU2MkpEYmlRQjNtc0JpTHJzVm42bHV5U0RoSlRlOXEw?oc=5",
+"pub": "2026-11-13T17:16:06+09:00",
+"region": "",
+"period": "",
+"score": -2.82,
+"id": "n5b0e708cf0",
+"new": true
 },
 {
 "cat": "kidscafe",
@@ -1174,7 +1278,7 @@
 "pub": "2026-11-13T14:35:50+09:00",
 "region": "인천",
 "period": "",
-"score": 3.12,
+"score": 3.07,
 "id": "n0e62b4dedd",
 "new": false
 },
@@ -1186,7 +1290,7 @@
 "pub": "2026-11-13T12:33:00+09:00",
 "region": "서울",
 "period": "",
-"score": 4.03,
+"score": 3.98,
 "id": "nf47909deac",
 "new": false
 },
@@ -1198,9 +1302,21 @@
 "pub": "2026-11-13T12:07:00+09:00",
 "region": "",
 "period": "",
-"score": 0.01,
+"score": -0.03,
 "id": "n217da11f55",
 "new": false
+},
+{
+"cat": "place",
+"title": "[호텔·리조트트렌드] 레고랜드 호텔, 겨울 시즌 가족 패키지 2종 출시…산타 객실 방문·특별 만찬 마련 外",
+"source": "베이비뉴스",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oWnhZX2huRmJ0cXQxd0ZBT052b1lod2w4bVVKSWV4UHZnQXBvZktXMHA0Y2xkWEx0Z1lncTZKWVh4OWhIUmo5Mmp6SF9zR1NGU3o0bXJkQTJlcHF0ZjV3bTg5dXhqekJHeERZbg?oc=5",
+"pub": "2026-11-13T02:44:52+09:00",
+"region": "",
+"period": "",
+"score": -0.42,
+"id": "n4d720282e1",
+"new": true
 },
 {
 "cat": "kidscafe",
@@ -1210,7 +1326,7 @@
 "pub": "2026-11-12T19:17:00+09:00",
 "region": "창원",
 "period": "",
-"score": -1.69,
+"score": -1.73,
 "id": "n070e8ffae1",
 "new": false
 },
@@ -1222,7 +1338,7 @@
 "pub": "2026-11-12T13:45:52+09:00",
 "region": "서울",
 "period": "",
-"score": -1.92,
+"score": -1.96,
 "id": "n8664a29ece",
 "new": false
 },
@@ -1234,7 +1350,7 @@
 "pub": "2026-11-12T11:22:02+09:00",
 "region": "서울",
 "period": "",
-"score": -2.02,
+"score": -2.06,
 "id": "ncb4871dd76",
 "new": false
 },
@@ -1246,9 +1362,9 @@
 "pub": "2026-11-12T10:53:01+09:00",
 "region": "광주",
 "period": "",
-"score": 2.96,
+"score": 2.92,
 "id": "n25ace3293a",
-"new": true
+"new": false
 },
 {
 "cat": "kidscafe",
@@ -1258,7 +1374,7 @@
 "pub": "2026-11-12T10:00:00+09:00",
 "region": "",
 "period": "",
-"score": -4.08,
+"score": -4.12,
 "id": "n704f92cf5a",
 "new": false
 },
@@ -1270,9 +1386,9 @@
 "pub": "2026-11-12T09:07:26+09:00",
 "region": "경기",
 "period": "",
-"score": 2.89,
+"score": 2.84,
 "id": "ne4095e761f",
-"new": true
+"new": false
 },
 {
 "cat": "trend",
@@ -1282,7 +1398,7 @@
 "pub": "2026-11-11T16:22:59+09:00",
 "region": "",
 "period": "",
-"score": -4.81,
+"score": -4.86,
 "id": "n93b449af25",
 "new": false
 },
@@ -1294,7 +1410,7 @@
 "pub": "2026-11-11T13:04:23+09:00",
 "region": "",
 "period": "",
-"score": -4.95,
+"score": -4.99,
 "id": "nffb7d5067d",
 "new": false
 }
