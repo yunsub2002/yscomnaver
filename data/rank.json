@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T18:26:00+09:00",
- "prev_updated": "2026-11-19T18:01:00+09:00",
+ "updated": "2026-11-19T19:02:00+09:00",
+ "prev_updated": "2026-11-19T18:26:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -13,32 +13,60 @@
    "delta": 0,
    "news": [
     {
-     "title": "[수능] EBS \"수학, 작년 수능과 비슷…입시업계 \"약간 어려울 수도\"(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261119120151530",
+     "title": "EBS “국어·수학 난이도, 작년 수능과 비슷…중상위권 변별 강화”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8717361",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "[수능] EBS \"영어, 작년 수능보다 쉽고 9월 모평보다 어려워\"",
+     "url": "https://www.yna.co.kr/view/AKR20261119161700530",
      "source": "연합뉴스"
     },
     {
-     "title": "수능 영어, 지난해보다 쉽게 출제…9월 모평보다는 어려워[2027 수능]",
-     "url": "https://www.khan.co.kr/article/202611191727001",
-     "source": "경향신문"
-    },
-    {
-     "title": "[2027 수능] 출제본부 “영어, 교육과정 수준에 맞춰 출제”",
-     "url": "https://biz.chosun.com/topics/topics_social/2026/11/19/4NHSHAR4URAXFAHEFZYJWKSR5Y/",
-     "source": "Chosunbiz"
+     "title": "올해 수능, 제주서도 'N수생' 몰린 이유는?",
+     "url": "https://app.ihalla.com/article.php?aid=1795079803793012014",
+     "source": "한라일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
+   "keyword": "사건",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[속보] 대법 “한덕수, 내란중요임무 ‘국헌문란 목적’ 인정 여지 커”",
+     "url": "https://www.chosun.com/national/court_law/2026/11/19/TLFQFS6RONE3TIPRPKXBC5OPLI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "'유죄 취지' 소수의견 대법관 비난한 국민의힘",
+     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286605",
+     "source": "OhmyNews"
+    },
+    {
+     "title": "[속보] 대법, 한덕수 구속기간 연장 결정…2개월 늘어",
+     "url": "https://news.jtbc.co.kr/article/NB12328879",
+     "source": "JTBC"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 3,
    "keyword": "수능 등급컷",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "same",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "[수능] 내 점수로 어디 갈까…오늘 저녁부터 입시학원 설명회",
@@ -59,103 +87,47 @@
    "safe": true
   },
   {
-   "rank": 3,
-   "keyword": "국어 수능",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "rank": 4,
+   "keyword": "시험장",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"이게 오늘 수능 국어야, 풀어봐\" 시켰더니…AI, 2분 만에 100점",
-     "url": "https://news.jtbc.co.kr/article/NB12328837",
-     "source": "JTBC"
+     "title": "수능 시험장 와이파이 차단 종료…24시간 만에 정상화",
+     "url": "https://marketin.edaily.co.kr/News/Read?newsId=04244326645647360",
+     "source": "마켓인"
     },
     {
-     "title": "“챗GPT도 제미나이도 만점”…수능 국어·수학·영어 싹쓸이",
-     "url": "https://www.kyeonggi.com/article/20261119580471",
-     "source": "경기일보"
+     "title": "[수능] 시험장 주변 와이파이 차단 해제…24시간 만에 정상화",
+     "url": "https://www.yna.co.kr/view/AKR20261119158500017",
+     "source": "연합뉴스"
     },
     {
-     "title": "1년전 AI도 수능 수학 만점 …교육·시험평가체계 낙제",
-     "url": "https://www.etnews.com/20261118000364",
-     "source": "전자신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "주얼리",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "올리아, 서울 주얼리 쇼룸에서 팝업 진행",
-     "url": "https://www.handmk.com/news/articleView.html?idxno=45236",
-     "source": "핸드메이커"
-    },
-    {
-     "title": "논논X하츠투하츠, ‘Lemon Tang’ 콜라보 주얼리 3종 선보여",
-     "url": "https://www.beyondpost.co.kr/view.php?ud=20261119130424646637600e7ec7_30",
-     "source": "비욘드포스트"
-    },
-    {
-     "title": "논논, 하츠투하츠와 협업한 ‘Lemon Tang’ 주얼리 컬렉션 공개",
-     "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602616",
-     "source": "스타데일리뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "수능 끝",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "오산시, 수능 끝낸 청년에게 ‘이루잡’ 문 활짝…수험표 들고 오면 선착순 100명 e쿠폰",
-     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1337252",
-     "source": "인천일보"
-    },
-    {
-     "title": "\"수험표 챙겨 '이루잡'으로 오산\"…오산시 수험생 e쿠폰 이벤트 - 머니투데이",
-     "url": "https://www.mt.co.kr/policy/2026/11/19/2026111912471091736",
-     "source": "머니투데이"
-    },
-    {
-     "title": "오산시, 카페·공방 활용한 청년공간 '청춘스팟' 운영",
-     "url": "https://www.newsis.com/view/NISX20261118_0003873279",
+     "title": "공공와이파이 끊긴 수능장에 학교 안테나 뜬 까닭",
+     "url": "https://www.newsis.com/view/NISX20261119_0003874883",
      "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 5,
    "keyword": "lg 임원인사",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "down",
-   "delta": -1,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
-     "title": "\"미래 경쟁\" LG전자, 임원 승부수…사장 2명 등 44명 승진",
-     "url": "https://www.hankyung.com/article/202611197795g",
-     "source": "한국경제"
+     "title": "LG전자, 로보틱스·AIDC 냉각에 힘 싣는다…44명 승진·조직개편 단행",
+     "url": "https://zdnet.co.kr/view/?no=20261119162858",
+     "source": "지디넷코리아"
     },
     {
      "title": "LG, 주요 계열사 CEO 유임…경영 안정 속 기술인재 중용",
@@ -163,78 +135,78 @@
      "source": "연합뉴스"
     },
     {
-     "title": "삼성전자, 20일 사장단 인사 유력…'전영현·노태문' 유임 무게",
-     "url": "https://www.greened.kr/news/articleView.html?idxno=355081",
-     "source": "녹색경제신문"
+     "title": "\"미래 경쟁\" LG전자, 임원 승부수…사장 2명 등 44명 승진",
+     "url": "https://www.hankyung.com/article/202611197795g",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "셀트리온",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "셀트리온 \"램시마·허쥬마, 아시아 주요국서 점유율 1위\"",
+     "url": "https://www.yna.co.kr/view/AKR20261119039100017",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "셀트리온, 바이오시밀러 亞 시장 '승승장구'",
+     "url": "http://www.incheonilbo.com/news/articleView.html?idxno=1337310",
+     "source": "인천일보"
+    },
+    {
+     "title": "셀트리온, 亞 시장 점유율 '탄탄'…\"홍콩·태국 등 후속 제품 순차 출시\" - 머니투데이",
+     "url": "https://www.mt.co.kr/thebio/2026/11/19/2026111909222440183",
+     "source": "머니투데이"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "수능 결시율",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "down",
-   "delta": -1,
+   "keyword": "fifa 랭킹",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "[수능] 1교시 결시율 9.97%, 작년보다 높아…응시자 49만1천명",
-     "url": "https://www.yna.co.kr/view/AKR20261119103000530",
-     "source": "연합뉴스"
+     "title": "'사우디전 42년만 3실점 충격에도...' 한국, FIFA 랭킹 2계단 깜짝 상승 30위 \"아시아 4위 유지\" - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/19/2026111913460673471",
+     "source": "머니투데이"
     },
     {
-     "title": "AI 커닝 단속 강화 영향?…수능 결시자 3000명 넘게 늘었다(종합)",
-     "url": "https://www.news1.kr/society/education/6359569",
-     "source": "뉴스1"
+     "title": "'1승 1패' 한국 축구, FIFA 랭킹 2계단 뛰어 30위…일본 17위",
+     "url": "https://www.newsis.com/view/NISX20261119_0003874906",
+     "source": "뉴시스"
     },
     {
-     "title": "경기도 수능 16만5천595명 응시…1교시 결시율 10.80%, 전년보다 상승",
-     "url": "https://www.kyeonggi.com/article/20261119580334",
-     "source": "경기일보"
+     "title": "\"사우디에 졌는데 오히려 2계단 껑충?\" 모레노호, FIFA 랭킹 30위 도약… 브라질 잡은 일본은 17위",
+     "url": "https://www.fnnews.com/news/202611190923332388",
+     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "해군",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“전 세계가 날 주목해”…‘방중 관심’ 속 현지시찰 노출 [지금뉴스]",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8717260",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "[속보] 경찰, 리트 만점자 \"사망으로 최종 판정시 감식 등 진행\"",
-     "url": "https://www.hankyung.com/article/2026111972367",
-     "source": "한국경제"
-    },
-    {
-     "title": "북·미회담 기대감에도… 김정은은 지방 시찰, 美는 비핵화 원칙 재확인",
-     "url": "https://www.segye.com/newsView/20261119509212",
-     "source": "세계일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 9,
    "keyword": "라미란",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "same",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "'보검 매직컬2' 측 \"고경표 음주운전 유감…시청 불편 최소화\"",
@@ -255,15 +227,20 @@
    "safe": false
   },
   {
-   "rank": 10,
+   "rank": 9,
    "keyword": "이병철",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "up",
+   "delta": 1,
    "news": [
+    {
+     "title": "이병철 창업 회장 39주기, 범삼성가 선영 참배",
+     "url": "https://www.donga.com/news/Economy/article/all/20261119/135054236/1",
+     "source": "동아일보"
+    },
     {
      "title": "이병철 삼성 창업회장 39주기… 범삼성家 용인서 추도식",
      "url": "https://www.chosun.com/economy/industry-company/2026/11/19/MTYMXXQ5DVEJDOUZDPRMHKWE2Q/",
@@ -273,11 +250,6 @@
      "title": "이병철 삼성 회장 추도식 참석한 홍라희",
      "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261119_0021538710&pID=1&cID=&sID=1&type=photoMain&idx=5",
      "source": "뉴시스"
-    },
-    {
-     "title": "이병철 창업 회장 39주기, 범삼성가 선영 참배",
-     "url": "https://www.donga.com/news/Economy/article/all/20261119/135054236/1",
-     "source": "동아일보"
     }
    ],
    "safe": true
