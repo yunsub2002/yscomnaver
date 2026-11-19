@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-19T18:01:00+09:00",
- "prev_updated": "2026-11-19T16:20:00+09:00",
+ "updated": "2026-11-19T18:26:00+09:00",
+ "prev_updated": "2026-11-19T18:01:00+09:00",
  "items": [
   {
    "rank": 1,
    "keyword": "수능 답지",
-   "traffic": "20000+",
-   "label": "약 2만 회 이상",
+   "traffic": "50000+",
+   "label": "약 5만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -23,9 +23,9 @@
      "source": "경향신문"
     },
     {
-     "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
-     "url": "https://stock.mk.co.kr/news/view/1202436",
-     "source": "매일경제 마켓"
+     "title": "[2027 수능] 출제본부 “영어, 교육과정 수준에 맞춰 출제”",
+     "url": "https://biz.chosun.com/topics/topics_social/2026/11/19/4NHSHAR4URAXFAHEFZYJWKSR5Y/",
+     "source": "Chosunbiz"
     }
    ],
    "safe": true
@@ -33,11 +33,11 @@
   {
    "rank": 2,
    "keyword": "수능 등급컷",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -60,13 +60,41 @@
   },
   {
    "rank": 3,
+   "keyword": "국어 수능",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"이게 오늘 수능 국어야, 풀어봐\" 시켰더니…AI, 2분 만에 100점",
+     "url": "https://news.jtbc.co.kr/article/NB12328837",
+     "source": "JTBC"
+    },
+    {
+     "title": "“챗GPT도 제미나이도 만점”…수능 국어·수학·영어 싹쓸이",
+     "url": "https://www.kyeonggi.com/article/20261119580471",
+     "source": "경기일보"
+    },
+    {
+     "title": "1년전 AI도 수능 수학 만점 …교육·시험평가체계 낙제",
+     "url": "https://www.etnews.com/20261118000364",
+     "source": "전자신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
    "keyword": "주얼리",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "올리아, 서울 주얼리 쇼룸에서 팝업 진행",
@@ -87,80 +115,80 @@
    "safe": true
   },
   {
-   "rank": 4,
+   "rank": 5,
    "keyword": "수능 끝",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
-     "title": "어쨌든 수능 끝! 수험생이여, 이제 할인을 즐겨라",
-     "url": "https://www.khan.co.kr/article/202611191716001",
-     "source": "경향신문"
+     "title": "오산시, 수능 끝낸 청년에게 ‘이루잡’ 문 활짝…수험표 들고 오면 선착순 100명 e쿠폰",
+     "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1337252",
+     "source": "인천일보"
     },
     {
-     "title": "롯데백화점 광주점 화장품·베이커리, 수능 수험생 이벤트",
-     "url": "https://www.yna.co.kr/view/AKR20261119096800054",
-     "source": "연합뉴스"
+     "title": "\"수험표 챙겨 '이루잡'으로 오산\"…오산시 수험생 e쿠폰 이벤트 - 머니투데이",
+     "url": "https://www.mt.co.kr/policy/2026/11/19/2026111912471091736",
+     "source": "머니투데이"
     },
     {
-     "title": "“목탁 스트레스볼에 퍼스널컬러까지”...‘합격 기원’에서 ‘경험·가족 소비’로 진화",
-     "url": "https://www.kyeonggi.com/article/20261118580425",
-     "source": "경기일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "lg 임원인사",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "LG전자, 로보틱스·AIDC 냉각에 힘 싣는다…44명 승진·조직개편 단행",
-     "url": "https://zdnet.co.kr/view/?no=20261119162858",
-     "source": "지디넷코리아"
-    },
-    {
-     "title": "LG경영개발원 신임 대표에 하범종 ㈜LG 경영지원부문장",
-     "url": "https://www.yna.co.kr/view/AKR20261119137600003",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "LG, CEO 대부분 유임 속 임원 승진 35% 늘려…미래 기술 인재 발탁",
-     "url": "https://www.chosun.com/economy/industry-company/2026/11/19/UPFYN7S6RRFNREBAPODNAH3QWY/",
-     "source": "조선일보"
+     "title": "오산시, 카페·공방 활용한 청년공간 '청춘스팟' 운영",
+     "url": "https://www.newsis.com/view/NISX20261118_0003873279",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
+   "keyword": "lg 임원인사",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "down",
+   "delta": -1,
+   "news": [
+    {
+     "title": "\"미래 경쟁\" LG전자, 임원 승부수…사장 2명 등 44명 승진",
+     "url": "https://www.hankyung.com/article/202611197795g",
+     "source": "한국경제"
+    },
+    {
+     "title": "LG, 주요 계열사 CEO 유임…경영 안정 속 기술인재 중용",
+     "url": "https://www.yna.co.kr/view/AKR20261119158400003",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "삼성전자, 20일 사장단 인사 유력…'전영현·노태문' 유임 무게",
+     "url": "https://www.greened.kr/news/articleView.html?idxno=355081",
+     "source": "녹색경제신문"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
    "keyword": "수능 결시율",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
+    {
+     "title": "[수능] 1교시 결시율 9.97%, 작년보다 높아…응시자 49만1천명",
+     "url": "https://www.yna.co.kr/view/AKR20261119103000530",
+     "source": "연합뉴스"
+    },
     {
      "title": "AI 커닝 단속 강화 영향?…수능 결시자 3000명 넘게 늘었다(종합)",
      "url": "https://www.news1.kr/society/education/6359569",
      "source": "뉴스1"
-    },
-    {
-     "title": "수능 1교시 응시자 49만 1천 명‥결시율 작년보다 높아",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6866952_36918.html",
-     "source": "MBC 뉴스"
     },
     {
      "title": "경기도 수능 16만5천595명 응시…1교시 결시율 10.80%, 전년보다 상승",
@@ -171,41 +199,13 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "대법관",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[라이브] 국회 법사위 전체회의 생중계 / SBS 실시간 라이브",
-     "url": "https://news.sbs.co.kr/news/live.do?videoId=KHVup7e0toM&plink=RSS",
-     "source": "news.sbs.co.kr"
-    },
-    {
-     "title": "국힘 불참한 법사위 전체회의",
-     "url": "https://www.newspim.com/news/view/20261118001251",
-     "source": "뉴스핌"
-    },
-    {
-     "title": "법사위, ‘대법관 격려금 3억 감액’ 내년 예산안 의결…국민의힘 불참",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713849",
-     "source": "KBS 뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
    "rank": 8,
    "keyword": "해군",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -233,7 +233,7 @@
    "label": "약 100회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -256,31 +256,31 @@
   },
   {
    "rank": 10,
-   "keyword": "사망",
+   "keyword": "이병철",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "국토부, 사망사고 발생 대형건설사 12곳 안전관리 점검",
-     "url": "https://www.electimes.com/news/articleView.html?idxno=374930",
-     "source": "전기신문"
+     "title": "이병철 삼성 창업회장 39주기… 범삼성家 용인서 추도식",
+     "url": "https://www.chosun.com/economy/industry-company/2026/11/19/MTYMXXQ5DVEJDOUZDPRMHKWE2Q/",
+     "source": "조선일보"
     },
     {
-     "title": "올 들어 건설 현장서 106명 숨져…절반 가량이 ‘추락’ 사망",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715993",
-     "source": "KBS 뉴스"
+     "title": "이병철 삼성 회장 추도식 참석한 홍라희",
+     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261119_0021538710&pID=1&cID=&sID=1&type=photoMain&idx=5",
+     "source": "뉴시스"
     },
     {
-     "title": "양주시, 대형 건설현장 소장 15명과 동절기 안전 논의…사고 예방 당부",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3756043",
-     "source": "국제뉴스"
+     "title": "이병철 창업 회장 39주기, 범삼성가 선영 참배",
+     "url": "https://www.donga.com/news/Economy/article/all/20261119/135054236/1",
+     "source": "동아일보"
     }
    ],
-   "safe": false
+   "safe": true
   }
  ]
 }
