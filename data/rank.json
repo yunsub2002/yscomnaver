@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T19:02:00+09:00",
- "prev_updated": "2026-11-19T18:26:00+09:00",
+ "updated": "2026-11-19T20:00:00+09:00",
+ "prev_updated": "2026-11-19T19:02:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -13,65 +13,65 @@
    "delta": 0,
    "news": [
     {
-     "title": "EBS “국어·수학 난이도, 작년 수능과 비슷…중상위권 변별 강화”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8717361",
-     "source": "KBS 뉴스"
+     "title": "EBS \"올해 수능, 작년보다 다소 쉽게 출제...국어·영어 쉬워지고 수학은 비슷\"",
+     "url": "https://www.chosun.com/national/education/2026/11/19/FNMLZGF3LFGTTJ4JETUBEXMCDA/",
+     "source": "조선일보"
     },
     {
-     "title": "[수능] EBS \"영어, 작년 수능보다 쉽고 9월 모평보다 어려워\"",
-     "url": "https://www.yna.co.kr/view/AKR20261119161700530",
-     "source": "연합뉴스"
+     "title": "국어·영어 쉬워지고 수학은 비슷…수학·탐구 변별력 커질 듯",
+     "url": "https://www.khan.co.kr/article/202611191903011",
+     "source": "경향신문"
     },
     {
-     "title": "올해 수능, 제주서도 'N수생' 몰린 이유는?",
-     "url": "https://app.ihalla.com/article.php?aid=1795079803793012014",
-     "source": "한라일보"
+     "title": "“수능, 지난해보다 대체로 평이”…수험생이 전하는 난이도",
+     "url": "https://www.donga.com/news/Society/article/all/20261119/135056809/1",
+     "source": "동아일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "사건",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "keyword": "수능 답지 공개 시간",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[속보] 대법 “한덕수, 내란중요임무 ‘국헌문란 목적’ 인정 여지 커”",
-     "url": "https://www.chosun.com/national/court_law/2026/11/19/TLFQFS6RONE3TIPRPKXBC5OPLI/",
-     "source": "조선일보"
+     "title": "교문 밖에서부터 단추 떼고 휴대전화 반납...\"민무늬 옷 입었다\"",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0115_202611191528151372_005.html",
+     "source": "YTN"
     },
     {
-     "title": "'유죄 취지' 소수의견 대법관 비난한 국민의힘",
-     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286605",
-     "source": "OhmyNews"
+     "title": "‘AI 부정행위’ 우려 속 끝난 수능…수험생들 “혼란 많았지만 최선 다해”",
+     "url": "https://www.khan.co.kr/article/202611191944001",
+     "source": "경향신문"
     },
     {
-     "title": "[속보] 대법, 한덕수 구속기간 연장 결정…2개월 늘어",
-     "url": "https://news.jtbc.co.kr/article/NB12328879",
-     "source": "JTBC"
+     "title": "\"대학보다 정직하고 성실한 어른이 먼저\"...수험생·학부모의 안도·격려",
+     "url": "https://www.kyeonggi.com/article/20261119580598",
+     "source": "경기일보"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 3,
    "keyword": "수능 등급컷",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
-     "title": "[수능] 내 점수로 어디 갈까…오늘 저녁부터 입시학원 설명회",
-     "url": "https://www.yna.co.kr/view/AKR20261118182700530",
-     "source": "연합뉴스"
+     "title": "올해 수능 가채점부터 대학 합격 예측까지…'입시캐스트' 오픈 - 머니투데이",
+     "url": "https://www.mt.co.kr/future/2026/11/19/2026111916281482762",
+     "source": "머니투데이"
     },
     {
      "title": "오디바이스, 2027학년도 정시 합격예측 서비스 ‘입시캐스트’ 오픈",
@@ -89,67 +89,67 @@
   {
    "rank": 4,
    "keyword": "시험장",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "same",
+   "delta": 0,
+   "news": [
+    {
+     "title": "따뜻한 응원 속 수험생들 입실...경찰·소방 구조도",
+     "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611191600559677&s_hcd=",
+     "source": "YTN 사이언스"
+    },
+    {
+     "title": "신분증 깜빡하고 시험장 착각도…수험생 수송 작전",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261119192435gr7",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "수능 문답지 보관소에 무장 경찰관…순찰차 호위 받아 이송",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716170",
+     "source": "KBS 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "안양 정관장 대 부산 kcc",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "수능 시험장 와이파이 차단 종료…24시간 만에 정상화",
-     "url": "https://marketin.edaily.co.kr/News/Read?newsId=04244326645647360",
-     "source": "마켓인"
+     "title": "[핌in안양] KCC전 홈 8연승 도전, 정관장 유도훈 감독 \"변준형 발목, 박지훈 허리 부담\"",
+     "url": "https://www.newspim.com/news/view/20261119001422",
+     "source": "뉴스핌"
     },
     {
-     "title": "[수능] 시험장 주변 와이파이 차단 해제…24시간 만에 정상화",
-     "url": "https://www.yna.co.kr/view/AKR20261119158500017",
-     "source": "연합뉴스"
+     "title": "[스경X현장]‘독감’ 정관장 문유현, 대표팀 합류도 미룬다",
+     "url": "https://sports.khan.co.kr/article/202611191849003",
+     "source": "스포츠경향"
     },
     {
-     "title": "공공와이파이 끊긴 수능장에 학교 안테나 뜬 까닭",
-     "url": "https://www.newsis.com/view/NISX20261119_0003874883",
-     "source": "뉴시스"
+     "title": "[부상] ‘감기 증세’ 정관장 문유현, DB전 이어 KCC전도 결장···男대표팀은 정상 합류",
+     "url": "http://www.jumpball.co.kr/news/newsview.php?ncode=1065602737425283",
+     "source": "점프볼"
     }
    ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "lg 임원인사",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "up",
-   "delta": 1,
-   "news": [
-    {
-     "title": "LG전자, 로보틱스·AIDC 냉각에 힘 싣는다…44명 승진·조직개편 단행",
-     "url": "https://zdnet.co.kr/view/?no=20261119162858",
-     "source": "지디넷코리아"
-    },
-    {
-     "title": "LG, 주요 계열사 CEO 유임…경영 안정 속 기술인재 중용",
-     "url": "https://www.yna.co.kr/view/AKR20261119158400003",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "\"미래 경쟁\" LG전자, 임원 승부수…사장 2명 등 44명 승진",
-     "url": "https://www.hankyung.com/article/202611197795g",
-     "source": "한국경제"
-    }
-   ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 6,
    "keyword": "셀트리온",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -173,11 +173,11 @@
   {
    "rank": 7,
    "keyword": "fifa 랭킹",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -200,56 +200,56 @@
   },
   {
    "rank": 8,
-   "keyword": "라미란",
+   "keyword": "수험표 할인",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "up",
-   "delta": 1,
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "'보검 매직컬2' 측 \"고경표 음주운전 유감…시청 불편 최소화\"",
-     "url": "https://www.yna.co.kr/view/AKR20261118043900005",
-     "source": "연합뉴스"
+     "title": "어쨌든 수능 끝! 수험생이여, 이제 할인을 즐겨라",
+     "url": "https://www.khan.co.kr/article/202611191716001",
+     "source": "경향신문"
     },
     {
-     "title": "유아인 마약에 3년 기다렸는데... 라미란, 고경표 음주운전에 차기작 날벼락",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MVRTEMZXMQZGMZTFGQ2GMOJWGU/",
+     "title": "[경제 뉴스로 배우는 한입 한자 29화] 수능 끝! 수험생 노린 ‘수능 특수’ 시작됐어요",
+     "url": "https://www.chosun.com/kid/kid_economy/2026/11/19/73K4Q44IUZHR3GBAUKN7CXA2WM/",
      "source": "조선일보"
     },
     {
-     "title": "AI 부정행위 논란 속 고경표가 '최대 수혜자'? [앵커리포트]",
-     "url": "https://www.ytn.co.kr/_ln/0103_202611181435551476",
-     "source": "YTN"
+     "title": "“목탁 스트레스볼에 퍼스널컬러까지”...‘합격 기원’에서 ‘경험·가족 소비’로 진화",
+     "url": "https://www.kyeonggi.com/article/20261118580425",
+     "source": "경기일보"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 9,
-   "keyword": "이병철",
+   "keyword": "lg디스플레이",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "up",
-   "delta": 1,
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "이병철 창업 회장 39주기, 범삼성가 선영 참배",
-     "url": "https://www.donga.com/news/Economy/article/all/20261119/135054236/1",
-     "source": "동아일보"
+     "title": "LGD, 사업부 통합으로 OLED 전환 박차…임원 17명 승진",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=03926166645647360",
+     "source": "마켓인"
     },
     {
-     "title": "이병철 삼성 창업회장 39주기… 범삼성家 용인서 추도식",
-     "url": "https://www.chosun.com/economy/industry-company/2026/11/19/MTYMXXQ5DVEJDOUZDPRMHKWE2Q/",
-     "source": "조선일보"
+     "title": "\"대형·중형 사업부 통합\"…LG디스플레이, 17명 임원인사 단행",
+     "url": "https://www.hankyung.com/article/202611197955g",
+     "source": "한국경제"
     },
     {
-     "title": "이병철 삼성 회장 추도식 참석한 홍라희",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261119_0021538710&pID=1&cID=&sID=1&type=photoMain&idx=5",
-     "source": "뉴시스"
+     "title": "LG디스플레이, 전무 6명·상무 11명 승진…사업부 2개로 재편",
+     "url": "https://www.yna.co.kr/view/AKR20261119143900003",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
