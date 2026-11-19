@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T05:01:00+09:00",
- "prev_updated": "2026-11-20T03:58:00+09:00",
+ "updated": "2026-11-20T05:52:00+09:00",
+ "prev_updated": "2026-11-20T05:01:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 2,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -35,66 +35,38 @@
    "keyword": "습관",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "연천군, 스마트경로당 112개소서 어르신 건강 강좌…수분 섭취 강조",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3757520",
-     "source": "국제뉴스"
+     "title": "“각설탕 9개 수준”… 의사도 놀랐다는 ‘혈당 치솟는 음료’",
+     "url": "https://health.chosun.com/site/data/html_dir/2026/11/18/2026111802591.html",
+     "source": "헬스조선"
     },
     {
-     "title": "연천군, 스마트경로당 112곳 대상 어르신 건강강좌 운영",
-     "url": "http://www.nbnnews.co.kr/news/articleView.html?idxno=1071565",
-     "source": "내외뉴스통신"
+     "title": "“제발 공복에 먹지 마세요”… 혈당 오르고 살쪄, 전문가들이 경고한 음식",
+     "url": "https://kormedi.com/2904583/",
+     "source": "코메디닷컴"
     },
     {
-     "title": "연천군, 스마트경로당 112곳 연결해 어르신 건강관리 교육",
-     "url": "https://www.pressian.com/pages/articles/2026111914370018698",
-     "source": "프레시안"
+     "title": "국밥 먹으면 췌장암 걸린다고?…744만명 추적 연구가 짚은 ‘위험 요인’",
+     "url": "https://www.segye.com/newsView/20261114501194",
+     "source": "세계일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "앤트로픽",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "창업 5년새 기업가치 2000조원... 앤스로픽 상장, AI 불씨 살릴까",
-     "url": "https://www.chosun.com/economy/int_economy/2026/11/19/727FDBQ3VRCT7DRNM5EJFH4MWM/",
-     "source": "조선일보"
-    },
-    {
-     "title": "앤트로픽, 111.5달러에 거래 시작…시총 2조달러 달성",
-     "url": "https://www.yna.co.kr/view/AKR20261120003100091",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "앤트로픽 CEO \"9천억弗 컴퓨팅 지출 크지 않아\"…부채 조달도 시사",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445633",
-     "source": "연합인포맥스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
    "keyword": "웹툰",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "[기획] “이혼을 받아들입니다. 그리고 재혼 승인을 요구합니다” - 의상·VFX·미술·음악으로 보는 제작기",
@@ -115,14 +87,14 @@
    "safe": true
   },
   {
-   "rank": 5,
+   "rank": 4,
    "keyword": "플라비오 코볼리",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
-   "move": "down",
-   "delta": -1,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "티아포, ATP 파이널서 코볼리와 경기 중 반응",
@@ -135,22 +107,22 @@
      "source": "테니스코리아"
     },
     {
-     "title": "[ATP 파이널스] 리턴하는 코볼리",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3757438",
-     "source": "국제뉴스"
+     "title": "ATP 파이널 2026 결과: 티아포, 메드베데프 3위로 밀어내",
+     "url": "https://ko.laodong.vn/tennis/ket-qua-atp-finals-2026-tiafoe-day-medvedev-xuong-thu-3-1802858.ldo",
+     "source": "Laodong.vn"
     }
    ],
    "safe": true
   },
   {
-   "rank": 6,
+   "rank": 5,
    "keyword": "엔화",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "down",
-   "delta": -1,
+   "move": "up",
+   "delta": 1,
    "news": [
     {
      "title": "[도쿄환시] 달러-엔 상승…美 연준 인사들 금리인상 지지",
@@ -171,14 +143,42 @@
    "safe": true
   },
   {
+   "rank": 6,
+   "keyword": "회계사",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "회계사 합격해도 수습처 없다…금융위, 내년 선발 1100명으로 감축 전망",
+     "url": "https://www.newsis.com/view/NISX20261119_0003874868",
+     "source": "뉴시스"
+    },
+    {
+     "title": "[단독] 내년 회계사 최소선발인원 3년 연속 감축 가닥…1100명 이하 유력",
+     "url": "https://stock.mk.co.kr/news/view/1201525",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "시험 합격해도 수습할 곳 없다…공인회계사 선발 인원 감축 검토",
+     "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=108029",
+     "source": "코리아이글뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 7,
    "keyword": "프로게이머",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "down",
-   "delta": -1,
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "서산 청소년들, 게임으로 미래 직업 찾는다, e스포츠 진로특강 '호응'",
@@ -186,8 +186,8 @@
      "source": "중도일보"
     },
     {
-     "title": "호남대 앵커사업단, ‘2026 호남 e스포츠 시리즈’ 성료",
-     "url": "http://m.newstoktok.com/article.php?aid=27184892173",
+     "title": "호남대 e스포츠산업학과, 초등생 e스포츠 진로체험 교육 성료",
+     "url": "http://newstoktok.com/article.php?aid=27315247155",
      "source": "톡톡뉴스"
     },
     {
@@ -203,10 +203,10 @@
    "keyword": "박하나",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "down",
-   "delta": -1,
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "same",
+   "delta": 0,
    "news": [
     {
      "title": "김태술·박하나 부부 부모 된다…\"모든 난임 부부들 응원\"",
@@ -219,12 +219,12 @@
      "source": "매일경제"
     },
     {
-     "title": "박하나·김태술 부부, 결혼 1년 만에 부모 된다…쌍둥이 임신",
-     "url": "https://www.newspim.com/news/view/20261119001307",
-     "source": "뉴스핌"
+     "title": "‘김태술♥’ 박하나 임신, 가득 쌓인 난임 치료 주사기 눈길",
+     "url": "https://sports.donga.com/ent/article/all/20261119/135057005/1",
+     "source": "스포츠동아"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
