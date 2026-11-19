@@ -1,93 +1,65 @@
 {
- "updated": "2026-11-20T08:07:00+09:00",
- "prev_updated": "2026-11-20T07:48:00+09:00",
+ "updated": "2026-11-20T08:43:00+09:00",
+ "prev_updated": "2026-11-20T08:07:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "아파트",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "keyword": "파운드리",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"시공사 먼저 본다\"…분양가 뛰자 청약통장 70% 대형 건설사로",
-     "url": "https://www.newsis.com/view/NISX20261118_0003873039",
-     "source": "뉴시스"
+     "title": "삼성 파운드리 심사 소문에 중국 인공지능 칩주 급락…정식 규정은 미발표",
+     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611192007264489fbbec65dfb_1",
+     "source": "글로벌이코노믹"
     },
     {
-     "title": "지방 분양시장 브랜드 대단지에 관심… 888세대 ‘고창 데시앙’ 공급 예정",
-     "url": "https://biz.heraldcorp.com/article/10942233",
-     "source": "헤럴드경제"
+     "title": "11/13(금), 오늘의 투자전략",
+     "url": "https://contents.premium.naver.com/finlit/wfpm/contents/261113081049782md",
+     "source": "네이버 프리미엄콘텐츠"
     },
     {
-     "title": "공급 적은 지역 ‘새 아파트’… 수년 만의 신규 분양에 대기수요 ‘반색’",
-     "url": "https://www.seoul.co.kr/news/economy/2026/11/18/20261118500140",
-     "source": "서울신문"
+     "title": "오늘의 프리미엄9 콘텐츠 다이제스트(11월 13일)",
+     "url": "https://www.hankyung.com/article/202611135556i",
+     "source": "한국경제"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "택시",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
+   "keyword": "중산층",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "same",
+   "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "강원 영월서 SUV-택시 충돌‥3명 사상",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6867129_36918.html",
-     "source": "MBC 뉴스"
+     "title": "월급은 470만원 비슷한데도 남는 돈은 53만원 차이…중산층 저축 가른 ‘빚의 무게’ [데이터로 보는 머니무브]",
+     "url": "https://stock.mk.co.kr/news/view/1202608",
+     "source": "매일경제 마켓"
     },
     {
-     "title": "영월서 중앙선 넘은 택시와 SUV 충돌…2명 숨져",
-     "url": "https://www.yna.co.kr/view/AKR20261120012900062",
-     "source": "연합뉴스"
+     "title": "[경제전망대] 외면받는 중산층, 얇아지는 허리",
+     "url": "https://www.kyeongin.com/article/1775041",
+     "source": "경인일보"
     },
     {
-     "title": "영월 38번 국도서 택시가 중앙선 넘어 충돌…2명 사망 : 사회",
-     "url": "https://news.jkn.co.kr/post/1108722",
-     "source": "재경일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "경제",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "北, 라오스와 경제·무역·과학 협력 논의…당·정 교류 이어",
-     "url": "https://www.yna.co.kr/view/AKR20261120015000504",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "[AI로 읽는 노동신문] 11월 20일(금)",
-     "url": "https://www.newspim.com/news/view/20261120000053",
-     "source": "뉴스핌"
-    },
-    {
-     "title": "라오스 정부 대표단 평양 도착…北과 경제·무역 협력 논의",
-     "url": "https://www.news1.kr/photos/8219491",
-     "source": "뉴스1"
+     "title": "[데이터로 읽는 사회] 중산층 52.9%, 진짜 중산층은 8%",
+     "url": "https://www.newsnnet.com/news/articleView.html?idxno=31151",
+     "source": "뉴스앤넷"
     }
    ],
    "safe": true
   },
   {
-   "rank": 4,
+   "rank": 3,
    "keyword": "미스터트롯",
    "traffic": "500+",
    "label": "약 500회 이상",
@@ -115,14 +87,70 @@
    "safe": true
   },
   {
+   "rank": 4,
+   "keyword": "ai 데이터 센터",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "춘천기업혁신파크, AI데이터센터로 의료·바이오 생태계 모색",
+     "url": "https://www.yna.co.kr/view/AKR20261119147700062",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "춘천시, 2027~2029년 AI 기본계획 발표…4대 전략·31개 세부과제 추진",
+     "url": "https://www.viva100.com/article/20261117500359",
+     "source": "브릿지경제"
+    },
+    {
+     "title": "춘천기업혁신파크, AI데이터센터 기반 바이오 혁신생태계 구축 본격화",
+     "url": "https://www.etnews.com/20261119000457",
+     "source": "전자신문"
+    }
+   ],
+   "safe": true
+  },
+  {
    "rank": 5,
-   "keyword": "대학 순위",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "노화",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
+   "news": [
+    {
+     "title": "“‘반찬 개수’에서 노화 속도가 보인다”… 노쇠 늦게 온 이들의 공통점",
+     "url": "https://health.chosun.com/site/data/html_dir/2026/11/17/2026111701777.html",
+     "source": "헬스조선"
+    },
+    {
+     "title": "“나이 들면 심장 어디가 가장 많이 늙을까?”…노화 더 집중된 부위 보니",
+     "url": "https://kormedi.com/2907340/",
+     "source": "코메디닷컴"
+    },
+    {
+     "title": "100세 넘긴 장수인 '장내 미생물' 달랐다…노화 늦추는 비밀?",
+     "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=549370",
+     "source": "약사공론"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "대학 순위",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "모나쉬 대학교는 지속가능성 분야에서 세계 21위를 차지했습니다.",
@@ -138,90 +166,6 @@
      "title": "한양대, QS 지속가능성평가 세계 133위…28계단 상승",
      "url": "https://www.fnnews.com/news/202611191654527119",
      "source": "파이낸셜뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "육아휴직",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "임현주, 육아휴직 후 퇴사 논란에 \"내 자리에서 최선 다해\"",
-     "url": "https://www.ytn.co.kr/_sn/0117_202611171034289308",
-     "source": "YTN"
-    },
-    {
-     "title": "'노브라 방송' '안경 뉴스' 임현주 아나, 13년 만에 MBC 떠난다 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/16/2026111618310346981",
-     "source": "머니투데이"
-    },
-    {
-     "title": "\"두 번 육아휴직 후 먹튀 퇴사? 사실 아냐\"… 임현주 전 아나운서, 작심 해명",
-     "url": "https://www.fnnews.com/news/202611172204230700",
-     "source": "파이낸셜뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "지방세",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "고액-상습체납자 1년새 29% 늘어 1만3697명",
-     "url": "https://www.donga.com/news/Society/article/all/20261118/135050552/2",
-     "source": "동아일보"
-    },
-    {
-     "title": "안산시, 세금 79억8천만 원 체납 203명 홈피에 공개",
-     "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3041441",
-     "source": "기호일보"
-    },
-    {
-     "title": "‘아! 이 사람이었어?’…서울시가 공개한 올해 지방세 고액체납자 1위는...",
-     "url": "https://www.munhwa.com/article/11632635",
-     "source": "문화일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "마우리시오 포체티노",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "포체티노, 맨체스터 도착해 맨유 감독 업무 시작…\"영광·특권\"",
-     "url": "https://www.yna.co.kr/view/AKR20261119020100007",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "축구의 묘미는 역시 ‘바이시클킥’",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716627",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "표류하는 맨유… 퍼거슨 이후 감독한테만 1700억 썼다",
-     "url": "https://www.chosun.com/sports/world-football/2026/11/20/LKLFPOHWQZARJLO45OWBXBZGGA/",
-     "source": "조선일보"
     }
    ],
    "safe": true
