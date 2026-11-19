@@ -1,234 +1,262 @@
 {
- "updated": "2026-11-19T16:20:00+09:00",
- "prev_updated": "2026-11-19T15:02:00+09:00",
+ "updated": "2026-11-19T18:01:00+09:00",
+ "prev_updated": "2026-11-19T16:20:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "리트 만점자 천호동",
-   "traffic": "200000+",
-   "label": "약 20만 회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'리트 만점자' 이진우 씨‥심정지 상태로 발견",
-     "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6866961_36974.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "‘리트 만점자’ 사망 확인…발견된 모텔서 ‘5줄짜리 글’ 나와",
-     "url": "https://news.jtbc.co.kr/article/NB12328841",
-     "source": "JTBC"
-    },
-    {
-     "title": "LEET 만점자 사망에 수사 종결 수순…진상조사단 출범할까",
-     "url": "https://www.yna.co.kr/view/AKR20261119112700004",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 2,
-   "keyword": "도이치모터스 주가조작 사건",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "up",
-   "delta": 2,
-   "news": [
-    {
-     "title": "[속보] 대법, 19일 김건희 도이치 주가조작 사건 등 선고",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713560",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "김건희 '3대 의혹' 오늘 대법원 판단…기소 1년 3개월만",
-     "url": "https://www.yna.co.kr/view/AKR20261119022300004",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "\"아무것도 아닌 사람\" 김건희...수사 1년여 만 대법 결론",
-     "url": "https://www.ytn.co.kr/_cs/_ln_0103_202611190608017139_005.html",
-     "source": "YTN"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "양홍원",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "가족 잃은 기분...'불륜의혹' 양홍원, 아내 사진도 삭제 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/18/2026111810404289464",
-     "source": "머니투데이"
-    },
-    {
-     "title": "“올해도 日 겨울은 보아가” 보아 ‘메리크리’에 시부야 ‘인원제한’ 걸렸다",
-     "url": "https://m.news.zum.com/photo/58287739/108959159?cm=news_edit&r=1&thumb=1",
-     "source": "ZUM 뉴스"
-    },
-    {
-     "title": "'불륜 의혹' 양홍원, 포르쉐 흡연 욕설 운전 누가 찍었나…도로교통법 위반 가능성[SC이슈]",
-     "url": "https://www.chosun.com/entertainments/enter_general/2026/11/19/MIYDSNZYGI4WKMLGMJRTOY3EHE/",
-     "source": "조선일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 4,
-   "keyword": "한덕수 선고",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김건희·한덕수 대법 선고 'D-DAY'...YTN 생중계",
-     "url": "https://www.ytn.co.kr/_ln/0103_202611191204203334",
-     "source": "YTN"
-    },
-    {
-     "title": "잠시 뒤 한덕수·김건희 상고심‥이 시각 대법원",
-     "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6866964_36974.html",
-     "source": "MBC 뉴스"
-    },
-    {
-     "title": "김민석 “한덕수 상고심 의외 결과땐 즉각 대응”…與 전원 비상 대기",
-     "url": "https://www.joongang.co.kr/article/25480101",
-     "source": "중앙일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 5,
-   "keyword": "예비타당성조사",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "복지부, 20일 경기 동북부 공공의료원 예비타당성 조사 신청",
-     "url": "https://www.yna.co.kr/view/AKR20261119039300060",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "경기 동북부 의료 공백 메울까…남양주 공공의료원 건립 ‘청신호’",
-     "url": "https://www.kyeonggi.com/article/20261119580141",
-     "source": "경기일보"
-    },
-    {
-     "title": "남양주 공공의료원, 예타 신청사업 선정…400병상 공공병원 추진 - 머니투데이",
-     "url": "https://www.mt.co.kr/index.php/policy/2026/11/19/2026111914075910645",
-     "source": "머니투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "수능 샤프",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "keyword": "수능 답지",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
    "cat": "날씨·생활",
    "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "올해 수능 샤프는 ‘무궁화보라색’…연필 빼고 필기구 모두 지급",
-     "url": "https://www.hani.co.kr/arti/society/schooling/1288087.html",
-     "source": "한겨레"
+     "title": "[수능] EBS \"수학, 작년 수능과 비슷…입시업계 \"약간 어려울 수도\"(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261119120151530",
+     "source": "연합뉴스"
     },
     {
-     "title": "연필은 불티, 사인펜은 쌓였다...편의점업계, 수능 특수 김샜다 - 머니투데이",
-     "url": "https://www.mt.co.kr/living/2026/11/19/2026111915033666154",
-     "source": "머니투데이"
+     "title": "수능 영어, 지난해보다 쉽게 출제…9월 모평보다는 어려워[2027 수능]",
+     "url": "https://www.khan.co.kr/article/202611191727001",
+     "source": "경향신문"
     },
     {
-     "title": "인천 시험장 'AI 부정행위 방지' 지우개 물량조절 해프닝[2027 수능]",
-     "url": "https://www.newsis.com/view/NISX20261119_0003874383",
+     "title": "[연합뉴스 이 시각 헤드라인] - 14:30",
+     "url": "https://stock.mk.co.kr/news/view/1202436",
+     "source": "매일경제 마켓"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "수능 등급컷",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[수능] 내 점수로 어디 갈까…오늘 저녁부터 입시학원 설명회",
+     "url": "https://www.yna.co.kr/view/AKR20261118182700530",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "오디바이스, 2027학년도 정시 합격예측 서비스 ‘입시캐스트’ 오픈",
+     "url": "https://zdnet.co.kr/view/?no=20261119172357",
+     "source": "지디넷코리아"
+    },
+    {
+     "title": "수능 이후 대학입시 대비전략은?[2027 수능]",
+     "url": "https://www.newsis.com/view/NISX20261119_0003875583",
      "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "의장대",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "rank": 3,
+   "keyword": "주얼리",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "계단 단차부터 환영단까지‥\"한국과 대우 달라\" \"무례\" 日 불쾌감",
-     "url": "https://imnews.imbc.com/news/2026/world/article/6866880_36925.html",
-     "source": "MBC 뉴스"
+     "title": "올리아, 서울 주얼리 쇼룸에서 팝업 진행",
+     "url": "https://www.handmk.com/news/articleView.html?idxno=45236",
+     "source": "핸드메이커"
     },
     {
-     "title": "시진핑과 ‘악수’만 하고 떠난 다카이치에 일본 언론도 탄식···의전 홀대에 여론은 ‘부글’",
-     "url": "https://www.khan.co.kr/article/202611191602001/?utm_source=khan_rss&utm_medium=rss&utm_campaign=kh_world",
-     "source": "경향신문"
+     "title": "논논X하츠투하츠, ‘Lemon Tang’ 콜라보 주얼리 3종 선보여",
+     "url": "https://www.beyondpost.co.kr/view.php?ud=20261119130424646637600e7ec7_30",
+     "source": "비욘드포스트"
     },
     {
-     "title": "中, 다카이치는 썰렁한 영접... 日측 \"정말 무례하다\" 분노",
-     "url": "https://www.chosun.com/international/international_general/2026/11/18/JD3IWB6EY5CDTMGSUOTYQKMIEA/",
-     "source": "조선일보"
+     "title": "논논, 하츠투하츠와 협업한 ‘Lemon Tang’ 주얼리 컬렉션 공개",
+     "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=602616",
+     "source": "스타데일리뉴스"
     }
    ],
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "디 에이치 반포 124",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "rank": 4,
+   "keyword": "수능 끝",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'30억 로또' 디에이치 반포124 분양가 심의 보류…청약 일정 연기",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04329606645647032",
-     "source": "마켓인"
+     "title": "어쨌든 수능 끝! 수험생이여, 이제 할인을 즐겨라",
+     "url": "https://www.khan.co.kr/article/202611191716001",
+     "source": "경향신문"
     },
     {
-     "title": "반포 한강 바로 앞… ‘압도적 하이엔드 대단지’ 내달 분양한다",
-     "url": "https://www.chosun.com/special/special_section/2026/11/19/FO7UFD3IAZCRBAGOMOX37Z34P4/",
-     "source": "조선일보"
+     "title": "롯데백화점 광주점 화장품·베이커리, 수능 수험생 이벤트",
+     "url": "https://www.yna.co.kr/view/AKR20261119096800054",
+     "source": "연합뉴스"
     },
     {
-     "title": "[부동산 특집] 현대건설, '디에이치 반포124'",
-     "url": "https://www.metroseoul.co.kr/article/20261118500060",
-     "source": "메트로신문"
+     "title": "“목탁 스트레스볼에 퍼스널컬러까지”...‘합격 기원’에서 ‘경험·가족 소비’로 진화",
+     "url": "https://www.kyeonggi.com/article/20261118580425",
+     "source": "경기일보"
     }
    ],
    "safe": true
   },
   {
+   "rank": 5,
+   "keyword": "lg 임원인사",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "LG전자, 로보틱스·AIDC 냉각에 힘 싣는다…44명 승진·조직개편 단행",
+     "url": "https://zdnet.co.kr/view/?no=20261119162858",
+     "source": "지디넷코리아"
+    },
+    {
+     "title": "LG경영개발원 신임 대표에 하범종 ㈜LG 경영지원부문장",
+     "url": "https://www.yna.co.kr/view/AKR20261119137600003",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "LG, CEO 대부분 유임 속 임원 승진 35% 늘려…미래 기술 인재 발탁",
+     "url": "https://www.chosun.com/economy/industry-company/2026/11/19/UPFYN7S6RRFNREBAPODNAH3QWY/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "수능 결시율",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "AI 커닝 단속 강화 영향?…수능 결시자 3000명 넘게 늘었다(종합)",
+     "url": "https://www.news1.kr/society/education/6359569",
+     "source": "뉴스1"
+    },
+    {
+     "title": "수능 1교시 응시자 49만 1천 명‥결시율 작년보다 높아",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6866952_36918.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "경기도 수능 16만5천595명 응시…1교시 결시율 10.80%, 전년보다 상승",
+     "url": "https://www.kyeonggi.com/article/20261119580334",
+     "source": "경기일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "대법관",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[라이브] 국회 법사위 전체회의 생중계 / SBS 실시간 라이브",
+     "url": "https://news.sbs.co.kr/news/live.do?videoId=KHVup7e0toM&plink=RSS",
+     "source": "news.sbs.co.kr"
+    },
+    {
+     "title": "국힘 불참한 법사위 전체회의",
+     "url": "https://www.newspim.com/news/view/20261118001251",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "법사위, ‘대법관 격려금 3억 감액’ 내년 예산안 의결…국민의힘 불참",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8713849",
+     "source": "KBS 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "해군",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“전 세계가 날 주목해”…‘방중 관심’ 속 현지시찰 노출 [지금뉴스]",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8717260",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "[속보] 경찰, 리트 만점자 \"사망으로 최종 판정시 감식 등 진행\"",
+     "url": "https://www.hankyung.com/article/2026111972367",
+     "source": "한국경제"
+    },
+    {
+     "title": "북·미회담 기대감에도… 김정은은 지방 시찰, 美는 비핵화 원칙 재확인",
+     "url": "https://www.segye.com/newsView/20261119509212",
+     "source": "세계일보"
+    }
+   ],
+   "safe": false
+  },
+  {
    "rank": 9,
-   "keyword": "서울교통공사",
+   "keyword": "라미란",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'보검 매직컬2' 측 \"고경표 음주운전 유감…시청 불편 최소화\"",
+     "url": "https://www.yna.co.kr/view/AKR20261118043900005",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "유아인 마약에 3년 기다렸는데... 라미란, 고경표 음주운전에 차기작 날벼락",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/18/MVRTEMZXMQZGMZTFGQ2GMOJWGU/",
+     "source": "조선일보"
+    },
+    {
+     "title": "AI 부정행위 논란 속 고경표가 '최대 수혜자'? [앵커리포트]",
+     "url": "https://www.ytn.co.kr/_ln/0103_202611181435551476",
+     "source": "YTN"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 10,
+   "keyword": "사망",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "사회·정치",
@@ -237,19 +265,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "서울교통공사, 열차 비상상황 대응 훈련…대외기관 협업체계 강화",
-     "url": "https://www.newspim.com/news/view/20261118001117",
-     "source": "뉴스핌"
+     "title": "국토부, 사망사고 발생 대형건설사 12곳 안전관리 점검",
+     "url": "https://www.electimes.com/news/articleView.html?idxno=374930",
+     "source": "전기신문"
     },
     {
-     "title": "서울교통공사·한국철도공사, 3호선 화재 대응 합동훈련",
-     "url": "https://www.newsis.com/view/NISX20261118_0003873938",
-     "source": "뉴시스"
+     "title": "올 들어 건설 현장서 106명 숨져…절반 가량이 ‘추락’ 사망",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8715993",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "서울교통공사·코레일, 지하철 배터리 화재 대비 합동훈련…구원열차 연결까지 점검",
-     "url": "https://www.mediainnews.com/news/articleView.html?idxno=48986",
-     "source": "미디어인뉴스"
+     "title": "양주시, 대형 건설현장 소장 15명과 동절기 안전 논의…사고 예방 당부",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3756043",
+     "source": "국제뉴스"
     }
    ],
    "safe": false
