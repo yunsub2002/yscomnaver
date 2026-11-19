@@ -3988,5 +3988,47 @@
 "end": null,
 "addr": "서울",
 "seen": "2026-11-19T12:56:00+09:00"
+},
+{
+"id": "nacf97ef089",
+"cat": "place",
+"title": "고양시 도서관의 변신…책·미술·체험 교육 잇는 ‘동네 문화 플랫폼’ 구축",
+"source": "주간한국",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Bc01ZRUpuem16UXNJYkdNaXVmQTg4R3VPZGY2U0FfWVNIdm5XalBOWWctWUxmRlRtWnN5Ri1YTDFPWXBsSTE2SFR5UEtfQzRlMmhDc0E4SllnOGFNdmJCbFR4a29CRDBMYkJDd0pWSXLSAXRBVV95cUxPemgyOFBHTVZLN2Z3bTV5cGhiTUtiLUFlbVhlRkJrTndkb0FaY0pNdV9SVGxzRnJfZm5hdDVfNGlzTHFVcWdMaktRcndaRGRJZkcwOG9lMWRvQUpPM3MyM0c3c1h2cXhlQWpoZmdNeXdrZlVLRg?oc=5",
+"pub": "2026-11-19T13:01:44+09:00",
+"region": "고양",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T14:03:00+09:00"
+},
+{
+"id": "ndbc1f48d74",
+"cat": "show",
+"title": "횡성문화관광재단, 어린이와 어른 함께 즐기는 뮤지컬 공연",
+"source": "강원일보",
+"url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GQWVNOTFCaHNRM0FCZFJWVGJPaUxXZVdPdUc1Z21odExtMjNzRm9MN01vVEphLXUwWUlSVUswdlBFbGFkOFZKUnJjbVI4bzVVTTg4MldJT0dndEU?oc=5",
+"pub": "2026-11-19T11:45:28+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T14:03:00+09:00"
+},
+{
+"id": "n73aaf65425",
+"cat": "festival",
+"title": "익산 K-김장문화축제 21일 개막…김치명인 비법 시연·가족 공연",
+"source": "localm.kr",
+"url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tREVJM1FBYTlTZ25qUnNPdE5NZTduVzlEU2laMTV3c3Y5d0YzSmtVMFFvY3B3LUJ4ZUMtUjBOQWJaUlVNYUNPM0V4NlhTQXpuTjI1aXFfZ0NocWRUclljUVZiTVlUZHI3ZjE1Vg?oc=5",
+"pub": "2026-11-19T11:32:00+09:00",
+"region": "익산",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T14:03:00+09:00"
 }
 ]
