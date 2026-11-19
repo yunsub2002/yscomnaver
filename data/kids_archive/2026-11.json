@@ -3890,5 +3890,33 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-19T10:06:00+09:00"
+},
+{
+"id": "nc6b124fe9d",
+"cat": "festival",
+"title": "경기 최대 규모 ‘수원 코베 베이비페어&유아교육전’ 11월 26일부터 29일까지 수원메쎄서 개최",
+"source": "비욘드포스트",
+"url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iaTEzclJ1QUJVWnREYVZHU1NIeFRVMGhfSEs0dzJ5RGxWRjJpRzhRTXZ6dHBmWDRVaTVLMkNoZldoTnNjNVJVb3Y3MDlFYkQ4QzhDNG9wSmNxWGhkVGpnMWxGV2xPM3U0NEVYdVpTNDVWNkhVR1hJQ1hUd20?oc=5",
+"pub": "2026-11-19T10:20:00+09:00",
+"region": "경기",
+"period": "~29일",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T11:23:00+09:00"
+},
+{
+"id": "n0776bc9142",
+"cat": "festival",
+"title": "옥천군 공동육아나눔터, 아이들의 상상력을 키우는 `창의미술` 운영",
+"source": "시사일보",
+"url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xZE54NnJlQlRKYnN0d1ltS0huZVVPZlZ3V2t3X0IyZGxCbkJQTVpRbEJyLUVKcUJ6aGhtV3Nma2ozYnByalBpTHhlX1A?oc=5",
+"pub": "2026-11-19T09:15:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-19T11:23:00+09:00"
 }
 ]
