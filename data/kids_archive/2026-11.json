@@ -4408,5 +4408,47 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-20T02:55:00+09:00"
+},
+{
+"id": "nb590502f04",
+"cat": "festival",
+"title": "고령군, 고도육성 아카데미 ‘가족 고도 탐방’ 운영",
+"source": "다경뉴스",
+"url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1XYTNZVnhOMnBCSlBneWFweUxsMUJTd2VKNU1DbjZKTWtMdXgxRHhjak82TmZfTDVUa2RUNmNlMGpUNjJt?oc=5",
+"pub": "2026-11-19T21:08:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T03:58:00+09:00"
+},
+{
+"id": "n4c1352add2",
+"cat": "place",
+"title": "갈매아이&유거리 상인회, 12월 19~20일 크리스마스 축제로 연말 피날레 장식",
+"source": "시선뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03TTUwN2M4eFNaNE1CMUZNck1fOXEtMnczWXJrVTZsVDFDV3dGLXl1b0Vvd3pETDlsa2hISlBmZUNHSEFhcUcxZEs4OTZNNFVoaGxSOGVnT1BVbHp5cGJKWVFVLW9VYy1EMlhGV3B3b0RsZ9IBckFVX3lxTE03TTUwN2M4eFNaNE1CMUZNck1fOXEtMnczWXJrVTZsVDFDV3dGLXl1b0Vvd3pETDlsa2hISlBmZUNHSEFhcUcxZEs4OTZNNFVoaGxSOGVnT1BVbHp5cGJKWVFVLW9VYy1EMlhGV3B3b0RsZw?oc=5",
+"pub": "2026-11-19T16:55:28+09:00",
+"region": "",
+"period": "12/19~12/20",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T03:58:00+09:00"
+},
+{
+"id": "e532d3b1b63",
+"cat": null,
+"title": "크리스마스 축제",
+"source": "시선뉴스",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE03TTUwN2M4eFNaNE1CMUZNck1fOXEtMnczWXJrVTZsVDFDV3dGLXl1b0Vvd3pETDlsa2hISlBmZUNHSEFhcUcxZEs4OTZNNFVoaGxSOGVnT1BVbHp5cGJKWVFVLW9VYy1EMlhGV3B3b0RsZ9IBckFVX3lxTE03TTUwN2M4eFNaNE1CMUZNck1fOXEtMnczWXJrVTZsVDFDV3dGLXl1b0Vvd3pETDlsa2hISlBmZUNHSEFhcUcxZEs4OTZNNFVoaGxSOGVnT1BVbHp5cGJKWVFVLW9VYy1EMlhGV3B3b0RsZw?oc=5",
+"pub": "2026-11-19T16:55:28+09:00",
+"region": "",
+"period": "12/19~12/20",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-20T03:58:00+09:00"
 }
 ]
