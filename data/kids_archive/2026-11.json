@@ -4758,5 +4758,61 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-20T09:59:00+09:00"
+},
+{
+"id": "ne386d6ecb3",
+"cat": "festival",
+"title": "여주시 어린이·사회복지급식관리지원센터, 식생활 안전 뮤지컬 ‘벨과 야수의 건강밥상’ 개최",
+"source": "여주신문",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HaUxaSWZDbG5DOEtaRmMxOW1aY0I2MVVPM29CemlPLU5LNlRRaXZ1S281dEg5NXVrX3pPTEFMUDl4dWw0SFFTczdlY21IMUFOOXZ4T3ZhNldPVjdyU1REM3dZNUI0NzM3UktoWm5B?oc=5",
+"pub": "2026-11-20T10:19:32+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T11:08:00+09:00"
+},
+{
+"id": "n88b1da88d5",
+"cat": "festival",
+"title": "경기도어린이박물관, 장애 어린이 초청 행사로 ‘모두를 위한 박물관’에 한 걸음 성큼 다가가",
+"source": "경기평화신문",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ObTA0WTdjSG15LWVxVHNYaENub1FBdF9KNTRlX3FiWHZqUEx6ZF8wSXVGQmJaWjdHTkJ1dUVDeHh2TzltVUdSXw?oc=5",
+"pub": "2026-11-20T09:04:00+09:00",
+"region": "경기",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T11:08:00+09:00"
+},
+{
+"id": "n494070e300",
+"cat": "trend",
+"title": "M83, 춘천 토이로봇관 AI 체험 전시 인기…\"XR 접목으로 관람객 참여형 콘텐츠 구축\"",
+"source": "프라임경제",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10Mi13eG9paVZYNUxQcURxczl5YjFTYlJhYnVxS0lGTnJsSTRrRGpxY0VUT0oyWUktazNPc0U0ZERaOFZxM0Y0VnpCdWczQ2FscjZFekJnams0WjVGcl8wZW9Ha05FbFdycHk1Y0NjWVRQQQ?oc=5",
+"pub": "2026-11-20T08:29:44+09:00",
+"region": "춘천",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T11:08:00+09:00"
+},
+{
+"id": "nc2b16090f9",
+"cat": "place",
+"title": "CJ도너스캠프, 겨울방학 맞이 ‘한끼의 울림’ 캠페인 진행",
+"source": "주간현대",
+"url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9yTnJIamxWTU9jS014OGc1c19qaEM0djRpS2Znd2pZdXQ1WEdnTXhQV1NNV05UenRIM1hMY1NQbEJDVGc?oc=5",
+"pub": "2026-11-19T17:32:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-20T11:08:00+09:00"
 }
 ]
