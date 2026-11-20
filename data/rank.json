@@ -1,94 +1,66 @@
 {
- "updated": "2026-11-20T08:43:00+09:00",
- "prev_updated": "2026-11-20T08:07:00+09:00",
+ "updated": "2026-11-20T09:59:00+09:00",
+ "prev_updated": "2026-11-20T08:43:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "파운드리",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "삼성 파운드리 심사 소문에 중국 인공지능 칩주 급락…정식 규정은 미발표",
-     "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611192007264489fbbec65dfb_1",
-     "source": "글로벌이코노믹"
-    },
-    {
-     "title": "11/13(금), 오늘의 투자전략",
-     "url": "https://contents.premium.naver.com/finlit/wfpm/contents/261113081049782md",
-     "source": "네이버 프리미엄콘텐츠"
-    },
-    {
-     "title": "오늘의 프리미엄9 콘텐츠 다이제스트(11월 13일)",
-     "url": "https://www.hankyung.com/article/202611135556i",
-     "source": "한국경제"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "중산층",
-   "traffic": "500+",
-   "label": "약 500회 이상",
+   "keyword": "2호선",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "월급은 470만원 비슷한데도 남는 돈은 53만원 차이…중산층 저축 가른 ‘빚의 무게’ [데이터로 보는 머니무브]",
-     "url": "https://stock.mk.co.kr/news/view/1202608",
-     "source": "매일경제 마켓"
+     "title": "서울 지하철 2호선 성수지선 양방향 운행 중지",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261120071423Cpd",
+     "source": "연합뉴스TV"
     },
     {
-     "title": "[경제전망대] 외면받는 중산층, 얇아지는 허리",
-     "url": "https://www.kyeongin.com/article/1775041",
-     "source": "경인일보"
+     "title": "서울지하철 노조, 준법투쟁 돌입…출퇴근길 일부 지연 가능성",
+     "url": "https://www.khan.co.kr/article/202611200739001",
+     "source": "경향신문"
     },
     {
-     "title": "[데이터로 읽는 사회] 중산층 52.9%, 진짜 중산층은 8%",
-     "url": "https://www.newsnnet.com/news/articleView.html?idxno=31151",
-     "source": "뉴스앤넷"
+     "title": "국토부, 철도 파업 대비 비상수송 점검…“철저히 대비”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717528",
+     "source": "KBS 뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "오상욱",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "오상욱♥하루카 토요다, 열애설 다시 점화…日 데이트 인증?",
+     "url": "https://sports.donga.com/ent/article/all/20261118/135044966/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "오상욱, 한일 혼혈 모델 하루카 토요다와 열애설 재점화…日 데이트 사진 관심↑",
+     "url": "https://www.news1.kr/entertain/celebrity-topic/6358067",
+     "source": "뉴스1"
+    },
+    {
+     "title": "오상욱 열애설 상대 하루카, 일본서 남성과 데이트 사진 공개",
+     "url": "https://www.newsis.com/view/NISX20261118_0003873230",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "미스터트롯",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "up",
-   "delta": 1,
-   "news": [
-    {
-     "title": "‘미스터트롯3’ TOP7, 서울서 투어 피날레…“끝 아닌 새로운 시작”",
-     "url": "https://www.mk.co.kr/news/musics/12211506",
-     "source": "매일경제"
-    },
-    {
-     "title": "‘미스터트롯3’ TOP7 콘서트 성료…서울서 투어 마무리 : 연예",
-     "url": "https://news.jkn.co.kr/post/1108804",
-     "source": "재경일보"
-    },
-    {
-     "title": "'미스터트롯3' TOP7 콘서트, 눈물의 피날레…완전체 꽃피울 '다시, 우리' 기약하며 (MHN현장)[종합]",
-     "url": "https://mhnse.com/news/articleView.html?idxno=1700829",
-     "source": "MHN스포츠"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "ai 데이터 센터",
+   "keyword": "주한 미군",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "IT·테크",
@@ -97,75 +69,159 @@
    "delta": 0,
    "news": [
     {
-     "title": "춘천기업혁신파크, AI데이터센터로 의료·바이오 생태계 모색",
-     "url": "https://www.yna.co.kr/view/AKR20261119147700062",
+     "title": "[단독] 美 AI기반 패트리엇 요격체계, 한국에서 최초 전력화",
+     "url": "https://www.chosun.com/politics/diplomacy-defense/2026/11/19/2ZOSY4EQCFGUJOBE43MNLX4RAM/",
+     "source": "조선일보"
+    },
+    {
+     "title": "주한미군, 패트리엇 포대 '통합운용 시스템' IBCS 본격 전력화",
+     "url": "https://www.yna.co.kr/view/AKR20261119133800504",
      "source": "연합뉴스"
     },
     {
-     "title": "춘천시, 2027~2029년 AI 기본계획 발표…4대 전략·31개 세부과제 추진",
-     "url": "https://www.viva100.com/article/20261117500359",
-     "source": "브릿지경제"
+     "title": "주한미군 패트리엇 포대, 美육군 첫 IBCS 운용 인증…방공망 통합 속도",
+     "url": "https://www.donga.com/news/article/all/20261119/135056413/1",
+     "source": "동아일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "마이크론 테크놀로지",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "마이크론 주가 다시 뛰었다…AI 투자 열기에 장전 5%대 급등",
+     "url": "https://www.jemin.com/news/articleView.html?idxno=847855",
+     "source": "제민일보"
     },
     {
-     "title": "춘천기업혁신파크, AI데이터센터 기반 바이오 혁신생태계 구축 본격화",
-     "url": "https://www.etnews.com/20261119000457",
-     "source": "전자신문"
+     "title": "마이크론 CTO \"메모리 반도체 공급 제약 2027년에 더 심화\"",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445660",
+     "source": "연합인포맥스"
+    },
+    {
+     "title": "마이크론 메모리반도체 불황 대비해 '방어 전략' 집중, 삼성전자 SK하이닉스와 새 경쟁 국면",
+     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452393",
+     "source": "비즈니스포스트"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "노화",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "php 취약점",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“‘반찬 개수’에서 노화 속도가 보인다”… 노쇠 늦게 온 이들의 공통점",
-     "url": "https://health.chosun.com/site/data/html_dir/2026/11/17/2026111701777.html",
-     "source": "헬스조선"
+     "title": "‘PHP’ 취약점 한 달 만에 또 나왔다…7개 치명적 결함 포함",
+     "url": "https://www.donga.com/news/Economy/article/all/20261120/135058195/1",
+     "source": "동아일보"
     },
     {
-     "title": "“나이 들면 심장 어디가 가장 많이 늙을까?”…노화 더 집중된 부위 보니",
-     "url": "https://kormedi.com/2907340/",
-     "source": "코메디닷컴"
+     "title": "AI 해킹으로 불안한데…PHP서 또 치명적 취약점 발견",
+     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0800&key=20261120.99099006370",
+     "source": "국제신문"
     },
     {
-     "title": "100세 넘긴 장수인 '장내 미생물' 달랐다…노화 늦추는 비밀?",
-     "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=549370",
-     "source": "약사공론"
+     "title": "PHP 취약점에 클라우드 보안 비상…GS네오텍 대응책 제시",
+     "url": "https://www.yna.co.kr/view/AKR20261119055700017",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "대학 순위",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
+   "keyword": "전북특별자치도교육청",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
    "news": [
     {
-     "title": "모나쉬 대학교는 지속가능성 분야에서 세계 21위를 차지했습니다.",
-     "url": "https://www.vietnam.vn/ko/dai-hoc-monash-dung-thu-21-the-gioi-ve-phat-trien-ben-vung",
-     "source": "Vietnam.vn"
+     "title": "전주대·전북교육청 개인정보 대량 유출…“피해 우려”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8717588",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "인천대, QS 세계대학 지속가능성 평가 2년 연속 상승…국내 25위",
-     "url": "https://www.kyeonggi.com/article/20261118580262",
-     "source": "경기일보"
+     "title": "성적·출결에 교직원 메일까지…대학 해킹 유출 파일서 'AI 흔적' 발견",
+     "url": "https://www.newsis.com/view/NISX20261119_0003875508",
+     "source": "뉴시스"
     },
     {
-     "title": "한양대, QS 지속가능성평가 세계 133위…28계단 상승",
-     "url": "https://www.fnnews.com/news/202611191654527119",
-     "source": "파이낸셜뉴스"
+     "title": "부산 대학가, 해킹으로 개인정보 유출 잇따라…긴급 보안 조치",
+     "url": "https://www.yna.co.kr/view/AKR20261119069700051",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "유재석",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "유재석, 논현동 198억 현금 매입 부지 신축 건물 완공…\"얼마나 더 오를까\"",
+     "url": "https://www.newsis.com/view/NISX20261119_0003874712",
+     "source": "뉴시스"
+    },
+    {
+     "title": "‘핑계고’ 찍는 그 건물..유재석 ’198억’ 논현동 빌딩 외관 공개됐다 “대출 0원” [Oh!쎈 이슈]",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/20/MIZWGOJWGU3GEZDGMJSTGYRRG4/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "\"198억 땅 전액 현금으로 샀다\"…유재석, 강남에 건물 짓더니 [집코노미-핫!부동산]",
+     "url": "https://www.hankyung.com/article/2026112088527",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "새만금",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "새만금·신공항·올림픽…전북 거대 프로젝트 쉽게 풀리는 게 없네",
+     "url": "https://www.hani.co.kr/arti/area/honam/1288246.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "[해설] 또 반복된 ‘하늘길 잔혹사’…환경·안전에 가로 막힌 전북 타개책 고심",
+     "url": "https://www.jjan.kr/article/20261118500448",
+     "source": "전북일보 인터넷신문"
+    },
+    {
+     "title": "새만금공항 계획, 항소심도 제동…\"충분히 검토 안 해\"",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261119055826b2f",
+     "source": "연합뉴스TV"
     }
    ],
    "safe": true
