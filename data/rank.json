@@ -1,248 +1,258 @@
 {
- "updated": "2026-11-21T06:46:00+09:00",
- "prev_updated": "2026-11-20T22:57:00+09:00",
+ "updated": "2026-11-21T08:09:00+09:00",
+ "prev_updated": "2026-11-21T06:46:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "카리나",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
+   "keyword": "파기 환송",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[사설]‘12·3은 내란’ 대법관 전원 만장일치 판결에 눈감는 與野",
+     "url": "https://www.donga.com/news/Opinion/article/all/20261120/135063781/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "'계엄은 내란·한덕수 파기환송'...남은 재판 영향은?",
+     "url": "https://www.ytn.co.kr/_cs/_ln_0103_202611210520235754_005.html",
+     "source": "YTN"
+    },
+    {
+     "title": "임기 7개월 남은 조희대… 與 탄핵안 노림수는 ‘퇴임까지 직무 정지’",
+     "url": "https://www.chosun.com/politics/politics_general/2026/11/21/FECS55Z5CJGV3IQPENEDRIWDPM/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 2,
+   "keyword": "노동조합",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“이래서 카리나”…드레스 자태부터 탄탄한 복근 관리까지",
-     "url": "https://www.donga.com/news/Culture/article/all/20261119/135051121/1",
-     "source": "동아일보"
+     "title": "서울 지하철 준법투쟁 첫날…철도노조도 23일 합류",
+     "url": "https://www.electimes.com/news/articleView.html?idxno=375076",
+     "source": "전기신문"
     },
     {
-     "title": "[포토] 카리나 '순백의 여신'",
-     "url": "https://www.segye.com/newsView/20261118514116",
-     "source": "세계일보"
-    },
-    {
-     "title": "카리나, '천사의 등장'",
-     "url": "https://www.newspim.com/news/view/20261118001176",
-     "source": "뉴스핌"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "황유민",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김아림, LPGA 시즌 최종전 투어 챔피언십 첫날 공동 선두",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8718205",
+     "title": "서울지하철 노조, 오늘부터 준법투쟁…출퇴근 열차 지연 예상",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8718152",
      "source": "KBS 뉴스"
     },
     {
-     "title": "유해란, 투어 챔피언십 첫날 공동 4위",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261120_0002297379&provider_id=&cID=&type=Main&catg=&idx=7",
-     "source": "뉴시스"
-    },
-    {
-     "title": "유해란·최혜진 출격…LPGA 최종전 우승 정조준",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH202611192328491Gn",
-     "source": "연합뉴스TV"
+     "title": "지하철 2호선 성수지선 양방향 중단·1호선도 지연",
+     "url": "https://www.kyeonggi.com/article/20261120580015",
+     "source": "경기일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "김호령",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "‘중견수 대어’ 최지훈 SSG 잔류…FA C등급 김호령 거취에 촉각",
-     "url": "https://www.donga.com/news/Sports/article/all/20261120/135062951/1",
-     "source": "동아일보"
-    },
-    {
-     "title": "[프로야구] 외야 남은 FA 최대어, KIA 김호령 두산 정수빈 행선지는",
-     "url": "https://www.newspim.com/news/view/20261119001002",
-     "source": "뉴스핌"
-    },
-    {
-     "title": "최지훈·오태곤 잡은 SSG, 남은 내부 FA 문승원 뿐…외부 FA도 '눈독'",
-     "url": "https://www.newsis.com/view/NISX20261119_0003874949",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "김수현",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "법원 \"사생활 논란' 김수현 측, 쿠쿠에 모델료 8억원 돌려줘야\"(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261120149251004",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "법원 “‘사생활 의혹’ 김수현 소속사가 쿠쿠에 8억 원 배상”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8718583",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "김수현 측, 광고주에 또 거액 물어준다…쿠쿠에 8.7억 배상 판결",
-     "url": "http://weekly.chosun.com/news/articleView.html?idxno=57328",
-     "source": "주간조선"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 5,
-   "keyword": "어선",
+   "keyword": "띠별 운세",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "태안 연락두절 어선 해경 부실 관제 논란 보도에 대해 다음과 같이 설명 드립니다.",
-     "url": "https://www.korea.kr/briefing/actuallyView.do?newsId=148976208",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "해광호 나흘째 소식 없어…“두 차례 위치 확인에 무응답”",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718853",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "황종우 해수장관 \"해광호 수색에 가용 자원 최대한 동원\"",
-     "url": "https://www.yna.co.kr/view/AKR20261119167700030",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 6,
-   "keyword": "당구",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "제16회 중구청장배·제17회 연맹회장배 당구대회 개최",
-     "url": "https://www.junggunews.com/news/articleView.html?idxno=42979",
-     "source": "중구신문"
-    },
-    {
-     "title": "‘대학 자퇴하고 당구선수 데뷔’ LPBA 이선영 “반대하던 부모님 4강 진출하자 기뻐하셔”",
-     "url": "https://mkbn.mk.co.kr/news/sports/12214637",
-     "source": "mkbn.mk.co.kr"
-    },
-    {
-     "title": "“우연히 만나 운명이 된 당구…0대2로 뒤진 막판이라 마인드셋”",
-     "url": "https://www.sedaily.com/article/20117103",
-     "source": "서울경제"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "아틀레틱 대 에스파뇰",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "아틀레틱 클럽 대 에스파뇰 경기 예측: 다득점 경기가 예상됩니다.",
-     "url": "https://www.vietnam.vn/ko/nhan-dinh-athletic-club-vs-espanyol-hua-hen-man-doi-cong",
-     "source": "Vietnam.vn"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "다니일 메드베데프",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "알카라스, 메드베데프 꺾고 준결승 진출",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261119_0002296115&pID=1&cID=&sID=1&type=photoMain&idx=7",
-     "source": "뉴시스"
-    },
-    {
-     "title": "알카라스 \"ATP 파이널스 우승은 엄청난 성공…전 코치 페레로 만나면 크게 안아줄 것”",
-     "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54298",
-     "source": "테니스코리아"
-    },
-    {
-     "title": "'부상 투혼' 알카라스, 메드베데프 꺾고 ATP 파이널스 4강 진출",
-     "url": "https://www.news1.kr/sports/general-sport/6359498",
-     "source": "뉴스1"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 9,
-   "keyword": "한국수력원자력",
-   "traffic": "200+",
-   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "한수원 “대우건설 컨소시엄과 체코원전 시공 공동협약 종료”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8718545",
-     "source": "KBS 뉴스"
+     "title": "[오늘의 운세] 11월 21일 토요일 (음력 10월 13일) 띠별 운세",
+     "url": "https://www.kyeonggi.com/article/20261113580348",
+     "source": "경기일보"
     },
     {
-     "title": "체코 두코바니원전 냉각탑 2파전…한수원, 후속발주 ‘착착’",
-     "url": "https://www.electimes.com/news/articleView.html?idxno=375054",
-     "source": "전기신문"
+     "title": "[오늘의 운세] 2026년 11월 21일 별자리 운세",
+     "url": "https://www.ytn.co.kr/_ln/0121_202611210000000002",
+     "source": "YTN"
     },
     {
-     "title": "[단독 ]26조 체코 원전 ‘수익성 비상’… 한수원, ‘현지화율 60%’ 체코 요구 대응 착수",
-     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=315838",
-     "source": "스트레이트뉴스"
+     "title": "[오늘의 운세] 11월 21일 띠별-별자리 운세",
+     "url": "https://www.namdonews.com/news/articleView.html?idxno=929646",
+     "source": "남도일보"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "부고",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[부음] 심원보(금호건설 홍보IR팀 팀장)씨 부친상",
+     "url": "https://it.chosun.com/news/articleView.html?idxno=3000000001551",
+     "source": "IT조선"
+    },
+    {
+     "title": "[부고] 심원보 금호건설 홍보IR팀 팀장 부친상",
+     "url": "https://www.etoday.co.kr/news/view/2651080",
+     "source": "이투데이"
+    },
+    {
+     "title": "[부고] 심원보(금호건설 홍보IR팀) 씨 부친상",
+     "url": "https://www.newspim.com/news/view/20261120001213",
+     "source": "뉴스핌"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "최가온",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘45층 높이’ 번지점프도 \"자유롭던데요?\" 강심장 최가온",
+     "url": "https://news.jtbc.co.kr/article/NB12327995",
+     "source": "JTBC"
+    },
+    {
+     "title": "“아이돌인 줄 알았는데 금메달리스트?”…18세 최가온, 미모보다 더 놀라운 세계 최초 기록",
+     "url": "https://www.ftimes.kr/news/articleView.html?idxno=41239",
+     "source": "FT스포츠"
+    },
+    {
+     "title": "\"너무 아름다워\" 韓 사상 첫 올림픽 金 무서운 '18세' 최가온, 전지훈련 마치고 복귀...백사이드 1080 장착, 새 시즌 '기대감 UP'",
+     "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553716577",
+     "source": "스포탈코리아"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "항공",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "한중 FTA 후속 협상 실질 타결에…K-콘텐츠 업계 “환영”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8718493",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "한한령 풀리나…중소기업 \"中시장 열리면 숨통\"",
+     "url": "https://www.newsis.com/view/NISX20261120_0003877198",
+     "source": "뉴시스"
+    },
+    {
+     "title": "\"시진핑 덕에 웃었다\"…상한가 파티에 개미들 환호 [분석+]",
+     "url": "https://www.hankyung.com/article/2026111980736",
+     "source": "한국경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "주가순자산비율",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "정부는 '베어허그' 띄우지만…저평가 상장사 570곳 경영권은 '철옹성'",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01394006645647360",
+     "source": "마켓인"
+    },
+    {
+     "title": "[취재후일담] 밸류업 앞장섰더니 저PBR 낙인…누가 정책 따르겠나",
+     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261119010007708",
+     "source": "아시아투데이"
+    },
+    {
+     "title": "‘회장님’이 좋으면 일반 주주도 좋게 [아침햇발]",
+     "url": "https://www.hani.co.kr/arti/opinion/column/1287728.html",
+     "source": "한겨레"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "태양광 발전",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "나주시, ‘햇빛소득마을’ 공모 대비 12개 마을 찾아가는 사전컨설팅",
+     "url": "https://www.greened.kr/news/articleView.html?idxno=355135",
+     "source": "녹색경제신문"
+    },
+    {
+     "title": "전남광주 남구, 햇빛 소득으로 '에너지 복지' 확대",
+     "url": "https://www.newspim.com/news/view/20261120000613",
+     "source": "뉴스핌"
+    },
+    {
+     "title": "함양군, 햇빛소득마을 이장교육…지역경제 활성화 기대",
+     "url": "https://www.newsis.com/view/NISX20261119_0003875245",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "박은정",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'원구성 122일 파행' 대덕구의회, 업무추진비 지원 여야 한통속",
+     "url": "https://www.yna.co.kr/view/AKR20261120128400063",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "박은정 대덕구의원, 교섭단체 운영지원 위한 제도적 근거 마련",
+     "url": "https://news.tf.co.kr/read/national/2391669.htm",
+     "source": "더팩트"
+    },
+    {
+     "title": "122일 파행 빚더니…의원 의정활동 지원부터 서두르는 대덕구의회",
+     "url": "https://www.news1.kr/local/daejeon-chungnam/6360879",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": false
   }
  ]
 }
