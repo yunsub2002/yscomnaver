@@ -1,40 +1,12 @@
 {
- "updated": "2026-11-21T12:06:00+09:00",
- "prev_updated": "2026-11-21T08:09:00+09:00",
+ "updated": "2026-11-21T19:54:00+09:00",
+ "prev_updated": "2026-11-21T12:06:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "패딩",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "올겨울 패딩 구입 더는 미룰 수 없어요",
-     "url": "https://www.elle.co.kr/article/1913376",
-     "source": "엘르 코리아 │ ELLE KOREA"
-    },
-    {
-     "title": "이번 주부터 영하 시작! 한겨울을 위한 ‘헤비 다운 패딩’ 6",
-     "url": "https://www.esquirekorea.co.kr/article/1913425",
-     "source": "에스콰이어 코리아"
-    },
-    {
-     "title": "롱패딩 대신 이것 사라?…‘초강력 엘니뇨’가 만든 겨울 유행템",
-     "url": "https://www.koreadaily.com/article/20261120130043864",
-     "source": "미주중앙일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "동아일보",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "강원 fc 대 대전 하나 시티즌 순위",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
@@ -43,8 +15,8 @@
    "safe": true
   },
   {
-   "rank": 3,
-   "keyword": "경부선",
+   "rank": 2,
+   "keyword": "김종국",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
@@ -53,18 +25,46 @@
    "delta": 0,
    "news": [
     {
-     "title": "’경부선 화물열차 탈선’에 일반열차 멈춰…복구 장시간 소요",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261121101015fgK",
-     "source": "연합뉴스TV"
+     "title": "김종국 “내가 알기로는 월세만 2억”…이서진 “나사 온 줄” 감탄한 새 회사",
+     "url": "https://www.mk.co.kr/news/hot-issues/12215136",
+     "source": "매일경제"
     },
     {
-     "title": "경부선 화물열차 탈선…논술·면접 수험생 불편 우려",
-     "url": "https://weekly.khan.co.kr/article/202611211153001",
-     "source": "주간경향"
+     "title": "무엇이든 해줄지니 - 비서진 : 김종국, 감탄이 절로 나오는 독보적인 보이스로 고깃집에서 열창한",
+     "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/clip/90105/OC483687620?div=live_end",
+     "source": "programs.sbs.co.kr"
     },
     {
-     "title": "[속보] 코레일 \"천안∼조치원∼대전·서대전 구간 버스로 연계 수송\"",
-     "url": "https://www.yna.co.kr/view/AKR20261121028900063",
+     "title": "\"월세 2억\" 뉴욕대 금수저 이서진도 놀랐다···김종국 초호화 소속사 소개('비서진')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/21/GBRDAZTCGUZWEZLGGU2GGZRZMQ/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "중일 관계",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "일본 국민 61% “한국에 친근감”…86% “중국에 친근감 없어”",
+     "url": "https://www.khan.co.kr/article/202611211158001",
+     "source": "경향신문"
+    },
+    {
+     "title": "일본인 극과 극…‘한국에 친근감’ 62%, ‘중일관계 나쁘다’ 93%",
+     "url": "https://www.hani.co.kr/arti/international/international_general/1288434.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "한국에 친근감 느끼는 일본인, 62%로 역대 최고…중국엔 냉랭",
+     "url": "https://www.yna.co.kr/view/AKR20261121029800073",
      "source": "연합뉴스"
     }
    ],
@@ -72,35 +72,35 @@
   },
   {
    "rank": 4,
-   "keyword": "편의점",
+   "keyword": "성리",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "CU, 딘토와 '위니 더 푸' 색조 화장품 출시…책갈피 굿즈 동봉",
-     "url": "https://www.yna.co.kr/view/AKR20261119024400030",
-     "source": "연합뉴스"
+     "title": "성리→장한별 출연 '무명전설' 전국투어, 대구서 앵콜",
+     "url": "https://enter.etoday.co.kr/news/view/305549",
+     "source": "비즈엔터"
     },
     {
-     "title": "화장품 사면 곰돌이 푸 책갈피가…CU, 딘토와 색조 화장품 선봬",
-     "url": "https://zdnet.co.kr/view/?no=20261119134658",
-     "source": "지디넷코리아"
+     "title": "[단독]가수 하루, MBN '무명전설' 대구 앵콜콘 전석 매진",
+     "url": "https://www.thepublic.kr/news/articleView.html?idxno=327894",
+     "source": "더퍼블릭"
     },
     {
-     "title": "CU, 딘토 협업 '위니 더 푸' 색조 화장품 4종 출시",
-     "url": "https://www.etnews.com/20261119000188",
-     "source": "전자신문"
+     "title": "'무명전설' TOP7, 오늘(21일) 대구 앵콜…두 달 만에 무대 재개",
+     "url": "https://www.youthassembly.kr/news/1046311",
+     "source": "유스연합"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "두산베어스",
+   "keyword": "파워리프팅",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "스포츠",
@@ -109,54 +109,54 @@
    "delta": 0,
    "news": [
     {
-     "title": "돈 못지않은 ‘진정성’… 프로야구 FA전쟁[소소한 복도통신]",
-     "url": "https://www.munhwa.com/article/11632753",
-     "source": "문화일보"
+     "title": "\"허벅지 둘레 64cm\" 日 여성 선수, 227.5kg 번쩍! '체급의 3.6배' 괴력 미쳤다...\"생애 첫 세계대회서 데드리프트 金\"",
+     "url": "https://www.osen.co.kr/article/G1112911421",
+     "source": "OSEN"
     },
     {
-     "title": "두산·SSG도 원한다구? 사연 좀 들어볼까",
-     "url": "https://sports.khan.co.kr/article/202611200600016",
-     "source": "스포츠경향"
+     "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
+     "url": "https://www.seoul.co.kr/news/international/2026/11/20/20261120500051",
+     "source": "서울신문"
     },
     {
-     "title": "'이틀간 173억 계약 터졌다' 역대급 스토브리그 시작인가, 변수는 12월 ML 직장폐쇄…원태인·구자욱은 어디로?",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/19/HAZDGNZTGBRWEYZVGA2GCNJWME/",
-     "source": "조선일보"
+     "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
+     "url": "https://m.seoul.co.kr/news/international/2026/11/20/20261120500051",
+     "source": "서울신문"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "nh농협카드",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "k리그1",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“뛰어난 활약으로 브랜드 가치 높였다” NH농협카드 당구단, 농협금융스포츠단 납회식서 높은 평가",
-     "url": "https://mkbn.mk.co.kr/news/sports/12215015",
-     "source": "mkbn.mk.co.kr"
+     "title": "수원 삼성, K리그2 우승‥이정효 감독 \"14위부터 다시 시작\"",
+     "url": "https://imnews.imbc.com/news/2026/sports/article/6867487_36946.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "NH농협금융, '2026 스포츠단 납회식' 개최…선수단 격려",
-     "url": "https://www.newspim.com/news/view/20261118001359",
-     "source": "뉴스핌"
+     "title": "승리의 기쁨",
+     "url": "https://www.news1.kr/photos/8226316",
+     "source": "뉴스1"
     },
     {
-     "title": "NH농협금융, '스포츠단 납회식'",
-     "url": "https://www.metroseoul.co.kr/article/20261118500266",
-     "source": "메트로신문"
+     "title": "'1부 승격' 수원 삼성, 경남 꺾고 K리그2 우승까지 확정",
+     "url": "https://www.yna.co.kr/view/AKR20261121039700007",
+     "source": "연합뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "매일경제",
+   "keyword": "삼성 엑시노스",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -165,47 +165,47 @@
    "delta": 0,
    "news": [
     {
-     "title": "국방홍보원, 매일경제와 국방·안보 콘텐츠 발굴 위한 MOU 체결",
-     "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6360931",
-     "source": "뉴스1"
+     "title": "GameNative's new update brings reliable PC gaming to Pixels and Samsung Exynos",
+     "url": "https://tech.yahoo.com/gaming/articles/gamenatives-brings-reliable-pc-gaming-124728335.html",
+     "source": "Yahoo Tech"
     },
     {
-     "title": "국방홍보원·매일경제 손잡았다…국방·안보 콘텐츠 협력 강화",
-     "url": "https://www.mk.co.kr/news/politics/12214688",
-     "source": "매일경제"
+     "title": "GameNative just fixed PC gaming on Pixels and Exynos-powered Galaxy phones",
+     "url": "https://www.androidauthority.com/gamenative-update-pixels-exynos-galaxy-phones-3737053/",
+     "source": "Android Authority"
     },
     {
-     "title": "[포토] 국방·안보 홍보 협력 강화 위한 업무협약 체결",
-     "url": "https://www.fntoday.co.kr/news/articleView.html?idxno=399546",
-     "source": "파이낸스투데이"
+     "title": "GameNative Android PC game emulator prepares graphics fixes for Mali, PowerVR and Xclipse GPUs",
+     "url": "https://videocardz.com/newz/gamenative-android-pc-game-emulator-prepares-graphics-fixes-for-mali-powervr-and-xclipse-gpus",
+     "source": "VideoCardz.com"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "전북특별자치도",
+   "keyword": "멜라니아 트럼프",
    "traffic": "100+",
    "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "전북도, 서해안과 내륙 잇는 도로망 53㎞ 정비 '속도'",
-     "url": "https://www.yna.co.kr/view/AKR20261120061500055",
+     "title": "멜라니아 새 다큐 공개…\"트럼프 주변에 '예스맨' 너무 많아\"",
+     "url": "https://www.yna.co.kr/view/AKR20261121028300075",
      "source": "연합뉴스"
     },
     {
-     "title": "전북자치도, 서해안·내륙 도로망 53㎞ 정비 속도…군산·고창·정읍 12월 준공 목표",
-     "url": "https://www.greened.kr/news/articleView.html?idxno=355158",
-     "source": "녹색경제신문"
+     "title": "'멜라니아: 더 시리즈' 시사회 참석한 멜라니아 여사",
+     "url": "https://mobile.newsis.com/photo/NISI20261120_0002297858",
+     "source": "뉴시스"
     },
     {
-     "title": "전북도, 국·지방도 8개 사업 53㎞ 정비…서해안·내륙 연결 강화",
-     "url": "https://www.newspim.com/news/view/20261120000371",
-     "source": "뉴스핌"
+     "title": "트럼프와 결혼 생활? 아내 멜라니아 “남편에게 진실 말한다…주변에 ‘예스맨’ 너무 많아”",
+     "url": "https://biz.heraldcorp.com/article/10944750",
+     "source": "헤럴드경제"
     }
    ],
    "safe": true
