@@ -5598,5 +5598,47 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-21T19:54:00+09:00"
+},
+{
+"id": "n69572b61ad",
+"cat": "festival",
+"title": "갈매 아이&유 거리축제 2차, 11월 28~29일 개최",
+"source": "culturegb.com",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsRnhZTjBiMzB0VHJKdzlwVjFIRWpIZXByOG9fa25uTFRXbG5sNEpGS3UxTWZkS2dNQzlfOXZwQ1VXd2I1cjRjMDNnTzhCb014OW9HQVhDdnVJX2Zv?oc=5",
+"pub": "2026-11-21T23:48:00+09:00",
+"region": "",
+"period": "11/28~11/29",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T02:56:00+09:00"
+},
+{
+"id": "n91f8393876",
+"cat": "show",
+"title": "세종시립도서관서 12월 4일 저녁 어린이뮤지컬 '구둣방 할아버지와 요정들' 공연",
+"source": "메트로세종",
+"url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IM2dGa2NtX3NxeXJ6Um1wRjktVW1GNFJvYVplYmN2S3phWTNnZURLZEMxWVUyWWU4eHBnRGxMMTdhRGYtMjItT0FKcjVtY2ltUS1FTm1zN0RLSDE3NDBBV0tFZEtzb28taTdz0gFvQVVfeXFMTk9mMk5RU1c2TTlJVG1CZkxuMkFnVDFqMEw5azdUTjlhR244b0tyUVM0TVBETUtwc3dxZlM3RzRMWENrQjVhR3hKOWJuNHhyZE1jVnZ5Vl9rQVBDb1BCanVTSXZzcU9TRWNoTUpndHM4?oc=5",
+"pub": "2026-11-21T11:46:06+09:00",
+"region": "세종",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T02:56:00+09:00"
+},
+{
+"id": "e31fb88d4a2",
+"cat": null,
+"title": "거리축제",
+"source": "culturegb.com",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsRnhZTjBiMzB0VHJKdzlwVjFIRWpIZXByOG9fa25uTFRXbG5sNEpGS3UxTWZkS2dNQzlfOXZwQ1VXd2I1cjRjMDNnTzhCb014OW9HQVhDdnVJX2Zv?oc=5",
+"pub": "2026-11-21T23:48:00+09:00",
+"region": "",
+"period": "11/28~11/29",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-22T02:56:00+09:00"
 }
 ]
