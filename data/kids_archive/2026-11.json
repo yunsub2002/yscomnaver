@@ -5640,5 +5640,61 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-22T02:56:00+09:00"
+},
+{
+"id": "n79174745a4",
+"cat": "trend",
+"title": "EBS 인기 캐릭터 강릉에 총출동…‘하슬랑’과 가족 뮤지컬 무대 꾸민다",
+"source": "쿠키뉴스",
+"url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yV2xxUnVKTGpMZ1BDOGJ3ellfckFoMmlXVEtFSUhxMjJEbFJxWEMzbTJPQWkwNHEzU3dhU3FpMWp0WW9fMEg3a2ROcjM5d29CTmxPTF85TGlnY05qVWpOc2YtTQ?oc=5",
+"pub": "2026-11-21T20:46:30+09:00",
+"region": "강릉",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T08:02:00+09:00"
+},
+{
+"id": "n9cbeb18b8f",
+"cat": "show",
+"title": "괴산 느티울어린이합창단, 제8회 정기공연…'조금 느리게 자라는 날개'",
+"source": "국제뉴스",
+"url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ScURFVC0yRWxQcjVRLW4ycUVFdmVEWkNaclpJVHhUQ1pqMFV2dC1ZVmZ6dDVuYVBYTmF5bFlFY1o2SHhZbmlBc1V5MDVNR0tpN09nbkZ1UUx1cXdub1FmQ29KU0hKSC1VcVlfVHVn?oc=5",
+"pub": "2026-11-21T19:31:44+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T08:02:00+09:00"
+},
+{
+"id": "n89c5253849",
+"cat": "festival",
+"title": "용인시, 지역 공예작가와 ‘나도 금손’ 체험행사 개최",
+"source": "잡포스트",
+"url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05cC0tUDE5TjcxY1h6NllJZk9QMU1vVVRKWXBaU3IwT01pRnF4NEE1bVl0Zm94OFhUTnpkbTJGb1VONDRSTXlVcjlQRzlHZWduQUw5OFBpUlhmTUFNbUJocUFhanJEeXY2azVfS2JVczRlUdIBckFVX3lxTE05cC0tUDE5TjcxY1h6NllJZk9QMU1vVVRKWXBaU3IwT01pRnF4NEE1bVl0Zm94OFhUTnpkbTJGb1VONDRSTXlVcjlQRzlHZWduQUw5OFBpUlhmTUFNbUJocUFhanJEeXY2azVfS2JVczRlUQ?oc=5",
+"pub": "2026-11-20T16:02:01+09:00",
+"region": "용인",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T08:02:00+09:00"
+},
+{
+"id": "n41d74c63d2",
+"cat": "festival",
+"title": "홍성군, 초등학생 140여 명과 어린이 안전골든벨 개최",
+"source": "투데이플러스",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxX1ZFd25UQURTb0FZeXEyYk1NZFN2Z25MclR1bVNmT2FZTDBOdnRENm5WeVNVRmhmMUJvMll3dXE5NGRMdU1KTjVYZkJaQk82cnBOc3RJTkFacFRPbUpxVUkyaWVVLU8w?oc=5",
+"pub": "2026-11-20T06:19:00+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T08:02:00+09:00"
 }
 ]

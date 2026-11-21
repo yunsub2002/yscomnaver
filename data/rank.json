@@ -1,155 +1,255 @@
 {
- "updated": "2026-11-22T02:56:00+09:00",
- "prev_updated": "2026-11-22T01:12:00+09:00",
+ "updated": "2026-11-22T08:02:00+09:00",
+ "prev_updated": "2026-11-22T02:56:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "뉴캐슬 대 아스널",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "구자욱",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "‘아스널 희소식’ 살리바 복귀 임박! ‘英 대표’ 콘사로 유지한 방패, 더 단단해진다",
-     "url": "https://www.footballist.co.kr/news/articleView.html?idxno=217112",
-     "source": "풋볼리스트"
+     "title": "‘MLB 사무국 신분조회 요청’ FA 최대어 구자욱, 정말 ML 진출할까…12월 직장폐쇄 전 결정된다 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/21/202611210648774670O",
+     "source": "머니투데이"
     },
     {
-     "title": "뉴캐슬 복귀와 아스날에서 브루노 기마랑이스의 큰 도전",
-     "url": "https://ko.laodong.vn/bong-da-quoc-te/ngay-tro-lai-newcastle-va-thach-thuc-lon-cua-bruno-guimaraes-tai-arsenal-1803974.ldo",
-     "source": "Laodong.vn"
+     "title": "'충격 200억' 야구 재벌 눈앞인데, 찬밥 대우 미국으로? 이대호 사례로, 구자욱 미래도 보인다",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/20/ME3TSMBQGU3TMMJVGRSGIODFGY/",
+     "source": "조선일보"
     },
     {
-     "title": "뉴캐슬 대 아스널 ​​축구 경기 생중계: 프리미어 리그 11라운드",
-     "url": "https://www.vietnam.vn/ko/truc-tiep-bong-da-newcastle-vs-arsenal-vong-11-ngoai-hang-anh",
-     "source": "Vietnam.vn"
+     "title": "샴페인 마르기도 전에 찾아온 'FA 3중고'… 왕조 재건 노리는 삼성, 외부 FA는 신경쓸 틈 조차 없다",
+     "url": "https://star.fnnews.com/article/202611190838400274",
+     "source": "fn스타"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "채령",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "up",
-   "delta": 2,
-   "news": [],
+   "keyword": "젠슨 황",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“낙태했어야” “머리 열어 소변” “금붕어”…안하무인 젠슨황 父女",
+     "url": "https://www.donga.com/news/Inter/article/all/20261121/135065038/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "“불륜 아니다” “너의 뇌에 오줌 누겠다”···젠슨 황 퇴출 부른 건 거짓말과 상습 폭언",
+     "url": "https://www.khan.co.kr/article/202611211444001",
+     "source": "경향신문"
+    },
+    {
+     "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
+     "url": "https://stock.mk.co.kr/news/view/1203585",
+     "source": "매일경제 마켓"
+    }
+   ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "권순우",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "ai 데이터 센터",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'타이브레이크 역전쇼' 권순우, 시즌 4번째 4강 [ATP 메츠챌린저]",
-     "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54344",
-     "source": "테니스코리아"
+     "title": "李, 울산 전통시장서 “내년에는 좀 더 좋아질 것”…‘최애’ 배추전 구입",
+     "url": "https://www.donga.com/news/Politics/article/all/20261121/135065075/2",
+     "source": "동아일보"
     },
     {
-     "title": "권순우, 프랑스 메츠 챌린저 결승 진출…2시간 7분 혈투 뒤 역전승",
-     "url": "http://m.tennispeople.kr/news/articleView.html?idxno=19876",
-     "source": "테니스피플"
+     "title": "산업화의 중심 울산, AI 시대 새로운 도약을 기대합니다.",
+     "url": "https://www.president.go.kr/social-media/2iOowGQS",
+     "source": "대한민국 청와대"
     },
     {
-     "title": "권순우, 프리즈미치 잡고 메츠 챌린저 4강 진출",
-     "url": "http://m.tennispeople.kr/news/articleView.html?idxno=19875",
-     "source": "테니스피플"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "엑셀방송",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "성노예→학대 사이버 룸살롱 ‘엑셀’ 파헤친다 (그것이 알고싶다)",
-     "url": "https://sports.donga.com/ent/article/all/20261120/135062142/1",
-     "source": "스포츠동아"
-    },
-    {
-     "title": "'그것이 알고싶다'(그알) 딸의 방송 본 아버지 제보로 드러난 '엑셀 방송' 실태",
-     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3759174",
-     "source": "국제뉴스"
-    },
-    {
-     "title": "벗고 때리고 괴식 먹이고…'그알', '사이버 룸살롱' 엑셀 방송 실태 파헤친다",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855261",
-     "source": "SBS 뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "장동혁",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "same",
-   "delta": 0,
-   "news": [
-    {
-     "title": "이 대통령 \"5500억 환수가 배임이면…\" 대장동 업자 인터뷰 SNS에 공유",
-     "url": "https://news.jtbc.co.kr/article/NB12329146",
-     "source": "JTBC"
-    },
-    {
-     "title": "장동혁 \"억울하면 재판 받아라\"…민주 \"크게 착각\"",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261121165813814",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "이 대통령, 대장동 인터뷰 공유…“5,500억 공익 환수가 배임인가”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719095",
+     "title": "이 대통령, 울산 AI 데이터센터 현장 방문…“속도가 생명”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719207",
      "source": "KBS 뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 6,
-   "keyword": "토트넘 홋스퍼 fc 대 입스위치 타운 fc 라인업",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 4,
+   "keyword": "지수",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "Match commentary and highlights: Tottenham 2-0 Ipswich",
-     "url": "https://www.skysports.com/football/live-blog/13610687/tottenham-vs-ipswich-live-premier-league-match-updates-news-and-score",
-     "source": "Sky Sports"
+     "title": "골드만삭스 패닉지수 최고치 근접…다음주도 매도세 지속 경고",
+     "url": "https://www.yna.co.kr/view/AKR20261122000800072",
+     "source": "연합뉴스"
     },
     {
-     "title": "Roberto De Zerbi reveals how long Mathys Tel will be missing for Tottenham",
-     "url": "https://www.spurs-web.com/spurs-news/roberto-de-zerbi-reveals-how-long-mathys-tel-will-be-missing-for-tottenham/",
-     "source": "Spurs Web"
+     "title": "골드만삭스 ‘패닉지수’ 10점 만점에 9점…다음주도 매도 압력 지속 경고",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719291",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "Licensable picture: Premier League - Tottenham Hotspur v Ipswich Town",
-     "url": "https://www.reutersconnect.com/item/premier-league-tottenham-hotspur-v-ipswich-town/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxOVJTU0M",
-     "source": "Reuters Connect"
+     "title": "골드만삭스 \"공포 지수 9점 육박…다음 주 추가 투매 나올수도\"",
+     "url": "https://www.hankyung.com/article/202611211574i",
+     "source": "한국경제"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "이정효",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“내년엔 꼴찌부터 시작”···리그 우승 확정에 이정효는 냉정했다",
+     "url": "https://www.khan.co.kr/article/202611212030001",
+     "source": "경향신문"
+    },
+    {
+     "title": "'이것이 대한민국 축구 명문의 역사다' 수원삼성, K리그2 우승으로 한국 프로축구 최초 대기록 완성...1·2부부터 아시아 정상까지 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/22/202611212222776505O",
+     "source": "머니투데이"
+    },
+    {
+     "title": "승리의 기쁨",
+     "url": "https://www.news1.kr/photos/8226316",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "강사",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "일타 강사인가 ‘일탈’ 강사인가",
+     "url": "https://www.chosun.com/national/weekend/2026/11/21/PHM6NQOYUBHKJCLZ4YT3S5R234/",
+     "source": "조선일보"
+    },
+    {
+     "title": "“너는 못 쓰게 되지 않았다”…수능 뒤 일타강사 위로에 ‘울컥’",
+     "url": "https://www.edaily.co.kr/News/Read?newsId=04241046645647688&mediaCodeNo=257",
+     "source": "이데일리"
+    },
+    {
+     "title": "수험생 팽개친 ‘먹튀 논란’ 강사 이도…넷플릭스는 편집 왜 안했나",
+     "url": "https://www.mk.co.kr/news/it/12214982",
+     "source": "매일경제"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 7,
+   "keyword": "추미애",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼”",
+     "url": "https://www.khan.co.kr/article/202611211912001",
+     "source": "경향신문"
+    },
+    {
+     "title": "여 “사법정의 바로세워야”…야 “친위쿠데타 심판”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719307",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "한동훈 \"與, 조희대 탄핵 발의 12월 3일 꼭 하라... 모두 감옥갈 것\"",
+     "url": "https://www.chosun.com/politics/politics_general/2026/11/21/I2RBF6PPEJBOFHWRFYN6BRZCPQ/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "최미나수",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "최미나수, 노출 드레스 입고 '몸 덜덜'...김연경 \"괜찮냐\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112107404471705",
+     "source": "머니투데이"
+    },
+    {
+     "title": "[사진]앤팀 마키 '앞에 거울이 있나? 눈이 부시네'",
+     "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/22/G4ZGEOJRGBSDMYTFMFQTOZJYG4/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "드레스 입고 덜덜 떤 최미나수…김연경 \"괜찮으세요?\"",
+     "url": "https://www.newsis.com/view/NISX20261121_0003877589",
+     "source": "뉴시스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "쇼트트랙",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "최민정, 안방서 쇼트트랙 월드투어 여자 1,000ｍ 3연속 우승",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719143",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "'첫 금' 신동민, 男쇼트트랙 위기 평가에 \"조금만 기다려주세요\"",
+     "url": "https://www.yna.co.kr/view/AKR20261121047400007",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "'은퇴 예고' 최민정, 쇼트트랙 월드투어 1000m 3연속 금메달",
+     "url": "https://imnews.imbc.com/news/2026/sports/article/6867495_36946.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": true
