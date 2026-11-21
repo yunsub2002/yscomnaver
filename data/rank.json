@@ -1,12 +1,96 @@
 {
- "updated": "2026-11-21T19:54:00+09:00",
- "prev_updated": "2026-11-21T12:06:00+09:00",
+ "updated": "2026-11-22T01:12:00+09:00",
+ "prev_updated": "2026-11-21T19:54:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "강원 fc 대 대전 하나 시티즌 순위",
+   "keyword": "첼시 대 리즈 유나이티드",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "첼시 대 리즈: 상대 전적 통계 및 역사적 이정표",
+     "url": "https://ko.laodong.vn/bong-da-quoc-te/chelsea-vs-leeds-thong-ke-doi-dau-va-nhung-cot-moc-lich-su-1803727.ldo",
+     "source": "Laodong.vn"
+    },
+    {
+     "title": "첼시와 알론소 감독이 직면한 어려운 딜레마.",
+     "url": "https://www.vietnam.vn/ko/chelsea-va-bai-toan-nan-giai-cho-hlv-alonso",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "첼시 vs 리즈 경기 예측: 우승 경쟁의 뜨거운 승부",
+     "url": "https://www.vietnam.vn/ko/nhan-dinh-chelsea-vs-leeds-diem-nong-cuoc-dua-top-dau",
+     "source": "Vietnam.vn"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "ai 버블",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "개미들 덮친 170조 폭탄…패닉셀 부른 '숨은 리스크' 있었다",
+     "url": "https://www.hankyung.com/article/202611211559i",
+     "source": "한국경제"
+    },
+    {
+     "title": "나스닥 5.3% 폭락 '검은 금요일'‥올해 상승분 모두 반납",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6867504_37004.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "뉴욕증시 또 급락…“돌파구가 보이지 않아”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719192",
+     "source": "KBS 뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "코번트리 대 크리스털 팰리스",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "Coventry vs Crystal Palace LIVE! Premier League match updates, news and score",
+     "url": "https://www.skysports.com/football/live-blog/13610683/coventry-vs-crystal-palace-live-premier-league-match-updates-news-and-score",
+     "source": "Sky Sports"
+    },
+    {
+     "title": "Coventry City vs Crystal Palace: Premier League preview, team news, stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/c6pw42nwwgvjt",
+     "source": "BBC"
+    },
+    {
+     "title": "Licensable picture: Premier League - Coventry City v Crystal Palace",
+     "url": "https://www.reutersconnect.com/item/premier-league-coventry-city-v-crystal-palace/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxNkZISVA",
+     "source": "Reuters Connect"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "채령",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
@@ -15,120 +99,36 @@
    "safe": true
   },
   {
-   "rank": 2,
-   "keyword": "김종국",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "김종국 “내가 알기로는 월세만 2억”…이서진 “나사 온 줄” 감탄한 새 회사",
-     "url": "https://www.mk.co.kr/news/hot-issues/12215136",
-     "source": "매일경제"
-    },
-    {
-     "title": "무엇이든 해줄지니 - 비서진 : 김종국, 감탄이 절로 나오는 독보적인 보이스로 고깃집에서 열창한",
-     "url": "https://programs.sbs.co.kr/enter/mygeniesecretary/clip/90105/OC483687620?div=live_end",
-     "source": "programs.sbs.co.kr"
-    },
-    {
-     "title": "\"월세 2억\" 뉴욕대 금수저 이서진도 놀랐다···김종국 초호화 소속사 소개('비서진')",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/21/GBRDAZTCGUZWEZLGGU2GGZRZMQ/",
-     "source": "조선일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "중일 관계",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "일본 국민 61% “한국에 친근감”…86% “중국에 친근감 없어”",
-     "url": "https://www.khan.co.kr/article/202611211158001",
-     "source": "경향신문"
-    },
-    {
-     "title": "일본인 극과 극…‘한국에 친근감’ 62%, ‘중일관계 나쁘다’ 93%",
-     "url": "https://www.hani.co.kr/arti/international/international_general/1288434.html",
-     "source": "한겨레"
-    },
-    {
-     "title": "한국에 친근감 느끼는 일본인, 62%로 역대 최고…중국엔 냉랭",
-     "url": "https://www.yna.co.kr/view/AKR20261121029800073",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "성리",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "성리→장한별 출연 '무명전설' 전국투어, 대구서 앵콜",
-     "url": "https://enter.etoday.co.kr/news/view/305549",
-     "source": "비즈엔터"
-    },
-    {
-     "title": "[단독]가수 하루, MBN '무명전설' 대구 앵콜콘 전석 매진",
-     "url": "https://www.thepublic.kr/news/articleView.html?idxno=327894",
-     "source": "더퍼블릭"
-    },
-    {
-     "title": "'무명전설' TOP7, 오늘(21일) 대구 앵콜…두 달 만에 무대 재개",
-     "url": "https://www.youthassembly.kr/news/1046311",
-     "source": "유스연합"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 5,
-   "keyword": "파워리프팅",
+   "keyword": "장동혁",
    "traffic": "200+",
    "label": "약 200회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"허벅지 둘레 64cm\" 日 여성 선수, 227.5kg 번쩍! '체급의 3.6배' 괴력 미쳤다...\"생애 첫 세계대회서 데드리프트 金\"",
-     "url": "https://www.osen.co.kr/article/G1112911421",
-     "source": "OSEN"
+     "title": "이 대통령 \"5500억 환수가 배임이면…\" 대장동 업자 인터뷰 SNS에 공유",
+     "url": "https://news.jtbc.co.kr/article/NB12329146",
+     "source": "JTBC"
     },
     {
-     "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
-     "url": "https://www.seoul.co.kr/news/international/2026/11/20/20261120500051",
-     "source": "서울신문"
+     "title": "이 대통령 “공익환수가 배임인가” 나경원 “주가 바닥을 치고 있어”",
+     "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338617",
+     "source": "미디어오늘"
     },
     {
-     "title": "“귀여운 외모에 반전 괴력” 허벅지 두께 무려 64㎝…세계 놀라게 한 日여성 [월드픽]",
-     "url": "https://m.seoul.co.kr/news/international/2026/11/20/20261120500051",
-     "source": "서울신문"
+     "title": "장동혁 \"억울하면 재판 받아라\"…민주 \"크게 착각\"",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261121165813814",
+     "source": "연합뉴스TV"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
    "rank": 6,
-   "keyword": "k리그1",
+   "keyword": "쇼메이커",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "스포츠",
@@ -137,26 +137,54 @@
    "delta": 0,
    "news": [
     {
-     "title": "수원 삼성, K리그2 우승‥이정효 감독 \"14위부터 다시 시작\"",
-     "url": "https://imnews.imbc.com/news/2026/sports/article/6867487_36946.html",
-     "source": "MBC 뉴스"
+     "title": "[단독] ‘카나비’ 서진혁, ‘씨맥’ 품으로 가나… DK행 유력, 최종 협상 진행 중",
+     "url": "https://www.koreadaily.com/article/20261119231915586",
+     "source": "미주중앙일보"
     },
     {
-     "title": "승리의 기쁨",
-     "url": "https://www.news1.kr/photos/8226316",
-     "source": "뉴스1"
+     "title": "[오피셜] T1 떠난 ‘도란’ 최현준, DK 유니폼 입는다… ‘카나비’와 함께 상체 구축",
+     "url": "https://www.osen.co.kr/article/G1112913126",
+     "source": "OSEN"
     },
     {
-     "title": "'1부 승격' 수원 삼성, 경남 꺾고 K리그2 우승까지 확정",
-     "url": "https://www.yna.co.kr/view/AKR20261121039700007",
-     "source": "연합뉴스"
+     "title": "‘쇼메이커·스매쉬·씨맥’ 잔류…디플러스 기아, 핵심 전력 지켰다",
+     "url": "https://www.kukinews.com/article/view/kuk202611200021",
+     "source": "쿠키뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "삼성 엑시노스",
+   "keyword": "우니온 베를린 대 라이프치히",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "Confirmed lineups: 1.FC Union Berlin vs. RB Leipzig",
+     "url": "https://sports.yahoo.com/articles/confirmed-lineups-1-fc-union-133000412.html",
+     "source": "Yahoo Sports"
+    },
+    {
+     "title": "Union Berlin vs RB Leipzig: German Bundesliga stats & head-to-head",
+     "url": "https://www.bbc.com/sport/football/live/c6vg2pxggjzpt",
+     "source": "BBC"
+    },
+    {
+     "title": "Licensable picture: Bundesliga - 1. FC Union Berlin v RB Leipzig",
+     "url": "https://www.reutersconnect.com/item/bundesliga-1-fc-union-berlin-v-rb-leipzig/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxNUVYRzI",
+     "source": "Reuters Connect"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "민효린",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -165,26 +193,26 @@
    "delta": 0,
    "news": [
     {
-     "title": "GameNative's new update brings reliable PC gaming to Pixels and Samsung Exynos",
-     "url": "https://tech.yahoo.com/gaming/articles/gamenatives-brings-reliable-pc-gaming-124728335.html",
-     "source": "Yahoo Tech"
+     "title": "빅뱅, 데뷔 20주년에 'MAMA' 수상 겹경사..\"기분 좋은 상\"",
+     "url": "https://www.chosun.com/entertainments/music/2026/11/21/MQ4DAMLFGBTDGZBTMQZTSOBRHE/",
+     "source": "조선일보"
     },
     {
-     "title": "GameNative just fixed PC gaming on Pixels and Exynos-powered Galaxy phones",
-     "url": "https://www.androidauthority.com/gamenative-update-pixels-exynos-galaxy-phones-3737053/",
-     "source": "Android Authority"
+     "title": "빅뱅 태양, 무대를 지배하는 자",
+     "url": "https://www.news1.kr/photos/8226435",
+     "source": "뉴스1"
     },
     {
-     "title": "GameNative Android PC game emulator prepares graphics fixes for Mali, PowerVR and Xclipse GPUs",
-     "url": "https://videocardz.com/newz/gamenative-android-pc-game-emulator-prepares-graphics-fixes-for-mali-powervr-and-xclipse-gpus",
-     "source": "VideoCardz.com"
+     "title": "지드래곤도 감당 안되는 5대5 긴 생머리 '파격'..수상소감 방해하자 '대성 투입' [핫피플]",
+     "url": "https://www.koreadaily.com/article/20261121034550373",
+     "source": "미주중앙일보"
     }
    ],
    "safe": true
   },
   {
-   "rank": 8,
-   "keyword": "멜라니아 트럼프",
+   "rank": 9,
+   "keyword": "장동민",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "연예·방송",
@@ -193,22 +221,22 @@
    "delta": 0,
    "news": [
     {
-     "title": "멜라니아 새 다큐 공개…\"트럼프 주변에 '예스맨' 너무 많아\"",
-     "url": "https://www.yna.co.kr/view/AKR20261121028300075",
-     "source": "연합뉴스"
+     "title": "‘독박투어’ 김재원 “역사 잘 알면 사람이 삐딱해져”",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/525580",
+     "source": "iMBC 연예"
     },
     {
-     "title": "'멜라니아: 더 시리즈' 시사회 참석한 멜라니아 여사",
-     "url": "https://mobile.newsis.com/photo/NISI20261120_0002297858",
-     "source": "뉴시스"
+     "title": "인기 여행 예능프로그램, 김해 소개한다",
+     "url": "http://www.gnmaeil.com/news/articleView.html?idxno=599140",
+     "source": "경남매일"
     },
     {
-     "title": "트럼프와 결혼 생활? 아내 멜라니아 “남편에게 진실 말한다…주변에 ‘예스맨’ 너무 많아”",
-     "url": "https://biz.heraldcorp.com/article/10944750",
-     "source": "헤럴드경제"
+     "title": "'독박투어' 김준호, “아빠는 역사 다 알지” 김해 역사 투어에서 준비된 '아빠미’ 폭발",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021166",
+     "source": "SPOTV NEWS"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
