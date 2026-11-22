@@ -1,16 +1,44 @@
 {
- "updated": "2026-11-22T11:22:00+09:00",
- "prev_updated": "2026-11-22T08:02:00+09:00",
+ "updated": "2026-11-22T11:58:00+09:00",
+ "prev_updated": "2026-11-22T11:22:00+09:00",
  "items": [
   {
    "rank": 1,
+   "keyword": "이강인",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "이제는 내가 간판! 이강인, 2년 연속 AFC 국제선수상 영예",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718835",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "'LEE, 韓 넘어 아시아 역사 새로 쓴 스타' 이강인, 2년 연속 AFC 올해의 국제선수상 영광→스페인도 극찬 폭발",
+     "url": "https://www.chosun.com/sports/football/2026/11/22/G4ZWMMZUMM2WINLGMFSWMMRTHE/",
+     "source": "조선일보"
+    },
+    {
+     "title": "'손흥민도 못한 대기록 썼다!' 이강인, AFC 올해의 국제선수상 2연패…한국 축구 새 역사상 최초 대기록 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/20/202611202046774062O",
+     "source": "머니투데이"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 2,
    "keyword": "도경완",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "'한강뷰 120억' 도경완, 자차는 1억 후반대 외체자('도장TV')",
@@ -23,78 +51,106 @@
      "source": "스포츠서울"
     },
     {
-     "title": "도경완, 유타서 A사 신차 시승…현재 운용 차도 A사",
-     "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=626845",
-     "source": "메디컬투데이"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "수출규제",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "젠슨황發 美반도체 수출 규제에 삼성·TSCM도 부담",
-     "url": "https://www.segye.com/newsView/20261120506261",
-     "source": "세계일보"
-    },
-    {
-     "title": "러트닉 미 상무, '엔비디아 스캔들 연루 위기' 넘어 건재 과시",
-     "url": "https://www.yna.co.kr/view/AKR20261122016400009",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "삼성전자도 결국 멈췄다...중국 '초비상'",
-     "url": "https://magazine.hankyung.com/business/article/202611211279b",
-     "source": "한경매거진"
+     "title": "'장윤정♥' 도경완, '가난 코스프레' 역풍 속…자차는 '1억 9천만원' 외제차' [엑's 이슈]",
+     "url": "https://www.xportsnews.com/article/2221846",
+     "source": "엑스포츠뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "수험",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "플라이 투 더 스카이",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "플라이 투 더 스카이, 오늘(21일) 오랜 공백 깨고 완전체 컴백",
+     "url": "https://m.imbc.com/enews/view/525574",
+     "source": "MBC"
+    },
+    {
+     "title": "'살림남' 환희, 28년 만에 브라이언 성대 모사 도전! 또다시 앙숙되나? - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112115257285737",
+     "source": "머니투데이"
+    },
+    {
+     "title": "은지원, 플투 컴백에 묵직한 한 마디 \"멤버에 의지하는 기분 알아\"(살림남2)",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/22/GYZTEM3BMYYTGZLGG5STIOBSMQ/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "영구자석",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
    "cat": "IT·테크",
    "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "AI 의혹 리트 만점자 5줄 유서서 “죽어도 가서 죽으려 했는데…”",
-     "url": "https://www.munhwa.com/article/11633008",
-     "source": "문화일보"
+     "title": "Bunker Hill, 케냐 희토류 프로젝트 독점 협상 대상 선정",
+     "url": "https://kr.investing.com/news/company-news/article-93CH-2185239",
+     "source": "Investing.com 한국어"
     },
     {
-     "title": "'피의자 사망' 살충제사건 풀었던 경찰 '리트만점 수사' 시험대",
-     "url": "https://www.yna.co.kr/view/AKR20261120178000004",
-     "source": "연합뉴스"
+     "title": "中 희토류·영구자석 수출 제한에 발목 잡힌 로봇업계",
+     "url": "https://biz.chosun.com/industry/company/2026/11/22/APY3F3POSVGTHL3VG6YMAEW3II/",
+     "source": "Chosunbiz"
     },
     {
-     "title": "이진우 씨 사망 전 배회 CCTV 공개…한 살 아이 얼굴 '퍽'[주간HIT영상]",
-     "url": "https://www.news1.kr/society/general-society/6361254",
-     "source": "뉴스1"
+     "title": "中 밀어낸 美, 케냐 희토류 광산 선점…수십조원 광물 확보전 승리",
+     "url": "https://www.dailian.co.kr/news/view/1717523/%E4%B8%AD-%EB%B0%80%EC%96%B4%EB%82%B8-%E7%BE%8E-%EC%BC%80%EB%83%90-%ED%9D%AC%ED%86%A0%EB%A5%98-%EA%B4%91%EC%82%B0-%EC%84%A0%EC%A0%90-2026",
+     "source": "데일리안"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "울산광역시",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "산업화의 중심 울산, AI 시대 새로운 도약을 기대합니다.",
+     "url": "https://www.president.go.kr/social-media/2iOowGQS",
+     "source": "대한민국 청와대"
+    },
+    {
+     "title": "이 대통령, 울산 전통시장 방문...\"내년은 조금 더 좋아질 것\"",
+     "url": "https://www.ytn.co.kr/_ln/0101_202611220924534819",
+     "source": "YTN"
+    },
+    {
+     "title": "김상욱 울산시장, 이재명 대통령에 남신항 에너지허브·부유식 해상풍력 실증사업 건의",
+     "url": "https://ujnews.co.kr/news/newsview.php?ncode=1065601365201470",
+     "source": "울산종합일보"
     }
    ],
    "safe": false
   },
   {
-   "rank": 4,
+   "rank": 6,
    "keyword": "담보 대출",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -2,
    "news": [
     {
      "title": "“주담대 금리 치솟아도 돈 빌릴 곳 없으니”…집단대출 늘며 잔액 증가폭 ‘쑥’",
@@ -115,42 +171,14 @@
    "safe": true
   },
   {
-   "rank": 5,
-   "keyword": "인공지능",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "LG유플러스, 2027년 조직개편…AI 사업 중심으로 판 바꾼다",
-     "url": "https://stock.mk.co.kr/news/view/1203689",
-     "source": "매일경제 마켓"
-    },
-    {
-     "title": "LGU+ 조직개편...AI 조직 재편으로 성과 속도전",
-     "url": "https://zdnet.co.kr/view/?no=20261122085359",
-     "source": "지디넷코리아"
-    },
-    {
-     "title": "LG유플러스, 부문장 전부 교체…AI 사업 실행력 높인다",
-     "url": "https://www.etnews.com/20261122000001",
-     "source": "전자신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
+   "rank": 7,
    "keyword": "오현규",
-   "traffic": "200+",
-   "label": "약 200회 이상",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
-   "delta": 0,
+   "move": "down",
+   "delta": -1,
    "news": [
     {
      "title": "“레전드 손흥민이 영입에 중요한 역할 할 수도”…토트넘, 공격진 보강 계획 속 ‘이적료 442억’ 오현규 영입 관심",
@@ -171,36 +199,8 @@
    "safe": true
   },
   {
-   "rank": 7,
-   "keyword": "김호영",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'카톡 친구 5000명' 김호영, 길에서 카드 주웠는데 \"아는 사람 거\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112119565318710",
-     "source": "머니투데이"
-    },
-    {
-     "title": "'지인 5천명' 김호영 소름..길에서 주운 신용카드까지 '호연지기' ('김호영')",
-     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/20/HEYTGNLBMYYDAZJQHFQWGY3CGA/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "김호영 길에서 주운 신용카드…주인은 실제 지인 : 연예",
-     "url": "https://news.jkn.co.kr/post/1113875",
-     "source": "재경일보"
-    }
-   ],
-   "safe": true
-  },
-  {
    "rank": 8,
-   "keyword": "마마 어워즈",
+   "keyword": "면세점",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
@@ -209,26 +209,26 @@
    "delta": 0,
    "news": [
     {
-     "title": "지드래곤도 감당 안되는 5대5 긴 생머리 '파격'..수상소감 방해하자 '대성 투입' [핫피플]",
-     "url": "https://www.koreadaily.com/article/20261121034550373",
-     "source": "미주중앙일보"
+     "title": "면세점 4사, 3분기 흑자에도 수익성 온도 차… 생존 전략 제각각",
+     "url": "https://www.newscj.com/news/articleView.html?idxno=3450289",
+     "source": "천지일보"
     },
     {
-     "title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
-     "url": "https://www.chosun.com/entertainments/music/2026/11/22/MQYDOZRQGBRTGYRTGJSWINTFMY/",
-     "source": "조선일보"
+     "title": "다시 출혈경쟁? 롯데 외형확장에 면세업계 긴장 [뉴스Q]",
+     "url": "https://www.newsq.co.kr/news/articleView.html?idxno=500945",
+     "source": "스포츠Q"
     },
     {
-     "title": "빅뱅 태양, 무대를 지배하는 자",
-     "url": "https://www.news1.kr/photos/8226435",
-     "source": "뉴스1"
+     "title": "방한객 급증에 숙박료 상승까지…호텔업계 '함박웃음'",
+     "url": "https://news.bizwatch.co.kr/article/consumer/2026/11/17/0032",
+     "source": "비즈워치"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "나경원",
+   "keyword": "파주시",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "사회·정치",
@@ -237,19 +237,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "국민의힘 “코스피 급락 ‘블랙먼데이’ 우려…긴급 대응 조치 준비해야”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719335",
-     "source": "KBS 뉴스"
+     "title": "파주시의회 옥승철 의원 5분 자유발언 \"교하동 신청사 건립, 더 이상 미뤄선 안돼\"",
+     "url": "https://nuriilbo.com/news/article.html?no=946569",
+     "source": "누리일보"
     },
     {
-     "title": "정점식 \"정부, 블랙먼데이 가능성 대비 긴급조치 준비해야\"",
-     "url": "https://www.yna.co.kr/view/AKR20261122016800001",
-     "source": "연합뉴스"
+     "title": "[우리는 의원, 파주시의회] 교하동 행정복지센터 신청사 건립 촉구…관광·교통 연계 도시정책 제안",
+     "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2385167",
+     "source": "웹이코노미"
     },
     {
-     "title": "나경원 \"주가 폭락인데 李대통령, '대장동 사건' 변호…무책임에 바닥이 없어\"",
-     "url": "https://www.newsis.com/view/NISX20261121_0003877688",
-     "source": "뉴시스"
+     "title": "옥승철 파주시의원 “미래 수요에 걸맞은 교하동 신청사 건립 시급… 구체적 계획·실행 나서야”",
+     "url": "https://pajusidae.com/article/25196",
+     "source": "파주시대"
     }
    ],
    "safe": false

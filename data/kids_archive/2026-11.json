@@ -5696,5 +5696,61 @@
 "end": null,
 "addr": null,
 "seen": "2026-11-22T08:02:00+09:00"
+},
+{
+"id": "n1a94001d58",
+"cat": "kidscafe",
+"title": "대구 서구 ‘드림팡팡키즈카페’, 개소 3주 만에 회원 6천270명 가입",
+"source": "매일일보",
+"url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1udjlsejlzZV82SG5wb0JmeGo4aGo1VGJ1dFA4RFlFM2JaRlVRR3N6TXZYT01OS2p4aExVMHRfNWtpb0FYYWRKTUQ5X0p2M1piUGVnRHFYaXJzN2NtV0V0cGJOOE0?oc=5",
+"pub": "2026-11-22T11:23:34+09:00",
+"region": "대구",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T11:58:00+09:00"
+},
+{
+"id": "n2e201474d6",
+"cat": "festival",
+"title": "세종남부소방서, 어린이 불조심 포스터 전시·안전체험",
+"source": "내외일보",
+"url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1hckwtRTBXZTk4VDZMVlRqYlpINFlPLVBBaEt6WUVZVXM2V0dfUWNsVFJMNDdyWUdsS2E5aEgwQ0gwbGVacHJNUWZIYm9NWXRyeUtMaGExSUZwX0s3SGUtWEpkRWJlNldhYmRLWENjSQ?oc=5",
+"pub": "2026-11-22T08:17:06+09:00",
+"region": "세종",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-22T11:58:00+09:00"
+},
+{
+"id": "ee7d5d1aeb9",
+"cat": null,
+"title": "가족한마음페스티벌",
+"source": "당진신문",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wM1pMdDV1bm4yQWtiR0F0WTc1VGc4TDlMNGh5MTlvbHhUZDhLUURYdTNZTUw5NkpLbFJHbFNQaTZpVFh1SWVtNWpIbHBOUm1QVG5qeVp5Q0szSWdmM0lnbWlYaWJWREVp?oc=5",
+"pub": "2026-11-20T18:08:47+09:00",
+"region": "",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "",
+"seen": "2026-11-22T11:58:00+09:00"
+},
+{
+"id": "e70abdd13c7",
+"cat": null,
+"title": "용인교육 페스티벌",
+"source": "경기남부저널",
+"url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTT0I0VWh4eUhkUlQzZUo0VU5XS01IWEJwZmloRThteXo2Z05xVHQzbEZHc1JWQlp4RkR6QlJkSXFfVmhOZDdMRVhkWXdDNWl1aF9DMERtOGpRQng5MXU3UFJRTm9FVUlp0gFrQVVfeXFMTXBjZ0p3MUliZzFtbWJaMlo2bFkzN0cwWmMwWnFSX0xTUlR6VF9DdjVGaklXc2ZJcGN2N0FmYzRnZ1ZrTUlBdXJ1VllabU1LejhxUjN6WUNmTm0yZVVLN3hCMUQ4OXFjbjVKVjA?oc=5",
+"pub": "2026-11-18T17:00:00+09:00",
+"region": "용인",
+"period": "기사에서 확인",
+"start": null,
+"end": null,
+"addr": "용인",
+"seen": "2026-11-22T11:58:00+09:00"
 }
 ]
