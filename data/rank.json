@@ -1,178 +1,234 @@
 {
- "updated": "2026-11-22T08:02:00+09:00",
- "prev_updated": "2026-11-22T02:56:00+09:00",
+ "updated": "2026-11-22T11:22:00+09:00",
+ "prev_updated": "2026-11-22T08:02:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "구자욱",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "‘MLB 사무국 신분조회 요청’ FA 최대어 구자욱, 정말 ML 진출할까…12월 직장폐쇄 전 결정된다 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/21/202611210648774670O",
-     "source": "머니투데이"
-    },
-    {
-     "title": "'충격 200억' 야구 재벌 눈앞인데, 찬밥 대우 미국으로? 이대호 사례로, 구자욱 미래도 보인다",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/20/ME3TSMBQGU3TMMJVGRSGIODFGY/",
-     "source": "조선일보"
-    },
-    {
-     "title": "샴페인 마르기도 전에 찾아온 'FA 3중고'… 왕조 재건 노리는 삼성, 외부 FA는 신경쓸 틈 조차 없다",
-     "url": "https://star.fnnews.com/article/202611190838400274",
-     "source": "fn스타"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "젠슨 황",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“낙태했어야” “머리 열어 소변” “금붕어”…안하무인 젠슨황 父女",
-     "url": "https://www.donga.com/news/Inter/article/all/20261121/135065038/2",
-     "source": "동아일보"
-    },
-    {
-     "title": "“불륜 아니다” “너의 뇌에 오줌 누겠다”···젠슨 황 퇴출 부른 건 거짓말과 상습 폭언",
-     "url": "https://www.khan.co.kr/article/202611211444001",
-     "source": "경향신문"
-    },
-    {
-     "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
-     "url": "https://stock.mk.co.kr/news/view/1203585",
-     "source": "매일경제 마켓"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "ai 데이터 센터",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "李, 울산 전통시장서 “내년에는 좀 더 좋아질 것”…‘최애’ 배추전 구입",
-     "url": "https://www.donga.com/news/Politics/article/all/20261121/135065075/2",
-     "source": "동아일보"
-    },
-    {
-     "title": "산업화의 중심 울산, AI 시대 새로운 도약을 기대합니다.",
-     "url": "https://www.president.go.kr/social-media/2iOowGQS",
-     "source": "대한민국 청와대"
-    },
-    {
-     "title": "이 대통령, 울산 AI 데이터센터 현장 방문…“속도가 생명”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719207",
-     "source": "KBS 뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 4,
-   "keyword": "지수",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "도경완",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "골드만삭스 패닉지수 최고치 근접…다음주도 매도세 지속 경고",
-     "url": "https://www.yna.co.kr/view/AKR20261122000800072",
+     "title": "'한강뷰 120억' 도경완, 자차는 1억 후반대 외체자('도장TV')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/21/MQ2TIMZSGQ4GMMBTMNQTQM3DMI/",
+     "source": "조선일보"
+    },
+    {
+     "title": "통장 ‘25만원’에 발목 잡힌 도경완…120억 집과 ‘가난 코스프레’의 무한소환",
+     "url": "https://www.sportsseoul.com/news/read/1651358",
+     "source": "스포츠서울"
+    },
+    {
+     "title": "도경완, 유타서 A사 신차 시승…현재 운용 차도 A사",
+     "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=626845",
+     "source": "메디컬투데이"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "수출규제",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "젠슨황發 美반도체 수출 규제에 삼성·TSCM도 부담",
+     "url": "https://www.segye.com/newsView/20261120506261",
+     "source": "세계일보"
+    },
+    {
+     "title": "러트닉 미 상무, '엔비디아 스캔들 연루 위기' 넘어 건재 과시",
+     "url": "https://www.yna.co.kr/view/AKR20261122016400009",
      "source": "연합뉴스"
     },
     {
-     "title": "골드만삭스 ‘패닉지수’ 10점 만점에 9점…다음주도 매도 압력 지속 경고",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719291",
-     "source": "KBS 뉴스"
+     "title": "삼성전자도 결국 멈췄다...중국 '초비상'",
+     "url": "https://magazine.hankyung.com/business/article/202611211279b",
+     "source": "한경매거진"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "수험",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "AI 의혹 리트 만점자 5줄 유서서 “죽어도 가서 죽으려 했는데…”",
+     "url": "https://www.munhwa.com/article/11633008",
+     "source": "문화일보"
     },
     {
-     "title": "골드만삭스 \"공포 지수 9점 육박…다음 주 추가 투매 나올수도\"",
-     "url": "https://www.hankyung.com/article/202611211574i",
-     "source": "한국경제"
+     "title": "'피의자 사망' 살충제사건 풀었던 경찰 '리트만점 수사' 시험대",
+     "url": "https://www.yna.co.kr/view/AKR20261120178000004",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "이진우 씨 사망 전 배회 CCTV 공개…한 살 아이 얼굴 '퍽'[주간HIT영상]",
+     "url": "https://www.news1.kr/society/general-society/6361254",
+     "source": "뉴스1"
     }
    ],
    "safe": false
   },
   {
-   "rank": 5,
-   "keyword": "이정효",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "rank": 4,
+   "keyword": "담보 대출",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“내년엔 꼴찌부터 시작”···리그 우승 확정에 이정효는 냉정했다",
-     "url": "https://www.khan.co.kr/article/202611212030001",
-     "source": "경향신문"
+     "title": "“주담대 금리 치솟아도 돈 빌릴 곳 없으니”…집단대출 늘며 잔액 증가폭 ‘쑥’",
+     "url": "https://www.mk.co.kr/news/economy/12215366",
+     "source": "매일경제"
     },
     {
-     "title": "'이것이 대한민국 축구 명문의 역사다' 수원삼성, K리그2 우승으로 한국 프로축구 최초 대기록 완성...1·2부부터 아시아 정상까지 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/22/202611212222776505O",
-     "source": "머니투데이"
+     "title": "②빚 1200조 시대, 주담대 금리↑...차주도 은행도 ‘한숨’ [머니+]",
+     "url": "https://m.ekn.kr/view.php?key=20261119024551856",
+     "source": "에너지경제신문"
     },
     {
-     "title": "승리의 기쁨",
-     "url": "https://www.news1.kr/photos/8226316",
-     "source": "뉴스1"
+     "title": "코픽스 두 달 연속 상승에 주담대 금리 상단 6%대… 중도금 무이자 단지 주목",
+     "url": "https://biz.heraldcorp.com/article/10943540",
+     "source": "헤럴드경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "인공지능",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "LG유플러스, 2027년 조직개편…AI 사업 중심으로 판 바꾼다",
+     "url": "https://stock.mk.co.kr/news/view/1203689",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "LGU+ 조직개편...AI 조직 재편으로 성과 속도전",
+     "url": "https://zdnet.co.kr/view/?no=20261122085359",
+     "source": "지디넷코리아"
+    },
+    {
+     "title": "LG유플러스, 부문장 전부 교체…AI 사업 실행력 높인다",
+     "url": "https://www.etnews.com/20261122000001",
+     "source": "전자신문"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "강사",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "연예·방송",
-   "emo": "🎬",
+   "keyword": "오현규",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "일타 강사인가 ‘일탈’ 강사인가",
-     "url": "https://www.chosun.com/national/weekend/2026/11/21/PHM6NQOYUBHKJCLZ4YT3S5R234/",
+     "title": "“레전드 손흥민이 영입에 중요한 역할 할 수도”…토트넘, 공격진 보강 계획 속 ‘이적료 442억’ 오현규 영입 관심",
+     "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%83%E1%85%B3-%E1%84%89%E1%85%A9%E1%86%AB%E1%84%92%E1%85%B3%E1%86%BC%E1%84%86%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5-%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8B%E1%85%A6-%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%8B%E1%85%AD%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%92%E1%85%A1%E1%86%AF-%E1%84%92%E1%85%A1%E1%86%AF-%E1%84%89%E1%85%AE%E1%84%83%E1%85%A9--%E1%84%90%E1%85%A9%E1%84%90%E1%85%B3%E1%84%82%E1%85%A5%E1%86%B7-%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A7%E1%86%A8%E1%84%8C%E1%85%B5%E1%86%AB-%E1%84%87%E1%85%A9%E1%84%80%E1%85%A1%E1%86%BC-%E1%84%80%E1%85%A8%E1%84%92%E1%85%AC%E1%86%A8-%E1%84%89%E1%85%A9%E1%86%A8-%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A5%E1%86%A8%E1%84%85%E1%85%AD-442%E1%84%8B%E1%85%A5%E1%86%A8-%E1%84%8B%E1%85%A9%E1%84%92%E1%85%A7%E1%86%AB%E1%84%80%E1%85%B2-%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%B5%E1%86%B8-%E1%84%80%E1%85%AA%E1%86%AB%E1%84%89%E1%85%B5%E1%86%B7/blt550dcfba9fbb6ece",
+     "source": "Goal.com"
+    },
+    {
+     "title": "\"초대박!\" 韓 국가대표 공격수 오현규, 토트넘 러브콜…'3000만 유로' 구체적 액수도 나왔다 '손흥민이 추천'",
+     "url": "https://www.chosun.com/sports/world-football/2026/11/19/G44WCOBUMMZWKMZYGI4DGMBQGI/",
      "source": "조선일보"
     },
     {
-     "title": "“너는 못 쓰게 되지 않았다”…수능 뒤 일타강사 위로에 ‘울컥’",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=04241046645647688&mediaCodeNo=257",
-     "source": "이데일리"
-    },
-    {
-     "title": "수험생 팽개친 ‘먹튀 논란’ 강사 이도…넷플릭스는 편집 왜 안했나",
-     "url": "https://www.mk.co.kr/news/it/12214982",
-     "source": "매일경제"
+     "title": "일본 슈퍼스타 완전 망했습니다, 이강인과 180도 다른 길...스페인→튀르키예 커리어 퇴보? 오현규와 한솥밥 가능성",
+     "url": "https://www.sportschosun.com/football/2026-11-19/202611190100121970011285",
+     "source": "스포츠조선"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 7,
-   "keyword": "추미애",
+   "keyword": "김호영",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'카톡 친구 5000명' 김호영, 길에서 카드 주웠는데 \"아는 사람 거\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112119565318710",
+     "source": "머니투데이"
+    },
+    {
+     "title": "'지인 5천명' 김호영 소름..길에서 주운 신용카드까지 '호연지기' ('김호영')",
+     "url": "https://biz.chosun.com/entertainment/enter_general/2026/11/20/HEYTGNLBMYYDAZJQHFQWGY3CGA/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "김호영 길에서 주운 신용카드…주인은 실제 지인 : 연예",
+     "url": "https://news.jkn.co.kr/post/1113875",
+     "source": "재경일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "마마 어워즈",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "지드래곤도 감당 안되는 5대5 긴 생머리 '파격'..수상소감 방해하자 '대성 투입' [핫피플]",
+     "url": "https://www.koreadaily.com/article/20261121034550373",
+     "source": "미주중앙일보"
+    },
+    {
+     "title": "빅뱅, 신곡 ‘기립’ 최초 공개..‘2026 MAMA’ 빛낸 ‘레전드’의 위엄",
+     "url": "https://www.chosun.com/entertainments/music/2026/11/22/MQYDOZRQGBRTGYRTGJSWINTFMY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "빅뱅 태양, 무대를 지배하는 자",
+     "url": "https://www.news1.kr/photos/8226435",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "나경원",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "사회·정치",
@@ -181,78 +237,22 @@
    "delta": 0,
    "news": [
     {
-     "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼”",
-     "url": "https://www.khan.co.kr/article/202611211912001",
-     "source": "경향신문"
-    },
-    {
-     "title": "여 “사법정의 바로세워야”…야 “친위쿠데타 심판”",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719307",
+     "title": "국민의힘 “코스피 급락 ‘블랙먼데이’ 우려…긴급 대응 조치 준비해야”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719335",
      "source": "KBS 뉴스"
     },
     {
-     "title": "한동훈 \"與, 조희대 탄핵 발의 12월 3일 꼭 하라... 모두 감옥갈 것\"",
-     "url": "https://www.chosun.com/politics/politics_general/2026/11/21/I2RBF6PPEJBOFHWRFYN6BRZCPQ/",
-     "source": "조선일보"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 8,
-   "keyword": "최미나수",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "최미나수, 노출 드레스 입고 '몸 덜덜'...김연경 \"괜찮냐\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112107404471705",
-     "source": "머니투데이"
-    },
-    {
-     "title": "[사진]앤팀 마키 '앞에 거울이 있나? 눈이 부시네'",
-     "url": "https://biz.chosun.com/entertainment/entertainment_photo/2026/11/22/G4ZGEOJRGBSDMYTFMFQTOZJYG4/",
-     "source": "Chosunbiz"
-    },
-    {
-     "title": "드레스 입고 덜덜 떤 최미나수…김연경 \"괜찮으세요?\"",
-     "url": "https://www.newsis.com/view/NISX20261121_0003877589",
-     "source": "뉴시스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "쇼트트랙",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "최민정, 안방서 쇼트트랙 월드투어 여자 1,000ｍ 3연속 우승",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719143",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "'첫 금' 신동민, 男쇼트트랙 위기 평가에 \"조금만 기다려주세요\"",
-     "url": "https://www.yna.co.kr/view/AKR20261121047400007",
+     "title": "정점식 \"정부, 블랙먼데이 가능성 대비 긴급조치 준비해야\"",
+     "url": "https://www.yna.co.kr/view/AKR20261122016800001",
      "source": "연합뉴스"
     },
     {
-     "title": "'은퇴 예고' 최민정, 쇼트트랙 월드투어 1000m 3연속 금메달",
-     "url": "https://imnews.imbc.com/news/2026/sports/article/6867495_36946.html",
-     "source": "MBC 뉴스"
+     "title": "나경원 \"주가 폭락인데 李대통령, '대장동 사건' 변호…무책임에 바닥이 없어\"",
+     "url": "https://www.newsis.com/view/NISX20261121_0003877688",
+     "source": "뉴시스"
     }
    ],
-   "safe": true
+   "safe": false
   }
  ]
 }
