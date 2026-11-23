@@ -1,226 +1,286 @@
 {
- "updated": "2026-11-23T11:55:00+09:00",
- "prev_updated": "2026-11-23T09:11:00+09:00",
+ "updated": "2026-11-23T17:53:00+09:00",
+ "prev_updated": "2026-11-23T11:55:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "화이트캡스 대 솔트레이크",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "PREVIEW: 'Caps host Real Salt Lake in Game 1 of Round One, Best-Of-3 Series | Watch on Apple TV, TSN",
-     "url": "https://www.whitecapsfc.com/news/preview-caps-host-real-salt-lake-in-game-1",
-     "source": "www.whitecapsfc.com"
-    },
-    {
-     "title": "Vancouver Whitecaps & Thomas Müller look to \"finish the job\"",
-     "url": "https://www.mlssoccer.com/playoffs/2026/news/vancouver-whitecaps-thomas-muller-look-to-finish-the-job",
-     "source": "MLSsoccer.com"
-    },
-    {
-     "title": "How to watch Vancouver Whitecaps vs. Real Salt Lake MLS Cup Game 1 today - and get this Black Friday streamin",
-     "url": "https://www.oregonlive.com/tv/2026/11/how-to-watch-vancouver-whitecaps-vs-real-salt-lake-mls-cup-game-1-today-and-get-this-black-friday-streaming-deal.html",
-     "source": "OregonLive.com"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "ssg 랜더스",
+   "keyword": "심진화",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'원클럽맨' 문승원, 2+1년 총액 15억원에 SSG 잔류",
-     "url": "https://www.yna.co.kr/view/AKR20261122016900007",
-     "source": "연합뉴스"
+     "title": "김원효 '트랜스젠더 바' 대신 해명한 심진화 \"오른쪽 사람이…\" - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/22/2026112215225582798",
+     "source": "머니투데이"
     },
     {
-     "title": "[공식발표] '와 미쳤다' 93억에 내부 FA 전원 단속 성공! 37살 베테랑 왜 15억에 붙잡았나 \"헌신+경기운영능력 최우선 평가\"",
-     "url": "https://www.chosun.com/sports/baseball/2026/11/22/MZRDMMJUHA3DCNZSHA4DAZBWMM/",
+     "title": "심진화♥김원효, 유흥업소 방문 논란 후 보란 듯 가족 사진…공연 '연습' 열중 [핫피플]",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/23/MJRDGZTGGM2WEN3BGFRGEMDFGU/",
      "source": "조선일보"
     },
     {
-     "title": "프로야구 SSG, 투수 문승원과 최대 3년·15억원 FA 계약",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH202611230611191Xq",
-     "source": "연합뉴스TV"
+     "title": "‘심진화♥’ 김원효, 1억 재산 오해…영화관 결혼식 비하인드 (개세모2)",
+     "url": "https://sports.donga.com/ent/article/all/20261123/135071040/1",
+     "source": "스포츠동아"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 3,
-   "keyword": "부산항",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "rank": 2,
+   "keyword": "김태규",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "부산항만공사, 중기 우수기술 판로 확대 '기술마켓데이' 개최",
-     "url": "https://www.fnnews.com/news/202611231019057668",
-     "source": "파이낸셜뉴스"
+     "title": "\"내란 왜 인정? 지X\"‥판결 다음날 김태규 껄껄 웃으며 방송 '막말'",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6867878_36911.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "부산항만공사, 중소기업 우수기술 판로 확대 지원...'맞춤형 구매상담·혁신제품 컨설팅'",
-     "url": "https://view.asiae.co.kr/article/2026112310252178670",
-     "source": "아시아경제"
+     "title": "“내란 인정하라고 지X 지X”…국힘 김태규, 민주당에 막말",
+     "url": "https://www.hani.co.kr/arti/politics/politics_general/1288600.html",
+     "source": "한겨레"
     },
     {
-     "title": "부산항만공사, 중소기업 우수기술 판로 확대 지원",
-     "url": "https://biz.heraldcorp.com/article/10945924",
-     "source": "헤럴드경제"
+     "title": "[뉴스분석] 엇갈리는 '계엄 책임론'…국민의힘, 비상계엄 2년 앞두고 갑론을박",
+     "url": "https://www.newspim.com/news/view/20261123000524",
+     "source": "뉴스핌"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 3,
+   "keyword": "100 일 의 거짓말",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "김유정·박진영 ‘100일의 거짓말’, 종영 2회 남기고…11.7% 자체 최고 시청률 경신",
+     "url": "https://www.mk.co.kr/news/broadcasting-service/12215812",
+     "source": "매일경제"
+    },
+    {
+     "title": "\"친일 남주? 죽어도 옹호 안 돼\"…'100일의 거짓말' 시청자 반발 - 머니투데이",
+     "url": "https://www.mt.co.kr/culture/2026/11/23/2026112316121982924",
+     "source": "머니투데이"
+    },
+    {
+     "title": "\"송지효 사진 대혼란\" 김유정♥︎박진영이 남매? 13년 만에 드러난 운명적 연결고리 ('100일의 거짓말')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/23/GE2TCMBZMFQTGM3GME2TGMRSHE/",
+     "source": "조선일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "제주특별자치도",
+   "keyword": "원자력",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
-   "news": [],
+   "news": [
+    {
+     "title": "한전KDN, 국제품질분임조대회서 3개 품질분임조 금상 수상 - 머니투데이",
+     "url": "https://www.mt.co.kr/index.php/policy/2026/11/23/2026112313310840853",
+     "source": "머니투데이"
+    },
+    {
+     "title": "한수원, 국제품질분임조 경진대회 14회 연속 금상 수상",
+     "url": "https://www.dailian.co.kr/news/view/1718620/%ED%95%9C%EC%88%98%EC%9B%90-%EA%B5%AD%EC%A0%9C%ED%92%88%EC%A7%88%EB%B6%84%EC%9E%84%EC%A1%B0-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-14%ED%9A%8C-2026",
+     "source": "데일리안"
+    },
+    {
+     "title": "한전KDN, 국제품질분임조대회 3개 조 모두 금상…6년 연속 수상",
+     "url": "https://www.fnnews.com/news/202611231438336149",
+     "source": "파이낸셜뉴스"
+    }
+   ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "삼성증권",
+   "keyword": "휴림로봇",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "cat": "IT·테크",
+   "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "삼성증권 고객 개인정보 8241건 유출... ‘고객의소리’ 서비스 노린 해킹",
-     "url": "https://www.boannews.com/news/articleView.html?idxno=147441",
-     "source": "보안뉴스"
+     "title": "휴림로봇, 한화로보틱스 등과 자동화 장비 로봇 공급 계약 체결 - 머니투데이",
+     "url": "https://www.mt.co.kr/stock/2026/11/23/2026112308413335800",
+     "source": "머니투데이"
     },
     {
-     "title": "삼성증권 고객 8241명 개인정보 유출…VOC 시스템에 외부 침입 By FinancialPost",
-     "url": "https://kr.investing.com/news/stock-market-news/article-2186508",
+     "title": "현림로봇, 삼성전기 공급 계약 체결에 주가 30% 급등",
+     "url": "https://kr.investing.com/news/stock-market-news/article-2186567",
      "source": "Investing.com 한국어"
     },
     {
-     "title": "잇따르는 증권가 해킹 사고...삼성증권, 8241명 개인 정보 유출",
-     "url": "https://www.chosun.com/economy/money/2026/11/23/ARL2LEBDRRCXHEZIWWM5WATQ7I/",
-     "source": "조선일보"
+     "title": "휴림로봇 주가 장중 상한가, 삼성전기 자동화 장비로봇 공급 본계약 체결",
+     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452641",
+     "source": "비즈니스포스트"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "구조조정",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "채무",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "대기업에 부는 감원 칼바람…불황형 구조조정 넘어 상시 인력 재편",
-     "url": "https://www.investchosun.com/site/data/html_dir/2026/11/22/2026112280034.html",
-     "source": "인베스트조선"
+     "title": "하나금융연구소, 한국금융연구센터와 포용금융 정책방향 논의",
+     "url": "https://www.yna.co.kr/view/AKR20261123050400002",
+     "source": "연합뉴스"
     },
     {
-     "title": "실적 나빠도 좋아도 희망퇴직…구조조정 전략이 변한다",
-     "url": "https://www.dhdaily.co.kr/news/articleView.html?idxno=30053",
-     "source": "대한데일리"
+     "title": "하나금융연구소, 포용금융 토론…강경훈 교수 \"금융기본권 정립 필요\"",
+     "url": "https://view.asiae.co.kr/article/2026112316050545053",
+     "source": "아시아경제"
     },
     {
-     "title": "내수 ‘주춤’·해외는 ‘기회’…주류업계의 변신",
-     "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7193755",
-     "source": "주간한국"
+     "title": "하나금융연구소, 라운드테이블 개최…민간 금융사 역할 모색",
+     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1428051",
+     "source": "데일리한국"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "국가장학금",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [],
-   "safe": true
-  },
-  {
-   "rank": 8,
-   "keyword": "리비아",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "‘우크라 공격 추정’ 리비아항 러 군함 피격…러, 키이우 공습",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719534",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "리비아에서 드론 공격 받아 전복된 러시아 군함",
-     "url": "https://mobile.newsis.com/photo_view.html?pict_id=NISI20261123_0002299373&provider_id=&cID=&type=Main&catg=&idx=2",
-     "source": "뉴시스"
-    },
-    {
-     "title": "우크라 전쟁, 북아프리카로 전선 확대…리비아서 드론 공격에 러 군함 침몰",
-     "url": "https://www.hani.co.kr/arti/international/international_general/1288569.html",
-     "source": "한겨레"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 9,
-   "keyword": "수원 fc",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "주제 무리뉴",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "수원 FC 1부 리그 복귀",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8719455",
-     "source": "KBS 뉴스"
+     "title": "교체 6분 만에 역전 결승골! 레알 마드리드의 복덩이 카를로스 에스피→놀라운 골 결정력",
+     "url": "https://mydaily.co.kr/page/view/2026112209343705216",
+     "source": "마이데일리"
     },
     {
-     "title": "'2년 연속 공격포인트 20개' 대기록에도 웃지 못한 에울레르 \"아직 승격할 기회 있다…죽기살기로 임한다\" [현장 인터뷰]",
-     "url": "https://www.chosun.com/sports/football/2026/11/23/MQ4DKMZVHEYWCMBVGQYDKYRTG4/",
-     "source": "조선일보"
+     "title": "“내가 경기장 안으로 들어가서 누굴 때릴 수 없잖아”… 모리뉴 감독 입담 작렬, 음바페·에스피 공존 가능성에 수비 전환 문제 제기",
+     "url": "https://www.besteleven.com/news/articleView.html?idxno=314225",
+     "source": "베스트일레븐"
     },
     {
-     "title": "수원FC, K리그2 준우승…수원 삼성과 동반 승격 확정(종합)",
-     "url": "https://www.yna.co.kr/view/AKR20261122035351007",
+     "title": "‘비니시우스, 제대로 된 강적 만났다!’ 브라질에서 5골 폭발하고 돌아왔는데…무리뉴 감독은 단호 “선발이든 벤치든 관중석이든 상관없다”",
+     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=698962",
+     "source": "인터풋볼"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 8,
+   "keyword": "실사격훈련",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[쇼츠] 日서 불뿜은 아파치·블랙호크…주한미군 헬기, 첫 해외 실사격",
+     "url": "https://www.yna.co.kr/view/AKR20261123141500704",
      "source": "연합뉴스"
+    },
+    {
+     "title": "주한미군 아파치·블랙호크 헬기, 일본에서 첫 실사격 훈련",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6867862_36911.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "한·미·일 '원정·핵잠' 2연타…불편한 속내 드러낸 중국",
+     "url": "http://www.securityfact.co.kr/news/view.php?no=8148",
+     "source": "시큐리티팩트"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "권한쟁의심판",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[단독] “李 파기환송 사건은 민주당 선거비 반환 직결사안”⋯ 국힘, 특검법 권한쟁의 청구",
+     "url": "https://www.kmib.co.kr/article/20261123500952",
+     "source": "국민일보"
+    },
+    {
+     "title": "국힘, ‘조작기소 특검법’ 권한쟁의심판 청구…“표결권 침해”",
+     "url": "https://www.donga.com/news/Politics/article/all/20261123/135074392/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "한병도 \"국힘, 내란 옹호하며 쿠데타 언급‥뻔뻔한 막말 정치\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6867762_36911.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 10,
+   "keyword": "박선원",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"신천지 4만3000명 입당\" 친명 폭로에 뒤집힌 민주당",
+     "url": "https://www.chosun.com/politics/assembly/2026/11/23/CDEWQUIMSZDNNABQ6HBWECORLY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "'曺탄핵'으로 단합하나 했더니…與 최고위서 신천지 또 공개충돌(종합2보)",
+     "url": "https://www.yna.co.kr/view/AKR20261123072253001",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "박선원 \"신천지 4만3천명 추산, 나도 명예 있다\" vs 한민수 \"근거 밝히라가 못마땅? 피해자 코스프레\"",
+     "url": "https://news.jtbc.co.kr/article/NB12329353",
+     "source": "JTBC"
+    }
+   ],
+   "safe": false
   }
  ]
 }
