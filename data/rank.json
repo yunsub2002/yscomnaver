@@ -1,38 +1,10 @@
 {
- "updated": "2026-11-23T03:25:00+09:00",
- "prev_updated": "2026-11-23T01:21:00+09:00",
+ "updated": "2026-11-23T09:11:00+09:00",
+ "prev_updated": "2026-11-23T03:25:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "리버풀 대 맨유",
-   "traffic": "10000+",
-   "label": "약 1만 회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "“새 감독 선임한 맨유가 어떤 축구를 할지 모르겠다”… 노스웨스트 더비 앞두고 경계심 드러낸 리버풀 감독, “경기 초반이 중요”",
-     "url": "https://www.besteleven.com/news/articleView.html?idxno=314241",
-     "source": "베스트일레븐"
-    },
-    {
-     "title": "리버풀은 안필드에서 맨체스터 유나이티드를 상대로 전력을 회복해야 합니다.",
-     "url": "https://www.vietnam.vn/ko/liverpool-can-lay-lai-suc-manh-tai-anfield-truoc-man-united",
-     "source": "Vietnam.vn"
-    },
-    {
-     "title": "리버풀·맨유 맞대결…이삭 7골 vs 음뵈모 4골 : EPL",
-     "url": "https://news.jkn.co.kr/post/1114277",
-     "source": "재경일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "맨유",
+   "keyword": "노시환",
    "traffic": "2000+",
    "label": "약 2,000회 이상",
    "cat": "스포츠",
@@ -41,143 +13,243 @@
    "delta": 0,
    "news": [
     {
-     "title": "“맨유 재건 맡은 포체티노 감독, 선수 육성 능력이 최대 강점”",
-     "url": "https://weekly.donga.com/home/article/all/11/6466651/1",
-     "source": "주간동아"
+     "title": "\"4년간 116홈런에 강한 어깨까지\" 양키스 3루수 후보 노시환, 美 현지 매체가 짚은 약점은?",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/22/MZQTGODGGQZDIZDDMEZGMYJZMI/",
+     "source": "조선일보"
     },
     {
-     "title": "축구의 묘미는 역시 ‘바이시클킥’",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8716627",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "'얼마나 진심인지 감도 안 옴' \"죄송합니다, 방금까지 훈련했습니다\" 포체티노의 황당한 첫 기자회견...샤워도 못 하고 등장 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/21/202611211136770084O",
+     "title": "\"日 사토보단 싸다\" 한화 노시환, ML 정말 가나! 주전 3루수 판 캔자스시티 급부상 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/22/2026112215404271386",
      "source": "머니투데이"
+    },
+    {
+     "title": "美 매체 야드바커, 노시환 '수비 최대 강점' 평가…MLB 가성비 3루수 후보로 떠올라",
+     "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435795",
+     "source": "데일리스포츠한국"
     }
    ],
-   "safe": true
+   "safe": false
   },
   {
-   "rank": 3,
-   "keyword": "밀란 대 프로시노네",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "Germany 5-0 Netherlands (Nov 16, 2026) Game Analysis",
-     "url": "https://www.espn.com/soccer/report/_/gameId/401861185",
-     "source": "ESPN"
-    },
-    {
-     "title": "Klopp's Germany Routs Xavi's Netherlands To Book Nations League Quarterfinals",
-     "url": "https://www.foxsports.com/stories/soccer/germany-routs-the-netherlands-50-in-nations-league-to-confirm-renaissance-under-klopp",
-     "source": "FOX Sports"
-    },
-    {
-     "title": "Three Observations from Germany’s 5-0 demolition of Xavi’s Netherlands",
-     "url": "https://www.bavarianfootballworks.com/germany-international-soccer/282356/three-observations-from-germanys-5-0-demolition-of-xavis-netherlands",
-     "source": "Bavarian Football Works"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "빗썸",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "업비트·빗썸 사상 처음 적자, 뒤따르는 시장 침체의 신호 | 엠블록",
-     "url": "https://www.mk.co.kr/newsletter/page/3575",
-     "source": "매일경제"
-    },
-    {
-     "title": "업비트·빗썸, 사이버 CYBER 입출금 동시 중단…거래는 열고 송금은 막았다",
-     "url": "https://www.wikitree.co.kr/articles/1176751",
-     "source": "위키트리"
-    },
-    {
-     "title": "빗썸, 사이버(CYBER) 입출금 일시 중지 안내",
-     "url": "https://www.coinreaders.com/272321",
-     "source": "코인리더스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "라싱 산탄데르 대 레알 소시에다드",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "Racing de Santander vs Real Sociedad: Spanish La Liga stats & head-to-head",
-     "url": "https://www.bbc.com/sport/football/live/c6kgr004pl7rt",
-     "source": "BBC"
-    },
-    {
-     "title": "Racing Santander vs. Real Sociedad - Game Highlights",
-     "url": "https://www.espn.com/video/clip/_/id/50563056/racing-santander-vs-real-sociedad-game-highlights",
-     "source": "ESPN"
-    },
-    {
-     "title": "Racing-Real Sociedad: Racing hosts with three players ruled out",
-     "url": "https://www.tufutbolero.com/en/news/racing-real-sociedad-racing-hosts-with-three-players-ruled-fcf0d2",
-     "source": "Tu Futbolero"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "청년문화예술패스",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [],
-   "safe": true
-  },
-  {
-   "rank": 7,
-   "keyword": "라민 야말",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "rank": 2,
+   "keyword": "김호령",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "페이호 \"라민 야말의 활약은 특별하다\", 스페인이 2030 월드컵 결승전 개최해야",
-     "url": "https://www.allfootballapp.com/ko/articles/6037663-2030",
-     "source": "AllFootball"
+     "title": "김호령 오버페이 없다? '자매구단 출신' 日 외야수 테스트…롯데 외야 FA 셈범 달라지나 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/23/202611222016774634O",
+     "source": "머니투데이"
     },
     {
-     "title": "‘스페인 월드컵 개최 포기?’ 불타는 의지, 바르셀로나-레알 마드리드 안방에서? “챔피언이잖아...그렇게 될 것”",
-     "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%8B%E1%85%AF%E1%86%AF%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A5%E1%86%B8-%E1%84%80%E1%85%A2%E1%84%8E%E1%85%AC-%E1%84%91%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%A1%E1%86%BC-%E1%84%91%E1%85%B5%E1%84%85%E1%85%A7%E1%86%A8-%E1%84%87%E1%85%AE%E1%86%AF%E1%84%90%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B4%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%84%85%E1%85%B3%E1%84%89%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%84%82%E1%85%A1-%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A1%E1%86%AF-%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%84%85%E1%85%B5%E1%84%83%E1%85%B3-%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5--%E1%84%8E%E1%85%A2%E1%86%B7%E1%84%91%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1--%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%87%82%E1%84%80%E1%85%A6-%E1%84%83%E1%85%AC%E1%86%AF-%E1%84%80%E1%85%A5%E1%86%BA/bltd770ea97e8d68e28",
-     "source": "Goal.com"
+     "title": "김호령 대체 가능? '롯데의 묘수' 아이토, '본캐' 옷 입고 두산전 → 안타+볼넷+도루! 수비는 합격점. 롯데 3-0 승리",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/22/GNRTANDEGIZGEMBQMUYDIMJWG4/",
+     "source": "조선일보"
     },
     {
-     "title": "7분 만에 2실점→야말 PK 실축→3-2 역전승! 바르셀로나, 홈에서 비야레알에 진땀승…라리가 선두 수성",
-     "url": "https://www.mydaily.co.kr/page/view/2026112300222443099",
-     "source": "마이데일리"
+     "title": "구자욱-홍창기-김호령 시장에 남아있다…'170억 악성계약 끝' 외야 보강 원하는 롯데, FA 시장 참전 가능성은?",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021199",
+     "source": "SPOTV NEWS"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "대학",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "충남신보·천안아산 8개 대학, 청년 창업교육 공동 추진",
+     "url": "https://www.viva100.com/article/20261122500101",
+     "source": "브릿지경제"
+    },
+    {
+     "title": "충남신용보증재단, 천안·아산 소재 8개 대학과 청년 창업교육 업무협약 체결",
+     "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1112538",
+     "source": "충청매일"
+    },
+    {
+     "title": "\"청년 아이디어가 창업으로\"…충남신보, 대학과 손잡고 실무교육 나선다",
+     "url": "https://www.econovill.com/news/articleView.html?idxno=758101",
+     "source": "ER 이코노믹리뷰"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "울릉도",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[단독]울릉도 표류 北 주민 6명 조만간 송환하기로",
+     "url": "https://www.donga.com/news/Politics/article/all/20261123/135070407/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "에스더기도운동 2026년 11월 3주차 북한 및 국가 기도제목 : 선교",
+     "url": "https://www.christiantoday.co.kr/news/378655",
+     "source": "크리스천투데이"
+    },
+    {
+     "title": "울릉공항 지정면세점, 여객선 관광객은 혜택 못 받나",
+     "url": "https://www.ajunews.com/view/20261122094051322",
+     "source": "아주경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "콜레트 크레스",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"젠슨 황 떠난 뒤\"…엔비디아 새 수장 말투가 화제 된 이유 [한명현의 오피스로그]",
+     "url": "https://www.hankyung.com/article/202611185671i",
+     "source": "한국경제"
+    },
+    {
+     "title": "\"떨어져도 더 산다\"…서학개미, 美주식 5.5조 순매수에도 평가액 급감 - 머니투데이",
+     "url": "https://www.mt.co.kr/stock/2026/11/22/2026112014383082242",
+     "source": "머니투데이"
+    },
+    {
+     "title": "베센트 \"트럼프 행정부, Nvidia에 답변 요구\"",
+     "url": "https://kr.investing.com/news/company-news/article-2186398",
+     "source": "Investing.com 한국어"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "로스앤젤레스 fc",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "손흥민 \"우승이 목표‥미국 무대 압박감 덜해\"",
+     "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867724_37012.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "MLS컵 PO 앞둔 손흥민 \"정상빈과 대결 기대…우승이 목표\"",
+     "url": "https://www.newsis.com/view/NISX20261122_0003878032",
+     "source": "뉴시스"
+    },
+    {
+     "title": "LAFC 손흥민 “우승하러 이곳에…트로피 도전, 우린 역사를 쓸 것”…MLS컵 PO 반전 약속한 리빙 레전드",
+     "url": "https://sports.donga.com/sports/article/all/20261122/135066623/1",
+     "source": "스포츠동아"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "편지",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"네가 있어서 든든했다\"…28년 전 담임선생님이 남긴 손편지 화제",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261120101432PaP",
+     "source": "연합뉴스TV"
+    },
+    {
+     "title": "선생님은 학생들에게 격려 편지를 썼고, 자신만의 독특한 방식으로 학생들의 마음을 움직였습니다.",
+     "url": "https://www.vietnam.vn/ko/co-giao-viet-thu-dong-vien-hoc-tro-gay-xuc-dong-voi-cach-nhac-nho-dac-biet",
+     "source": "Vietnam.vn"
+    },
+    {
+     "title": "\"네가 있어서 든든했다\"…28년 전 중학교 가정통신문에 적힌 담임 선생님 메시지 '감동' [따뜻했슈]",
+     "url": "https://busan.fnnews.com/news/202611201111489476?pg=mny",
+     "source": "부산파이낸셜뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "쟁의행위",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "통합 자랑하던 코레일, 석달새 세번째 탈선",
+     "url": "https://www.chosun.com/national/transport-environment/2026/11/23/3YTQS6UICRCZZPNXG35QFEH5PY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "철도노조 \"안전운행 투쟁 26일로 연기‥사고 복구가 먼저\"",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6867631_36918.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "선로 밖 튕겨나가…운행 중지로 수험생 '발동동'",
+     "url": "https://www.yna.co.kr/view/MYH20261121010800038",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 9,
+   "keyword": "메디게이트뉴스",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"의대증원되는데 전문의 따야 하나요\"…전공의들이 의대생에게 전한 조언은",
+     "url": "https://www.medigatenews.com/news/3037552586",
+     "source": "MEDI:GATE NEWS"
+    },
+    {
+     "title": "“의대 증원한다고 흉부외과 지원하겠나”…대동맥 수술 대가의 반문",
+     "url": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3044775",
+     "source": "청년의사"
+    },
+    {
+     "title": "사명감 너머의 현실, 젊은 의사들이 마주한 필수의료의 미래 : 병원·제약",
+     "url": "https://www.medicaldaily.co.kr/post/124368",
+     "source": "의약일보"
     }
    ],
    "safe": true
