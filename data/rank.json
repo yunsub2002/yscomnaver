@@ -1,66 +1,122 @@
 {
- "updated": "2026-11-24T06:12:00+09:00",
- "prev_updated": "2026-11-24T05:19:00+09:00",
+ "updated": "2026-11-24T14:53:00+09:00",
+ "prev_updated": "2026-11-24T06:12:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "강성태",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "up",
-   "delta": 5,
-   "news": [
-    {
-     "title": "\"수능 핸드폰 재난문자 걸린 학생, 이미 연대 수시 논술 합격\"…교육부 \"사실관계 파악 중\"",
-     "url": "https://news.jtbc.co.kr/article/NB12329402",
-     "source": "JTBC"
-    },
-    {
-     "title": "교육부, 수능서 스마트기기 쓴 5명 고발… 과거 의심 사례도 접수",
-     "url": "https://www.donga.com/news/Society/article/all/20261124/135077505/2",
-     "source": "동아일보"
-    },
-    {
-     "title": "이 대통령 \"수능 부정행위 철저 추적…국가시험 A부터 Z까지 개편\"",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976210",
-     "source": "대한민국 정책브리핑"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 2,
-   "keyword": "에코프로",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "퇴직",
+   "traffic": "20000+",
+   "label": "약 2만 회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[IB토마토]에코프로, 투자에 마르는 현금…차환해도 이자 부담",
-     "url": "https://www.newstomato.com/readnews.aspx?no=1321006",
-     "source": "뉴스토마토"
+     "title": "퇴직연금 사외적립 의무화 앞두고…국민銀, 기업형 수수료 낮춘다",
+     "url": "https://stock.mk.co.kr/news/view/1204773",
+     "source": "매일경제 마켓"
     },
     {
-     "title": "에코프로비엠, 4200억 CB 상환 후 재발행…풋옵션 압박에 이자율 상향 유력",
-     "url": "https://www.datatooza.com/article/2026112309403997185e62b76150_80",
-     "source": "데이터투자"
+     "title": "KB국민은행, 기업형 퇴직연금 수수료 인하…중소기업 부담 낮춘다 - 머니투데이",
+     "url": "https://www.mt.co.kr/index.php/finance/2026/11/24/2026112408451552258",
+     "source": "머니투데이"
     },
     {
-     "title": "‘8861억 증자’ 보탰는데 주주 몫 또 깎이나...에코프로비엠 CB 재발행 추진",
-     "url": "https://www.insight.co.kr/news/583126",
-     "source": "인사이트"
+     "title": "퇴직급여 사외적립 의무화…국민은행, 27일부터 기업형 수수료 인하",
+     "url": "https://www.news1.kr/finance/general-finance/6363999",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "장기 기증",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“줄 수 있는 건 다 줄게” 약속 지키고 떠난 53세 가장 [아살세]",
+     "url": "https://www.kmib.co.kr/article/20261124500356",
+     "source": "국민일보"
+    },
+    {
+     "title": "50대 기관사, 간·신장에 눈도 내줬다…승객 안전 지키다 하늘로",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1288806.html",
+     "source": "한겨레"
+    },
+    {
+     "title": "\"줄 수 있는 건 다 주고 가겠다\"…장기기증으로 5명 살린 기관사",
+     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261124140743zPw",
+     "source": "연합뉴스TV"
     }
    ],
    "safe": true
   },
   {
    "rank": 3,
-   "keyword": "치매",
+   "keyword": "12 월 3 일",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "12월 3일 국가기념일 된다…李 “계엄 맞선 ‘국민 주권의 날’ 기려야”",
+     "url": "https://www.donga.com/news/Politics/article/all/20261124/135079161/1",
+     "source": "동아일보"
+    },
+    {
+     "title": "[속보]李대통령 \"12월3일, 국가기념일 '국민주권의 날' 지정 안건 처리 예정\" - 머니투데이",
+     "url": "https://www.mt.co.kr/politics/2026/11/24/2026112410082482330",
+     "source": "머니투데이"
+    },
+    {
+     "title": "'12·3 그날' 정부기념일로‥\"헌법 수호 국민 기념\"",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6868128_36918.html",
+     "source": "MBC 뉴스"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 4,
+   "keyword": "강호동",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "강호동, 무대 보다가 대성통곡…손수건 꺼내 눈물 닦았다 (천만기인쇼)",
+     "url": "https://sports.donga.com/ent/article/all/20261124/135078139/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "[TV조선] 기인들의 왕중왕전",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/24/7U6PKLVL7NFM5PWLTYD4V6EJPY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "‘천만기인쇼’ 왕중왕전 개막… 강호동 대성통곡, 이도현 미공개 신기술 승부수",
+     "url": "https://www.newscj.com/news/articleView.html?idxno=3451517",
+     "source": "천지일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "치이카와 클리닉",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
@@ -69,215 +125,127 @@
    "delta": 0,
    "news": [
     {
-     "title": "Bruce Willis’ daughter, Tallulah Willis, apologizes for sharing ‘too intimate’ photo of her dad",
-     "url": "https://www.cnn.com/2026/11/23/entertainment/bruce-willis-photo-tallulah-apologizes-intl-scli",
-     "source": "CNN"
+     "title": "'치이카와 클리닉' 팝업 1차 사전예약 하루 연기된 이유",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3760308",
+     "source": "국제뉴스"
     },
     {
-     "title": "Bruce Willis' daughter apologizes for sharing 'intimate' photo of him",
-     "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/11/22/bruce-willis-daughter-tallulah-new-photo-apology/92913243007/",
-     "source": "USA Today"
+     "title": "치이카와 팝업 1차 예약 하루 연기…사이트 정비",
+     "url": "https://www.jejutwn.com/news/article.html?no=464852",
+     "source": "제주교통복지신문"
     },
     {
-     "title": "Tallulah Willis apologizes for sharing ‘intimate’ photo with dad Bruce: ‘I can do better’",
-     "url": "https://pagesix.com/2026/11/22/celebrity-news/tallulah-willis-apologizes-for-sharing-intimate-photo-with-dad-bruce/",
-     "source": "Page Six"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "브뢴뷔 대 미트윌란",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "down",
-   "delta": -1,
-   "news": [
-    {
-     "title": "Brondby vs FC Midtjylland Prediction, Betting Tips, Lineups & Odds | 23 Nov 2026",
-     "url": "https://www.sportsgambler.com/betting-tips/football/brondby-vs-fc-midtjylland-prediction-lineups-odds-2026-11-23/",
-     "source": "Sportsgambler"
-    },
-    {
-     "title": "Brøndby vs Midtjylland: Danish Superligaen stats & head-to-head",
-     "url": "https://www.bbc.co.uk/sport/football/live/cmy0ep6z4pkdt",
-     "source": "BBC"
-    },
-    {
-     "title": "Midtjylland cruise past Brondby to extend Superliga lead",
-     "url": "https://www.tribalfootball.com/article/midtjylland-cruise-past-brondby-to-extend-superliga-lead-95729c97-c324-48e3-bf3c-cd2c0fc86d69",
-     "source": "TribalFootball"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "리플",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "up",
-   "delta": 2,
-   "news": [
-    {
-     "title": "기대감의 시대 끝...AI, '수익성'으로 증명하라",
-     "url": "https://science.ytn.co.kr/program/view.php?mcd=0082&key=202611231102465190",
-     "source": "YTN 사이언스"
-    },
-    {
-     "title": "‘IPO 성공’ 앤트로픽, 채권 시장에선?…WSJ “정크본드 등급 예상”",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8720100",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "[특징주] SK텔레콤, '지분보유' 앤트로픽 급락에 6%대 하락",
-     "url": "https://www.yna.co.kr/view/AKR20261123040400008",
-     "source": "연합뉴스"
+     "title": "치이카와 클리닉 @삿포로 아피아",
+     "url": "https://domingo.ne.jp/ko/event/55460",
+     "source": "domingo.ne.jp"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "지스타",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "keyword": "지방세",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
-   "news": [
-    {
-     "title": "[조현래의 콘텐츠 脈] 〈23〉지스타, 게임산업 비즈니스 플랫폼",
-     "url": "https://www.etnews.com/20261123000158",
-     "source": "전자신문"
-    },
-    {
-     "title": "국힘 정연욱 \"대형사 지스타 불참 아쉬워…부산 개최 지켜낼 것\"",
-     "url": "https://www.yna.co.kr/view/AKR20261123060500017",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "동명대 게임학부, 지스타 2026서 학생 창작게임 24편 선보여",
-     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261123.99099007171",
-     "source": "국제신문"
-    }
-   ],
+   "news": [],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "기상",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
+   "keyword": "김서형",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[날씨] 전국 대체로 맑은 가운데 일부 지역 약한 눈·비소식",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6867958_36918.html",
-     "source": "MBC 뉴스"
+     "title": "김서형, 건강 악화로 촬영 중 드라마 하차…박보경 긴급 투입",
+     "url": "https://www.mk.co.kr/news/hot-issues/12216766",
+     "source": "매일경제"
     },
     {
-     "title": "[날씨] 찬바람에 아침 영하권 ’뚝’…출근길 도로 살얼음 유의",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261124054303uue",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "대전·세종·충남에 비…낮 최고 11∼13도",
-     "url": "https://www.yna.co.kr/view/AKR20261123004600063",
+     "title": "박보경, 김서형 하차한 SBS 드라마 '대시' 합류",
+     "url": "https://www.yna.co.kr/view/AKR20261124074700005",
      "source": "연합뉴스"
+    },
+    {
+     "title": "김서형 건강 악화로 ‘대시 하차…김보경 대체 투입 [공식]",
+     "url": "https://sports.donga.com/ent/article/all/20261124/135078690/1",
+     "source": "스포츠동아"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "lg전자",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "keyword": "팝콘",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "LG전자, 싱가포르에 AI홈 체험 거점…동남아 공략 확대",
-     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01771206645648672",
-     "source": "마켓인"
+     "title": "백억커피, LG유플러스 멤버십 제휴…아메리카노·팝콘 무료 제공",
+     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5086044",
+     "source": "신아일보"
     },
     {
-     "title": "LG전자, 동남아·중동 AI홈 공략…글로벌 사우스 사업 확대",
-     "url": "https://www.asiatime.co.kr/article/20261123500353",
-     "source": "아시아타임즈"
+     "title": "다시 만난 최승윤 대표",
+     "url": "https://www.ilyosisa.co.kr/news/article.html?no=258940",
+     "source": "일요시사"
     },
     {
-     "title": "LG전자, 싱가포르 AI홈 체험관 개관… 동남아 시장 공략 가속",
-     "url": "https://zdnet.co.kr/view/?no=20261123084508",
-     "source": "지디넷코리아"
+     "title": "백억커피, 서울 봉천현대점·수원탑동점 동시 오픈···수도권 가맹사업 확대",
+     "url": "https://www.enetnews.co.kr/news/articleView.html?idxno=56609",
+     "source": "이넷뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "데블스 플랜 시즌 3",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "트롯 데스매치 금타는 금요일",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
-   "news": [
-    {
-     "title": "“성급하고 이기적”…존박, ‘데블스 플랜3’ 플레이 논란에 장문 해명",
-     "url": "https://www.mk.co.kr/news/hot-issues/12216031",
-     "source": "매일경제"
-    },
-    {
-     "title": "\"공황 하차 정현규 이어 또?\"..존박 사과에도 도 넘는 비난에 자성 목소리 [Oh!쎈 이슈]",
-     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/23/GIZWEYZRGVSTGZDFMQYTQNRXGA/",
-     "source": "조선일보"
-    },
-    {
-     "title": "존박이 얼마나 잘못했길래…게임 선택마다 비난, 결국 장문 해명까지 쓴 ‘데블스 플랜’ 과몰입 [Oh!쎈 초점]",
-     "url": "https://www.koreadaily.com/article/20261123072438051",
-     "source": "미주중앙일보"
-    }
-   ],
-   "safe": false
+   "news": [],
+   "safe": true
   },
   {
    "rank": 10,
-   "keyword": "북남고속철도",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "과즙 세연 방시혁",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "사회·정치",
    "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "동울산종합시장, 호계공설시장 방문 - 포토 | 멀티미디어",
-     "url": "https://www.korea.kr/multi/policyPhotoView.do?bbsKey=74455&pageIndex=1",
-     "source": "대한민국 정책브리핑"
+     "title": "과즙세연 “아무리 아니라고 해도 계속 묻더라”…방시혁 루머에 선 그어",
+     "url": "https://www.donga.com/news/Culture/article/all/20261123/135073886/2",
+     "source": "동아일보"
     },
     {
-     "title": "38시간→5시간 반… ‘95조’ 베트남 고속철, 韓이 설계",
-     "url": "https://www.chosun.com/international/international_general/2026/11/23/T7UUKXT6RZCUVF7LJ2KLR4AWBY/",
-     "source": "조선일보"
+     "title": "과즙세연 \"방시혁과 잤냐고? 안 잤다\"…코미디 무대 뒤집은 역대급 매운맛 해명",
+     "url": "https://www.fnnews.com/news/202611230756351536",
+     "source": "파이낸셜뉴스"
     },
     {
-     "title": "이 대통령, 김윤덕 의원에 공개 칭찬…이례적 SNS 격려에 정치권 주목",
-     "url": "https://www.jjan.kr/article/20261123500404",
-     "source": "전북일보 인터넷신문"
+     "title": "과즙세연·이돈호의 `독설배틀`, 문득 떠오른 국회…차이는 웃음과 고소장? [시사뒷담]",
+     "url": "https://www.imaeil.com/page/view/2026112220531002552",
+     "source": "매일신문"
     }
    ],
    "safe": false
