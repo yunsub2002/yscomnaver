@@ -1,157 +1,122 @@
 {
- "updated": "2026-11-25T13:57:00+09:00",
- "prev_updated": "2026-11-25T11:15:00+09:00",
+ "updated": "2026-11-25T21:35:00+09:00",
+ "prev_updated": "2026-11-25T13:57:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "반도체",
-   "traffic": "50000+",
-   "label": "약 5만 회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "호남 반도체 용수 공급 덕남정수장 생산량 2배로 늘린다",
-     "url": "https://www.yna.co.kr/view/AKR20261125072000054",
-     "source": "연합뉴스"
-    },
-    {
-     "title": "민형배 전남광주시장 \"반도체 팹 건설인력 1만호 공공임대 필요\"",
-     "url": "https://stock.mk.co.kr/news/view/1205658",
-     "source": "매일경제 마켓"
-    },
-    {
-     "title": "호남 반도체 클러스터 모든 것 '한눈에'…반도체 정보 플랫폼 '칩온' 본격 운영",
-     "url": "https://www.etnews.com/20261124000528",
-     "source": "전자신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 2,
-   "keyword": "공휴일",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "12·3 국민주권의 날이 “자화자찬 굿판”이라는 나경원",
-     "url": "https://www.hani.co.kr/arti/politics/politics_general/1288879.html",
-     "source": "한겨레"
-    },
-    {
-     "title": "'12·3 국민주권의 날' 정부기념일 지정…국민 용기와 행동 기린다",
-     "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148976397&pWise=sub&pWiseSub=R4",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "12월 3일 '국민주권의날' 지정...이 대통령 \"위대한 국민 승리\"",
-     "url": "https://www.ytn.co.kr/_ln/0101_202611241534293163",
-     "source": "YTN"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 3,
-   "keyword": "오현규",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "최우제",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "‘韓 국가대표’ 오현규, 베식타스 입단 1년도 안 돼 러시아 무대 향하나…“스파르타크 모스크바와 긴밀하게 접촉 중”",
-     "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=699157",
-     "source": "인터풋볼"
+     "title": "T1 2027시즌 기자회견 SOOP 생중계",
+     "url": "https://www.kmib.co.kr/article/20261125501220",
+     "source": "국민일보"
     },
     {
-     "title": "'韓 주전 공격수' 오현규의 대굴욕...주전 경쟁 완전히 밀렸다! 코냐스포르전서 단 '1분' 출전, '경쟁자'는 멀티골→\"동료-감독-팬들 덕분\"",
-     "url": "https://mydaily.co.kr/page/view/2026112314492476641",
-     "source": "마이데일리"
+     "title": "'친정' 돌아온 제우스 \"T1, 좋은 가치·비전 제시했다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261125176800017",
+     "source": "연합뉴스"
     },
     {
-     "title": "韓 축구 초비상! '국가대표 공격수' 오현규, '16호 프리미어리거' 등극 무산 위기...손흥민 강력 추천에도 러시아행 가능성 급부상→예상 이적료 441억",
-     "url": "https://mhnse.com/news/articleView.html?idxno=1709382",
-     "source": "MHN스포츠"
+     "title": "T1 돌아온 '제우스' 최우제 \"경기 보는 시야 넓어져\"⋯2029년까지 3년 계약 [현장]",
+     "url": "https://www.etoday.co.kr/news/view/2653024",
+     "source": "이투데이"
     }
    ],
-   "safe": false
+   "safe": true
+  },
+  {
+   "rank": 2,
+   "keyword": "은퇴 요원 관리팀",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "차승원·김도훈, 브로맨스 꽃피울까?…'은퇴요원+관리팀', 포스터 공개",
+     "url": "https://www.ytn.co.kr/_ln/0117_202611250906393953",
+     "source": "YTN"
+    },
+    {
+     "title": "전직·좌천 블랙요원의 은밀한 공조… 차승원ⅹ김도훈 ‘은퇴요원+관리팀’, 새해 첫 포문",
+     "url": "https://www.viva100.com/article/20261125500792",
+     "source": "브릿지경제"
+    },
+    {
+     "title": "[방송소식] 차승원·김도훈 주연 '은퇴요원+관리팀' 내년 1월 첫선",
+     "url": "https://www.yna.co.kr/view/AKR20261125054100005",
+     "source": "연합뉴스"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "청룡영화상",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "신인남우상 박지훈, 이변은 없었다···'왕과 사는 남자' 순조로운 시작('청룡영화상')",
+     "url": "https://biz.chosun.com/entertainment/movie/2026/11/25/GBQWGOBQGJQWMYZVGA4TAZBSMU/",
+     "source": "Chosunbiz"
+    },
+    {
+     "title": "박지현, 청룡의 빛",
+     "url": "https://www.news1.kr/photos/8233195",
+     "source": "뉴스1"
+    },
+    {
+     "title": "[포토] 문지훈, 돈까스한 인사",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/526063",
+     "source": "iMBC 연예"
+    }
+   ],
+   "safe": true
   },
   {
    "rank": 4,
-   "keyword": "대전광역시",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "마이크론 테크놀로지",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
-   "news": [],
+   "news": [
+    {
+     "title": "씨티, 메모리주 폭락 과도…마이크론 2배·샌디스크 3배 상승 전망",
+     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446284",
+     "source": "연합인포맥스"
+    },
+    {
+     "title": "마이크론, 하락…BNP파리마 목표가 대폭 하향",
+     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01095526645649328",
+     "source": "마켓인"
+    },
+    {
+     "title": "메모리 슈퍼사이클 정점론 4가지 근거…마이크론 목표가 반토막 - 머니투데이",
+     "url": "https://www.mt.co.kr/world/2026/11/25/2026112510071236055",
+     "source": "머니투데이"
+    }
+   ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "에디차",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "정찬성 지도했던 한국계 UFC 코치 별세 비보…UFC 파이터도 해설위원도 애도",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021708",
-     "source": "SPOTV NEWS"
-    },
-    {
-     "title": "'코리안 좀비' 정찬성 스승 에디 차 사망설 확산…MMA계 애도 물결",
-     "url": "https://www.wikitree.co.kr/articles/1177635",
-     "source": "위키트리"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 6,
-   "keyword": "홍익표",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "\"강금실? 대통령 생각을 모르겠다\" 與서도 국정원장 후보 지명 우려",
-     "url": "https://www.chosun.com/politics/assembly/2026/11/25/IIJNLNP45NFGZKCN5H3XQ7PLMU/",
-     "source": "조선일보"
-    },
-    {
-     "title": "강금실 친중논란… 자주파 색채 뺀 안보라인 효과 불투명",
-     "url": "https://www.munhwa.com/article/11634055",
-     "source": "문화일보"
-    },
-    {
-     "title": "美, 韓 외교안보라인 교체에 \"한미동맹 내 긴밀한 협력 중요\"",
-     "url": "https://www.yna.co.kr/view/AKR20261125002400071",
-     "source": "연합뉴스"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "제강",
+   "keyword": "해군",
    "traffic": "200+",
    "label": "약 200회 이상",
    "cat": "기타",
@@ -160,75 +125,159 @@
    "delta": 0,
    "news": [
     {
-     "title": "[게시판] 동국제강그룹, 아름다운가게와 20번째 '아름다운하루' 행사",
-     "url": "https://www.yna.co.kr/view/AKR20261124145500003",
+     "title": "'최대 4조 규모' 태국 호위함 사업 다시 원점 '재입찰', 한화오션-HD현대중공업 재격돌 예고",
+     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452801",
+     "source": "비즈니스포스트"
+    },
+    {
+     "title": "한화오션, 태국 해군 호위함 사업 우선협상자 지위 상실 [주목 e공시]",
+     "url": "https://www.hankyung.com/article/2026112504376",
+     "source": "한국경제"
+    },
+    {
+     "title": "한화오션, 6800억원 태국 호위함 사업 우협 지위 상실… “현지 조달 취소”",
+     "url": "https://www.viva100.com/article/20261125501392",
+     "source": "브릿지경제"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 6,
+   "keyword": "백화점",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "IT·테크",
+   "emo": "💻",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "\"판타지 세상 거닐어봐요\"…롯데百, 잠실점서 이색 아트 콘텐츠",
+     "url": "https://www.yna.co.kr/view/AKR20261124157000030",
      "source": "연합뉴스"
     },
     {
-     "title": "장세욱 동국제강 부회장 \"철근 구조조정, 자체 추진 한계\" - 머니투데이",
-     "url": "https://www.mt.co.kr/industry/2026/11/24/2026112413234025676",
-     "source": "머니투데이"
+     "title": "롯데백화점 잠실 에비뉴엘에서 체험형 전시 개최, 추리게임부터 관람객 교류 행사까지",
+     "url": "https://www.businesspost.co.kr/BP?command=article_view&num=452873",
+     "source": "비즈니스포스트"
     },
     {
-     "title": "동국제강그룹, 20번째 ‘아름다운하루’…기부·경매로 나눔 실천",
-     "url": "https://www.g-enews.com/article/Industry/2026/11/20261124163414562724debea800_1",
-     "source": "글로벌이코노믹"
+     "title": "백화점엔 트리, 카페엔 케이크…유통가 ’크리스마스 특수’ 선점 경쟁 By EBN",
+     "url": "https://kr.investing.com/news/stock-market-news/article-2188146",
+     "source": "Investing.com 한국어"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 7,
+   "keyword": "강남",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "강남구, 주민 세금 고민 덜어준다…재건축 '세무 전문가' 20명 위촉",
+     "url": "https://www.yna.co.kr/view/RPR20261125001900353",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "강남구, 내달 정비사업아카데미서 조합원 지위 양도기준 강의",
+     "url": "https://stock.mk.co.kr/news/view/1204555",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "“재건축 성공 공식부터 공사비 갈등 해법까지”…주거환경연합, 정책 아카데미 개최",
+     "url": "https://daily.hankooki.com/news/articleView.html?idxno=1428185",
+     "source": "데일리한국"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "채권",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "lg에너지솔루션",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "경제·재테크",
    "emo": "💰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "한화투자증권, 채권 순입고 이벤트…최대 50만원 혜택",
-     "url": "https://www.newsis.com/view/NISX20261125_0003882422",
-     "source": "뉴시스"
+     "title": "[CEO 리더십] 김동명의 LG엔솔 ’체질 개선’…폴란드 공장, ESS 전진기지로 By FinancialPost",
+     "url": "https://kr.investing.com/news/stock-market-news/article-2189741",
+     "source": "Investing.com 한국어"
     },
     {
-     "title": "삼성증권, IRP·연금저축 절세 페스타 행사 실시",
-     "url": "https://www.etnews.com/20261125000189",
-     "source": "전자신문"
+     "title": "LG에너지솔루션, 배터리 전 생애주기 관리",
+     "url": "https://monthly.chosun.com/news/articleView.html?idxno=72125",
+     "source": "월간조선"
     },
     {
-     "title": "한화투자증권, '채권투자에 혜택 더하기' 비대면 행사",
-     "url": "https://core.asiae.co.kr/article/2026112510345342588",
-     "source": "아시아경제"
+     "title": "LG엔솔·삼성SDI, 올해 설비투자 5.7조 '돌파'…\"생산 확대로 ESS 수요 선점\"",
+     "url": "https://www.fnnews.com/news/202611171136055557",
+     "source": "파이낸셜뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "한국대학신문",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "페이즈",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘판독 논란’ OK저축은행, KOVO에 ‘사후 판독’ 요청…KOVO “정독”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8722248",
+     "source": "KBS 뉴스"
+    },
+    {
+     "title": "케트진스키의 강력한 스파이크",
+     "url": "https://www.yna.co.kr/view/PYH20261124187100051",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "[프로배구] 팬심도 성적도 잃었다…총체적 난국에 빠진 OK저축은행",
+     "url": "https://www.newspim.com/news/view/20261125000019",
+     "source": "뉴스핌"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 10,
+   "keyword": "경주마",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "전북대, QS 세계대학 평가 국내 12위 ‘쾌거’",
-     "url": "https://sjbnews.com/news/news.php?number=893393&year=2026",
-     "source": "새전북신문"
+     "title": "'이제 2살 됐는데... 너 때문에 죽었다' 女 기수 황당 판단 때문에 '1억 5500만' 경주마 즉사 '日 승마계 발칵' - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/25/2026112417404247259",
+     "source": "머니투데이"
     },
     {
-     "title": "서울대, 2년 연속 아시아 1위… 국내 100위권은 서울대·고려대뿐[2027 QS 세계대학 지속가능성 평가]",
-     "url": "https://news.unn.net/news/articleView.html?idxno=600953",
-     "source": "한국대학신문"
+     "title": "기수 무리한 끼어들기에 1.4억대 경주마 즉사…日 '제 식구 감싸기' 파장",
+     "url": "https://www.newsis.com/view/NISX20261125_0003882057",
+     "source": "뉴시스"
     },
     {
-     "title": "부산대, QS 지속가능성평가 국립대 4년 연속 1위",
-     "url": "https://m.joongdo.co.kr/view.php?key=20261120010007141",
-     "source": "중도일보"
+     "title": "렛츠런파크 부산경남, 27일 2개 대상경주…총상금 8억원",
+     "url": "https://www.newsis.com/view/NISX20261125_0003882828",
+     "source": "뉴시스"
     }
    ],
    "safe": true
