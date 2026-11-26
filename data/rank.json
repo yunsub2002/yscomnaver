@@ -1,230 +1,286 @@
 {
- "updated": "2026-11-26T23:58:00+09:00",
- "prev_updated": "2026-11-26T13:54:00+09:00",
+ "updated": "2026-11-27T03:28:00+09:00",
+ "prev_updated": "2026-11-26T23:58:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "나인투식스",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "사회·정치",
-   "emo": "📰",
+   "keyword": "김민",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"피 철철 흘리고 구급차까지\" 박민영, 촬영 중 쓰러져…무슨 질환이길래 [헬스톡]",
-     "url": "https://www.fnnews.com/news/202611252205108656",
-     "source": "파이낸셜뉴스"
+     "title": "[ET포토] 김민, '인상파'",
+     "url": "https://www.etnews.com/20261126000018",
+     "source": "전자신문"
     },
     {
-     "title": "“정말 무섭더라…” 육성재, 마스크 쓰고 제작발표회 나온 사연",
-     "url": "https://www.joongang.co.kr/article/25481953",
-     "source": "중앙일보"
+     "title": "[영상] 박하선, 꿀피부",
+     "url": "https://www.newdaily.co.kr/site/data/html/2026/11/26/2026112650158.html",
+     "source": "뉴데일리"
     },
     {
-     "title": "'나인 투 식스' 박민영, 불륜남 화재 사기 사이다 응징...첫방 3.6% [종합] - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/26/2026112607547292245",
-     "source": "머니투데이"
+     "title": "[사진]김민, 야생마 같은 매력",
+     "url": "https://www.chosun.com/entertainments/entertain_photo/2026/11/26/GBQTMZJWGQYDONJZGI2GINTCME/",
+     "source": "조선일보"
     }
    ],
-   "safe": false
+   "safe": true
   },
   {
    "rank": 2,
-   "keyword": "이데일리",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
+   "keyword": "강소휘",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "수능 만점 받고도 숨는다…AI 부정행위 논란에 ‘쉬쉬’",
-     "url": "https://news.jtbc.co.kr/article/NB12329904",
-     "source": "JTBC"
+     "title": "[영상] 기업은행 노장의 분노, 그리고 이소영 딜레마?",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8723375",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "수능 만점 최소 3명이라는데…모두 \"공개 싫다\" 이유가",
-     "url": "https://www.hankyung.com/article/202611261522H",
-     "source": "한국경제"
+     "title": "'모마·마미, 13점씩' 도로공사, 6연승 질주",
+     "url": "https://www.ytn.co.kr/_ln/0107_202611252322000702",
+     "source": "YTN"
     },
     {
-     "title": "꽁꽁 숨은 '수능 만점자'들…가채점 만점 최소 3명 \"신원 공개 거부\" - 머니투데이",
-     "url": "https://www.mt.co.kr/society/2026/11/26/2026112521562266508",
-     "source": "머니투데이"
+     "title": "'女배구' 초보 감독 돌풍 무섭다! 우승후보 연속 격파 실화? 파죽의 승승승승승승→단독 1위 도약하다",
+     "url": "https://www.chosun.com/sports/volleyball/2026/11/26/MM2TGNRYMRQWMZLDGNRGCYJZHE/",
+     "source": "조선일보"
     }
    ],
    "safe": false
   },
   {
    "rank": 3,
-   "keyword": "김아현 주식 눈물",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "베식타시 대 하포엘 베르셰바",
+   "traffic": "500+",
+   "label": "약 500회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "삼성전자 레버리지 15% 폭락…생방송 중 눈물 보인 진행자",
-     "url": "https://www.edaily.co.kr/News/Read?newsId=03302966645649656&mediaCodeNo=257",
-     "source": "이데일리"
+     "title": "Bad news for Besiktas, Wenyen Gabriel has torn his ACL",
+     "url": "https://www.eurohoops.net/en/euroleague/2040653/bad-news-for-besiktas-wenyen-gabriel-has-torn-his-acl/",
+     "source": "Eurohoops"
     },
     {
-     "title": "'명픽' 이광수도 정부 비판…\"증시 붕괴, 최소한 노력은 해야\" [지금이뉴스]",
-     "url": "https://www.ytn.co.kr/_ln/0545_202611261520019651",
-     "source": "YTN"
+     "title": "Beşiktaş-Hapoel Beer Sheva: Beşiktaş misses Akdag (red card)",
+     "url": "https://www.tufutbolero.com/en/news/besiktas-hapoel-beer-sheva-besiktas-misses-akdag-red-card-e4fe01",
+     "source": "Tu Futbolero"
     },
     {
-     "title": "차트 보다가 울컥…\"주가 붕괴\" 주식 전문가들 줄줄이 눈물 - 머니투데이",
-     "url": "https://www.mt.co.kr/economy/2026/11/26/2026112616352496205",
-     "source": "머니투데이"
+     "title": "Besiktas fans face intervention over Palestinian flag in Georgia",
+     "url": "https://aa.com.tr/en/vg/video-gallery/besiktas-fans-face-intervention-over-palestinian-flag-in-georgia/159039",
+     "source": "Anadolu Ajansı"
     }
    ],
    "safe": true
   },
   {
    "rank": 4,
-   "keyword": "반도체 메모리",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
+   "keyword": "스파이",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
-     "url": "https://www.yna.co.kr/view/AKR20261126188000009",
-     "source": "연합뉴스"
+     "title": "From Chinese Factory Town to the Nvidia Scandal: The Rise of Alice Huang",
+     "url": "https://www.nytimes.com/2026/11/24/business/nvidia-alice-huang-china.html",
+     "source": "The New York Times"
     },
     {
-     "title": "삼성전자·SK하이닉스 장기공급계약 '물음표'…장부에 받은 돈이 없다",
-     "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446775",
-     "source": "연합인포맥스"
+     "title": "No Evidence China Orchestrated Jensen Huang’s Affair, Officials Brief Congress",
+     "url": "https://www.wsj.com/politics/national-security/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress-00228bb7",
+     "source": "WSJ"
     },
     {
-     "title": "머스크도 퇴짜 맞은 메모리… 이재용 \"뭘 더 해줄 건데?\"",
-     "url": "https://www.chosun.com/economy/tech_it/2026/11/26/3UELRQCP2RGPFJQN2TKPBFHSIU/",
-     "source": "조선일보"
+     "title": "EXCLUSIVE: Alice Huang-linked firms listed $270 million in AI servers in China, records show",
+     "url": "https://www.reuters.com/business/finance/alice-huang-linked-firms-listed-270-million-ai-servers-china-records-show-2026-11-25/",
+     "source": "Reuters"
     }
    ],
    "safe": true
   },
   {
    "rank": 5,
-   "keyword": "올림픽선수기자촌",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "크리스 리벤",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[현장] 올선 재건축, 구의회 문턱도 못 갔다…주민들 “10일 내 답변하라” 법적 대응 예고",
-     "url": "https://m.ekn.kr/view.php?key=20261126024275133",
-     "source": "에너지경제신문"
+     "title": "\"맞자마자 반칙이라고 생각\" 추성훈에게 맞고 안와골절…'사커킥 맞은 순간' 떠올린 크리스 리벤",
+     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022153",
+     "source": "SPOTV NEWS"
     },
     {
-     "title": "\"상가 쏙 빼고 짓자\" 올림픽선수촌 재건축에 송파구 제동, 내년 결판난다",
-     "url": "https://realty.chosun.com/site/data/html_dir/2026/11/19/2026111902059.html",
-     "source": "땅집고"
+     "title": "“용돈 괜찮으니 아프지 마”…폭풍성장 사랑이 ‘은퇴’ 추성훈 응원",
+     "url": "https://www.joongang.co.kr/article/25481707",
+     "source": "중앙일보"
     },
     {
-     "title": "올림픽선수기자촌 재건축 ‘현수막 맞불’…송파구 “상가 참여 의사 확인 후 절차 검토”",
-     "url": "https://m.ekn.kr/view.php?key=20261126029274906",
-     "source": "에너지경제신문"
+     "title": "'15세' 추사랑, 벌써 키 172cm..유창한 영어로 국제학교 친구들 소개 ('편스토랑')",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/26/MVSTMOLGHE2TQMLGHFRTMNTCG4/",
+     "source": "조선일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "설인아",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "우크라이나",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "설인아→연우 '무쇠소녀단3', 김동현도 기겁한 첫 훈련…\"이런 악마 같은 걸\" - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/26/2026112617007254733",
-     "source": "머니투데이"
+     "title": "EU 정상들, 우크라 지원안·7년 장기예산 놓고 격론 돌입",
+     "url": "https://www.yna.co.kr/view/AKR20261126193300098",
+     "source": "연합뉴스"
     },
     {
-     "title": "'무쇠소녀단3', 아파트 100층 높이 극한 훈련…쇼트트랙 도전 시작",
-     "url": "https://www.newspim.com/news/view/20261126000413",
-     "source": "뉴스핌"
+     "title": "\"프랑스 극우 집권 전에 꼭\"…EU, 연말까지 예산안 합의 분투",
+     "url": "https://www.news1.kr/world/europe/6367729",
+     "source": "뉴스1"
     },
     {
-     "title": "설인아·금새록, 10kg 짊어지고 계단 3000개 뛴다 (무쇠소녀단3)",
-     "url": "https://sports.donga.com/ent/article/all/20261126/135093930/1",
-     "source": "스포츠동아"
+     "title": "젤렌스키 \"내년엔 1150억 유로 재정 지원 필요\"…장기전 속 재정난 심화",
+     "url": "https://www.newsis.com/view/NISX20261125_0003883111",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "송파구",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
+   "keyword": "아마존",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "李대통령이 옳았나…송파 집값, 4년만에 역대급 추락했다",
-     "url": "https://www.mk.co.kr/news/realestate/12219258",
-     "source": "매일경제"
+     "title": "I found the 84 best Amazon Black Friday deals on AirPods, Bissell vacuums and more",
+     "url": "https://www.cnn.com/cnn-underscored/deals/amazon-black-friday-2026-11-26",
+     "source": "CNN"
     },
     {
-     "title": "서울 아파트값 떨어지나? 한강벨트까지 하락세 전환",
-     "url": "https://www.hani.co.kr/arti/economy/property/1289263.html",
-     "source": "한겨레"
+     "title": "The top Thanksgiving Black Friday deals: Save up to 70% at Walmart, Amazon, Kate Spade and more",
+     "url": "https://shopping.yahoo.com/deals/breaking-news/live/the-top-thanksgiving-black-friday-deals-save-up-to-70-at-walmart-amazon-kate-spade-and-more-113918155.html",
+     "source": "Yahoo"
     },
     {
-     "title": "[그래픽] 서울 집값 상승률 0.01%…광진·영등포까지 9개구 하락",
-     "url": "https://www.newsis.com/view/NISI20261126_0002303077",
-     "source": "뉴시스"
+     "title": "Amazon’s 85 Best Black Friday Deals to Shop on Thanksgiving Start at 27 Cents Apiece — Up to 75% Off",
+     "url": "https://www.foodandwine.com/best-amazon-thanksgiving-black-friday-deals-2026-12217727",
+     "source": "Food & Wine"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "정연",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "이서진, 11살 어린 한지민에 \"갱년기 중년 女\"…막말 비하 논란 - 머니투데이",
+     "url": "https://www.mt.co.kr/entertainment/2026/11/26/2026112618425270556",
+     "source": "머니투데이"
+    },
+    {
+     "title": "‘80세’ 김용건, 허리 수술 받았는데 “하루에 만보 걸어..병원 부지런히 다닌다” (‘그사친’)",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/26/MUZDCMDEMVQWGYZTG5STGZJQGQ/",
+     "source": "조선일보"
+    },
+    {
+     "title": "도합 85년 우정 여행…한지민 \"나이·성별 떠나 친구 됐죠\"",
+     "url": "https://www.yna.co.kr/view/AKR20261126143000005",
+     "source": "연합뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 8,
-   "keyword": "수디르만컵",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "rank": 9,
+   "keyword": "노동쟁의",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "'꿈은 이뤄졌다'배드민턴 메이저대회 '수디르만컵' 한국서 열린다…2029년 대회 개최 확정, 한국 셔틀콕 오랜 숙원 해결 '쾌거'",
-     "url": "https://www.chosun.com/sports/sports_general/2026/11/26/HBRTQZLFMY2WEZBTG5QTOYRTGU/",
-     "source": "조선일보"
+     "title": "헌재 “다른 노조 파업 지원했다고 처벌한 옛 노동법은 위헌”",
+     "url": "https://news.kbs.co.kr/news/view.do?ncd=8723445",
+     "source": "KBS 뉴스"
     },
     {
-     "title": "'안세영 독주 견제하려는 것 아닌가' 15점제가 끝이 아니었다…BWF 대격변 공식발표! 세계선수권+국가대항전 싹 바뀐다→\"근거 없는 억측\"",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1021959",
-     "source": "SPOTV NEWS"
+     "title": "신군부가 범죄로 규정한 노동자들의 ‘연대’…헌재, 36년 만에 위헌 결정",
+     "url": "https://www.khan.co.kr/article/202611261644001",
+     "source": "경향신문"
     },
     {
-     "title": "[속보]'일장춘몽'해프닝으로 끝난 수디르만컵 한국 유치…BWF 공식발표에도, 전주시 \"체육관 건립 지연 등으로 개최 포기\"",
-     "url": "https://www.sportschosun.com/sports-news/2026-11-26/202611260100166490015388",
-     "source": "스포츠조선"
+     "title": "헌재 ‘노동쟁의 제3자 개입 금지’ 위헌 결정…36년만에 판단 뒤집어",
+     "url": "https://www.donga.com/news/Politics/article/all/20261126/135096108/1",
+     "source": "동아일보"
     }
    ],
    "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "정은경",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "[동정] 복지장관, 동대문구-우체국 협업 '찾아가는 그냥드림' 점검",
+     "url": "https://www.yna.co.kr/view/AKR20261126150500530",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "생계 막막할 때 받는 ‘그냥드림’ 아시나요",
+     "url": "https://bravo.etoday.co.kr/view/atc_view/20566",
+     "source": "이투데이"
+    },
+    {
+     "title": "정은경 장관, 그냥드림과 우체국 협업한 찾아가는 서비스 운영 점검",
+     "url": "https://go.seoul.co.kr/news/prnewsView.php?id=459183",
+     "source": "서울Pn"
+    }
+   ],
+   "safe": false
   }
  ]
 }
