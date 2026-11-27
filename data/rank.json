@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-28T03:06:00+09:00",
- "prev_updated": "2026-11-27T17:05:00+09:00",
+ "updated": "2026-11-28T03:16:00+09:00",
+ "prev_updated": "2026-11-28T03:06:00+09:00",
  "items": [
   {
    "rank": 1,
@@ -9,7 +9,7 @@
    "label": "약 2,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -37,7 +37,7 @@
    "label": "약 2,000회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -51,9 +51,9 @@
      "source": "뉴시스"
     },
     {
-     "title": "박서진, 국가대표 됐다더니…5억 원대 장구 연주 (살림남)",
-     "url": "https://sports.donga.com/ent/article/all/20261127/135101628/1",
-     "source": "스포츠동아"
+     "title": "박서진, 트로트 국가대표 됐다…5억원 고려청자 장구 연주 (살림남)",
+     "url": "https://sports.khan.co.kr/article/202611270812003",
+     "source": "스포츠경향"
     }
    ],
    "safe": true
@@ -65,23 +65,23 @@
    "label": "약 1,000회 이상",
    "cat": "사회·정치",
    "emo": "📰",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
-     "title": "교실서 담임 머리채 폭행…\"누가 유출\" 학부모 진정 결국",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866807",
-     "source": "SBS 뉴스"
+     "title": "'초등생이 교사 머리채 폭행' 영상 유출…학부모 진정 내사 종결",
+     "url": "https://www.yna.co.kr/view/AKR20261127073400064",
+     "source": "연합뉴스"
+    },
+    {
+     "title": "교사 폭행한 자녀 영상 퍼지자...‘명예훼손’ 진정 낸 학부모",
+     "url": "https://news.jtbc.co.kr/article/NB12330181",
+     "source": "JTBC"
     },
     {
      "title": "‘교사 머리채 잡은 초등생’ 영상 유출…경찰 “혐의 없음” 종결",
      "url": "https://www.kyeonggi.com/article/20261127580141",
      "source": "경기일보"
-    },
-    {
-     "title": "경찰 “교사폭행 초등생 영상 유포, 공익적 제보로 봐야” 내사 종결",
-     "url": "https://www.donga.com/news/Society/article/all/20261127/135104682/1",
-     "source": "동아일보"
     }
    ],
    "safe": false
@@ -93,7 +93,7 @@
    "label": "약 1,000회 이상",
    "cat": "스포츠",
    "emo": "⚾",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -121,7 +121,7 @@
    "label": "약 500회 이상",
    "cat": "IT·테크",
    "emo": "💻",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -149,7 +149,7 @@
    "label": "약 500회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -177,7 +177,7 @@
    "label": "약 200회 이상",
    "cat": "연예·방송",
    "emo": "🎬",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -205,7 +205,7 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -233,7 +233,7 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
@@ -261,7 +261,7 @@
    "label": "약 100회 이상",
    "cat": "기타",
    "emo": "🔎",
-   "move": "new",
+   "move": "same",
    "delta": 0,
    "news": [
     {
