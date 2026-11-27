@@ -1,178 +1,66 @@
 {
- "updated": "2026-11-27T13:20:00+09:00",
- "prev_updated": "2026-11-27T08:42:00+09:00",
+ "updated": "2026-11-27T17:05:00+09:00",
+ "prev_updated": "2026-11-27T13:20:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "강시후",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "스포츠",
-   "emo": "⚾",
+   "keyword": "롯데그룹",
+   "traffic": "1000+",
+   "label": "약 1,000회 이상",
+   "cat": "기타",
+   "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "‘강호동 아들’ 강시후 전국 골프대회 준우승…‘188㎝·운동 DNA’",
-     "url": "https://www.mk.co.kr/news/hot-issues/12220018",
+     "title": "신유열 ‘바이오’ 구본규 ‘전력 인프라’…",
+     "url": "https://www.mk.co.kr/news/economy/12220096",
      "source": "매일경제"
     },
     {
-     "title": "야구 배트 대신 골프채 잡더니…'강호동 아들' 또 일냈다",
-     "url": "https://www.hankyung.com/article/202611274345H",
-     "source": "한국경제"
+     "title": "6년만에 단 사장 명패…롯데 예비 '오너' 신유열이 넘어야 할 진짜 벽",
+     "url": "https://www.investchosun.com/site/data/html_dir/2026/11/23/2026112380129.html",
+     "source": "인베스트조선"
     },
     {
-     "title": "[단독] 강호동, 자식농사 대박났다…188cm 아들 시후, 전국골프대회 ‘준우승’(종합)",
-     "url": "https://www.koreadaily.com/article/20261126195033036",
-     "source": "미주중앙일보"
+     "title": "경영전면에 나선 2·3세…제약사 세대교체 '속도'",
+     "url": "https://www.newsis.com/view/NISX20261124_0003881621",
+     "source": "뉴시스"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "남경필",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
+   "keyword": "최휘영",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "사회·정치",
    "emo": "📰",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "‘마약사범’ 남경필 아들…여친에게 ‘성관계 영상 유포’ 협박·폭행 혐의",
-     "url": "https://news.jtbc.co.kr/article/NB12330139",
-     "source": "JTBC"
-    },
-    {
-     "title": "‘마약 투약’ 남경필 아들, 전 연인에 성관계 영상 협박하다 체포 [자막뉴스]",
-     "url": "https://ichannela.com/news/detail/000000561932.do",
-     "source": "채널A"
-    },
-    {
-     "title": "전직 유력 정치인 아들, 전 연인 스토킹·폭행 혐의로 경찰에 붙잡혀",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6869046_36918.html",
+     "title": "이 대통령, 최휘영 '교체 기습 통보' 보도에 정정 요구",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6869093_36911.html",
      "source": "MBC 뉴스"
+    },
+    {
+     "title": "‘최휘영 교체 기습 통보’ TV조선 보도에···이 대통령 “명예 훼손 중대문제, 정정해달라”",
+     "url": "https://www.khan.co.kr/article/202611271430021",
+     "source": "경향신문"
+    },
+    {
+     "title": "李대통령, '문체장관에 교체 기습통보' 언론 보도에 \"정정해야\"",
+     "url": "https://www.yna.co.kr/view/AKR20261127097000001",
+     "source": "연합뉴스"
     }
    ],
    "safe": false
   },
   {
    "rank": 3,
-   "keyword": "뉴스",
-   "traffic": "2000+",
-   "label": "약 2,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "AI가 똑똑해질수록 인간은 어떻게 변할까… 신간 ’AI는 여성인 당신을 사랑하지 않아요’",
-     "url": "https://www.yonhapnewstv.co.kr/news/AKR20261126125005nIs",
-     "source": "연합뉴스TV"
-    },
-    {
-     "title": "[샛강에서] 상식 파괴의 시대",
-     "url": "https://www.kmib.co.kr/article/20261125502047",
-     "source": "국민일보"
-    },
-    {
-     "title": "[발언대]미래로 간 기술, 과거에 머문 사회",
-     "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1073576",
-     "source": "경상일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 4,
-   "keyword": "엘니뇨",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "날씨·생활",
-   "emo": "🌤",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "‘슈퍼엘니뇨’에 폭설?…시간당 5cm 눈 오면 문자 온다",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8724042",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "따뜻한 겨울? 하지만 대설 주의!",
-     "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148976635&pWise=sub&pWiseSub=C3",
-     "source": "대한민국 정책브리핑"
-    },
-    {
-     "title": "기상청 \"눈비 내리기 전, 예보 변화 가능성도 발표\"",
-     "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202611261602382478",
-     "source": "YTN 사이언스"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "별자리",
-   "traffic": "1000+",
-   "label": "약 1,000회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "[속보] ‘표류’ 北어선, 24일만에 돌아갔다…1명 남고 6명 송환",
-     "url": "https://www.mk.co.kr/news/politics/12220024",
-     "source": "매일경제"
-    },
-    {
-     "title": "[오늘의 운세] 2026년 11월 27일 띠별 운세",
-     "url": "https://www.ytn.co.kr/_ln/0121_202611270000000001",
-     "source": "YTN"
-    },
-    {
-     "title": "오늘의 운세 11월 27일(음력 10월 19일)",
-     "url": "https://www.jemin.com/news/articleView.html?idxno=848599",
-     "source": "제민일보"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 6,
-   "keyword": "jyp 엔터테인먼트",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "'JYP 신인' 오브더블루, 멤버 4인 비주얼 베일 벗었다..청량 매력",
-     "url": "https://www.chosun.com/entertainments/music/2026/11/26/MFRGEMJSHE3WKZTCGQ3WGOJTMI/",
-     "source": "조선일보"
-    },
-    {
-     "title": "확신의 JYP상..오브더블루, 내년 1월 데뷔 앞두고 자기소개 - 머니투데이",
-     "url": "https://www.mt.co.kr/entertainment/2026/11/27/2026112708457227418",
-     "source": "머니투데이"
-    },
-    {
-     "title": "얼굴 대신 취향 먼저…JYP 스쿼드 첫 신인 오브더블루, 파격 데뷔 공식",
-     "url": "https://sports.donga.com/ent/article/all/20261126/135096179/1",
-     "source": "스포츠동아"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 7,
-   "keyword": "대만",
+   "keyword": "박홍근",
    "traffic": "500+",
    "label": "약 500회 이상",
    "cat": "사회·정치",
@@ -181,54 +69,194 @@
    "delta": 0,
    "news": [
     {
-     "title": "대만 내일 지방선거…'친미·반중' 라이칭더 정권 중간평가 무대",
-     "url": "https://www.yna.co.kr/view/AKR20261127080400083",
-     "source": "연합뉴스"
+     "title": "서영교·박홍근 뜻밖의 충돌‥\"답변 태도에 문제\" \"여기가 상원인가\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6869115_36911.html",
+     "source": "MBC 뉴스"
     },
     {
-     "title": "라이칭더 대만 총통 연임 바로미터… 내일 지방선거",
-     "url": "https://www.munhwa.com/article/11634622",
-     "source": "문화일보"
+     "title": "서영교에 목청 높인 박홍근 “법사위 그동안 제대로 작동 안돼”",
+     "url": "https://www.donga.com/news/Politics/article/all/20261127/135103674/1",
+     "source": "동아일보"
     },
     {
-     "title": "대만 지방선거 D-2…국민당, 15곳 수성 난항에 긴장",
-     "url": "https://www.newsis.com/view/NISX20261126_0003884906",
-     "source": "뉴시스"
+     "title": "의원 질의에 답변하는 형일 부총리 겸 재정경제부 장관",
+     "url": "https://www.gukjenews.com/news/articleView.html?idxno=3765399",
+     "source": "국제뉴스"
     }
    ],
    "safe": false
   },
   {
-   "rank": 8,
-   "keyword": "죽도시장",
+   "rank": 4,
+   "keyword": "신태일",
    "traffic": "500+",
    "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "[여기는 포항] 포항 죽도시장 상인, 골목형 상가 해법 찾아 외",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723692",
-     "source": "KBS 뉴스"
-    },
-    {
-     "title": "증평군, 골목형상점가 3곳 신규 지정…\"상권 활성화 기대\"",
-     "url": "https://www.yna.co.kr/view/AKR20261127017000064",
+     "title": "미성년자들 성착취 라이브 방송한 BJ, 항소심도 징역 6년",
+     "url": "https://www.yna.co.kr/view/AKR20261127107500065",
      "source": "연합뉴스"
     },
     {
-     "title": "수성택지 먹자골목·미소거리·초산아우름 추가 지정…정읍 골목형상점가 4곳으로",
-     "url": "https://sjbnews.com/news/news.php?number=893685&year=2026",
-     "source": "새전북신문"
+     "title": "'미성년자 성착취물 생중계' BJ 신태일, 2심도 징역 6년",
+     "url": "https://www.newsis.com/view/NISX20261127_0003886409",
+     "source": "뉴시스"
+    },
+    {
+     "title": "‘미성년자 성착취 생방송’ BJ 신태일, 2심도 징역 6년",
+     "url": "https://biz.chosun.com/topics/topics_social/2026/11/27/RCRF4JL5MJD7VATLW3WSRJFSQ4/",
+     "source": "Chosunbiz"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 5,
+   "keyword": "히샬리송",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "‘토트넘 금쪽이’ 히샬리송·‘맨유 87경기 11골’ 지르크제이 에버턴 영입망… 포체티노 구상이 변수",
+     "url": "https://www.besteleven.com/news/articleView.html?idxno=314393",
+     "source": "베스트일레븐"
+    },
+    {
+     "title": "토트넘 홈런 제대로 쳤다, '최악의 말썽쟁이' 히샬리송 드디어 매각 기회...튀르키예 구단 협상 진행 '150억이면 판다'",
+     "url": "https://www.sportschosun.com/football/2026-11-21/202611210100133000012552",
+     "source": "스포츠조선"
+    },
+    {
+     "title": "손흥민 옆에서 뛰다 한순간 4부 추락하더니…“히샬리송, 끝내 토트넘 떠나 에버턴 복귀 고려”",
+     "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101374",
+     "source": "포포투"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 6,
+   "keyword": "최민희 징계",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "사회·정치",
+   "emo": "📰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "최민희, 징계심의 전 김민석 조준 \"마타도어 방지책 마련해야\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6869054_36911.html",
+     "source": "MBC 뉴스"
+    },
+    {
+     "title": "최민희 ‘운명의 날’…윤리심판원 중징계 전망 속 ‘전운’ 감도는 민주당",
+     "url": "https://www.khan.co.kr/article/202611271602001",
+     "source": "경향신문"
+    },
+    {
+     "title": "양부남 심판위원, 민주당 중앙당 윤리심판원 회의 참석",
+     "url": "https://www.news1.kr/photos/8236635",
+     "source": "뉴스1"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 7,
+   "keyword": "디에이치 반포124",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "경제·재테크",
+   "emo": "💰",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "12월 서울 일반분양 2725가구…'최대어' 디에이치 반포124 주목 - 머니투데이",
+     "url": "https://www.mt.co.kr/estate/2026/11/27/2026112711184216078",
+     "source": "머니투데이"
+    },
+    {
+     "title": "연말 분양시장 -최초·최고·최대- 단지 잇따라 공급",
+     "url": "https://re.mk.co.kr/news/news_detail.php?no=12220203",
+     "source": "매일경제"
+    },
+    {
+     "title": "연말 분양 3만가구 쏟아진다… ‘청약 대어’ 디에이치 반포124도 출격",
+     "url": "https://www.chosun.com/economy/real_estate/2026/11/27/SGRA23VJERE6XA5ZK7JVJ5H364/",
+     "source": "조선일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 8,
+   "keyword": "조승우",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "46세 조승우 \"엄마 때문 결혼 못해…다 부질없고 우울\"",
+     "url": "https://www.newsis.com/view/NISX20261127_0003885401",
+     "source": "뉴시스"
+    },
+    {
+     "title": "조승우 “엄마 말 때문에 장가 못 가”…46세 미혼, ‘좁쌀영감’ 한마디",
+     "url": "https://www.donga.com/news/Culture/article/all/20261127/135101583/2",
+     "source": "동아일보"
+    },
+    {
+     "title": "'46세' 조승우가 임플란트라니..\"남성호르몬 수치도 떨어졌다\" 깜짝",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/26/MRSGGOLEGFTGCZRUMEZWINDEMQ/",
+     "source": "조선일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "더바이오",
+   "keyword": "경남 fc",
+   "traffic": "100+",
+   "label": "약 100회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'필사즉생' 서울 이랜드, 경남 잡고 3위로 PO 간다!",
+     "url": "https://www.chosun.com/sports/football/2026/11/27/HBSGKN3GMQ2WCMRWHA3DGZLBHA/",
+     "source": "조선일보"
+    },
+    {
+     "title": "경남FC, 홈 폐막전 승리로 시즌 마무리 노린다",
+     "url": "https://www.gnmaeil.com/news/articleView.html?idxno=599636",
+     "source": "경남매일"
+    },
+    {
+     "title": "'반드시 승격한다!' 서울 이랜드 FC, 경남과 최종전서 승리 다짐 - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/27/202611271124777248O",
+     "source": "머니투데이"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 10,
+   "keyword": "신달자",
    "traffic": "100+",
    "label": "약 100회 이상",
    "cat": "기타",
@@ -237,19 +265,19 @@
    "delta": 0,
    "news": [
     {
-     "title": "펩트론, 릴리 이어 페링과 공동연구…비만 넘어 항암·난임 가나",
-     "url": "https://pharm.edaily.co.kr/News/Read?newsId=01210326645649984&mediaCodeNo=257",
-     "source": "팜이데일리"
+     "title": "신달자 \"'니는 될 끼다'…빌딩보다 값진 어머니의 유언이었죠\"",
+     "url": "https://www.yna.co.kr/view/AKR20261126192400005",
+     "source": "연합뉴스"
     },
     {
-     "title": "[특징주] 펩트론, 스위스 제약사와 기술평가 계약…강세",
-     "url": "https://m.ekn.kr/view.php?key=20261127028215596",
-     "source": "에너지경제신문"
+     "title": "어머니가 남긴 사랑, 딸이 써 내려간 답장 [신간 소개]",
+     "url": "https://www.kyeonggi.com/article/20261125580086",
+     "source": "경기일보"
     },
     {
-     "title": "펩트론, 페링과 장기지속형 주사제 기술평가 계약 체결",
-     "url": "https://www.newstown.co.kr/news/articleView.html?idxno=723605",
-     "source": "뉴스타운"
+     "title": "문맹 어머니가 남긴 한 줄, 신달자의 새 책이 되다 : 문화",
+     "url": "https://news.jkn.co.kr/post/1126508",
+     "source": "재경일보"
     }
    ],
    "safe": true
