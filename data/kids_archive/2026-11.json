@@ -9308,5 +9308,47 @@
 "end": null,
 "addr": "",
 "seen": "2026-11-28T10:25:00+09:00"
+},
+{
+"id": "na1f0b303db",
+"cat": "festival",
+"title": "국립광주과학관 크리스마스 가족 캠프 ‘산타의 비밀’ 참가 모집",
+"source": "culturegb.com",
+"url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvaEZSNEFmYnlQLXhpaEV0STVZR3E3N3luLUtFVWpsbU5kMW5LNVY4WFNyRlFFOERTQmVGWVk1V2hVUUVkb3RLclBhM1FaZmdqbnR0SEhFX3p3azJF?oc=5",
+"pub": "2026-11-28T13:11:00+09:00",
+"region": "광주",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-28T13:57:00+09:00"
+},
+{
+"id": "nd8f4d95dbf",
+"cat": "show",
+"title": "청주예총, 무용·연극부터 시화 전시까지 어린이 예술 꿈 키운 종합발표회 개최",
+"source": "브레이크뉴스",
+"url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBfaTlXdTVDNWFUdl8ydTRPckdFTTlmZVBoc3J2dTd1QjdzaVNTSjBVMGozb2RFMEJMNTJOZ2lUcUtUMVUwMkJFUA?oc=5",
+"pub": "2026-11-27T14:37:00+09:00",
+"region": "청주",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-28T13:57:00+09:00"
+},
+{
+"id": "n4bbad7fbef",
+"cat": "festival",
+"title": "제천 봉양 박달콩 축제 28일 개막…농특산물 직거래·체험행사 풍성",
+"source": "신아일보",
+"url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWLXNaZVhCY2FsSnMxdUxjUFY5Y2JYR3Jjemd5WWotRXBWNUloU0Fta0F0bXpheG5tS3R5UzNHcFNEUEtCMjdTRWlmbTlDMFFrbVhUaXJndzI0bDdHSmxhMGlVZUZCeFZzekRqODgyTEU?oc=5",
+"pub": "2026-11-27T12:09:26+09:00",
+"region": "",
+"period": "",
+"start": null,
+"end": null,
+"addr": null,
+"seen": "2026-11-28T13:57:00+09:00"
 }
 ]
