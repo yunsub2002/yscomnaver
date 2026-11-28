@@ -1,38 +1,122 @@
 {
- "updated": "2026-11-28T13:01:00+09:00",
- "prev_updated": "2026-11-28T10:25:00+09:00",
+ "updated": "2026-11-28T19:10:00+09:00",
+ "prev_updated": "2026-11-28T13:01:00+09:00",
  "items": [
   {
    "rank": 1,
-   "keyword": "의사",
-   "traffic": "5000+",
-   "label": "약 5,000회 이상",
-   "cat": "IT·테크",
-   "emo": "💻",
+   "keyword": "fc 서울 대 대전 하나 시티즌 순위",
+   "traffic": "10000+",
+   "label": "약 1만 회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "뚝딱 만드는 AI 가짜 의사…광고에 쓰면 영업정지",
-     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724780",
-     "source": "KBS 뉴스"
+     "title": "FC서울 우승 파티서 안도의 한숨 쉰 김기동 감독 \"약속 지켰다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261128045000007",
+     "source": "연합뉴스"
     },
     {
-     "title": "“의사가 추천“…AI ’가짜 전문가’ 광고 철퇴",
-     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261128103018byE",
-     "source": "연합뉴스TV"
+     "title": "'K리그1 챔피언' 서울, 대전 4-1 꺾고 완벽한 '우승 대관식'",
+     "url": "https://www.newsis.com/view/NISX20261128_0003887129",
+     "source": "뉴시스"
     },
     {
-     "title": "2028년부터 알레르기 표시 대상에 참깨·아몬드 등 4종 추가",
-     "url": "https://imnews.imbc.com/news/2026/society/article/6869034_36918.html",
-     "source": "MBC 뉴스"
+     "title": "곤룡포 입은 정승원, '호나우두 머리' 클리말라...10년 기다린 FC서울의 우승 대관식, 이제 8번째 별을 향해 [오!쎈 현장] - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/28/202611281600774879O",
+     "source": "머니투데이"
     }
    ],
    "safe": true
   },
   {
    "rank": 2,
-   "keyword": "샌안토니오 대 la 레이커스",
+   "keyword": "이자",
+   "traffic": "5000+",
+   "label": "약 5,000회 이상",
+   "cat": "날씨·생활",
+   "emo": "🌤",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "“눈물 머금고 예금 깼는데 괜히 머금었습니다”…이자 손해 줄이는 방법",
+     "url": "https://www.mk.co.kr/news/economy/12220684",
+     "source": "매일경제"
+    },
+    {
+     "title": "정기예금 중도해지 대신 분할인출…이자 손실 줄인다 : 재테크",
+     "url": "https://news.jkn.co.kr/post/1130094",
+     "source": "재경일보"
+    },
+    {
+     "title": "주담대 5% - 마통 7%… 가계 덮친 ‘눈덩이 금리’",
+     "url": "https://www.donga.com/news/Economy/article/all/20261127/135106378/2",
+     "source": "동아일보"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 3,
+   "keyword": "전현무",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "50세 전현무, 이래서 결혼 안하나 “자유가 없는 세계 아니냐”(‘전현무계획4’)",
+     "url": "https://www.chosun.com/entertainments/broadcast/2026/11/28/GVTGCYRXGYZDOM3EHA2TQZRSMM/",
+     "source": "조선일보"
+    },
+    {
+     "title": "나윤권, 두 돌 아들 육아 얼마나 힘들길래…“테이보다 간절하게 먹어”",
+     "url": "https://sports.donga.com/ent/article/all/20261128/135106768/1",
+     "source": "스포츠동아"
+    },
+    {
+     "title": "나윤권, 결혼 비하인드 공개 “아내가 좋아서 적극 대시했다” (전현무계획4)",
+     "url": "https://enews.imbc.com/News/RetrieveNewsInfo/526286",
+     "source": "iMBC 연예"
+    }
+   ],
+   "safe": true
+  },
+  {
+   "rank": 4,
+   "keyword": "부천 대 김천상무",
+   "traffic": "2000+",
+   "label": "약 2,000회 이상",
+   "cat": "스포츠",
+   "emo": "⚾",
+   "move": "new",
+   "delta": 0,
+   "news": [
+    {
+     "title": "'카즈 퇴장·바사니 부상' 부천, 한지호 은퇴 경기 아쉬운 패배...홈 최종전서 '강주혁 1골 1도움' 김천에 1-2 덜미[오!쎈 부천] - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/28/202611281627779969O",
+     "source": "머니투데이"
+    },
+    {
+     "title": "\"올해까지만 내 역할\" 작별 앞둔 주승진 김천 감독...\"K리그에서 더 많은 경험 쌓고, 연속성 가져가고 싶다\"[현장 인터뷰]",
+     "url": "https://www.chosun.com/sports/football/2026/11/28/GE4DMMRQGZSTGMRWGM2TENLFMY/",
+     "source": "조선일보"
+    },
+    {
+     "title": "'굿바이 캡틴' 한지호, 커리어 마지막 홈경기 나선다...부천FC1995, 김천전 선발 명단 공개[오!쎈 부천]",
+     "url": "https://www.koreadaily.com/article/20261127222201904",
+     "source": "미주중앙일보"
+    }
+   ],
+   "safe": false
+  },
+  {
+   "rank": 5,
+   "keyword": "서울역",
    "traffic": "1000+",
    "label": "약 1,000회 이상",
    "cat": "기타",
@@ -41,218 +125,134 @@
    "delta": 0,
    "news": [
     {
-     "title": "Los Angeles Lakers @ San Antonio Spurs Odds",
-     "url": "https://sportsbook.fanduel.com/basketball/nba/los-angeles-lakers-@-san-antonio-spurs-36358261",
-     "source": "FanDuel Sportsbook"
-    },
-    {
-     "title": "How to watch Lakers vs Spurs: NBA, live stream, TV channel",
-     "url": "https://sports.yahoo.com/nba/articles/watch-lakers-vs-spurs-nba-013000578.html",
-     "source": "Yahoo Sports"
-    },
-    {
-     "title": "How Wemby vs. Luka became NBA’s Black Friday main event with a lot on the line",
-     "url": "https://www.expressnews.com/sports/spurs/article/spurs-lakers-wemby-luka-doncic-nba-cup-22551594.php",
-     "source": "San Antonio Express-News"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 3,
-   "keyword": "브론슨 리드",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "기타",
-   "emo": "🔎",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "WWE 슈퍼스타 브론슨 리드, 합병증으로 사망...38세에 요절",
-     "url": "https://www.mk.co.kr/news/sports/12220672",
-     "source": "매일경제"
-    },
-    {
-     "title": "WWE 비극…'괴물 레슬러' 브론슨 리드 38세 나이로 사망, 부상 치료 중 비보",
-     "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=1022341",
-     "source": "SPOTV NEWS"
-    },
-    {
-     "title": "WWE 브론슨 리드, 부상 후 합병증으로 사망···항년 38세",
-     "url": "https://www.globale.co.kr/news/articleView.html?idxno=41899",
-     "source": "글로벌E"
-    }
-   ],
-   "safe": false
-  },
-  {
-   "rank": 4,
-   "keyword": "은평구",
-   "traffic": "500+",
-   "label": "약 500회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "불·대·갈 그리고 백련산…뜨거운 은평구 [감평사의 부동산 현장진단]",
-     "url": "https://www.mk.co.kr/news/economy/12220167",
-     "source": "매일경제"
-    },
-    {
-     "title": "[현장] 20년 만에 빛 보는 은평 3대장…9300가구 공급 가시화",
-     "url": "https://www.dailian.co.kr/news/view/1719698/%ED%98%84%EC%9E%A5-20%EB%85%84-%EB%A7%8C%EC%97%90-%EB%B9%9B-%EB%B3%B4%EB%8A%94-%EC%9D%80%ED%8F%89-3%EB%8C%80-2026",
-     "source": "데일리안"
-    },
-    {
-     "title": "녹번동 73-8번지 일원 가로주택정비 조합설립인가",
-     "url": "https://www.arunews.com/news/articleView.html?idxno=70128",
-     "source": "한국주택경제신문"
-    }
-   ],
-   "safe": true
-  },
-  {
-   "rank": 5,
-   "keyword": "뉴스1",
-   "traffic": "200+",
-   "label": "약 200회 이상",
-   "cat": "경제·재테크",
-   "emo": "💰",
-   "move": "new",
-   "delta": 0,
-   "news": [
-    {
-     "title": "4,900선 탈환 코스피, 오를 일만 남았다는데… 이유는?",
-     "url": "https://story.pay.naver.com/content/4087_3_C1",
-     "source": "네이버페이 머니스토리"
-    },
-    {
-     "title": "배당금·증권시장안전펀드 투입 기대감에 불기둥 올린 증시",
-     "url": "https://www.ytn.co.kr/_cs/_ln_0102_202611272305034782_005.html",
-     "source": "YTN"
-    },
-    {
-     "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-     "url": "https://www.yna.co.kr/view/AKR20261127144700011",
+     "title": "[속보] 철도노조 준법투쟁 첫 주말…\"전철 105대 20분 이상 지연\"",
+     "url": "https://www.yna.co.kr/view/AKR20261128046800063",
      "source": "연합뉴스"
+    },
+    {
+     "title": "[속보] 철도노조 준법투쟁 첫 주말…\"전철 105대 20분 이상 지연\"",
+     "url": "https://stock.mk.co.kr/news/view/1207549",
+     "source": "매일경제 마켓"
+    },
+    {
+     "title": "1부 오늘의 주요뉴스",
+     "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6869234_37012.html",
+     "source": "MBC 뉴스"
     }
    ],
    "safe": true
   },
   {
    "rank": 6,
-   "keyword": "닥터 둠",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "최형우",
+   "traffic": "500+",
+   "label": "약 500회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "대작영화 맞붙는 '듄스데이'…빌뇌브 감독의 한마디",
-     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008867724",
+     "title": "\"인천 간 적 없고요\" \"기억 안 납니다\"…'FA 최대어' 구자욱의 철벽 인터뷰",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866557",
      "source": "SBS 뉴스"
     },
     {
-     "title": "돌아온 로다주 직접 입열었다..\"닥터 둠, 토니 스타크와 결정적 차이는\"(둠스데이)",
-     "url": "https://www.chosun.com/entertainments/movie/2026/11/27/G5SGEMLEHBRTOMZWMJSDOMRTMI/",
-     "source": "조선일보"
+     "title": "최형우는 KIA에서 뛰고 삼성 소속으로 GG 받았다…FA 구자욱은? - 머니투데이",
+     "url": "https://www.mt.co.kr/sports/2026/11/28/202611272348779689O",
+     "source": "머니투데이"
     },
     {
-     "title": "연말 극장가는 ‘듄스데이’?… 1조원 흥행 전쟁 막 올랐다",
-     "url": "https://www.hankookilbo.com/news/article/A2026112717100002809",
-     "source": "한국일보"
+     "title": "삼성 잔류도, 수도권 이적도 아닐 수 있다… 구자욱의 ML 도전 \"12월초 뭔가 결정되지 않을까요\"",
+     "url": "https://www.chosun.com/sports/baseball/2026/11/27/GA4DCMRZMFSGINDEMY2DQYRYG4/",
+     "source": "조선일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 7,
-   "keyword": "실업급여",
-   "traffic": "100+",
-   "label": "약 100회 이상",
-   "cat": "기타",
-   "emo": "🔎",
+   "keyword": "국가유공자",
+   "traffic": "200+",
+   "label": "약 200회 이상",
+   "cat": "연예·방송",
+   "emo": "🎬",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“월급보다 많으면 누가 일하겠나”…실업급여, 결국 손 본다 [잇슈 머니]",
-     "url": "https://news.kbs.co.kr/news/view.do?ncd=8721737",
-     "source": "KBS 뉴스"
+     "title": "[경북소식]나라사랑 한마음대회, 유공자·가족 위로·감사 등",
+     "url": "https://www.newsis.com/view/NISX20261127_0003886513",
+     "source": "뉴시스"
     },
     {
-     "title": "조기재취업수당 월 300만원 이상이면 지급 제외",
-     "url": "https://www.jejutwn.com/news/article.html?no=464889",
-     "source": "제주교통복지신문"
+     "title": "윤종구 울진광복회장 표창패 받아",
+     "url": "http://www.uljinnews.co.kr/news/articleView.html?idxno=76934",
+     "source": "울진신문"
     },
     {
-     "title": "[영상] 월급보다 많은 실업급여 없앤다…지급방식 '주 6일'로 변경",
-     "url": "https://www.nbnbiz.co.kr/news/articleView.html?idxno=47431",
-     "source": "nbn 시사경제"
+     "title": "보훈가족과 함께한 추모의 시간…대전서 희망콘서트 열려",
+     "url": "https://www.chungnamilbo.co.kr/news/articleView.html?idxno=922975",
+     "source": "충남일보"
     }
    ],
    "safe": true
   },
   {
    "rank": 8,
-   "keyword": "국제 원자력 기구",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "북항친수공원",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "기타",
    "emo": "🔎",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "미 국무부, 한-IAEA 핵잠수함 협의 딴지 건 중국에 반박",
-     "url": "https://www.newsis.com/view/NISX20261128_0003886959",
-     "source": "뉴시스"
+     "title": "‘부캉이’ 재진입 차단시설 12월1일 철거…“따뜻한 남쪽 바다서 잘 지내니”",
+     "url": "https://www.khan.co.kr/article/202611281006001",
+     "source": "경향신문"
     },
     {
-     "title": "미 국무부 “‘한국 핵잠 안전조치 협상’ IAEA 권한”…중국 ‘회원국 합의’ 요구 일축",
-     "url": "https://www.voakorea.com/a/us-china-rok-submarine-iaea/8228624.html",
-     "source": "VOA 한국어 홈페이지"
+     "title": "부산 북항 친수공원 상어 '부캉이' 차단막 내달 1일 철거",
+     "url": "https://www.yna.co.kr/view/AKR20261127075100051",
+     "source": "연합뉴스"
     },
     {
-     "title": "“한국의 핵잠 건조는 코미디”-특집 핵추진잠수함②",
-     "url": "https://monthly.chosun.com/news/articleView.html?idxno=72031",
-     "source": "월간조선"
+     "title": "’부캉이’ 떠나자 부산 북항 방문객 예전 수준으로 ’뚝’",
+     "url": "https://www.yonhapnewstv.co.kr/news/MYH20261127052832PdA",
+     "source": "연합뉴스TV"
     }
    ],
    "safe": true
   },
   {
    "rank": 9,
-   "keyword": "타릭 스쿠발",
-   "traffic": "100+",
-   "label": "약 100회 이상",
+   "keyword": "박정우",
+   "traffic": "200+",
+   "label": "약 200회 이상",
    "cat": "스포츠",
    "emo": "⚾",
    "move": "new",
    "delta": 0,
    "news": [
     {
-     "title": "“동생아, 우리 참 좋았는데…” 6014억에 떠난 스쿠발, 다저스는 계약 제안조차 안 했다 - 머니투데이",
-     "url": "https://www.mt.co.kr/sports/2026/11/28/202611280803771727O",
-     "source": "머니투데이"
+     "title": "[부고] 박정우(프로야구 KIA 타이거즈 외야수)씨 조모상",
+     "url": "https://www.public25.com/news/articleView.html?idxno=59262",
+     "source": "퍼블릭타임스"
     },
     {
-     "title": "[오늘의 MLB] (11/27) 메이저리그에 불어닥친 선발 영입 광풍...남은 FA 중 주목할 선수는?",
-     "url": "https://contents.premium.naver.com/mlbtoday/mlb/contents/261127151641618je",
-     "source": "네이버 프리미엄콘텐츠"
+     "title": "[부고] 박정우 씨(프로야구 KIA 타이거즈 선수) 조모상",
+     "url": "http://www.ksw-news.com/news/articleView.html?idxno=3068749",
+     "source": "한국사회복지저널"
     },
     {
-     "title": "\"우승하고 싶다\" 그런데 다저스 떠나 메츠행이라니…이런 모순을 봤나, 스쿠발 아버지 발언 논란",
-     "url": "https://www.chosun.com/sports/world-baseball/2026/11/27/GAZWCNJXGA2WCMBRHA2WIMRUHA/",
-     "source": "조선일보"
+     "title": "[부고] 박정우(KIA타이거즈 외야수)씨 조모상",
+     "url": "https://www.public25.com/news/articleView.html?idxno=59258",
+     "source": "퍼블릭타임스"
     }
    ],
-   "safe": false
+   "safe": true
   }
  ]
 }
